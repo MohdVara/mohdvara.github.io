@@ -1,0 +1,129 @@
+{
+  "mobile": {
+    "lighthouseVersion": "12.8.2",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "1.3\u00a0s",
+      "largest-contentful-paint": "1.5\u00a0s",
+      "total-blocking-time": "0\u00a0ms",
+      "cumulative-layout-shift": "0"
+    }
+  },
+  "desktop": {
+    "lighthouseVersion": "12.8.2",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "metrics": {
+      "first-contentful-paint": "0.3\u00a0s",
+      "largest-contentful-paint": "0.3\u00a0s",
+      "total-blocking-time": "0\u00a0ms",
+      "cumulative-layout-shift": "0"
+    }
+  },
+  "browser": {
+    "results": [
+      {
+        "width": 320,
+        "overflow": false,
+        "axeViolations": 0,
+        "axeIncomplete": [
+          "color-contrast"
+        ],
+        "consoleErrors": 0,
+        "failedResources": 0,
+        "keyboard": true,
+        "navigation": true,
+        "deepLinkRefresh": true
+      },
+      {
+        "width": 375,
+        "overflow": false,
+        "axeViolations": 0,
+        "axeIncomplete": [
+          "color-contrast"
+        ],
+        "consoleErrors": 0,
+        "failedResources": 0,
+        "keyboard": true,
+        "navigation": true,
+        "deepLinkRefresh": true
+      },
+      {
+        "width": 430,
+        "overflow": false,
+        "axeViolations": 0,
+        "axeIncomplete": [
+          "color-contrast"
+        ],
+        "consoleErrors": 0,
+        "failedResources": 0,
+        "keyboard": true,
+        "navigation": true,
+        "deepLinkRefresh": true
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "axeViolations": 0,
+        "axeIncomplete": [
+          "color-contrast"
+        ],
+        "consoleErrors": 0,
+        "failedResources": 0,
+        "keyboard": true,
+        "navigation": true,
+        "deepLinkRefresh": true
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "axeViolations": 0,
+        "axeIncomplete": [
+          "color-contrast"
+        ],
+        "consoleErrors": 0,
+        "failedResources": 0,
+        "keyboard": true,
+        "navigation": true,
+        "deepLinkRefresh": true
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "axeViolations": 0,
+        "axeIncomplete": [
+          "color-contrast"
+        ],
+        "consoleErrors": 0,
+        "failedResources": 0,
+        "keyboard": true,
+        "navigation": true,
+        "deepLinkRefresh": true
+      },
+      {
+        "width": 1920,
+        "overflow": false,
+        "axeViolations": 0,
+        "axeIncomplete": [
+          "color-contrast"
+        ],
+        "consoleErrors": 0,
+        "failedResources": 0,
+        "keyboard": true,
+        "navigation": true,
+        "deepLinkRefresh": true
+      }
+    ],
+    "noJavaScript": true
+  },
+  "lighthouseScope": "Baseline before the project-content and mpv monogram update; not rerun for this edit."
+}

@@ -1,7 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
 
-// https://vite.dev/config/
-export default defineConfig({
-  plugins: [react()],
-})
+// User-site repository + existing custom domain, both hosted at the root.
+export default defineConfig({ base: "/", plugins: [react()] });

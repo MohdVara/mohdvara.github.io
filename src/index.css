@@ -1,68 +1,248 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  color: var(--text);
+  background: var(--background);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
+  font-weight: 400;
+  line-height: 1.6;
+  --text: #f1f0ec;
+  --background: #101110;
+  --accent: #f8bd57;
+  --accent-hover: #ffcf7f;
+  --on-accent: #17160f;
+  --nav-text: #c2c3bc;
+  --strong-muted: #dedfd7;
+  --tools-text: #c6cabd;
+  --button-border: #52554a;
+  --hover-surface: #24261f;
+  --section-surface: #161815;
+  --portrait-border: #3d4134;
+  --portrait-surface: #1d211c;
+  --visual-surface: #1c211b;
+  --visual-border: #343d2f;
+  --insurance-surface: #211f19;
+  --insurance-border: #403b2e;
+  --hr-surface: #1b2021;
+  --hr-border: #303c3e;
+  --visual-text: #c1c6b5;
+  --sketch-surface: #141712;
+  --sketch-border: #59604b;
+  --insurance-sketch-surface: #191811;
+  --insurance-sketch-border: #625b43;
+  --hr-sketch-surface: #121718;
+  --hr-sketch-border: #485e61;
+  --contact-border: #686c5f;
+  --menu-border: #646858;
+  --menu-surface: #1c1f19;
+  --muted: #b2b3ac;
+  --line: #343630;
+  --surface: #191b18;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+:root[data-theme="light"] {
+  color-scheme: light;
+  --text: #252822;
+  --background: #faf8f2;
+  --accent: #875409;
+  --accent-hover: #734608;
+  --on-accent: #ffffff;
+  --muted: #5e6258;
+  --line: #d4d7cb;
+  --surface: #f0f0e8;
+  --nav-text: #51564b;
+  --strong-muted: #3c4236;
+  --tools-text: #51594a;
+  --button-border: #89917f;
+  --hover-surface: #e9ebdf;
+  --section-surface: #f0f1e9;
+  --portrait-border: #c1c8b6;
+  --portrait-surface: #e8eddf;
+  --visual-surface: #edf1e5;
+  --visual-border: #bdc8ad;
+  --insurance-surface: #f3eee0;
+  --insurance-border: #d3c7a8;
+  --hr-surface: #e9f0f0;
+  --hr-border: #b5cccc;
+  --visual-text: #515b46;
+  --sketch-surface: #fafcf6;
+  --sketch-border: #b4c2a3;
+  --insurance-sketch-surface: #fffaf0;
+  --insurance-sketch-border: #cbbb94;
+  --hr-sketch-surface: #f6fbfb;
+  --hr-sketch-border: #a4bebe;
+  --contact-border: #89917f;
+  --menu-border: #b7bfaa;
+  --menu-surface: #faf8f2;
 }
-a:hover {
-  color: #535bf2;
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --text: #252822;
+    --background: #faf8f2;
+    --accent: #875409;
+    --accent-hover: #734608;
+    --on-accent: #ffffff;
+    --muted: #5e6258;
+    --line: #d4d7cb;
+    --surface: #f0f0e8;
+    --nav-text: #51564b;
+    --strong-muted: #3c4236;
+    --tools-text: #51594a;
+    --button-border: #89917f;
+    --hover-surface: #e9ebdf;
+    --section-surface: #f0f1e9;
+    --portrait-border: #c1c8b6;
+    --portrait-surface: #e8eddf;
+    --visual-surface: #edf1e5;
+    --visual-border: #bdc8ad;
+    --insurance-surface: #f3eee0;
+    --insurance-border: #d3c7a8;
+    --hr-surface: #e9f0f0;
+    --hr-border: #b5cccc;
+    --visual-text: #515b46;
+    --sketch-surface: #fafcf6;
+    --sketch-border: #b4c2a3;
+    --insurance-sketch-surface: #fffaf0;
+    --insurance-sketch-border: #cbbb94;
+    --hr-sketch-surface: #f6fbfb;
+    --hr-sketch-border: #a4bebe;
+    --contact-border: #89917f;
+    --menu-border: #b7bfaa;
+    --menu-surface: #faf8f2;
+  }
 }
-
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+button,
+select,
+input,
+summary {
+  font: inherit;
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+a {
+  color: inherit;
+  text-decoration: none;
 }
-button:hover {
-  border-color: #646cff;
+a:hover {
+  color: var(--accent);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+a,
+select,
+summary {
+  touch-action: manipulation;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+  border-radius: 2px;
+}
+main:focus {
+  outline: none;
+}
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+p,
+h1,
+h2,
+h3,
+figure {
+  margin: 0;
+}
+section[id] {
+  scroll-margin-top: 20px;
+}
+.container {
+  width: min(1180px, calc(100% - 96px));
+  margin-inline: auto;
+}
+.mono {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 16px;
+  padding: 10px 20px;
+  z-index: 100;
+  background: var(--accent);
+  color: var(--on-accent);
+  transform: translateY(-180%);
+}
+.skip-link:focus {
+  transform: none;
+  color: var(--on-accent);
+}
+.section {
+  padding-block: 100px;
+}
+h2 {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.045em;
+  font-weight: 600;
+}
+.section-heading .eyebrow {
+  margin-bottom: 22px;
+}
+.section-intro {
+  color: var(--muted);
+  max-width: 590px;
+  margin-top: 22px;
+  font-size: 1.05rem;
+}
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 44px;
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+@media (max-width: 760px) {
+  .container {
+    width: calc(100% - 40px);
   }
-  a:hover {
-    color: #747bff;
+  .section {
+    padding-block: 64px;
   }
-  button {
-    background-color: #f9f9f9;
+  html {
+    scroll-padding-top: 90px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
   }
 }
