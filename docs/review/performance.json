@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "browser": "Chrome 153.0.8010.55",
+    "tool": "Lighthouse 12.8.2",
+    "host": "Local production preview at http://127.0.0.1:4175/",
+    "scope": "Homepage lab measurements, not live-site or field Core Web Vitals"
+  },
+  "runs": [
+    {
+      "mode": "mobile",
+      "performance": 0.99,
+      "throttling": {
+        "rttMs": 150,
+        "throughputKbps": 1638.4,
+        "requestLatencyMs": 562.5,
+        "downloadThroughputKbps": 1474.5600000000002,
+        "uploadThroughputKbps": 675,
+        "cpuSlowdownMultiplier": 4
+      },
+      "metrics": {
+        "first-contentful-paint": 1543.5461,
+        "largest-contentful-paint": 1693.5461,
+        "total-blocking-time": 17.226949999999988,
+        "cumulative-layout-shift": 0.0003003733901984246,
+        "speed-index": 1543.5461
+      }
+    },
+    {
+      "mode": "desktop",
+      "performance": 1,
+      "throttling": {
+        "rttMs": 40,
+        "throughputKbps": 10240,
+        "requestLatencyMs": 0,
+        "downloadThroughputKbps": 0,
+        "uploadThroughputKbps": 0,
+        "cpuSlowdownMultiplier": 1
+      },
+      "metrics": {
+        "first-contentful-paint": 479.36259999999993,
+        "largest-contentful-paint": 479.36259999999993,
+        "total-blocking-time": 2.5,
+        "cumulative-layout-shift": 0.0004782600520566122,
+        "speed-index": 638.8875822106008
+      }
+    }
+  ]
+}

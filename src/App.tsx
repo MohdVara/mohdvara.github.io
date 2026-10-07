@@ -4,6 +4,8 @@ import { observeReadingPosition, useSectionReveals, useSystemMotion, useHeroPoin
 import { BorneoBotanical, BotanicalDrawing, PortraitUnderstory, ContactConvergence, SystemTransition, SectionBranch } from "./NaturalGraphics";
 import { ProjectDiagram, CapabilityMap, CareerPath } from "./SystemDiagrams";
 import { PublicEngineering } from "./PublicEngineering";
+import { WhatISolve } from "./WhatISolve";
+import { IncidentCallout } from "./IncidentCallout";
 import "./App.css";
 import "./NaturalGraphics.css";
 import "./SystemDiagrams.css";
@@ -53,15 +55,17 @@ function ThemeControl() {
     </label>
   );
 }
-function Navigation() {
+export function Navigation({ home = true, contactOnPage = true }: { home?: boolean; contactOnPage?: boolean }) {
   const [active, setActive] = useState("");
+  const navHref = (id: string) => !home && contactOnPage && id === "contact" ? "#contact" : `${home ? "" : "/"}#${id}`;
   useEffect(() => {
+    if (!home) return;
     let current = "";
     let atEnd = false;
     const stopReading = observeReadingPosition(
       [...document.querySelectorAll("main > section[id]")],
       (section) => {
-        current = section?.id === "public-engineering" ? "work" : section?.id || "";
+        current = section?.id === "public-engineering" ? "work" : section?.id === "problems" ? "capabilities" : section?.id || "";
         setActive(atEnd ? "contact" : current);
       },
     );
@@ -76,7 +80,7 @@ function Navigation() {
       stopReading();
       end.disconnect();
     };
-  }, []);
+  }, [home]);
   const menu = useRef<HTMLDetailsElement>(null);
   const closeMenu = () => {
     if (menu.current) menu.current.open = false;
@@ -84,7 +88,7 @@ function Navigation() {
   return (
     <header className="site-header">
       <div className="container header-inner">
-        <a className="wordmark" href="#home" aria-label="Mohd. Paramasvara — home">
+        <a className="wordmark" href={home ? "#home" : "/"} aria-label="Mohd. Paramasvara — home">
           <span className="monogram" aria-hidden="true">
             mpv<span>.</span>
           </span>
@@ -93,7 +97,7 @@ function Navigation() {
         <div className="header-controls">
           <nav className="desktop-nav" aria-label="Primary navigation">
             {navItems.map(([id, name]) => (
-              <a key={id} href={`#${id}`} aria-current={active === id ? "location" : undefined}>
+              <a key={id} href={navHref(id)} aria-current={active === id ? "location" : undefined}>
                 {name}
               </a>
             ))}
@@ -114,7 +118,7 @@ function Navigation() {
             </summary>
             <nav aria-label="Mobile navigation">
               {navItems.map(([id, name]) => (
-                <a key={id} href={`#${id}`} onClick={closeMenu} aria-current={active === id ? "location" : undefined}>
+                <a key={id} href={navHref(id)} onClick={closeMenu} aria-current={active === id ? "location" : undefined}>
                   {name}
                 </a>
               ))}
@@ -154,14 +158,16 @@ function Hero() {
           <a className="button primary" href="#work">
             Explore my work <Arrow />
           </a>
-          <a className="button secondary" href={profile.resume} target="_blank" rel="noopener noreferrer">
-            View résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a className="button secondary" href={profile.resumePdf || profile.resume} download={profile.resumePdf ? true : undefined} target={profile.resumePdf ? undefined : "_blank"} rel="noopener noreferrer">
+            {profile.resumePdf ? "Download résumé (PDF)" : "View résumé"} <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
         </div>
         <div className="hero-social">
           <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
             LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
+          <a href="/incident-zero/">Incident Zero · engineering story <Arrow /></a>
+          <a href="#contact">Contact <Arrow /></a>
           <a href={profile.github} target="_blank" rel="noopener noreferrer">
             GitHub <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
@@ -176,7 +182,7 @@ function Hero() {
             sizes="(max-width: 760px) 80vw, 420px"
             width="900"
             height="972"
-            fetchPriority="high"
+            {...{ fetchpriority: "high" }}
             alt="Illustrated portrait of Mohd. Paramasvara"
           />
         </div>
@@ -248,7 +254,7 @@ function SelectedWork() {
       </div>
       <div className="project-list" data-reveal>
         {projects.map((project, index) => (
-          <article className="project" key={project.id}>
+          <article className="project" id={`case-${project.id}`} key={project.id}>
             <ProjectDiagram project={project} index={index} />
             <div className="project-content">
               <p className="project-meta mono">
@@ -256,6 +262,7 @@ function SelectedWork() {
               </p>
               <h3>{project.title}</h3>
               <p className="project-summary">{project.summary}</p>
+              <p className="project-scope"><span className="mono">Scope</span>{project.scope}</p>
               <p className="project-result">
                 <span>Delivered</span>
                 {project.result}
@@ -287,6 +294,7 @@ function SelectedWork() {
                     ))}
                   </dl>
                   {project.id === "insurance" && <a className="text-link case-conversation" href="#contact">Discuss a similar problem <Arrow /></a>}
+                  <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">Source: public résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
                   {project.stack.length > 0 && (
                     <p className="project-stack">
                       <span>Stack</span>
@@ -337,7 +345,7 @@ function Experience() {
               Leading through the code.
             </p>
             <span>Selected roles. Several engagements run concurrently.</span>
-            <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
+            <a className="text-link" href={profile.resumePdf || profile.resume} download={profile.resumePdf ? true : undefined} target={profile.resumePdf ? undefined : "_blank"} rel="noopener noreferrer">
               View full résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
             </a>
             <CareerPath active={activeRole} />
@@ -432,7 +440,7 @@ function Contact() {
       setCopyStatus("Copied ✓");
       timer.current = setTimeout(() => setCopyStatus(""), 1500);
     } catch {
-      setCopyStatus("Select the email to copy");
+      setCopyStatus("Couldn’t copy automatically. Select the email to copy.");
       timer.current = setTimeout(() => setCopyStatus(""), 4000);
     }
   };
@@ -472,8 +480,8 @@ function Contact() {
           <a className="text-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
             Connect on LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
-          <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
-            View résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a className="text-link" href={profile.resumePdf || profile.resume} download={profile.resumePdf ? true : undefined} target={profile.resumePdf ? undefined : "_blank"} rel="noopener noreferrer">
+            {profile.resumePdf ? "Download résumé (PDF)" : "View résumé"} <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
         </div>
       </div>
@@ -494,9 +502,11 @@ function App() {
         <Highlights />
         <SelectedWork />
         <PublicEngineering />
+        <IncidentCallout />
         <SystemTransition />
         <Experience />
         <Capabilities />
+        <WhatISolve />
         <About />
         <Contact />
       </main>

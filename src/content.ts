@@ -6,6 +6,8 @@ export const profile = {
   github: "https://github.com/MohdVara",
   linkedin: "https://www.linkedin.com/in/mohdvara/",
   resume: "https://rxresu.me/mwara95/distinguished-acceptable-tern",
+  // Add a verified, clean PDF here; the current public export overlaps text.
+  resumePdf: null as string | null,
 };
 interface Project {
   id: string;
@@ -15,6 +17,7 @@ interface Project {
   title: string;
   summary: string;
   result: string;
+  scope: string;
   functions: string[];
   visualLabel: string;
   details: [string, string][];
@@ -22,7 +25,24 @@ interface Project {
 }
 export const projects: Project[] = [
   {
+    id: "campus", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
+    title: "University branches, brought into a shared codebase.",
+    summary: "Rebuilt campus management software that consolidated separate university-branch implementations into a more unified, general codebase.",
+    scope: "Multiple university branches · students · classes · academic structures",
+    result: "Rebuilt a shared campus codebase for branch workflows, with maintainability and hosting-cost work.",
+    functions: ["Branch implementations", "Shared campus codebase", "Students, classes & academic structures"],
+    visualLabel: "Campus Management Modernisation",
+    details: [
+      ["Problem", "Different university branches had separate campus-system implementations. Modernisation needed to consolidate those implementations while preserving core student, class and academic workflows."],
+      ["My contribution", "As Principal Full Stack Developer, led full-stack campus and classroom development. The résumé records rebuilding Campus Management System V3 from April 2023 onward."],
+      ["Constraints", "Existing branch variations and core academic workflows had to remain supported during modernisation. The public source does not establish the exact cutover plan or regression coverage."],
+      ["Approach", "Consolidated branch implementations into a general codebase. In the wider campus work, introduced multi-environment DevOps practices and defined deployment procedures."],
+      ["Delivered result", "A rebuilt, more unified campus-management codebase. Hosting-cost reduction and maintainability were stated goals and areas of work; no measured saving or performance improvement is published here."],
+    ], stack: [],
+  },
+  {
     id: "meetings",
+    scope: "Live sessions · participation · recordings · reporting APIs",
     category: "Education / Collaboration",
     company: "Centre for Content Creation",
     period: "2021 onward",
@@ -59,6 +79,7 @@ export const projects: Project[] = [
   },
   {
     id: "insurance",
+    scope: "Motor · medical · group medical · fire insurance",
     category: "Fintech / Integration",
     company: "PolicyStreet",
     period: "2019–2021",
@@ -83,18 +104,19 @@ export const projects: Project[] = [
         "Built backend and frontend rate-fetching and normalization as a Senior Full Stack Developer, then led development and operations as Engineering Director.",
       ],
       [
-        "Engineering",
-        "Integrated external insurer APIs and internal services; applied security and consistency checks. Revamped legacy systems with emphasis on code clarity, performance, and integration stability.",
+        "Constraints & approach",
+        "Different provider interfaces and changing business and regulatory requirements shaped the work. Integrated external insurer APIs and internal services; applied security and consistency checks. Revamped legacy systems with emphasis on code clarity, performance, and integration stability.",
       ],
       [
         "Result",
-        "Consistent quoting and policy issuance experiences across internal and partner workflows, aligned with changing business and regulatory requirements.",
+        "Delivered rate normalization and integrated quoting and issuance for internal and partner workflows. No latency, conversion or insurer-count measurement is supplied.",
       ],
     ],
     stack: [],
   },
   {
     id: "hr",
+    scope: "Multiple companies · configurable leave and attendance rules",
     category: "People / Business operations",
     company: "Centre for Content Creation",
     period: "2016–2017",
@@ -131,6 +153,7 @@ export const projects: Project[] = [
   },
   {
     id: "rental",
+    scope: "20+ properties · tenants · contracts · financial reporting",
     category: "Proptech / Business operations",
     company: "MegaInfinite",
     period: "2018–2020",
@@ -155,8 +178,8 @@ export const projects: Project[] = [
         "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer.",
       ],
       [
-        "Engineering",
-        "Focused on reliable data structures and multi-entity handling of properties, tenants, and contracts. Included contract generation and payment tracking.",
+        "Constraints & approach",
+        "Staff needed distinct property, tenant and contract records across 20+ properties. Focused on reliable data structures and multi-entity handling of properties, tenants, and contracts. Included contract generation and payment tracking.",
       ],
       [
         "Result",
@@ -227,3 +250,6 @@ export const capabilities = [
       "Team enablement · Stakeholder alignment · RAG · Vector databases · AI-assisted engineering",
   },
 ];
+
+// Real professional work leads; public exercises remain supplementary.
+projects.sort((a, b) => ["campus", "insurance", "rental", "meetings", "hr"].indexOf(a.id) - ["campus", "insurance", "rental", "meetings", "hr"].indexOf(b.id));

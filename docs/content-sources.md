@@ -13,7 +13,7 @@ The résumé is the primary source for role titles and dates: Principal role at 
 
 ## Case study boundaries
 
-- Campus work is reduced to a brief experience mention at the owner’s request. Selected work emphasizes other Centre for Content Creation projects.
+- The 7 October review explicitly authorises restoring campus work as flagship evidence, superseding the earlier request to keep it brief. The public résumé records Campus Management System V3 from April 2023 onward: rebuilt branch implementations into a more unified general codebase, kept core workflows stable, and led hosting-cost and maintainability work. No quantified savings or cutover design is established. Principal-role descriptions also support multi-environment DevOps and deployment procedures.
 - Insurance comparison, April 2019–April 2021: multiple product types, external insurers, internal/partner APIs, consistent quote/issuance flows; backend/frontend normalization corroborated in role history. No project-specific stack is supplied.
 - Rental system, May 2018–May 2020: contracts, payments, renewals/cancellations, property-level financial reporting, more than 20 properties. No project-specific stack is supplied.
 - Meeting system, June 2021 onward: JavaScript, AWS Chime, S3, minute-by-minute attendance, recordings, reporting APIs. Its stack is explicitly scoped to the meeting system. Related classroom applications cover scheduling, participation, institutional integrations, and reduced reliance on external subscriptions.
@@ -22,3 +22,5 @@ The résumé is the primary source for role titles and dates: Principal role at 
 Skills are résumé-listed capabilities, not assertions that every project used them. Decorative project panels summarize documented functions; they are not screenshots or topology diagrams. Do not substitute stock imagery for customer systems.
 
 Portrait is the owner's existing public artwork, retrieved from https://mohd.paramasvara.online/images/ArtisticMe2.png; optimized WebP variants are shipped, original preserved in archive. Existing gh-pages CNAME establishes the canonical domain.
+
+Fresh source check, 7 October 2026: the public résumé rendered in Chrome and its official Download PDF action returned a four-page résumé with matching identity and content. Visual rendering exposed overlapping blocks on pages 3–4. No damaged PDF is shipped; see `review/acceptance.md` for the exact follow-up and update procedure.

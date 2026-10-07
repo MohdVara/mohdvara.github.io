@@ -1,0 +1,36 @@
+.problem-translation { margin-top: 32px; border-top: 1px solid var(--line); }
+.problem-translation-row { display: grid; grid-template-columns: 1fr 24px 1fr; gap: 28px; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.problem-translation-row > p:last-child { color: var(--muted); }
+.problem-translation-row > span { color: var(--accent); }
+.engagement-link { margin-top: 28px; }
+.engagement-hero { padding-top: 56px; }
+.engagement-breadcrumb { color: var(--muted); font-size: .75rem; margin-bottom: 36px; }
+.engagement-breadcrumb a { display: inline-flex; align-items: center; min-height: 44px; }
+.engagement-hero h1 { font-size: clamp(2.5rem,5vw,4.3rem); max-width: 950px; }
+.engagement-position { margin: 24px 0; color: var(--muted); font-size: .9rem; }
+.engagement-problem { display: grid; grid-template-columns: 1fr 1.3fr; gap: 64px; border-top: 1px solid var(--line); padding: 36px 0; }
+.engagement-problem:last-child { border-bottom: 1px solid var(--line); }
+.engagement-problem h3 { font-size: 1.4rem; line-height: 1.4; margin-top: 16px; }
+.engagement-evidence { margin: 20px 0; font-size: .9rem; color: var(--muted); }
+.engagement-models { background: var(--section-surface); border-block: 1px solid var(--line); }
+.engagement-types { display: grid; grid-template-columns: repeat(3,1fr); gap: 36px; margin-top: 36px; }
+.engagement-types article { padding-top: 24px; border-top: 1px solid var(--line); }
+.engagement-types h3 { font-size: 1.2rem; line-height: 1.4; margin-bottom: 16px; }
+.engagement-types p, .engagement-fit-note { color: var(--muted); font-size: .95rem; }
+.engagement-fit-note { margin-top: 32px; max-width: 760px; }
+.engagement-contact-copy { max-width: 590px; color: var(--muted); margin-top: 24px; }
+.project-scope { color: var(--muted); font-size: .8rem; margin-top: 16px; }
+.project-scope > span { color: var(--text); margin-right: 12px; }
+.project[id] { scroll-margin-top: 20px; }
+@media (min-width:761px) {
+  .engagement-page .contact-convergence { bottom: 228px; }
+}
+@media (max-width:760px) {
+  .problem-translation-row { grid-template-columns: 1fr 16px; gap: 8px; padding: 18px 0; }
+  .problem-translation-row > p:last-child { grid-column: 1; }
+  .engagement-problem, .engagement-types { grid-template-columns: 1fr; gap: 24px; }
+  .engagement-hero { padding-top: 32px; }
+}
+.engagement-types dl { margin: 20px 0; }
+.engagement-types dt { font-size: .8rem; color: var(--accent); margin-top: 16px; }
+.engagement-types dd { margin: 6px 0 0; color: var(--muted); font-size: .9rem; line-height: 1.7; }

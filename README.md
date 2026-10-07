@@ -48,6 +48,8 @@ Desktop pointer response remains restricted to the hero backdrop, capped at 3px.
 
 - `src/content.ts`: sourced roles, case studies, capabilities and public contact/profile links.
 - `src/App.tsx`: focused section components and native mobile/disclosure interactions.
+- `src/EngagementContent.ts`, `src/WhatISolve.tsx`, `src/WorkWithMe.tsx`: shared problem framing, compact homepage translation and the secondary engagement page.
+- `src/Page.tsx`: selects the homepage or Work With Me component for hydration and static rendering; navigation uses normal links.
 - `src/index.css` and `src/App.css`: palette, typography, responsive layout and reduced motion.
 - `index.html`: metadata, canonical and Person/WebSite structured data.
 - `public`: optimized original portrait, favicon, social card, CNAME, robots and sitemap.
@@ -70,7 +72,7 @@ The existing branch deployment command also remains available:
 npm run deploy
 ```
 
-It builds and publishes `dist` to gh-pages. Choose either Actions deployment or branch deployment, not both. Hash section links avoid SPA route fallback problems when refreshed. There is no router, backend, tracking or contact-form service.
+It builds and publishes `dist` to gh-pages. Choose either Actions deployment or branch deployment, not both. The homepage uses hash section links; `/work-with-me/` has its own generated `index.html`, so direct visits and refreshes work on static hosting. There is no router library, backend, tracking or contact-form service.
 
 ## Cloudflare Pages
 
@@ -208,3 +210,50 @@ Artifacts are in `/private/tmp/portfolio-conversion-qa/` and `/private/tmp/secti
 Final SVG placement was checked at all seven widths in light/dark, with desktop/tablet/mobile screenshots inspected. Compact mobile routes occupy the existing header padding and do not add section height. The final whole-page regression detected no overflow, console errors or failed resources and zero axe violations; some full-site color-contrast checks remained incomplete. The graphics are `aria-hidden`, unfocusable and use `pointer-events: none`. Physical-device and Safari/Firefox testing was not performed.
 
 The subsequent SVG consistency refinement applies the shared header treatment to Selected Work, Public Engineering, Experience and Capabilities. All four use the same 170px desktop illustration frame, placement, stroke, theme opacity and compact mobile treatment; the Public Engineering-only vertical offset was removed. Short desktop headers reserve room for the illustration so it cannot spill into the content. Hero, About, career, capability and Contact graphics retain their section-specific roles. Chrome checks at seven widths in both themes found no header text/SVG overlap or horizontal overflow; build, TypeScript and lint passed.
+
+## High-value conversation pathways
+
+The homepage retains the Principal Engineer hero and its work/résumé hierarchy. Four thin **What I Solve** rows follow Technical Capabilities, linking to `/work-with-me/`. That secondary page covers four system problems, relevant case-study/public-work links, three possible engagement models and a single primary booking action with direct email. It shares the existing typography, themes, decorative graphics and motion. Static rendering emits `dist/work-with-me/index.html` with distinct metadata, canonical, WebPage schema and sitemap entry; no SPA fallback or router package is needed.
+
+New scope lines describe existing meeting, insurance, HR and rental workflows. The only numeric scope resurfaced is **20+ properties**, already in `src/content.ts` and documented in `docs/content-sources.md` from the owner-supplied résumé. No new business outcome, migration/user count or before/after metric is claimed. Applied AI is explicitly identified as résumé-listed capability, not a delivered client case study. No verified specific testimonial or current availability statement was found, so neither was added. Engagement models describe proposed ways to work, not an asserted history of selling those packages.
+
+No first-party analytics infrastructure was found; no events, trackers or conversion-rate claims were added. Cal.com remains a normal external link. Its public discovery page offers 30 minutes rather than the preferred 20; no account settings were changed, and no 20-minute promise appears on the site. Booking completion and email delivery cannot be confirmed by local link checks.
+
+Validation: production build (including TypeScript), lint and all 16 tests pass. Chrome checks cover 320, 375, 430, 768, 1024, 1440 and 1920px in both palettes, homepage regression, client/proof journeys, static route refresh, keyboard focus, touch booking navigation and no-JavaScript case-study links. No overflow, browser errors, failed local resources or axe violations were detected; some homepage color-contrast checks remain incomplete. Five-second hero and thirty-second employer/client walkthroughs are heuristic simulations, not visitor-comprehension research. Final contact endpoint alignment was checked at tablet/desktop widths. Public GitHub destinations, résumé and booking returned HTTP 200; both curated repositories reported public visibility. LinkedIn returned HTTP 429 on the latest check, so live accessibility there remains unconfirmed for this run.
+
+Run the additional client-path suite against a production preview with external Playwright/axe tooling:
+
+```sh
+QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/portfolio-engagement-qa node scripts/engagement-qa.mjs
+```
+
+No runtime dependency, scheduler embed, deployment or commit was added. The shared JavaScript bundle is 195.61 kB (61.04 kB gzip), within the existing production budget. Lighthouse/field performance and real conversion rates were not remeasured; Safari/Firefox and physical-device testing remain outside this run.
+
+Direct fragment visits are restored after React mounts and fonts settle, because the Vite development HTML initially contains no section targets. The restoration stops if the visitor interacts or changes the fragment. Case-study scroll margins complement the global sticky-header padding rather than duplicating it. `scripts/fragment-qa.mjs` checks actual target positions for every case study on direct visits and reloads, plus cross-page and same-page navigation at mobile/desktop sizes with normal/reduced motion; run it with the same `QA_MODULES_DIR` and optional `QA_URL` as the other browser suites.
+
+## Incident Zero
+
+`/incident-zero/` is a separate, statically rendered interactive engineering story. A compact homepage entry follows public engineering proof. Six rooms, five NPCs, six synthetic evidence sources, three core investigation/logic puzzles plus a visual architecture puzzle, two decisions, three main endings and an optional Archaeologist insight demonstrate historical state, integration correctness and bounded modernisation. It retains the existing editorial palette and portfolio CTA hierarchy.
+
+Phaser 3 and all game content are dynamically loaded; the homepage downloads neither the engine nor the incident styles. Native keyboard/pointer/touch exploration has a complete button-based non-spatial alternative. Dialogue is immediately readable/skippable, puzzles require no drag gestures, and reduced motion preserves playability. There are no accounts, runtime AI, trackers, real employee records or employer source. Refreshing starts a new in-memory incident.
+
+See [feature architecture and ending rules](src/features/incident-zero/README.md) and [future art slots](src/features/incident-zero/assets/README.md). The test suite now includes seven deterministic game-logic tests and static-route coverage. Gameplay QA must exercise the manual, rewrite, targeted and full-investigation paths whenever the story changes. This feature has not been deployed by the implementation task.
+
+
+## October portfolio and Incident Zero review
+
+See [the acceptance report](docs/review/acceptance.md) for functional root causes, verified behaviour, source boundaries, screenshots and local performance measurements. Active gameplay uses a fitted responsive room, compact toolbar, Help, explicit producer/worker/destination reasoning and report focus restoration. Real campus, insurance and rental cases lead the work section; public code exercises remain supplementary. The existing public résumé export overlaps text, so no PDF download is published until a clean current PDF is supplied or exported. Its optional destination belongs in `profile.resumePdf` in `src/content.ts`.
+
+```sh
+npm run build
+npm run lint
+npm test
+npm run preview -- --host 127.0.0.1
+QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/incident-review node scripts/incident-review-qa.mjs
+```
+
+The browser suite uses optional Playwright and axe installed outside the project. It covers six specified viewports, spatial pointer mapping and input cancellation, all primary endings, previews, report focus/scroll and replay isolation. Chrome emulation complements physical-device testing; it does not replace it.
+
+## System Defence — Stage 2
+
+The optional `/incident-zero/defence/` arcade route now supports five seeded floors, two tactical tools, explicit level transitions and paused level-entry recovery. No backend or deployment was added. See [the feature architecture](src/features/incident-zero/defence/README.md) and [the Stage 2 review](docs/review/incident-zero-defence-stage2.md) for measured performance, generation/browser evidence and the remaining human playtest needs. Existing arcade QA entry scripts now exercise Stage 2.

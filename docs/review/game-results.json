@@ -1,0 +1,214 @@
+{
+  "results": [
+    {
+      "width": 360,
+      "height": 800,
+      "geometry": {
+        "host": {
+          "x": 20,
+          "y": 363.828125,
+          "width": 320,
+          "height": 192,
+          "top": 363.828125,
+          "right": 340,
+          "bottom": 555.828125,
+          "left": 20
+        },
+        "canvas": {
+          "x": 21,
+          "y": 364.828125,
+          "width": 320,
+          "height": 192,
+          "top": 364.828125,
+          "right": 341,
+          "bottom": 556.828125,
+          "left": 21
+        },
+        "backing": [
+          900,
+          540
+        ]
+      },
+      "pointerMapping": true,
+      "stopInputs": true,
+      "resize": true,
+      "axe": 0
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "geometry": {
+        "host": {
+          "x": 20,
+          "y": 363.828125,
+          "width": 350,
+          "height": 210,
+          "top": 363.828125,
+          "right": 370,
+          "bottom": 573.828125,
+          "left": 20
+        },
+        "canvas": {
+          "x": 21,
+          "y": 364.828125,
+          "width": 350,
+          "height": 210,
+          "top": 364.828125,
+          "right": 371,
+          "bottom": 574.828125,
+          "left": 21
+        },
+        "backing": [
+          900,
+          540
+        ]
+      },
+      "pointerMapping": true,
+      "stopInputs": true,
+      "resize": true,
+      "axe": 0
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "geometry": {
+        "host": {
+          "x": 20,
+          "y": 343.4375,
+          "width": 390,
+          "height": 234,
+          "top": 343.4375,
+          "right": 410,
+          "bottom": 577.4375,
+          "left": 20
+        },
+        "canvas": {
+          "x": 21,
+          "y": 344.4375,
+          "width": 390,
+          "height": 234,
+          "top": 344.4375,
+          "right": 411,
+          "bottom": 578.4375,
+          "left": 21
+        },
+        "backing": [
+          900,
+          540
+        ]
+      },
+      "pointerMapping": true,
+      "stopInputs": true,
+      "resize": true,
+      "axe": 0
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "geometry": {
+        "host": {
+          "x": 48,
+          "y": 287.359375,
+          "width": 748,
+          "height": 448.796875,
+          "top": 287.359375,
+          "right": 796,
+          "bottom": 736.15625,
+          "left": 48
+        },
+        "canvas": {
+          "x": 49,
+          "y": 288.359375,
+          "width": 747.984375,
+          "height": 448.796875,
+          "top": 288.359375,
+          "right": 796.984375,
+          "bottom": 737.15625,
+          "left": 49
+        },
+        "backing": [
+          900,
+          540
+        ]
+      },
+      "pointerMapping": true,
+      "stopInputs": true,
+      "resize": true,
+      "axe": 0
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "geometry": {
+        "host": {
+          "x": 48,
+          "y": 330.5625,
+          "width": 672,
+          "height": 403.1875,
+          "top": 330.5625,
+          "right": 720,
+          "bottom": 733.75,
+          "left": 48
+        },
+        "canvas": {
+          "x": 49,
+          "y": 331.5625,
+          "width": 671.96875,
+          "height": 403.1875,
+          "top": 331.5625,
+          "right": 720.96875,
+          "bottom": 734.75,
+          "left": 49
+        },
+        "backing": [
+          900,
+          540
+        ]
+      },
+      "pointerMapping": true,
+      "stopInputs": true,
+      "resize": true,
+      "axe": 0
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "geometry": {
+        "host": {
+          "x": 50,
+          "y": 246.578125,
+          "width": 700,
+          "height": 420,
+          "top": 246.578125,
+          "right": 750,
+          "bottom": 666.578125,
+          "left": 50
+        },
+        "canvas": {
+          "x": 51,
+          "y": 247.578125,
+          "width": 700,
+          "height": 420,
+          "top": 247.578125,
+          "right": 751,
+          "bottom": 667.578125,
+          "left": 51
+        },
+        "backing": [
+          900,
+          540
+        ]
+      },
+      "pointerMapping": true,
+      "stopInputs": true,
+      "resize": true,
+      "axe": 0
+    }
+  ],
+  "normalEndings": 3,
+  "previewEndings": 3,
+  "replay": true,
+  "routeRefresh": true,
+  "pausedTeardownCycles": 3,
+  "listenerBalance": 19
+}
