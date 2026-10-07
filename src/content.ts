@@ -2,6 +2,7 @@
 // See docs/content-sources.md; do not publish inferred architecture as fact.
 export const profile = {
   email: "mohd@paramasvara.online",
+  discovery: "https://cal.com/mohd-paramasvara/discovery",
   github: "https://github.com/MohdVara",
   linkedin: "https://www.linkedin.com/in/mohdvara/",
   resume: "https://rxresu.me/mwara95/distinguished-acceptable-tern",
@@ -172,7 +173,7 @@ export const experience = [
     company: "Confidential engagement",
     type: "Remote · Singapore",
     description:
-      "Building internal administration tools for HR and operational workflows, using full-stack technologies and cloud services. Planning domain tools with attention to data consistency, access control, and uptime.",
+      "Building full-stack HR and administration tools with cloud services. Planning domain tools around data consistency, access control and uptime.",
   },
   {
     period: "Jun 2022 — Present",
@@ -180,7 +181,7 @@ export const experience = [
     company: "Centre for Content Creation",
     type: "Contract · Remote",
     description:
-      "Leading classroom applications, meeting tools, and integrations alongside campus modernization. Building in-house tools, modernizing legacy code, and establishing DevOps and deployment standards. Previously Full Stack Developer here, June 2021–June 2022.",
+      "Leading classroom applications, meeting tools and integrations. Modernizing legacy systems and establishing DevOps and deployment standards. Progressed from Full Stack Developer (June 2021–June 2022).",
   },
   {
     period: "May 2019 — Jun 2021",
@@ -188,7 +189,7 @@ export const experience = [
     company: "PolicyStreet",
     type: "Full-time",
     description:
-      "Built insurance rate normalization, then progressed to engineering direction in October 2019. Led development and operations, partner integrations, and quoting and issuance systems through changing business and regulatory requirements.",
+      "Built insurance rate normalization; progressed to engineering direction in October 2019. Led development, operations and partner integrations across quotation and policy issuance.",
   },
   {
     period: "Jun 2018 — Present",
@@ -196,7 +197,7 @@ export const experience = [
     company: "Tertiary Courses",
     type: "Training",
     description:
-      "Hands-on instruction from beginner to advanced levels in Laravel, Django, Rails, Node.js, and relational and non-relational databases.",
+      "Teaching full-stack development from beginner to advanced levels, across backend frameworks and relational and non-relational databases.",
   },
 ];
 export const capabilities = [

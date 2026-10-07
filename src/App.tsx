@@ -1,9 +1,13 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
-import { profile, projects, experience, capabilities } from "./content";
-import { observeReadingPosition, useHeroDepth, useSectionReveals } from "./usePortfolioMotion";
-import { BorneoBotanical, BotanicalDrawing, PortraitUnderstory, RiverNetwork, SystemTransition } from "./NaturalGraphics";
+import { profile, projects, experience } from "./content";
+import { observeReadingPosition, useSectionReveals, useSystemMotion, useHeroPointer } from "./usePortfolioMotion";
+import { BorneoBotanical, BotanicalDrawing, PortraitUnderstory, ContactConvergence, SystemTransition, SectionBranch } from "./NaturalGraphics";
+import { ProjectDiagram, CapabilityMap, CareerPath } from "./SystemDiagrams";
+import { PublicEngineering } from "./PublicEngineering";
 import "./App.css";
 import "./NaturalGraphics.css";
+import "./SystemDiagrams.css";
+import "./VisualMotion.css";
 
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
@@ -57,7 +61,7 @@ function Navigation() {
     const stopReading = observeReadingPosition(
       [...document.querySelectorAll("main > section[id]")],
       (section) => {
-        current = section?.id || "";
+        current = section?.id === "public-engineering" ? "work" : section?.id || "";
         setActive(atEnd ? "contact" : current);
       },
     );
@@ -122,9 +126,9 @@ function Navigation() {
   );
 }
 function Hero() {
-  useHeroDepth();
+  useHeroPointer();
   return (
-    <section className="hero container" id="home" aria-labelledby="hero-title">
+    <section className="hero container" id="home" data-motion-region="hero" aria-labelledby="hero-title">
       <div className="hero-copy">
         <p className="eyebrow">
           <span className="location-dot" aria-hidden="true" /> Based in Sabah,
@@ -150,16 +154,16 @@ function Hero() {
           <a className="button primary" href="#work">
             Explore my work <Arrow />
           </a>
-          <a className="button secondary" href={profile.resume}>
-            View résumé <Arrow />
+          <a className="button secondary" href={profile.resume} target="_blank" rel="noopener noreferrer">
+            View résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
         </div>
         <div className="hero-social">
-          <a href={profile.linkedin}>
-            LinkedIn <Arrow />
+          <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
+            LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
-          <a href={profile.github}>
-            GitHub <Arrow />
+          <a href={profile.github} target="_blank" rel="noopener noreferrer">
+            GitHub <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
         </div>
       </div>
@@ -228,6 +232,8 @@ function SelectedWork() {
       className="section container"
       aria-labelledby="work-title"
     >
+      <div className="section-lead">
+      <SectionBranch variant="work" />
       <SectionHeading number="01" title="Selected work">
         <span id="work-title">
           Systems behind
@@ -239,28 +245,11 @@ function SelectedWork() {
         A selection of full-stack work across education, HR, insurance, and
         property operations.
       </p>
+      </div>
       <div className="project-list" data-reveal>
         {projects.map((project, index) => (
           <article className="project" key={project.id}>
-            <div
-              className={`project-visual visual-${project.id}`}
-              aria-hidden="true"
-            >
-              <div className="visual-top mono">
-                <span>{project.category}</span>
-                <span>0{index + 1}</span>
-              </div>
-              <div className="system-sketch">
-                {project.functions.map((item, i) => (
-                  <div key={item}>
-                    <span className="sketch-index mono">0{i + 1}</span>
-                    <span>{item}</span>
-                    <span className="sketch-dot" />
-                  </div>
-                ))}
-              </div>
-              <p className="visual-bottom mono">{project.visualLabel}</p>
-            </div>
+            <ProjectDiagram project={project} index={index} />
             <div className="project-content">
               <p className="project-meta mono">
                 {project.company} <span> / </span> {project.period}
@@ -284,7 +273,7 @@ function SelectedWork() {
                 }}
               >
                 <summary>
-                  Engineering details
+                  View engineering details
                   <span className="sr-only"> for {project.visualLabel}</span>
                   <span aria-hidden="true">+</span>
                 </summary>
@@ -297,6 +286,7 @@ function SelectedWork() {
                       </div>
                     ))}
                   </dl>
+                  {project.id === "insurance" && <a className="text-link case-conversation" href="#contact">Discuss a similar problem <Arrow /></a>}
                   {project.stack.length > 0 && (
                     <p className="project-stack">
                       <span>Stack</span>
@@ -309,30 +299,36 @@ function SelectedWork() {
           </article>
         ))}
       </div>
-      <a className="text-link work-link" href={profile.linkedin}>
-        More work &amp; professional background on LinkedIn <Arrow />
+      <a className="text-link work-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
+        More work &amp; professional background on LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
       </a>
     </section>
   );
 }
 function Experience() {
   const timeline = useRef<HTMLOListElement>(null);
+  const [activeRole, setActiveRole] = useState(0);
   useEffect(() => {
     const roles = [...(timeline.current?.children || [])];
     return observeReadingPosition(roles, (active) => {
       roles.forEach((role) => role.classList.toggle("reading-active", role === active));
-    });
+      if (active) setActiveRole(roles.indexOf(active));
+    }, "middle");
   }, []);
   return (
     <section
       className="section experience-section"
       id="experience"
+      data-motion-region="experience"
       aria-labelledby="experience-title"
     >
       <div className="container">
+        <div className="section-lead">
+          <SectionBranch variant="work" />
         <SectionHeading number="02" title="Experience">
           <span id="experience-title">Ownership at every level.</span>
         </SectionHeading>
+        </div>
         <div className="experience-grid" data-reveal>
           <div className="experience-note">
             <p>
@@ -341,14 +337,15 @@ function Experience() {
               Leading through the code.
             </p>
             <span>Selected roles. Several engagements run concurrently.</span>
-            <a className="text-link" href={profile.resume}>
-              View full résumé <Arrow />
+            <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
+              View full résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
             </a>
+            <CareerPath active={activeRole} />
           </div>
           <ol className="timeline" ref={timeline}>
-            {experience.map((role) => (
-              <li key={role.company + role.title}>
-                <p className="mono role-period">{role.period}</p>
+            {experience.map((role, index) => (
+              <li id={`role-${index}`} key={role.company + role.title}>
+                <p className="mono role-period"><span className="role-index">0{index + 1}</span> {role.period}</p>
                 <h3>{role.title}</h3>
                 <p className="role-company">
                   {role.company} <span>· {role.type}</span>
@@ -367,9 +364,11 @@ function Capabilities() {
     <section
       className="section container capabilities-section"
       id="capabilities"
+      data-motion-region="capabilities"
       aria-labelledby="capabilities-title"
     >
-      <div className="capability-network"><RiverNetwork variant="roots" /></div>
+      <div className="section-lead">
+        <SectionBranch variant="public" />
       <SectionHeading number="03" title="Technical capabilities">
         <span id="capabilities-title">
           Across the stack.
@@ -377,15 +376,8 @@ function Capabilities() {
           Beyond the code.
         </span>
       </SectionHeading>
-      <div className="capability-grid" data-reveal>
-        {capabilities.map((group) => (
-          <div className="capability" key={group.title}>
-            <h3>{group.title}</h3>
-            <p>{group.description}</p>
-            <span>{group.tools}</span>
-          </div>
-        ))}
       </div>
+      <CapabilityMap />
     </section>
   );
 }
@@ -393,6 +385,7 @@ function About() {
   return (
     <section
       id="about"
+      data-motion-region="about"
       className="section about-section"
       aria-labelledby="about-title"
     >
@@ -413,10 +406,9 @@ function About() {
             implementation, and the business problem a system needs to solve.
           </p>
           <p>
-            I’ve worked across education, financial services, and property
-            technology — from legacy modernization and deployment processes to
-            engineering leadership. Alongside delivery, I teach software
-            development and help teams build their technical understanding.
+            I look at domain rules, data and delivery together, so the implementation
+            serves the wider system. Alongside building software, I teach
+            development and help teams understand the decisions behind the code.
           </p>
           <p className="education">
             <span className="mono">Education</span>Computing &amp; Information
@@ -448,9 +440,9 @@ function Contact() {
     <section
       className="section container contact"
       id="contact"
+      data-motion-region="contact"
       aria-labelledby="contact-title"
     >
-      <div className="contact-flow"><RiverNetwork variant="convergence" /></div>
       <div data-reveal>
         <p className="eyebrow mono">05 / Let’s talk</p>
         <h2 id="contact-title">
@@ -459,9 +451,15 @@ function Contact() {
           <span>A clear next step.</span>
         </h2>
         <p>
-          Discuss a senior engineering role, a system that needs modernizing, or a
-          product that needs an experienced technical lead.
+          Discuss a senior engineering role, a system that needs modernising, or a
+          technical project worth solving.
         </p>
+        <div className="contact-booking">
+          <a className="button primary" href={profile.discovery} target="_blank" rel="noopener noreferrer" aria-label="Book a conversation (opens Cal.com in a new tab)" data-conversation-cta="">
+            Book a conversation <Arrow />
+          </a>
+          <p>An introductory conversation about an engineering opportunity, architecture problem or collaboration.</p>
+        </div>
         <a className="contact-email" href={`mailto:${profile.email}`}>
           {profile.email} <Arrow />
         </a>
@@ -469,12 +467,13 @@ function Contact() {
           <button type="button" className="copy-email" onClick={copyEmail}>Copy email</button>
           <span className="copy-status" role="status">{copyStatus}</span>
         </div>
+        <ContactConvergence />
         <div className="contact-links">
-          <a className="text-link" href={profile.linkedin}>
-            Connect on LinkedIn <Arrow />
+          <a className="text-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
+            Connect on LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
-          <a className="text-link" href={profile.resume}>
-            View résumé <Arrow />
+          <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
+            View résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
         </div>
       </div>
@@ -483,6 +482,7 @@ function Contact() {
 }
 function App() {
   useSectionReveals();
+  useSystemMotion();
   return (
     <>
       <a className="skip-link" href="#main">
@@ -493,6 +493,7 @@ function App() {
         <Hero />
         <Highlights />
         <SelectedWork />
+        <PublicEngineering />
         <SystemTransition />
         <Experience />
         <Capabilities />

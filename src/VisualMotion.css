@@ -1,0 +1,121 @@
+/* Regional segments of one system; only decorative SVG layers move. */
+:root { --network-rest: .13; --network-lift: .06; --flow-rest: .14; --flow-lift: .13; }
+:root[data-theme="light"] { --network-rest: .11; --network-lift: .04; --flow-rest: .16; --flow-lift: .1; }
+.hero-botanical { opacity: calc(var(--network-rest) + var(--network-lift) * var(--section-energy, 0)); transition: opacity 650ms ease, transform 180ms ease-out; }
+.botanical-drawing > g {
+  --drift-x: 5px; --drift-y: -4px;
+  animation: botanical-depth 43s ease-in-out alternate infinite;
+  animation-play-state: paused;
+}
+.borneo-botanical .botanical-drawing > g { --drift-x: 9px; --drift-y: -6px; animation-duration: 55s; }
+.botanical-plate { transform: translateY(var(--visual-depth, 0px)); transition: transform 180ms ease-out; }
+.borneo-botanical .botanical-drawing { transform: none; transition: opacity 650ms ease; }
+.plate-annotations { animation: annotation-depth 51s ease-in-out alternate infinite; animation-play-state: paused; }
+@keyframes botanical-depth { from { transform: translate(0, 0); } to { transform: translate(var(--drift-x), var(--drift-y)); } }
+@keyframes annotation-depth { from { transform: translate(0, 0); } to { transform: translate(2px, -2px); } }
+.motion-enabled .motion-visible .botanical-drawing > g,
+.motion-enabled .motion-visible .plate-annotations { animation-play-state: running; }
+/* The reveal is applied once to the complete plate, never to individual leaves. */
+.motion-ready .borneo-botanical[data-revealed="true"] .leaf-veins { animation: river-draw 1100ms ease-out both; }
+
+.system-transition .river-network {
+  opacity: calc(var(--flow-rest) + var(--flow-lift) * var(--section-energy, 0));
+  transition: opacity 700ms ease;
+  animation: regional-depth 47s ease-in-out alternate infinite;
+  animation-play-state: paused;
+}
+@keyframes regional-depth {
+  from { transform: translate(0, var(--visual-depth, 0px)); }
+  to { transform: translate(5px, calc(var(--visual-depth, 0px) + 4px)); }
+}
+.motion-enabled .system-transition.motion-visible .river-network { animation-play-state: running; }
+.motion-ready .river-transition .river-primary { stroke-dasharray: 1; stroke-dashoffset: calc((1 - var(--section-progress, 1)) * 1px); }
+.river-transition path:nth-child(n+7) { opacity: calc(.2 + .5 * var(--section-progress, 1)); transform: translateY(calc(6px * var(--section-progress, 0))); transition: opacity 650ms ease; }
+
+/* Exactly one visible diagram is a signal host. Interactions take priority. */
+.project-network > svg { transform: translateY(calc(var(--visual-depth, 0px) * .5)); }
+.motion-ready .project-visual.motion-entered .diagram-connection { animation: river-draw 850ms ease-out both; }
+.project-network .flow-signal {
+  stroke: currentColor; stroke-width: 1.5; stroke-dasharray: .08 .92;
+  stroke-dashoffset: 1; opacity: 0; pointer-events: none;
+}
+.motion-ready .motion-signal-host .flow-signal { --pulse-peak: .28; animation: system-signal 12s linear infinite; animation-play-state: paused; }
+.motion-enabled .motion-signal-host.motion-visible .flow-signal { animation-play-state: running; }
+@keyframes system-signal {
+  0%, 70% { stroke-dashoffset: 1; opacity: 0; }
+  74% { stroke-dashoffset: 1; opacity: 0; }
+  78% { opacity: var(--pulse-peak); }
+  96% { stroke-dashoffset: 0; opacity: var(--pulse-peak); }
+  100% { stroke-dashoffset: 0; opacity: 0; }
+}
+.motion-ready .motion-signal-host:is(:hover, :focus-within) .flow-signal { --pulse-peak: .65; animation: interaction-signal 2800ms ease-out both; animation-play-state: paused; }
+.motion-enabled .motion-signal-host.motion-visible:is(:hover, :focus-within) .flow-signal { animation-play-state: running; }
+@keyframes interaction-signal {
+  0% { stroke-dashoffset: 1; opacity: 0; }
+  15% { opacity: var(--pulse-peak); }
+  85% { opacity: var(--pulse-peak); }
+  100% { stroke-dashoffset: 0; opacity: 0; }
+}
+.career-path .career-progress { opacity: .65; stroke-width: 1.4; stroke-dasharray: 1; stroke-dashoffset: calc((1 - var(--section-progress, 1)) * 1px); }
+.career-current circle + circle { stroke-width: 1.3; }
+
+.capability-map > svg { animation: root-depth 53s ease-in-out alternate infinite; animation-play-state: paused; }
+@keyframes root-depth {
+  from { transform: translate(0, var(--visual-depth, 0px)); }
+  to { transform: translate(3px, calc(var(--visual-depth, 0px) - 3px)); }
+}
+.motion-enabled .motion-visible .capability-map > svg { animation-play-state: running; }
+.map-growth { opacity: calc(.22 + .2 * var(--section-energy, 0)); stroke-dasharray: 1; stroke-dashoffset: calc((1 - var(--section-progress, 1)) * 1px); }
+.capability-branch.branch-rest > svg { opacity: calc(.12 + .14 * var(--section-progress, 0)); transition: opacity 700ms ease; }
+.capability-branch.branch-active > svg { opacity: .65; }
+
+/* Four stages are driven by the reachable CTA range, including short pages. */
+.contact-convergence > svg { animation: regional-depth 59s ease-in-out alternate infinite; animation-play-state: paused; }
+.motion-enabled .motion-visible .contact-convergence > svg { animation-play-state: running; }
+.convergence-outer path { stroke-dasharray: 1; stroke-dashoffset: calc((1 - var(--outer-progress, 1)) * 1px); }
+.convergence-outer { opacity: calc(.1 + .16 * var(--outer-progress, 1)); }
+.convergence-merge { stroke-dasharray: 1; stroke-dashoffset: calc((1 - var(--merge-progress, 1)) * 1px); opacity: .35; }
+.convergence-final { stroke-dasharray: 1; stroke-dashoffset: calc((1 - var(--final-progress, 1)) * 1px); opacity: .6; }
+.convergence-tip, .convergence-end { opacity: calc(.15 + .45 * var(--end-progress, 1)); }
+.motion-ready .convergence-tip, .motion-ready .convergence-end { opacity: calc(.6 * var(--end-progress, 1)); }
+.contact-convergence :is(path, circle), .convergence-outer { transition: stroke-dashoffset 180ms ease-out, opacity 650ms ease; }
+:root[data-theme="light"] .convergence-outer { opacity: calc(.12 + .14 * var(--outer-progress, 1)); }
+
+@media (max-width: 760px) {
+  .borneo-botanical .botanical-drawing > g { --drift-x: 4px; --drift-y: -3px; }
+  .plate-annotations { animation: none; }
+  .system-transition .river-network, .contact-convergence > svg { animation: mobile-depth 57s ease-in-out alternate infinite; animation-play-state: paused; }
+  @keyframes mobile-depth { from { transform: translateY(var(--visual-depth, 0px)); } to { transform: translateY(calc(var(--visual-depth, 0px) + 3px)); } }
+  .motion-enabled .system-transition.motion-visible .river-network,
+  .motion-enabled .motion-visible .contact-convergence > svg { animation-play-state: running; }
+  /* Preserve the established mobile crop while translating the whole diagram. */
+  .contact-convergence > svg { scale: 1 .65; }
+  .capability-map > svg { animation: none; transform: translateY(var(--visual-depth, 0px)); }
+  .motion-ready .motion-signal-host .flow-signal { animation-duration: 15s; }
+  .motion-ready .motion-signal-host:is(:hover, :focus-within) .flow-signal { animation-duration: 2800ms; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .botanical-plate, .botanical-drawing, .botanical-drawing > g, .plate-annotations,
+  .river-network, .project-network > svg, .capability-map > svg { transform: none; }
+  .river-transition .river-primary, .career-path .career-progress, .map-growth,
+  .convergence-outer path, .convergence-merge, .convergence-final { stroke-dashoffset: 0; }
+  .convergence-tip, .convergence-end { opacity: .6; }
+  .project-network .flow-signal { display: none; }
+  .contact-convergence > svg { transform: none; }
+}
+@media (max-width: 760px) {
+  .career-path::before { content: ""; position: absolute; bottom: 26px; left: -1px; width: 2px; height: calc(176px * var(--section-progress, 1)); background: var(--accent); opacity: .55; pointer-events: none; z-index: 2; }
+  .career-node::before { z-index: 3; }
+}
+/* The absolute Contact vector uses the section as its containing block.
+   Translating its copy wrapper would change that block during reveal. */
+.contact > [data-reveal] { transform: none; }
+
+/* Normalized dash lengths must scale with paths in anisotropic viewboxes. */
+.project-network .diagram-connection { stroke-width: .35; }
+.project-network .diagram-connection.connected, .project-network .flow-signal { stroke-width: .5; }
+.capability-map .map-growth, .contact-convergence [pathLength] { vector-effect: none; }
+@media (max-width: 760px) {
+  .contact-convergence [pathLength] { stroke-width: 2; }
+  .contact-convergence .convergence-final { stroke-width: 3 !important; }
+}

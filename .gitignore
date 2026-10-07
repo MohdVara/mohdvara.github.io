@@ -27,3 +27,8 @@ dist-ssr
 .qa/
 
 *.tsbuildinfo
+
+# Local Cloudflare tooling and credentials
+.wrangler/
+.dev.vars
+.dev.vars.*

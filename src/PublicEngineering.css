@@ -1,0 +1,27 @@
+.public-repositories { position: relative; border-top: 1px solid var(--line); }
+.public-repository { position: relative; display: grid; grid-template-columns: 1fr 1.3fr; gap: 64px; padding: 40px 0 40px 28px; border-bottom: 1px solid var(--line); }
+.public-repository::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; border-left: 1px solid var(--line); }
+.public-repository::after { content: ''; position: absolute; left: -3px; top: 48px; width: 7px; height: 7px; border: 1px solid var(--accent); background: var(--background); border-radius: 50%; }
+.public-repository h3 { font-size: clamp(1.3rem, 2vw, 1.8rem); line-height: 1.3; margin: 14px 0 10px; }
+.public-repository-name { font-size: .75rem; color: var(--muted); overflow-wrap: anywhere; }
+.public-repository-detail > p { margin: 0 0 16px; }
+.public-repository-context { color: var(--muted); }
+.public-repository-stack { font-size: .75rem; color: var(--muted); }
+.public-repository a, .public-engineering-more { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; text-decoration: none; border-bottom: 1px solid var(--line); }
+.public-repository a:hover, .public-engineering-more:hover { color: var(--accent); border-color: var(--accent); }
+.public-repository a span, .public-engineering-more > span[aria-hidden] { transition: transform 180ms ease; }
+.public-repository a:is(:hover,:focus-visible) span, .public-engineering-more:is(:hover,:focus-visible) > span[aria-hidden] { transform: translate(2px,-2px); }
+.public-engineering-more { margin-top: 28px; }
+@media (max-width: 760px) {
+  .public-repository { grid-template-columns: 1fr; gap: 20px; padding: 28px 0 28px 20px; }
+  .public-repository::after { top: 36px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .public-repository a span, .public-engineering-more > span[aria-hidden] { transition: none; transform: none !important; }
+}
+/* Public evidence continues Selected Work, so share a tighter section break. */
+#work { padding-bottom: 40px; }
+.public-engineering { padding-top: 60px; }
+@media (max-width: 760px) {
+  .public-engineering { padding-top: 56px; }
+}

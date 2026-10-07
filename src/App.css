@@ -1063,3 +1063,9 @@ h3 {
     transform: none;
   }
 }
+
+.contact-booking { margin: 28px 0; max-width: 520px; }
+.contact-booking .button { max-width: 100%; }
+.contact-booking p { margin-top: 12px; color: var(--muted); font-size: .85rem; }
+
+.case-conversation { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; margin-top: 20px; }

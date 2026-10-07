@@ -1,0 +1,95 @@
+.project-network { position: relative; display: grid; gap: 22px; padding-block: 24px 12px; }
+.project-network svg { position: absolute; inset: 18px 0 0; width: 100%; height: calc(100% - 30px); color: var(--accent); pointer-events: none; }
+.project-network .diagram-connection { stroke: currentColor; stroke-width: 1; opacity: .2; transition: opacity 180ms ease, stroke-width 180ms ease; }
+.project-network .diagram-connection.connected { opacity: .65; stroke-width: 1.5; }
+.node { position: relative; display: flex; align-items: center; gap: 12px; min-height: 50px; border: 1px solid var(--sketch-border); background: var(--sketch-surface); color: var(--visual-text); text-align: left; padding: 10px 12px; font-size: .8125rem; cursor: pointer; transition: border-color 180ms ease, color 180ms ease; }
+.node .mono { color: var(--accent); font-size: .6875rem; }
+.node.active { border-color: var(--accent); color: var(--text); }
+.node-dot { flex-shrink: 0; margin-left: auto; width: 6px; height: 6px; border: 1px solid var(--accent); border-radius: 50%; }
+.node.active .node-dot { background: var(--accent); }
+.node-explanation { margin-top: 14px; min-height: 96px; font-size: .8125rem; line-height: 1.65; color: var(--muted); }
+.network-meetings .node:nth-of-type(2) { margin-left: 18px; }
+.network-insurance .node:nth-of-type(1) { margin-right: 20px; }
+.network-insurance .node:nth-of-type(3) { margin-left: 20px; }
+.network-hr { grid-template-columns: 1fr 1fr; gap: 36px 12px; }
+.network-hr .node:first-of-type { grid-column: 1 / -1; }
+.network-hr .node:not(:first-of-type) { flex-direction: column; align-items: start; }
+.network-hr .node-dot { display: none; }
+.network-rental .node { border-inline: 0; background: var(--visual-surface); }
+.project-visual .visual-top, .project-visual .visual-bottom { font-size: .6875rem; }
+.capability-system { display: grid; grid-template-columns: 1.6fr 1fr; gap: 64px; margin-top: 44px; align-items: center; }
+.capability-map { position: relative; }
+.capability-map > svg { position: absolute; width: 100%; height: calc(100% - 72px); top: 36px; left: 0; pointer-events: none; color: var(--accent); }
+.capability-map path { stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; transition: opacity 180ms ease; }
+.map-spine { opacity: .3; }
+.branch-active { opacity: 1; }
+svg .branch-active { opacity: .65; }
+svg .branch-rest { opacity: .18; }
+.capability-branches { display: grid; gap: 16px; padding: 28px 0 28px 28px; position: relative; }
+.capability-branch { position: relative; display: grid; grid-template-columns: 1.5fr 1fr; gap: 6px 40px; }
+.capability-branch button { min-height: 44px; border: 0; border-bottom: 1px solid var(--line); background: var(--background); color: var(--muted); text-align: left; padding: 8px; font-size: .8125rem; cursor: pointer; line-height: 1.4; transition: color 180ms ease, border-color 180ms ease; }
+.capability-branch button:first-of-type { grid-row: span 2; align-self: center; font-size: .9375rem; color: var(--text); }
+.capability-branch button .mono { display: block; font-size: .6875rem; color: var(--accent); margin-bottom: 4px; }
+.capability-branch.branch-active button { border-color: var(--button-border); }
+.capability-branch button.active { border-color: var(--accent); color: var(--accent); }
+.map-caption { font-size: .6875rem; color: var(--muted); letter-spacing: .035em; }
+.capability-detail { border-top: 1px solid var(--accent); padding-top: 24px; min-height: 305px; }
+.capability-detail h3 { font-size: 1.5rem; line-height: 1.3; font-weight: 500; letter-spacing: -.025em; margin-block: 20px 18px; }
+.capability-detail > p:not(.eyebrow) { color: var(--muted); font-size: .9375rem; }
+.capability-detail .capability-tools { font-size: .8125rem !important; color: var(--tools-text) !important; margin-top: 24px; }
+.capability-context { display: block; margin-top: 24px; color: var(--muted); font-size: .8125rem; }
+.experience-grid { grid-template-columns: 1fr 3fr; gap: 64px; }
+.career-path { position: relative; height: 440px; margin-top: 36px; max-width: 280px; }
+.career-path svg { width: 100%; height: calc(100% - 30px); color: var(--accent); overflow: visible; }
+.career-path path { stroke: currentColor; stroke-width: 1; opacity: .32; }
+.career-path .career-continuation { opacity: .17; stroke-dasharray: 3 6; }
+.career-path circle { stroke: currentColor; fill: var(--section-surface); opacity: .45; transition: opacity 200ms ease; }
+.career-path circle + circle { opacity: .12; fill: none; }
+.career-path .career-current circle { opacity: 1; }
+.career-path .career-current circle:first-child { fill: var(--accent); }
+.career-node { position: absolute; transform: translate(16px,-12px); width: 130px; min-height: 44px; font-size: .75rem; color: var(--muted); line-height: 1.5; background: var(--section-surface); padding: 3px 0; }
+.career-node span { display: block; }
+.career-node.active { color: var(--accent); }
+.career-path figcaption { font-size: .625rem; color: var(--muted); position: absolute; bottom: 0; }
+.timeline::before, .timeline li::after { display: none; }
+@media (max-width: 1024px) {
+ .capability-system { gap: 32px; grid-template-columns: 1.5fr 1fr; }
+ .capability-branch { gap: 6px 22px; }
+ .experience-grid { gap: 48px; grid-template-columns: 1fr 2.3fr; }
+ .career-node { width: 110px; font-size: .75rem; }
+}
+@media (max-width: 760px) {
+ .project-visual { padding: 22px; }
+ .node-explanation { min-height: 88px; }
+ .capability-system { grid-template-columns: 1fr; gap: 28px; }
+ .capability-detail { min-height: 360px; }
+ .capability-branch { gap: 6px 22px; }
+ .capability-branches { padding-left: 16px; }
+ .capability-branch button:first-of-type { font-size: .8125rem; }
+ .capability-branch button { font-size: .75rem; }
+ .experience-grid { grid-template-columns: 1fr; }
+ .career-path { height: 165px; max-width: none; margin-top: 28px; }
+ .career-path svg { display: none; }
+ .career-node { position: relative; transform: none; left: auto !important; top: auto !important; display: flex; align-items: center; gap: 16px; min-height: 36px; width: 100%; padding-left: 20px; font-size: .75rem; border-left: 1px solid var(--line); }
+ .career-node::before { content: ""; position: absolute; left: -3px; width: 5px; height: 5px; border: 1px solid var(--accent); background: var(--section-surface); }
+ .career-node.active::before { background: var(--accent); }
+ .career-path figcaption { bottom: -8px; font-size: .625rem; }
+}
+.timeline li[id] { scroll-margin-top: 130px; }
+.experience-note { align-self: start; position: sticky; top: 130px; }
+.career-later circle { opacity: .22; }
+.career-past circle { opacity: .5; }
+@media (max-width: 760px) {
+ .experience-note { position: static; }
+ .career-path { height: 202px; }
+ .career-node { min-height: 44px; }
+}
+
+.capability-branch > svg { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; color: var(--accent); opacity: .18; }
+.capability-branch.branch-active > svg { opacity: .65; }
+.capability-branch button { position: relative; }
+
+/* The four disciplines explain their scope before visitors explore practices. */
+.capability-branch button:first-of-type .capability-summary { display: block; margin-top: 6px; font-size: .75rem; color: var(--muted); line-height: 1.5; }
+.role-index { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 24px; margin-right: 8px; border: 1px solid var(--line); color: var(--text); }
+.timeline .reading-active .role-index { border-color: var(--accent); }

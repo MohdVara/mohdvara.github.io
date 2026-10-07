@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/prerender.mjs",
+    "build": "node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
+    "predeploy:cloudflare": "npm run build",
+    "deploy:cloudflare": "npx wrangler@4 pages deploy",
     "typecheck": "tsc -b",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "refresh:github": "node scripts/public-github.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

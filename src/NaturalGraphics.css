@@ -47,10 +47,6 @@
 }
 .river-transition path:not(.river-primary) { opacity: 0.55; }
 .river-transition .river-primary { stroke-width: 1.5; }
-/* One draw, driven by the same once-only reveal observer as the sections. */
-.system-transition[data-revealed="true"] .river-primary {
-  animation: river-draw 950ms ease-out both;
-}
 @keyframes river-draw {
   from { stroke-dasharray: 1; stroke-dashoffset: 1; }
   to { stroke-dasharray: 1; stroke-dashoffset: 0; }
@@ -59,21 +55,6 @@
   position: relative;
   isolation: isolate;
 }
-.capability-network {
-  position: absolute;
-  right: 0;
-  top: 64px;
-  width: 45%;
-  max-width: 500px;
-  height: 280px;
-  overflow: hidden;
-  opacity: 0.1;
-  z-index: -1;
-  pointer-events: none;
-}
-.capability-network svg { height: 100%; }
-.capability-network path { opacity: 0.7; }
-.capability-grid { position: relative; }
 .borneo-botanical {
   margin-top: 34px;
   max-width: 460px;
@@ -95,27 +76,6 @@
   color: var(--muted);
 }
 .borneo-botanical figcaption > span:first-child { color: var(--accent); }
-.timeline { position: relative; }
-.timeline::before {
-  content: "";
-  position: absolute;
-  top: 8px;
-  bottom: 12px;
-  left: -28px;
-  width: 1px;
-  background: var(--line);
-}
-.timeline li::after {
-  content: "";
-  position: absolute;
-  left: -28px;
-  top: 34px;
-  width: 7px;
-  height: 1px;
-  background: var(--muted);
-  opacity: 0.45;
-}
-.timeline li:first-child::after { top: 8px; }
 .project-visual { position: relative; isolation: isolate; }
 .project-visual::before {
   content: "";
@@ -128,50 +88,16 @@
   z-index: -1;
   pointer-events: none;
 }
-.visual-insurance .system-sketch > div:not(:last-child)::after {
-  border-radius: 100% 0 0 100%;
-  width: 5px;
-}
 .contact { position: relative; isolation: isolate; }
-.contact-flow {
-  position: absolute;
-  right: -12px;
-  bottom: 0;
-  width: 54%;
-  max-width: 630px;
-  height: 440px;
-  opacity: 0.09;
-  pointer-events: none;
-  z-index: -1;
-}
-.contact-flow svg { height: 100%; }
-.contact-flow .convergence-arrow { stroke-width: 1.8; }
 @media (max-width: 1024px) {
   .hero-botanical { width: 100%; left: 0; }
-  .capability-network { width: 43%; height: 240px; }
-  .borneo-botanical .botanical-drawing { height: 210px; }
-  .contact-flow { right: 0; width: 45%; opacity: 0.07; }
 }
 @media (max-width: 760px) {
   .portrait-understory { left: -12px; width: 46%; bottom: 50px; opacity: 0.2; }
-  .hero-botanical, .capability-network { display: none; }
-  .system-transition {
-    height: 90px;
-    margin-top: -24px;
-    margin-bottom: 24px;
-  }
+  .hero-botanical { display: none; }
+  .system-transition { height: 90px; margin-top: -24px; margin-bottom: 24px; }
   .system-transition .river-network { opacity: 0.22; }
   .borneo-botanical { margin-top: 28px; max-width: 400px; }
-  .borneo-botanical .botanical-drawing { height: auto; max-height: 220px; }
-  .timeline::before, .timeline li::after { left: -15px; }
-  .timeline li::after { width: 4px; }
-  .contact-flow {
-    width: 75%;
-    height: 220px;
-    opacity: 0.055;
-    right: 0;
-    bottom: 8px;
-  }
 }
 @media (prefers-reduced-motion: reduce) {
   .system-transition .river-primary {
@@ -180,3 +106,46 @@
     stroke-dashoffset: 0;
   }
 }
+/* Borneo systems: structure, flow and a clearly readable botanical plate. */
+.hero-botanical { opacity: .15; transform: translateY(var(--network-depth, 0px)); }
+.botanical-plate { position: relative; }
+.borneo-botanical { max-width: 520px; }
+.borneo-botanical .botanical-drawing { height: auto; opacity: .39; }
+.borneo-botanical .frond-spine { stroke-width: 1.5; }
+.borneo-botanical .leaf-veins { opacity: .55; }
+.plate-annotations { position: absolute; inset: 0; width: 100%; height: 100%; color: var(--accent); opacity: .55; pointer-events: none; }
+.plate-labels { font: 9px "SFMono-Regular",Consolas,monospace; letter-spacing: .4px; }
+.contact-convergence { position: absolute; right: 0; bottom: 168px; width: 60%; max-width: 710px; height: 380px; z-index: -1; pointer-events: none; }
+.contact-convergence svg { width: 100%; height: 100%; overflow: visible; color: var(--accent); }
+.contact-convergence path, .contact-convergence circle { stroke: currentColor; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.convergence-outer { opacity: .2; }
+.convergence-merge { opacity: .4; }
+.convergence-final { opacity: .6; stroke-width: 1.5 !important; }
+.convergence-tip, .convergence-end { opacity: .6; }
+.convergence-ticks { opacity: .2; }
+@media (max-width: 1024px) and (min-width: 761px) { .contact-convergence { width: 46%; height: 280px; bottom: 160px; } }
+@media (max-width: 760px) {
+ .borneo-botanical .botanical-drawing { max-height: none; }
+ .contact-convergence { position: relative; width: 100%; height: 130px; bottom: auto; margin-top: 24px; }
+ .contact-convergence svg { transform: scaleY(.65); transform-origin: bottom; }
+
+ .contact { display: flex; flex-direction: column; }
+ .convergence-outer path:nth-child(n+4) { display: none; }
+}
+.hero-botanical { transform: translate(var(--pointer-x, 0px), calc(var(--network-depth, 0px) + var(--pointer-y, 0px))); transition: transform 180ms ease-out; }
+
+.section-lead { position: relative; isolation: isolate; min-height: 170px; }
+.section-branch { position: absolute; right: 0; top: 0; width: min(38%, 400px); height: 170px; color: var(--accent); opacity: .24; pointer-events: none; }
+:root[data-theme="light"] .section-branch { opacity: .2; }
+@media (min-width: 761px) and (max-width: 1024px) {
+  .section-branch { width: 28%; opacity: .17; }
+  .section-lead .section-intro { max-width: 68%; }
+}
+@media (max-width: 760px) {
+  .section-lead { min-height: 0; }
+  .section-branch { position: absolute; display: block; top: -64px; right: 0; margin: 0; width: 160px; height: 64px; opacity: .18; }
+  .section-branch .lead-branch-secondary { display: none; }
+}
+
+/* Keep the completed desktop route level with the conversation action. */
+@media (min-width: 761px) { .contact-convergence { bottom: 302px; } }

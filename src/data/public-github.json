@@ -1,0 +1,35 @@
+[
+  {
+    "name": "nodejs-hotel-problem",
+    "url": "https://github.com/MohdVara/nodejs-hotel-problem",
+    "title": "Hotel booking constraint API",
+    "kind": "API experiment",
+    "description": "An interview project that allocates hotel rooms under adult, child and infant occupancy rules.",
+    "technologies": [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "Mocha / Chai"
+    ],
+    "relevance": "Inspectable booking logic, a reusable constraint parser and tests covering valid and rejected requests.",
+    "language": "JavaScript",
+    "visibility": "public",
+    "verifiedAt": "2026-10-07T03:28:23.386Z"
+  },
+  {
+    "name": "mohdvara.github.io",
+    "url": "https://github.com/MohdVara/mohdvara.github.io",
+    "title": "This portfolio, in source",
+    "kind": "Frontend engineering",
+    "description": "The React and TypeScript source behind this static engineering portfolio.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Vite"
+    ],
+    "relevance": "Prerendered content, native disclosures, theme handling and production-artifact checks are available to inspect.",
+    "language": "CSS",
+    "visibility": "public",
+    "verifiedAt": "2026-10-07T03:28:23.386Z"
+  }
+]

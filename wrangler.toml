@@ -1,0 +1,5 @@
+# Cloudflare Pages serves the same static build as GitHub Pages.
+# Change this name if your Cloudflare Pages project uses a different name.
+name = "mohdvara-portfolio"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-10-06"

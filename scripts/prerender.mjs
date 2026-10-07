@@ -3,7 +3,7 @@ import { mkdtemp, readFile, writeFile, rm } from "node:fs/promises";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 
-// Render the same React tree at build time. GitHub Pages serves plain HTML;
+// Render the same React tree at build time. Both hosting providers serve HTML;
 // the content, links and native disclosures also work without JavaScript.
 const output = await mkdtemp(join(process.cwd(), ".prerender-"));
 try {
