@@ -97,7 +97,7 @@ test('Incident Zero ships static route content and no eager game-engine preload 
 test('System Defence ships its own static route and stays optional and lazy on portfolio/story entry', async () => {
   const arcade = await readFile('dist/incident-zero/defence/index.html', 'utf8');
   assert.match(arcade, /Defend the edge/);
-  assert.match(arcade, /STAGE 2 · LEVEL/);
+  assert.match(arcade, /LEVEL/);
   assert.match(arcade, /\/ 05/);
   assert.match(arcade, /Start run/);
   assert.match(arcade, /https:\/\/mohd\.paramasvara\.online\/incident-zero\/defence\//);
@@ -107,3 +107,15 @@ test('System Defence ships its own static route and stays optional and lazy on p
   const home = await readFile('dist/index.html', 'utf8');
   assert.doesNotMatch(home, /DefenceRoute|renderer-|phaser-|PortfolioGame-/);
 });
+
+ test('missing-page and arcade discovery metadata are consistent', async () => {
+ const missing = await readFile('dist/404.html', 'utf8');
+ assert.match(missing, /This page could not be found/);
+ assert.match(missing, /name="robots" content="noindex, follow"/);
+ assert.doesNotMatch(missing, /rel="canonical"/);
+ const arcade = await readFile('dist/incident-zero/defence/index.html', 'utf8');
+ for (const name of ['description', 'og:description', 'twitter:description']) {
+   assert.match(arcade, new RegExp(`${name}"\\s+content="[^"]*Five generated levels, two defensive tools`));
+ }
+ assert.match(await readFile('dist/sitemap.xml', 'utf8'), /https:\/\/mohd.paramasvara.online\/incident-zero\/defence\//);
+ });

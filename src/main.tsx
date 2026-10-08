@@ -9,5 +9,8 @@ const app = (
     <Page path={window.location.pathname} />
   </StrictMode>
 );
-if (root.querySelector("main")) hydrateRoot(root, app);
+const knownRoute = ["", "/work-with-me", "/incident-zero", "/incident-zero/defence"].includes(window.location.pathname.replace(/\/$/, ""));
+// Vite preview may serve index.html for unknown URLs. Do not hydrate that
+// homepage as a missing page; Cloudflare serves the matching static 404 tree.
+if (root.querySelector("main") && (knownRoute || root.querySelector("#missing-title"))) hydrateRoot(root, app);
 else createRoot(root).render(app);

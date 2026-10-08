@@ -16,6 +16,7 @@ export default function WorkWithMe() {
         <h1 id="engagement-title">Complex systems.<br /><span>Clear engineering decisions.</span></h1>
         <p className="section-intro">I work with teams on software problems where architecture, domain complexity, modernisation or technical leadership matter.</p>
         <p className="engagement-position">Mohd. Paramasvara · Principal Full-Stack Engineer<br />Based in Sabah, Malaysia. Remote-first project and contract work.</p>
+        <div className="actions"><a className="button primary" href={profile.discovery} target="_blank" rel="noopener noreferrer">Book a conversation <span aria-hidden="true">↗</span><span className="sr-only"> (opens Cal.com in a new tab)</span></a><a className="text-link" href={`mailto:${profile.email}`}>Email the context</a></div>
         <a className="text-link" href="#engagement-problems">Explore the problems I work on <span aria-hidden="true">↓</span></a>
       </section>
       <section className="section container" id="engagement-problems" aria-labelledby="engagement-problems-title">
@@ -38,7 +39,7 @@ export default function WorkWithMe() {
             <p className="eyebrow mono">02 / Engagement fit</p><h2 id="engagement-fit-title">Agree the scope.<br />Then own the work.</h2>
           </div></div>
           <div className="engagement-types" data-reveal>{engagements.map(item => <article key={item.title}><h3>{item.title}</h3><p>{item.description}</p><dl><dt>Useful inputs</dt><dd>{item.inputs}</dd><dt>Possible deliverables</dt><dd>{item.deliverables}</dd><dt>Next step</dt><dd>{item.next}</dd></dl><a className="text-link" href={`/#case-${item.proof}`}>Related engineering work ↗</a></article>)}</div>
-          <p className="engagement-fit-note">Scope is agreed after an introductory conversation. These are examples of possible deliverables, not fixed packages. A useful starting point is a concrete problem, access to the relevant technical context, and someone who can make decisions. We can then agree scope, responsibilities and a project or contract arrangement.</p>
+          <p className="engagement-fit-note">These are possible deliverables, not fixed packages. Bring a concrete problem, technical context and a decision maker. We can then agree scope, responsibilities and an engagement.</p>
         </div>
       </section>
       <section className="section container contact" id="contact" data-motion-region="contact" aria-labelledby="contact-title">

@@ -3,7 +3,7 @@ import { capabilities, projects } from "./content";
 
 // These describe documented functions, not inferred infrastructure topology.
 const explanations: Record<string, string[]> = {
-  campus: ["The résumé records consolidation of different university-branch implementations.", "Rebuilt campus management into a more unified, general codebase.", "Core student, class and academic workflows remain the subject of the modernisation."],
+  campus: ["Different university branches had separate system implementations.", "Rebuilt campus management into a more unified, general codebase.", "Core student, class and academic workflows remain the subject of the modernisation."],
   meetings: ["Online classes and meetings built with JavaScript and AWS Chime.", "Minute-by-minute participation tracking, with recordings automatically stored in Amazon S3.", "Integration APIs make meeting data available to other systems for reporting and class metrics."],
   insurance: ["Rate fetching across multiple insurance providers and product types.", "Backend and frontend normalization brings different provider rates into a consistent interface.", "External insurer APIs and internal services connect quotation and policy issuance for teams and partners."],
   hr: ["A shared HR system supports the corporate structures of multiple companies.", "Leave entitlements can be configured around each company’s policies.", "Attendance policies and HR workflows adapt to the organization rather than one fixed process."],

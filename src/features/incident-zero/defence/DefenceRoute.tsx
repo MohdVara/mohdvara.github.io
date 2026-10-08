@@ -127,7 +127,7 @@ export default function DefenceRoute() {
         controller.current?.input.fire(false);
     };
     return <main className="defence-page">
-    <header className="defence-header"><a href="/incident-zero/">← Incident Zero</a><h1>System Defence</h1><span className="defence-tag">STAGE 2 · LEVEL {session.level.toString().padStart(2, '0')} / 05 · {floor.name}</span></header>
+    <header className="defence-header"><a href="/incident-zero/">← Incident Zero</a><h1>System Defence</h1><span className="defence-tag">LEVEL {session.level.toString().padStart(2, '0')} / 05 · {floor.name}</span></header>
     <div className="defence-hud" aria-label="Encounter status">
       <div><small>Integrity</small><strong aria-label={`${shownIntegrity} of 3 integrity`}>{'◆'.repeat(shownIntegrity)}<span className="defence-empty">{'◇'.repeat(3 - shownIntegrity)}</span></strong></div>
       <div><small>Tool</small><strong>{weapons[hud.weapon].name}</strong></div>
@@ -151,7 +151,7 @@ export default function DefenceRoute() {
             {session.levels.length > 0 && <dl className="defence-breakdown">{session.levels.map(r => <div key={r.level}><dt>Level {r.level} · {r.hits === 0 ? 'undamaged' : 'damage taken'}</dt><dd>{r.score}</dd></div>)}{session.status === 'victory' && <div><dt>Five-level completion bonus</dt><dd>1000</dd></div>}<div><dt>{session.status === 'defeat' ? 'Incomplete run total' : 'Committed run total'}</dt><dd>{session.score + (session.status === 'defeat' ? result.score : 0)}</dd></div></dl>}
             <p className="defence-small">Level reached: {session.level} / 5 · Seed: {session.seed}<br />Personal best completed run: {session.best} · Completed runs: {session.completed}. Unverified browser-session data. The real engineering work explores resilient delivery, reconciliation and system modernisation.</p>
           </> : <>
-            <p>{recovered ? 'Refresh restored this level’s entry checkpoint. Current-floor kills, damage and score were rolled back together; completed levels remain committed.' : overlay === 'pause' ? 'Simulation is frozen. Resume when you are ready.' : 'Restore five generated services. Clear each floor, approach its terminal and restore service, then choose Continue. Run duration target: 5–8 minutes, pending human playtests.'}</p>
+            <p>{recovered ? 'Refresh restored this level’s entry checkpoint. Current-floor kills, damage and score were rolled back together; completed levels remain committed.' : overlay === 'pause' ? 'Simulation is frozen. Resume when you are ready.' : 'Restore five generated services. Clear each floor, approach its terminal and restore service, then choose Continue.'}</p>
             <p className="defence-desktop-help">WASD / arrows move · pointer aims · hold click to fire<br />1 / 2 or Q switch · E / Enter at terminal · Esc pauses</p>
             <p className="defence-touch-help">Drag the left pad to move. Hold FIRE for nearby, visible targets. Switch tools freely; restore at the unlocked terminal.</p>
             <p className="defence-small"><b>Pulse:</b> precise, repeatable, medium range. <b>Fan:</b> five double-damage short-range packets for nearby groups; slower cadence and wide spread. Pulse reaches distant probes and narrow lanes. Diamonds pursue; triangles mark an amber aim line before firing. A cyan ring signals temporary damage protection.</p>
@@ -162,7 +162,7 @@ export default function DefenceRoute() {
             <a href="/incident-zero/">Return to Incident Zero</a>
           </div>}
 
-          <p className="defence-small">Saved for this browser-tab session using sessionStorage when available. No permanent account history. Personal best counts completed five-level runs only. Refresh during combat restores this level’s entry checkpoint paused.</p>
+          <p className="defence-small">Progress is saved in this tab when browser storage is available. Closing the tab may clear it. No permanent account history. Personal best counts completed five-level runs only. Refresh during combat restores this level’s entry checkpoint paused.</p>
         </div>
       </section>}
       {failed && <div className="defence-error" role="alert">Renderer could not start. <button onClick={() => location.reload()}>Retry loading</button> <a href="/incident-zero/">Return to story</a></div>}

@@ -246,3 +246,9 @@ h2 {
     transition: none !important;
   }
 }
+
+/* Secondary evidence stays visible and deep-linkable without another large diagram. */
+.project.project-secondary { grid-template-columns: 1fr; padding-block: 28px; }
+.project-secondary .project-content { max-width: 760px; }
+.resume-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 16px; }
+.resume-links .text-link { margin: 0; }

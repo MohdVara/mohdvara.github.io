@@ -33,7 +33,7 @@ try {
       await aligned(page, id);
     }
     await page.goto(`${base}/work-with-me/`, { waitUntil: 'networkidle' });
-    await page.locator('a[href="/#case-insurance"]').click();
+    await page.locator('.engagement-problems a[href="/#case-insurance"]').click();
     await page.waitForURL('**/#case-insurance');
     await aligned(page, 'case-insurance');
     await page.evaluate(() => { location.hash = 'case-rental'; });

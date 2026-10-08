@@ -7,7 +7,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/mohdvara/",
   resume: "https://rxresu.me/mwara95/2-page-resume",
   cv: "https://rxresu.me/mwara95/curriculum-vitae",
-  // Add a verified, clean PDF here; the current public export overlaps text.
+  // Add only an owner-approved PDF after inspecting every page of the current export.
   resumePdf: null as string | null,
 };
 interface Project {
@@ -28,17 +28,17 @@ export const projects: Project[] = [
   {
     id: "campus", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
     title: "University branches, brought into a shared codebase.",
-    summary: "Rebuilt campus management software that consolidated separate university-branch implementations into a more unified, general codebase.",
+    summary: "Separate university-branch implementations needed a shared foundation while retaining core academic workflows.",
     scope: "Multiple university branches · students · classes · academic structures",
-    result: "Rebuilt a shared campus codebase for branch workflows, with maintainability and hosting-cost work.",
+    result: "Rebuilt Campus Management System V3 into a more unified codebase supporting branch workflows.",
     functions: ["Branch implementations", "Shared campus codebase", "Students, classes & academic structures"],
     visualLabel: "Campus Management Modernisation",
     details: [
-      ["Problem", "Different university branches had separate campus-system implementations. Modernisation needed to consolidate those implementations while preserving core student, class and academic workflows."],
-      ["My contribution", "As Principal Full Stack Developer, led full-stack campus and classroom development. The résumé records rebuilding Campus Management System V3 from April 2023 onward."],
-      ["Constraints", "Existing branch variations and core academic workflows had to remain supported during modernisation. The public source does not establish the exact cutover plan or regression coverage."],
-      ["Approach", "Consolidated branch implementations into a general codebase. In the wider campus work, introduced multi-environment DevOps practices and defined deployment procedures."],
-      ["Delivered result", "A rebuilt, more unified campus-management codebase. Hosting-cost reduction and maintainability were stated goals and areas of work; no measured saving or performance improvement is published here."],
+      ["Problem", "Unify separate branch implementations while preserving student, class and academic workflows."],
+      ["My contribution", "Led full-stack campus and classroom development as Principal Full Stack Developer, including rebuilding Campus Management System V3 from April 2023 onward."],
+      ["Constraints", "Existing branch variations and core academic workflows had to remain supported during modernisation."],
+      ["Approach", "Consolidated branch implementations. Introduced multi-environment DevOps and deployment procedures across the wider campus work."],
+      ["Delivered result", "A rebuilt, more unified campus-management codebase. Maintainability and hosting efficiency guided the modernisation work."],
     ], stack: [],
   },
   {
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     period: "2021 onward",
     title: "Online classes, with attendance and reporting built in.",
     summary:
-      "Built classroom and meeting tools that connect live sessions, participation tracking, recordings, and reporting with existing systems.",
+      "Connected live classes, participation, recordings and reporting to existing systems.",
     result:
       "Minute-by-minute attendance tracking, meeting recordings stored in S3, and APIs that make session data available for reporting and class metrics.",
     functions: [
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     period: "2019–2021",
     title: "From insurance rates to integrated policy issuance.",
     summary:
-      "An insurance comparison platform connecting internal users and partner systems to quoting and issuance across multiple insurance products.",
+      "Internal teams and partners needed consistent quoting and issuance across different insurers.",
     result:
       "Normalized rates from multiple providers into one interface, with integrated quotation and policy issuance flows.",
     functions: [
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     details: [
       [
         "Problem",
-        "Providers exposed different quotation and issuance flows. Internal teams and partner systems needed consistent access across motor, medical, group medical, and fire insurance.",
+        "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance.",
       ],
       [
         "Ownership",
@@ -106,11 +106,11 @@ export const projects: Project[] = [
       ],
       [
         "Constraints & approach",
-        "Different provider interfaces and changing business and regulatory requirements shaped the work. Integrated external insurer APIs and internal services; applied security and consistency checks. Revamped legacy systems with emphasis on code clarity, performance, and integration stability.",
+        "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability.",
       ],
       [
         "Result",
-        "Delivered rate normalization and integrated quoting and issuance for internal and partner workflows. No latency, conversion or insurer-count measurement is supplied.",
+        "Delivered rate normalization and integrated quoting and issuance for internal and partner workflows.",
       ],
     ],
     stack: [],
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     period: "2016–2017",
     title: "HR workflows that adapt to different companies.",
     summary:
-      "Helped develop a human resource management system supporting multiple companies, with configurable structures, leave entitlements, and attendance policies.",
+      "Helped build configurable HR workflows for multiple companies.",
     result:
       "Flexible HR workflows that accommodate each company’s corporate structure and policies within the same system.",
     functions: [
@@ -147,7 +147,7 @@ export const projects: Project[] = [
       ],
       [
         "Result",
-        "A configurable system supporting varied company structures and HR policies, rather than requiring one fixed workflow for every organization.",
+        "Delivered configurable structures, leave and attendance workflows across companies.",
       ],
     ],
     stack: [],
@@ -160,7 +160,7 @@ export const projects: Project[] = [
     period: "2018–2020",
     title: "Rental operations, from contracts to financial clarity.",
     summary:
-      "A home rental and subletting management system bringing property, tenant, and contract workflows into a single operational platform.",
+      "Rental staff needed connected property, tenant, contract and financial workflows.",
     result:
       "Tracked 20+ properties, with contract workflows and property-level income, expenses, and profit/loss reporting.",
     functions: [
@@ -180,7 +180,7 @@ export const projects: Project[] = [
       ],
       [
         "Constraints & approach",
-        "Staff needed distinct property, tenant and contract records across 20+ properties. Focused on reliable data structures and multi-entity handling of properties, tenants, and contracts. Included contract generation and payment tracking.",
+        "Separated property, tenant and contract records to support multi-entity workflows, contract generation and payment tracking.",
       ],
       [
         "Result",

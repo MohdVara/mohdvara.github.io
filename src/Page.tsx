@@ -1,6 +1,8 @@
 import { lazy, Suspense, useEffect, type ComponentType } from "react";
 import App from "./App";
 import WorkWithMe from "./WorkWithMe";
+import RouteRecovery from "./RouteRecovery";
+import NotFound from "./NotFound";
 // Static rendering injects the resolved component; the browser fetches it only
 // for this route. Do not include a client-only lazy import in the SSR bundle.
 const LazyIncident = import.meta.env.SSR
@@ -56,11 +58,11 @@ export default function Page({
   const Incident = incidentComponent || LazyIncident;
   const Defence = defenceComponent || LazyDefence;
   return route === "/incident-zero/defence" ? (
-    <Suspense fallback={<main className="container section"><p role="status">Initialising System Defence…</p><a href="/incident-zero/">Return to Incident Zero</a></main>}>
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Initialising System Defence…</p><a href="/incident-zero/">Return to Incident Zero</a></main>}>
       <Defence />
-    </Suspense>
+    </Suspense></RouteRecovery>
   ) : route === "/incident-zero" ? (
-    <Suspense
+    <RouteRecovery><Suspense
       fallback={
         <main className="container section">
           <p role="status">Initialising Incident Zero…</p>
@@ -69,10 +71,10 @@ export default function Page({
       }
     >
       <Incident />
-    </Suspense>
+    </Suspense></RouteRecovery>
   ) : route === "/work-with-me" ? (
     <WorkWithMe />
-  ) : (
+  ) : route === "" ? (
     <App />
-  );
+  ) : <NotFound />;
 }

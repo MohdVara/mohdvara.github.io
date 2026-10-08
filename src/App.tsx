@@ -168,7 +168,7 @@ function Hero() {
             LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
           <a href="/incident-zero/">Incident Zero · engineering story <Arrow /></a>
-          <a href="#contact">Contact <Arrow /></a>
+          <a href="/work-with-me/">Work with me <Arrow /></a>
           <a href={profile.github} target="_blank" rel="noopener noreferrer">
             GitHub <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
@@ -255,15 +255,15 @@ function SelectedWork() {
       </div>
       <div className="project-list" data-reveal>
         {projects.map((project, index) => (
-          <article className="project" id={`case-${project.id}`} key={project.id}>
-            <ProjectDiagram project={project} index={index} />
+          <article className={`project${index > 2 ? " project-secondary" : ""}`} id={`case-${project.id}`} key={project.id}>
+            {index < 3 && <ProjectDiagram project={project} index={index} />}
             <div className="project-content">
               <p className="project-meta mono">
                 {project.company} <span> / </span> {project.period}
               </p>
               <h3>{project.title}</h3>
               <p className="project-summary">{project.summary}</p>
-              <p className="project-scope"><span className="mono">Scope</span>{project.scope}</p>
+              {index > 2 && <p className="project-scope"><span className="mono">Scope</span>{project.scope}</p>}
               <p className="project-result">
                 <span>Delivered</span>
                 {project.result}
@@ -346,11 +346,11 @@ function Experience() {
               Leading through the code.
             </p>
             <span>Selected roles. Several engagements run concurrently.</span>
-            <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
+            <div className="resume-links"><a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
               2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
             </a>
             <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
-            <CareerPath active={activeRole} />
+            </div><CareerPath active={activeRole} />
           </div>
           <ol className="timeline" ref={timeline}>
             {experience.map((role, index) => (

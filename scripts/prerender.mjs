@@ -27,6 +27,7 @@ try {
   const escape = (value) =>
     value.replaceAll("&", "&amp;").replaceAll('"', "&quot;");
   for (const { route, title, description } of [
+    { route: "404", title: "Page not found | Mohd. Paramasvara", description: "This page could not be found. Return to the portfolio or contact Mohd. Paramasvara." },
     {
       route: "work-with-me",
       title:
@@ -37,7 +38,7 @@ try {
     {
       route: "incident-zero/defence",
       title: "System Defence — Incident Zero Arcade Prototype | Mohd. Paramasvara",
-      description: "Protect the system from malicious requests in a short, optional top-down combat prototype. One arena, two defensive tools, and a service to restore.",
+      description: "Protect the system from malicious requests in a short, optional top-down combat prototype. Five generated levels, two defensive tools, and five services to restore.",
     },
     {
       route: "incident-zero",
@@ -92,6 +93,11 @@ try {
         return start + JSON.stringify(schema) + end;
       },
     );
+    if (route === "404") {
+      work = work.replace(/<link rel="canonical"[^>]*>/, "").replace(/<meta property="og:url"[^>]*>/, "").replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, "").replace("</head>", '<meta name="robots" content="noindex, follow"></head>');
+      await writeFile("dist/404.html", work);
+      continue;
+    }
     await mkdir(`dist/${route}`, { recursive: true });
     await writeFile(`dist/${route}/index.html`, work);
   }

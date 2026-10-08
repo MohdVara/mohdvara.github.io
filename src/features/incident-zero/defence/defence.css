@@ -29,3 +29,10 @@
 .defence-controls,.defence-controls *,.defence-world,.defence-world canvas{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 
 .defence-header>.defence-tag{max-width:100%;overflow-wrap:anywhere}.defence-panel .defence-small{overflow-wrap:anywhere}
+
+.defence-panel p a { text-decoration: underline; text-underline-offset: 3px; }
+
+@media (max-width:600px) {
+  .defence-control-hint { display:block; order:3; width:100%; font-size:12px; }
+  .defence-control-hint span { font-size:12px; }
+}

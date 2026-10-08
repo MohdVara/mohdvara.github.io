@@ -2,7 +2,9 @@
 
 Reviewed 6 October 2026. Public professional facts only; private LinkedIn UI, messages, contact details and analytics were not used.
 
-Primary source supplied by owner: https://rxresu.me/mwara95/distinguished-acceptable-tern
+Current owner-supplied résumé: https://rxresu.me/mwara95/2-page-resume
+Current full CV: https://rxresu.me/mwara95/curriculum-vitae
+Historical source for the original audit: https://rxresu.me/mwara95/distinguished-acceptable-tern
 Secondary source supplied by owner: https://www.linkedin.com/in/mohdvara/
 
 The hosted résumé supplies campus modernization, multi-branch consolidation, insurance quoting/issuance, rental workflows and 20+ properties, AI/RAG capabilities, development stacks and education. LinkedIn supplies the self-employed start in April 2013 and corroborates roles and projects.
@@ -24,3 +26,11 @@ Skills are résumé-listed capabilities, not assertions that every project used 
 Portrait is the owner's existing public artwork, retrieved from https://mohd.paramasvara.online/images/ArtisticMe2.png; optimized WebP variants are shipped, original preserved in archive. Existing gh-pages CNAME establishes the canonical domain.
 
 Fresh source check, 7 October 2026: the public résumé rendered in Chrome and its official Download PDF action returned a four-page résumé with matching identity and content. Visual rendering exposed overlapping blocks on pages 3–4. No damaged PDF is shipped; see `review/acceptance.md` for the exact follow-up and update procedure.
+
+## 8 October 2026 reliability pass
+
+The current two-page résumé was rendered and read in the browser. It corroborates campus consolidation, personal insurance integration ownership, rental ownership and 20+ properties. The older four-page export observation above is historical and is not a defect claim about the current export. The current Download PDF attempt timed out in the browser tool; no new PDF was acquired, verified or shipped. `profile.resumePdf` remains null.
+
+Public cases now state supported ownership and decisions directly. Hosting efficiency remains a design objective here, without a fabricated saving. No new numerical performance, conversion, insurer count or leadership-size claim was introduced. The source of the public 20+ properties claim is the owner-supplied résumé (MegaInfinite entry); career since 2013 remains the previously reviewed role history. Meetings and HR remain accessible compact cases with their original IDs.
+
+An untracked owner-only evidence request checklist is in `.qa/reliability/evidence-request.md`. Do not place private client artifacts or unapproved metrics in this public repository.
