@@ -176,7 +176,7 @@ try {
       links.some(
         (link) =>
           link.href ===
-          "https://rxresu.me/mwara95/distinguished-acceptable-tern",
+          "https://rxresu.me/mwara95/2-page-resume",
       ),
     );
     assert.ok(

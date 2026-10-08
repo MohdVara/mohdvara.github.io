@@ -57,7 +57,8 @@ export default function EndingScreen({ state, onReplay, preview = false, active 
     <div className="iz-actions"><a className="button primary" href="/#work">Explore real engineering work ↗</a><a className="text-link" href={profile.discovery} target="_blank" rel="noopener noreferrer">Book a conversation <span className="sr-only">(opens in a new tab)</span> ↗</a></div>
     <div className="iz-actions">
       {profile.resumePdf && <a className="text-link" href={profile.resumePdf} download>Download résumé (PDF) ↗</a>}
-      <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">Online résumé <span className="sr-only">(opens in a new tab)</span> ↗</a>
+      <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">2-page résumé <span className="sr-only">(opens in a new tab)</span> ↗</a>
+      <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <span className="sr-only">(opens in a new tab)</span> ↗</a>
       <a className="text-link" href={`${profile.github}/mohdvara.github.io`} target="_blank" rel="noopener noreferrer">View source on GitHub <span className="sr-only">(opens in a new tab)</span> ↗</a><button onClick={onReplay}>Replay incident</button>
     </div>
   </section>;

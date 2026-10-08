@@ -158,9 +158,10 @@ function Hero() {
           <a className="button primary" href="#work">
             Explore my work <Arrow />
           </a>
-          <a className="button secondary" href={profile.resumePdf || profile.resume} download={profile.resumePdf ? true : undefined} target={profile.resumePdf ? undefined : "_blank"} rel="noopener noreferrer">
-            {profile.resumePdf ? "Download résumé (PDF)" : "View résumé"} <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a className="button secondary" href={profile.resume} target="_blank" rel="noopener noreferrer">
+            2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
+          <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
         </div>
         <div className="hero-social">
           <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
@@ -294,7 +295,7 @@ function SelectedWork() {
                     ))}
                   </dl>
                   {project.id === "insurance" && <a className="text-link case-conversation" href="#contact">Discuss a similar problem <Arrow /></a>}
-                  <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">Source: public résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
+                  <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Source: full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
                   {project.stack.length > 0 && (
                     <p className="project-stack">
                       <span>Stack</span>
@@ -345,9 +346,10 @@ function Experience() {
               Leading through the code.
             </p>
             <span>Selected roles. Several engagements run concurrently.</span>
-            <a className="text-link" href={profile.resumePdf || profile.resume} download={profile.resumePdf ? true : undefined} target={profile.resumePdf ? undefined : "_blank"} rel="noopener noreferrer">
-              View full résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+            <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
+              2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
             </a>
+            <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
             <CareerPath active={activeRole} />
           </div>
           <ol className="timeline" ref={timeline}>
@@ -480,9 +482,10 @@ function Contact() {
           <a className="text-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
             Connect on LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
-          <a className="text-link" href={profile.resumePdf || profile.resume} download={profile.resumePdf ? true : undefined} target={profile.resumePdf ? undefined : "_blank"} rel="noopener noreferrer">
-            {profile.resumePdf ? "Download résumé (PDF)" : "View résumé"} <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
+            2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
+          <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
         </div>
       </div>
     </section>

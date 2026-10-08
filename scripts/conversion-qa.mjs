@@ -16,7 +16,7 @@ try {
   await page.goto(base,{waitUntil:'networkidle'});
   const hero=page.locator('#home');assert.match(await hero.locator('.hero-role').textContent(),/Principal Full-Stack Engineer/);
   const primary=hero.locator('.actions .primary');assert.equal((await primary.textContent()).trim(),'Explore my work ↗');assert.equal(await primary.getAttribute('href'),'#work');
-  assert.equal(await hero.locator('.actions .secondary').getAttribute('href'),'https://rxresu.me/mwara95/distinguished-acceptable-tern');
+  assert.equal(await hero.locator('.actions .secondary').getAttribute('href'),'https://rxresu.me/mwara95/2-page-resume');
   for(const link of await hero.locator('.actions a').all())assert.ok((await link.boundingBox()).height>=44);
   await primary.focus();await page.keyboard.press('Enter');assert.match(page.url(),/#work$/);
   const summary=page.locator('.case-details summary').first();await summary.focus();await page.keyboard.press('Enter');assert.equal(await page.locator('.case-details').first().getAttribute('open'),'');

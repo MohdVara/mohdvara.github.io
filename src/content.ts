@@ -5,7 +5,8 @@ export const profile = {
   discovery: "https://cal.com/mohd-paramasvara/discovery",
   github: "https://github.com/MohdVara",
   linkedin: "https://www.linkedin.com/in/mohdvara/",
-  resume: "https://rxresu.me/mwara95/distinguished-acceptable-tern",
+  resume: "https://rxresu.me/mwara95/2-page-resume",
+  cv: "https://rxresu.me/mwara95/curriculum-vitae",
   // Add a verified, clean PDF here; the current public export overlaps text.
   resumePdf: null as string | null,
 };
