@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot, hydrateRoot } from "react-dom/client";
 import "./index.css";
 import Page from "./Page";
+import { startAnalytics } from "./analytics";
 
 const root = document.getElementById("root")!;
 const app = (
@@ -14,3 +15,5 @@ const knownRoute = ["", "/work-with-me", "/incident-zero", "/incident-zero/defen
 // homepage as a missing page; Cloudflare serves the matching static 404 tree.
 if (root.querySelector("main") && (knownRoute || root.querySelector("#missing-title"))) hydrateRoot(root, app);
 else createRoot(root).render(app);
+
+void startAnalytics();

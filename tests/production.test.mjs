@@ -30,8 +30,10 @@ test("all shipped HTML asset paths exist and are lightweight", async () => {
   assert.ok((await stat("dist/images/portrait.webp")).size < 100_000);
   for (const [, path] of html.matchAll(/src="(\/assets\/[^" ]+\.js)"/g))
     // Reviewed source-grounded flagship and engagement copy adds ~4.5KB.
-    // Keep a tight homepage-only budget; the Phaser runtime stays lazy.
-    assert.ok((await stat(join("dist", path))).size < 205_000);
+    // PostHog startup and named portfolio interactions add ~2KB;
+    // the analytics SDK and Phaser runtime stay lazy.
+    // Accessible display controls and header reflow add ~2KB.
+    assert.ok((await stat(join("dist", path))).size < 211_000);
 });
 test("metadata, schema and domain agree", async () => {
   assert.match(

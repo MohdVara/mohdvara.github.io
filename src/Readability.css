@@ -1,0 +1,54 @@
+/* A single compact header entry keeps reading preferences available on mobile. */
+.display-settings { position: relative; flex-shrink: 0; font-size: .85rem; }
+.display-settings summary { display: flex; align-items: center; gap: 8px; min-height: 44px; cursor: pointer; list-style: none; }
+.display-settings summary::-webkit-details-marker { display: none; }
+.display-settings summary > span { color: var(--accent); font-weight: 600; }
+.display-panel { position: absolute; top: calc(100% + 12px); right: 0; width: min(320px, calc(100vw - 40px)); padding: 20px; border: 1px solid var(--menu-border); border-radius: 4px; background: var(--menu-surface); box-shadow: 0 16px 30px #0003; }
+.display-panel .theme-control { display: grid; grid-template-columns: 1fr minmax(0, 1.3fr); gap: 12px; margin-bottom: 16px; font-size: .85rem; }
+.display-panel .theme-control > span { display: block; }
+.display-panel select { width: 100%; min-width: 0; padding-inline: 8px; }
+.display-panel p { color: var(--muted); font-size: .75rem; line-height: 1.6; }
+.project > *, .public-repository > *, .engagement-problem > *, .capability-system > *, .experience-grid > * { min-width: 0; }
+.project-summary, .case-body, .about-copy, .public-repository-detail, .engagement-problem p { max-width: 65ch; }
+.hero-description { font-size: 1rem; }
+.project-meta, .project-scope, .public-repository-stack, .highlights span { font-size: .85rem; }
+.case-body, .project-summary { line-height: 1.75; }
+.career-path { height: 30rem; }
+.career-node { width: 8rem; font-size: .8rem; }
+.career-path figcaption { font-size: .75rem; }
+@media (max-width: 1200px) {
+  .desktop-nav { display: none; }
+  .mobile-menu { display: block; }
+  .mobile-menu summary { display: flex; align-items: center; gap: 10px; min-height: 44px; font-size: .85rem; list-style: none; cursor: pointer; }
+  .mobile-menu nav { position: absolute; top: 100%; right: 20px; width: min(280px, calc(100vw - 40px)); display: flex; flex-direction: column; padding: 12px; border: 1px solid var(--menu-border); background: var(--menu-surface); box-shadow: 0 16px 30px #0003; }
+  .mobile-menu nav a { padding: 12px; min-height: 44px; }
+}
+@media (max-width: 760px) {
+  .hero h1 { font-size: clamp(2.45rem, calc(6vw + 1.4rem), 4.3rem); }
+  .highlights > div { flex-wrap: wrap; }
+  .highlights strong, .highlights span { max-width: 100%; }
+  .capability-branch { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 6px 12px; }
+  .career-path { height: auto; }
+  .career-node { width: 100%; min-height: 44px; }
+  .career-path figcaption { position: static; margin-top: 12px; }
+  .network-hr { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .network-hr .node:not(:first-of-type) { flex-direction: row; align-items: center; }
+}
+@media (max-width: 600px) {
+  .wordmark > span:last-child { display: none; }
+  .header-inner, .header-controls { gap: 12px; }
+  .display-panel { position: fixed; top: calc(var(--header-height, 76px) + 4px); right: 20px; }
+}
+:root[data-text-size="largest"] .hero,
+:root[data-text-size="largest"] .project,
+:root[data-text-size="largest"] .capability-system,
+:root[data-text-size="largest"] .engagement-problem,
+:root[data-text-size="largest"] .public-repository { grid-template-columns: minmax(0, 1fr); }
+:root[data-text-size="largest"] .hero-copy { max-width: 42rem; }
+:root[data-text-size="largest"] .portrait { justify-self: center; }
+:root[data-text-size="largest"] .experience-grid { grid-template-columns: minmax(0, 1fr); }
+:root[data-text-size="largest"] .experience-note { position: static; }
+:root[data-text-size="largest"] .career-path { height: auto; max-width: none; }
+:root[data-text-size="largest"] .career-path svg { display: none; }
+:root[data-text-size="largest"] .career-node { position: relative; transform: none; left: auto !important; top: auto !important; width: 100%; min-height: 44px; display: flex; gap: 16px; }
+:root[data-text-size="largest"] .career-path figcaption { position: static; margin-top: 12px; }

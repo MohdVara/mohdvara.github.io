@@ -10,6 +10,7 @@ import "./App.css";
 import "./NaturalGraphics.css";
 import "./SystemDiagrams.css";
 import "./VisualMotion.css";
+import "./Readability.css";
 
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
@@ -21,6 +22,45 @@ const navItems = [
   ["about", "About"],
   ["contact", "Contact"],
 ] as const;
+function TextSizeControl() {
+  const [size, setSize] = useState("default");
+  useEffect(() => {
+    const sync = () => setSize(document.documentElement.dataset.textSize || "default");
+    sync();
+    window.addEventListener("text-size-change", sync);
+    return () => window.removeEventListener("text-size-change", sync);
+  }, []);
+  return <label className="theme-control"><span>Text size</span>
+    <select aria-label="Text size" value={size} onChange={(event) => {
+      window.dispatchEvent(new CustomEvent("text-size-preference", { detail: event.target.value }));
+    }}>
+      <option value="default">Default</option><option value="large">Large</option><option value="largest">Largest</option>
+    </select>
+  </label>;
+}
+function DisplayControl() {
+  const settings = useRef<HTMLDetailsElement>(null);
+  useEffect(() => {
+    const dismiss = (event: PointerEvent) => {
+      if (event.target instanceof Node && !settings.current?.contains(event.target)) {
+        if (settings.current) settings.current.open = false;
+      }
+    };
+    document.addEventListener("pointerdown", dismiss);
+    return () => document.removeEventListener("pointerdown", dismiss);
+  }, []);
+  return <details className="display-settings" ref={settings} onKeyDown={(event) => {
+    if (event.key === "Escape" && settings.current) {
+      settings.current.open = false;
+      settings.current.querySelector("summary")?.focus();
+    }
+  }}>
+    <summary><span aria-hidden="true">Aa</span> Display</summary>
+    <div className="display-panel"><TextSizeControl /><ThemeControl />
+      <p>Display choices are remembered on this device.</p>
+    </div>
+  </details>;
+}
 function ThemeControl() {
   // Keep the server and first client render identical; the head script applies
   // the actual palette before paint, then this effect syncs the control.
@@ -57,6 +97,16 @@ function ThemeControl() {
 }
 export function Navigation({ home = true, contactOnPage = true }: { home?: boolean; contactOnPage?: boolean }) {
   const [active, setActive] = useState("");
+  const header = useRef<HTMLElement>(null);
+  useEffect(() => {
+    const update = () => {
+      if (header.current) document.documentElement.style.setProperty("--header-height", `${header.current.offsetHeight}px`);
+    };
+    const observer = new ResizeObserver(update);
+    if (header.current) observer.observe(header.current);
+    update();
+    return () => observer.disconnect();
+  }, []);
   const navHref = (id: string) => !home && contactOnPage && id === "contact" ? "#contact" : `${home ? "" : "/"}#${id}`;
   useEffect(() => {
     if (!home) return;
@@ -86,7 +136,7 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
     if (menu.current) menu.current.open = false;
   };
   return (
-    <header className="site-header">
+    <header className="site-header" ref={header}>
       <div className="container header-inner">
         <a className="wordmark" href={home ? "#home" : "/"} aria-label="Mohd. Paramasvara — home">
           <span className="monogram" aria-hidden="true">
@@ -102,7 +152,7 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
               </a>
             ))}
           </nav>
-          <ThemeControl />
+          <DisplayControl />
           <details
             className="mobile-menu"
             ref={menu}

@@ -59,7 +59,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
 }
 .location-dot {
@@ -175,12 +175,12 @@ h1 .period {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   color: var(--muted);
   padding-top: 14px;
 }
 .portrait figcaption .mono {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 0.06em;
 }
 .highlights {
@@ -248,14 +248,14 @@ h1 .period {
   display: flex;
   justify-content: space-between;
   color: var(--visual-text);
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   gap: 12px;
 }
 .visual-bottom {
   color: var(--visual-text);
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
   padding-top: 22px;
@@ -284,7 +284,7 @@ h1 .period {
 }
 .sketch-index {
   color: var(--accent);
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 .sketch-dot {
   margin-left: auto;
@@ -295,7 +295,7 @@ h1 .period {
   flex-shrink: 0;
 }
 .project-meta {
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   color: var(--muted);
   letter-spacing: 0.03em;
   line-height: 1.8;
@@ -327,7 +327,7 @@ h1 .period {
 .project-result > span {
   display: block;
   color: var(--accent);
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -366,7 +366,7 @@ h1 .period {
 }
 .case-details dt,
 .project-stack > span {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
@@ -428,7 +428,7 @@ h1 .period {
 }
 .role-period {
   color: var(--accent);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   letter-spacing: 0.02em;
   margin-bottom: 10px;
 }
@@ -474,7 +474,7 @@ h1 .period {
   display: block;
   font-family: "SFMono-Regular", Consolas, monospace;
   color: var(--tools-text);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   margin-top: 20px;
   line-height: 1.9;
 }
@@ -511,7 +511,7 @@ h1 .period {
   display: block;
   color: var(--accent);
   text-transform: uppercase;
-  font-size: 0.6rem;
+  font-size: 0.75rem;
   letter-spacing: 0.08em;
   margin-bottom: 8px;
 }
@@ -558,7 +558,7 @@ h1 .period {
   border-top: 1px solid var(--line);
   padding-block: 25px;
   color: var(--muted);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
 }
 .footer a {
   min-height: 44px;
@@ -651,7 +651,7 @@ h1 .period {
     gap: 24px;
   }
   .hero-copy .eyebrow {
-    font-size: 0.6rem;
+    font-size: 0.75rem;
   }
   h1 {
     font-size: clamp(2.45rem, 10.6vw, 4.3rem);
@@ -682,7 +682,7 @@ h1 .period {
     justify-self: center;
   }
   .portrait figcaption {
-    font-size: 0.65rem;
+    font-size: 0.75rem;
   }
   .portrait-frame {
     aspect-ratio: 1/1;
@@ -709,7 +709,7 @@ h1 .period {
     max-width: 55%;
   }
   .highlights span {
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     text-align: right;
     max-width: 44%;
   }
@@ -733,7 +733,7 @@ h1 .period {
     margin-top: 12px;
   }
   .project-meta {
-    font-size: 0.6rem;
+    font-size: 0.75rem;
   }
   .project-meta span {
     padding-inline: 3px;
@@ -773,7 +773,7 @@ h1 .period {
   .footer > p:nth-child(2) {
     order: 3;
     width: 100%;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
   }
   .footer > a {
     margin-left: auto;
@@ -1069,7 +1069,7 @@ h3 {
 .incident-callout { border-block: 1px solid var(--line); padding-block: 32px; display: flex; align-items: center; justify-content: space-between; gap: 32px; }
 .incident-callout h2 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
 .incident-callout p:not(.eyebrow) { color: var(--muted); margin-top: 12px; font-size: .9rem; }
-.incident-callout > div:last-child > p { font-size: .7rem; }
+.incident-callout > div:last-child > p { font-size: 0.75rem; }
 @media (max-width: 760px) { .incident-callout { align-items: flex-start; flex-direction: column; gap: 20px; } }
 .contact-booking .button { max-width: 100%; }
 .contact-booking p { margin-top: 12px; color: var(--muted); font-size: .85rem; }

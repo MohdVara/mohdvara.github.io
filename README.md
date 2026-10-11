@@ -18,6 +18,20 @@ npm run preview
 
 `npm test` inspects the production artifact; run the build first. It checks static content, heading/fragment integrity, asset existence and size budgets, schema and custom-domain consistency. The build generates readable HTML from the same React components and hydrates it in the browser; no server runs in production. Content and native disclosures remain usable without JavaScript.
 
+## PostHog analytics
+
+Copy `.env.example` to `.env.local` and set `VITE_POSTHOG_PROJECT_TOKEN` to the portfolio's public project token from PostHog Project settings. Set `VITE_POSTHOG_HOST` to its US or EU ingestion host. Never use a personal API key: Vite embeds these values in public browser code.
+
+Analytics loads asynchronously only in production builds on `mohd.paramasvara.online`. Localhost, preview domains, automated browsers and Do Not Track visitors are excluded. An empty token disables analytics. SDK failures do not block the site. Visitors remain anonymous; no identification calls are made.
+
+Page views, page leaves and automatic clicks are collected alongside `section_viewed`, `case_study_opened`, `booking_clicked`, `resume_clicked`, `full_cv_clicked`, `email_clicked`, `email_copy_clicked`, `engagement_page_clicked`, `incident_zero_clicked` and `system_defence_clicked`. Custom events include the page path and section placement or case ID. Email copy measures the click; booking measures the outbound click, not a completed booking. Filter by `site = mohd_portfolio` and `environment = production` in PostHog. Start with a page-view → case-study → booking funnel, and compare résumé and engagement-page clicks by landing page.
+
+For session replays, enable recording in PostHog project settings and set `VITE_POSTHOG_SESSION_REPLAY=true` before building. All input fields are masked; console logs, network headers/bodies and cross-origin iframe recording are disabled. Canvas gameplay cannot be understood fully from DOM replay. Replay is off by default.
+
+For GitHub Actions, configure repository **Settings → Secrets and variables → Actions → Variables** with the same three `VITE_POSTHOG_*` values; the Pages build step reads them. For Cloudflare Git builds, add them to the production build environment variables. For CLI deployment, `.env.local` supplies the values. Changing values requires rebuilding and deploying. Verify in PostHog Activity after a production visit with Do Not Track off; check the named events by opening a case study and following a résumé or booking link.
+
+Configuration follows the [PostHog JavaScript SDK documentation](https://posthog.com/docs/libraries/js/config).
+
 ## Color themes
 
 The header’s theme selector offers **System** (default, follows the device’s color preference), **Time of day** (light from 07:00 to 18:59, dark otherwise, using the visitor’s local clock), **Light**, and **Dark**. Choices are remembered locally and synced across tabs. Automatic modes update while the page is open and when visitors return to it. If browser storage is unavailable, the choice still works for the current page.
@@ -72,7 +86,7 @@ The existing branch deployment command also remains available:
 npm run deploy
 ```
 
-It builds and publishes `dist` to gh-pages. Choose either Actions deployment or branch deployment, not both. The homepage uses hash section links; `/work-with-me/` has its own generated `index.html`, so direct visits and refreshes work on static hosting. There is no router library, backend, tracking or contact-form service.
+It builds and publishes `dist` to gh-pages. Choose either Actions deployment or branch deployment, not both. The homepage uses hash section links; `/work-with-me/` has its own generated `index.html`, so direct visits and refreshes work on static hosting. There is no router library, backend or contact-form service. Optional PostHog tracking is configured as described above.
 
 ## Cloudflare Pages
 
@@ -257,3 +271,9 @@ The browser suite uses optional Playwright and axe installed outside the project
 ## System Defence — Stage 2
 
 The optional `/incident-zero/defence/` arcade route now supports five seeded floors, two tactical tools, explicit level transitions and paused level-entry recovery. No backend or deployment was added. See [the feature architecture](src/features/incident-zero/defence/README.md) and [the Stage 2 review](docs/review/incident-zero-defence-stage2.md) for measured performance, generation/browser evidence and the remaining human playtest needs. Existing arcade QA entry scripts now exercise Stage 2.
+
+## Reading preferences
+
+Open **Display** in the shared header to choose **Default**, **Large**, or **Largest** text alongside the existing theme options. Default body text is 18px with standard browser settings; Large is 20px and Largest is 24px. Percentage sizing also respects browser font preferences and browser zoom. Choices apply before paint, persist locally, and sync across tabs; blocked storage still allows changes for the current page.
+
+Supporting labels are larger, paragraph spacing is more generous, and dense portfolio sections stack at Largest. The header measures its height so section links remain visible below it. Layouts and artwork retain their width rather than scaling the entire page. Without JavaScript, readable default text and native navigation remain available; the Display control is hidden.
