@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mohd.paramasvara.online/sitemap.xml
