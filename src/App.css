@@ -135,9 +135,11 @@ h1 .period {
 .hero-social {
   flex-wrap: wrap;
   display: flex;
-  gap: 28px;
+  gap: 4px 28px;
   margin-top: 20px;
 }
+.hero-projects + .hero-social { margin-top: 4px; }
+.hero-projects a { color: var(--text); }
 .hero-social a {
   font-size: 0.8rem;
   min-height: 44px;
@@ -1072,6 +1074,12 @@ h3 {
 .incident-callout > div:last-child > p { font-size: 0.75rem; }
 @media (max-width: 760px) { .incident-callout { align-items: flex-start; flex-direction: column; gap: 20px; } }
 .contact-booking .button { max-width: 100%; }
+.no-two-mondays { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 552px); align-items: center; gap: 40px; padding-block: 40px; border-bottom: 1px solid var(--line); }
+.no-two-mondays h2 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
+.no-two-mondays-description { max-width: 48ch; margin-block: 12px 20px; color: var(--muted); font-size: .9rem; }
+.no-two-mondays-embed { display: block; width: 100%; max-width: 552px; height: 167px; border: 0; color-scheme: light; }
+.no-two-mondays-links { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; }
+@media (max-width: 1000px) { .no-two-mondays { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
 .contact-booking p { margin-top: 12px; color: var(--muted); font-size: .85rem; }
 
 .case-conversation { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; margin-top: 20px; }

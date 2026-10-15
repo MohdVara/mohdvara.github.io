@@ -27,18 +27,16 @@ interface Project {
 export const projects: Project[] = [
   {
     id: "campus", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
-    title: "University branches, brought into a shared codebase.",
-    summary: "Separate university-branch implementations needed a shared foundation while retaining core academic workflows.",
-    scope: "Multiple university branches · students · classes · academic structures",
-    result: "Rebuilt Campus Management System V3 into a more unified codebase supporting branch workflows.",
-    functions: ["Branch implementations", "Shared campus codebase", "Students, classes & academic structures"],
-    visualLabel: "Campus Management Modernisation",
+    title: "Modernising an established education platform.",
+    summary: "Full-stack engineering and technical leadership on an established platform in the education sector.",
+    scope: "Education platform · full-stack engineering · technical leadership",
+    result: "Contributed to platform modernisation with a focus on maintainability and ongoing delivery.",
+    functions: ["Platform modernisation", "Full-stack engineering", "Maintainability"],
+    visualLabel: "Education Platform Modernisation",
     details: [
-      ["Problem", "Unify separate branch implementations while preserving student, class and academic workflows."],
-      ["My contribution", "Led full-stack campus and classroom development as Principal Full Stack Developer, including rebuilding Campus Management System V3 from April 2023 onward."],
-      ["Constraints", "Existing branch variations and core academic workflows had to remain supported during modernisation."],
-      ["Approach", "Consolidated branch implementations. Introduced multi-environment DevOps and deployment procedures across the wider campus work."],
-      ["Delivered result", "A rebuilt, more unified campus-management codebase. Maintainability and hosting efficiency guided the modernisation work."],
+      ["My contribution", "Led full-stack development and contributed technical direction as Principal Full Stack Developer."],
+      ["Focus", "Modernising established software while supporting its ongoing use and development."],
+      ["Engineering priorities", "Maintainability, dependable delivery and long-term platform development."],
     ], stack: [],
   },
   {
@@ -194,7 +192,7 @@ export const experience = [
   {
     period: "Mar 2025 — Present",
     title: "Principal Full Stack Developer",
-    company: "Confidential engagement",
+    company: "Wensymes",
     type: "Remote · Singapore",
     description:
       "Building full-stack HR and administration tools with cloud services. Planning domain tools around data consistency, access control and uptime.",

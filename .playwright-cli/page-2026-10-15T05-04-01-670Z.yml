@@ -1,0 +1,484 @@
+- generic [ref=f1e2]:
+  - link "Skip to content" [ref=f1e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "Mohd. Paramasvara — home" [ref=f1e6] [cursor=pointer]:
+        - /url: "#home"
+        - generic [aria-hidden] [ref=f1e7]: mpv.
+        - generic [ref=f1e8]: Mohd. Paramasvara
+      - generic [ref=f1e9]:
+        - navigation "Primary navigation" [ref=f1e10]:
+          - link "Work" [ref=f1e11] [cursor=pointer]:
+            - /url: "#work"
+          - link "Experience" [ref=f1e12] [cursor=pointer]:
+            - /url: "#experience"
+          - link "Capabilities" [ref=f1e13] [cursor=pointer]:
+            - /url: "#capabilities"
+          - link "About" [ref=f1e14] [cursor=pointer]:
+            - /url: "#about"
+          - link "Contact" [ref=f1e15] [cursor=pointer]:
+            - /url: "#contact"
+        - group [ref=f1e16]:
+          - generic "Display" [ref=f1e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e18]: Aa
+            - text: Display
+          - option "Default" [selected]
+          - option "Large"
+          - option "Largest"
+          - option "System" [selected]
+          - option "Time of day"
+          - option "Light"
+          - option "Dark"
+  - main [ref=f1e19]:
+    - region [ref=f1e20]:
+      - generic [ref=f1e21]:
+        - paragraph [ref=f1e22]: Based in Sabah, Malaysia
+        - heading "Mohd. Paramasvara." [level=1] [ref=f1e24]: Mohd.Paramasvara.
+        - paragraph [ref=f1e25]: Principal Full-Stack EngineerTechnical Lead & Software Architect
+        - paragraph [ref=f1e26]: From complex business requirements to production software. I build full-stack systems, modernize legacy platforms, and lead engineering delivery.
+        - generic [ref=f1e27]:
+          - link "Explore my work" [ref=f1e28] [cursor=pointer]:
+            - /url: "#work"
+            - text: Explore my work
+            - generic [aria-hidden] [ref=f1e29]: ↗
+          - link "2-page résumé (opens in a new tab)" [ref=f1e30] [cursor=pointer]:
+            - /url: https://rxresu.me/mwara95/2-page-resume
+            - text: 2-page résumé
+            - generic [aria-hidden] [ref=f1e31]: ↗
+            - generic [ref=f1e32]: (opens in a new tab)
+          - link "Full CV (opens in a new tab)" [ref=f1e33] [cursor=pointer]:
+            - /url: https://rxresu.me/mwara95/curriculum-vitae
+            - text: Full CV
+            - generic [aria-hidden] [ref=f1e34]: ↗
+            - generic [ref=f1e35]: (opens in a new tab)
+        - generic [ref=f1e36]:
+          - link "LinkedIn (opens in a new tab)" [ref=f1e37] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/mohdvara/
+            - text: LinkedIn
+            - generic [aria-hidden] [ref=f1e38]: ↗
+            - generic [ref=f1e39]: (opens in a new tab)
+          - link "Incident Zero · engineering story" [ref=f1e40] [cursor=pointer]:
+            - /url: /incident-zero/
+            - text: Incident Zero · engineering story
+            - generic [aria-hidden] [ref=f1e41]: ↗
+          - link "Work with me" [ref=f1e42] [cursor=pointer]:
+            - /url: /work-with-me/
+            - text: Work with me
+            - generic [aria-hidden] [ref=f1e43]: ↗
+          - link "GitHub (opens in a new tab)" [ref=f1e44] [cursor=pointer]:
+            - /url: https://github.com/MohdVara
+            - text: GitHub
+            - generic [aria-hidden] [ref=f1e45]: ↗
+            - generic [ref=f1e46]: (opens in a new tab)
+      - figure "Engineer. Architect. Builder. 01 / PROFILE" [ref=f1e47]:
+        - img "Illustrated portrait of Mohd. Paramasvara" [ref=f1e49]
+        - generic [ref=f1e50]:
+          - generic [ref=f1e51]: Engineer. Architect. Builder.
+          - generic [ref=f1e52]: 01 / PROFILE
+    - region "Career highlights" [ref=f1e53]:
+      - generic [ref=f1e54]:
+        - strong [ref=f1e55]: Since 2013
+        - generic [ref=f1e56]: Full-stack engineering
+      - generic [ref=f1e57]:
+        - strong [ref=f1e58]: Principal & Director
+        - generic [ref=f1e59]: Hands-on delivery & leadership
+      - generic [ref=f1e60]:
+        - strong [ref=f1e61]: 20+ properties
+        - generic [ref=f1e62]: Rental operations platform
+    - region [ref=f1e63]:
+      - generic [ref=f1e64]:
+        - generic [ref=f1e65]:
+          - paragraph [ref=f1e66]: 01 / Selected work
+          - heading [level=2] [ref=f1e67]:
+            - generic [ref=f1e68]: Systems behindthe software.
+        - paragraph [ref=f1e69]: A selection of full-stack work across education, HR, insurance, and property operations.
+      - generic [ref=f1e70]:
+        - article [ref=f1e71]:
+          - generic [ref=f1e72]:
+            - generic [ref=f1e73]:
+              - generic [ref=f1e74]: Education / Modernisation
+              - generic [ref=f1e75]: "01"
+            - generic [ref=f1e76]:
+              - button "01 Branch implementations" [pressed] [ref=f1e77] [cursor=pointer]:
+                - generic [ref=f1e78]: "01"
+                - generic [ref=f1e79]: Branch implementations
+              - button "02 Shared campus codebase" [ref=f1e81] [cursor=pointer]:
+                - generic [ref=f1e82]: "02"
+                - generic [ref=f1e83]: Shared campus codebase
+              - button "03 Students, classes & academic structures" [ref=f1e85] [cursor=pointer]:
+                - generic [ref=f1e86]: "03"
+                - generic [ref=f1e87]: Students, classes & academic structures
+            - paragraph [ref=f1e89]: Different university branches had separate system implementations.
+            - paragraph [ref=f1e90]: Campus Management Modernisation
+          - generic [ref=f1e91]:
+            - paragraph [ref=f1e92]: Centre for Content Creation / 2023 onward
+            - heading "University branches, brought into a shared codebase." [level=3] [ref=f1e93]
+            - paragraph [ref=f1e94]: Separate university-branch implementations needed a shared foundation while retaining core academic workflows.
+            - paragraph [ref=f1e95]:
+              - generic [ref=f1e96]: Delivered
+              - text: Rebuilt Campus Management System V3 into a more unified codebase supporting branch workflows.
+            - group [ref=f1e97]:
+              - generic "View engineering details for Campus Management Modernisation" [ref=f1e98] [cursor=pointer]:
+                - text: View engineering details
+                - generic [ref=f1e99]: for Campus Management Modernisation
+                - generic [aria-hidden] [ref=f1e100]: +
+        - article [ref=f1e101]:
+          - generic [ref=f1e102]:
+            - generic [ref=f1e103]:
+              - generic [ref=f1e104]: Fintech / Integration
+              - generic [ref=f1e105]: "02"
+            - generic [ref=f1e106]:
+              - button "01 Multiple insurance providers" [pressed] [ref=f1e107] [cursor=pointer]:
+                - generic [ref=f1e108]: "01"
+                - generic [ref=f1e109]: Multiple insurance providers
+              - button "02 Normalized quotations" [ref=f1e111] [cursor=pointer]:
+                - generic [ref=f1e112]: "02"
+                - generic [ref=f1e113]: Normalized quotations
+              - button "03 Partner APIs & policy issuance" [ref=f1e115] [cursor=pointer]:
+                - generic [ref=f1e116]: "03"
+                - generic [ref=f1e117]: Partner APIs & policy issuance
+            - paragraph [ref=f1e119]: Rate fetching across multiple insurance providers and product types.
+            - paragraph [ref=f1e120]: Insurance Comparison System
+          - generic [ref=f1e121]:
+            - paragraph [ref=f1e122]: PolicyStreet / 2019–2021
+            - heading "From insurance rates to integrated policy issuance." [level=3] [ref=f1e123]
+            - paragraph [ref=f1e124]: Internal teams and partners needed consistent quoting and issuance across different insurers.
+            - paragraph [ref=f1e125]:
+              - generic [ref=f1e126]: Delivered
+              - text: Normalized rates from multiple providers into one interface, with integrated quotation and policy issuance flows.
+            - group [ref=f1e127]:
+              - generic "View engineering details for Insurance Comparison System" [ref=f1e128] [cursor=pointer]:
+                - text: View engineering details
+                - generic [ref=f1e129]: for Insurance Comparison System
+                - generic [aria-hidden] [ref=f1e130]: +
+        - article [ref=f1e131]:
+          - generic [ref=f1e132]:
+            - generic [ref=f1e133]:
+              - generic [ref=f1e134]: Proptech / Business operations
+              - generic [ref=f1e135]: "03"
+            - generic [ref=f1e136]:
+              - button "01 Properties, tenants & contracts" [pressed] [ref=f1e137] [cursor=pointer]:
+                - generic [ref=f1e138]: "01"
+                - generic [ref=f1e139]: Properties, tenants & contracts
+              - button "02 Payments, renewals & cancellations" [ref=f1e141] [cursor=pointer]:
+                - generic [ref=f1e142]: "02"
+                - generic [ref=f1e143]: Payments, renewals & cancellations
+              - button "03 Property-level financial reporting" [ref=f1e145] [cursor=pointer]:
+                - generic [ref=f1e146]: "03"
+                - generic [ref=f1e147]: Property-level financial reporting
+            - paragraph [ref=f1e149]: Reliable multi-entity data structures connect properties, tenants, and contracts.
+            - paragraph [ref=f1e150]: Home Rental Management System
+          - generic [ref=f1e151]:
+            - paragraph [ref=f1e152]: MegaInfinite / 2018–2020
+            - heading "Rental operations, from contracts to financial clarity." [level=3] [ref=f1e153]
+            - paragraph [ref=f1e154]: Rental staff needed connected property, tenant, contract and financial workflows.
+            - paragraph [ref=f1e155]:
+              - generic [ref=f1e156]: Delivered
+              - text: Tracked 20+ properties, with contract workflows and property-level income, expenses, and profit/loss reporting.
+            - group [ref=f1e157]:
+              - generic "View engineering details for Home Rental Management System" [ref=f1e158] [cursor=pointer]:
+                - text: View engineering details
+                - generic [ref=f1e159]: for Home Rental Management System
+                - generic [aria-hidden] [ref=f1e160]: +
+        - article [ref=f1e161]:
+          - generic [ref=f1e162]:
+            - paragraph [ref=f1e163]: Centre for Content Creation / 2021 onward
+            - heading "Online classes, with attendance and reporting built in." [level=3] [ref=f1e164]
+            - paragraph [ref=f1e165]: Connected live classes, participation, recordings and reporting to existing systems.
+            - paragraph [ref=f1e166]: ScopeLive sessions · participation · recordings · reporting APIs
+            - paragraph [ref=f1e167]:
+              - generic [ref=f1e168]: Delivered
+              - text: Minute-by-minute attendance tracking, meeting recordings stored in S3, and APIs that make session data available for reporting and class metrics.
+            - group [ref=f1e169]:
+              - generic "View engineering details for Classroom & Meeting Tools" [ref=f1e170] [cursor=pointer]:
+                - text: View engineering details
+                - generic [ref=f1e171]: for Classroom & Meeting Tools
+                - generic [aria-hidden] [ref=f1e172]: +
+        - article [ref=f1e173]:
+          - generic [ref=f1e174]:
+            - paragraph [ref=f1e175]: Centre for Content Creation / 2016–2017
+            - heading "HR workflows that adapt to different companies." [level=3] [ref=f1e176]
+            - paragraph [ref=f1e177]: Helped build configurable HR workflows for multiple companies.
+            - paragraph [ref=f1e178]: ScopeMultiple companies · configurable leave and attendance rules
+            - paragraph [ref=f1e179]:
+              - generic [ref=f1e180]: Delivered
+              - text: Flexible HR workflows that accommodate each company’s corporate structure and policies within the same system.
+            - group [ref=f1e181]:
+              - generic "View engineering details for Human Resource Management System" [ref=f1e182] [cursor=pointer]:
+                - text: View engineering details
+                - generic [ref=f1e183]: for Human Resource Management System
+                - generic [aria-hidden] [ref=f1e184]: +
+      - link "More work & professional background on LinkedIn (opens in a new tab)" [ref=f1e185] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/mohdvara/
+        - text: More work & professional background on LinkedIn
+        - generic [aria-hidden] [ref=f1e186]: ↗
+        - generic [ref=f1e187]: (opens in a new tab)
+    - region [ref=f1e188]:
+      - generic [ref=f1e189]:
+        - generic [ref=f1e190]:
+          - paragraph [ref=f1e191]: 01A / Public engineering
+          - heading "Open to inspection." [level=2] [ref=f1e192]
+        - paragraph [ref=f1e193]: Selected public engineering work you can inspect directly — from domain rules and tests to frontend delivery.
+      - generic [ref=f1e194]:
+        - article [ref=f1e195]:
+          - generic [ref=f1e196]:
+            - paragraph [ref=f1e197]: API experiment
+            - heading "Hotel booking constraint API" [level=3] [ref=f1e198]
+            - paragraph [ref=f1e199]: nodejs-hotel-problem
+          - generic [ref=f1e200]:
+            - paragraph [ref=f1e201]: An interview project that allocates hotel rooms under adult, child and infant occupancy rules.
+            - paragraph [ref=f1e202]: Inspectable booking logic, a reusable constraint parser and tests covering valid and rejected requests.
+            - paragraph [ref=f1e203]: JavaScript · Node.js · Express · Mocha / Chai
+            - link "View nodejs-hotel-problem source on GitHub (opens in a new tab)" [ref=f1e204] [cursor=pointer]:
+              - /url: https://github.com/MohdVara/nodejs-hotel-problem
+              - text: View source on GitHub
+              - generic [aria-hidden] [ref=f1e205]: ↗
+        - article [ref=f1e206]:
+          - generic [ref=f1e207]:
+            - paragraph [ref=f1e208]: Frontend engineering
+            - heading "This portfolio, in source" [level=3] [ref=f1e209]
+            - paragraph [ref=f1e210]: mohdvara.github.io
+          - generic [ref=f1e211]:
+            - paragraph [ref=f1e212]: The React and TypeScript source behind this static engineering portfolio.
+            - paragraph [ref=f1e213]: Prerendered content, native disclosures, theme handling and production-artifact checks are available to inspect.
+            - paragraph [ref=f1e214]: React · TypeScript · Vite
+            - link "View mohdvara.github.io source on GitHub (opens in a new tab)" [ref=f1e215] [cursor=pointer]:
+              - /url: https://github.com/MohdVara/mohdvara.github.io
+              - text: View source on GitHub
+              - generic [aria-hidden] [ref=f1e216]: ↗
+      - link "View more public work on GitHub (opens in a new tab)" [ref=f1e217] [cursor=pointer]:
+        - /url: https://github.com/MohdVara
+        - text: View more public work on GitHub
+        - generic [aria-hidden] [ref=f1e218]: ↗
+        - generic [ref=f1e219]: (opens in a new tab)
+    - region [ref=f1e220]:
+      - generic [ref=f1e221]:
+        - paragraph [ref=f1e222]: Interactive / Incident Zero
+        - heading "Something is wrong in production." [level=2] [ref=f1e223]
+        - paragraph [ref=f1e224]: Payroll closes tomorrow. The systems disagree.
+      - generic [ref=f1e225]:
+        - link "Investigate the incident" [ref=f1e226] [cursor=pointer]:
+          - /url: /incident-zero/
+          - text: Investigate the incident
+          - generic [aria-hidden] [ref=f1e227]: ↗
+        - paragraph [ref=f1e228]: ~8 min · keyboard / touch
+    - region [ref=f1e229]:
+      - generic [ref=f1e230]:
+        - paragraph [ref=f1e231]: Independent game / modvar
+        - 'heading "No Two Mondays: Trial Period" [level=2] [ref=f1e232]'
+        - paragraph [ref=f1e233]: One Monday, three coworkers, and a production outage. An interactive office story about the systems you repair and the people you work with.
+        - link "Play on itch.io (opens in a new tab)" [ref=f1e234] [cursor=pointer]:
+          - /url: https://modvar.itch.io/no-two-mondays
+          - text: Play on itch.io
+          - generic [aria-hidden] [ref=f1e235]: ↗
+          - generic [ref=f1e236]: (opens in a new tab)
+      - iframe [ref=f1e237]
+    - region "Ownership at every level." [ref=f1e239]:
+      - generic [ref=f1e240]:
+        - generic [ref=f1e242]:
+          - paragraph [ref=f1e243]: 02 / Experience
+          - heading "Ownership at every level." [level=2] [ref=f1e244]
+        - generic [ref=f1e245]:
+          - generic [ref=f1e246]:
+            - paragraph [ref=f1e247]: Building since 2013.Leading through the code.
+            - generic [ref=f1e248]: Selected roles. Several engagements run concurrently.
+            - generic [ref=f1e249]:
+              - link "2-page résumé (opens in a new tab)" [ref=f1e250] [cursor=pointer]:
+                - /url: https://rxresu.me/mwara95/2-page-resume
+                - text: 2-page résumé
+                - generic [aria-hidden] [ref=f1e251]: ↗
+                - generic [ref=f1e252]: (opens in a new tab)
+              - link "Full CV (opens in a new tab)" [ref=f1e253] [cursor=pointer]:
+                - /url: https://rxresu.me/mwara95/curriculum-vitae
+                - text: Full CV
+                - generic [aria-hidden] [ref=f1e254]: ↗
+                - generic [ref=f1e255]: (opens in a new tab)
+            - figure "Selected role starts / overlapping engagements" [ref=f1e256]:
+              - link "04 / 2018 Technical training" [ref=f1e273] [cursor=pointer]:
+                - /url: "#role-3"
+                - generic [ref=f1e274]: 04 / 2018
+                - generic [ref=f1e275]: Technical training
+              - link "03 / 2019 Engineering direction" [ref=f1e276] [cursor=pointer]:
+                - /url: "#role-2"
+                - generic [ref=f1e277]: 03 / 2019
+                - generic [ref=f1e278]: Engineering direction
+              - link "02 / 2021 Full-stack → Principal" [ref=f1e279] [cursor=pointer]:
+                - /url: "#role-1"
+                - generic [ref=f1e280]: 02 / 2021
+                - generic [ref=f1e281]: Full-stack → Principal
+              - link "01 / 2025 Principal delivery" [ref=f1e282] [cursor=pointer]:
+                - /url: "#role-0"
+                - generic [ref=f1e283]: 01 / 2025
+                - generic [ref=f1e284]: Principal delivery
+          - list [ref=f1e286]:
+            - listitem [ref=f1e287]:
+              - paragraph [ref=f1e288]:
+                - generic [ref=f1e289]: "01"
+                - text: Mar 2025 — Present
+              - heading "Principal Full Stack Developer" [level=3] [ref=f1e290]
+              - paragraph [ref=f1e291]:
+                - text: Confidential engagement
+                - generic [ref=f1e292]: · Remote · Singapore
+              - paragraph [ref=f1e293]: Building full-stack HR and administration tools with cloud services. Planning domain tools around data consistency, access control and uptime.
+            - listitem [ref=f1e294]:
+              - paragraph [ref=f1e295]:
+                - generic [ref=f1e296]: "02"
+                - text: Jun 2022 — Present
+              - heading "Principal Full Stack Engineer" [level=3] [ref=f1e297]
+              - paragraph [ref=f1e298]:
+                - text: Centre for Content Creation
+                - generic [ref=f1e299]: · Contract · Remote
+              - paragraph [ref=f1e300]: Leading classroom applications, meeting tools and integrations. Modernizing legacy systems and establishing DevOps and deployment standards. Progressed from Full Stack Developer (June 2021–June 2022).
+            - listitem [ref=f1e301]:
+              - paragraph [ref=f1e302]:
+                - generic [ref=f1e303]: "03"
+                - text: May 2019 — Jun 2021
+              - heading "Senior Full Stack Developer → Director, Engineering" [level=3] [ref=f1e304]
+              - paragraph [ref=f1e305]:
+                - text: PolicyStreet
+                - generic [ref=f1e306]: · Full-time
+              - paragraph [ref=f1e307]: Built insurance rate normalization; progressed to engineering direction in October 2019. Led development, operations and partner integrations across quotation and policy issuance.
+            - listitem [ref=f1e308]:
+              - paragraph [ref=f1e309]:
+                - generic [ref=f1e310]: "04"
+                - text: Jun 2018 — Present
+              - heading "Technical Trainer" [level=3] [ref=f1e311]
+              - paragraph [ref=f1e312]:
+                - text: Tertiary Courses
+                - generic [ref=f1e313]: · Training
+              - paragraph [ref=f1e314]: Teaching full-stack development from beginner to advanced levels, across backend frameworks and relational and non-relational databases.
+    - region [ref=f1e315]:
+      - generic [ref=f1e317]:
+        - paragraph [ref=f1e318]: 03 / Technical capabilities
+        - heading [level=2] [ref=f1e319]:
+          - generic [ref=f1e320]: Across the stack.Beyond the code.
+      - generic [ref=f1e321]:
+        - group "Engineering capability relationships" [ref=f1e322]:
+          - paragraph [ref=f1e323]: One system. Four connected disciplines.
+          - generic [ref=f1e324]:
+            - generic [ref=f1e325]:
+              - button "Full-stack engineering Interfaces, services and integrations." [pressed] [ref=f1e326] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f1e327]: "01"
+                - text: Full-stack engineering
+                - generic [ref=f1e328]: Interfaces, services and integrations.
+              - button "Interfaces" [ref=f1e329] [cursor=pointer]
+              - button "Services" [ref=f1e330] [cursor=pointer]
+            - generic [ref=f1e331]:
+              - button "Architecture & modernization Legacy systems, domain models and delivery." [ref=f1e332] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f1e333]: "02"
+                - text: Architecture & modernization
+                - generic [ref=f1e334]: Legacy systems, domain models and delivery.
+              - button "Integration" [ref=f1e335] [cursor=pointer]
+              - button "Delivery" [ref=f1e336] [cursor=pointer]
+            - generic [ref=f1e337]:
+              - button "Data & infrastructure Databases and repeatable environments." [ref=f1e338] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f1e339]: "03"
+                - text: Data & infrastructure
+                - generic [ref=f1e340]: Databases and repeatable environments.
+              - button "Data models" [ref=f1e341] [cursor=pointer]
+              - button "Environments" [ref=f1e342] [cursor=pointer]
+            - generic [ref=f1e343]:
+              - button "Leadership & applied AI Engineering direction, training and knowledge tools." [ref=f1e344] [cursor=pointer]:
+                - generic [aria-hidden] [ref=f1e345]: "04"
+                - text: Leadership & applied AI
+                - generic [ref=f1e346]: Engineering direction, training and knowledge tools.
+              - button "Team enablement" [ref=f1e347] [cursor=pointer]
+              - button "Knowledge tools" [ref=f1e348] [cursor=pointer]
+          - paragraph [ref=f1e349]: Select a branch or practice to explore.
+        - generic [ref=f1e350]:
+          - paragraph [ref=f1e351]: 01 / Connected practice
+          - heading "Full-stack engineering" [level=3] [ref=f1e352]
+          - paragraph [ref=f1e353]: User interfaces, backend services, and integrations, chosen around the needs of the system.
+          - paragraph [ref=f1e354]: React · Vue · TypeScript · Laravel · Django · Rails · Node.js
+          - generic [ref=f1e355]: Interfaces, architecture, infrastructure, and people work together.
+    - region [ref=f1e356]:
+      - generic [ref=f1e358]:
+        - paragraph [ref=f1e359]: 03A / What I solve
+        - heading "When the software becomes the problem." [level=2] [ref=f1e360]: When the softwarebecomes the problem.
+      - generic [ref=f1e361]:
+        - generic [ref=f1e362]:
+          - paragraph [ref=f1e363]: Legacy software slowing delivery
+          - generic [aria-hidden] [ref=f1e364]: →
+          - paragraph [ref=f1e365]: System modernisation
+        - generic [ref=f1e366]:
+          - paragraph [ref=f1e367]: Business workflows that do not fit a simple app
+          - generic [aria-hidden] [ref=f1e368]: →
+          - paragraph [ref=f1e369]: Complex product engineering
+        - generic [ref=f1e370]:
+          - paragraph [ref=f1e371]: Systems becoming hard to extend or operate
+          - generic [aria-hidden] [ref=f1e372]: →
+          - paragraph [ref=f1e373]: Architecture & delivery
+        - generic [ref=f1e374]:
+          - paragraph [ref=f1e375]: A knowledge workflow that needs more than an AI demo
+          - generic [aria-hidden] [ref=f1e376]: →
+          - paragraph [ref=f1e377]: Applied AI integration
+      - link "Explore working together" [ref=f1e378] [cursor=pointer]:
+        - /url: /work-with-me/
+        - text: Explore working together
+        - generic [aria-hidden] [ref=f1e379]: ↗
+    - region [ref=f1e380]:
+      - generic [ref=f1e381]:
+        - generic [ref=f1e382]:
+          - paragraph [ref=f1e383]: 04 / About
+          - heading [level=2] [ref=f1e384]:
+            - text: Good engineeringstarts with
+            - emphasis [ref=f1e385]: why.
+          - figure "Borneo Sabah, Malaysia" [ref=f1e386]:
+            - generic [ref=f1e387]:
+              - img [aria-hidden]:
+                - generic:
+                  - generic: 01 / BRANCH
+                  - generic: 02 / FLOW
+                  - generic: 03 / VEIN
+                  - generic: STRUCTURE STUDY
+            - generic [ref=f1e388]:
+              - generic [ref=f1e389]: Borneo
+              - generic [ref=f1e390]: Sabah, Malaysia
+        - generic [ref=f1e391]:
+          - paragraph [ref=f1e392]: I’m Mohd. Paramasvara, a full-stack software engineer based in Sabah, Malaysia. My work connects software architecture, hands-on implementation, and the business problem a system needs to solve.
+          - paragraph [ref=f1e393]: I look at domain rules, data and delivery together, so the implementation serves the wider system. Alongside building software, I teach development and help teams understand the decisions behind the code.
+          - paragraph [ref=f1e394]:
+            - generic [ref=f1e395]: Education
+            - text: Computing & Information Systems · University of PortsmouthComputer Software Engineering · Multimedia College
+    - region [ref=f1e396]:
+      - generic [ref=f1e397]:
+        - paragraph [ref=f1e398]: 05 / Let’s talk
+        - heading "A complex problem. A clear next step." [level=2] [ref=f1e399]: A complex problem.A clear next step.
+        - paragraph [ref=f1e400]: Discuss a senior engineering role, a system that needs modernising, or a technical project worth solving.
+        - generic [ref=f1e401]:
+          - link "Book a conversation (opens Cal.com in a new tab)" [ref=f1e402] [cursor=pointer]:
+            - /url: https://cal.com/mohd-paramasvara/discovery
+            - text: Book a conversation
+            - generic [aria-hidden] [ref=f1e403]: ↗
+          - paragraph [ref=f1e404]: An introductory conversation about an engineering opportunity, architecture problem or collaboration.
+        - link "mohd@paramasvara.online" [ref=f1e405] [cursor=pointer]:
+          - /url: mailto:mohd@paramasvara.online
+          - text: mohd@paramasvara.online
+          - generic [aria-hidden] [ref=f1e406]: ↗
+        - generic [ref=f1e407]:
+          - button "Copy email" [ref=f1e408] [cursor=pointer]
+          - status
+        - generic [ref=f1e409]:
+          - link "Connect on LinkedIn (opens in a new tab)" [ref=f1e410] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/mohdvara/
+            - text: Connect on LinkedIn
+            - generic [aria-hidden] [ref=f1e411]: ↗
+            - generic [ref=f1e412]: (opens in a new tab)
+          - link "2-page résumé (opens in a new tab)" [ref=f1e413] [cursor=pointer]:
+            - /url: https://rxresu.me/mwara95/2-page-resume
+            - text: 2-page résumé
+            - generic [aria-hidden] [ref=f1e414]: ↗
+            - generic [ref=f1e415]: (opens in a new tab)
+          - link "Full CV (opens in a new tab)" [ref=f1e416] [cursor=pointer]:
+            - /url: https://rxresu.me/mwara95/curriculum-vitae
+            - text: Full CV
+            - generic [aria-hidden] [ref=f1e417]: ↗
+            - generic [ref=f1e418]: (opens in a new tab)
+  - contentinfo [ref=f1e419]:
+    - paragraph [ref=f1e420]: © Mohd. Paramasvara
+    - paragraph [ref=f1e421]: Based in Borneo. Building beyond it.
+    - link "Back to top" [ref=f1e422] [cursor=pointer]:
+      - /url: "#home"
+      - text: Back to top
+      - generic [aria-hidden] [ref=f1e423]: ↑

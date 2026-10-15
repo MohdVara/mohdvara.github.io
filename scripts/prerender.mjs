@@ -29,6 +29,11 @@ try {
   for (const { route, title, description } of [
     { route: "404", title: "Page not found | Mohd. Paramasvara", description: "This page could not be found. Return to the portfolio or contact Mohd. Paramasvara." },
     {
+      route: "no-two-mondays",
+      title: "No Two Mondays — AI-Assisted Game Development Case Study | Mohd. Paramasvara",
+      description: "Building No Two Mondays with Codex: 210 recovered human prompts, iterative refinement, modular game architecture, save compatibility and an eight-hour automated traversal campaign.",
+    },
+    {
       route: "work-with-me",
       title:
         "Work with Mohd. Paramasvara | Software Architecture & Technical Leadership",
@@ -50,6 +55,11 @@ try {
   ]) {
     const url = `https://mohd.paramasvara.online/${route}/`;
     let work = html.replace("<!--app-html-->", render(`/${route}/`));
+    if (route === 'no-two-mondays') {
+      const css = (await readdir('dist/assets')).find(name => name.startsWith('NoTwoMondaysCaseStudy-') && name.endsWith('.css'));
+      if (!css) throw new Error('No Two Mondays case study stylesheet missing');
+      work = work.replace('</head>', `<link rel="stylesheet" href="/assets/${css}"></head>`);
+    }
     if (route === 'incident-zero' || route === 'incident-zero/defence') {
       // Style the static landing even without JavaScript. The homepage never
       // receives this route's stylesheet or a game preload.
@@ -102,7 +112,7 @@ try {
     await writeFile(`dist/${route}/index.html`, work);
   }
   console.log(
-    "Portfolio, Work With Me, Incident Zero and System Defence pre-rendered to static HTML.",
+    "Portfolio, Work With Me, No Two Mondays, Incident Zero and System Defence pre-rendered to static HTML.",
   );
 } finally {
   await rm(output, { recursive: true, force: true });

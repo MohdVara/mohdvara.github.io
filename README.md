@@ -272,6 +272,10 @@ The browser suite uses optional Playwright and axe installed outside the project
 
 The optional `/incident-zero/defence/` arcade route now supports five seeded floors, two tactical tools, explicit level transitions and paused level-entry recovery. No backend or deployment was added. See [the feature architecture](src/features/incident-zero/defence/README.md) and [the Stage 2 review](docs/review/incident-zero-defence-stage2.md) for measured performance, generation/browser evidence and the remaining human playtest needs. Existing arcade QA entry scripts now exercise Stage 2.
 
+## No Two Mondays case study
+
+`/no-two-mondays/` documents the owner's AI-assisted development process, historical prompt audit, revisions, runtime boundaries, save compatibility and the reviewed eight-hour traversal campaign. The homepage game entry links to it beside the itch.io card. Four semantic HTML/CSS diagrams remain readable without JavaScript; route content and CSS load separately from the homepage. Outcome examples use only the game's public locked labels. See [editorial sources and validation](docs/no-two-mondays-case-study.md) before updating counts or adding gameplay details.
+
 ## Reading preferences
 
 Open **Display** in the shared header to choose **Default**, **Large**, or **Largest** text alongside the existing theme options. Default body text is 18px with standard browser settings; Large is 20px and Largest is 24px. Percentage sizing also respects browser font preferences and browser zoom. Choices apply before paint, persist locally, and sync across tabs; blocked storage still allows changes for the current page.

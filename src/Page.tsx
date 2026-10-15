@@ -11,14 +11,19 @@ const LazyIncident = import.meta.env.SSR
 const LazyDefence = import.meta.env.SSR
   ? () => null
   : lazy(() => import("./features/incident-zero/defence/DefenceRoute"));
+const LazyNtmCaseStudy = import.meta.env.SSR
+  ? () => null
+  : lazy(() => import("./NoTwoMondaysCaseStudy"));
 export default function Page({
   path,
   incidentComponent,
   defenceComponent,
+  ntmCaseStudyComponent,
 }: {
   path: string;
   incidentComponent?: ComponentType;
   defenceComponent?: ComponentType;
+  ntmCaseStudyComponent?: ComponentType;
 }) {
   useEffect(() => {
     // Vite renders into an empty root, so native fragment navigation can run
@@ -57,7 +62,10 @@ export default function Page({
   const route = path.replace(/\/$/, "");
   const Incident = incidentComponent || LazyIncident;
   const Defence = defenceComponent || LazyDefence;
-  return route === "/incident-zero/defence" ? (
+  const NtmCaseStudy = ntmCaseStudyComponent || LazyNtmCaseStudy;
+  return route === "/no-two-mondays" ? (
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Loading the No Two Mondays case study…</p><a href="/">Return to portfolio</a></main>}><NtmCaseStudy /></Suspense></RouteRecovery>
+  ) : route === "/incident-zero/defence" ? (
     <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Initialising System Defence…</p><a href="/incident-zero/">Return to Incident Zero</a></main>}>
       <Defence />
     </Suspense></RouteRecovery>

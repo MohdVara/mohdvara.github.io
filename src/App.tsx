@@ -6,6 +6,7 @@ import { ProjectDiagram, CapabilityMap, CareerPath } from "./SystemDiagrams";
 import { PublicEngineering } from "./PublicEngineering";
 import { WhatISolve } from "./WhatISolve";
 import { IncidentCallout } from "./IncidentCallout";
+import { NoTwoMondays } from "./NoTwoMondays";
 import "./App.css";
 import "./NaturalGraphics.css";
 import "./SystemDiagrams.css";
@@ -213,12 +214,15 @@ function Hero() {
           </a>
           <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
         </div>
+        <nav className="hero-social hero-projects" aria-label="Game projects">
+          <a href="/no-two-mondays/">No Two Mondays · case study <Arrow /></a>
+          <a href="/incident-zero/">Incident Zero · engineering story <Arrow /></a>
+        </nav>
         <div className="hero-social">
+          <a href="/work-with-me/">Work with me <Arrow /></a>
           <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
             LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
-          <a href="/incident-zero/">Incident Zero · engineering story <Arrow /></a>
-          <a href="/work-with-me/">Work with me <Arrow /></a>
           <a href={profile.github} target="_blank" rel="noopener noreferrer">
             GitHub <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
@@ -556,6 +560,7 @@ function App() {
         <SelectedWork />
         <PublicEngineering />
         <IncidentCallout />
+        <NoTwoMondays />
         <SystemTransition />
         <Experience />
         <Capabilities />

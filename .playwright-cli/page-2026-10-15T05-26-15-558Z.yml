@@ -1,0 +1,299 @@
+- generic [ref=f2e2]:
+  - link "Skip to content" [ref=f2e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "Mohd. Paramasvara — home" [ref=f2e6] [cursor=pointer]:
+        - /url: /
+        - generic [aria-hidden] [ref=f2e7]: mpv.
+        - generic [ref=f2e8]: Mohd. Paramasvara
+      - generic [ref=f2e9]:
+        - navigation "Primary navigation" [ref=f2e10]:
+          - link "Work" [ref=f2e11] [cursor=pointer]:
+            - /url: /#work
+          - link "Experience" [ref=f2e12] [cursor=pointer]:
+            - /url: /#experience
+          - link "Capabilities" [ref=f2e13] [cursor=pointer]:
+            - /url: /#capabilities
+          - link "About" [ref=f2e14] [cursor=pointer]:
+            - /url: /#about
+          - link "Contact" [ref=f2e15] [cursor=pointer]:
+            - /url: "#contact"
+        - group [ref=f2e16]:
+          - generic "Display" [ref=f2e17] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f2e18]: Aa
+            - text: Display
+          - option "Default" [selected]
+          - option "Large"
+          - option "Largest"
+          - option "System" [selected]
+          - option "Time of day"
+          - option "Light"
+          - option "Dark"
+  - main [ref=f2e19]:
+    - generic [ref=f2e20]:
+      - paragraph [ref=f2e21]:
+        - link "Portfolio" [ref=f2e22] [cursor=pointer]:
+          - /url: /
+        - text: / Independent game case study
+      - paragraph [ref=f2e23]: "No Two Mondays: Trial Period / modvar"
+      - heading "Vibe coding. Then engineering for change." [level=1] [ref=f2e24]: Vibe coding.Then engineering for change.
+      - paragraph [ref=f2e25]: How I used AI-assisted development to build an office narrative game—and turned repeated feedback into a system I could keep extending.
+      - paragraph [ref=f2e26]: Mohd. Paramasvara · Product direction, engineering and playtest iteration
+      - generic [ref=f2e27]:
+        - link "Play on itch.io (opens in a new tab)" [ref=f2e28] [cursor=pointer]:
+          - /url: https://modvar.itch.io/no-two-mondays
+          - text: Play on itch.io
+          - generic [aria-hidden] [ref=f2e29]: ↗
+          - generic [ref=f2e30]: (opens in a new tab)
+        - link "Explore the development process ↓" [ref=f2e31] [cursor=pointer]:
+          - /url: "#ntm-process"
+      - generic [ref=f2e32]:
+        - generic [ref=f2e33]:
+          - term [ref=f2e34]: "210"
+          - definition [ref=f2e35]: recovered human prompts
+        - generic [ref=f2e36]:
+          - term [ref=f2e37]: "20"
+          - definition [ref=f2e38]: interactive Codex sessions
+        - generic [ref=f2e39]:
+          - term [ref=f2e40]: "37"
+          - definition [ref=f2e41]: prompts tagged as corrections or refinement
+      - paragraph [ref=f2e42]:
+        - text: "Historical local audit: 9 October–14 October 2026, cutoff 00:05 MYT. Counts describe recovered records through that cutoff; development continued afterward."
+        - link "How these numbers were counted" [ref=f2e43] [cursor=pointer]:
+          - /url: "#ntm-evidence"
+        - text: .
+    - navigation "Case study contents" [ref=f2e44]:
+      - link "The brief" [ref=f2e45] [cursor=pointer]:
+        - /url: "#ntm-brief"
+      - link "AI workflow" [ref=f2e46] [cursor=pointer]:
+        - /url: "#ntm-process"
+      - link "Revisions" [ref=f2e47] [cursor=pointer]:
+        - /url: "#ntm-iterations"
+      - link "Architecture" [ref=f2e48] [cursor=pointer]:
+        - /url: "#ntm-architecture"
+      - link "Eight-hour traversal" [ref=f2e49] [cursor=pointer]:
+        - /url: "#ntm-traversal"
+      - link "Lessons" [ref=f2e50] [cursor=pointer]:
+        - /url: "#ntm-lessons"
+    - region [ref=f2e51]:
+      - paragraph [ref=f2e52]: 01 / The product problem
+      - heading "A small office. A growing system." [level=2] [ref=f2e53]
+      - generic [ref=f2e54]:
+        - paragraph [ref=f2e55]: "No Two Mondays starts with a simple premise: one working day, three coworkers and a production outage. The challenge was to make decisions feel connected across technical work, conversations and the office around you. The setting could stay compact while the underlying system became richer."
+        - paragraph [ref=f2e56]: I used Codex throughout development, directing features, playing the results, reporting what felt wrong and asking for focused revisions. My work included setting the product constraints, deciding which changes belonged in the game, and requiring evidence that new work preserved existing behaviour.
+        - paragraph [ref=f2e57]: Here, scalability means being able to add and revise behaviour without losing consistency, save compatibility or a usable browser experience. This is a client-side game; the project does not demonstrate multiplayer concurrency or backend traffic scaling.
+      - figure "Actual game capture, 10 October 2026. An earlier presentation snapshot of the office; later development continued to refine the interface and artwork." [ref=f2e58]:
+        - link "Open the full-size No Two Mondays office screenshot" [ref=f2e59] [cursor=pointer]:
+          - /url: /images/no-two-mondays/office.jpg
+          - img "No Two Mondays office at the beginning of the day, with coworkers, desks, room doors and the game toolbar." [ref=f2e60]
+    - region [ref=f2e62]:
+      - paragraph [ref=f2e63]: 02 / Working with AI
+      - heading "The prompt was the start of the loop." [level=2] [ref=f2e64]
+      - generic [ref=f2e65]:
+        - paragraph [ref=f2e66]: "The development record shows a mixture of short corrections, larger feature briefs, reviews and continuation requests. Those requests were the steering mechanism: describe an intended experience, inspect the implementation, try it in the game, and make the next instruction more specific."
+        - paragraph [ref=f2e67]: The important shift was from requesting an isolated feature to specifying the contract around it. A new interaction also needed clear feedback, consistent state changes, appropriate input behaviour, persistence rules and checks for regressions. Repository instructions and implementation notes made those expectations available to later coding sessions.
+      - figure "Each review feeds the next brief. This is a synthesis of the recorded workflow, rather than a transcript of one session." [ref=f2e68]:
+        - paragraph [ref=f2e69]: Diagram 01 / The development loop
+        - list "AI-assisted development cycle" [ref=f2e70]:
+          - listitem [ref=f2e71]:
+            - generic [ref=f2e72]: "01"
+            - heading "Direct" [level=3] [ref=f2e73]
+            - paragraph [ref=f2e74]: Define the experience and the constraints.
+            - text: →
+          - listitem [ref=f2e75]:
+            - generic [ref=f2e76]: "02"
+            - heading "Implement" [level=3] [ref=f2e77]
+            - paragraph [ref=f2e78]: Use Codex to make a bounded change.
+            - text: →
+          - listitem [ref=f2e79]:
+            - generic [ref=f2e80]: "03"
+            - heading "Inspect" [level=3] [ref=f2e81]
+            - paragraph [ref=f2e82]: Play, review and check the actual result.
+            - text: →
+          - listitem [ref=f2e83]:
+            - generic [ref=f2e84]: "04"
+            - heading "Refine" [level=3] [ref=f2e85]
+            - paragraph [ref=f2e86]: Record the issue and tighten the next brief.
+      - generic [ref=f2e88]:
+        - generic [ref=f2e89]:
+          - heading "What I directed" [level=3] [ref=f2e90]
+          - paragraph [ref=f2e91]: Product scope, interaction clarity, visual preferences, compatibility requirements and the acceptance criteria for follow-up changes.
+        - generic [ref=f2e92]:
+          - heading "What AI accelerated" [level=3] [ref=f2e93]
+          - paragraph [ref=f2e94]: Implementation, test scaffolding, diagnostic tools, documentation and asset iteration. Generated output still needed inspection against the intended experience.
+    - region [ref=f2e95]:
+      - paragraph [ref=f2e96]: 03 / The cost of iteration
+      - heading "210 prompts did not mean 210 finished features." [level=2] [ref=f2e97]
+      - generic [ref=f2e98]:
+        - paragraph [ref=f2e99]: "The historical audit recovered 210 deduplicated human prompts across 20 interactive sessions. A union of its bug-fixing, refinement and refactoring tags contains 37 distinct prompts. The project feedback log separately records 21 feedback entries at the time of this review. These are different measures: a feedback entry may summarize several requests, and a prompt may address several concerns."
+        - paragraph [ref=f2e100]: The tagging is automated and lexical. It describes the requests that were recovered, rather than proving how many code modifications were necessary or how much time each feature took. The audit is a partial historical record, not the total lifetime prompt count.
+      - figure "Tags overlap. These selected categories do not sum to 210; requests with other or unspecified tags are omitted from this chart." [ref=f2e101]:
+        - paragraph [ref=f2e102]: Diagram 02 / Selected request types
+        - list "Selected workflow tags in the historical prompt audit" [ref=f2e103]:
+          - listitem [ref=f2e104]:
+            - generic [ref=f2e105]: Bug fixing
+            - strong [ref=f2e108]: "23"
+          - listitem [ref=f2e109]:
+            - generic [ref=f2e110]: QA / review
+            - strong [ref=f2e113]: "22"
+          - listitem [ref=f2e114]:
+            - generic [ref=f2e115]: Refinement
+            - strong [ref=f2e118]: "19"
+          - listitem [ref=f2e119]:
+            - generic [ref=f2e120]: New functionality
+            - strong [ref=f2e123]: "16"
+          - listitem [ref=f2e124]:
+            - generic [ref=f2e125]: Refactoring
+            - strong [ref=f2e128]: "2"
+      - table [ref=f2e131]:
+        - caption [ref=f2e132]: Examples of documented revision work
+        - rowgroup [ref=f2e133]:
+          - row [ref=f2e134]:
+            - columnheader "Observed issue" [ref=f2e135]
+            - columnheader "Engineering response" [ref=f2e136]
+            - columnheader "What it taught me" [ref=f2e137]
+        - rowgroup [ref=f2e138]:
+          - row [ref=f2e139]:
+            - rowheader "Choices were ambiguous" [ref=f2e140]
+            - cell "Named the affected character and added clearer action feedback." [ref=f2e141]
+            - cell "Correct state changes still need understandable interfaces." [ref=f2e142]
+          - row [ref=f2e143]:
+            - rowheader "Too much information at once" [ref=f2e144]
+            - cell "Grouped interactions and introduced contextual disclosure." [ref=f2e145]
+            - cell "Adding depth requires controlling when information appears." [ref=f2e146]
+          - row [ref=f2e147]:
+            - rowheader "Menus and reading competed with the game viewport" [ref=f2e148]
+            - cell "Contained the game surface and refined keyboard, mouse and internal scrolling." [ref=f2e149]
+            - cell "Input and layout need their own acceptance checks." [ref=f2e150]
+          - row [ref=f2e151]:
+            - rowheader "Generated character art needed correction" [ref=f2e152]
+            - cell "Retained approved sources, recorded generation provenance and used deterministic extraction and registration." [ref=f2e153]
+            - cell "A convincing generated image is not automatically a usable sprite asset." [ref=f2e154]
+          - row [ref=f2e155]:
+            - rowheader "New systems had to preserve earlier progress" [ref=f2e156]
+            - cell "Made migration, historical fixtures and recovery paths part of the release requirements." [ref=f2e157]
+            - cell "Saved player progress is a contract that outlives a feature brief." [ref=f2e158]
+    - region [ref=f2e159]:
+      - paragraph [ref=f2e160]: 04 / Making change manageable
+      - heading "Give each layer a clear responsibility." [level=2] [ref=f2e161]
+      - generic [ref=f2e162]:
+        - paragraph [ref=f2e163]: The game uses TypeScript, React, Phaser 3 and Vite. Its simulation owns the world state and publishes snapshots. React subscribes to those snapshots for interface updates; Phaser handles spatial presentation and traversal. A bridge carries room, proximity and interaction signals between the office and the interface.
+        - paragraph [ref=f2e164]: "This boundary lets the simulation run without rendering the office. It supports deterministic tests, automated traversal and save-restoration checks, while interface and artwork changes can be inspected separately. Shared state still needs care: the main simulation runtime coordinates many systems, and adding a module is not free of integration work."
+      - figure "Responsibility diagram simplified from the runtime, UI subscriptions and game bridge. It shows engineering boundaries without disclosing narrative rules." [ref=f2e165]:
+        - paragraph [ref=f2e166]: Diagram 03 / Runtime responsibilities
+        - generic [ref=f2e167]:
+          - generic [ref=f2e168]:
+            - heading "React interface" [level=3] [ref=f2e169]
+            - paragraph [ref=f2e170]: Menus, reading, feedback and player actions
+          - generic [ref=f2e171]:
+            - heading "Phaser office" [level=3] [ref=f2e172]
+            - paragraph [ref=f2e173]: Rooms, movement and spatial interaction
+          - paragraph [ref=f2e174]: Room and interaction signals pass through the GameBridge
+          - generic [ref=f2e175]:
+            - paragraph [ref=f2e176]: Actions in ↓ / State snapshots out ↑
+            - heading "TypeScript simulation runtime" [level=3] [ref=f2e177]
+            - paragraph [ref=f2e178]: State transitions · authored rules · seeded randomness · consequence records
+          - generic [ref=f2e179]:
+            - heading "Persistence" [level=3] [ref=f2e180]
+            - paragraph [ref=f2e181]: Validated snapshots, migrations and local archives
+          - generic [ref=f2e182]:
+            - heading "Headless verification" [level=3] [ref=f2e183]
+            - paragraph [ref=f2e184]: Tests, traversal and independent replay
+      - generic [ref=f2e186]:
+        - generic [ref=f2e187]:
+          - heading "Extend content through explicit rules" [level=3] [ref=f2e188]
+          - paragraph [ref=f2e189]: Authored registries, typed actions and state predicates give new content a defined integration point. The event Director filters and scores authored possibilities; it is not a runtime language model inventing the story.
+          - paragraph [ref=f2e190]: Seeded randomness makes a recorded sequence reproducible under matching code and settings. That is useful for debugging; it does not make the whole possibility space exhaustively tested.
+        - generic [ref=f2e191]:
+          - heading "Keep optional work out of startup" [level=3] [ref=f2e192]
+          - paragraph [ref=f2e193]: The game defers Phaser, optional panels and other modules. Bundle checks inspect the startup graph and enforce size budgets, including keeping the analytics SDK outside startup until optional consent.
+          - paragraph [ref=f2e194]: These controls make growth measurable. They do not establish a universal frame-rate or mobile performance guarantee.
+      - heading "Preserve progress while the system evolves" [level=3] [ref=f2e195]
+      - paragraph [ref=f2e197]: Save loading validates the record and applies explicit incremental migrations. Supported historical saves receive conservative defaults; loading restores a snapshot without replaying gameplay. Original bytes are retained before browser conversion, and unsupported or unreadable records have recovery paths.
+      - figure "Invalid or unsupported records are preserved for recovery. Browser origin, storage access and quota remain real constraints; local saves are not cloud sync." [ref=f2e198]:
+        - paragraph [ref=f2e199]: Diagram 04 / Save compatibility
+        - list "Safe save upgrade sequence" [ref=f2e200]:
+          - listitem [ref=f2e201]:
+            - generic [ref=f2e202]: "01"
+            - heading "Identify" [level=3] [ref=f2e203]
+            - paragraph [ref=f2e204]: Check the stored version and supported format.
+            - text: →
+          - listitem [ref=f2e205]:
+            - generic [ref=f2e206]: "02"
+            - heading "Preserve" [level=3] [ref=f2e207]
+            - paragraph [ref=f2e208]: Retain the original before rewriting.
+            - text: →
+          - listitem [ref=f2e209]:
+            - generic [ref=f2e210]: "03"
+            - heading "Migrate" [level=3] [ref=f2e211]
+            - paragraph [ref=f2e212]: Apply ordered changes and validate the result.
+            - text: →
+          - listitem [ref=f2e213]:
+            - generic [ref=f2e214]: "04"
+            - heading "Restore" [level=3] [ref=f2e215]
+            - paragraph [ref=f2e216]: Resume the snapshot without rerunning actions.
+    - region [ref=f2e218]:
+      - paragraph [ref=f2e219]: 05 / Verification at scale
+      - heading "Eight hours of automated exploration." [level=2] [ref=f2e220]
+      - generic [ref=f2e221]:
+        - paragraph [ref=f2e222]: The latest reviewed completion campaign ran on 15 October 2026 against a recorded 0.3.0-rc.1 / monday-8 source snapshot. Its eight-hour execution budget produced 112,402 completed simulation runs with matching verified receipts and unique run identifiers. The integrity report passed.
+        - paragraph [ref=f2e223]: The tool used witness-guided exploration through normal simulation actions, with recorded settings and source identity. Of the retained artifacts, 8,050 were independently replayed. A compact suite selected 44 replay witnesses covering 118 observed targets. Those targets mix endings, achievements and challenges; they are not 118 separate stories.
+      - generic [ref=f2e224]:
+        - generic [ref=f2e225]:
+          - term [ref=f2e226]: 112,402
+          - definition [ref=f2e227]: completed runs / verified receipts
+        - generic [ref=f2e228]:
+          - term [ref=f2e229]: 8,050
+          - definition [ref=f2e230]: independently replayed artifacts
+        - generic [ref=f2e231]:
+          - term [ref=f2e232]: "44"
+          - definition [ref=f2e233]: replay witnesses in the compact suite
+      - paragraph [ref=f2e234]: The execution budget elapsed in about 8 hours; final reporting finished afterward. Counts are specific to this campaign and its recorded source snapshot.
+      - table [ref=f2e236]:
+        - caption [ref=f2e237]: Selected outcome checks, using the game’s public locked-file labels
+        - rowgroup [ref=f2e238]:
+          - row [ref=f2e239]:
+            - columnheader "Locked title" [ref=f2e240]
+            - columnheader "Campaign status" [ref=f2e241]
+        - rowgroup [ref=f2e242]:
+          - row [ref=f2e243]:
+            - rowheader "Handling instructions" [ref=f2e244]
+            - cell "Verification quota complete" [ref=f2e245]
+          - row [ref=f2e246]:
+            - rowheader "Personal effects" [ref=f2e247]
+            - cell "Verification quota complete" [ref=f2e248]
+          - row [ref=f2e249]:
+            - rowheader "An inconvenient agenda" [ref=f2e250]
+            - cell "Known witness, unverified in this campaign" [ref=f2e251]
+      - generic [ref=f2e252]:
+        - paragraph [ref=f2e253]: "The campaign ended at its duration budget with two target gaps: the unverified outcome above and its associated achievement. That is an unresolved verification gap, not proof that the outcome is impossible. A long run is useful precisely because it can expose a stubborn blind spot rather than manufacture an all-green coverage claim."
+        - paragraph [ref=f2e254]: Headless traversal does not exercise room collision, visual layout, keyboard focus or whether a person enjoys the pacing. Those need browser checks and human playtests. The 15 October release notes separately record 733 automated tests and a 133-test save-compatibility gate for the prepared release candidate; these are historical release checks, not tests rerun by this case study.
+    - region [ref=f2e255]:
+      - paragraph [ref=f2e256]: 06 / What I learned
+      - heading "The leverage came from better constraints." [level=2] [ref=f2e257]
+      - generic [ref=f2e258]:
+        - paragraph [ref=f2e259]: "AI made it practical to move quickly between a feature idea, implementation and a diagnostic tool. My responsibility was to decide what the game should become and make the result reviewable: specific feedback, durable contracts, reproducible evidence and a clear boundary between an implemented change and a validated experience."
+        - paragraph [ref=f2e260]: The lasting engineering work was in the feedback loop around the generated code. Modular boundaries reduced the scope of changes. Compatibility rules protected earlier progress. Traversal made large batches of behaviour inspectable. Asset provenance helped separate approved artwork from exports that still needed correction.
+        - paragraph [ref=f2e261]: "I would carry that workflow into another project: establish acceptance criteria early, preserve observations alongside decisions, and ask for evidence at the layer being changed. Prompt count is a record of the process. Maintainable behaviour is the outcome I am trying to achieve."
+      - generic [ref=f2e262]:
+        - heading "Try the Monday for yourself." [level=3] [ref=f2e263]
+        - paragraph [ref=f2e264]: The game is available on itch.io. This case study covers development snapshots and does not assert that every reviewed change is in the currently hosted build.
+        - generic [ref=f2e265]:
+          - link "Play No Two Mondays ↗ (opens in a new tab)" [ref=f2e266] [cursor=pointer]:
+            - /url: https://modvar.itch.io/no-two-mondays
+            - text: Play No Two Mondays ↗
+            - generic [ref=f2e267]: (opens in a new tab)
+          - link "Discuss the engineering" [ref=f2e268] [cursor=pointer]:
+            - /url: mailto:mohd@paramasvara.online
+    - region [ref=f2e269]:
+      - paragraph [ref=f2e270]: Evidence / Reviewed 15 October 2026
+      - heading "How the case study was grounded." [level=2] [ref=f2e271]
+      - paragraph [ref=f2e272]: "The prompt figures come from an existing local development audit of surviving Codex records. It deduplicates human messages and excludes machine-agent tasks from the human-prompt count. The 37-prompt figure is the distinct union of three overlapping workflow tags: bug fixing, refinement and refactoring. Classification is lexical and can miss or misclassify requests. Missing history and later development are outside that snapshot."
+      - paragraph [ref=f2e273]: The revision examples come from the project feedback log, refinement notes and art review. Architecture was checked against the TypeScript simulation, React subscriptions, Phaser bridge, save migrations and bundle checks. Traversal figures come from the 15 October completion campaign’s coverage, integrity, checkpoint and replay-suite reports. Public locked labels were checked against the game’s hint registry.
+      - paragraph [ref=f2e274]: Only aggregate evidence and spoiler-safe descriptions are reproduced here. Private chat transcripts, raw traversal traces, puzzle solutions, hidden conditions and real ending titles are not published.
+  - contentinfo [ref=f2e275]:
+    - paragraph [ref=f2e276]: © Mohd. Paramasvara
+    - paragraph [ref=f2e277]: Based in Borneo. Building beyond it.
+    - link "Back to portfolio ↗" [ref=f2e278] [cursor=pointer]:
+      - /url: /
