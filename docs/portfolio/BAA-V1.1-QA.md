@@ -8,7 +8,7 @@
 - TypeScript and ESLint: passed.
 - Automated suite: **107 passed, zero failed/skipped**, including 23 forest/preference cases.
 - `git diff --check`: passed.
-- Main client: **213,064 raw bytes / 65,702 gzip bytes**, against the unchanged strict **215,000 raw-byte ceiling**. Baseline 210,554 / 65,050; delta +2,510 raw / +652 gzip. Python `gzip.compress(..., mtime=0)` used for both comparisons. Renderer stays in a separate dynamic chunk; no initial renderer module preload.
+- Main client: **213,064 raw bytes / 65,700 gzip bytes**, against the unchanged strict **215,000 raw-byte ceiling**. Baseline 210,554 / 65,050; delta +2,510 raw / +650 gzip. Python `gzip.compress(..., mtime=0)` used for both comparisons. Renderer stays in a separate dynamic chunk; no initial renderer module preload.
 
 Forest tests execute the actual TypeScript through a transpile/VM harness. They cover deterministic grids and canonical identity across resolutions, changed seeds, real glyph/depth/ink data, finite staged generation equivalence/cancellation, clock cadence at 60 Hz, timestamp zero, pause/resume/long gaps, disposal during draw and generation, theme changes, backing limits, visibility, teardown and unavailable Canvas. Preference tests cover persistence, blocked storage, OS priority and subscriptions. Browser evidence is recorded separately rather than inferred from these mocks.
 
@@ -97,3 +97,11 @@ The final visual/behavior artifact directory is `output/playwright/baa-v1.1/cont
 ## Final delivery boundary
 
 The retained version is the stronger winding river; the owner's withdrawn pool comment produced no further change. Final feeders use analytic meanders with side-distance decaying quadratically to zero at the join, preserving the main river's tangent. They are not the intermediate cubic paths described in the earlier verification record. All 107 tests pass, including all-water connectivity and tributary separation. Final Contact sampled contrast passes all six layouts at 5.81:1–8.95:1; final hero contrast passes all six at 4.75:1–8.38:1. No production deployment was performed.
+
+## Symbolism refinement — latest verification
+
+The winding tributaries now gather into a calmer, brighter outlet, with sparse ASCII `^` current cues confined to that outlet. This carries the many-inputs/one-clear-next-step symbolism within the water itself. The stronger meanders remain; the withdrawn pool comment prompted no revision.
+
+The production build, ESLint and all **107 tests** pass. A fresh targeted Chromium run passed four Contact layouts (390/1440 × light/dark), shared scenery preference, raw canvas pause pixels, runtime reduced motion, independent offscreen suspension and scroll completion, with zero page errors. The final desktop light capture was visually inspected. Artifacts: `output/playwright/baa-v1.1/contact-symbolism-chromium/`. Earlier Firefox/WebKit matrices retain their explicitly stated earlier-geometry scope.
+
+The rendered-background Contact contrast audit also passed all six default/Largest combinations at **5.81:1–8.95:1**, with no failing sampled text nodes. These are bounded local browser checks, not physical-device or assistive-technology certification. The current production bundle measures 213,064 raw / 65,700 gzip bytes; the strict 215,000 raw-byte ceiling is unchanged. Lighthouse was not rerun for this river-only refinement; its previously recorded results remain scoped to that earlier build. No deployment was performed.

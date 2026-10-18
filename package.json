@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
+    "dev": "node scripts/pace-rag-assets.mjs && vite",
+    "build": "node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && tsc -b && vite build && node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -14,9 +14,12 @@
     "deploy:cloudflare": "npx wrangler@4 pages deploy",
     "typecheck": "tsc -b",
     "test": "node --test tests/*.test.mjs",
-    "refresh:github": "node scripts/public-github.mjs"
+    "refresh:github": "node scripts/public-github.mjs",
+    "export:technology": "node scripts/technology-evidence.mjs",
+    "check:rag-assets": "node scripts/pace-rag-assets.mjs"
   },
   "dependencies": {
+    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.3.0.tgz",
     "phaser": "^3.90.0",
     "posthog-js": "^1.438.7",
     "react": "^18.3.1",

@@ -1085,3 +1085,20 @@ h3 {
 .contact-booking p { margin-top: 12px; color: var(--muted); font-size: .85rem; }
 
 .case-conversation { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; margin-top: 20px; }
+
+/* PACE v1.2: quiet text groups inside existing native engineering disclosures. */
+.project-stack { margin-top: 1.25rem; color: var(--muted); }
+.project-stack h4 { font-size: 1rem; color: var(--text); margin-bottom: .75rem; }
+.project-stack h5 { font-size: .95rem; color: var(--text); margin-bottom: .5rem; }
+.project-stack .technology-generation + .technology-generation { margin-top: 1rem; }
+.project-stack dl { margin: 0; }
+.project-stack dl > div { margin-bottom: .5rem; }
+.project-stack dt { text-transform: none; letter-spacing: normal; font-size: .85rem; }
+.project-stack dd, .technology-note, .technology-provenance { overflow-wrap: anywhere; }
+.project-stack .technology-note, .project-stack .technology-provenance { font-size: .85rem; line-height: 1.7; margin-top: .75rem; }
+.additional-systems { border-top: 1px solid var(--line); margin-top: 1.5rem; }
+.additional-systems .case-body { max-width: 65ch; }
+.additional-systems article + article { border-top: 1px solid var(--line); padding-top: 1.25rem; margin-top: 1.25rem; }
+.additional-systems h3 { font-size: 1.15rem; }
+.capability-evidence { margin-block: 1.5rem; }
+#additional-systems, #system-hostel, #system-asset { scroll-margin-top: 6rem; }

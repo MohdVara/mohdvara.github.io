@@ -1,3 +1,5 @@
+> PACE v1.2 update, 18 October 2026: the owner has now explicitly confirmed the six-project technology inventory. Earlier withholding/unknown-stack statements below are historical and are superseded only for the listed technology names, explicit versions and broad hosting categories. Internal identities, workflows, architecture, configuration, security details and unsupported outcomes remain withheld. See [the scoped technology evidence record](portfolio/PACE-V1.2-TECHNOLOGY-EVIDENCE.md).
+
 # Content provenance
 
 Reviewed 6 October 2026. Public professional facts only; private LinkedIn UI, messages, contact details and analytics were not used.

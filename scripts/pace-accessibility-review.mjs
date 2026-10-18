@@ -30,7 +30,11 @@ try {
       assert.deepEqual(audit.violations, [], `${route}/${theme}: axe violations`);
       assert.equal(audit.incomplete.some(rule => rule.id === 'aria-prohibited-attr'), false, `${route}: unresolved ARIA`);
       const contrast = await page.evaluate(() => {
-        const rgb = color => color.match(/[\d.]+/g).map(Number);
+        const rgb = color => {
+          const values = color.match(/[\d.]+/g).map(Number);
+          // Chrome serializes color-mix results as color(srgb 0..1), not rgb(0..255).
+          return color.startsWith('color(srgb ') ? values.map((value, i) => i < 3 ? value * 255 : value) : values;
+        };
         const luminance = color => color.slice(0, 3).map(c => c / 255).map(c => c <= .04045 ? c / 12.92 : ((c + .055) / 1.055) ** 2.4).reduce((sum, c, i) => sum + c * [.2126, .7152, .0722][i], 0);
         const ratio = (a, b) => (Math.max(luminance(a), luminance(b)) + .05) / (Math.min(luminance(a), luminance(b)) + .05);
         const selectors = ['.project-visual .visual-top span', '.project-visual .node span:not(.node-dot)', '.node-explanation', '.visual-bottom', '.portrait figcaption span', '.no-two-mondays-preview figcaption', '.career-path figcaption', '.borneo-botanical figcaption span', '.ntm-ending-bars li > span:first-child', '.ntm-ending-bars li > strong', '.iz-opening-map text'];

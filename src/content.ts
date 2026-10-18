@@ -1,3 +1,5 @@
+import { technologyFor, technologyStack, type TechnologyExperience } from "./technology";
+
 // Owner-supplied professional history; prior reviews are recorded in the source register.
 // See docs/content-sources.md; do not publish inferred architecture as fact.
 export const profile = {
@@ -26,8 +28,9 @@ interface Project {
   visualLabel: string;
   details: [string, string][];
   stack: string[];
+  technology?: TechnologyExperience;
 }
-export const projects: Project[] = [
+const projectContent: Project[] = [
   {
     id: "campus", role: "Principal Full Stack Engineer", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
     title: "Enterprise Education Systems — Modernization & Technical Consulting",
@@ -118,7 +121,7 @@ export const projects: Project[] = [
       ["Technical approach", "Full-stack web development with Google Cloud and Microsoft 365."],
       ["Contribution", "Developing internal HR and operational tools while planning further domain-specific capabilities."],
     ],
-    stack: ["Full-stack web", "Google Cloud", "Microsoft 365"],
+    stack: [],
   },
   {
     id: "hr",
@@ -197,6 +200,7 @@ export const projects: Project[] = [
     stack: [],
   },
 ];
+export const projects: Project[] = projectContent.map(project => ({ ...project, stack: technologyStack(project.id), technology: technologyFor(project.id) }));
 export const experience = [
   {
     period: "Mar 2025 — Present",

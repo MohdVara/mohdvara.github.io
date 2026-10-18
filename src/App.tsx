@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { profile, projects, experience } from "./content";
+import { technologyExperience, type TechnologyExperience } from "./technology";
 import { observeReadingPosition, useSectionReveals, useSystemMotion, useHeroPointer } from "./usePortfolioMotion";
 import { BorneoBotanical, BotanicalDrawing, PortraitUnderstory, ContactConvergence, SystemTransition, SectionBranch } from "./NaturalGraphics";
 import { ProjectDiagram, CapabilityMap, CareerPath } from "./SystemDiagrams";
@@ -16,6 +17,7 @@ import "./Readability.css";
 import { readAnalyticsPreference, setAnalyticsPreference, subscribeAnalyticsPreference } from "./analyticsPreference";
 import { AsciiForestBackdrop } from "./AsciiForest/AsciiForestBackdrop";
 import { SceneryControl } from "./AsciiForest/SceneryControl";
+import PaceAssistantLauncher from "./PaceAssistantLauncher";
 
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
@@ -306,6 +308,36 @@ function SectionHeading({
     </div>
   );
 }
+function expandEngineeringDetails(current: HTMLDetailsElement) {
+  if (current.open) current.closest("#work")?.querySelectorAll<HTMLDetailsElement>(".case-details[open]").forEach(details => {
+    if (details !== current) details.open = false;
+  });
+}
+function TechnologySummary({ record }: { record: TechnologyExperience }) {
+  return <div className="project-stack" role="group" aria-label={`Technology stack for ${record.projectTitle}`}>
+    <h4>Technology stack</h4>
+    {record.generations.map((generation, index) => <div className="technology-generation" key={generation.label || index}>
+      {generation.label && <h5>{generation.label}</h5>}
+      <dl>{generation.groups.map(group => <div key={group.label}>
+        <dt>{group.label}</dt><dd>{group.technologies.join(" · ")}</dd>
+      </div>)}</dl>
+    </div>)}
+    {record.note && <p className="technology-note">{record.note}</p>}
+    <p className="technology-provenance">Technology experience confirmed by project owner · 18 October 2026.</p>
+    {record.repository && <a className="text-link" href={record.repository.url}>Historical source repository for {record.projectTitle} <Arrow /></a>}
+  </div>;
+}
+function AdditionalSystems() {
+  return <details className="case-details additional-systems" id="additional-systems" name="engineering-case-studies" onToggle={event => expandEngineeringDetails(event.currentTarget)}>
+    <summary>Additional engineering systems<span aria-hidden="true">+</span></summary>
+    <div className="case-body">
+      {technologyExperience.filter(record => !record.projectId).map(record => <article id={record.anchor} key={record.id}>
+        <h3 tabIndex={-1}>{record.projectTitle}</h3>
+        <TechnologySummary record={record} />
+      </article>)}
+    </div>
+  </details>;
+}
 function SelectedWork() {
   return (
     <section
@@ -346,14 +378,7 @@ function SelectedWork() {
               <details
                 className="case-details"
                 name="engineering-case-studies"
-                onToggle={(event) => {
-                  const current = event.currentTarget;
-                  if (!current.open) return;
-                  // Also support browsers without exclusive native details groups.
-                  current.closest(".project-list")?.querySelectorAll<HTMLDetailsElement>("details[open]").forEach((details) => {
-                    if (details !== current) details.open = false;
-                  });
-                }}
+                onToggle={event => expandEngineeringDetails(event.currentTarget)}
               >
                 <summary>
                   View engineering details
@@ -370,19 +395,15 @@ function SelectedWork() {
                     ))}
                   </dl>
                   {project.id === "insurance" && <a className="text-link case-conversation" href="#contact">Discuss a similar problem <Arrow /></a>}
-                  <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Source: full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
-                  {project.stack.length > 0 && (
-                    <p className="project-stack">
-                      <span>Stack</span>
-                      {project.stack.join(" · ")}
-                    </p>
-                  )}
+                  <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Professional role &amp; project background: full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
+                  {project.technology && <TechnologySummary record={project.technology} />}
                 </div>
               </details>
             </div>
           </article>
         ))}
       </div>
+      <AdditionalSystems />
       <a className="text-link work-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
         More work &amp; professional background on LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
       </a>
@@ -462,6 +483,7 @@ function Capabilities() {
         </span>
       </SectionHeading>
       </div>
+      <p className="section-intro capability-evidence">Capabilities describe my wider practice. For project-specific application, data and cloud experience, <a className="text-link" href="#work">open the selected-work engineering details</a> or <a className="text-link" href="#additional-systems">additional engineering systems</a>. Independent AI-assisted work and résumé-listed AI capabilities are distinguished below.</p>
       <CapabilityMap />
       <div className="ai-evidence" id="ai-evidence">
         <h3>AI capabilities &amp; evidence</h3>
@@ -514,6 +536,7 @@ function About() {
             <br />
             Computer Software Engineering · Multimedia College
           </p>
+          {import.meta.env.VITE_PACE_RAG_ENABLED !== "false" && <PaceAssistantLauncher />}
         </div>
       </div>
     </section>

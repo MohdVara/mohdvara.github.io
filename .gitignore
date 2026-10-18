@@ -36,3 +36,9 @@ output/playwright
 
 # Local downloaded resume for owner review; not a published site asset
 output/pdf/
+
+# Local bounded technology-source review and measurements
+output/pace-v1.2/
+
+# Verified generated PACE-RAG assets, copied from the pinned package.
+public/pace-rag/

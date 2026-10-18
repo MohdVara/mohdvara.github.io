@@ -1,6 +1,6 @@
 # BAA v1.1 results
 
-18 October 2026, Asia/Kuching. Implemented locally and prepared for owner review. **Not deployed or committed.**
+18 October 2026, Asia/Kuching. Implemented and prepared for owner review. The implementation is present in commit `940747e`; no deployment was performed during this work.
 
 ## Result
 
@@ -43,7 +43,7 @@ Chromium/Firefox/WebKit completed 72 hero and 36 Contact layout/accessibility co
 
 Final sampled rendered-background contrast passes 12 cases: hero minimum 4.75:1, Contact minimum 5.81:1. Actual connected-channel tests ensure all tagged tributary water reaches main-channel water and different tributaries do not cross outside the main channel.
 
-Observed focused hero samples were approximately 25 FPS at 390/1440 widths, average synchronous draw cost below 1 ms; samples include state-change paints and exclude GPU completion. Concurrent full-engine runs were slower and remain separately recorded. Final bundle: **213,064 raw bytes / 65,702 gzip**, +2,510/+652 against the PACE baseline, under the unchanged **215,000 raw-byte limit**. The larger forest/river rendering module remains lazy.
+Observed focused hero samples were approximately 25 FPS at 390/1440 widths, average synchronous draw cost below 1 ms; samples include state-change paints and exclude GPU completion. Concurrent full-engine runs were slower and remain separately recorded. Final bundle: **213,064 raw bytes / 65,700 gzip**, +2,510/+650 against the PACE baseline, under the unchanged **215,000 raw-byte limit**. The larger forest/river rendering module remains lazy.
 
 Latest final-build Lighthouse was **94/100/100/100**, LCP **2.19 s**, CLS **.00224**, TBT **224 ms**. A preceding isolated sample scored **99/100/100/100**; the fresh baseline scored 97. This variation remains a review limitation; no unchanged performance score is claimed. Exact values are recorded in `BAA-V1.1-LIGHTHOUSE.json` and QA. Preliminary overloaded reports are retained as failed measurements, not hidden or represented as passes. Local lab scores are not field performance.
 

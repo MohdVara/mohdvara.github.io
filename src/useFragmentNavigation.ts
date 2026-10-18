@@ -26,7 +26,17 @@ export function useFragmentNavigation(path: string) {
     };
     const reveal = (hash: string) => {
       const project = projectIdFromHash(hash);
-      if (!project) return;
+      if (!project) {
+        const target = document.getElementById(decodeURIComponent(hash.slice(1)));
+        const details = target?.closest<HTMLDetailsElement>(".additional-systems");
+        if (details) {
+          details.closest("#work")?.querySelectorAll<HTMLDetailsElement>(".case-details[open]").forEach(item => {
+            if (item !== details) item.open = false;
+          });
+          details.open = true;
+        }
+        return;
+      }
       const target = document.getElementById(`case-${project}`);
       const details = target?.querySelector<HTMLDetailsElement>(".case-details");
       if (!details) return;
@@ -52,7 +62,7 @@ export function useFragmentNavigation(path: string) {
           if (generation !== current || window.location.hash !== hash) return;
           frame = requestAnimationFrame(() => {
             target.scrollIntoView({ behavior: "instant", block: "start" });
-            if (focus && projectIdFromHash(hash)) {
+            if (focus && (projectIdFromHash(hash) || target.closest(".additional-systems"))) {
               target.querySelector<HTMLElement>("h3")?.focus({ preventScroll: true });
             }
           });
