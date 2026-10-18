@@ -22,13 +22,15 @@ npm run preview
 
 Copy `.env.example` to `.env.local` and set `VITE_POSTHOG_PROJECT_TOKEN` to the portfolio's public project token from PostHog Project settings. Set `VITE_POSTHOG_HOST` to its US or EU ingestion host. Never use a personal API key: Vite embeds these values in public browser code.
 
-Analytics loads asynchronously only in production builds on `mohd.paramasvara.online`. Localhost, preview domains, automated browsers and Do Not Track visitors are excluded. An empty token disables analytics. SDK failures do not block the site. Visitors remain anonymous; no identification calls are made.
+Usage analytics is **off by default**. Visitors may explicitly enable or withdraw it in **Display → Usage analytics**. The SDK is not requested before opt-in. Consent is remembered locally; analytics identifiers use tab-scoped session storage only after permission. Withdrawal stops named listeners/observers and opts out the SDK; cross-tab withdrawal and storage clearing resync preferences. Blocked storage defaults off, with explicit choices usable in memory for the current page.
 
-Page views, page leaves and automatic clicks are collected alongside `section_viewed`, `case_study_opened`, `booking_clicked`, `resume_clicked`, `full_cv_clicked`, `email_clicked`, `email_copy_clicked`, `engagement_page_clicked`, `incident_zero_clicked` and `system_defence_clicked`. Custom events include the page path and section placement or case ID. Email copy measures the click; booking measures the outbound click, not a completed booking. Filter by `site = mohd_portfolio` and `environment = production` in PostHog. Start with a page-view → case-study → booking funnel, and compare résumé and engagement-page clicks by landing page.
+Even with permission, analytics loads only in production on `mohd.paramasvara.online`. Localhost, preview domains, automated browsers, Do Not Track and Global Privacy Control visitors are excluded. An empty token disables analytics. SDK failures do not block the site. No identification calls, recordings, form contents or gameplay action streams are collected. This technical choice control is not a jurisdiction-specific legal certification.
 
-For session replays, enable recording in PostHog project settings and set `VITE_POSTHOG_SESSION_REPLAY=true` before building. All input fields are masked; console logs, network headers/bodies and cross-origin iframe recording are disabled. Canvas gameplay cannot be understood fully from DOM replay. Replay is off by default.
+After permission, page views and page leaves are collected alongside `section_viewed`, `case_study_opened`, `booking_clicked`, `resume_clicked`, `full_cv_clicked`, `email_clicked`, `email_copy_clicked`, `engagement_page_clicked`, `incident_zero_clicked`, `system_defence_clicked`, `ntm_case_study_clicked` and `external_project_clicked`. Incident entry clicks distinguish play and preview through an allowlisted mode property. Automatic click/form capture is disabled, and URL/referrer properties that can include arbitrary query strings are excluded. Custom events include the page path and section placement or case ID. Email copy measures the click; booking measures the outbound click, not a completed booking. Filter by `site = mohd_portfolio` and `environment = production` in PostHog. Start with a page-view → case-study → booking funnel, and compare résumé and engagement-page clicks by landing page.
 
-For GitHub Actions, configure repository **Settings → Secrets and variables → Actions → Variables** with the same three `VITE_POSTHOG_*` values; the Pages build step reads them. For Cloudflare Git builds, add them to the production build environment variables. For CLI deployment, `.env.local` supplies the values. Changing values requires rebuilding and deploying. Verify in PostHog Activity after a production visit with Do Not Track off; check the named events by opening a case study and following a résumé or booking link.
+Session recording is disabled, including when the legacy `VITE_POSTHOG_SESSION_REPLAY` environment variable is set. Re-enabling it requires a separate privacy/consent review and a deliberate implementation change. No gameplay action stream or form content is recorded by this portfolio adapter.
+
+For GitHub Actions, configure repository **Settings → Secrets and variables → Actions → Variables** with `VITE_POSTHOG_PROJECT_TOKEN` and `VITE_POSTHOG_HOST`; the Pages build step reads them. For Cloudflare Git builds, add them to the production build environment variables. For CLI deployment, `.env.local` supplies the values. Changing values requires rebuilding and deploying. Verify in PostHog Activity after an explicitly opted-in production visit without DNT/GPC; check the named events by opening a case study and following a résumé or booking link.
 
 Configuration follows the [PostHog JavaScript SDK documentation](https://posthog.com/docs/libraries/js/config).
 
@@ -294,3 +296,20 @@ QA_MODULES_DIR=/private/tmp/pace-qa node scripts/pace-qa.mjs
 ```
 
 Use the existing documented temporary-tool install procedure above if necessary. Captures and JSON results go to `output/playwright/pace/`. On restricted machines, `SWC_NATIVE_BINDING_CACHE=/private/tmp/pace-swc npm run build` avoids the default SWC cache location. This is a local environment workaround, not a deployment setting.
+
+## PACE v1.1 — navigation and evidence
+
+Commercial `/#case-*` links now open the matching native engineering disclosure on direct visits, reloads, history navigation and link activation. Known project IDs and evidence destinations are typed centrally. Keyboard-activated same-page links focus the project heading; normal scrolling does not change disclosure state or focus. Without JavaScript the linked card remains readable and its details can be opened manually.
+
+Work With Me is lazy-loaded in the browser but remains fully prerendered. Compact shared homepage labels keep secondary-page copy out of the main bundle. NTM now begins with an engineering summary while preserving the longform case study; Incident Zero offers a direct recruiter-preview chooser as well as normal play. Social previews are owned conceptual artwork, generated optionally with `python3 scripts/social-previews.py` using Pillow and a locally licensed font.
+
+See `docs/portfolio/PACE-V1.1-{AUDIT,IMPLEMENTATION,CONTENT-EVIDENCE,CONFIDENTIALITY,QA,RESULTS}.md` for evidence boundaries, exact results and remaining limitations. No deployment is performed by QA commands. Browser tooling stays outside application dependencies:
+
+```sh
+QA_OUTPUT_DIR=output/playwright/pace-v1.1/layout-chromium node scripts/pace-qa.mjs
+node scripts/pace-navigation-qa.mjs
+node scripts/pace-game-qa.mjs
+node scripts/pace-live-qa.mjs
+```
+
+Use `QA_MODULES_DIR` for the optional Playwright/axe installation. Layout and navigation suites accept `QA_BROWSER=firefox` or `webkit` when those engines are installed (set `PLAYWRIGHT_BROWSERS_PATH` for a temporary engine directory). Live QA checks the currently deployed version read-only; it does not publish or validate undeployed changes. Engine/default-platform keyboard differences and incomplete accessibility checks are recorded in QA.

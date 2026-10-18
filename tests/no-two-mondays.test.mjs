@@ -7,7 +7,18 @@ test('No Two Mondays case study serves complete static content, metadata and acc
   const page = await readFile('dist/no-two-mondays/index.html', 'utf8');
   const home = await readFile('dist/index.html', 'utf8');
   assert.equal((page.match(/<h1[\s>]/g) || []).length, 1);
-  assert.match(page, /Vibe coding/);
+  assert.match(page, /<h1>Engineering No Two Mondays:/);
+  const summary = page.match(/<section[^>]+id="ntm-summary"[\s\S]+?<\/section>/)?.[0];
+  assert.ok(summary, 'Recruiters can read the executive summary without JavaScript');
+  assert.match(summary, /Engineering at a Glance/);
+  for (const label of ['Challenge', 'Role', 'Architecture', 'Engineering decisions', 'Verification', 'Limitations']) {
+    assert.ok(summary.includes(`<dt>${label}</dt>`), `Missing summary topic: ${label}`);
+  }
+  assert.match(summary, /15 October 2026/);
+  assert.match(summary, /0\.3\.0-rc\.1 \/ monday-8/);
+  assert.match(summary, /two campaign target gaps remained/);
+  assert.match(summary, /not current game-wide totals/);
+  assert.match(page, /<nav[^>]+aria-label="Case study contents"[^>]*>[\s\S]+?href="#ntm-summary"[\s\S]+?href="#ntm-evidence"[\s\S]+?<\/nav>/);
   assert.match(page, /210/);
   assert.match(page, /112,402/);
   assert.match(page, /Known witness, unverified in this campaign/);
@@ -18,7 +29,7 @@ test('No Two Mondays case study serves complete static content, metadata and acc
   assert.equal((page.match(/Diagram 0[1-4]/g) || []).length, 4);
   assert.doesNotMatch(page, /app-html|<canvas|<iframe/);
   assert.match(page, /rel="canonical" href="https:\/\/mohd.paramasvara.online\/no-two-mondays\/"/);
-  assert.match(page, /<title>No Two Mondays — AI-Assisted Game Development Case Study/);
+  assert.match(page, /<title>Engineering No Two Mondays: An Extensible Simulation with AI/);
   const ids = [...page.matchAll(/\sid="([^"]+)"/g)].map(match => match[1]);
   assert.equal(new Set(ids).size, ids.length);
   for (const [, id] of page.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(id), `Missing case-study target ${id}`);

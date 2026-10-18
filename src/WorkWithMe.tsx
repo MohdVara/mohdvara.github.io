@@ -1,6 +1,7 @@
 import { Navigation } from './App';
 import { profile } from './content';
 import { problems, engagements } from './EngagementContent';
+import { evidence } from './evidence';
 import { SectionBranch, ContactConvergence } from './NaturalGraphics';
 import { useSectionReveals, useSystemMotion } from './usePortfolioMotion';
 import './Engagements.css';
@@ -15,7 +16,7 @@ export default function WorkWithMe() {
         <p className="eyebrow mono">Principal engineering / Selected engagements</p>
         <h1 id="engagement-title">Complex systems.<br /><span>Clear engineering decisions.</span></h1>
         <p className="section-intro">I work with teams on software problems where architecture, domain complexity, modernisation or technical leadership matter.</p>
-        <p className="engagement-position">Mohd. Paramasvara · Principal Full-Stack Engineer<br />Based in Sabah, Malaysia. Remote-first project and contract work.</p>
+        <p className="engagement-position">Mohd. Paramasvara · Principal Full-Stack Engineer<br />Based in Sabah, Malaysia. Discuss an engineering role or a scoped project engagement.</p>
         <div className="actions"><a className="button primary" href={profile.discovery} target="_blank" rel="noopener noreferrer">Book a conversation <span aria-hidden="true">↗</span><span className="sr-only"> (opens Cal.com in a new tab)</span></a><a className="text-link" href={`mailto:${profile.email}`}>Email the context</a></div>
         <a className="text-link" href="#engagement-problems">Explore the problems I work on <span aria-hidden="true">↓</span></a>
       </section>
@@ -27,7 +28,7 @@ export default function WorkWithMe() {
           {problems.map((item,index) => <article className="engagement-problem" key={item.title} data-reveal>
             <div><p className="eyebrow mono">0{index+1} / {item.title}</p><h3>{item.problem}</h3></div>
             <div><p>{item.description}</p><p className="engagement-evidence">{item.signal}</p>
-              {item.proof ? <a className="text-link" href={`/#case-${item.proof}`}>Inspect the related case study <span aria-hidden="true">↗</span></a> : <a className="text-link" href="/#capabilities">View technical capabilities <span aria-hidden="true">↗</span></a>}
+              <a className="text-link" href={evidence[item.proof].href}>{evidence[item.proof].label} <span aria-hidden="true">↗</span></a>
             </div>
           </article>)}
         </div>
@@ -38,7 +39,7 @@ export default function WorkWithMe() {
           <div className="section-lead"><SectionBranch variant="public" /><div className="section-heading" data-reveal>
             <p className="eyebrow mono">02 / Engagement fit</p><h2 id="engagement-fit-title">Agree the scope.<br />Then own the work.</h2>
           </div></div>
-          <div className="engagement-types" data-reveal>{engagements.map(item => <article key={item.title}><h3>{item.title}</h3><p>{item.description}</p><dl><dt>Useful inputs</dt><dd>{item.inputs}</dd><dt>Possible deliverables</dt><dd>{item.deliverables}</dd><dt>Next step</dt><dd>{item.next}</dd></dl><a className="text-link" href={`/#case-${item.proof}`}>Related engineering work ↗</a></article>)}</div>
+          <div className="engagement-types" data-reveal>{engagements.map(item => <article key={item.title}><h3>{item.title}</h3><p>{item.description}</p><dl><dt>Useful inputs</dt><dd>{item.inputs}</dd><dt>Possible deliverables</dt><dd>{item.deliverables}</dd><dt>Next step</dt><dd>{item.next}</dd></dl><a className="text-link" href={evidence[item.proof].href}>{evidence[item.proof].label} ↗</a></article>)}</div>
           <p className="engagement-fit-note">These are possible deliverables, not fixed packages. Bring a concrete problem, technical context and a decision maker. We can then agree scope, responsibilities and an engagement.</p>
         </div>
       </section>
@@ -50,7 +51,7 @@ export default function WorkWithMe() {
           <div className="contact-booking"><a className="button primary" href={profile.discovery} target="_blank" rel="noopener noreferrer" aria-label="Book a conversation (opens Cal.com in a new tab)" data-conversation-cta="">Book a conversation <span aria-hidden="true">↗</span></a><p>An introductory conversation. You can also email the context directly.</p></div>
           <a className="contact-email" href={`mailto:${profile.email}`}>{profile.email}<span aria-hidden="true">↗</span></a>
           <ContactConvergence />
-          <div className="contact-links"><a className="text-link" href="/#work">Explore selected work <span aria-hidden="true">↗</span></a><a className="text-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span></a></div>
+          <div className="contact-links"><a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">2-page résumé <span className="sr-only"> (opens in a new tab)</span></a><a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <span className="sr-only"> (opens in a new tab)</span></a><a className="text-link" href="/#work">Explore selected work <span aria-hidden="true">↗</span></a><a className="text-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span></a></div>
         </div>
       </section>
     </main>

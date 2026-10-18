@@ -41,3 +41,14 @@ An untracked owner-only evidence request checklist is in `.qa/reliability/eviden
 The current confidentiality brief supersedes earlier permission to include detailed education collaboration workflows. Public education cards and their shared engagement references now remain at the level of maintenance, full-stack engineering, integration and ongoing delivery. Existing accurate employer history remains named. Historical source notes above describe prior evidence, not permission for new disclosure.
 
 The WenSymes summary uses the previously reviewed owner-supplied role and broad HR/administration remit. No Laravel version, payroll delivery, employee workflow, test coverage or outcome is asserted. See `portfolio/PACE-V1-CONTENT-EVIDENCE.md` for confidence levels and follow-up questions. PolicyStreet ownership remains based on the prior résumé review; it is not newly independently verified. PACE adds no project metrics.
+
+
+## PACE v1.1 follow-up — owner confirmation, 18 October 2026
+
+The owner confirmed all three current roles and start dates: WenSymes Principal Full Stack Developer (March 2025 onward), Centre for Content Creation Principal Full Stack Engineer (principal since June 2022), and Tertiary Courses Technical Trainer (June 2018 onward). Use the explicitly confirmed Engineer display title consistently for Centre, even where the older CV uses Developer. No ending date or change in engagement type is inferred.
+
+The owner supplied the current full CV and explicitly confirmed its Confidential Singapore engagement is WenSymes. Fresh browser review supports internal HR/operational administration tools, full-stack web, Google Cloud, Microsoft 365, and planning around data consistency, access control and uptime. These broad public-source responsibilities now inform the WenSymes case. No payroll module, Laravel version, test coverage, impact metric or proprietary architecture is inferred. The separate 2016–2017 HRMS project remains separately attributed.
+
+The current CV describes RAG onboarding/knowledge tools as actively being built. This is owner-reported work in progress, not demonstrated production adoption/evaluation. No suitable public RAG artifact was found in the bounded reviewed GitHub scope. Current conservative public evidence boundaries remain accurate.
+
+Earlier official résumé export attempts failed. The 18 October retry succeeded after waiting for both pages to render before activating Download PDF. Both pages of the unchanged official export were visually inspected with no visible overlap or clipping. The source copy is owner-review-only in ignored `output/pdf/`; it is not published and `profile.resumePdf` remains null. See `portfolio/PACE-V1.1-RESOLUTION.md` for exact verification and remaining limitations.

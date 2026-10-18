@@ -33,3 +33,6 @@ dist-ssr
 .dev.vars
 .dev.vars.*
 output/playwright
+
+# Local downloaded resume for owner review; not a published site asset
+output/pdf/

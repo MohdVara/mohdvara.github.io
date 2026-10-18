@@ -62,3 +62,15 @@
 .principle-list .text-link { font-size: .85rem; }
 @media (max-width: 900px) { .principle-list { grid-template-columns: minmax(0, 1fr); } }
 :root[data-text-size="largest"] .principle-list { grid-template-columns: minmax(0, 1fr); }
+
+.ai-evidence { margin-top: 2rem; max-width: 68ch; scroll-margin-top: 20px; }
+.ai-evidence h3 { font-size: 1.2rem; }
+.ai-evidence p { margin-top: .75rem; color: var(--muted); }
+
+.analytics-control { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
+.analytics-control label { display: flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; }
+.analytics-control input { width: 20px; height: 20px; accent-color: var(--accent); flex-shrink: 0; }
+.display-panel { max-height: calc(100dvh - var(--header-height, 90px) - 24px); overflow-y: auto; overscroll-behavior: contain; }
+@media (max-width: 375px) {
+  :root[data-text-size="largest"] .display-settings summary > span { display: none; }
+}

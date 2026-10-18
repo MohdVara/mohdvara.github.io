@@ -6,7 +6,8 @@ const key='incident-zero-defence-v2',read=()=>p.evaluate(()=>window.incidentZero
 await p.goto(base+'/incident-zero/defence/');if(process.env.QA_SEED){await p.getByRole('button',{name:'Start run',exact:true}).waitFor();await p.evaluate(async seed=>{const {startRun,freshRun,runKey}=await import('/src/features/incident-zero/defence/run.ts');sessionStorage.setItem(runKey,JSON.stringify({...startRun(freshRun(),seed),status:'paused'}));},process.env.QA_SEED);await p.reload();await p.getByRole('button',{name:'Resume run'}).click();}else await p.getByRole('button',{name:'Start run',exact:true}).click();
 let held=new Set(),weapon='pulse',used=new Set(),attempts=[],completed=false;const begun=Date.now();
 const keys=async desired=>{for(const k of held)if(!desired.has(k))await p.keyboard.up(k);for(const k of desired)if(!held.has(k))await p.keyboard.down(k);held=desired;};
-const fire=async()=>{const r=await p.getByRole('button',{name:'FIRE Assisted aim'}).boundingBox();await p.mouse.move(r.x+r.width/2,r.y+r.height/2);await p.mouse.down();};await fire();
+// Start/Continue/Retry are focused buttons. Keyboard movement belongs to the arena.
+const fire=async()=>{await p.locator('.defence-world').focus();const r=await p.getByRole('button',{name:'FIRE Assisted aim'}).boundingBox();await p.mouse.move(r.x+r.width/2,r.y+r.height/2);await p.mouse.down();};await fire();
 try{for(let tick=0;tick<3500;tick++){
  const data=await read();
  if(data.status==='victory'){
@@ -44,5 +45,5 @@ try{for(let tick=0;tick<3500;tick++){
  if(tick%300===0)await p.screenshot({path:`${out}/floor-${data.floor.level}-desktop.png`});
  await p.waitForTimeout(75);
 }
-const final=await p.evaluate(k=>JSON.parse(sessionStorage.getItem(k)),key);await writeFile(`${out}/playtest-results.json`,JSON.stringify({completed,durationMs:Date.now()-begun,used:[...used],attempts,final,errors,observation:'Read-only dev geometry/actor observations. Ordinary keyboard and pointer controls; scripted time is not human playtime.'},null,2));assert.deepEqual(errors,[]);assert.ok(completed,'must complete all five levels through normal controls');assert.equal(final.completed,1);
+const final=await p.evaluate(k=>JSON.parse(sessionStorage.getItem(k)),key);await writeFile(`${out}/playtest-results.json`,JSON.stringify({completed,durationMs:Date.now()-begun,used:[...used],attempts,final,errors,seededFixture:!!process.env.QA_SEED,observation:'Read-only dev geometry/actor observations. Ordinary keyboard and pointer controls; scripted time is not human playtime.'},null,2));assert.deepEqual(errors,[]);assert.ok(completed,'must complete all five levels through normal controls');assert.equal(final.completed,1);
 }finally{await browser.close();}

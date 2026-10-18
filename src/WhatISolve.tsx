@@ -1,4 +1,4 @@
-import { problems } from './EngagementContent';
+import { problemSummaries } from './problemSummaries';
 import { SectionBranch } from './NaturalGraphics';
 import './Engagements.css';
 export function WhatISolve() {
@@ -11,7 +11,7 @@ export function WhatISolve() {
       </div>
     </div>
     <div className="problem-translation" data-reveal>
-      {problems.map(item => <div className="problem-translation-row" key={item.title}>
+      {Object.values(problemSummaries).map(item => <div className="problem-translation-row" key={item.title}>
         <p>{item.problem}</p><span aria-hidden="true">→</span><p>{item.title}</p>
       </div>)}
     </div>

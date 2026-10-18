@@ -1,4 +1,4 @@
-import { Component, lazy, Suspense, useState, type ReactNode } from "react";
+import { Component, lazy, Suspense, useEffect, useState, type ReactNode } from "react";
 import { Navigation } from "../../App";
 import "./incident.css";
 const GameShell = lazy(() => import("./GameShell"));
@@ -27,6 +27,13 @@ class GameBoundary extends Component<
 }
 export default function IncidentZeroRoute() {
   const [mode, setMode] = useState<"play" | "preview" | null>(null);
+  // Read the optional shortcut after hydration so prerendered opening content
+  // stays identical to the first browser render. Unknown modes keep the entry.
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get("mode") === "preview") {
+      setMode("preview");
+    }
+  }, []);
   return (
     <div className={`iz-experience ${mode ? "iz-active" : ""}`}>
       <a className="skip-link" href="#incident-main">

@@ -26,12 +26,14 @@ try {
   await writeFile(path, html.replace("<!--app-html-->", render()));
   const escape = (value) =>
     value.replaceAll("&", "&amp;").replaceAll('"', "&quot;");
-  for (const { route, title, description } of [
+  for (const { route, title, description, image, imageAlt } of [
     { route: "404", title: "Page not found | Mohd. Paramasvara", description: "This page could not be found. Return to the portfolio or contact Mohd. Paramasvara." },
     {
       route: "no-two-mondays",
-      title: "No Two Mondays — AI-Assisted Game Development Case Study | Mohd. Paramasvara",
-      description: "Building No Two Mondays with Codex: 210 recovered human prompts, iterative refinement, modular game architecture, save compatibility and an eight-hour automated traversal campaign.",
+      title: "Engineering No Two Mondays: An Extensible Simulation with AI | Mohd. Paramasvara",
+      description: "Human-directed engineering of an extensible simulation with AI: modular state ownership, save compatibility and verification, with a historical 15 October 2026 automated traversal campaign.",
+      image: "no-two-mondays.png",
+      imageAlt: "No Two Mondays — engineering an extensible simulation with AI. Conceptual diagram of simulation, interface and persistence; not a gameplay screenshot.",
     },
     {
       route: "work-with-me",
@@ -39,11 +41,15 @@ try {
         "Work with Mohd. Paramasvara | Software Architecture & Technical Leadership",
       description:
         "Software architecture, system modernisation and technical leadership for complex product and operational workflows. Selected project and contract engagements with Mohd. Paramasvara.",
+      image: "work-with-me.png",
+      imageAlt: "Work with Mohd. Paramasvara — software architecture, modernisation and technical leadership. Conceptual connected-system illustration.",
     },
     {
       route: "incident-zero/defence",
       title: "System Defence — Incident Zero Arcade Prototype | Mohd. Paramasvara",
       description: "Protect the system from malicious requests in a short, optional top-down combat prototype. Five generated levels, two defensive tools, and five services to restore.",
+      image: "incident-zero.png",
+      imageAlt: "Incident Zero — fictional engineering investigation and optional System Defence arcade prototype. Conceptual decision-path illustration; not a gameplay screenshot or real security control.",
     },
     {
       route: "incident-zero",
@@ -51,6 +57,8 @@ try {
         "Incident Zero — Interactive Engineering Story | Mohd. Paramasvara",
       description:
         "A short interactive systems-engineering puzzle about debugging a failing production workflow and making architecture decisions under pressure. A fictional incident with synthetic data.",
+      image: "incident-zero.png",
+      imageAlt: "Incident Zero — a fictional engineering investigation using synthetic data. Conceptual observe, decide and review illustration; not a gameplay screenshot.",
     },
   ]) {
     const url = `https://mohd.paramasvara.online/${route}/`;
@@ -81,6 +89,18 @@ try {
         new RegExp(`(<meta\\s+(?:name|property)="${name}"\\s+content=")[^"]*`),
         `$1${escape(title)}`,
       );
+    if (image) {
+      for (const name of ["og:image", "twitter:image"])
+        work = work.replace(
+          new RegExp(`(<meta\\s+(?:name|property)="${name}"\\s+content=")[^"]*`),
+          `$1https://mohd.paramasvara.online/images/social/${image}`,
+        );
+      for (const name of ["og:image:alt", "twitter:image:alt"])
+        work = work.replace(
+          new RegExp(`(<meta\\s+(?:name|property)="${name}"\\s+content=")[^"]*`),
+          `$1${escape(imageAlt)}`,
+        );
+    }
     work = work.replace(/(rel="canonical" href=")[^"]*/, `$1${url}`);
     work = work.replace(/(property="og:url" content=")[^"]*/, `$1${url}`);
     work = work.replace(

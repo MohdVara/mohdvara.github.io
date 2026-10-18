@@ -76,10 +76,10 @@ export default function NoTwoMondaysCaseStudy() {
       <header className="container ntm-case-hero">
         <p className="mono ntm-breadcrumb"><a href="/">Portfolio</a> / Independent game case study</p>
         <p className="eyebrow mono">No Two Mondays: Trial Period / modvar</p>
-        <h1>Vibe coding.<br /><span>Then engineering for change.</span></h1>
+        <h1>Engineering No Two Mondays:<br /><span>An extensible simulation with AI.</span></h1>
         <p className="ntm-deck">How I used AI-assisted development to build an office narrative game, applying human judgment and engineering expertise to turn repeated feedback into a system I could keep extending.</p>
         <p className="ntm-byline">Mohd. Paramasvara · Product direction, engineering and playtest iteration</p>
-        <div className="actions"><a className="button primary" href="https://modvar.itch.io/no-two-mondays" target="_blank" rel="noopener noreferrer">Play on itch.io <span aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span></a><a className="text-link" href="#ntm-process">Explore the development process ↓</a></div>
+        <div className="actions"><a className="button primary" href="#ntm-summary">Read the engineering summary ↓</a><a className="text-link" href="https://modvar.itch.io/no-two-mondays" target="_blank" rel="noopener noreferrer">Play on itch.io <span aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span></a></div>
         <dl className="ntm-facts">
           <div><dt>210</dt><dd>recovered human prompts</dd></div>
           <div><dt>20</dt><dd>interactive Codex sessions</dd></div>
@@ -89,8 +89,21 @@ export default function NoTwoMondaysCaseStudy() {
       </header>
 
       <nav className="container ntm-contents" aria-label="Case study contents">
-        <a href="#ntm-brief">The brief</a><a href="#ntm-process">AI workflow</a><a href="#ntm-iterations">Revisions</a><a href="#ntm-dialogue-history">Dialogue UI</a><a href="#ntm-puzzle-history">Puzzle UI</a><a href="#ntm-architecture">Architecture</a><a href="#ntm-traversal">Eight-hour traversal</a><a href="#ntm-lessons">Lessons</a>
+        <a href="#ntm-summary">Engineering at a Glance</a><a href="#ntm-brief">The brief</a><a href="#ntm-process">AI workflow</a><a href="#ntm-iterations">Revisions</a><a href="#ntm-dialogue-history">Dialogue UI</a><a href="#ntm-puzzle-history">Puzzle UI</a><a href="#ntm-architecture">Architecture</a><a href="#ntm-traversal">Verification</a><a href="#ntm-lessons">Lessons</a><a href="#ntm-evidence">Evidence sources</a>
       </nav>
+
+      <section className="container ntm-chapter ntm-summary" id="ntm-summary" aria-labelledby="ntm-summary-title">
+        <p className="eyebrow mono">Executive summary / Independent engineering project</p>
+        <h2 id="ntm-summary-title">Engineering at a Glance</h2>
+        <dl className="ntm-summary-list">
+          <div><dt>Challenge</dt><dd>Build an extensible office simulation where technical work, conversations and spatial interactions have connected consequences.</dd></div>
+          <div><dt>Role</dt><dd>I directed the product and architecture, set engineering constraints, reviewed AI-assisted implementation and iterated through playtesting.</dd></div>
+          <div><dt>Architecture</dt><dd>A TypeScript simulation owns state; React presents the interface and Phaser handles spatial presentation. Validated saves, migrations and headless verification support change. <a href="#ntm-architecture">Inspect the boundaries</a>.</dd></div>
+          <div><dt>Engineering decisions</dt><dd>Separate state ownership from rendering, reproduce recorded actions deterministically, preserve supported historical saves and require evidence for each bounded iteration. <a href="#ntm-process">Review the workflow</a>.</dd></div>
+          <div><dt>Verification</dt><dd>The 15 October 2026 campaign against the recorded 0.3.0-rc.1 / monday-8 snapshot verified 112,402 completed simulation runs and independently replayed 8,050 retained artifacts. It verified 44 ending targets; two campaign target gaps remained. <a href="#ntm-traversal">Read the scope and gaps</a>.</dd></div>
+          <div><dt>Limitations</dt><dd>Historical campaign figures are not current game-wide totals or evidence of the hosted build. Automated traversal does not establish human understanding, enjoyment, browser accessibility or production infrastructure scale. <a href="#ntm-evidence">Check the evidence sources</a>.</dd></div>
+        </dl>
+      </section>
 
       <section className="container ntm-chapter" id="ntm-brief" aria-labelledby="ntm-brief-title">
         <p className="eyebrow mono">01 / The product problem</p>

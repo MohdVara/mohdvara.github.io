@@ -27,7 +27,7 @@ test("all shipped HTML asset paths exist and are lightweight", async () => {
   const paths = [...html.matchAll(/(?:src|href)="(\/[^"#]+)"/g)].map(
     (match) => match[1],
   );
-  for (const path of paths) await access(join("dist", path));
+  for (const path of paths) await access(join("dist", new URL(path, "https://portfolio.test").pathname));
   assert.ok((await stat("dist/images/portrait.webp")).size < 100_000);
   for (const [, path] of html.matchAll(/src="(\/assets\/[^" ]+\.js)"/g))
     // Reviewed source-grounded flagship and engagement copy adds ~4.5KB.

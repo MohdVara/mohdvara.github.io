@@ -15,6 +15,11 @@
 .ntm-contents a { display: inline-flex; min-height: 44px; align-items: center; font-size: .85rem; }
 .ntm-chapter { padding-block: 64px; border-bottom: 1px solid var(--line); scroll-margin-top: 24px; }
 .ntm-chapter h2 { max-width: 900px; font-size: clamp(1.7rem, 3.3vw, 2.8rem); margin-bottom: 28px; }
+.ntm-summary-list { margin: 0; max-width: 90ch; }
+.ntm-summary-list > div { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); gap: 24px; padding-block: 18px; border-top: 1px solid var(--line); }
+.ntm-summary-list dt { font-weight: 600; }
+.ntm-summary-list dd { margin: 0; color: var(--muted); }
+.ntm-summary-list a { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
 .ntm-case h3 { font-size: 1.1rem; line-height: 1.4; }
 .ntm-prose { max-width: 76ch; }
 .ntm-prose p + p, .ntm-two-column p + p { margin-top: 20px; }
@@ -81,6 +86,7 @@
 .ntm-next > p { margin-top: 16px; max-width: 70ch; color: var(--muted); }
 .ntm-evidence > p:not(.eyebrow) { max-width: 85ch; font-size: .85rem; color: var(--muted); margin-top: 20px; }
 @media (max-width: 760px) {
+  .ntm-summary-list > div { grid-template-columns: minmax(0, 1fr); gap: 8px; }
   .ntm-diagnostic-branches { grid-template-columns: minmax(0, 1fr); }
   .ntm-visual-history, .ntm-dialogue-excerpts { grid-template-columns: minmax(0, 1fr); }
   .ntm-case-hero { padding-top: 28px; }
@@ -107,6 +113,7 @@
   .ntm-case tbody th, .ntm-case tbody td { display: block; border: 0; padding: 6px 0; overflow-wrap: normal; }
 }
 :root[data-text-size="largest"] .ntm-flow, :root[data-text-size="largest"] .ntm-two-column, :root[data-text-size="largest"] .ntm-facts { grid-template-columns: 1fr; }
+:root[data-text-size="largest"] .ntm-summary-list > div { grid-template-columns: minmax(0, 1fr); gap: 8px; }
 :root[data-text-size="largest"] .ntm-visual-history, :root[data-text-size="largest"] .ntm-dialogue-excerpts { grid-template-columns: minmax(0, 1fr); }
 :root[data-text-size="largest"] .ntm-diagnostic-branches { grid-template-columns: minmax(0, 1fr); }
 :root[data-text-size="largest"] .ntm-flow li::after { display: none; }

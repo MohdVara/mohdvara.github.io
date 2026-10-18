@@ -4,16 +4,17 @@ import { resolve } from 'node:path';
 import { mkdir, writeFile } from 'node:fs/promises';
 // Optional tooling is installed outside the production dependency graph.
 const require = createRequire(resolve(process.env.QA_MODULES_DIR || '/private/tmp/pace-qa', 'package.json'));
-const { chromium } = require('playwright');
+const playwright = require('playwright');
+const engine = process.env.QA_BROWSER || 'chromium';
 const AxeBuilder = require('@axe-core/playwright').default;
 const base = process.env.QA_URL || 'http://127.0.0.1:4173';
 const output = resolve(process.env.QA_OUTPUT_DIR || 'output/playwright/pace');
 await mkdir(output, { recursive: true });
-const browser = await chromium.launch({ channel: 'chrome', headless: true });
+const browser = await playwright[engine].launch({ ...(engine === 'chromium' ? { channel: 'chrome' } : {}), headless: true });
 const results = { layouts: [], routes: [], noJavaScript: [], errors: [], failedLocalResources: [] };
 try {
-  for (const width of [320, 375, 768, 1024, 1440]) {
-    const context = await browser.newContext({ viewport: { width, height: 900 }, reducedMotion: 'reduce' });
+  for (const [width, height] of [[320,568], [375,667], [390,844], [768,1024], [1024,768], [1280,720], [1440,900], [1920,1080]]) {
+    const context = await browser.newContext({ viewport: { width, height }, hasTouch: engine !== "firefox" && width <= 1024, reducedMotion: 'reduce' });
     const page = await context.newPage();
     page.on('pageerror', error => results.errors.push(error.message));
     page.on('response', response => {
@@ -21,7 +22,8 @@ try {
     });
     await page.goto(base);
     await page.evaluate(() => document.fonts.ready);
-    await page.keyboard.press('Tab');
+    // WebKit on macOS uses Option-Tab to include links with default OS settings.
+    await page.keyboard.press(engine === 'webkit' ? 'Alt+Tab' : 'Tab');
     assert.equal(await page.locator(':focus').textContent(), 'Skip to content');
     await page.keyboard.press('Enter');
     assert.equal(await page.locator(':focus').getAttribute('id'), 'main');
@@ -49,12 +51,19 @@ try {
         await page.evaluate(() => window.scrollTo(0, 0));
         assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1), `${width}/${theme}/${size} overflow`);
         const audit = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa', 'wcag22aa']).analyze();
-        const entry = { width, theme, size, violations: audit.violations.map(v => ({ id: v.id, impact: v.impact, nodes: v.nodes.map(n => n.target) })), incomplete: audit.incomplete.map(v => v.id) };
+        const entry = { width, height, engine, theme, size, violations: audit.violations.map(v => ({ id: v.id, impact: v.impact, nodes: v.nodes.map(n => n.target) })), incomplete: audit.incomplete.map(v => v.id) };
         results.layouts.push(entry);
         await page.screenshot({ path: `${output}/home-${width}-${theme}-${size}.png`, fullPage: true });
         assert.deepEqual(entry.violations, [], JSON.stringify(entry));
       }
     }
+    await page.locator('.display-settings summary').click();
+    await page.getByRole('combobox', { name: 'Color theme' }).selectOption('system');
+    await page.locator('.display-settings summary').press('Escape');
+    await page.emulateMedia({ colorScheme: 'dark' });
+    await page.waitForFunction(() => document.documentElement.dataset.theme === 'dark');
+    await page.emulateMedia({ colorScheme: 'light' });
+    await page.waitForFunction(() => document.documentElement.dataset.theme === 'light');
     await page.getByRole('link', { name: 'Discuss an engineering opportunity' }).click();
     assert.ok(page.url().endsWith('#contact'));
     assert.ok(await page.locator('#contact').boundingBox().then(box => box.y >= 0));

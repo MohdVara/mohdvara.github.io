@@ -11,9 +11,13 @@ export function IncidentCallout() {
       </div>
       <div>
         <a className="text-link" href="/incident-zero/">
-          Investigate the incident <span aria-hidden="true">↗</span>
+          Play the incident <span aria-hidden="true">↗</span>
         </a>
         <p className="mono">~8 min · keyboard / touch</p>
+        <a className="text-link" href="/incident-zero/?mode=preview">
+          Preview engineering decisions <span aria-hidden="true">↗</span>
+        </a>
+        <p className="mono">A short, auto-selected demonstration</p>
       </div>
     </section>
   );

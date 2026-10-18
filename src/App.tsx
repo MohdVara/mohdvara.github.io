@@ -4,6 +4,7 @@ import { observeReadingPosition, useSectionReveals, useSystemMotion, useHeroPoin
 import { BorneoBotanical, BotanicalDrawing, PortraitUnderstory, ContactConvergence, SystemTransition, SectionBranch } from "./NaturalGraphics";
 import { ProjectDiagram, CapabilityMap, CareerPath } from "./SystemDiagrams";
 import { PublicEngineering } from "./PublicEngineering";
+import { projectHref } from "./evidence";
 import { WhatISolve } from "./WhatISolve";
 import { IncidentCallout } from "./IncidentCallout";
 import { NoTwoMondays } from "./NoTwoMondays";
@@ -12,6 +13,7 @@ import "./NaturalGraphics.css";
 import "./SystemDiagrams.css";
 import "./VisualMotion.css";
 import "./Readability.css";
+import { readAnalyticsPreference, setAnalyticsPreference, subscribeAnalyticsPreference } from "./analyticsPreference";
 
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
@@ -39,6 +41,18 @@ function TextSizeControl() {
     </select>
   </label>;
 }
+function AnalyticsControl() {
+  const [enabled, setEnabled] = useState(false);
+  useEffect(() => {
+    const sync = () => setEnabled(readAnalyticsPreference());
+    sync();
+    return subscribeAnalyticsPreference(sync);
+  }, []);
+  return <div className="analytics-control">
+    <label><input type="checkbox" checked={enabled} onChange={event => setAnalyticsPreference(event.target.checked)} aria-describedby="analytics-notice" />Usage analytics</label>
+    <p id="analytics-notice">Optional usage events via PostHog: page paths and link intent, with a session identifier in this tab. No form contents, gameplay actions or recordings. Off until you enable it; switch off here to withdraw. Do Not Track and Global Privacy Control take priority.</p>
+  </div>;
+}
 function DisplayControl() {
   const settings = useRef<HTMLDetailsElement>(null);
   useEffect(() => {
@@ -59,6 +73,7 @@ function DisplayControl() {
     <summary><span aria-hidden="true">Aa</span> Display</summary>
     <div className="display-panel"><TextSizeControl /><ThemeControl />
       <p>Display choices are remembered on this device.</p>
+      <AnalyticsControl />
     </div>
   </details>;
 }
@@ -315,7 +330,7 @@ function SelectedWork() {
               <p className="project-meta mono">
                 {project.company} <span> / </span> {project.period}
               </p>
-              <h3>{project.title}</h3>
+              <h3 tabIndex={-1}>{project.title}</h3>
               <p className="project-scope"><span className="mono">Role</span>{project.role}</p>
               <p className="project-summary">{project.summary}</p>
               {index > 2 && <p className="project-scope"><span className="mono">Scope</span>{project.scope}</p>}
@@ -443,15 +458,19 @@ function Capabilities() {
       </SectionHeading>
       </div>
       <CapabilityMap />
-      <div className="engineering-principles" id="engineering-principles" aria-labelledby="principles-title">
+      <div className="ai-evidence" id="ai-evidence">
+        <h3>AI capabilities &amp; evidence</h3>
+        <p><a className="text-link" href="/no-two-mondays/#ntm-process">No Two Mondays</a> demonstrates my AI-assisted engineering process through a documented independent project. RAG and vector databases are capabilities listed in my <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">résumé<span className="sr-only"> (opens in a new tab)</span></a>; no public production RAG implementation is presented here.</p>
+      </div>
+      <section className="engineering-principles" id="engineering-principles" aria-labelledby="principles-title">
         <h3 id="principles-title">Engineering principles &amp; decision-making</h3>
         <p className="section-intro">Selected examples of the decisions behind the work.</p>
         <div className="principle-list">
-          <article><h4>Make integration boundaries explicit</h4><p>At PolicyStreet, provider rate normalization connected differing insurance APIs to consistent quotation and issuance workflows. The engineering focus was interoperability across those boundaries.</p><a className="text-link" href="#case-insurance">Explore the integration work <Arrow /></a></article>
-          <article><h4>Evolve systems with continuity in mind</h4><p>Education platform work centres on modernising established software while supporting ongoing use. Maintainability and continued delivery provide the context for change.</p><a className="text-link" href="#case-campus">Explore the modernisation work <Arrow /></a></article>
+          <article><h4>Make integration boundaries explicit</h4><p>At PolicyStreet, provider rate normalization connected differing insurance APIs to consistent quotation and issuance workflows. The engineering focus was interoperability across those boundaries.</p><a className="text-link" href={projectHref("insurance", true)}>Explore the integration work <Arrow /></a></article>
+          <article><h4>Evolve systems with continuity in mind</h4><p>Education platform work centres on modernising established software while supporting ongoing use. Maintainability and continued delivery provide the context for change.</p><a className="text-link" href={projectHref("campus", true)}>Explore the modernisation work <Arrow /></a></article>
           <article><h4>Keep responsibility with the engineer</h4><p>No Two Mondays pairs AI-assisted implementation with human-directed architecture, save compatibility and deterministic replay. Automated verification and human review answer different questions.</p><a className="text-link" href="/no-two-mondays/#ntm-architecture">Explore architecture &amp; verification <Arrow /></a></article>
         </div>
-      </div>
+      </section>
     </section>
   );
 }

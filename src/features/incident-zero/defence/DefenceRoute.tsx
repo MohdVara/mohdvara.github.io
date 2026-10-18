@@ -128,8 +128,8 @@ export default function DefenceRoute() {
     };
     return <main className="defence-page">
     <header className="defence-header"><a href="/incident-zero/">← Incident Zero</a><h1>System Defence</h1><span className="defence-tag">LEVEL {session.level.toString().padStart(2, '0')} / 05 · {floor.name}</span></header>
-    <div className="defence-hud" aria-label="Encounter status">
-      <div><small>Integrity</small><strong aria-label={`${shownIntegrity} of 3 integrity`}>{'◆'.repeat(shownIntegrity)}<span className="defence-empty">{'◇'.repeat(3 - shownIntegrity)}</span></strong></div>
+    <div className="defence-hud" role="group" aria-label="Encounter status">
+      <div><small>Integrity</small><strong><span aria-hidden="true">{'◆'.repeat(shownIntegrity)}<span className="defence-empty">{'◇'.repeat(3 - shownIntegrity)}</span></span><span className="sr-only">{shownIntegrity} of 3 integrity</span></strong></div>
       <div><small>Tool</small><strong>{weapons[hud.weapon].name}</strong></div>
       <div><small>Run score / personal best</small><strong>{session.score + (session.status === 'active' || session.status === 'paused' ? hud.score : session.status === 'defeat' ? (result?.score || 0) : 0)} / {session.best}</strong></div>
       <div><small>Threats remaining</small><strong>{(result ? floor.spawns.length - result.flood - result.probe : hud.threats).toString().padStart(2, '0')}</strong></div>

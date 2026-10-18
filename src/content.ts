@@ -1,4 +1,4 @@
-// Facts from the supplied LinkedIn profile, reviewed 6 October 2026.
+// Owner-supplied professional history; prior reviews are recorded in the source register.
 // See docs/content-sources.md; do not publish inferred architecture as fact.
 export const profile = {
   email: "mohd@paramasvara.online",
@@ -10,8 +10,10 @@ export const profile = {
   // Add only an owner-approved PDF after inspecting every page of the current export.
   resumePdf: null as string | null,
 };
+export const projectIds = ["insurance", "wensymes", "campus", "rental", "meetings", "hr"] as const;
+export type ProjectId = typeof projectIds[number];
 interface Project {
-  id: string;
+  id: ProjectId;
   category: string;
   role: string;
   company: string;
@@ -35,7 +37,7 @@ export const projects: Project[] = [
     functions: ["Platform modernisation", "Full-stack engineering", "Maintainability"],
     visualLabel: "Education Platform Modernisation",
     details: [
-      ["My contribution", "Led full-stack development and contributed technical direction as Principal Full Stack Developer."],
+      ["My contribution", "Led full-stack development and contributed technical direction as Principal Full Stack Engineer."],
       ["Focus", "Modernising established software while supporting its ongoing use and development."],
       ["Engineering priorities", "Maintainability, dependable delivery and long-term platform development."],
     ], stack: [],
@@ -105,17 +107,18 @@ export const projects: Project[] = [
     company: "WenSymes",
     period: "2025 onward",
     title: "WenSymes — Human Resources Management Platform",
-    summary: "Full-stack engineering for HR and administration tools, where business workflows and consistent application behaviour need to work together.",
+    summary: "Building internal HR and administration tools for day-to-day operations, using full-stack web development, Google Cloud and Microsoft 365.",
     result: "Contributing principal full-stack development to HR and administration software.",
     functions: ["HR & administration", "Full-stack engineering", "Technical ownership"],
     visualLabel: "WenSymes HR Platform",
     details: [
-      ["Context", "HR and administration application development within the current WenSymes engagement."],
-      ["Role & ownership", "Principal Full Stack Developer, contributing hands-on full-stack engineering."],
-      ["Engineering considerations", "HR applications call for careful handling of data consistency and access control. These are engineering concerns, not a disclosure of the platform’s internal design."],
-      ["Contribution", "Development of full-stack HR and administration tools. Internal workflows and implementation details are kept private."],
+      ["Context", "Internal administration tools supporting HR and operational workflows within the WenSymes engagement."],
+      ["Role & ownership", "Principal Full Stack Developer, building internal administration tools and planning product-domain capabilities."],
+      ["Constraints & planning", "Data consistency, access control and uptime matter for daily operations. Planning considers these requirements; detailed internal rules and implementation remain private."],
+      ["Technical approach", "Full-stack web development with Google Cloud and Microsoft 365."],
+      ["Contribution", "Developing internal HR and operational tools while planning further domain-specific capabilities."],
     ],
-    stack: [],
+    stack: ["Full-stack web", "Google Cloud", "Microsoft 365"],
   },
   {
     id: "hr",
@@ -198,7 +201,7 @@ export const experience = [
   {
     period: "Mar 2025 — Present",
     title: "Principal Full Stack Developer",
-    company: "Wensymes",
+    company: "WenSymes",
     type: "Remote · Singapore",
     description:
       "Building full-stack HR and administration tools with cloud services. Planning domain tools around data consistency, access control and uptime.",
@@ -250,11 +253,11 @@ export const capabilities = [
   {
     title: "Leadership & applied AI",
     description:
-      "Engineering direction, practical technical training, and RAG-based onboarding and knowledge tools.",
+      "Engineering direction and technical training. AI-assisted engineering is illustrated by No Two Mondays; RAG and vector databases are résumé-listed capabilities.",
     tools:
       "Team enablement · Stakeholder alignment · RAG · Vector databases · AI-assisted engineering",
   },
 ];
 
 // Real professional work leads; public exercises remain supplementary.
-projects.sort((a, b) => ["insurance", "wensymes", "campus", "rental", "meetings", "hr"].indexOf(a.id) - ["insurance", "wensymes", "campus", "rental", "meetings", "hr"].indexOf(b.id));
+projects.sort((a, b) => projectIds.indexOf(a.id) - projectIds.indexOf(b.id));
