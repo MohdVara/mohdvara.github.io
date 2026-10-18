@@ -1,0 +1,36 @@
+import { useEffect, useRef } from "react";
+import { readSceneryPreference, subscribeSceneryPreference } from "./preference";
+import type { ForestHandle } from "./renderer";
+import "./AsciiForest.css";
+
+export function AsciiForestBackdrop({ aerial = false }: { aerial?: boolean }) {
+  const host = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const element = host.current;
+    if (!element) return;
+    let cancelled = false, renderer: ForestHandle | undefined;
+    const state = () => ({ theme: document.documentElement.dataset.theme === "light" ? "light" as const : "dark" as const, enabled: readSceneryPreference() });
+    const sync = () => renderer?.update(state());
+    // Two browser frames let the semantic hero paint before optional scenery is
+    // fetched. The import is not a modulepreload or an SSR dependency.
+    let first = 0, second = 0;
+    const load = () => { first = requestAnimationFrame(() => {
+      second = requestAnimationFrame(() => {
+        import("./renderer").then(module => {
+          if (!cancelled) renderer = module.mountForest(element, state(), aerial);
+        }).catch(() => { /* Existing botanical drawing remains the fallback. */ });
+      });
+    }); };
+    const proximity = aerial ? new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) { proximity?.disconnect(); load(); }
+    }, { rootMargin: "200px" }) : undefined;
+    if (proximity) proximity.observe(element); else load();
+    const unsubscribe = subscribeSceneryPreference(sync);
+    window.addEventListener("theme-change", sync);
+    return () => {
+      cancelled = true; proximity?.disconnect(); cancelAnimationFrame(first); cancelAnimationFrame(second);
+      unsubscribe(); window.removeEventListener("theme-change", sync); renderer?.dispose();
+    };
+  }, [aerial]);
+  return <div className={aerial ? "ascii-river" : "ascii-forest"} ref={host} aria-hidden="true" />;
+}

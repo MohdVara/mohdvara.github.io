@@ -14,6 +14,8 @@ import "./SystemDiagrams.css";
 import "./VisualMotion.css";
 import "./Readability.css";
 import { readAnalyticsPreference, setAnalyticsPreference, subscribeAnalyticsPreference } from "./analyticsPreference";
+import { AsciiForestBackdrop } from "./AsciiForest/AsciiForestBackdrop";
+import { SceneryControl } from "./AsciiForest/SceneryControl";
 
 function Arrow() {
   return <span aria-hidden="true">↗</span>;
@@ -71,7 +73,7 @@ function DisplayControl() {
     }
   }}>
     <summary><span aria-hidden="true">Aa</span> Display</summary>
-    <div className="display-panel"><TextSizeControl /><ThemeControl />
+    <div className="display-panel"><TextSizeControl /><ThemeControl /><SceneryControl />
       <p>Display choices are remembered on this device.</p>
       <AnalyticsControl />
     </div>
@@ -198,7 +200,9 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
 function Hero() {
   useHeroPointer();
   return (
-    <section className="hero container" id="home" data-motion-region="hero" aria-labelledby="hero-title">
+    <section className="hero-environment" id="home" data-motion-region="hero" aria-labelledby="hero-title">
+      <AsciiForestBackdrop />
+      <div className="hero container">
       <div className="hero-copy">
         <p className="eyebrow">
           <span className="location-dot" aria-hidden="true" /> Based in Sabah,
@@ -262,6 +266,7 @@ function Hero() {
           <span className="mono">01 / PROFILE</span>
         </figcaption>
       </figure>
+      </div>
     </section>
   );
 }
@@ -531,12 +536,13 @@ function Contact() {
   };
   return (
     <section
-      className="section container contact"
+      className="section contact contact-environment"
       id="contact"
       data-motion-region="contact"
       aria-labelledby="contact-title"
     >
-      <div data-reveal>
+      <AsciiForestBackdrop aerial />
+      <div className="container" data-reveal>
         <p className="eyebrow mono">05 / Let’s talk</p>
         <h2 id="contact-title">
           A complex problem.

@@ -1,0 +1,85 @@
+.hero-environment {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  --forest-left: .12;
+  --forest-right: .86;
+}
+.hero-environment > .hero { position: relative; z-index: 1; }
+.hero-environment .hero-copy { position: relative; isolation: isolate; }
+.hero-environment .hero-copy::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -28px -22px;
+  pointer-events: none;
+  background: linear-gradient(to right, color-mix(in srgb, var(--background) 94%, transparent) 0%, color-mix(in srgb, var(--background) 92%, transparent) 75%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent, #000 6%, #000 94%, transparent);
+}
+.ascii-forest, .ascii-river {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+  contain: strict;
+  opacity: .95;
+  mask-image: linear-gradient(to right, rgb(0 0 0 / var(--forest-left)) 0%, rgb(0 0 0 / .16) 36%, rgb(0 0 0 / .6) 58%, rgb(0 0 0 / var(--forest-right)) 100%), linear-gradient(to bottom, transparent 0%, #000 13%, #000 var(--forest-bottom-start, 81%), transparent 100%);
+  mask-composite: intersect;
+}
+.ascii-forest canvas, .ascii-river canvas { display: block; width: 100%; height: 100%; }
+.hero-environment:has(.ascii-forest[data-ready="true"]) .hero-botanical { opacity: .055; }
+.hero-environment .portrait { max-width: 330px; }
+.hero-environment .portrait-frame { filter: saturate(.8); }
+.hero-environment .portrait figcaption span {
+  background: color-mix(in srgb, var(--background) 96%, transparent);
+  box-shadow: 0 0 9px 6px color-mix(in srgb, var(--background) 96%, transparent);
+}
+.hero-environment .secondary { background: color-mix(in srgb, var(--background) 95%, transparent); }
+:root[data-theme="light"] .ascii-forest {
+  mask-image: linear-gradient(to right, transparent 0%, transparent 39%, rgb(0 0 0 / .18) 51%, rgb(0 0 0 / .85) 68%, #000 100%), linear-gradient(to bottom, transparent, #000 12%, #000 var(--forest-bottom-start, 81%), transparent);
+  mask-composite: intersect;
+}
+.scenery-control small { display: block; color: var(--muted); font-size: .75rem; line-height: 1.5; margin: -6px 0 14px; }
+@media (min-width: 1100px) {
+  .hero-environment .portrait { margin-inline-end: 24px; }
+}
+@media (max-width: 760px) {
+  .hero-environment { --forest-left: .1; --forest-right: .6; }
+  .hero-environment .hero-copy::before {
+    background: color-mix(in srgb, var(--background) 96%, transparent);
+  }
+  .ascii-forest, :root[data-theme="light"] .ascii-forest {
+    mask-image: linear-gradient(to bottom, rgb(0 0 0 / .17) 0%, rgb(0 0 0 / .12) 43%, #000 65%, transparent 100%);
+    mask-composite: add;
+  }
+  .hero-environment .portrait { max-width: 270px; }
+}
+:root[data-text-size="largest"] .ascii-forest, :root[data-theme="light"][data-text-size="largest"] .ascii-forest {
+  mask-image: linear-gradient(to bottom, rgb(0 0 0 / .1), rgb(0 0 0 / .12) 55%, rgb(0 0 0 / .7) 73%, transparent);
+  mask-composite: add;
+}
+.contact-environment { overflow: clip; }
+.contact .ascii-river {
+  inset: 0;
+  z-index: -1;
+  mask-image: linear-gradient(to right, transparent 22%, rgb(0 0 0 / .2) 40%, #000 64%, #000 94%, transparent), linear-gradient(to bottom, transparent, #000 16%, #000 78%, transparent);
+  mask-composite: intersect;
+}
+.contact:has(.ascii-river[data-ready="true"]) .contact-convergence { visibility: hidden; }
+.contact > [data-reveal] { position: relative; isolation: isolate; }
+.contact > [data-reveal]::before {
+  content: ""; position: absolute; z-index: -1; inset: -12px 40% -12px -24px; pointer-events: none;
+  background: linear-gradient(to right, var(--background) 65%, transparent);
+}
+.contact-email, .contact-links .text-link, .copy-email, .contact-booking > p {
+  background: color-mix(in srgb, var(--background) 96%, transparent);
+}
+@media (max-width: 760px) {
+  .contact .ascii-river {
+    inset: 0;
+    mask-image: linear-gradient(to bottom, transparent, rgb(0 0 0 / .12) 10%, rgb(0 0 0 / .15) 60%, #000 77%, transparent 100%);
+    mask-composite: add;
+  }
+  .contact > [data-reveal]::before { inset: -12px -8px 18%; background: color-mix(in srgb, var(--background) 94%, transparent); }
+}
+@media (forced-colors: active) { .ascii-forest, .ascii-river { display: none; } }
