@@ -32,3 +32,4 @@ dist-ssr
 .wrangler/
 .dev.vars
 .dev.vars.*
+output/playwright

@@ -209,7 +209,7 @@ Experience descriptions prioritize ownership and scope. Shared 01–04 reference
 
 At the owner's follow-up request, two lightweight code-native header SVGs fill the open areas beside Selected Work and Public Engineering. They combine branching paths, leaf-vein forms and restrained system nodes, using existing gold/theme values. They are decorative, non-interactive and static; mobile retains a compact simplified route without the secondary leaf branches. No library, raster asset, new animation loop or extra scroll listener was added.
 
-Title, metadata and the 1200×630 social image were reviewed and already communicate Principal Full-Stack Engineer, technical leadership and architecture. No analytics infrastructure exists in the local project, so no conversion event helper or tracking was introduced. No uncertain availability, testimonials, metrics or client proof was added.
+Title, metadata and the 1200×630 social image were reviewed and already communicate Principal Full-Stack Engineer, technical leadership and architecture. At that historical checkpoint analytics had not yet been added. Current PostHog configuration is documented above. No uncertain availability, testimonials, metrics or client proof was added.
 
 Validation includes build, TypeScript, lint, 15 tests; seven-width Chrome regression in both palettes; a 14-case simulated recruiter/CTO/consulting journey suite (`scripts/conversion-qa.mjs`); keyboard focus, touch résumé/scheduling popups, direct email and no-JavaScript conversion links; all career anchors and capability selections with stable selection dimensions. A five-second Hero and thirty-second six-section walkthrough were captured for heuristic visual review, not measured user-comprehension research. Public source, profile, LinkedIn, résumé and scheduling destinations returned HTTP 200 without authentication; both surfaced GitHub repositories again reported `visibility: public` and `private: false`.
 
@@ -231,7 +231,7 @@ The homepage retains the Principal Engineer hero and its work/résumé hierarchy
 
 New scope lines describe existing meeting, insurance, HR and rental workflows. The only numeric scope resurfaced is **20+ properties**, already in `src/content.ts` and documented in `docs/content-sources.md` from the owner-supplied résumé. No new business outcome, migration/user count or before/after metric is claimed. Applied AI is explicitly identified as résumé-listed capability, not a delivered client case study. No verified specific testimonial or current availability statement was found, so neither was added. Engagement models describe proposed ways to work, not an asserted history of selling those packages.
 
-No first-party analytics infrastructure was found; no events, trackers or conversion-rate claims were added. Cal.com remains a normal external link. Its public discovery page offers 30 minutes rather than the preferred 20; no account settings were changed, and no 20-minute promise appears on the site. Booking completion and email delivery cannot be confirmed by local link checks.
+At that historical checkpoint no analytics events were added; current optional PostHog tracking is documented above. No conversion-rate claims were added. Cal.com remains a normal external link. Its public discovery page offers 30 minutes rather than the preferred 20; no account settings were changed, and no 20-minute promise appears on the site. Booking completion and email delivery cannot be confirmed by local link checks.
 
 Validation: production build (including TypeScript), lint and all 16 tests pass. Chrome checks cover 320, 375, 430, 768, 1024, 1440 and 1920px in both palettes, homepage regression, client/proof journeys, static route refresh, keyboard focus, touch booking navigation and no-JavaScript case-study links. No overflow, browser errors, failed local resources or axe violations were detected; some homepage color-contrast checks remain incomplete. Five-second hero and thirty-second employer/client walkthroughs are heuristic simulations, not visitor-comprehension research. Final contact endpoint alignment was checked at tablet/desktop widths. Public GitHub destinations, résumé and booking returned HTTP 200; both curated repositories reported public visibility. LinkedIn returned HTTP 429 on the latest check, so live accessibility there remains unconfirmed for this run.
 
@@ -281,3 +281,16 @@ The optional `/incident-zero/defence/` arcade route now supports five seeded flo
 Open **Display** in the shared header to choose **Default**, **Large**, or **Largest** text alongside the existing theme options. Default body text is 18px with standard browser settings; Large is 20px and Largest is 24px. Percentage sizing also respects browser font preferences and browser zoom. Choices apply before paint, persist locally, and sync across tabs; blocked storage still allows changes for the current page.
 
 Supporting labels are larger, paragraph spacing is more generous, and dense portfolio sections stack at Largest. The header measures its height so section links remain visible below it. Layouts and artwork retain their width rather than scaling the entire page. Without JavaScript, readable default text and native navigation remain available; the Display control is hidden.
+
+
+## PACE v1 portfolio review — 18 October 2026
+
+PACE keeps the existing Borneo visual identity and routes, leads commercial work with PolicyStreet, adds a bounded WenSymes summary and links concrete engineering decisions to their evidence. The hero now prioritizes an engineering conversation, followed by work and the hosted résumé. The NTM preview uses a reviewed local image with a direct itch.io link; its detailed route hydrates existing static content.
+
+Audit, evidence boundaries, confidentiality review and validation are in `docs/portfolio/PACE-V1-*.md`. No deployment was performed. Re-run the focused browser checks against a production preview using optional tools outside the app dependencies:
+
+```sh
+QA_MODULES_DIR=/private/tmp/pace-qa node scripts/pace-qa.mjs
+```
+
+Use the existing documented temporary-tool install procedure above if necessary. Captures and JSON results go to `output/playwright/pace/`. On restricted machines, `SWC_NATIVE_BINDING_CACHE=/private/tmp/pace-swc npm run build` avoids the default SWC cache location. This is a local environment workaround, not a deployment setting.

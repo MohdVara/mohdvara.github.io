@@ -52,3 +52,13 @@
 :root[data-text-size="largest"] .career-path svg { display: none; }
 :root[data-text-size="largest"] .career-node { position: relative; transform: none; left: auto !important; top: auto !important; width: 100%; min-height: 44px; display: flex; gap: 16px; }
 :root[data-text-size="largest"] .career-path figcaption { position: static; margin-top: 12px; }
+
+/* Decision examples reuse the existing project separators and typography. */
+.engineering-principles { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); scroll-margin-top: calc(var(--header-height, 90px) + 24px); }
+.engineering-principles h3 { font-size: 1.4rem; letter-spacing: -.025em; }
+.principle-list { margin-top: 1.5rem; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+.principle-list h4 { font-size: 1rem; font-weight: 600; }
+.principle-list p { margin-block: .75rem 1rem; color: var(--muted); line-height: 1.75; }
+.principle-list .text-link { font-size: .85rem; }
+@media (max-width: 900px) { .principle-list { grid-template-columns: minmax(0, 1fr); } }
+:root[data-text-size="largest"] .principle-list { grid-template-columns: minmax(0, 1fr); }

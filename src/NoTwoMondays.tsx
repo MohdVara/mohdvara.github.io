@@ -1,16 +1,18 @@
 export function NoTwoMondays() {
   return (
-    <section className="container no-two-mondays" aria-labelledby="no-two-mondays-title">
+    <section id="no-two-mondays" className="container no-two-mondays" aria-labelledby="no-two-mondays-title">
       <div>
-        <p className="eyebrow mono">Independent game / modvar</p>
+        <p className="eyebrow mono">Independent engineering / modvar</p>
         <h2 id="no-two-mondays-title">No Two Mondays: Trial Period</h2>
         <p className="no-two-mondays-description">
-          One Monday, three coworkers, and a production outage. An interactive
-          office story about the systems you repair and the people you work with.
+          An independently developed office simulation: modular system design,
+          state management, save compatibility and deterministic verification.
+          The case study examines AI-assisted implementation, human engineering
+          decisions and the limits of automated testing.
         </p>
         <div className="no-two-mondays-links">
         <a className="text-link" href="/no-two-mondays/">
-          Read the development case study <span aria-hidden="true">↗</span>
+          Explore the engineering <span aria-hidden="true">↗</span>
         </a>
         <a
           className="text-link"
@@ -18,19 +20,16 @@ export function NoTwoMondays() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Play on itch.io <span aria-hidden="true">↗</span>
+          Experience the project on itch.io <span aria-hidden="true">↗</span>
           <span className="sr-only"> (opens in a new tab)</span>
         </a>
         </div>
       </div>
-      <iframe
-        className="no-two-mondays-embed"
-        title="No Two Mondays: Trial Period by modvar on itch.io"
-        src="https://itch.io/embed/5140208?bg_color=EEE0BD&fg_color=29343B&link_color=365C5A&border_color=4a585d"
-        width="552"
-        height="167"
-        loading="lazy"
-      />
+      <figure className="no-two-mondays-preview">
+        <img src="/images/no-two-mondays/office.jpg" width="1280" height="587" loading="lazy"
+          alt="Early No Two Mondays office simulation, showing the workspace and character interface" />
+        <figcaption>Early development capture · 10 October 2026</figcaption>
+      </figure>
     </section>
   );
 }

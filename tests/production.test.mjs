@@ -8,7 +8,8 @@ test("production delivers real content without client-side JavaScript", () => {
   assert.equal((html.match(/<h1[\s>]/g) || []).length, 1);
   assert.match(html, /<main/);
   assert.match(html, /Principal Full-Stack Engineer/);
-  assert.match(html, /Minute-by-minute attendance tracking/);
+  assert.match(html, /WenSymes — Human Resources Management Platform/);
+  assert.doesNotMatch(html, /Minute-by-minute|AWS Chime|Amazon S3/);
   assert.match(html, /Human Resource Management System/);
   assert.doesNotMatch(
     html,
@@ -33,7 +34,8 @@ test("all shipped HTML asset paths exist and are lightweight", async () => {
     // PostHog startup and named portfolio interactions add ~2KB;
     // the analytics SDK and Phaser runtime stay lazy.
     // Accessible display controls and header reflow add ~2KB.
-    assert.ok((await stat(join("dist", path))).size < 211_000);
+    // PACE adds a sourced commercial summary and linked decision examples (~3KB).
+    assert.ok((await stat(join("dist", path))).size < 215_000);
 });
 test("metadata, schema and domain agree", async () => {
   assert.match(

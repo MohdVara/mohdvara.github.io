@@ -13,6 +13,7 @@ export const profile = {
 interface Project {
   id: string;
   category: string;
+  role: string;
   company: string;
   period: string;
   title: string;
@@ -26,8 +27,8 @@ interface Project {
 }
 export const projects: Project[] = [
   {
-    id: "campus", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
-    title: "Modernising an established education platform.",
+    id: "campus", role: "Principal Full Stack Engineer", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
+    title: "Enterprise Education Systems — Modernization & Technical Consulting",
     summary: "Full-stack engineering and technical leadership on an established platform in the education sector.",
     scope: "Education platform · full-stack engineering · technical leadership",
     result: "Contributed to platform modernisation with a focus on maintainability and ongoing delivery.",
@@ -41,48 +42,31 @@ export const projects: Project[] = [
   },
   {
     id: "meetings",
-    scope: "Live sessions · participation · recordings · reporting APIs",
-    category: "Education / Collaboration",
+    role: "Principal Full Stack Engineer",
+    scope: "Education applications · maintenance · integration",
+    category: "Education / Enterprise applications",
     company: "Centre for Content Creation",
     period: "2021 onward",
-    title: "Online classes, with attendance and reporting built in.",
-    summary:
-      "Connected live classes, participation, recordings and reporting to existing systems.",
-    result:
-      "Minute-by-minute attendance tracking, meeting recordings stored in S3, and APIs that make session data available for reporting and class metrics.",
-    functions: [
-      "Online classes & meetings",
-      "Attendance & recordings",
-      "Reporting & integration APIs",
-    ],
-    visualLabel: "Classroom & Meeting Tools",
+    title: "Supporting established education applications.",
+    summary: "Full-stack development and integration work in the education sector.",
+    result: "Contributed to application maintenance and ongoing software delivery.",
+    functions: ["Application maintenance", "Full-stack development", "Ongoing delivery"],
+    visualLabel: "Education Application Engineering",
     details: [
-      [
-        "Ownership",
-        "Full-stack development of the meeting management system, alongside classroom applications and integrations at Centre for Content Creation.",
-      ],
-      [
-        "Meeting system",
-        "Used JavaScript and AWS Chime for online classes and meetings. Implemented minute-by-minute attendance tracking, recordings, automated storage in Amazon S3, and APIs for other systems to access meeting data.",
-      ],
-      [
-        "Classroom applications",
-        "Developed an embeddable class management application used by multiple institutions, covering scheduling, participation tracking, and integration with existing systems. Later in-house classroom work integrated third-party applications and internal systems, reducing reliance on external subscriptions.",
-      ],
-      [
-        "Delivery",
-        "Supported legacy modernization, multi-environment DevOps, and deployment procedures across the wider engineering work.",
-      ],
+      ["Role", "Full-stack development, progressing to principal engineering responsibilities."],
+      ["Engineering focus", "Maintaining and evolving established applications while supporting their ongoing use."],
+      ["Disclosure", "This summary is deliberately limited to broad professional responsibilities."],
     ],
-    stack: ["JavaScript", "AWS Chime", "Amazon S3 (meeting system)"],
+    stack: [],
   },
   {
     id: "insurance",
+    role: "Senior Full Stack Developer → Director, Engineering",
     scope: "Motor · medical · group medical · fire insurance",
     category: "Fintech / Integration",
     company: "PolicyStreet",
     period: "2019–2021",
-    title: "From insurance rates to integrated policy issuance.",
+    title: "PolicyStreet — Insurance Comparison Platform",
     summary:
       "Internal teams and partners needed consistent quoting and issuance across different insurers.",
     result:
@@ -114,7 +98,28 @@ export const projects: Project[] = [
     stack: [],
   },
   {
+    id: "wensymes",
+    role: "Principal Full Stack Developer",
+    scope: "HR and administration · full-stack engineering",
+    category: "People / Enterprise applications",
+    company: "WenSymes",
+    period: "2025 onward",
+    title: "WenSymes — Human Resources Management Platform",
+    summary: "Full-stack engineering for HR and administration tools, where business workflows and consistent application behaviour need to work together.",
+    result: "Contributing principal full-stack development to HR and administration software.",
+    functions: ["HR & administration", "Full-stack engineering", "Technical ownership"],
+    visualLabel: "WenSymes HR Platform",
+    details: [
+      ["Context", "HR and administration application development within the current WenSymes engagement."],
+      ["Role & ownership", "Principal Full Stack Developer, contributing hands-on full-stack engineering."],
+      ["Engineering considerations", "HR applications call for careful handling of data consistency and access control. These are engineering concerns, not a disclosure of the platform’s internal design."],
+      ["Contribution", "Development of full-stack HR and administration tools. Internal workflows and implementation details are kept private."],
+    ],
+    stack: [],
+  },
+  {
     id: "hr",
+    role: "Web Developer · collaborative development",
     scope: "Multiple companies · configurable leave and attendance rules",
     category: "People / Business operations",
     company: "Centre for Content Creation",
@@ -152,6 +157,7 @@ export const projects: Project[] = [
   },
   {
     id: "rental",
+    role: "Freelance Principal Full Stack Solution Developer",
     scope: "20+ properties · tenants · contracts · financial reporting",
     category: "Proptech / Business operations",
     company: "MegaInfinite",
@@ -251,4 +257,4 @@ export const capabilities = [
 ];
 
 // Real professional work leads; public exercises remain supplementary.
-projects.sort((a, b) => ["campus", "insurance", "rental", "meetings", "hr"].indexOf(a.id) - ["campus", "insurance", "rental", "meetings", "hr"].indexOf(b.id));
+projects.sort((a, b) => ["insurance", "wensymes", "campus", "rental", "meetings", "hr"].indexOf(a.id) - ["insurance", "wensymes", "campus", "rental", "meetings", "hr"].indexOf(b.id));

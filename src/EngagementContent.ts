@@ -1,7 +1,7 @@
 export const problems = [
   { title: 'System modernisation', problem: 'Legacy software slowing delivery', description: 'Untangle domain rules, improve integration boundaries and modernise the parts of a system that make change difficult.', proof: 'insurance', signal: 'Modernisation work across insurance and education.' },
   { title: 'Complex product engineering', problem: 'Business workflows that do not fit a simple app', description: 'Model the rules behind permissions, contracts, policies and reporting, then build the interfaces and services around them.', proof: 'rental', signal: 'Property, tenant and contract workflows across 20+ properties.' },
-  { title: 'Architecture & delivery', problem: 'Systems becoming hard to extend or operate', description: 'Review data structures, APIs and delivery practices together to define a workable path from diagnosis to implementation.', proof: 'meetings', signal: 'Meeting systems with attendance, recordings and reporting integrations.' },
+  { title: 'Architecture & delivery', problem: 'Systems becoming hard to extend or operate', description: 'Review data structures, APIs and delivery practices together to define a workable path from diagnosis to implementation.', proof: 'meetings', signal: 'Full-stack engineering and integration work on established education applications.' },
   { title: 'Applied AI integration', problem: 'A knowledge workflow that needs more than an AI demo', description: 'Explore RAG-based knowledge and onboarding tools around a defined workflow, with attention to data access and useful evaluation.', proof: null, signal: 'Discuss the knowledge workflow, data access and evaluation criteria before defining an AI integration project.' },
 ];
 export const engagements = [

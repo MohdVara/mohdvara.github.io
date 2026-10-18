@@ -29,7 +29,7 @@ export function PublicEngineering() {
           <p>{repo.description || 'Public source available for inspection.'}</p>
           <p className="public-repository-context">{repo.relevance}</p>
           {(repo.technologies.length > 0 || repo.language) && <p className="public-repository-stack mono">{repo.technologies.length ? repo.technologies.join(' · ') : repo.language}</p>}
-          <a href={repo.url} target="_blank" rel="noopener noreferrer" aria-label={`View ${repo.name} source on GitHub (opens in a new tab)`}>View source on GitHub <span aria-hidden="true">↗</span></a>
+          <a href={repo.url} target="_blank" rel="noopener noreferrer" aria-label={`View source on GitHub for ${repo.name} (opens in a new tab)`}>View source on GitHub <span aria-hidden="true">↗</span></a>
         </div>
       </article>)}
     </div>

@@ -59,6 +59,8 @@ function trackInteractions(client: Pick<PostHog, "capture">) {
       : href === profile.resume ? "resume_clicked"
       : href === profile.cv ? "full_cv_clicked"
       : href?.startsWith("mailto:") ? "email_clicked"
+      : href === "https://modvar.itch.io/no-two-mondays" ? "external_project_clicked"
+      : control.pathname === "/no-two-mondays/" ? "ntm_case_study_clicked"
       : control.pathname === "/work-with-me/" ? "engagement_page_clicked"
       : control.pathname === "/incident-zero/" ? "incident_zero_clicked"
       : control.pathname === "/incident-zero/defence/" ? "system_defence_clicked"

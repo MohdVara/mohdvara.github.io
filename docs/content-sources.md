@@ -34,3 +34,10 @@ The current two-page résumé was rendered and read in the browser. It corrobora
 Public cases now state supported ownership and decisions directly. Hosting efficiency remains a design objective here, without a fabricated saving. No new numerical performance, conversion, insurer count or leadership-size claim was introduced. The source of the public 20+ properties claim is the owner-supplied résumé (MegaInfinite entry); career since 2013 remains the previously reviewed role history. Meetings and HR remain accessible compact cases with their original IDs.
 
 An untracked owner-only evidence request checklist is in `.qa/reliability/evidence-request.md`. Do not place private client artifacts or unapproved metrics in this public repository.
+
+
+## PACE v1 — 18 October 2026
+
+The current confidentiality brief supersedes earlier permission to include detailed education collaboration workflows. Public education cards and their shared engagement references now remain at the level of maintenance, full-stack engineering, integration and ongoing delivery. Existing accurate employer history remains named. Historical source notes above describe prior evidence, not permission for new disclosure.
+
+The WenSymes summary uses the previously reviewed owner-supplied role and broad HR/administration remit. No Laravel version, payroll delivery, employee workflow, test coverage or outcome is asserted. See `portfolio/PACE-V1-CONTENT-EVIDENCE.md` for confidence levels and follow-up questions. PolicyStreet ownership remains based on the prior résumé review; it is not newly independently verified. PACE adds no project metrics.

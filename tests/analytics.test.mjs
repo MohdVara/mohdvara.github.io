@@ -89,3 +89,12 @@ test("named conversions distinguish résumé, booking, email and disclosures", a
   assert.ok(f.events.every(item => item.properties.page_path === "/"));
   assert.equal(f.config.enable_recording_console_log, false);
 });
+
+
+test("NTM engineering and experience paths emit distinct existing-vendor events", async () => {
+  const f = fixture(); await f.start();
+  for (const href of ["/no-two-mondays/", "https://modvar.itch.io/no-two-mondays"])
+    f.listeners.click({ target: f.anchor(href) });
+  assert.deepEqual(f.events.map(item => item.event), ["ntm_case_study_clicked", "external_project_clicked"]);
+  assert.ok(f.events.every(item => Object.keys(item.properties).sort().join(",") === "page_path,placement"));
+});

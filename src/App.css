@@ -1077,7 +1077,9 @@ h3 {
 .no-two-mondays { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 552px); align-items: center; gap: 40px; padding-block: 40px; border-bottom: 1px solid var(--line); }
 .no-two-mondays h2 { font-size: clamp(1.4rem, 2.5vw, 2rem); }
 .no-two-mondays-description { max-width: 48ch; margin-block: 12px 20px; color: var(--muted); font-size: .9rem; }
-.no-two-mondays-embed { display: block; width: 100%; max-width: 552px; height: 167px; border: 0; color-scheme: light; }
+.no-two-mondays-preview { margin: 0; min-width: 0; }
+.no-two-mondays-preview img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.no-two-mondays-preview figcaption { margin-top: 10px; color: var(--muted); font-size: .75rem; }
 .no-two-mondays-links { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; }
 @media (max-width: 1000px) { .no-two-mondays { grid-template-columns: minmax(0, 1fr); gap: 24px; } }
 .contact-booking p { margin-top: 12px; color: var(--muted); font-size: .85rem; }

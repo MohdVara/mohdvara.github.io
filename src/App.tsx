@@ -116,7 +116,7 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
     const stopReading = observeReadingPosition(
       [...document.querySelectorAll("main > section[id]")],
       (section) => {
-        current = section?.id === "public-engineering" ? "work" : section?.id === "problems" ? "capabilities" : section?.id || "";
+        current = ["public-engineering", "no-two-mondays"].includes(section?.id || "") ? "work" : ["problems", "engineering-principles"].includes(section?.id || "") ? "capabilities" : section?.id || "";
         setActive(atEnd ? "contact" : current);
       },
     );
@@ -139,7 +139,7 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
   return (
     <header className="site-header" ref={header}>
       <div className="container header-inner">
-        <a className="wordmark" href={home ? "#home" : "/"} aria-label="Mohd. Paramasvara — home">
+        <a className="wordmark" href={home ? "#home" : "/"} aria-label="mpv. Mohd. Paramasvara — home">
           <span className="monogram" aria-hidden="true">
             mpv<span>.</span>
           </span>
@@ -206,15 +206,15 @@ function Hero() {
           delivery.
         </p>
         <div className="actions">
-          <a className="button primary" href="#work">
-            Explore my work <Arrow />
+          <a className="button primary" href="#contact">
+            Discuss an engineering opportunity <Arrow />
           </a>
-          <a className="button secondary" href={profile.resume} target="_blank" rel="noopener noreferrer">
+          <a className="button secondary" href="#work">Explore engineering work <Arrow /></a>
+          <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
             2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
           </a>
-          <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
         </div>
-        <nav className="hero-social hero-projects" aria-label="Game projects">
+        <nav className="hero-social hero-projects" aria-label="Independent engineering projects">
           <a href="/no-two-mondays/">No Two Mondays · case study <Arrow /></a>
           <a href="/incident-zero/">Incident Zero · engineering story <Arrow /></a>
         </nav>
@@ -316,10 +316,11 @@ function SelectedWork() {
                 {project.company} <span> / </span> {project.period}
               </p>
               <h3>{project.title}</h3>
+              <p className="project-scope"><span className="mono">Role</span>{project.role}</p>
               <p className="project-summary">{project.summary}</p>
               {index > 2 && <p className="project-scope"><span className="mono">Scope</span>{project.scope}</p>}
               <p className="project-result">
-                <span>Delivered</span>
+                <span>Contribution</span>
                 {project.result}
               </p>
               <details
@@ -442,6 +443,15 @@ function Capabilities() {
       </SectionHeading>
       </div>
       <CapabilityMap />
+      <div className="engineering-principles" id="engineering-principles" aria-labelledby="principles-title">
+        <h3 id="principles-title">Engineering principles &amp; decision-making</h3>
+        <p className="section-intro">Selected examples of the decisions behind the work.</p>
+        <div className="principle-list">
+          <article><h4>Make integration boundaries explicit</h4><p>At PolicyStreet, provider rate normalization connected differing insurance APIs to consistent quotation and issuance workflows. The engineering focus was interoperability across those boundaries.</p><a className="text-link" href="#case-insurance">Explore the integration work <Arrow /></a></article>
+          <article><h4>Evolve systems with continuity in mind</h4><p>Education platform work centres on modernising established software while supporting ongoing use. Maintainability and continued delivery provide the context for change.</p><a className="text-link" href="#case-campus">Explore the modernisation work <Arrow /></a></article>
+          <article><h4>Keep responsibility with the engineer</h4><p>No Two Mondays pairs AI-assisted implementation with human-directed architecture, save compatibility and deterministic replay. Automated verification and human review answer different questions.</p><a className="text-link" href="/no-two-mondays/#ntm-architecture">Explore architecture &amp; verification <Arrow /></a></article>
+        </div>
+      </div>
     </section>
   );
 }
