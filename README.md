@@ -18,6 +18,12 @@ npm run preview
 
 `npm test` inspects the production artifact; run the build first. It checks static content, heading/fragment integrity, asset existence and size budgets, schema and custom-domain consistency. The build generates readable HTML from the same React components and hydrates it in the browser; no server runs in production. Content and native disclosures remain usable without JavaScript.
 
+## PACE-RAG
+
+**PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.** PACE denotes Portfolio, Assistant, Cited and Evidence. This is the official expansion going forward, not a claim about the historical naming origin.
+
+The homepage keeps the PACE-RAG short name and links to `/pace-rag-case-study/`. This implementation primarily uses reviewed cached answers, deterministic technology composition and local retrieval with supporting citations. Live generative inference is currently disabled; RAG describes the architectural approach and direction, not a generative-model call on every query. The familiar PACE/BAA visual identity, repositories, packages, domains and routes retain their existing names.
+
 ## PostHog analytics
 
 Copy `.env.example` to `.env.local` and set `VITE_POSTHOG_PROJECT_TOKEN` to the portfolio's public project token from PostHog Project settings. Set `VITE_POSTHOG_HOST` to its US or EU ingestion host. Never use a personal API key: Vite embeds these values in public browser code.

@@ -1,3 +1,4 @@
+import { paceLinks } from './paceLinks';
 import Assistant from '@pace-rag/portfolio-assistant';
 import '@pace-rag/portfolio-assistant/style.css';
 
@@ -8,5 +9,5 @@ const starters = [
 ] as const;
 
 export default function PaceAssistant({onClose}: {onClose: () => void}) {
-  return <Assistant corpusId="portfolio" scopeId="professional" assetBase="/pace-rag/" presentation="portfolio" starterQuestions={starters} libraryExternal onClose={onClose} />;
+  return <Assistant corpusId="portfolio" scopeId="professional" assetBase="/pace-rag/" presentation="portfolio" starterQuestions={starters} libraryExternal labUrl={paceLinks.lab} onClose={onClose} />;
 }

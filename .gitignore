@@ -42,3 +42,13 @@ output/pace-v1.2/
 
 # Verified generated PACE-RAG assets, copied from the pinned package.
 public/pace-rag/
+
+# Local v1.4 validation logs (review reports live in docs).
+/output/v14-*.txt
+
+# Local v1.5 validation logs (review reports live in docs).
+/output/v15-*.txt
+
+# Local v1.6 audit, build, browser and bundle measurements.
+/output/pace-v1.6/
+/output/performance/

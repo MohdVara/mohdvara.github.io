@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "softwareVersion": "1.6.1",
+  "corpusVersion": "b555f3ee70c516ab",
+  "evidenceHash": "5640d20f34302f5cba7caf11fcc7e95b366dda42079d9f0d2c43a5ae2999e9f8",
+  "question": "Which PHP frameworks have you used?",
+  "origin": "approved-composite",
+  "category": {
+    "language": "PHP",
+    "categories": [
+      "frameworks"
+    ]
+  },
+  "technologies": [
+    "Symfony",
+    "Laravel"
+  ],
+  "mappings": [
+    {
+      "projectId": "rental",
+      "projectTitle": "Rental Management System",
+      "technology": "Symfony",
+      "generation": "Unspecified generation",
+      "sourceId": "technology-rental"
+    },
+    {
+      "projectId": "campus",
+      "projectTitle": "Education Platform Modernization",
+      "technology": "Laravel",
+      "generation": "Modern systems",
+      "sourceId": "technology-campus"
+    },
+    {
+      "projectId": "wensymes",
+      "projectTitle": "WenSymes — Human Resources Management Platform",
+      "technology": "Laravel",
+      "generation": "Unspecified generation",
+      "sourceId": "technology-wensymes"
+    }
+  ],
+  "answer": "Symfony (PHP web framework) is owner-confirmed in Rental Management System. Laravel (PHP web framework) is owner-confirmed in Education Platform Modernization (Modern systems); WenSymes — Human Resources Management Platform.",
+  "sources": [
+    {
+      "sourceId": "technology-rental",
+      "corpusId": "portfolio",
+      "documentVersion": "pace-technology-v1.2",
+      "sourceHash": "04630adfa61af44b8107e80e074d85dde541595bddab156cad8d7b18520e1c4e",
+      "title": "Rental Management System",
+      "url": "https://mohd.paramasvara.online/#case-rental",
+      "evidenceStatus": "owner-confirmed",
+      "sourceType": "owner-confirmed-technology",
+      "approvalScope": "publication"
+    },
+    {
+      "sourceId": "technology-campus",
+      "corpusId": "portfolio",
+      "documentVersion": "pace-technology-v1.2",
+      "sourceHash": "6e038bcfb26f19b7e5a9cbc973da9528890cfea8db266bccba331d6b49895213",
+      "title": "Education Platform Modernization",
+      "url": "https://mohd.paramasvara.online/#case-campus",
+      "evidenceStatus": "owner-confirmed",
+      "sourceType": "owner-confirmed-technology",
+      "approvalScope": "publication"
+    },
+    {
+      "sourceId": "technology-wensymes",
+      "corpusId": "portfolio",
+      "documentVersion": "pace-technology-v1.2",
+      "sourceHash": "4398367ac25d6d74b439de9cb33ac2ca780285260a63fa642e1f10449c394a3e",
+      "title": "WenSymes — Human Resources Management Platform",
+      "url": "https://mohd.paramasvara.online/#case-wensymes",
+      "evidenceStatus": "owner-confirmed",
+      "sourceType": "owner-confirmed-technology",
+      "approvalScope": "publication"
+    }
+  ],
+  "trace": {
+    "originalQuery": "Which PHP frameworks have you used?",
+    "ontologyVersion": "pace-ontology-v1.3.0",
+    "evidenceVersion": "pace-technology-v1.2",
+    "intent": "category-to-project",
+    "recognizedEntities": [
+      {
+        "id": "php",
+        "canonicalName": "PHP",
+        "matchedAlias": "PHP",
+        "categories": [
+          "programming-language"
+        ]
+      }
+    ],
+    "categoriesUsed": [
+      "frameworks"
+    ],
+    "relationships": [
+      {
+        "from": "symfony",
+        "relation": "belongs-to-language-ecosystem",
+        "to": "php"
+      },
+      {
+        "from": "symfony",
+        "relation": "is-a",
+        "to": "frameworks"
+      },
+      {
+        "from": "laravel",
+        "relation": "belongs-to-language-ecosystem",
+        "to": "php"
+      },
+      {
+        "from": "laravel",
+        "relation": "is-a",
+        "to": "frameworks"
+      }
+    ],
+    "matchedFacts": [
+      {
+        "projectId": "rental",
+        "technologyId": "symfony",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-rental"
+      },
+      {
+        "projectId": "campus",
+        "technologyId": "laravel",
+        "generation": "Modern systems",
+        "evidenceId": "technology-campus"
+      },
+      {
+        "projectId": "wensymes",
+        "technologyId": "laravel",
+        "generation": "Unspecified generation",
+        "evidenceId": "technology-wensymes"
+      }
+    ],
+    "semanticFallbackNeeded": false,
+    "reason": "Directed classification applied only to approved project facts; no remote inference."
+  },
+  "workersAiInferenceCalls": 0,
+  "measurement": "Local deterministic build-time execution against the publication-approved registry; not a captured production session."
+}

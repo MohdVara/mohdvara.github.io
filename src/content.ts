@@ -34,15 +34,18 @@ const projectContent: Project[] = [
   {
     id: "campus", role: "Principal Full Stack Engineer", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
     title: "Enterprise Education Systems — Modernization & Technical Consulting",
-    summary: "Full-stack engineering and technical leadership on an established platform in the education sector.",
+    summary: "Stakeholder-informed workflows across established and modernized education and administrative systems.",
     scope: "Education platform · full-stack engineering · technical leadership",
-    result: "Contributed to platform modernisation with a focus on maintainability and ongoing delivery.",
+    result: "Helped align operational workflows with user responsibilities while supporting continued platform use and modernisation.",
     functions: ["Platform modernisation", "Full-stack engineering", "Maintainability"],
     visualLabel: "Education Platform Modernisation",
     details: [
+      ["Business problem", "Established education and administrative systems needed workflows shaped around actual operational processes and responsibilities."],
       ["My contribution", "Led full-stack development and contributed technical direction as Principal Full Stack Engineer."],
-      ["Focus", "Modernising established software while supporting its ongoing use and development."],
-      ["Engineering priorities", "Maintainability, dependable delivery and long-term platform development."],
+      ["Key Engineering Decision", "Engaged stakeholders to understand existing operational processes, identify workflow requirements and design suitable workflows across established and modernized systems."],
+      ["Verified workflow examples", "Online class activity tracking, HRMS document-expiration tracking and other stakeholder-informed operational workflows."],
+      ["Constraints & priorities", "Modernise established software while supporting its ongoing use and development. Maintainability, dependable delivery and long-term platform development remain priorities. Internal product identities and implementation details remain private."],
+      ["Delivered Capability", "Helped shape structured workflows aligned with actual user and stakeholder responsibilities, while supporting continued operation and modernization of existing systems."],
     ], stack: [],
   },
   {
@@ -75,7 +78,7 @@ const projectContent: Project[] = [
     summary:
       "Internal teams and partners needed consistent quoting and issuance across different insurers.",
     result:
-      "Normalized rates from multiple providers into one interface, with integrated quotation and policy issuance flows.",
+      "Connected insurer quotations and policy issuance for internal teams and partners.",
     functions: [
       "Multiple insurance providers",
       "Normalized quotations",
@@ -83,22 +86,12 @@ const projectContent: Project[] = [
     ],
     visualLabel: "Insurance Comparison System",
     details: [
-      [
-        "Problem",
-        "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance.",
-      ],
-      [
-        "Ownership",
-        "Built backend and frontend rate-fetching and normalization as a Senior Full Stack Developer, then led development and operations as Engineering Director.",
-      ],
-      [
-        "Constraints & approach",
-        "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability.",
-      ],
-      [
-        "Result",
-        "Delivered rate normalization and integrated quoting and issuance for internal and partner workflows.",
-      ],
+      ["Problem", "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance."],
+      ["Ownership", "Built backend and frontend rate-fetching and normalization as a Senior Full Stack Developer, then led development and operations as Engineering Director."],
+      ["Key Engineering Decision", "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers."],
+      ["Business rules", "Quotations expire after seven days. Changes to customer information that affect quotation terms require quotation revision. Caching and pre-warming do not exempt quotations from these validity requirements."],
+      ["Constraints & approach", "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability."],
+      ["Delivered Capability", "Supported fast quotation workflows with rate normalization and integrated issuance for internal teams and partners, while accommodating expiry and changes affecting quotations."],
     ],
     stack: [],
   },
@@ -110,16 +103,17 @@ const projectContent: Project[] = [
     company: "WenSymes",
     period: "2025 onward",
     title: "WenSymes — Human Resources Management Platform",
-    summary: "Building internal HR and administration tools for day-to-day operations, using full-stack web development, Google Cloud and Microsoft 365.",
-    result: "Contributing principal full-stack development to HR and administration software.",
+    summary: "Adaptable HR and administration workflows, with full-stack web development, Google Cloud and Microsoft 365.",
+    result: "Contributed adaptable internal tools; professional collaboration continues on an occasional basis.",
     functions: ["HR & administration", "Full-stack engineering", "Technical ownership"],
     visualLabel: "WenSymes HR Platform",
     details: [
-      ["Context", "Internal administration tools supporting HR and operational workflows within the WenSymes engagement."],
-      ["Role & ownership", "Principal Full Stack Developer, building internal administration tools and planning product-domain capabilities."],
-      ["Constraints & planning", "Data consistency, access control and uptime matter for daily operations. Planning considers these requirements; detailed internal rules and implementation remain private."],
+      ["Business problem", "Internal HR and operational administration needed to accommodate changing employee roles and organizational needs."],
+      ["Role & ownership", "Principal Full Stack Developer experience building internal administration tools and planning product-domain capabilities. The engagement continues as occasional professional collaboration."],
+      ["Key Engineering Decision", "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved."],
+      ["Constraints & planning", "Organizational flexibility must account for clear responsibilities and appropriate access to HR information. Planning considers data consistency, access control and uptime; detailed internal rules and implementation remain private."],
+      ["Delivered Capability", "Supported an adaptable approach to organizational roles and HR workflows without assuming that responsibilities would remain fixed."],
       ["Technical approach", "Full-stack web development with Google Cloud and Microsoft 365."],
-      ["Contribution", "Developing internal HR and operational tools while planning further domain-specific capabilities."],
     ],
     stack: [],
   },
@@ -170,9 +164,9 @@ const projectContent: Project[] = [
     period: "2018–2020",
     title: "Rental operations, from contracts to financial clarity.",
     summary:
-      "Rental staff needed connected property, tenant, contract and financial workflows.",
+      "Web-based rental operations for staff working in the office and on the move.",
     result:
-      "Tracked 20+ properties, with contract workflows and property-level income, expenses, and profit/loss reporting.",
+      "Made key rental-management functions accessible from compatible mobile and desktop browsers.",
     functions: [
       "Properties, tenants & contracts",
       "Payments, renewals & cancellations",
@@ -180,22 +174,12 @@ const projectContent: Project[] = [
     ],
     visualLabel: "Home Rental Management System",
     details: [
-      [
-        "Problem",
-        "Staff needed to manage contracts, renewals, cancellations, and financial visibility across more than 20 rental properties.",
-      ],
-      [
-        "Ownership",
-        "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer.",
-      ],
-      [
-        "Constraints & approach",
-        "Separated property, tenant and contract records to support multi-entity workflows, contract generation and payment tracking.",
-      ],
-      [
-        "Result",
-        "Clear renewal and cancellation workflows, rental income versus expenses, and profit/loss visibility for individual properties.",
-      ],
+      ["Problem", "Staff needed to manage contracts, renewals, cancellations and financial visibility across more than 20 rental properties, including operational work outside the office."],
+      ["Ownership", "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer."],
+      ["Key Engineering Decision", "Designed and developed a mobile-friendly, web-based rental management system to support operational work outside the office."],
+      ["Domain design", "Separated property, tenant and contract records to support multi-entity workflows, contract generation and payment tracking."],
+      ["Operating constraints", "Access described here is internet-connected through compatible mobile or desktop browsers."],
+      ["Delivered Capability", "Enabled access to property, tenant and rental records; supported rental contract renewals and sending contract PDFs directly from mobile devices. Staff could review rental and financial reports remotely, including property-level income, expenses and profit/loss. Supported rental operations involving more than 20 properties."],
     ],
     stack: [],
   },
@@ -203,12 +187,12 @@ const projectContent: Project[] = [
 export const projects: Project[] = projectContent.map(project => ({ ...project, stack: technologyStack(project.id), technology: technologyFor(project.id) }));
 export const experience = [
   {
-    period: "Mar 2025 — Present",
+    period: "Mar 2025 — ongoing collaboration",
     title: "Principal Full Stack Developer",
     company: "WenSymes",
-    type: "Remote · Singapore",
+    type: "Occasional professional collaboration · Remote · Singapore",
     description:
-      "Building full-stack HR and administration tools with cloud services. Planning domain tools around data consistency, access control and uptime.",
+      "Principal full-stack experience on HR and administration tools with cloud services. Planning considered data consistency, access control and uptime. Occasional engineering collaboration continues.",
   },
   {
     period: "Jun 2022 — Present",
@@ -257,7 +241,7 @@ export const capabilities = [
   {
     title: "Leadership & applied AI",
     description:
-      "Engineering direction and technical training. AI-assisted engineering is illustrated by No Two Mondays; RAG and vector databases are résumé-listed capabilities.",
+      "Engineering direction and technical training. PACE-RAG demonstrates independently developed retrieval and evidence-aware answers; No Two Mondays demonstrates AI-assisted engineering. Enterprise production RAG delivery is not established.",
     tools:
       "Team enablement · Stakeholder alignment · RAG · Vector databases · AI-assisted engineering",
   },

@@ -19,6 +19,10 @@ export function PublicEngineering() {
     <p className="section-intro" data-reveal>Selected public engineering work you can inspect directly — from domain rules and tests to frontend delivery.</p>
     </div>
     <div className="public-repositories">
+      <article className="public-repository" data-reveal>
+        <div className="public-repository-heading"><p className="eyebrow mono">Independent applied AI</p><h3>PACE-RAG</h3><p className="public-repository-name mono">Experimental engineering demonstration</p></div>
+        <div className="public-repository-detail"><p>Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation. Reviewed cached answers, deterministic technology composition and local retrieval; live generative inference is disabled.</p><p className="public-repository-stack mono">TypeScript · React · Transformers.js · MiniLM · Web Workers</p><a href="/pace-rag-case-study/">Inspect implementation, evaluation &amp; limitations <span aria-hidden="true">↗</span></a></div>
+      </article>
       {repositories.map(repo => <article className="public-repository" key={repo.name} data-reveal>
         <div className="public-repository-heading">
           <p className="eyebrow mono">{repo.kind}</p>

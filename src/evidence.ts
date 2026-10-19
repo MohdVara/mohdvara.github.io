@@ -11,6 +11,6 @@ export const evidence = {
   domain: commercial("rental", "Rental operations · domain modelling"),
   enterprise: commercial("wensymes", "WenSymes · enterprise full-stack work"),
   aiEngineering: { href: "/no-two-mondays/#ntm-process", label: "No Two Mondays · AI-assisted engineering" },
-  aiCapabilities: { href: "/#ai-evidence", label: "RAG capabilities & evidence boundaries" },
+  aiCapabilities: { href: "/pace-rag-case-study/", label: "PACE-RAG · implementation & evidence boundaries" },
 } as const;
 export type EvidenceId = keyof typeof evidence;

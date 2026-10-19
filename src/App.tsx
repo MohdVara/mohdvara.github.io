@@ -226,6 +226,11 @@ function Hero() {
           full-stack systems, modernize legacy platforms, and lead engineering
           delivery.
         </p>
+        <nav className="hero-social engineering-evidence" aria-label="Engineering evidence">
+          <a href="#case-campus">Enterprise modernisation <Arrow /></a>
+          <a href="#case-insurance">Integration engineering <Arrow /></a>
+          <a href="/pace-rag-case-study/">Applied AI · PACE-RAG <Arrow /></a>
+        </nav>
         <div className="actions">
           <a className="button primary" href="#contact">
             Discuss an engineering opportunity <Arrow />
@@ -375,6 +380,7 @@ function SelectedWork() {
                 <span>Contribution</span>
                 {project.result}
               </p>
+              {index < 3 && <p className="project-primary-stack mono" aria-label="Primary technologies">{project.technology?.generations.slice(-1)[0]?.groups.flatMap(group => group.technologies).slice(0, 5).join(" · ")}</p>}
               <details
                 className="case-details"
                 name="engineering-case-studies"
@@ -483,11 +489,11 @@ function Capabilities() {
         </span>
       </SectionHeading>
       </div>
-      <p className="section-intro capability-evidence">Capabilities describe my wider practice. For project-specific application, data and cloud experience, <a className="text-link" href="#work">open the selected-work engineering details</a> or <a className="text-link" href="#additional-systems">additional engineering systems</a>. Independent AI-assisted work and résumé-listed AI capabilities are distinguished below.</p>
+      <p className="section-intro capability-evidence">Capabilities describe my wider practice. For project-specific application, data and cloud experience, <a className="text-link" href="#work">open the selected-work engineering details</a> or <a className="text-link" href="#additional-systems">additional engineering systems</a>. Independent AI engineering demonstrations and their evidence boundaries are linked below.</p>
       <CapabilityMap />
       <div className="ai-evidence" id="ai-evidence">
         <h3>AI capabilities &amp; evidence</h3>
-        <p><a className="text-link" href="/no-two-mondays/#ntm-process">No Two Mondays</a> demonstrates my AI-assisted engineering process through a documented independent project. RAG and vector databases are capabilities listed in my <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">résumé<span className="sr-only"> (opens in a new tab)</span></a>; no public production RAG implementation is presented here.</p>
+        <p><a className="text-link" href="/no-two-mondays/#ntm-process">No Two Mondays</a> demonstrates my AI-assisted engineering process through a documented independent project. <a className="text-link" href="/pace-rag-case-study/">PACE-RAG</a> is my independently developed engineering demonstration of browser embeddings, retrieval, reviewed answers and technology-aware composition. Its <a className="text-link" href="/pace-rag-case-study/#evaluation">measured evaluations and limitations</a> distinguish experimental work from enterprise production RAG delivery, which is not established. Live AI is disabled.</p>
       </div>
       <section className="engineering-principles" id="engineering-principles" aria-labelledby="principles-title">
         <h3 id="principles-title">Engineering principles &amp; decision-making</h3>

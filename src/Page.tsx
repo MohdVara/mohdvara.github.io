@@ -17,18 +17,21 @@ const LazyDefence = import.meta.env.SSR
 const LazyNtmCaseStudy = import.meta.env.SSR
   ? () => null
   : lazy(() => import("./NoTwoMondaysCaseStudy"));
+const LazyPaceRagCaseStudy = import.meta.env.SSR ? () => null : lazy(() => import("./PaceRagCaseStudy"));
 export default function Page({
   path,
   incidentComponent,
   defenceComponent,
   ntmCaseStudyComponent,
   workWithMeComponent,
+  paceRagCaseStudyComponent,
 }: {
   path: string;
   incidentComponent?: ComponentType;
   defenceComponent?: ComponentType;
   ntmCaseStudyComponent?: ComponentType;
   workWithMeComponent?: ComponentType;
+  paceRagCaseStudyComponent?: ComponentType;
 }) {
   useFragmentNavigation(path);
   const route = path.replace(/\/$/, "");
@@ -36,7 +39,10 @@ export default function Page({
   const Incident = incidentComponent || LazyIncident;
   const Defence = defenceComponent || LazyDefence;
   const NtmCaseStudy = ntmCaseStudyComponent || LazyNtmCaseStudy;
-  return route === "/no-two-mondays" ? (
+  const PaceRagCaseStudy = paceRagCaseStudyComponent || LazyPaceRagCaseStudy;
+  return route === "/pace-rag-case-study" ? (
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Loading the PACE-RAG case study…</p></main>}><PaceRagCaseStudy /></Suspense></RouteRecovery>
+  ) : route === "/no-two-mondays" ? (
     <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Loading the No Two Mondays case study…</p><a href="/">Return to portfolio</a></main>}><NtmCaseStudy /></Suspense></RouteRecovery>
   ) : route === "/incident-zero/defence" ? (
     <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Initialising System Defence…</p><a href="/incident-zero/">Return to Incident Zero</a></main>}>

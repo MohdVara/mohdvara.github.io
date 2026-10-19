@@ -1,3 +1,5 @@
+> PACE v1.6 update, 19 October 2026: the owner's commercial-evidence brief authorizes the four bounded engineering examples recorded below. It narrowly supersedes earlier withholding for the named high-level workflow examples and quotation design/rules. Other internal identities, implementation specifics and unsupported outcomes remain withheld. Approved PACE-RAG source snapshots are unchanged and require separate review before incorporating these additions.
+
 > PACE v1.2 update, 18 October 2026: the owner has now explicitly confirmed the six-project technology inventory. Earlier withholding/unknown-stack statements below are historical and are superseded only for the listed technology names, explicit versions and broad hosting categories. Internal identities, workflows, architecture, configuration, security details and unsupported outcomes remain withheld. See [the scoped technology evidence record](portfolio/PACE-V1.2-TECHNOLOGY-EVIDENCE.md).
 
 # Content provenance
@@ -54,3 +56,24 @@ The owner supplied the current full CV and explicitly confirmed its Confidential
 The current CV describes RAG onboarding/knowledge tools as actively being built. This is owner-reported work in progress, not demonstrated production adoption/evaluation. No suitable public RAG artifact was found in the bounded reviewed GitHub scope. Current conservative public evidence boundaries remain accurate.
 
 Earlier official résumé export attempts failed. The 18 October retry succeeded after waiting for both pages to render before activating Download PDF. Both pages of the unchanged official export were visually inspected with no visible overlap or clipping. The source copy is owner-review-only in ignored `output/pdf/`; it is not published and `profile.resumePdf` remains null. See `portfolio/PACE-V1.1-RESOLUTION.md` for exact verification and remaining limitations.
+
+
+## PACE v1.3 — 19 October 2026
+
+The current owner instruction clarifies WenSymes as ongoing occasional engineering collaboration. Preserve the March 2025 start and Principal Full Stack Developer experience; do not infer an employment end date, contract classification, permanent employment, or availability. Precise employment classification remains for owner confirmation. This supersedes earlier present-tense employment implications.
+
+PACE-RAG is now a verifiable independent public engineering demonstration. The previous bounded GitHub review predates this artifact. The new lazy, prerendered case study cites implementation, development and separate verification results, provenance and limitations; it does not establish commercial/enterprise production delivery. No approved RAG registry content was silently rewritten. Historical cache snapshots may retain older evidence phrasing and need separate hash-bound owner review.
+
+PolicyStreet and WenSymes already expose the approved ownership, workflow and constraint evidence. Education disclosure remains high-level under the prior owner restriction; no additional implementation detail or invented outcome is added. Flagship stack summaries project only the existing owner-confirmed technology inventory.
+
+
+## PACE v1.6 — owner-confirmed commercial engineering examples, 19 October 2026
+
+Authority: the owner's “PACE v1.6 — Commercial Engineering Evidence Enhancement” implementation brief. These statements are supplied by the owner for the portfolio; no external corroboration, measured performance campaign or new production/security certification is implied.
+
+- **PolicyStreet:** event-driven quotation architecture using Node.js; quotation caching and pre-warmed data intended to reduce repeated processing and support fast quotations, including potential existing-customer renewals. Quotations expire after seven days; customer changes affecting terms require revision. Caching/pre-warming does not override validity rules. No cache product, event broker, automatic invalidation mechanism, provider behavior, exact response time or measured gain is established.
+- **Education modernization:** stakeholder engagement informed workflows across established/modernized education and administrative systems. Online class activity tracking and HRMS document-expiration tracking are now authorized high-level examples. This narrowly supersedes the earlier blanket withholding of specific workflows; internal product identities, detailed implementation/deployment, notifications, automation and universal legacy replacement remain unestablished.
+- **MegaInfinite rental:** mobile-friendly web-based operations, internet-connected access to property/tenant/rental records, contract renewals, sending contract PDFs directly from mobile devices and remote rental/financial reports across more than 20 properties. No native app, offline capability, signature system, automated delivery or productivity metric is established.
+- **WenSymes:** design prioritized adaptability as employee roles, responsibilities, headcount and operational needs evolved. Clear responsibilities and appropriate HR information access are engineering considerations; a fully configurable RBAC or specific permission mechanism is not established. Principal Full Stack Developer and ongoing occasional collaboration wording are preserved.
+
+The existing project data, disclosures, diagrams, chronology, full-CV references and owner-confirmed technology inventory remain the presentation sources. No approved RAG document, answer, hash, approval or provenance record was rewritten. See [the v1.6 review and separate RAG change plan](PACE-V1.6-REVIEW.md).

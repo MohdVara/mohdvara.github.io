@@ -119,7 +119,9 @@
   box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
+  /* Immediate fragment positioning avoids native smooth-scroll races with
+     hydration and keyboard navigation in WebKit. */
+  scroll-behavior: auto;
   scroll-padding-top: calc(var(--header-height, 90px) + 16px);
 }
 body {

@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 
 export async function verifyPackage(source) {
   const release = JSON.parse(await readFile(resolve(source, 'release.json'), 'utf8'));
-  if (release.schemaVersion !== 1 || release.packageVersion !== '1.3.0' || release.preview !== false || release.corpusId !== 'portfolio' || release.scopeId !== 'professional') throw new Error('Expected an approved professional PACE-RAG v1.3.0 package');
+  if (release.schemaVersion !== 1 || release.packageVersion !== '1.6.1' || release.preview !== false || release.corpusId !== 'portfolio' || release.scopeId !== 'professional') throw new Error('Expected an approved professional PACE-RAG v1.6.1 package');
   const expected = new Set(['release.json']);
   for (const item of release.files) {
     if (!item.file || item.file.includes('..') || item.file.startsWith('/') || item.file.includes('\\') || expected.has(item.file) || /knowledge\/(lab|fictional|implementation)(\/|$)/.test(item.file)) throw new Error('Invalid or foreign PACE-RAG asset path');
@@ -46,6 +46,10 @@ async function prepare() {
   else {try {await access(target);throw new Error('Unmanaged public/pace-rag directory: refusing to replace it');}catch(error){if(error.code !== 'ENOENT')throw error;}}
   if (enabled) {
     await cp(source, target, {recursive:true});
+    const example=JSON.parse(await readFile(resolve(target,'examples/php-frameworks.json'),'utf8'));
+    const release=JSON.parse(await readFile(resolve(target,'release.json'),'utf8'));
+    if(example.corpusVersion!==release.corpusVersion||example.softwareVersion!==release.packageVersion||example.origin!=='approved-composite') throw new Error('Worked example does not match the approved package');
+    await writeFile(resolve('src/data/pace-php-example.json'),JSON.stringify(example,null,2)+'\n');
     await writeFile(marker, 'Generated from the pinned approved PACE-RAG package.\n');
     console.log('PACE-RAG: verified publication package, professional corpus only.');
   }

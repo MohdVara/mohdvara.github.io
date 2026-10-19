@@ -27,6 +27,7 @@ try {
   const escape = (value) =>
     value.replaceAll("&", "&amp;").replaceAll('"', "&quot;");
   for (const { route, title, description, image, imageAlt } of [
+    { route: "pace-rag-case-study", title: "PACE-RAG — Browser Retrieval Engineering | Mohd. Paramasvara", description: "PACE-RAG: Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation. Reviewed answers and local retrieval; live generative inference disabled." },
     { route: "404", title: "Page not found | Mohd. Paramasvara", description: "This page could not be found. Return to the portfolio or contact Mohd. Paramasvara." },
     {
       route: "no-two-mondays",

@@ -1102,3 +1102,22 @@ h3 {
 .additional-systems h3 { font-size: 1.15rem; }
 .capability-evidence { margin-block: 1.5rem; }
 #additional-systems, #system-hostel, #system-asset { scroll-margin-top: 6rem; }
+
+.engineering-evidence { margin-block: 1rem; gap: .6rem 1.25rem; }
+.project-primary-stack { color: var(--muted); font-size: .8rem; overflow-wrap: anywhere; margin-block: 1rem; }
+
+.rag-case-study > p, .rag-case-study > ol { max-width: 75ch; }
+.rag-case-study h2 { margin-block: 2rem 1rem; }
+.rag-case-study li { margin-block: .7rem; }
+
+/* Accessible ordered architecture diagram, isolated to the lazy case-study route. */
+.rag-flow { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 1rem; counter-reset: rag-step; }
+.rag-flow li { counter-increment: rag-step; padding: 1rem; border: 1px solid var(--border); border-radius: .5rem; overflow-wrap: anywhere; }
+.rag-flow li::before { content: counter(rag-step) " →"; display: block; font-family: monospace; margin-bottom: .5rem; }
+.rag-flow strong, .rag-flow span { display: block; }
+.rag-flow span { margin-top: .5rem; font-size: .9em; }
+@media(max-width:1024px) { .rag-flow { grid-template-columns: 1fr; } .rag-flow li::before { content: counter(rag-step) " ↓"; } }
+
+.rag-case-study table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.rag-case-study th, .rag-case-study td { text-align: left; padding: .5rem; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; vertical-align: top; }
+.rag-case-study caption { text-align: left; margin-block: 1rem; }

@@ -3,7 +3,7 @@ import { createRequire } from 'node:module';
 import { resolve } from 'node:path';
 import { mkdir, writeFile } from 'node:fs/promises';
 const require = createRequire(resolve(process.env.QA_MODULES_DIR || '/private/tmp/pace-qa', 'package.json'));
-const engines = require('playwright');
+const engines = process.env.QA_BROWSER_MODULES_DIR ? createRequire(resolve(process.env.QA_BROWSER_MODULES_DIR, 'package.json'))('playwright') : require('playwright');
 const engine = process.env.QA_BROWSER || 'chromium';
 const base = process.env.QA_URL || 'http://127.0.0.1:4173';
 const output = resolve(process.env.QA_OUTPUT_DIR || `output/playwright/pace-v1.1/navigation-${engine}`);
@@ -19,7 +19,10 @@ async function aligned(page, id, open = false) {
     const header = document.querySelector('header')?.getBoundingClientRect().bottom || 0;
     const bottom = window.scrollY >= document.documentElement.scrollHeight - innerHeight - 2;
     return top >= header - 1 && (top < header + 110 || (bottom && top < innerHeight - 40)) && (!open || target.querySelector('details')?.open);
-  }, { id, open });
+  }, { id, open }).catch(async error => {
+    console.error('Fragment alignment failed', await page.evaluate(id=>({hash:location.hash,id,top:document.getElementById(id)?.getBoundingClientRect().top,header:document.querySelector('header')?.getBoundingClientRect().bottom,scroll:scrollY,details:document.getElementById(id)?.querySelector('details')?.open}),id));
+    throw error;
+  });
 }
 try {
   for (const width of [375, 1440]) {
@@ -53,7 +56,8 @@ try {
       await page.locator('.engagement-problems a, .engagement-types a').nth(i).click();
       const destination = new URL(hrefs[i], base);
       await page.waitForURL(url => url.pathname === destination.pathname && url.hash === destination.hash);
-      await aligned(page, destination.hash.slice(1), destination.hash.startsWith('#case-'));
+      if (destination.hash) await aligned(page, destination.hash.slice(1), destination.hash.startsWith('#case-'));
+      else { await page.locator('h1').waitFor(); assert.equal(destination.pathname, '/pace-rag-case-study/'); }
       results.evidence.push({ width, href: hrefs[i], opened: true });
     }
     await page.goto(`${base}/no-two-mondays/`); await page.reload();
