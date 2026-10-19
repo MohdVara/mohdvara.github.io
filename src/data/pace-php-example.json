@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "softwareVersion": "1.6.1",
+  "softwareVersion": "1.6.2",
   "corpusVersion": "b555f3ee70c516ab",
   "evidenceHash": "5640d20f34302f5cba7caf11fcc7e95b366dda42079d9f0d2c43a5ae2999e9f8",
   "question": "Which PHP frameworks have you used?",

@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 
 export async function verifyPackage(source) {
   const release = JSON.parse(await readFile(resolve(source, 'release.json'), 'utf8'));
-  if (release.schemaVersion !== 1 || release.packageVersion !== '1.6.1' || release.preview !== false || release.corpusId !== 'portfolio' || release.scopeId !== 'professional') throw new Error('Expected an approved professional PACE-RAG v1.6.1 package');
+  if (release.schemaVersion !== 1 || release.packageVersion !== '1.6.2' || release.preview !== false || release.corpusId !== 'portfolio' || release.scopeId !== 'professional') throw new Error('Expected an approved professional PACE-RAG v1.6.2 package');
   const expected = new Set(['release.json']);
   for (const item of release.files) {
     if (!item.file || item.file.includes('..') || item.file.startsWith('/') || item.file.includes('\\') || expected.has(item.file) || /knowledge\/(lab|fictional|implementation)(\/|$)/.test(item.file)) throw new Error('Invalid or foreign PACE-RAG asset path');

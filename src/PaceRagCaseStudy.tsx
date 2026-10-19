@@ -5,7 +5,7 @@ import { Navigation } from "./App";
 const source = "https://github.com/MohdVara/pace-rag/blob/main/";
 export default function PaceRagCaseStudy() {
   return <><a className="skip-link" href="#main">Skip to content</a><Navigation home={false} contactOnPage={false} /><main id="main" tabIndex={-1} className="container section rag-case-study">
-    <p className="eyebrow mono">PACE-RAG v1.6.1 · Independent applied AI</p>
+    <p className="eyebrow mono">PACE-RAG v1.6.2 · Independent applied AI</p>
     <h1>Knowledge first. Inference optional. Evidence always.</h1>
     <p className="section-intro">An independently developed, experimental RAG engineering demonstration for exploring public professional evidence. Enterprise production deployment, commercial RAG delivery and production-hardened security are not established. Live AI is disabled.</p>
     <p><strong>PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.</strong> This is the official expansion going forward, not a claim about the name’s historical origin. RAG describes the architectural approach and direction; each query does not invoke a generative model.</p>

@@ -19,7 +19,7 @@
     "check:rag-assets": "node scripts/pace-rag-assets.mjs"
   },
   "dependencies": {
-    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.6.1.tgz",
+    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.6.2.tgz",
     "phaser": "^3.90.0",
     "posthog-js": "^1.438.7",
     "react": "^18.3.1",
