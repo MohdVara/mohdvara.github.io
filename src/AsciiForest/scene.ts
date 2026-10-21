@@ -15,7 +15,8 @@ export function noise(x: number, y: number, seed: number = forestConfig.seed) {
 }
 export function ridge(x: number, layer: number, seed: number) {
   const phase = noise(layer, 30, seed) * 2;
-  const valley = Math.exp(-(((x - 0.57) / 0.21) ** 2));
+  const valleyCenter = seed === forestConfig.seed ? 0.57 : 0.43 + noise(63, 19, seed) * 0.28;
+  const valley = Math.exp(-(((x - valleyCenter) / 0.21) ** 2));
   return forestConfig.ridgeHeights[layer] + valley * forestConfig.valleyDepth * (layer / 3)
     + Math.sin(x * 9 + phase) * 0.055
     + Math.sin(x * 23 + layer * 2.6) * 0.023

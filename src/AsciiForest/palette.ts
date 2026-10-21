@@ -15,3 +15,12 @@ export const palettes: Record<ForestTheme, readonly (readonly string[])[]> = {
     ["#466f52", "#375e3f", "#2c5233", "#22482c"],
   ],
 };
+
+// Daylight uses a quiet sage interior with firm crown/trunk ink. This palette
+// belongs to code-canopy forests; river artwork keeps its established ink.
+export const daylightCodeCanopy = [
+  ["#9aaeb5", "#a6b8bc", "#b2c1c3", "#bfcbca"],
+  ["#c0cbb9", "#a8baa0", "#819b76", "#607e54"],
+  ["#b4c2a9", "#94ab85", "#68885a", "#426438"],
+  ["#a6b59b", "#8da17c", "#5d794e", "#3c5933"],
+] as const;

@@ -1,14 +1,15 @@
 import { bounded, forestConfig, qualityFor, type ForestTheme } from "./config";
-import { palettes } from "./palette";
+import { daylightCodeCanopy, palettes } from "./palette";
 import { generateScene, type ForestScene } from "./scene";
 import { createAnimation } from "./animation";
 import { generateRiverScene } from "./river";
+import { sourceTextureGlyph } from "./sourceTexture";
 
 export type ForestState = { theme: ForestTheme; enabled: boolean };
 export type ForestHandle = { update: (state: ForestState) => void; dispose: () => void };
-type MovingCell = { x: number; y: number; glyph: string; color: number; group: number };
+type MovingCell = { x: number; y: number; glyph: string; color: number; group: number; alpha: number };
 
-export function mountForest(host: HTMLElement, initial: ForestState, aerial = false): ForestHandle {
+export function mountForest(host: HTMLElement, initial: ForestState, aerial = false, seed: number = forestConfig.seed, codeCanopy = false): ForestHandle {
   const canvas = document.createElement("canvas");
   canvas.setAttribute("aria-hidden", "true");
   const context = canvas.getContext("2d", { alpha: true });
@@ -27,6 +28,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   let totalFrames = 0, paintMs = 0, maxPaintMs = 0;
   let font = "";
   function getPalette() {
+    if (codeCanopy && !aerial && state.theme === "light") return daylightCodeCanopy;
     if (!aerial) return palettes[state.theme];
     return state.theme === "light" ? [palettes.light[2], ["#c1b994", "#b6b18e", "#9aa080", "#7b9579"], ["#659b9d", "#4a8d91", "#337f88", "#246d7d"], palettes.light[3]] : [palettes.dark[2], ["#4e5b3f", "#67704c", "#718062", "#829078"], ["#24464b", "#315c61", "#46797d", "#79a2a0"], palettes.dark[3]];
   }
@@ -45,7 +47,8 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
     const started = performance.now();
     ctx.clearRect(0, 0, width, height);
     const palette = getPalette();
-    const branchProgress = aerial && state.enabled ? bounded(Number.parseFloat(getComputedStyle(host).getPropertyValue("--outer-progress")) || 0, 0, 1) : 1;
+    // Editorial rivers show their complete catchments without a page scroll controller.
+    const branchProgress = aerial && state.enabled && seed === forestConfig.seed ? bounded(Number.parseFloat(getComputedStyle(host).getPropertyValue("--outer-progress")) || 0, 0, 1) : 1;
     if (aerial) host.dataset.branchProgress = branchProgress.toFixed(3);
     ctx.font = font; ctx.textBaseline = "alphabetic";
     for (let layer = 0; layer < 4; layer++) {
@@ -60,7 +63,9 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
         }
         const wind = state.enabled && cell.group < 64 ? Math.sin(time * forestConfig.speed + cell.group * 1.7) * (aerial ? 0.55 : forestConfig.wind) : 0;
         ctx.fillStyle = palette[layer][cell.color];
+        ctx.globalAlpha = cell.alpha;
         ctx.fillText(cell.glyph, cell.x + px + wind, cell.y + py);
+        ctx.globalAlpha = 1;
       }
       if (layer === 1 && !aerial) {
         const drift = state.enabled ? Math.sin(time * 0.08) * width * 0.035 : 0;
@@ -101,11 +106,18 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
         c.fillStyle = palette[layer][color];
         for (let i = 0; i < g.glyph.length; i++) {
           if (!g.glyph[i] || g.color[i] !== color) continue;
-          const glyph = forestConfig.glyphs[g.glyph[i]];
+          const originalGlyph = forestConfig.glyphs[g.glyph[i]];
+          const glyph = sourceTextureGlyph(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, seed, aerial, codeCanopy, g.color[i], state.theme);
+          // Letters have more ink than small punctuation. Match their visual
+          // weight so distant crowns stay light and nearer shadows stay deep.
+          const weight = codeCanopy && !aerial && glyph !== originalGlyph
+            ? (".,:;".includes(originalGlyph) ? 0.5 : "+*o".includes(originalGlyph) ? 0.75 : 0.95) : 1;
+          const alpha = weight * (codeCanopy && !aerial && state.theme === "light" && glyph !== originalGlyph
+            ? [0.5, 0.58, 0.72, 0.82][layer] : 1);
           const x = (i % g.cols) * cellWidth;
           const y = (Math.floor(i / g.cols) + 0.84) * cellHeight;
-          if (g.motion[i]) dynamic.push({ x, y, glyph, color, group: g.motion[i] });
-          else c.fillText(glyph, x, y);
+          if (g.motion[i]) dynamic.push({ x, y, glyph, color, group: g.motion[i], alpha });
+          else { c.globalAlpha = alpha; c.fillText(glyph, x, y); }
         }
       }
       caches.push(cache); moving.push(dynamic);
@@ -157,7 +169,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
     maxInitializationSliceMs = initializationWorkMs;
     cancelAnimationFrame(generationFrame); cancelAnimationFrame(buildFrame);
     building = true; clock.setActive(false); host.dataset.running = "false";
-    const steps = aerial ? generateRiverScene(cols, rows) : generateScene(cols, rows);
+    const steps = aerial ? generateRiverScene(cols, rows, seed) : generateScene(cols, rows, seed);
     const generate = () => {
       generationFrame = 0;
       if (disposed) return;

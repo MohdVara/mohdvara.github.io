@@ -203,7 +203,7 @@ function Hero() {
   useHeroPointer();
   return (
     <section className="hero-environment" id="home" data-motion-region="hero" aria-labelledby="hero-title">
-      <AsciiForestBackdrop />
+      <AsciiForestBackdrop codeCanopy />
       <div className="hero container">
       <div className="hero-copy">
         <p className="eyebrow">

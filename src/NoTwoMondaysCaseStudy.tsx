@@ -1,3 +1,4 @@
+import { PageLandscape } from "./AsciiForest/PageLandscape";
 import { Navigation } from "./App";
 import { profile } from "./content";
 import crawlSummary from "./data/ntm-crawl-summary.json";
@@ -73,7 +74,7 @@ export default function NoTwoMondaysCaseStudy() {
     <a className="skip-link" href="#main">Skip to content</a>
     <Navigation home={false} contactOnPage={false} />
     <main id="main" className="ntm-case" tabIndex={-1}>
-      <header className="container ntm-case-hero">
+      <PageLandscape scene="mondays"><header className="container ntm-case-hero">
         <p className="mono ntm-breadcrumb"><a href="/">Portfolio</a> / Independent game case study</p>
         <p className="eyebrow mono">No Two Mondays: Trial Period / modvar</p>
         <h1>Engineering No Two Mondays:<br /><span>An extensible simulation with AI.</span></h1>
@@ -86,7 +87,7 @@ export default function NoTwoMondaysCaseStudy() {
           <div><dt>37</dt><dd>prompts tagged as corrections or refinement</dd></div>
         </dl>
         <p className="ntm-note">Historical local audit: 9 October–14 October 2026, cutoff 00:05 MYT. Counts describe recovered records through that cutoff; development continued afterward. <a href="#ntm-evidence">How these numbers were counted</a>.</p>
-      </header>
+      </header></PageLandscape>
 
       <nav className="container ntm-contents" aria-label="Case study contents">
         <a href="#ntm-summary">Engineering at a Glance</a><a href="#ntm-brief">The brief</a><a href="#ntm-process">AI workflow</a><a href="#ntm-iterations">Revisions</a><a href="#ntm-dialogue-history">Dialogue UI</a><a href="#ntm-puzzle-history">Puzzle UI</a><a href="#ntm-architecture">Architecture</a><a href="#ntm-traversal">Verification</a><a href="#ntm-lessons">Lessons</a><a href="#ntm-evidence">Evidence sources</a>
@@ -228,12 +229,12 @@ export default function NoTwoMondaysCaseStudy() {
         <div className="ntm-next"><h3>Try the Monday for yourself.</h3><p>The game is available on itch.io. This case study covers development snapshots and does not assert that every reviewed change is in the currently hosted build.</p><div className="actions"><a className="button primary" href="https://modvar.itch.io/no-two-mondays" target="_blank" rel="noopener noreferrer">Play No Two Mondays ↗<span className="sr-only"> (opens in a new tab)</span></a><a className="text-link" href={`mailto:${profile.email}`}>Discuss the engineering</a></div></div>
       </section>
 
-      <section className="container ntm-chapter ntm-evidence" id="ntm-evidence" aria-labelledby="ntm-evidence-title">
+      <PageLandscape scene="mondays" aerial><section className="container ntm-chapter ntm-evidence" id="ntm-evidence" aria-labelledby="ntm-evidence-title">
         <p className="eyebrow mono">Evidence / Reviewed 15 October 2026</p><h2 id="ntm-evidence-title">How the case study was grounded.</h2>
         <p>The prompt figures come from an existing local development audit of surviving Codex records. It deduplicates human messages and excludes machine-agent tasks from the human-prompt count. The 37-prompt figure is the distinct union of three overlapping workflow tags: bug fixing, refinement and refactoring. Classification is lexical and can miss or misclassify requests. Missing history and later development are outside that snapshot.</p>
         <p>The revision examples come from the project feedback log, refinement notes and art review. Architecture was checked against the TypeScript simulation, React subscriptions, Phaser bridge, save migrations and bundle checks. Traversal figures come from the 15 October completion campaign’s coverage, integrity, checkpoint and replay-suite reports. Public locked labels were checked against the game’s hint registry.</p>
         <p>Only aggregate evidence and spoiler-safe descriptions are reproduced here. Private chat transcripts, raw traversal traces, puzzle solutions, hidden conditions and real ending titles are not published.</p>
-      </section>
+      </section></PageLandscape>
     </main>
     <footer className="container footer"><p>© Mohd. Paramasvara</p><p>Based in Borneo. Building beyond it.</p><a href="/">Back to portfolio ↗</a></footer>
   </>;

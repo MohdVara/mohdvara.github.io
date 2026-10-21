@@ -1,3 +1,4 @@
+import { PageLandscape } from "./AsciiForest/PageLandscape";
 import phpExample from "./data/pace-php-example.json";
 import { paceLinks } from "./paceLinks";
 import { Navigation } from "./App";
@@ -5,11 +6,13 @@ import { Navigation } from "./App";
 const source = "https://github.com/MohdVara/pace-rag/blob/main/";
 export default function PaceRagCaseStudy() {
   return <><a className="skip-link" href="#main">Skip to content</a><Navigation home={false} contactOnPage={false} /><main id="main" tabIndex={-1} className="container section rag-case-study">
+    <PageLandscape scene="pace" contained><header className="container page-landscape-intro">
     <p className="eyebrow mono">PACE-RAG v1.6.2 · Independent applied AI</p>
     <h1>Knowledge first. Inference optional. Evidence always.</h1>
     <p className="section-intro">An independently developed, experimental RAG engineering demonstration for exploring public professional evidence. Enterprise production deployment, commercial RAG delivery and production-hardened security are not established. Live AI is disabled.</p>
     <p><strong>PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.</strong> This is the official expansion going forward, not a claim about the name’s historical origin. RAG describes the architectural approach and direction; each query does not invoke a generative model.</p>
     <p><a href={paceLinks.lab}>Explore the Engineering RAG Lab</a> · <a href="https://github.com/MohdVara/pace-rag">Inspect the implementation</a> · <a href="/#about">Ask about my engineering experience</a></p>
+    </header></PageLandscape>
     <section aria-labelledby="rag-summary"><h2 id="rag-summary">A one-minute overview</h2><p>PACE-RAG is a browser-first assistant for reviewed professional information, with a separate engineering Lab. Cached answers and deterministic technology lookups avoid hosted inference; other questions can use a locally loaded model to suggest relevant reviewed questions. Every direct answer retains its own validated sources.</p><p>Measured retrieval results below show how well expected answers appear in the ranked suggestions. They do not prove factual certainty or production readiness. Live generation, enterprise security and provider billing remain unverified; the public demo is experimental.</p></section>
     <section aria-labelledby="rag-architecture"><h2 id="rag-architecture">Architecture at a glance</h2><p>Two paths share source validation. Technology relationships use confirmed facts; other wording uses retrieval.</p><ol className="rag-flow" aria-label="Question-to-answer architecture">
       <li><strong>Question</strong><span>The visitor chooses a knowledge source.</span></li>
@@ -51,8 +54,9 @@ export default function PaceRagCaseStudy() {
     <p>Labels are agent-authored and await independent review. These are unchanged provisional regression labels. The content-refresh baseline used the unchanged prior ranker. The v1.6.1 correction was investigated on these published sets without relabeling. Original-set Top-1 remains below the 80% recovery target, and preserved-50 Top-3 remains below 96%; content approval does not certify these trade-offs. None is now unseen. A fresh independently prepared holdout and real-user review remain pending; the independent 80% Top-1 target has not been demonstrated. All 124 professional critical questions across the regression and new-feature suites abstain, with zero observed incorrect automatic answers, invalid citation references or cross-corpus references. These finite observations do not establish correctness probabilities or live-generation grounding.</p>
     <p>Reviewed wording can return its cached answer; other paraphrases usually require choosing a suggested question. Lexical/static fallbacks remain available. Actual screen-reader sessions, physical-device memory, enterprise authorization and deployed provider billing remain unverified.</p>
     <p><a href={paceLinks.evaluation}>Current evaluation and per-query reports</a> · <a href={source + "evaluation/verification-v14.mjs"}>Preserved verification wording</a> · <a href={source + "docs/PACE-RAG-V1.6.1-RETRIEVAL-REVIEW.md"}>Trade-offs and reproducibility</a></p>
-    <h2>How to inspect it</h2>
+    <PageLandscape scene="pace" aerial contained><section className="container page-landscape-ending" aria-labelledby="rag-inspect"><h2 id="rag-inspect">How to inspect it</h2>
     <p>Start with the Lab’s three separated knowledge views, then inspect a result’s matched questions, supporting sources and resource usage. Fictional documents and simulated failures are explicitly labelled. Production security and inference availability must be evaluated separately before applying this design to confidential material.</p>
     <p><a href="/work-with-me/#engagement-fit">Explore an engagement approach</a> · <a href="/#contact">Discuss an engineering problem</a></p>
+    </section></PageLandscape>
   </main></>;
 }

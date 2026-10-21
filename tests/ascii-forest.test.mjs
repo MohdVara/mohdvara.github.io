@@ -17,7 +17,9 @@ function modules(globals = {}) {
       compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 },
     }).outputText;
     vm.runInNewContext(source, { ...globals, exports,
-      require: name => load(resolve(dirname(path), name)),
+      require: name => name.endsWith("?raw")
+        ? { default: readFileSync(resolve(dirname(path), name.slice(0, -4)), "utf8") }
+        : load(resolve(dirname(path), name)),
     }, { filename: path });
     return exports;
   }
@@ -26,7 +28,7 @@ function modules(globals = {}) {
 
 const load = modules();
 const { createScene, generateScene } = load('scene');
-const { forestConfig, qualityFor } = load('config');
+const { forestConfig, qualityFor, pageSceneSeeds } = load('config');
 const { palettes } = load('palette');
 const { createAnimation } = load('animation');
 const { generateRiverScene } = load('river');
@@ -54,8 +56,8 @@ test('aerial river generation is seeded and retains its geometry identity across
 });
 
 test('aerial river has an uninterrupted top-to-bottom water channel with forest outside its banks', () => {
-  for (const [cols, rows] of [[84, 60], [128, 80], [176, 100]]) {
-    const scene = riverScene(cols, rows);
+  for (const seed of [forestConfig.seed, ...Object.values(pageSceneSeeds)]) for (const [cols, rows] of [[84, 60], [128, 80], [176, 100]]) {
+    const scene = riverScene(cols, rows, seed);
     const water = scene.grids[2].glyph;
     const visited = new Set(), pending = [];
     for (let col = 0; col < cols; col++) if (water[col]) { pending.push(col); visited.add(col); }
@@ -89,8 +91,8 @@ test('aerial river has an uninterrupted top-to-bottom water channel with forest 
 });
 
 test('every tagged tributary water cell physically connects to the main river', () => {
-  for (const [cols, rows] of [[84, 60], [128, 80], [176, 100]]) {
-    const { grids } = riverScene(cols, rows);
+  for (const seed of [forestConfig.seed, ...Object.values(pageSceneSeeds)]) for (const [cols, rows] of [[84, 60], [128, 80], [176, 100]]) {
+    const { grids } = riverScene(cols, rows, seed);
     const water = grids[2].glyph, groups = grids[2].motion;
     // Main-channel water is untagged or in low-numbered shimmer groups.
     // Flood across all eight neighbors because rasterized diagonal streams are
@@ -143,15 +145,17 @@ test('final artwork removes X marks and gathers winding streams into a calm outl
 
 test('tributary catchments stay separate until they reach the main channel', () => {
   const cols = 176, rows = 100;
-  const groups = riverScene(cols, rows).grids[2].motion;
-  for (let i = 0; i < groups.length; i++) {
-    if (groups[i] < 64) continue;
-    const x = i % cols, y = Math.floor(i / cols);
-    for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
-      const xx = x + dx, yy = y + dy;
-      if (xx < 0 || xx >= cols || yy < 0 || yy >= rows) continue;
-      const next = groups[yy * cols + xx];
-      assert.ok(next < 64 || next === groups[i], `different tributaries cross or touch outside the main channel at ${x},${y}`);
+  for (const seed of [forestConfig.seed, ...Object.values(pageSceneSeeds)]) {
+    const groups = riverScene(cols, rows, seed).grids[2].motion;
+    for (let i = 0; i < groups.length; i++) {
+      if (groups[i] < 64) continue;
+      const x = i % cols, y = Math.floor(i / cols);
+      for (let dy = -1; dy <= 1; dy++) for (let dx = -1; dx <= 1; dx++) {
+        const xx = x + dx, yy = y + dy;
+        if (xx < 0 || xx >= cols || yy < 0 || yy >= rows) continue;
+        const next = groups[yy * cols + xx];
+        assert.ok(next < 64 || next === groups[i], `different tributaries cross or touch outside the main channel at ${x},${y}`);
+      }
     }
   }
 });
@@ -492,4 +496,72 @@ test('missing Canvas context leaves fallback intact without observers or frames'
   assert.equal(f.clock.queue.size, 0);
   assert.equal(f.visibility.length, 0); assert.equal(f.resize.length, 0);
   handle.update({ theme: 'light', enabled: true }); handle.dispose();
+});
+
+test('editorial pages have distinct stable forest and river compositions', () => {
+  const seeds = [forestConfig.seed, ...Object.values(pageSceneSeeds)];
+  const forestSignatures = new Set(), riverGeometry = new Set();
+  for (const seed of seeds) {
+    const forest = createScene(128, 80, seed), river = riverScene(128, 80, seed);
+    forestSignatures.add(forest.signature);
+    riverGeometry.add([...river.grids[2].glyph].map(g => g ? '1' : '0').join(''));
+    assert.equal(forest.signature, createScene(84, 60, seed).signature);
+    assert.equal(river.signature, riverScene(84, 60, seed).signature);
+  }
+  assert.equal(forestSignatures.size, seeds.length);
+  assert.equal(riverGeometry.size, seeds.length, 'water shapes differ, not just canopy textures');
+});
+
+test('forest texture spells real local source lines while preserving water and tree structure', () => {
+  const { forestCodeLines, sourceTextureGlyph } = load('sourceTexture');
+  assert.ok(forestCodeLines.length > 20);
+  const sources = ['scene', 'animation', 'config'].map(name => readFileSync(`src/AsciiForest/${name}.ts`, 'utf8'));
+  for (const line of forestCodeLines) assert.ok(sources.some(source => source.includes(line)), 'each line is actual portfolio code');
+  for (const seed of [forestConfig.seed, ...Object.values(pageSceneSeeds)]) {
+    for (const row of [1, 13, 40]) {
+      const line = forestCodeLines[(row + 22 + (seed >>> 0)) % forestCodeLines.length];
+      const rendered = [...line].map((_, col) => sourceTextureGlyph('#', col, row, 2, seed, false)).join('');
+      assert.equal(rendered, line, 'characters retain their source order');
+    }
+    for (const glyph of ['.', ':', '+', '*', 'o']) {
+      assert.equal(sourceTextureGlyph(glyph, 10, 13, 3, seed, false), glyph, 'forest highlights retain their silhouette ink');
+    }
+    for (const row of [0, 2, 3]) assert.equal(sourceTextureGlyph('#', 10, row, 3, seed, false), '#', 'most canopy rows retain foliage shading');
+    assert.equal(sourceTextureGlyph('#', 10, 13, 1, seed, false), '#', 'distant ridges remain tonal');
+    for (const layer of [0, 1, 2, 3]) for (const row of [0, 13, 39]) for (const col of [0, 11, 45]) {
+      const line = forestCodeLines[(row + layer * 11 + (seed >>> 0)) % forestCodeLines.length];
+      const expected = layer === 0 || layer === 3 ? line[col % line.length] : '#';
+      assert.equal(sourceTextureGlyph('#', col, row, layer, seed, true), expected, 'aerial texture is unchanged');
+    }
+    for (const glyph of ['~', '=', '^']) assert.equal(sourceTextureGlyph(glyph, 10, 20, 2, seed, true), glyph);
+    for (const glyph of ['/', String.fromCharCode(92), '|', '!']) assert.equal(sourceTextureGlyph(glyph, 10, 20, 3, seed, false), glyph);
+    assert.equal(sourceTextureGlyph(' ', 0, 0, 3, seed, false), ' ', 'negative space is preserved');
+  }
+});
+
+test('homepage code canopy increases real code coverage while keeping silhouettes and the other modes', () => {
+  const { forestCodeFragments, sourceTextureGlyph } = load('sourceTexture');
+  const sources = ['scene', 'animation', 'config'].map(name => readFileSync(`src/AsciiForest/${name}.ts`, 'utf8'));
+  assert.ok(forestCodeFragments.length > 20);
+  for (const fragment of forestCodeFragments) assert.ok(sources.some(source => source.includes(fragment)));
+  const scene = createScene(176, 100);
+  let occupied = 0, priorCode = 0, newCode = 0;
+  for (const [layer, grid] of scene.grids.entries()) for (let i = 0; i < grid.glyph.length; i++) {
+    const original = forestConfig.glyphs[grid.glyph[i]];
+    if (!grid.glyph[i]) continue;
+    const col = i % grid.cols, row = Math.floor(i / grid.cols), color = grid.color[i];
+    const previous = sourceTextureGlyph(original, col, row, layer, forestConfig.seed, false);
+    const next = sourceTextureGlyph(original, col, row, layer, forestConfig.seed, false, true, color);
+    if (layer === 0 || color === 3 || '/\\|!'.includes(original)) assert.equal(next, original, 'ridge, crown rim and structural ink survive');
+    if (layer > 0 && !'/\\|!'.includes(original)) {
+      occupied++;
+      if (/[a-zA-Z]/.test(previous)) priorCode++;
+      if (/[a-zA-Z]/.test(next)) newCode++;
+    }
+    for (const aerialLayer of [0, 1, 2, 3]) {
+      assert.equal(sourceTextureGlyph(original, col, row, aerialLayer, forestConfig.seed, true, true, color), sourceTextureGlyph(original, col, row, aerialLayer, forestConfig.seed, true), 'aerial ink is unchanged even with the experiment flag');
+    }
+  }
+  assert.ok(newCode > priorCode * 3, 'homepage has materially more code than the selective texture');
+  assert.ok(newCode / occupied > 0.45, 'letters form a substantial portion of the canopy');
 });

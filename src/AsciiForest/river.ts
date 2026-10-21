@@ -10,12 +10,16 @@ export function* generateRiverScene(cols: number, rows: number, seed: number = f
     cols, rows, glyph: new Uint8Array(cols * rows), color: new Uint8Array(cols * rows),
     depth: new Uint8Array(cols * rows).fill(layer), motion: new Uint8Array(cols * rows),
   }));
-  const phase = (noise(18, 41, seed) - 0.5) * 0.35;
+  // Preserve the homepage composition; other pages select distinct bend phases
+  // and amplitudes as well as different canopy grain.
+  const variant = seed !== forestConfig.seed;
+  const phase = (noise(18, 41, seed) - 0.5) * (variant ? 4 : 0.35);
+  const amplitude = variant ? 0.085 + noise(39, 12, seed) * 0.045 : 0.105;
   // The visible artwork occupies the right half beside the protected copy.
   // Its central spine stays near .70 of the full-bleed canvas, with tributaries
   // subordinate to that one clear downstream channel.
   const center = (y: number) => {
-    const winding = 0.70 + 0.105 * Math.sin(y * 14 + phase) + 0.025 * Math.sin(y * 31 + phase);
+    const winding = 0.70 + amplitude * Math.sin(y * 14 + phase) + 0.025 * Math.sin(y * 31 + phase);
     const t = bounded((y - 0.66) / 0.22, 0, 1);
     const resolved = t * t * (3 - 2 * t);
     return winding * (1 - resolved) + (0.66 + 0.012 * Math.sin(y * 7 + phase)) * resolved;

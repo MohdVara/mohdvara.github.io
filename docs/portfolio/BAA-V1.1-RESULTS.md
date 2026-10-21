@@ -63,3 +63,29 @@ Ready for local owner review; functional checks pass. The latest Lighthouse perf
 ## Symbolism refinement
 
 The final Contact scene explicitly gathers complex winding inputs into one quieter outlet. Sparse ASCII current-direction marks and brighter existing water ink guide the eye without a separate schematic overlay. The existing motion preference, scroll reveal, semantic copy and contact destinations are unchanged. Geometry tests and targeted Chromium checks cover this refinement; it is not represented as a rerun of every earlier engine matrix. Current artifacts: `output/playwright/baa-v1.1/contact-symbolism-chromium/`.
+
+## Other-page landscapes — 19 October 2026
+
+Added a forest introduction and aerial river closing scene to Work with Me, No Two Mondays, the PACE-RAG case study and the Incident Zero landing page. Every page has its own stable forest valley/canopy layout and river bend geometry, using the established character density and theme palettes. Text stays protected, mobile has room to show the art below the copy, and the shared scenery/reduced-motion preferences apply throughout. Incident Zero removes the scenery when its interactive experience begins. The homepage composition and System Defence gameplay are unchanged.
+
+Validation: 123 tests, lint and production build passed; 16 Chromium layout/theme combinations, eight mobile Largest combinations, four JavaScript-free journeys, shared pause/raw-pixel freeze and entry-to-game cleanup passed with zero page errors. Exact scope and remaining accessibility limitations are recorded in `BAA-V1.1-QA.md`; screenshots are in `output/playwright/baa-pages/`. This extension is prepared locally for review; no deployment was performed.
+
+## Forests made from the portfolio's own code — 21 October 2026
+
+The forest and aerial canopy now use real source lines from their scene generator, animation clock and configuration, replacing the decorative character selection at paint time. Source characters stay in order along rows and are masked into the existing landscape. Directional trunks/branches and river water keep their readable shapes. This applies to the homepage and all four added page scenes, retaining their distinct geometry and shared display controls.
+
+Validation: 124 tests, lint, production build and 20 Chromium page/viewport/theme combinations passed, with zero page errors. Preview artifacts: `output/playwright/baa-source-texture/`. No deployment was performed.
+
+## Restored forest definition — 21 October 2026
+
+The forest now uses code sparingly inside shaded near-canopy regions, preserving the original ridge silhouettes, bright crown outlines and most foliage texture. This restores the tree shapes while retaining real portfolio code as a detail. River scenes remain unchanged: eight targeted light/dark/mobile/desktop river captures exactly match their previous PNGs. 124 tests, lint, build and eight targeted Chromium combinations pass. No deployment was performed.
+
+## Homepage-only richer code trial — 21 October 2026
+
+The homepage forest now contains more compact real-code expressions across its canopy, retaining original distant ridge ink, bright crown rims and directional tree structure. Letters receive weight compensation to preserve the foliage's tonal hierarchy. Other page forests and all rivers retain their previous treatment. 125 tests, lint, type checking, production build and eight targeted Chromium combinations pass; twelve unaffected comparison screenshots match exactly. Previous forest reference: `output/playwright/baa-forest-clarity/`; this trial: `output/playwright/baa-home-code-canopy/`. No deployment was performed.
+
+## Unified forest treatment and clearer daylight canopy — 21 October 2026
+
+Work with Me, No Two Mondays, PACE-RAG and the Incident Zero landing now share the homepage's code-rich forest treatment while retaining their individual landscapes. Light mode emphasizes crown edges/trunks and softens code-filled interiors with a dedicated sage palette and distance-based ink weight; dark mode retains the accepted rich-code treatment. Rivers retain their existing style and geometry.
+
+125 tests, lint and production build pass. Chromium checks passed 20 default viewport/theme combinations, eight mobile Largest combinations, four JavaScript-free journeys and shared scenery/game-entry lifecycle checks, with zero page errors. The homepage's dark forest and river comparison captures match the prior version exactly. New review captures are in `output/playwright/baa-unified-pages/` and `output/playwright/baa-unified-home/`. No deployment was performed.

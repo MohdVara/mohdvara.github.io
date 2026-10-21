@@ -26,3 +26,11 @@ export function qualityFor(width: number) {
 export function bounded(value: number, min: number, max: number) {
   return Math.max(min, Math.min(max, value));
 }
+
+// Stable page identities keep the terrain consistent through theme/size changes.
+export const pageSceneSeeds = {
+  engagements: 731029,
+  mondays: 482173,
+  pace: 916403,
+  incident: 365819,
+} as const;

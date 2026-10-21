@@ -1,3 +1,4 @@
+import { PageLandscape } from "../../AsciiForest/PageLandscape";
 import { Component, lazy, Suspense, useEffect, useState, type ReactNode } from "react";
 import { Navigation } from "../../App";
 import "./incident.css";
@@ -41,7 +42,7 @@ export default function IncidentZeroRoute() {
       </a>
       <Navigation home={false} contactOnPage={false} />
       <main className="container iz-page" id="incident-main" tabIndex={-1}>
-        {mode ? <h1 className="sr-only">Incident Zero · interactive engineering story</h1> : <div className="iz-page-heading">
+        {mode ? <h1 className="sr-only">Incident Zero · interactive engineering story</h1> : <PageLandscape scene="incident" contained><div className="container page-landscape-intro"><div className="iz-page-heading">
           <div>
             <a className="text-link" href="/">
               Portfolio /
@@ -55,7 +56,7 @@ export default function IncidentZeroRoute() {
             A FICTIONAL INCIDENT
             <br />A REAL KIND OF QUESTION
           </span>
-        </div>
+        </div></div></PageLandscape>
         }
         {mode ? (
           <GameBoundary>
@@ -141,6 +142,10 @@ export default function IncidentZeroRoute() {
             </svg>
           </section>
         )}
+        {mode ? null : <PageLandscape scene="incident" aerial contained><div className="container page-landscape-ending">
+          <p className="eyebrow mono">From conflicting signals to a clear decision</p>
+          <a className="text-link" href="/#contact">Discuss a real engineering problem ↗</a>
+        </div></PageLandscape>}
         <footer className="iz-footer">
           <span>All incident data is synthetic.</span>
           <a href="/#work">Explore real engineering work ↗</a>

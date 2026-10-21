@@ -119,3 +119,31 @@ The Contact artwork now uses an explicit many-to-one visual narrative. Four wind
 The outlet's central current uses the brightest existing water ink and sparse ASCII `^` marks to indicate upward flow in the reflected view. This is a water-current cue, not an interactive button or separate diagram overlay. Terrain, canopy and water still use the same character-grid renderer and shared motion policy. Paused/reduced-motion presentation shows the complete stream network and direction cue.
 
 Tests check that the outlet course is calmer than the winding catchments, cue glyphs stay in the outlet, all tagged tributaries connect to the main channel, and separate tributaries do not cross outside it. The hero art is unchanged by this refinement.
+
+## Other-page landscapes — 19 October 2026
+
+`PageLandscape` places the existing decorative renderer around introductory and closing content on Work with Me, No Two Mondays, the PACE-RAG case study and the Incident Zero entry. Each route has a stable seed in `config.ts`; forest valley positions, ridge phases and crown fields vary with it. River bend phase and amplitude also vary, so the water geometry differs rather than only its canopy texture. The homepage seed retains its original geometry.
+
+The backdrop passes the seed through lazy renderer initialization and resize regeneration. Canonical signatures remain stable through quality/theme changes. Editorial rivers display their complete connected catchments without relying on the homepage scroll controller; wind/current animation still follows the shared scenery preference, reduced motion and offscreen suspension. The homepage retains its scroll-driven branch reveal.
+
+The wrapper protects text with a background gradient and gives mobile scenery space below the copy. Contained case-study layouts use a full-width background while preserving their content container. Incident Zero unmounts both landscapes when play or preview begins; the System Defence arcade remains unchanged. No raster assets or runtime dependencies were added.
+
+## Forest made from portfolio source — 21 October 2026
+
+`sourceTexture.ts` imports the actual `scene.ts`, `animation.ts` and `config.ts` contents through Vite's `?raw` imports. A fixed selection of printable ASCII code lines supplies the canopy and terrain characters in source order across each row. Lines are read from these explicit public UI files at build time; there is no workspace scan or browser fetch. Updating those files updates the artwork's text on the next build.
+
+The existing deterministic grids remain the shape/ink/motion masks. The renderer substitutes source characters when constructing its static caches and moving-cell lists. Hero trunks/branches retain their directional glyphs; aerial water and banks retain their existing marks. Thus every page uses the new code texture without changing its seed, topography, water connectivity, spacing, theme or motion controls. Spaces within the source remain spaces. The source strings remain in the deferred renderer chunk.
+
+## Forest clarity follow-up — 21 October 2026
+
+The full source fill weakened the forest silhouette. Hero/forest views now retain original distant ridge ink, bright crown edges and two out of every three shaded canopy rows. Source characters appear only in `#`, `%`, `@` shadow cells of layers 2–3 on the remaining row. Directional structural marks stay intact. This balances recognizable trees with small real-code details. The aerial path is unchanged and continues its fuller code canopy.
+
+## Homepage-only code-canopy trial — 21 October 2026
+
+The homepage hero explicitly enables `codeCanopy`; other forest and river instances keep their previous mode. Short verbatim declarations/member expressions extracted from the same public source lines fill most canopy cells. The far ridge layer, maximum-light crown rims and directional trunks/branches retain their original ink. Per-cell opacity compensates for the greater visual weight of letters compared with punctuation. Static cache and moving-cell painting use the same opacity, preserving shared pause/motion behavior. Original seeds, masks, spacing, palettes and geometry are unchanged.
+
+## Shared code canopy and daylight structure — 21 October 2026
+
+`PageLandscape` now enables `codeCanopy` for every forest, retaining each route's seed. Work with Me, No Two Mondays, PACE-RAG and Incident Zero use the same compact-source canopy as the homepage. Aerial instances keep the established river rendering. The earlier homepage-only trial is now extended to these four pages.
+
+Light code forests use `daylightCodeCanopy`: pale sage interiors, softer distant layers and firmer green crown/trunk ink. Original highlight glyphs survive at ink levels 2–3 in light mode, while the code fills quieter interior cells with opacity graded by distance. Dark mode keeps its accepted fragments, palette and weights exactly. Neither theme changes the underlying tree geometry, character spacing or page seed.

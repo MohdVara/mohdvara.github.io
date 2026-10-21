@@ -1,3 +1,4 @@
+import { PageLandscape } from "./AsciiForest/PageLandscape";
 import { Navigation } from './App';
 import { profile } from './content';
 import { problems, engagements } from './EngagementContent';
@@ -11,7 +12,7 @@ export default function WorkWithMe() {
     <a className="skip-link" href="#main">Skip to content</a>
     <Navigation home={false} />
     <main id="main" className="engagement-page" tabIndex={-1}>
-      <section className="section container engagement-hero" aria-labelledby="engagement-title">
+      <PageLandscape scene="engagements"><section className="section container engagement-hero" aria-labelledby="engagement-title">
         <p className="engagement-breadcrumb mono"><a href="/">Portfolio</a> / Work with me</p>
         <p className="eyebrow mono">Principal engineering / Selected engagements</p>
         <h1 id="engagement-title">Complex systems.<br /><span>Clear engineering decisions.</span></h1>
@@ -19,7 +20,7 @@ export default function WorkWithMe() {
         <p className="engagement-position">Mohd. Paramasvara · Principal Full-Stack Engineer<br />Based in Sabah, Malaysia. Discuss an engineering role or a scoped project engagement.</p>
         <div className="actions"><a className="button primary" href={profile.discovery} target="_blank" rel="noopener noreferrer">Book a conversation <span aria-hidden="true">↗</span><span className="sr-only"> (opens Cal.com in a new tab)</span></a><a className="text-link" href={`mailto:${profile.email}`}>Email the context</a></div>
         <a className="text-link" href="#engagement-problems">Explore the problems I work on <span aria-hidden="true">↓</span></a>
-      </section>
+      </section></PageLandscape>
       <section className="section container" id="engagement-problems" aria-labelledby="engagement-problems-title">
         <div className="section-lead"><SectionBranch variant="work" /><div className="section-heading" data-reveal>
           <p className="eyebrow mono">01 / Problems &amp; evidence</p><h2 id="engagement-problems-title">Start with the system.</h2>
@@ -43,7 +44,7 @@ export default function WorkWithMe() {
           <p className="engagement-fit-note">These are possible deliverables, not fixed packages. Bring a concrete problem, technical context and a decision maker. We can then agree scope, responsibilities and an engagement.</p>
         </div>
       </section>
-      <section className="section container contact" id="contact" data-motion-region="contact" aria-labelledby="contact-title">
+      <PageLandscape scene="engagements" aerial><section className="section container contact" id="contact" data-motion-region="contact" aria-labelledby="contact-title">
         <div data-reveal>
           <p className="eyebrow mono">03 / Let’s talk</p>
           <h2 id="contact-title">A complex problem.<br /><span>A clear next step.</span></h2>
@@ -53,7 +54,7 @@ export default function WorkWithMe() {
           <ContactConvergence />
           <div className="contact-links"><a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">2-page résumé <span className="sr-only"> (opens in a new tab)</span></a><a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <span className="sr-only"> (opens in a new tab)</span></a><a className="text-link" href="/#work">Explore selected work <span aria-hidden="true">↗</span></a><a className="text-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span></a></div>
         </div>
-      </section>
+      </section></PageLandscape>
     </main>
     <footer className="container footer"><p>© Mohd. Paramasvara</p><p>Based in Borneo. Building beyond it.</p><a href="/">Back to portfolio <span aria-hidden="true">↗</span></a></footer>
   </>;

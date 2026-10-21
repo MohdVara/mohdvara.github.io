@@ -3,7 +3,7 @@ import { readSceneryPreference, subscribeSceneryPreference } from "./preference"
 import type { ForestHandle } from "./renderer";
 import "./AsciiForest.css";
 
-export function AsciiForestBackdrop({ aerial = false }: { aerial?: boolean }) {
+export function AsciiForestBackdrop({ aerial = false, seed, codeCanopy = false }: { aerial?: boolean; seed?: number; codeCanopy?: boolean }) {
   const host = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const element = host.current;
@@ -17,7 +17,7 @@ export function AsciiForestBackdrop({ aerial = false }: { aerial?: boolean }) {
     const load = () => { first = requestAnimationFrame(() => {
       second = requestAnimationFrame(() => {
         import("./renderer").then(module => {
-          if (!cancelled) renderer = module.mountForest(element, state(), aerial);
+          if (!cancelled) renderer = module.mountForest(element, state(), aerial, seed, codeCanopy);
         }).catch(() => { /* Existing botanical drawing remains the fallback. */ });
       });
     }); };
@@ -31,6 +31,6 @@ export function AsciiForestBackdrop({ aerial = false }: { aerial?: boolean }) {
       cancelled = true; proximity?.disconnect(); cancelAnimationFrame(first); cancelAnimationFrame(second);
       unsubscribe(); window.removeEventListener("theme-change", sync); renderer?.dispose();
     };
-  }, [aerial]);
+  }, [aerial, seed, codeCanopy]);
   return <div className={aerial ? "ascii-river" : "ascii-forest"} ref={host} aria-hidden="true" />;
 }
