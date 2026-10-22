@@ -1,0 +1,14 @@
+import {readJson, atomicJson, hash, validateEntry} from "./shared.mjs";
+const [locale,key] = process.argv.slice(2);
+const registry = await readJson("src/i18n/languages.json");
+if (!locale || locale === "en" || !registry.some(item => item.locale === locale) || !key) throw new Error('Usage: npm run i18n:review -- ar "Canonical English key"');
+const source = await readJson("src/i18n/locales/en.json");
+const target = await readJson(`src/i18n/locales/${locale}.json`);
+if (!(key in source) || !(key in target)) throw new Error("Unknown source key or missing translation");
+const glossary = await readJson("scripts/i18n/glossary.json");
+const result = validateEntry(source[key],target[key],glossary);
+if (result.errors.length) throw new Error(result.errors.join(", "));
+const metadata = await readJson("scripts/i18n/metadata.json");
+metadata.locales[locale][key] = {...metadata.locales[locale][key],status:"human_reviewed",sourceHash:hash(source[key])};
+await atomicJson("scripts/i18n/metadata.json",metadata);
+console.log(`Marked ${locale}: ${key} reviewed against the current English source. Commit the translation and metadata together.`);

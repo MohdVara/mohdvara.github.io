@@ -14,3 +14,6 @@
 .experience-assistant .pace-small { color: var(--muted); }
 .experience-assistant .pace-supporting ul { margin-block: .5rem; }
 .experience-assistant .pace-header button { font-size: .85rem; }
+
+.pace-english-boundary { direction: ltr; text-align: left; writing-mode: horizontal-tb; unicode-bidi: isolate; }
+.pace-english-boundary > p { text-align: start; }

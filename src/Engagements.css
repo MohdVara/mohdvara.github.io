@@ -20,7 +20,7 @@
 .engagement-fit-note { margin-top: 32px; max-width: 760px; }
 .engagement-contact-copy { max-width: 590px; color: var(--muted); margin-top: 24px; }
 .project-scope { color: var(--muted); font-size: .8rem; margin-top: 16px; }
-.project-scope > span { color: var(--text); margin-right: 12px; }
+.project-scope > span { color: var(--text); margin-inline-end: 12px; }
 .project[id] { scroll-margin-top: 20px; }
 @media (min-width:761px) {
   .engagement-page .contact-convergence { bottom: 228px; }

@@ -1,4 +1,7 @@
+import { localizedHref } from "./i18n/config";
+import { text } from "./i18n/config";
 import { lazy, Suspense, type ComponentType } from "react";
+import FirstFrame from "./FirstFrame";
 import App from "./App";
 import RouteRecovery from "./RouteRecovery";
 import NotFound from "./NotFound";
@@ -18,6 +21,7 @@ const LazyNtmCaseStudy = import.meta.env.SSR
   ? () => null
   : lazy(() => import("./NoTwoMondaysCaseStudy"));
 const LazyPaceRagCaseStudy = import.meta.env.SSR ? () => null : lazy(() => import("./PaceRagCaseStudy"));
+const LazyEngineeringCaseStudy = import.meta.env.SSR ? () => null : lazy(() => import("./EngineeringCaseStudy"));
 export default function Page({
   path,
   incidentComponent,
@@ -25,6 +29,7 @@ export default function Page({
   ntmCaseStudyComponent,
   workWithMeComponent,
   paceRagCaseStudyComponent,
+  engineeringCaseStudyComponent,
 }: {
   path: string;
   incidentComponent?: ComponentType;
@@ -32,6 +37,7 @@ export default function Page({
   ntmCaseStudyComponent?: ComponentType;
   workWithMeComponent?: ComponentType;
   paceRagCaseStudyComponent?: ComponentType;
+  engineeringCaseStudyComponent?: ComponentType;
 }) {
   useFragmentNavigation(path);
   const route = path.replace(/\/$/, "");
@@ -40,28 +46,31 @@ export default function Page({
   const Defence = defenceComponent || LazyDefence;
   const NtmCaseStudy = ntmCaseStudyComponent || LazyNtmCaseStudy;
   const PaceRagCaseStudy = paceRagCaseStudyComponent || LazyPaceRagCaseStudy;
-  return route === "/pace-rag-case-study" ? (
-    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Loading the PACE-RAG case study…</p></main>}><PaceRagCaseStudy /></Suspense></RouteRecovery>
+  const EngineeringCaseStudy = engineeringCaseStudyComponent || LazyEngineeringCaseStudy;
+  return ["/mmcats-modern", "/naae", "/multilingual-engineering"].includes(route) ? (
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">{text("Loading case study…")}</p></main>}><FirstFrame><EngineeringCaseStudy /></FirstFrame></Suspense></RouteRecovery>
+  ) : route === "/pace-rag-case-study" ? (
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">{text("Loading the PACE-RAG case study…")}</p></main>}><FirstFrame><PaceRagCaseStudy /></FirstFrame></Suspense></RouteRecovery>
   ) : route === "/no-two-mondays" ? (
-    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Loading the No Two Mondays case study…</p><a href="/">Return to portfolio</a></main>}><NtmCaseStudy /></Suspense></RouteRecovery>
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">{text("Loading the No Two Mondays case study…")}</p><a href={localizedHref("/")}>{text("Return to portfolio")}</a></main>}><FirstFrame><NtmCaseStudy /></FirstFrame></Suspense></RouteRecovery>
   ) : route === "/incident-zero/defence" ? (
-    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Initialising System Defence…</p><a href="/incident-zero/">Return to Incident Zero</a></main>}>
-      <Defence />
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">{text("Initialising System Defence…")}</p><a href={localizedHref("/incident-zero/")}>{text("Return to Incident Zero")}</a></main>}>
+      <FirstFrame><Defence /></FirstFrame>
     </Suspense></RouteRecovery>
   ) : route === "/incident-zero" ? (
     <RouteRecovery><Suspense
       fallback={
         <main className="container section">
-          <p role="status">Initialising Incident Zero…</p>
-          <a href="/">Return to portfolio</a>
+          <p role="status">{text("Initialising Incident Zero…")}</p>
+          <a href={localizedHref("/")}>{text("Return to portfolio")}</a>
         </main>
       }
     >
-      <Incident />
+      <FirstFrame><Incident /></FirstFrame>
     </Suspense></RouteRecovery>
   ) : route === "/work-with-me" ? (
-    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">Loading engineering engagements…</p><a href="/">Return to portfolio</a></main>}><WorkWithMe /></Suspense></RouteRecovery>
+    <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">{text("Loading engineering engagements…")}</p><a href={localizedHref("/")}>{text("Return to portfolio")}</a></main>}><FirstFrame><WorkWithMe /></FirstFrame></Suspense></RouteRecovery>
   ) : route === "" ? (
-    <App />
-  ) : <NotFound />;
+    <FirstFrame><App /></FirstFrame>
+  ) : <FirstFrame><NotFound /></FirstFrame>;
 }

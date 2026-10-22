@@ -1,3 +1,4 @@
+import { text, localizedContent } from "../../i18n/config";
 import { useState } from "react";
 import {
   dateOrder,
@@ -42,9 +43,9 @@ function Network({ edges, compact = false }: { edges: string[]; compact?: boolea
   const positions: Record<string, [number, number]> = compact
     ? { HRMS: [150, 30], HISTORY: [150, 125], PAYROLL: [75, 235], REPORTING: [225, 235] }
     : { HRMS: [70, 100], HISTORY: [280, 100], PAYROLL: [500, 40], REPORTING: [500, 160] };
-  return <svg className={`iz-network ${compact ? 'iz-network-mobile' : 'iz-network-desktop'}`} viewBox={compact ? '0 0 300 270' : '0 0 580 200'} role="img" aria-label="HRMS, history, payroll and reporting; selected connections shown below">
-    {edges.map(edge => { const [a, b] = edge.split('>'); const [x, y] = positions[a]; const [tx, ty] = positions[b]; return <path key={edge} d={`M${x} ${y} Q${compact ? x : tx - 60} ${compact ? ty - 40 : y} ${tx} ${ty}`} />; })}
-    {Object.entries(positions).map(([label, [x,y]]) => <g key={label}><rect x={x-(compact?66:58)} y={y-22} width={compact?132:116} height="44"/><text x={x} y={y+5} textAnchor="middle">{label}</text></g>)}
+  return <svg className={`iz-network ${compact ? 'iz-network-mobile' : 'iz-network-desktop'}`} viewBox={compact ? '0 0 300 270' : '0 0 580 200'} role="img" aria-label={text("HRMS, history, payroll and reporting; selected connections shown below")}>
+    {localizedContent(edges.map(edge => { const [a, b] = edge.split('>'); const [x, y] = positions[a]; const [tx, ty] = positions[b]; return <path key={edge} d={`M${x} ${y} Q${compact ? x : tx - 60} ${compact ? ty - 40 : y} ${tx} ${ty}`} />; }))}
+    {localizedContent(Object.entries(positions).map(([label, [x,y]]) => <g key={label}><rect x={x-(compact?66:58)} y={y-22} width={compact?132:116} height="44"/><text x={x} y={y+5} textAnchor="middle">{localizedContent(label)}</text></g>))}
   </svg>;
 }
 export default function Puzzles({
@@ -103,25 +104,25 @@ export default function Puzzles({
   };
   return (
     <>
-      <h2>{titles[id]}</h2>
+      <h2>{localizedContent(titles[id])}</h2>
       <p className="iz-muted">
-        {id === "source"
+        {localizedContent(id === "source"
           ? "You have compared the approvals and preview. Now identify the record that explains which salary applied."
           : id === "date"
             ? "01 Jan: RM7,500 · 01 Oct: RM8,500 · 01 Nov: RM9,000. Arrange the steps; the plain-language captions explain the SQL."
             : id === "resilience"
               ? "A delivery timed out: the destination may already have accepted it. Arrange the producer, queue, worker and destination responsibilities for the scenario below."
-              : "Select three connections. Preserve the history boundary rather than exporting only today’s HR state."}
+              : "Select three connections. Preserve the history boundary rather than exporting only today’s HR state.")}
       </p>
-      {id === "resilience" && <div className="iz-scenario">
-        <strong>Scenario assumptions</strong>
-        <p>The producer persists an event ID before enqueueing. The queue can redeliver. One worker checks durable processing state before delivery. The destination atomically deduplicates the same idempotency key within a documented retention window; retries stay within it.</p>
-        <details className="iz-explanation"><summary>If safe retry is unavailable</summary><p>A local “already sent” flag cannot guarantee exactly-once remote effects. If the destination lacks idempotency support, its key has expired, or acceptance is unknown, stop automatic retry and reconcile destination records or escalate to an owner.</p></details>
-      </div>}
-      {id === "source" ? (
+      {localizedContent(id === "resilience" && <div className="iz-scenario">
+        <strong>{text("Scenario assumptions")}</strong>
+        <p>{text("The producer persists an event ID before enqueueing. The queue can redeliver. One worker checks durable processing state before delivery. The destination atomically deduplicates the same idempotency key within a documented retention window; retries stay within it.")}</p>
+        <details className="iz-explanation"><summary>{text("If safe retry is unavailable")}</summary><p>{text("A local “already sent” flag cannot guarantee exactly-once remote effects. If the destination lacks idempotency support, its key has expired, or acceptance is unknown, stop automatic retry and reconcile destination records or escalate to an owner.")}</p></details>
+      </div>)}
+      {localizedContent(id === "source" ? (
         <fieldset className="iz-options">
-          <legend>Key evidence</legend>
-          {[
+          <legend>{text("Key evidence")}</legend>
+          {localizedContent([
             ["hr", "Today’s HR approval"],
             ["payroll", "The payroll preview"],
             ["history", "The effective-dated salary history"],
@@ -134,17 +135,17 @@ export default function Puzzles({
                 checked={source === value}
                 onChange={() => setSource(value)}
               />
-              {label}
+              {localizedContent(label)}
             </label>
-          ))}
+          )))}
         </fieldset>
       ) : id === "architecture" ? (
         <>
           <Network edges={edges} />
           <Network edges={edges} compact />
           <fieldset className="iz-options">
-            <legend>Connections</legend>
-            {[
+            <legend>{text("Connections")}</legend>
+            {localizedContent([
               "HRMS>HISTORY",
               "HISTORY>PAYROLL",
               "HISTORY>REPORTING",
@@ -163,31 +164,31 @@ export default function Puzzles({
                     )
                   }
                 />
-                {edge.replace(">", " → ")}
+                {localizedContent(edge.replace(">", " → "))}
               </label>
-            ))}
+            )))}
           </fieldset>
         </>
       ) : (
         <>
         <details className="iz-explanation iz-puzzle-help">
-          <summary>How to arrange the steps</summary>
-          <p className="iz-keyboard-only">Tab to an ↑ / ↓ button, then Enter or Space to move its row. Shift + Tab goes back. Tab to “Test this reasoning” when ready.</p>
-          <p className="iz-touch-only">Tap ↑ or ↓ beside a row to move it. Tap “Test this reasoning” when ready.</p>
+          <summary>{text("How to arrange the steps")}</summary>
+          <p className="iz-keyboard-only">{text("Tab to an ↑ / ↓ button, then Enter or Space to move its row. Shift + Tab goes back. Tab to “Test this reasoning” when ready.")}</p>
+          <p className="iz-touch-only">{text("Tap ↑ or ↓ beside a row to move it. Tap “Test this reasoning” when ready.")}</p>
         </details>
         <ol className="iz-blocks">
-          {order.map((key, index) => (
+          {localizedContent(order.map((key, index) => (
             <li key={key}>
               <div>
-                <strong>{blocks[key].title}</strong>
-                <p>{blocks[key].hint}</p>
+                <strong>{localizedContent(blocks[key].title)}</strong>
+                <p>{localizedContent(blocks[key].hint)}</p>
               </div>
               <div>
                 <button
                   type="button"
                   disabled={index === 0 || solved}
                   onClick={() => move(index, -1)}
-                  aria-label={`Move ${blocks[key].title} up`}
+                  aria-label={text("Move {{value0}} up", {value0: blocks[key].title})}
                 >
                   ↑
                 </button>
@@ -195,31 +196,28 @@ export default function Puzzles({
                   type="button"
                   disabled={index === order.length - 1 || solved}
                   onClick={() => move(index, 1)}
-                  aria-label={`Move ${blocks[key].title} down`}
+                  aria-label={text("Move {{value0}} down", {value0: blocks[key].title})}
                 >
                   ↓
                 </button>
               </div>
             </li>
-          ))}
+          )))}
         </ol>
         </>
-      )}
+      ))}
       <p className={`iz-feedback ${solved ? "iz-solved" : ""}`} role="status">
-        {feedback}
+        {localizedContent(feedback)}
       </p>
-      {solved ? (
-        <button className="button primary" onClick={onSolved}>
-          Apply tested reasoning →
-        </button>
+      {localizedContent(solved ? (
+        <button className="button primary" onClick={onSolved}>{text("Apply tested reasoning →")}</button>
       ) : (
-        <button className="button primary" onClick={validate}>
-          Test this {id === "architecture" ? "flow" : "reasoning"} →
+        <button className="button primary" onClick={validate}>{text("Test this ")}{localizedContent(id === "architecture" ? "flow" : "reasoning")} →
         </button>
-      )}
+      ))}
       <details className="iz-explanation">
-        <summary>Why this matters</summary>
-        <p>{explanations[id]}</p>
+        <summary>{text("Why this matters")}</summary>
+        <p>{localizedContent(explanations[id])}</p>
       </details>
     </>
   );

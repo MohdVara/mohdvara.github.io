@@ -104,7 +104,7 @@
   .contact-convergence > svg { transform: none; }
 }
 @media (max-width: 760px) {
-  .career-path::before { content: ""; position: absolute; bottom: 26px; left: -1px; width: 2px; height: calc(176px * var(--section-progress, 1)); background: var(--accent); opacity: .55; pointer-events: none; z-index: 2; }
+  .career-path::before { content: ""; position: absolute; bottom: 26px; inset-inline-start: -1px; width: 2px; height: calc(176px * var(--section-progress, 1)); background: var(--accent); opacity: .55; pointer-events: none; z-index: 2; }
   .career-node::before { z-index: 3; }
 }
 /* The absolute Contact vector uses the section as its containing block.

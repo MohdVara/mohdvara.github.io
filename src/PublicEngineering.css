@@ -1,7 +1,7 @@
 .public-repositories { position: relative; border-top: 1px solid var(--line); }
-.public-repository { position: relative; display: grid; grid-template-columns: 1fr 1.3fr; gap: 64px; padding: 40px 0 40px 28px; border-bottom: 1px solid var(--line); }
-.public-repository::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; border-left: 1px solid var(--line); }
-.public-repository::after { content: ''; position: absolute; left: -3px; top: 48px; width: 7px; height: 7px; border: 1px solid var(--accent); background: var(--background); border-radius: 50%; }
+.public-repository { position: relative; display: grid; grid-template-columns: 1fr 1.3fr; gap: 64px; padding-block: 40px; padding-inline: 28px 0; border-bottom: 1px solid var(--line); }
+.public-repository::before { content: ''; position: absolute; inset-inline-start: 0; top: 0; bottom: 0; border-inline-start: 1px solid var(--line); }
+.public-repository::after { content: ''; position: absolute; inset-inline-start: -3px; top: 48px; width: 7px; height: 7px; border: 1px solid var(--accent); background: var(--background); border-radius: 50%; }
 .public-repository h3 { font-size: clamp(1.3rem, 2vw, 1.8rem); line-height: 1.3; margin: 14px 0 10px; }
 .public-repository-name { font-size: .75rem; color: var(--muted); overflow-wrap: anywhere; }
 .public-repository-detail > p { margin: 0 0 16px; }
@@ -13,7 +13,7 @@
 .public-repository a:is(:hover,:focus-visible) span, .public-engineering-more:is(:hover,:focus-visible) > span[aria-hidden] { transform: translate(2px,-2px); }
 .public-engineering-more { margin-top: 28px; }
 @media (max-width: 760px) {
-  .public-repository { grid-template-columns: 1fr; gap: 20px; padding: 28px 0 28px 20px; }
+  .public-repository { grid-template-columns: 1fr; gap: 20px; padding-block: 28px; padding-inline: 20px 0; }
   .public-repository::after { top: 36px; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -25,3 +25,8 @@
 @media (max-width: 760px) {
   .public-engineering { padding-top: 56px; }
 }
+
+.case-study-discovery { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin-block:2rem; }
+.case-study-discovery a { padding:1rem;border-block-start:1px solid var(--line);font-weight:600; }
+.case-study-discovery span { display:block;font-size:.8rem;font-weight:400;color:var(--muted); }
+@media(max-width:760px){.case-study-discovery{grid-template-columns:1fr;gap:0;}}

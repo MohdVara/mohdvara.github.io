@@ -1,3 +1,5 @@
+import { text, i18n, currentLocale } from "../../i18n/config";
+import { language } from "../../i18n/languages";
 import Phaser from "phaser";
 import { createPortfolioGame } from "./PortfolioGame";
 import idle from "./assets/engineer-idle.svg?url&no-inline";
@@ -97,14 +99,14 @@ export function createGame(
       g.lineStyle(3, colors.line, 1);
       g.strokeRect(30, 50, 840, 440);
       const data = rooms.find((item) => item.id === room)!;
-      this.add.text(54, 68, data.title.toUpperCase(), {
-        fontFamily: "monospace",
+      this.add.text(54, 68, text(data.title).toLocaleUpperCase(currentLocale()), {
+        fontFamily: language(currentLocale()).fonts,
         fontSize: "18px",
         color: colors.text,
         letterSpacing: 2,
       });
-      this.add.text(54, 96, data.subtitle, {
-        fontFamily: "monospace",
+      this.add.text(54, 96, text(data.subtitle), {
+        fontFamily: language(currentLocale()).fonts,
         fontSize: "13px",
         color: colors.text,
       });
@@ -118,8 +120,8 @@ export function createGame(
         g.lineStyle(1, colors.gold);
         g.strokeRect(x - 16, 325, 32, 70);
         this.add
-          .text(x, 414, label, {
-            fontFamily: "monospace",
+          .text(x, 414, text(label), {
+            fontFamily: language(currentLocale()).fonts,
             fontSize: "12px",
             color: colors.text,
           })
@@ -128,8 +130,8 @@ export function createGame(
       }
       if (index === 0)
         this.add
-          .text(450, 445, "Follow the records. Keep the preview safe.", {
-            fontFamily: "monospace",
+          .text(450, 445, text("Follow the records. Keep the preview safe."), {
+            fontFamily: language(currentLocale()).fonts,
             fontSize: "14px",
             color: colors.text,
           })
@@ -160,7 +162,7 @@ export function createGame(
           g.lineBetween(485, 270, 635, 180);
           g.lineBetween(485, 270, 635, 380);
         }
-        const labels = ["HRMS", "HISTORY", "PAYROLL", "REPORTING"];
+        const labels = ["HRMS", text("HISTORY"), text("PAYROLL"), text("REPORTING")];
         labels.forEach((label, i) => {
           const x = [170, 420, 700, 700][i],
             y = [270, 270, 180, 380][i];
@@ -169,16 +171,16 @@ export function createGame(
           g.lineStyle(1, colors.gold);
           g.strokeRect(x - 65, y - 30, 130, 60);
           this.add
-            .text(x, y, label, {
-              fontFamily: "monospace",
+            .text(x, y, text(label), {
+              fontFamily: language(currentLocale()).fonts,
               fontSize: "15px",
               color: colors.text,
             })
             .setOrigin(0.5);
         });
         this.add
-          .text(450, 130, "The walls have become service boundaries.", {
-            fontFamily: "monospace",
+          .text(450, 130, text("The walls have become service boundaries."), {
+            fontFamily: language(currentLocale()).fonts,
             fontSize: "14px",
             color: colors.text,
           })
@@ -227,19 +229,19 @@ export function createGame(
             g.lineStyle(2,colors.line);g.lineBetween(object.x-20,object.y+16,object.x+20,object.y+16);
           }
           if (object.id === "payroll") this.add.text(object.x, object.y + 45,
-            state.fix === "rewrite" ? "EXPORT HELD" : state.fix ? "RM8,500 / REVIEWED" : "RM7,500 / MISMATCH",
-            { fontFamily: "monospace", fontSize: "12px", color: colors.text }).setOrigin(0.5);
+            text(state.fix === "rewrite" ? "EXPORT HELD" : state.fix ? "RM8,500 / REVIEWED" : "RM7,500 / MISMATCH"),
+            { fontFamily: language(currentLocale()).fonts, fontSize: "12px", color: colors.text }).setOrigin(0.5);
         }
         this.add
-          .text(object.x, object.y - 68, object.title, {
-            fontFamily: "monospace",
+          .text(object.x, object.y - 68, text(object.title), {
+            fontFamily: language(currentLocale()).fonts,
             fontSize: "14px",
             color: colors.text,
           })
           .setOrigin(0.5);
         this.add
-          .text(object.x, object.y - 48, "INSPECT", {
-            fontFamily: "monospace",
+          .text(object.x, object.y - 48, text("INSPECT"), {
+            fontFamily: language(currentLocale()).fonts,
             fontSize: "11px",
             color: light ? "#875409" : "#f8bd57",
           })
@@ -254,15 +256,15 @@ export function createGame(
               ? "Resolver corrected / regression protected"
               : "Preview held / investigation in progress";
       this.add
-        .text(450, 516, condition, {
-          fontFamily: "monospace",
+        .text(450, 516, text(condition), {
+          fontFamily: language(currentLocale()).fonts,
           fontSize: "12px",
           color: colors.text,
         })
         .setOrigin(0.5);
       if (room === "operations") this.add.text(450, 470,
-        state.solved.includes("resilience") ? "SAME-KEY RETRY / RECONCILIATION OWNER RECORDED" : "TIMEOUT / UNKNOWN OUTCOME / DUPLICATE RISK",
-        { fontFamily: "monospace", fontSize: "12px", color: colors.text }).setOrigin(0.5);
+        text(state.solved.includes("resilience") ? "SAME-KEY RETRY / RECONCILIATION OWNER RECORDED" : "TIMEOUT / UNKNOWN OUTCOME / DUPLICATE RISK"),
+        { fontFamily: language(currentLocale()).fonts, fontSize: "12px", color: colors.text }).setOrigin(0.5);
       this.marker = this.add
         .ellipse(position.x, position.y, 50, 50, colors.gold, 0.12)
         .setStrokeStyle(1, colors.gold, 0.6)
@@ -410,6 +412,9 @@ export function createGame(
   }, () => { direction = { x: 0, y: 0 }; if (scene) scene.destination = null; }, () => paused);
   const resize = new ResizeObserver(() => game.scale.refresh());
   resize.observe(host);
+  const translateScene = () => scene?.draw();
+  i18n.on("languageChanged", translateScene);
+  document.fonts.addEventListener("loadingdone", translateScene);
   return {
     move: (x, y) => {
       direction = { x, y };
@@ -435,6 +440,8 @@ export function createGame(
       else game.loop.wake();
     },
     destroy: () => {
+      i18n.off("languageChanged", translateScene);
+      document.fonts.removeEventListener("loadingdone", translateScene);
       paused = true;
       scene = undefined;
       resize.disconnect();

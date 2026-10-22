@@ -1,3 +1,4 @@
+import { text, localizedContent } from "../../i18n/config";
 import { useEffect, useRef, useState } from "react";
 import type { GameController } from "./game";
 import type { IncidentState, RoomId } from "./state";
@@ -125,7 +126,7 @@ export default function CanvasWorld({
         ref={host}
         tabIndex={0}
         role="group"
-        aria-label="Top-down incident map. WASD or arrow keys move; E interacts. Use simplified navigation for a non-spatial alternative."
+        aria-label={text("Top-down incident map. WASD or arrow keys move; E interacts. Use simplified navigation for a non-spatial alternative.")}
         onKeyDown={(event) => {
           if (event.target !== event.currentTarget) return;
           const key =
@@ -162,33 +163,26 @@ export default function CanvasWorld({
           update();
         }}
       >
-        {!ready && !failed && (
-          <p className="iz-world-loading" role="status">
-            Initialising the system map…
-          </p>
-        )}
+        {localizedContent(!ready && !failed && (
+          <p className="iz-world-loading" role="status">{text("Initialising the system map…")}</p>
+        ))}
       </div>
-      {failed && (
+      {localizedContent(failed && (
         <div role="alert">
-          <p>
-            Incident map could not start. Simplified navigation keeps the entire
-            story playable.
-          </p>
+          <p>{text("Incident map could not start. Simplified navigation keeps the entire story playable.")}</p>
           <button
             onClick={() => {
               setFailed(false);
               setReady(false);
               setAttempt((value) => value + 1);
             }}
-          >
-            Retry map
-          </button>
+          >{text("Retry map")}</button>
         </div>
-      )}
+      ))}
       <div className="iz-controls">
-        <div className="iz-room-controls"><button disabled={paused} onClick={()=>controller.current?.travel((['reception','finance','hr','operations','server','architecture'] as RoomId[])[(['reception','finance','hr','operations','server','architecture'].indexOf(room)+5)%6])}>Previous room</button><button disabled={paused} onClick={()=>controller.current?.travel((['reception','finance','hr','operations','server','architecture'] as RoomId[])[(['reception','finance','hr','operations','server','architecture'].indexOf(room)+1)%6])}>Next room</button></div>
-        <div className="iz-dpad" aria-label="Movement controls">
-          {[
+        <div className="iz-room-controls"><button disabled={paused} onClick={()=>controller.current?.travel((['reception','finance','hr','operations','server','architecture'] as RoomId[])[(['reception','finance','hr','operations','server','architecture'].indexOf(room)+5)%6])}>{text("Previous room")}</button><button disabled={paused} onClick={()=>controller.current?.travel((['reception','finance','hr','operations','server','architecture'] as RoomId[])[(['reception','finance','hr','operations','server','architecture'].indexOf(room)+1)%6])}>{text("Next room")}</button></div>
+        <div className="iz-dpad" aria-label={text("Movement controls")}>
+          {localizedContent([
             ["↑", 0, -1],
             ["←", -1, 0],
             ["↓", 0, 1],
@@ -197,7 +191,7 @@ export default function CanvasWorld({
             <button
               key={label}
               disabled={paused || !ready}
-              aria-label={`Move ${label === "↑" ? "up" : label === "↓" ? "down" : label === "←" ? "left" : "right"}`}
+              aria-label={text("Move {{value0}}", {value0: label === "↑" ? "up" : label === "↓" ? "down" : label === "←" ? "left" : "right"})}
               onPointerDown={(event) => {
                 // Keep pointer presses from moving focus off the map, whose
                 // blur handler correctly stops keyboard movement.
@@ -217,26 +211,25 @@ export default function CanvasWorld({
               onKeyUp={() => controller.current?.move(0, 0)}
               onBlur={() => controller.current?.move(0, 0)}
             >
-              {label}
+              {localizedContent(label)}
             </button>
-          ))}
+          )))}
         </div>
         <button
           className="iz-interact"
           disabled={paused || !ready}
           onClick={() => controller.current?.interact()}
         >
-          {near ? `Inspect ${near}` : "Interact"}
+          {localizedContent(near ? `Inspect ${near}` : "Interact")}
         </button>
       </div>
       <div className="iz-touch-only iz-touch-inspect">
-        <strong>In this room</strong>
+        <strong>{text("In this room")}</strong>
         <div className="iz-location-list">
-          {rooms.find(item => item.id === room)?.objects.map(item => (
-            <button key={item.id} disabled={paused || !ready} onClick={() => onInspect(item.id)}>
-              Inspect {item.title}
+          {localizedContent(rooms.find(item => item.id === room)?.objects.map(item => (
+            <button key={item.id} disabled={paused || !ready} onClick={() => onInspect(item.id)}>{text("Inspect ")}{localizedContent(item.title)}
             </button>
-          ))}
+          )))}
         </div>
       </div>
 

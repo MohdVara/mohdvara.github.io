@@ -1,3 +1,10 @@
+import CaseStudyQuickRead from "./CaseStudyQuickRead";
+import { useExperience } from "./i18n/context";
+import { language } from "./i18n/languages";
+import { NamePronunciation, HeroNameReading } from "./i18n/controls";
+import { localizedHref } from "./i18n/config";
+import { LanguageSwitcher, TranslationNotice, VerticalText } from "./i18n/controls";
+import { text, localizedContent } from "./i18n/config";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { profile, projects, experience } from "./content";
 import { technologyExperience, type TechnologyExperience } from "./technology";
@@ -38,11 +45,11 @@ function TextSizeControl() {
     window.addEventListener("text-size-change", sync);
     return () => window.removeEventListener("text-size-change", sync);
   }, []);
-  return <label className="theme-control"><span>Text size</span>
-    <select aria-label="Text size" value={size} onChange={(event) => {
+  return <label className="theme-control"><span>{text("Text size")}</span>
+    <select aria-label={text("Text size")} value={size} onChange={(event) => {
       window.dispatchEvent(new CustomEvent("text-size-preference", { detail: event.target.value }));
     }}>
-      <option value="default">Default</option><option value="large">Large</option><option value="largest">Largest</option>
+      <option value="default">{text("Default")}</option><option value="large">{text("Large")}</option><option value="largest">{text("Largest")}</option>
     </select>
   </label>;
 }
@@ -54,8 +61,8 @@ function AnalyticsControl() {
     return subscribeAnalyticsPreference(sync);
   }, []);
   return <div className="analytics-control">
-    <label><input type="checkbox" checked={enabled} onChange={event => setAnalyticsPreference(event.target.checked)} aria-describedby="analytics-notice" />Usage analytics</label>
-    <p id="analytics-notice">Optional usage events via PostHog: page paths and link intent, with a session identifier in this tab. No form contents, gameplay actions or recordings. Off until you enable it; switch off here to withdraw. Do Not Track and Global Privacy Control take priority.</p>
+    <label><input type="checkbox" checked={enabled} onChange={event => setAnalyticsPreference(event.target.checked)} aria-describedby="analytics-notice" />{text("Usage analytics")}</label>
+    <p id="analytics-notice">{text("Optional usage events via PostHog: page paths and link intent, with a session identifier in this tab. No form contents, gameplay actions or recordings. Off until you enable it; switch off here to withdraw. Do Not Track and Global Privacy Control take priority.")}</p>
   </div>;
 }
 function DisplayControl() {
@@ -75,9 +82,9 @@ function DisplayControl() {
       settings.current.querySelector("summary")?.focus();
     }
   }}>
-    <summary><span aria-hidden="true">Aa</span> Display</summary>
+    <summary><span aria-hidden="true" lang="en">Aa</span>{text(" Display")}</summary>
     <div className="display-panel"><TextSizeControl /><ThemeControl /><SceneryControl />
-      <p>Display choices are remembered on this device.</p>
+      <p>{text("Display choices are remembered on this device.")}</p>
       <AnalyticsControl />
     </div>
   </details>;
@@ -96,9 +103,9 @@ function ThemeControl() {
   }, []);
   return (
     <label className="theme-control">
-      <span>Theme</span>
+      <span>{text("Theme")}</span>
       <select
-        aria-label="Color theme"
+        aria-label={text("Color theme")}
         value={preference}
         onChange={(event) => {
           window.dispatchEvent(
@@ -108,23 +115,27 @@ function ThemeControl() {
           );
         }}
       >
-        <option value="system">System</option>
-        <option value="time">Time of day</option>
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
+        <option value="system">{text("System")}</option>
+        <option value="time">{text("Time of day")}</option>
+        <option value="light">{text("Light")}</option>
+        <option value="dark">{text("Dark")}</option>
       </select>
     </label>
   );
 }
 export function Navigation({ home = true, contactOnPage = true }: { home?: boolean; contactOnPage?: boolean }) {
+  const {locale} = useExperience();
   const [active, setActive] = useState("");
   const header = useRef<HTMLElement>(null);
+  const notice = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const update = () => {
+      document.documentElement.style.setProperty("--translation-notice-height", `${notice.current?.offsetHeight || 0}px`);
       if (header.current) document.documentElement.style.setProperty("--header-height", `${header.current.offsetHeight}px`);
     };
     const observer = new ResizeObserver(update);
     if (header.current) observer.observe(header.current);
+    if (notice.current) observer.observe(notice.current);
     update();
     return () => observer.disconnect();
   }, []);
@@ -157,23 +168,21 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
     if (menu.current) menu.current.open = false;
   };
   return (
-    <header className="site-header" ref={header}>
+    <><header className="site-header" ref={header}>
       <div className="container header-inner">
-        <a className="wordmark" href={home ? "#home" : "/"} aria-label="mpv. Mohd. Paramasvara — home">
-          <span className="monogram" aria-hidden="true">
-            mpv<span>.</span>
+        <a className="wordmark" href={localizedHref(home ? "#home" : "/")} aria-label={text("mpv. Mohd. Paramasvara — home")}>
+          <span className="monogram" lang={locale} dir="auto" aria-hidden="true">{language(locale).brandMark}<span>.</span>
           </span>
-          <span>Mohd. Paramasvara</span>
         </a>
         <div className="header-controls">
-          <nav className="desktop-nav" aria-label="Primary navigation">
-            {navItems.map(([id, name]) => (
-              <a key={id} href={navHref(id)} aria-current={active === id ? "location" : undefined}>
-                {name}
+          <nav className="desktop-nav" aria-label={text("Primary navigation")}>
+            {localizedContent(navItems.map(([id, name]) => (
+              <a key={id} href={localizedHref(navHref(id))} aria-current={active === id ? "location" : undefined}>
+                {localizedContent(name)}
               </a>
-            ))}
+            )))}
           </nav>
-          <DisplayControl />
+          <LanguageSwitcher /><DisplayControl />
           <details
             className="mobile-menu"
             ref={menu}
@@ -184,20 +193,19 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
               }
             }}
           >
-            <summary>
-              Menu <span aria-hidden="true">+</span>
+            <summary>{text("Menu ")}<span aria-hidden="true">+</span>
             </summary>
-            <nav aria-label="Mobile navigation">
-              {navItems.map(([id, name]) => (
-                <a key={id} href={navHref(id)} onClick={closeMenu} aria-current={active === id ? "location" : undefined}>
-                  {name}
+            <nav aria-label={text("Mobile navigation")}>
+              {localizedContent(navItems.map(([id, name]) => (
+                <a key={id} href={localizedHref(navHref(id))} onClick={closeMenu} aria-current={active === id ? "location" : undefined}>
+                  {localizedContent(name)}
                 </a>
-              ))}
+              )))}
             </nav>
           </details>
         </div>
       </div>
-    </header>
+    </header><div ref={notice}><TranslationNotice /></div></>
   );
 }
 function Hero() {
@@ -208,54 +216,42 @@ function Hero() {
       <div className="hero container">
       <div className="hero-copy">
         <p className="eyebrow">
-          <span className="location-dot" aria-hidden="true" /> Based in Sabah,
-          Malaysia
-        </p>
-        <h1 id="hero-title">
-          Mohd.
-          <br />
-          <span>Paramasvara</span>
+          <span className="location-dot" aria-hidden="true" />{text(" Based in Sabah, Malaysia")}</p>
+        <h1 id="hero-title" lang="en" dir="ltr">{text("Mohd.")}<br />
+          <span>{text("Paramasvara")}</span>
           <span className="period">.</span>
         </h1>
-        <p className="hero-role">
-          Principal Full-Stack Engineer
-          <br />
-          <span>Technical Lead &amp; Software Architect</span>
+        <HeroNameReading />
+        <p className="hero-role">{text("Principal Full-Stack Engineer")}<br />
+          <span>{text("Technical Lead & Software Architect")}</span>
         </p>
-        <p className="hero-description">
-          From complex business requirements to production software. I build
-          full-stack systems, modernize legacy platforms, and lead engineering
-          delivery.
-        </p>
-        <nav className="hero-social engineering-evidence" aria-label="Engineering evidence">
-          <a href="#case-campus">Enterprise modernisation <Arrow /></a>
-          <a href="#case-insurance">Integration engineering <Arrow /></a>
-          <a href="/pace-rag-case-study/">Applied AI · PACE-RAG <Arrow /></a>
+        <p className="hero-description">{text("From complex business requirements to production software. I build full-stack systems, modernize legacy platforms, and lead engineering delivery.")}</p>
+        <nav className="hero-social engineering-evidence" aria-label={text("Engineering evidence")}>
+          <a href="#case-campus">{text("Enterprise modernisation ")}<Arrow /></a>
+          <a href="#case-insurance">{text("Integration engineering ")}<Arrow /></a>
+          <a href={localizedHref("/pace-rag-case-study/")}>{text("Applied AI · PACE-RAG ")}<Arrow /></a>
         </nav>
         <div className="actions">
-          <a className="button primary" href="#contact">
-            Discuss an engineering opportunity <Arrow />
+          <a className="button primary" href="#contact">{text("Discuss an engineering opportunity ")}<Arrow />
           </a>
-          <a className="button secondary" href="#work">Explore engineering work <Arrow /></a>
-          <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
-            2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a className="button secondary" href="#work">{text("Explore engineering work ")}<Arrow /></a>
+          <a className="text-link" href={localizedHref(profile.resume)} target="_blank" rel="noopener noreferrer">{text("2-page résumé ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
           </a>
         </div>
-        <nav className="hero-social hero-projects" aria-label="Independent engineering projects">
-          <a href="/no-two-mondays/">No Two Mondays · case study <Arrow /></a>
-          <a href="/incident-zero/">Incident Zero · engineering story <Arrow /></a>
+        <nav className="hero-social hero-projects" aria-label={text("Independent engineering projects")}>
+          <a href={localizedHref("/no-two-mondays/")}>{text("No Two Mondays · case study ")}<Arrow /></a>
+          <a href={localizedHref("/incident-zero/")}>{text("Incident Zero · engineering story ")}<Arrow /></a>
         </nav>
         <div className="hero-social">
-          <a href="/work-with-me/">Work with me <Arrow /></a>
-          <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">
-            LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a href={localizedHref("/work-with-me/")}>{text("Work with me ")}<Arrow /></a>
+          <a href={localizedHref(profile.linkedin)} target="_blank" rel="noopener noreferrer">{text("LinkedIn ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
           </a>
-          <a href={profile.github} target="_blank" rel="noopener noreferrer">
-            GitHub <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a href={localizedHref(profile.github)} target="_blank" rel="noopener noreferrer">{text("GitHub ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
           </a>
         </div>
       </div>
       <figure className="portrait">
+        <HeroNameReading portrait />
         <BotanicalDrawing className="hero-botanical" />
         <div className="portrait-frame">
           <img
@@ -265,13 +261,13 @@ function Hero() {
             width="900"
             height="972"
             {...{ fetchpriority: "high" }}
-            alt="Illustrated portrait of Mohd. Paramasvara"
+            alt={text("Illustrated portrait of Mohd. Paramasvara")}
           />
         </div>
         <PortraitUnderstory />
         <figcaption>
-          <span>Engineer. Architect. Builder.</span>
-          <span className="mono">01 / PROFILE</span>
+          <span>{text("Engineer. Architect. Builder.")}</span>
+          <span className="mono">{text("01 / PROFILE")}</span>
         </figcaption>
       </figure>
       </div>
@@ -280,18 +276,18 @@ function Hero() {
 }
 function Highlights() {
   return (
-    <section className="container highlights" aria-label="Career highlights">
+    <section className="container highlights" aria-label={text("Career highlights")}>
       <div>
-        <strong>Since 2013</strong>
-        <span>Full-stack engineering</span>
+        <strong>{text("Since 2013")}</strong>
+        <span>{text("Full-stack engineering")}</span>
       </div>
       <div>
-        <strong>Principal &amp; Director</strong>
-        <span>Hands-on delivery &amp; leadership</span>
+        <strong>{text("Principal & Director")}</strong>
+        <span>{text("Hands-on delivery & leadership")}</span>
       </div>
       <div>
-        <strong>20+ properties</strong>
-        <span>Rental operations platform</span>
+        <strong>{text("20+ properties")}</strong>
+        <span>{text("Rental operations platform")}</span>
       </div>
     </section>
   );
@@ -308,9 +304,9 @@ function SectionHeading({
   return (
     <div className="section-heading" data-reveal>
       <p className="eyebrow mono">
-        {number} / {title}
+        {localizedContent(number)} / {localizedContent(title)}
       </p>
-      <h2>{children}</h2>
+      <h2><VerticalText>{localizedContent(children)}</VerticalText></h2>
     </div>
   );
 }
@@ -320,27 +316,27 @@ function expandEngineeringDetails(current: HTMLDetailsElement) {
   });
 }
 function TechnologySummary({ record }: { record: TechnologyExperience }) {
-  return <div className="project-stack" role="group" aria-label={`Technology stack for ${record.projectTitle}`}>
-    <h4>Technology stack</h4>
-    {record.generations.map((generation, index) => <div className="technology-generation" key={generation.label || index}>
-      {generation.label && <h5>{generation.label}</h5>}
-      <dl>{generation.groups.map(group => <div key={group.label}>
-        <dt>{group.label}</dt><dd>{group.technologies.join(" · ")}</dd>
-      </div>)}</dl>
-    </div>)}
-    {record.note && <p className="technology-note">{record.note}</p>}
-    <p className="technology-provenance">Technology experience confirmed by project owner · 18 October 2026.</p>
-    {record.repository && <a className="text-link" href={record.repository.url}>Historical source repository for {record.projectTitle} <Arrow /></a>}
+  return <div className="project-stack" role="group" aria-label={text("Technology stack for {{value0}}", {value0: record.projectTitle})}>
+    <h4>{text("Technology stack")}</h4>
+    {localizedContent(record.generations.map((generation, index) => <div className="technology-generation" key={generation.label || index}>
+      {localizedContent(generation.label && <h5>{localizedContent(generation.label)}</h5>)}
+      <dl>{localizedContent(generation.groups.map(group => <div key={group.label}>
+        <dt>{localizedContent(group.label)}</dt><dd>{localizedContent(group.technologies.join(" · "))}</dd>
+      </div>))}</dl>
+    </div>))}
+    {localizedContent(record.note && <p className="technology-note">{localizedContent(record.note)}</p>)}
+    <p className="technology-provenance">{text("Technology experience confirmed by project owner · 18 October 2026.")}</p>
+    {localizedContent(record.repository && <a className="text-link" href={localizedHref(record.repository.url)}>{text("Historical source repository for ")}{localizedContent(record.projectTitle)} <Arrow /></a>)}
   </div>;
 }
 function AdditionalSystems() {
   return <details className="case-details additional-systems" id="additional-systems" name="engineering-case-studies" onToggle={event => expandEngineeringDetails(event.currentTarget)}>
-    <summary>Additional engineering systems<span aria-hidden="true">+</span></summary>
+    <summary>{text("Additional engineering systems")}<span aria-hidden="true">+</span></summary>
     <div className="case-body">
-      {technologyExperience.filter(record => !record.projectId).map(record => <article id={record.anchor} key={record.id}>
-        <h3 tabIndex={-1}>{record.projectTitle}</h3>
+      {localizedContent(technologyExperience.filter(record => !record.projectId).map(record => <article id={record.anchor} key={record.id}>
+        <h3 tabIndex={-1}>{localizedContent(record.projectTitle)}</h3>
         <TechnologySummary record={record} />
-      </article>)}
+      </article>))}
     </div>
   </details>;
 }
@@ -353,67 +349,68 @@ function SelectedWork() {
     >
       <div className="section-lead">
       <SectionBranch variant="work" />
-      <SectionHeading number="01" title="Selected work">
-        <span id="work-title">
-          Systems behind
-          <br />
-          the software.
-        </span>
+      <SectionHeading number="01" title={text("Selected work")}>
+        <span id="work-title">{text("Systems behind")}<br />{text("the software.")}</span>
       </SectionHeading>
-      <p className="section-intro" data-reveal>
-        A selection of full-stack work across education, HR, insurance, and
-        property operations.
-      </p>
+      <p className="section-intro" data-reveal>{text("A selection of full-stack work across education, HR, insurance, and property operations.")}</p>
       </div>
       <NarrativeAccent region="river" />
       <div className="project-list" data-reveal>
-        {projects.map((project, index) => (
+        {localizedContent(projects.map((project, index) => (
           <article className={`project${index > 2 ? " project-secondary" : ""}`} id={`case-${project.id}`} key={project.id}>
-            {index < 3 && <ProjectDiagram project={project} index={index} />}
+            {localizedContent(index < 3 && <ProjectDiagram project={project} index={index} />)}
             <div className="project-content">
               <p className="project-meta mono">
-                {project.company} <span> / </span> {project.period}
+                {localizedContent(project.company)} <span> / </span> {localizedContent(project.period)}
               </p>
-              <h3 tabIndex={-1}>{project.title}</h3>
-              <p className="project-scope"><span className="mono">Role</span>{project.role}</p>
-              <p className="project-summary">{project.summary}</p>
-              {index > 2 && <p className="project-scope"><span className="mono">Scope</span>{project.scope}</p>}
+              <h3 tabIndex={-1}>{localizedContent(project.title)}</h3>
+              <p className="project-scope"><span className="mono">{text("Role")}</span>{localizedContent(project.role)}</p>
+              <p className="project-summary">{localizedContent(project.summary)}</p>
+              {localizedContent(index > 2 && <p className="project-scope"><span className="mono">{text("Scope")}</span>{localizedContent(project.scope)}</p>)}
               <p className="project-result">
-                <span>Contribution</span>
-                {project.result}
+                <span>{text("Contribution")}</span>
+                {localizedContent(project.result)}
               </p>
-              {index < 3 && <p className="project-primary-stack mono" aria-label="Primary technologies">{project.technology?.generations.slice(-1)[0]?.groups.flatMap(group => group.technologies).slice(0, 5).join(" · ")}</p>}
+              {localizedContent(index < 3 && <p className="project-primary-stack mono" aria-label={text("Primary technologies")}>{localizedContent(project.technology?.generations.slice(-1)[0]?.groups.flatMap(group => group.technologies).slice(0, 5).join(" · "))}</p>)}
               <details
                 className="case-details"
                 name="engineering-case-studies"
                 onToggle={event => expandEngineeringDetails(event.currentTarget)}
               >
-                <summary>
-                  View engineering details
-                  <span className="sr-only"> for {project.visualLabel}</span>
+                <summary>{text("View engineering details")}<span className="sr-only">{text(" for ")}{localizedContent(project.visualLabel)}</span>
                   <span aria-hidden="true">+</span>
                 </summary>
                 <div className="case-body">
+                  {project.details.some(([label]) => label === "Key Engineering Decision") && <CaseStudyQuickRead commercial id={`commercial-${project.id}`} item={{
+                    name: project.title,
+                    problem: project.summary,
+                    role: project.role,
+                    decision: project.details.find(([label]) => label === "Key Engineering Decision")![1],
+                    result: project.result,
+                    status: "Production status not independently verified.",
+                    focus: project.scope,
+                    evidence: profile.cv,
+                  }} />}
+
                   <dl>
-                    {project.details.map(([label, text]) => (
+                    {localizedContent(project.details.map(([label, text]) => (
                       <div key={label}>
-                        <dt>{label}</dt>
-                        <dd>{text}</dd>
+                        <dt>{localizedContent(label)}</dt>
+                        <dd>{localizedContent(text)}</dd>
                       </div>
-                    ))}
+                    )))}
                   </dl>
-                  {project.id === "insurance" && <a className="text-link case-conversation" href="#contact">Discuss a similar problem <Arrow /></a>}
-                  <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Professional role &amp; project background: full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
-                  {project.technology && <TechnologySummary record={project.technology} />}
+                  {localizedContent(project.id === "insurance" && <a className="text-link case-conversation" href="#contact">{text("Discuss a similar problem ")}<Arrow /></a>)}
+                  <a className="text-link" href={localizedHref(profile.cv)} target="_blank" rel="noopener noreferrer">{text("Professional role & project background: full CV ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span></a>
+                  {localizedContent(project.technology && <TechnologySummary record={project.technology} />)}
                 </div>
               </details>
             </div>
           </article>
-        ))}
+        )))}
       </div>
       <AdditionalSystems />
-      <a className="text-link work-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
-        More work &amp; professional background on LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+      <a className="text-link work-link" href={localizedHref(profile.linkedin)} target="_blank" rel="noopener noreferrer">{text("More work & professional background on LinkedIn ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
       </a>
     </section>
   );
@@ -438,36 +435,31 @@ function Experience() {
       <div className="container">
         <div className="section-lead">
           <SectionBranch variant="work" />
-        <SectionHeading number="02" title="Experience">
-          <span id="experience-title">Ownership at every level.</span>
+        <SectionHeading number="02" title={text("Experience")}>
+          <span id="experience-title">{text("Ownership at every level.")}</span>
         </SectionHeading>
         </div>
         <NarrativeAccent region="earth" />
         <div className="experience-grid" data-reveal>
           <div className="experience-note">
-            <p>
-              Building since 2013.
-              <br />
-              Leading through the code.
-            </p>
-            <span>Selected roles. Several engagements run concurrently.</span>
-            <div className="resume-links"><a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
-              2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+            <p>{text("Building since 2013.")}<br />{text("Leading through the code.")}</p>
+            <span>{text("Selected roles. Several engagements run concurrently.")}</span>
+            <div className="resume-links"><a className="text-link" href={localizedHref(profile.resume)} target="_blank" rel="noopener noreferrer">{text("2-page résumé ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
             </a>
-            <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
+            <a className="text-link" href={localizedHref(profile.cv)} target="_blank" rel="noopener noreferrer">{text("Full CV ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span></a>
             </div><CareerPath active={activeRole} />
           </div>
           <ol className="timeline" ref={timeline}>
-            {experience.map((role, index) => (
+            {localizedContent(experience.map((role, index) => (
               <li id={`role-${index}`} key={role.company + role.title}>
-                <p className="mono role-period"><span className="role-index">0{index + 1}</span> {role.period}</p>
-                <h3>{role.title}</h3>
+                <p className="mono role-period"><span className="role-index">0{localizedContent(index + 1)}</span> {localizedContent(role.period)}</p>
+                <h3>{localizedContent(role.title)}</h3>
                 <p className="role-company">
-                  {role.company} <span>· {role.type}</span>
+                  {localizedContent(role.company)} <span>· {localizedContent(role.type)}</span>
                 </p>
-                <p>{role.description}</p>
+                <p>{localizedContent(role.description)}</p>
               </li>
-            ))}
+            )))}
           </ol>
         </div>
       </div>
@@ -484,28 +476,24 @@ function Capabilities() {
     >
       <div className="section-lead">
         <SectionBranch variant="public" />
-      <SectionHeading number="03" title="Technical capabilities">
-        <span id="capabilities-title">
-          Across the stack.
-          <br />
-          Beyond the code.
-        </span>
+      <SectionHeading number="03" title={text("Technical capabilities")}>
+        <span id="capabilities-title">{text("Across the stack.")}<br />{text("Beyond the code.")}</span>
       </SectionHeading>
       </div>
-      <p className="section-intro capability-evidence">Capabilities describe my wider practice. For project-specific application, data and cloud experience, <a className="text-link" href="#work">open the selected-work engineering details</a> or <a className="text-link" href="#additional-systems">additional engineering systems</a>. Independent AI engineering demonstrations and their evidence boundaries are linked below.</p>
+      <p className="section-intro capability-evidence">{text("Capabilities describe my wider practice. For project-specific application, data and cloud experience, ")}<a className="text-link" href="#work">{text("open the selected-work engineering details")}</a>{text(" or ")}<a className="text-link" href="#additional-systems">{text("additional engineering systems")}</a>{text(". Independent AI engineering demonstrations and their evidence boundaries are linked below.")}</p>
       <NarrativeAccent region="mountains" />
       <CapabilityMap />
       <div className="ai-evidence" id="ai-evidence">
-        <h3>AI capabilities &amp; evidence</h3>
-        <p><a className="text-link" href="/no-two-mondays/#ntm-process">No Two Mondays</a> demonstrates my AI-assisted engineering process through a documented independent project. <a className="text-link" href="/pace-rag-case-study/">PACE-RAG</a> is my independently developed engineering demonstration of browser embeddings, retrieval, reviewed answers and technology-aware composition. Its <a className="text-link" href="/pace-rag-case-study/#evaluation">measured evaluations and limitations</a> distinguish experimental work from enterprise production RAG delivery, which is not established. Live AI is disabled.</p>
+        <h3>{text("AI capabilities & evidence")}</h3>
+        <p><a className="text-link" href={localizedHref("/no-two-mondays/#ntm-process")}>{text("No Two Mondays")}</a>{text(" demonstrates my AI-assisted engineering process through a documented independent project. ")}<a className="text-link" href={localizedHref("/pace-rag-case-study/")}>{text("PACE-RAG")}</a>{text(" is my independently developed engineering demonstration of browser embeddings, retrieval, reviewed answers and technology-aware composition. Its ")}<a className="text-link" href={localizedHref("/pace-rag-case-study/#evaluation")}>{text("measured evaluations and limitations")}</a>{text(" distinguish experimental work from enterprise production RAG delivery, which is not established. Live AI is disabled.")}</p>
       </div>
       <section className="engineering-principles" id="engineering-principles" aria-labelledby="principles-title">
-        <h3 id="principles-title">Engineering principles &amp; decision-making</h3>
-        <p className="section-intro">Selected examples of the decisions behind the work.</p>
+        <h3 id="principles-title">{text("Engineering principles & decision-making")}</h3>
+        <p className="section-intro">{text("Selected examples of the decisions behind the work.")}</p>
         <div className="principle-list">
-          <article><h4>Make integration boundaries explicit</h4><p>At PolicyStreet, provider rate normalization connected differing insurance APIs to consistent quotation and issuance workflows. The engineering focus was interoperability across those boundaries.</p><a className="text-link" href={projectHref("insurance", true)}>Explore the integration work <Arrow /></a></article>
-          <article><h4>Evolve systems with continuity in mind</h4><p>Education platform work centres on modernising established software while supporting ongoing use. Maintainability and continued delivery provide the context for change.</p><a className="text-link" href={projectHref("campus", true)}>Explore the modernisation work <Arrow /></a></article>
-          <article><h4>Keep responsibility with the engineer</h4><p>No Two Mondays pairs AI-assisted implementation with human-directed architecture, save compatibility and deterministic replay. Automated verification and human review answer different questions.</p><a className="text-link" href="/no-two-mondays/#ntm-architecture">Explore architecture &amp; verification <Arrow /></a></article>
+          <article><h4>{text("Make integration boundaries explicit")}</h4><p>{text("At PolicyStreet, provider rate normalization connected differing insurance APIs to consistent quotation and issuance workflows. The engineering focus was interoperability across those boundaries.")}</p><a className="text-link" href={localizedHref(projectHref("insurance", true))}>{text("Explore the integration work ")}<Arrow /></a></article>
+          <article><h4>{text("Evolve systems with continuity in mind")}</h4><p>{text("Education platform work centres on modernising established software while supporting ongoing use. Maintainability and continued delivery provide the context for change.")}</p><a className="text-link" href={localizedHref(projectHref("campus", true))}>{text("Explore the modernisation work ")}<Arrow /></a></article>
+          <article><h4>{text("Keep responsibility with the engineer")}</h4><p>{text("No Two Mondays pairs AI-assisted implementation with human-directed architecture, save compatibility and deterministic replay. Automated verification and human review answer different questions.")}</p><a className="text-link" href={localizedHref("/no-two-mondays/#ntm-architecture")}>{text("Explore architecture & verification ")}<Arrow /></a></article>
         </div>
       </section>
     </section>
@@ -521,33 +509,19 @@ function About() {
     >
       <div className="container about-grid">
         <div data-reveal>
-          <p className="eyebrow mono">04 / About</p>
-          <h2 id="about-title">
-            Good engineering
-            <br />
-            starts with <em>why.</em>
-          </h2>
+          <p className="eyebrow mono">{text("04 / About")}</p>
+          <h2 id="about-title"><VerticalText>{text("Good engineering")}<br />{text("starts with ")}<em>{text("why.")}</em>
+          </VerticalText></h2>
           <BorneoBotanical />
           <NarrativeAccent region="forest" />
         </div>
         <div className="about-copy" data-reveal>
-          <p>
-            I’m Mohd. Paramasvara, a full-stack software engineer based in
-            Sabah, Malaysia. My work connects software architecture, hands-on
-            implementation, and the business problem a system needs to solve.
-          </p>
-          <p>
-            I look at domain rules, data and delivery together, so the implementation
-            serves the wider system. Alongside building software, I teach
-            development and help teams understand the decisions behind the code.
-          </p>
+          <p>{text("I’m Mohd. Paramasvara, a full-stack software engineer based in Sabah, Malaysia. My work connects software architecture, hands-on implementation, and the business problem a system needs to solve.")}</p>
+          <p>{text("I look at domain rules, data and delivery together, so the implementation serves the wider system. Alongside building software, I teach development and help teams understand the decisions behind the code.")}</p>
+          <NamePronunciation />
           <p className="education">
-            <span className="mono">Education</span>Computing &amp; Information
-            Systems · University of Portsmouth
-            <br />
-            Computer Software Engineering · Multimedia College
-          </p>
-          {import.meta.env.VITE_PACE_RAG_ENABLED !== "false" && <PaceAssistantLauncher />}
+            <span className="mono">{text("Education")}</span>{text("Computing & Information Systems · University of Portsmouth")}<br />{text("Computer Software Engineering · Multimedia College")}</p>
+          {localizedContent(import.meta.env.VITE_PACE_RAG_ENABLED !== "false" && <PaceAssistantLauncher />)}
         </div>
       </div>
     </section>
@@ -577,38 +551,30 @@ function Contact() {
     >
       <AsciiForestBackdrop aerial />
       <div className="container" data-reveal>
-        <p className="eyebrow mono">05 / Let’s talk</p>
-        <h2 id="contact-title">
-          A complex problem.
-          <br />
-          <span>A clear next step.</span>
-        </h2>
-        <p>
-          Discuss a senior engineering role, a system that needs modernising, or a
-          technical project worth solving.
-        </p>
+        <p className="eyebrow mono">{text("05 / Let’s talk")}</p>
+        <h2 id="contact-title"><VerticalText>{text("A complex problem.")}<br />
+          <span>{text("A clear next step.")}</span>
+        </VerticalText></h2>
+        <p>{text("Discuss a senior engineering role, a system that needs modernising, or a technical project worth solving.")}</p>
         <div className="contact-booking">
-          <a className="button primary" href={profile.discovery} target="_blank" rel="noopener noreferrer" aria-label="Book a conversation (opens Cal.com in a new tab)" data-conversation-cta="">
-            Book a conversation <Arrow />
+          <a className="button primary" href={localizedHref(profile.discovery)} target="_blank" rel="noopener noreferrer" aria-label={text("Book a conversation (opens Cal.com in a new tab)")} data-conversation-cta="">{text("Book a conversation ")}<Arrow />
           </a>
-          <p>An introductory conversation about an engineering opportunity, architecture problem or collaboration.</p>
+          <p>{text("An introductory conversation about an engineering opportunity, architecture problem or collaboration.")}</p>
         </div>
-        <a className="contact-email" href={`mailto:${profile.email}`}>
-          {profile.email} <Arrow />
+        <a className="contact-email" href={localizedHref(`mailto:${profile.email}`)}>
+          {localizedContent(profile.email)} <Arrow />
         </a>
         <div className="email-copy">
-          <button type="button" className="copy-email" onClick={copyEmail}>Copy email</button>
-          <span className="copy-status" role="status">{copyStatus}</span>
+          <button type="button" className="copy-email" onClick={copyEmail}>{text("Copy email")}</button>
+          <span className="copy-status" role="status">{localizedContent(copyStatus)}</span>
         </div>
         <ContactConvergence />
         <div className="contact-links">
-          <a className="text-link" href={profile.linkedin} target="_blank" rel="noopener noreferrer">
-            Connect on LinkedIn <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a className="text-link" href={localizedHref(profile.linkedin)} target="_blank" rel="noopener noreferrer">{text("Connect on LinkedIn ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
           </a>
-          <a className="text-link" href={profile.resume} target="_blank" rel="noopener noreferrer">
-            2-page résumé <Arrow /><span className="sr-only"> (opens in a new tab)</span>
+          <a className="text-link" href={localizedHref(profile.resume)} target="_blank" rel="noopener noreferrer">{text("2-page résumé ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
           </a>
-          <a className="text-link" href={profile.cv} target="_blank" rel="noopener noreferrer">Full CV <Arrow /><span className="sr-only"> (opens in a new tab)</span></a>
+          <a className="text-link" href={localizedHref(profile.cv)} target="_blank" rel="noopener noreferrer">{text("Full CV ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span></a>
         </div>
       </div>
     </section>
@@ -619,9 +585,7 @@ function App() {
   useSystemMotion();
   return (
     <>
-      <a className="skip-link" href="#main">
-        Skip to content
-      </a>
+      <a className="skip-link" href="#main">{text("Skip to content")}</a>
       <Navigation />
       <main id="main" tabIndex={-1}>
         <Hero />
@@ -638,10 +602,9 @@ function App() {
         <Contact />
       </main>
       <footer className="container footer">
-        <p>© Mohd. Paramasvara</p>
-        <p>Based in Borneo. Building beyond it.</p>
-        <a href="#home">
-          Back to top <span aria-hidden="true">↑</span>
+        <p>{text("© Mohd. Paramasvara")}</p>
+        <p>{text("Based in Borneo. Building beyond it.")}</p>
+        <a href="#home">{text("Back to top ")}<span aria-hidden="true">↑</span>
         </a>
       </footer>
     </>

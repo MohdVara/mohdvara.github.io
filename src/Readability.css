@@ -35,7 +35,7 @@
   .network-hr .node:not(:first-of-type) { flex-direction: row; align-items: center; }
 }
 @media (max-width: 600px) {
-  .wordmark > span:last-child { display: none; }
+
   .header-inner, .header-controls { gap: 12px; }
   .display-panel { position: fixed; top: calc(var(--header-height, 76px) + 4px); right: 20px; }
 }

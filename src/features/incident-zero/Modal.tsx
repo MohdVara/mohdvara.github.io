@@ -1,3 +1,4 @@
+import { text, localizedContent } from "../../i18n/config";
 import { useEffect, useRef, type ReactNode } from "react";
 export default function Modal({
   children,
@@ -18,7 +19,7 @@ export default function Modal({
     <dialog
       className="iz-modal"
       ref={ref}
-      aria-label="Incident interaction"
+      aria-label={text("Incident interaction")}
       onCancel={(event) => {
         event.preventDefault();
         onClose();
@@ -33,12 +34,10 @@ export default function Modal({
       }}
     >
       <div className="iz-modal-top">
-        <span className="mono">INCIDENT ZERO / FIELD NOTES</span>
-        <button onClick={onClose} aria-label="Close interaction">
-          Close ×
-        </button>
+        <span className="mono">{text("INCIDENT ZERO / FIELD NOTES")}</span>
+        <button onClick={onClose} aria-label={text("Close interaction")}>{text("Close ×")}</button>
       </div>
-      {children}
+      {localizedContent(children)}
     </dialog>
   );
 }

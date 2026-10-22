@@ -1,0 +1,217 @@
+[
+  {
+    "locale": "en",
+    "nativeName": "English",
+    "englishName": "English",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+    "fontQuery": null,
+    "status": "original",
+    "brandMark": "mpv",
+    "pronunciation": "Mohd. · pa-ra-mas-va-ra",
+    "nativeNameReading": null,
+    "calendar": "gregory",
+    "calendarLabel": "Gregorian"
+  },
+  {
+    "locale": "ms",
+    "nativeName": "Bahasa Melayu",
+    "englishName": "Malay",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+    "fontQuery": null,
+    "status": "machine_translated",
+    "brandMark": "mpv",
+    "pronunciation": "Mohd. · pa-ra-mas-va-ra",
+    "nativeNameReading": null,
+    "calendar": "islamic-umalqura",
+    "calendarLabel": "Hijri (Umm al-Qura)"
+  },
+  {
+    "locale": "ar",
+    "nativeName": "العربية",
+    "englishName": "Arabic",
+    "direction": "rtl",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Noto Sans Arabic\", Tahoma, sans-serif",
+    "fontQuery": "Noto+Sans+Arabic:wght@400;500;600;700",
+    "status": "machine_translated",
+    "brandMark": "مبڤ",
+    "pronunciation": "موهد · پا ـ را ـ ماس ـ ڤا ـ را",
+    "nativeNameReading": {
+      "given": "موهد",
+      "family": "پاراماسڤارا"
+    },
+    "calendar": "islamic-umalqura",
+    "calendarLabel": "هجري (أم القرى)"
+  },
+  {
+    "locale": "ta",
+    "nativeName": "தமிழ்",
+    "englishName": "Tamil",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Noto Sans Tamil\", \"Tamil Sangam MN\", Latha, sans-serif",
+    "fontQuery": "Noto+Sans+Tamil:wght@400;500;600;700",
+    "status": "machine_translated",
+    "brandMark": "மபவ",
+    "pronunciation": "மொஹ்த் · ப-ர-மஸ்-வ-ரா",
+    "nativeNameReading": {
+      "given": "மொஹ்த்",
+      "family": "பரமஸ்வரா"
+    },
+    "calendar": "indian",
+    "calendarLabel": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு)"
+  },
+  {
+    "locale": "ja",
+    "nativeName": "日本語",
+    "englishName": "Japanese",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal",
+      "vertical"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Noto Sans JP\", \"Hiragino Kaku Gothic ProN\", sans-serif",
+    "fontQuery": "Noto+Sans+JP:wght@400;500;600;700",
+    "status": "machine_translated",
+    "brandMark": "モパヴ",
+    "pronunciation": "モッド · パ・ラ・マス・ヴァ・ラ",
+    "nativeNameReading": {
+      "given": "モッド",
+      "family": "パラマスヴァラ"
+    },
+    "calendar": "japanese",
+    "calendarLabel": "和暦"
+  },
+  {
+    "locale": "zh-Hans",
+    "nativeName": "简体中文",
+    "englishName": "Simplified Chinese",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal",
+      "vertical"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Noto Sans SC\", \"PingFang SC\", sans-serif",
+    "fontQuery": "Noto+Sans+SC:wght@400;500;600;700",
+    "status": "machine_translated",
+    "brandMark": "莫帕瓦",
+    "pronunciation": "莫德 · 帕・拉・马斯・瓦・拉",
+    "nativeNameReading": {
+      "given": "莫德",
+      "family": "帕拉马斯瓦拉"
+    },
+    "calendar": "chinese",
+    "calendarLabel": "农历"
+  },
+  {
+    "locale": "es",
+    "nativeName": "Español",
+    "englishName": "Spanish",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+    "fontQuery": null,
+    "status": "machine_translated",
+    "brandMark": "mpv",
+    "pronunciation": "Mohd. · pa-ra-mas-va-ra",
+    "nativeNameReading": null,
+    "calendar": "gregory",
+    "calendarLabel": "Gregorian"
+  },
+  {
+    "locale": "fr",
+    "nativeName": "Français",
+    "englishName": "French",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+    "fontQuery": null,
+    "status": "machine_translated",
+    "brandMark": "mpv",
+    "pronunciation": "Mohd. · pa-ra-mass-va-ra",
+    "nativeNameReading": null,
+    "calendar": "gregory",
+    "calendarLabel": "Gregorian"
+  },
+  {
+    "locale": "de",
+    "nativeName": "Deutsch",
+    "englishName": "German",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+    "fontQuery": null,
+    "status": "machine_translated",
+    "brandMark": "mpv",
+    "pronunciation": "Mohd. · pa-ra-mass-wa-ra",
+    "nativeNameReading": null,
+    "calendar": "gregory",
+    "calendarLabel": "Gregorian"
+  },
+  {
+    "locale": "pt-BR",
+    "nativeName": "Português (Brasil)",
+    "englishName": "Brazilian Portuguese",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+    "fontQuery": null,
+    "status": "machine_translated",
+    "brandMark": "mpv",
+    "pronunciation": "Mohd. · pa-ra-mas-va-ra",
+    "nativeNameReading": null,
+    "calendar": "gregory",
+    "calendarLabel": "Gregorian"
+  },
+  {
+    "locale": "hi",
+    "nativeName": "हिन्दी",
+    "englishName": "Hindi",
+    "direction": "ltr",
+    "writingModes": [
+      "horizontal"
+    ],
+    "defaultWritingMode": "horizontal",
+    "fonts": "\"Noto Sans Devanagari\", Mangal, sans-serif",
+    "fontQuery": "Noto+Sans+Devanagari:wght@400;500;600;700",
+    "status": "machine_translated",
+    "brandMark": "मपव",
+    "pronunciation": "मोह्द · प-र-मस्-व-र",
+    "nativeNameReading": {
+      "given": "मोह्द",
+      "family": "परमस्वरा"
+    },
+    "calendar": "indian",
+    "calendarLabel": "शक संवत"
+  }
+]

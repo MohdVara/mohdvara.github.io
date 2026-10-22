@@ -25,7 +25,7 @@
   font-size: 2.6rem;
   line-height: 1;
   letter-spacing: -0.13em;
-  padding-right: 4px;
+  padding-inline-end: 4px;
   font-weight: 700;
 }
 .monogram span {
@@ -196,15 +196,15 @@ h1 .period {
   display: flex;
   flex-direction: column;
   padding-inline: 32px;
-  border-left: 1px solid var(--line);
+  border-inline-start: 1px solid var(--line);
   gap: 5px;
 }
 .highlights > div:first-child {
-  padding-left: 0;
+  padding-inline-start: 0;
   border: 0;
 }
 .highlights > div:last-child {
-  padding-right: 0;
+  padding-inline-end: 0;
 }
 .highlights strong {
   font-size: 1.1rem;
@@ -289,7 +289,7 @@ h1 .period {
   font-size: 0.75rem;
 }
 .sketch-dot {
-  margin-left: auto;
+  margin-inline-start: auto;
   border: 1px solid var(--accent);
   height: 6px;
   width: 6px;
@@ -320,8 +320,8 @@ h1 .period {
   line-height: 1.7;
 }
 .project-result {
-  padding-left: 16px;
-  border-left: 2px solid var(--accent);
+  padding-inline-start: 16px;
+  border-inline-start: 2px solid var(--accent);
   font-size: 0.85rem;
   margin-top: 23px;
   color: var(--strong-muted);
@@ -625,7 +625,7 @@ h1 .period {
   }
   .mobile-menu nav {
     position: absolute;
-    right: 20px;
+    inset-inline-end: 20px;
     top: 65px;
     width: 220px;
     display: flex;
@@ -696,7 +696,7 @@ h1 .period {
   .highlights > div,
   .highlights > div:first-child {
     padding: 20px 0;
-    border-left: 0;
+    border-inline-start: 0;
     border-bottom: 1px solid var(--line);
     flex-direction: row;
     align-items: center;
@@ -712,7 +712,7 @@ h1 .period {
   }
   .highlights span {
     font-size: 0.75rem;
-    text-align: right;
+    text-align: end;
     max-width: 44%;
   }
   .project-list {
@@ -778,7 +778,7 @@ h1 .period {
     font-size: 0.75rem;
   }
   .footer > a {
-    margin-left: auto;
+    margin-inline-start: auto;
   }
 }
 
@@ -801,9 +801,7 @@ h1 .period {
 .wordmark {
   min-width: 0;
 }
-.wordmark > span:last-child {
-  overflow-wrap: anywhere;
-}
+
 .monogram,
 .mobile-menu {
   flex-shrink: 0;
@@ -866,9 +864,7 @@ h3 {
   .header-inner, .header-controls, .desktop-nav {
     gap: 16px;
   }
-  .wordmark > span:last-child {
-    display: none;
-  }
+
 }
 @media (max-width: 760px) {
   .header-inner, .header-controls {
@@ -879,9 +875,7 @@ h3 {
   }
 }
 @media (max-width: 480px) {
-  .wordmark > span:last-child {
-    display: none;
-  }
+
 }
 
 /* Shared motion language: short feedback, one quiet entrance per group. */
@@ -922,7 +916,7 @@ h3 {
   transition: transform 180ms ease;
 }
 :is(.button, .text-link, .hero-social a, .contact-email, .footer a):is(:hover, :focus-visible) > span {
-  transform: translateX(2px);
+  transform: translateX(calc(2px * var(--inline-sign, 1)));
 }
 .project, .project-visual, .case-details {
   transition: border-color 180ms ease;
@@ -938,7 +932,7 @@ h3 {
   border-color: var(--accent);
 }
 .project:is(:hover, :focus-within) h3 {
-  transform: translateX(2px);
+  transform: translateX(calc(2px * var(--inline-sign, 1)));
 }
 .case-details summary > span:last-child, .mobile-menu summary span {
   transition: transform 180ms ease;
@@ -955,7 +949,7 @@ h3 {
 }
 /* Different compositions of documented functions, not invented topology. */
 .visual-meetings .system-sketch > div:nth-child(2) {
-  margin-left: 18px;
+  margin-inline-start: 18px;
 }
 .visual-insurance .system-sketch {
   gap: 14px;
@@ -966,10 +960,10 @@ h3 {
 .visual-insurance .system-sketch > div:not(:last-child)::after {
   content: "";
   position: absolute;
-  left: 24px;
+  inset-inline-start: 24px;
   top: 100%;
   height: 15px;
-  border-left: 1px solid var(--sketch-border);
+  border-inline-start: 1px solid var(--sketch-border);
 }
 .visual-hr .system-sketch {
   grid-template-columns: 1fr 1fr;
@@ -995,7 +989,7 @@ h3 {
 .timeline li::before {
   content: "";
   position: absolute;
-  left: -16px;
+  inset-inline-start: -16px;
   top: 28px;
   width: 2px;
   height: 24px;
@@ -1057,7 +1051,7 @@ h3 {
 }
 @media (max-width: 760px) {
   .portrait { transform: none; }
-  .timeline li::before { left: -10px; }
+  .timeline li::before { inset-inline-start: -10px; }
 }
 @media (prefers-reduced-motion: reduce) {
   [data-reveal].reveal-pending { opacity: 1; transform: none; }
@@ -1119,5 +1113,5 @@ h3 {
 @media(max-width:1024px) { .rag-flow { grid-template-columns: 1fr; } .rag-flow li::before { content: counter(rag-step) " ↓"; } }
 
 .rag-case-study table { width: 100%; table-layout: fixed; border-collapse: collapse; }
-.rag-case-study th, .rag-case-study td { text-align: left; padding: .5rem; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; vertical-align: top; }
-.rag-case-study caption { text-align: left; margin-block: 1rem; }
+.rag-case-study th, .rag-case-study td { text-align: start; padding: .5rem; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; vertical-align: top; }
+.rag-case-study caption { text-align: start; margin-block: 1rem; }

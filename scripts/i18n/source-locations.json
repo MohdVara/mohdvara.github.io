@@ -1,0 +1,3789 @@
+{
+  "Work": [
+    "src/App.tsx"
+  ],
+  "Experience": [
+    "src/App.tsx",
+    "src/App.tsx"
+  ],
+  "Capabilities": [
+    "src/App.tsx"
+  ],
+  "About": [
+    "src/App.tsx"
+  ],
+  "Contact": [
+    "src/App.tsx"
+  ],
+  "Text size": [
+    "src/App.tsx",
+    "src/App.tsx"
+  ],
+  "Default": [
+    "src/App.tsx"
+  ],
+  "Large": [
+    "src/App.tsx"
+  ],
+  "Largest": [
+    "src/App.tsx"
+  ],
+  "Usage analytics": [
+    "src/App.tsx"
+  ],
+  "Optional usage events via PostHog: page paths and link intent, with a session identifier in this tab. No form contents, gameplay actions or recordings. Off until you enable it; switch off here to withdraw. Do Not Track and Global Privacy Control take priority.": [
+    "src/App.tsx"
+  ],
+  "Aa": [
+    "src/App.tsx"
+  ],
+  "Display": [
+    "src/App.tsx"
+  ],
+  "Display choices are remembered on this device.": [
+    "src/App.tsx"
+  ],
+  "Theme": [
+    "src/App.tsx"
+  ],
+  "Color theme": [
+    "src/App.tsx"
+  ],
+  "System": [
+    "src/App.tsx"
+  ],
+  "Time of day": [
+    "src/App.tsx"
+  ],
+  "Light": [
+    "src/App.tsx"
+  ],
+  "Dark": [
+    "src/App.tsx"
+  ],
+  "mpv. Mohd. Paramasvara — home": [
+    "src/App.tsx"
+  ],
+  "Primary navigation": [
+    "src/App.tsx"
+  ],
+  "Menu": [
+    "src/App.tsx"
+  ],
+  "Mobile navigation": [
+    "src/App.tsx"
+  ],
+  "Based in Sabah, Malaysia": [
+    "src/App.tsx"
+  ],
+  "Principal Full-Stack Engineer": [
+    "src/App.tsx"
+  ],
+  "Technical Lead & Software Architect": [
+    "src/App.tsx"
+  ],
+  "From complex business requirements to production software. I build full-stack systems, modernize legacy platforms, and lead engineering delivery.": [
+    "src/App.tsx"
+  ],
+  "Engineering evidence": [
+    "src/App.tsx"
+  ],
+  "Enterprise modernisation": [
+    "src/App.tsx"
+  ],
+  "Integration engineering": [
+    "src/App.tsx"
+  ],
+  "Applied AI · PACE-RAG": [
+    "src/App.tsx"
+  ],
+  "Discuss an engineering opportunity": [
+    "src/App.tsx"
+  ],
+  "Explore engineering work": [
+    "src/App.tsx"
+  ],
+  "2-page résumé": [
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/WorkWithMe.tsx",
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "(opens in a new tab)": [
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/NoTwoMondays.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/PublicEngineering.tsx",
+    "src/WorkWithMe.tsx",
+    "src/WorkWithMe.tsx",
+    "src/WorkWithMe.tsx",
+    "src/features/incident-zero/EndingScreen.tsx",
+    "src/features/incident-zero/EndingScreen.tsx",
+    "src/features/incident-zero/EndingScreen.tsx",
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Independent engineering projects": [
+    "src/App.tsx"
+  ],
+  "No Two Mondays · case study": [
+    "src/App.tsx"
+  ],
+  "Incident Zero · engineering story": [
+    "src/App.tsx"
+  ],
+  "Work with me": [
+    "src/App.tsx"
+  ],
+  "Illustrated portrait of Mohd. Paramasvara": [
+    "src/App.tsx"
+  ],
+  "Engineer. Architect. Builder.": [
+    "src/App.tsx"
+  ],
+  "01 / PROFILE": [
+    "src/App.tsx"
+  ],
+  "Career highlights": [
+    "src/App.tsx"
+  ],
+  "Since 2013": [
+    "src/App.tsx"
+  ],
+  "Full-stack engineering": [
+    "src/App.tsx",
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "Principal & Director": [
+    "src/App.tsx"
+  ],
+  "Hands-on delivery & leadership": [
+    "src/App.tsx"
+  ],
+  "20+ properties": [
+    "src/App.tsx"
+  ],
+  "Rental operations platform": [
+    "src/App.tsx"
+  ],
+  "Technology stack for {{value0}}": [
+    "src/App.tsx"
+  ],
+  "Technology stack": [
+    "src/App.tsx"
+  ],
+  "Technology experience confirmed by project owner · 18 October 2026.": [
+    "src/App.tsx"
+  ],
+  "Historical source repository for": [
+    "src/App.tsx"
+  ],
+  "Additional engineering systems": [
+    "src/App.tsx"
+  ],
+  "Selected work": [
+    "src/App.tsx"
+  ],
+  "Systems behind": [
+    "src/App.tsx"
+  ],
+  "the software.": [
+    "src/App.tsx"
+  ],
+  "A selection of full-stack work across education, HR, insurance, and property operations.": [
+    "src/App.tsx"
+  ],
+  "Role": [
+    "src/App.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/content.ts"
+  ],
+  "Scope": [
+    "src/App.tsx"
+  ],
+  "Contribution": [
+    "src/App.tsx"
+  ],
+  "Primary technologies": [
+    "src/App.tsx"
+  ],
+  "View engineering details": [
+    "src/App.tsx"
+  ],
+  "for": [
+    "src/App.tsx"
+  ],
+  "Production status not independently verified.": [
+    "src/App.tsx"
+  ],
+  "Discuss a similar problem": [
+    "src/App.tsx"
+  ],
+  "Professional role & project background: full CV": [
+    "src/App.tsx"
+  ],
+  "More work & professional background on LinkedIn": [
+    "src/App.tsx"
+  ],
+  "Ownership at every level.": [
+    "src/App.tsx"
+  ],
+  "Building since 2013.": [
+    "src/App.tsx"
+  ],
+  "Leading through the code.": [
+    "src/App.tsx"
+  ],
+  "Selected roles. Several engagements run concurrently.": [
+    "src/App.tsx"
+  ],
+  "Full CV": [
+    "src/App.tsx",
+    "src/App.tsx",
+    "src/WorkWithMe.tsx",
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Technical capabilities": [
+    "src/App.tsx"
+  ],
+  "Across the stack.": [
+    "src/App.tsx"
+  ],
+  "Beyond the code.": [
+    "src/App.tsx"
+  ],
+  "Capabilities describe my wider practice. For project-specific application, data and cloud experience,": [
+    "src/App.tsx"
+  ],
+  "open the selected-work engineering details": [
+    "src/App.tsx"
+  ],
+  "or": [
+    "src/App.tsx"
+  ],
+  "additional engineering systems": [
+    "src/App.tsx"
+  ],
+  ". Independent AI engineering demonstrations and their evidence boundaries are linked below.": [
+    "src/App.tsx"
+  ],
+  "AI capabilities & evidence": [
+    "src/App.tsx"
+  ],
+  "demonstrates my AI-assisted engineering process through a documented independent project.": [
+    "src/App.tsx"
+  ],
+  "is my independently developed engineering demonstration of browser embeddings, retrieval, reviewed answers and technology-aware composition. Its": [
+    "src/App.tsx"
+  ],
+  "measured evaluations and limitations": [
+    "src/App.tsx"
+  ],
+  "distinguish experimental work from enterprise production RAG delivery, which is not established. Live AI is disabled.": [
+    "src/App.tsx"
+  ],
+  "Engineering principles & decision-making": [
+    "src/App.tsx"
+  ],
+  "Selected examples of the decisions behind the work.": [
+    "src/App.tsx"
+  ],
+  "Make integration boundaries explicit": [
+    "src/App.tsx"
+  ],
+  "At PolicyStreet, provider rate normalization connected differing insurance APIs to consistent quotation and issuance workflows. The engineering focus was interoperability across those boundaries.": [
+    "src/App.tsx"
+  ],
+  "Explore the integration work": [
+    "src/App.tsx"
+  ],
+  "Evolve systems with continuity in mind": [
+    "src/App.tsx"
+  ],
+  "Education platform work centres on modernising established software while supporting ongoing use. Maintainability and continued delivery provide the context for change.": [
+    "src/App.tsx"
+  ],
+  "Explore the modernisation work": [
+    "src/App.tsx"
+  ],
+  "Keep responsibility with the engineer": [
+    "src/App.tsx"
+  ],
+  "No Two Mondays pairs AI-assisted implementation with human-directed architecture, save compatibility and deterministic replay. Automated verification and human review answer different questions.": [
+    "src/App.tsx"
+  ],
+  "Explore architecture & verification": [
+    "src/App.tsx"
+  ],
+  "04 / About": [
+    "src/App.tsx"
+  ],
+  "Good engineering": [
+    "src/App.tsx"
+  ],
+  "starts with": [
+    "src/App.tsx"
+  ],
+  "why.": [
+    "src/App.tsx"
+  ],
+  "I’m Mohd. Paramasvara, a full-stack software engineer based in Sabah, Malaysia. My work connects software architecture, hands-on implementation, and the business problem a system needs to solve.": [
+    "src/App.tsx"
+  ],
+  "I look at domain rules, data and delivery together, so the implementation serves the wider system. Alongside building software, I teach development and help teams understand the decisions behind the code.": [
+    "src/App.tsx"
+  ],
+  "Education": [
+    "src/App.tsx"
+  ],
+  "Computing & Information Systems · University of Portsmouth": [
+    "src/App.tsx"
+  ],
+  "Computer Software Engineering · Multimedia College": [
+    "src/App.tsx"
+  ],
+  "05 / Let’s talk": [
+    "src/App.tsx"
+  ],
+  "A complex problem.": [
+    "src/App.tsx",
+    "src/WorkWithMe.tsx"
+  ],
+  "A clear next step.": [
+    "src/App.tsx",
+    "src/WorkWithMe.tsx"
+  ],
+  "Discuss a senior engineering role, a system that needs modernising, or a technical project worth solving.": [
+    "src/App.tsx"
+  ],
+  "Book a conversation (opens Cal.com in a new tab)": [
+    "src/App.tsx",
+    "src/WorkWithMe.tsx"
+  ],
+  "Book a conversation": [
+    "src/App.tsx",
+    "src/WorkWithMe.tsx",
+    "src/WorkWithMe.tsx",
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "An introductory conversation about an engineering opportunity, architecture problem or collaboration.": [
+    "src/App.tsx"
+  ],
+  "Copy email": [
+    "src/App.tsx"
+  ],
+  "Connect on LinkedIn": [
+    "src/App.tsx"
+  ],
+  "Skip to content": [
+    "src/App.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/PaceRagCaseStudy.tsx",
+    "src/WorkWithMe.tsx"
+  ],
+  "© Mohd. Paramasvara": [
+    "src/App.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/WorkWithMe.tsx"
+  ],
+  "Based in Borneo. Building beyond it.": [
+    "src/App.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/WorkWithMe.tsx"
+  ],
+  "Back to top": [
+    "src/App.tsx"
+  ],
+  "Animated scenery": [
+    "src/AsciiForest/SceneryControl.tsx"
+  ],
+  "Enabled": [
+    "src/AsciiForest/SceneryControl.tsx"
+  ],
+  "Paused": [
+    "src/AsciiForest/SceneryControl.tsx"
+  ],
+  "Paused to follow your device’s reduced motion setting.": [
+    "src/AsciiForest/SceneryControl.tsx"
+  ],
+  "30-second overview": [
+    "src/CaseStudyQuickRead.tsx"
+  ],
+  "Problem": [
+    "src/CaseStudyQuickRead.tsx",
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "My ownership": [
+    "src/CaseStudyQuickRead.tsx"
+  ],
+  "Key decision": [
+    "src/CaseStudyQuickRead.tsx"
+  ],
+  "Current status": [
+    "src/CaseStudyQuickRead.tsx"
+  ],
+  "Technical focus": [
+    "src/CaseStudyQuickRead.tsx"
+  ],
+  "Explore the evidence": [
+    "src/CaseStudyQuickRead.tsx"
+  ],
+  "Untangle domain rules, improve integration boundaries and modernise the parts of a system that make change difficult.": [
+    "src/EngagementContent.ts"
+  ],
+  "Education systems: established-platform modernisation and maintainability.": [
+    "src/EngagementContent.ts"
+  ],
+  "Model the rules behind permissions, contracts, policies and reporting, then build the interfaces and services around them.": [
+    "src/EngagementContent.ts"
+  ],
+  "Rental operations: connected property, tenant and contract workflows.": [
+    "src/EngagementContent.ts"
+  ],
+  "Review data structures, APIs and delivery practices together to define a workable path from diagnosis to implementation.": [
+    "src/EngagementContent.ts"
+  ],
+  "PolicyStreet: provider rate normalization and integrated quotation and issuance.": [
+    "src/EngagementContent.ts"
+  ],
+  "Enterprise full-stack engineering": [
+    "src/EngagementContent.ts"
+  ],
+  "Enterprise tools that need technical ownership": [
+    "src/EngagementContent.ts"
+  ],
+  "Work across interfaces and services while planning around data consistency, access control and ongoing operation.": [
+    "src/EngagementContent.ts"
+  ],
+  "WenSymes: principal full-stack development of HR and administration tools; internal implementation remains private.": [
+    "src/EngagementContent.ts"
+  ],
+  "AI-assisted engineering": [
+    "src/EngagementContent.ts"
+  ],
+  "AI-generated implementation that needs engineering judgment": [
+    "src/EngagementContent.ts"
+  ],
+  "Keep architecture, acceptance criteria and implementation review under human direction, with verification suited to the behaviour being changed.": [
+    "src/EngagementContent.ts"
+  ],
+  "No Two Mondays: an independent development case, not evidence of a production RAG deployment.": [
+    "src/EngagementContent.ts"
+  ],
+  "Explore RAG-based knowledge and onboarding tools around a defined workflow, with attention to data access and useful evaluation.": [
+    "src/EngagementContent.ts"
+  ],
+  "PACE-RAG: inspect an independent retrieval implementation, measured evaluation and limitations. Commercial production RAG delivery is not established.": [
+    "src/EngagementContent.ts"
+  ],
+  "Architecture review & technical diagnosis": [
+    "src/EngagementContent.ts"
+  ],
+  "For teams facing unclear system boundaries, integration failures or difficult delivery decisions.": [
+    "src/EngagementContent.ts"
+  ],
+  "A specific problem, architecture context, relevant code or API contracts, and known operational constraints.": [
+    "src/EngagementContent.ts"
+  ],
+  "An agreed scope may include a findings document, prioritised risks and architectural options.": [
+    "src/EngagementContent.ts"
+  ],
+  "Bring the problem and the decisions you need to make to an introductory conversation.": [
+    "src/EngagementContent.ts"
+  ],
+  "For teams improving a legacy platform while existing business workflows still need to run.": [
+    "src/EngagementContent.ts"
+  ],
+  "The current codebase, business rules, consumer dependencies, test coverage and deployment constraints.": [
+    "src/EngagementContent.ts"
+  ],
+  "An agreed scope may include migration options, a phased implementation plan or hands-on delivery of a bounded change.": [
+    "src/EngagementContent.ts"
+  ],
+  "Start with the workflow or integration that makes change hardest.": [
+    "src/EngagementContent.ts"
+  ],
+  "Project technical leadership": [
+    "src/EngagementContent.ts"
+  ],
+  "For teams needing engineering direction alongside practical implementation of a complex product.": [
+    "src/EngagementContent.ts"
+  ],
+  "Product goals, current responsibilities, delivery risks and access to decision makers and technical context.": [
+    "src/EngagementContent.ts"
+  ],
+  "An agreed scope may include decision records, an implementation plan, delivery priorities or technical guidance alongside the team.": [
+    "src/EngagementContent.ts"
+  ],
+  "Discuss the decisions, responsibilities and involvement the project needs.": [
+    "src/EngagementContent.ts"
+  ],
+  "Preserving legacy behavior through modernization.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "From ASCII objects to narrative visual worlds.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Engineering a portfolio for eleven languages.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Behavior before replacement": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Static legacy source shows Rails 4.1.8, Devise, SQLite, company/division/staff relationships and file attachments. The original application was not booted; real historical data was not migrated.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "The modernization inventories behavior, defines parity contracts and makes ambiguous business policies explicit. PostgreSQL constraints protect relationships; lifecycle events retain actor/action history. MYR financial rules, Malaysian historical-time interpretation and UTC event timestamps have separate contracts.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Modern architecture": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Rails 8.1.4 / Ruby 4.0.7": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Server-side authentication, roles and asset authorization": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "PostgreSQL 18.6": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Constraints, lifecycle events and UTC audit records": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Active Storage": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Authorized private attachments and coordinated backup/restore": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Docker / kind / Podman": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Containerized single-replica deployment profiles": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Legacy behavior → modern implementation → evidence": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Asset lifecycle → explicit transitions → repeated operations do not duplicate events": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Relationships → database constraints → foreign-key and deletion contracts": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Attachments → authorized private routes → exact-byte and revocation checks": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Money and dates → MYR / MYT / UTC policies → synthetic boundary tests": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Verification with a date and a boundary": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "22 October 2026 · Render Free acceptance records 66 tests / 568 assertions, a 38-check read-only viewer contract and 31-check Docker/kind/Podman regressions. These are reported local checks, not a test run performed by this portfolio.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "21 October 2026 · The earlier ARM64 candidate recorded 61 tests / 518 assertions, encrypted isolated restores and passing measured startup/resource budgets. Those measurements do not certify the later Render AMD64 artifact.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Security work includes server-side roles, private files, reduced container privileges, vulnerability disposition records and fail-closed gates. The 22 October AMD64 scan still reports 43 HIGH and 1 UNKNOWN finding; clearance remains blocked.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Render preparation is implemented locally. Strict emulated AMD64 load failed; native provider performance and off-host recovery are unverified. No public application deployment is established. Production integrations and security decisions remain pending.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Sources and limitations": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Public source and recorded verification are available for inspection. Source publication does not authorize application deployment; security and provider acceptance remain blocked or unverified.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "View source on GitHub": [
+    "src/EngineeringCaseStudy.tsx",
+    "src/PublicEngineering.tsx",
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "MMCATS Modern": [
+    "src/EngineeringCaseStudy.tsx",
+    "src/PublicEngineering.tsx",
+    "src/caseStudies.ts"
+  ],
+  "Inspect the evidence": [
+    "src/EngineeringCaseStudy.tsx",
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Inspect the archived legacy source": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Public engineering": [
+    "src/EngineeringCaseStudy.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Case study": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "View evidence": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Direction follows the language": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Reading direction sample": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "English · LTR": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "العربية · RTL": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "日本語 · LTR": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Sample navigation": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "NAAE / TypeScript / v0.3.0": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Arabic changes inline alignment and reading direction; technical identifiers remain isolated. Japanese stays horizontal here. Logical spacing follows direction, while keyboard focus follows DOM order. Optional Japanese/Chinese vertical typography is limited to editorial text; controls stay horizontal.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "One registry, one content workflow": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Localization pipeline": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Canonical English → AST string extraction": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Incremental translation → source hashes and provenance": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Catalog validation → coverage and editorial review": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Lazy locale catalogs → static localized routes and metadata": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "React and i18next use languages.json for locale order, direction, fonts, calendars and writing modes. URL, saved preference, browser preference and English fallback resolve language in that order. Switching preserves route, query and fragment.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Extraction, validation, coverage and prerendering are scripted. Translation sync requires configured authoring credentials; new case-study translations were generated directly by the coding assistant. They are machine-translated and await fluent editorial review.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Every non-English page retains the localized disclosure near navigation and a matching English-original link. Canonical URLs are locale-specific; reciprocal hreflang links and x-default connect equivalent pages. Translation is performed during authoring, never from visitor conversations.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "A deliberate English-only boundary": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "PACE-RAG professional questions, answers and evidence remain English-only. Its region retains lang=en, dir=ltr, translate=no and horizontal writing. Surrounding notices are localized; changing locale preserves the assistant and conversation state.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Font fallbacks, text scaling, reduced motion and RTL are presentation responsibilities. Automated browser checks support regression detection; native-language review, physical-device coverage and actual screen-reader sessions remain separate work.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Inspect the portfolio source": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "An artifact-backed evolution": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "The canonical project name is Narrative ASCII Art Engine. Local documentation describes v0.1 object allocation and v0.2 layered landscapes. Saved v0.2, v0.3 and v0.4 outputs support the comparisons below; no Git history or tags were available to establish release dates.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Protect the story, then compose the texture": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Artwork generation pipeline": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Seeded scene graph → layered geometry and spatial regions": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Physical budget → exact narrative allocation and source indices": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Eligible cells → coverage, semantic glyphs and independent intensity": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Integrity diagnostics → SVG text, PNG and scene configuration": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Coverage counts visibly occupied eligible cells; protected narrative spaces are excluded. Intensity controls appearance independently of occupancy. Pixel-Hybrid adds stepped geometry and tile-coherent glyph selection while sharing narrative protection. Diagnostics are engineering checks, not aesthetic quality scores.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "The studio/package v0.4 label is separate from rendererVersion: Organic uses 0.3.0; Pixel-Hybrid uses 0.4.0. Scene mode is experimental. Supported text is measured Latin ASCII; physical print quality and a public studio release are pending.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "The portfolio as an engineering artifact": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Independent engineering": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Case study contents": [
+    "src/EngineeringCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Architecture and decisions": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Return to public engineering": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Interactive / Incident Zero": [
+    "src/IncidentCallout.tsx"
+  ],
+  "Something is wrong in production.": [
+    "src/IncidentCallout.tsx"
+  ],
+  "Payroll closes tomorrow. The systems disagree.": [
+    "src/IncidentCallout.tsx"
+  ],
+  "Play the incident": [
+    "src/IncidentCallout.tsx"
+  ],
+  "~8 min · keyboard / touch": [
+    "src/IncidentCallout.tsx"
+  ],
+  "Preview engineering decisions": [
+    "src/IncidentCallout.tsx"
+  ],
+  "A short, auto-selected demonstration": [
+    "src/IncidentCallout.tsx"
+  ],
+  "v0.2 · Layered landscape; saved reproduction from the compatible v0.2 renderer, generated during v0.3 baseline export.": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "v0.3 · Continuous eligible-cell coverage with independent visual intensity and semantic texture.": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "v0.4 · Pixel-Hybrid landscape with stepped contours and protected narrative characters.": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Artwork detail; use arrow keys to scroll when zoomed": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Artwork unavailable. The configuration and milestone description remain below.": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Glyph-based Borneo landscape with mountains, forest and a river; narrative text forms part of the scene.": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Reproduction configuration": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Download original glyph SVG": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "v0.1 is documented as an object-based allocator; no verified v0.1 output is shown. Compare saved stages side by side. Framing and rendering settings differ, so this is not a controlled visual-quality benchmark.": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Earlier stage": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Comparison stage": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Detail zoom": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "View from a distance": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Interactive studio — local prototype / public release pending": [
+    "src/NaaeEvolution.tsx"
+  ],
+  "Independent engineering / modvar": [
+    "src/NoTwoMondays.tsx"
+  ],
+  "An independently developed office simulation: modular system design, state management, save compatibility and deterministic verification. The case study examines AI-assisted implementation, human engineering decisions and the limits of automated testing.": [
+    "src/NoTwoMondays.tsx"
+  ],
+  "Explore the engineering": [
+    "src/NoTwoMondays.tsx"
+  ],
+  "Experience the project on itch.io": [
+    "src/NoTwoMondays.tsx"
+  ],
+  "Early No Two Mondays office simulation, showing the workspace and character interface": [
+    "src/NoTwoMondays.tsx"
+  ],
+  "Early development capture · 10 October 2026": [
+    "src/NoTwoMondays.tsx"
+  ],
+  "Bug fixing": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Refinement": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "New functionality": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Refactoring": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Early presentation": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Simple characters and a functional office layout established the starting point for visual review.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Character remaster": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "More detailed character likenesses reached the game. Scale, frame registration and walking still needed further correction.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Sizing and walking corrections": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The correction pass separated idle, blink and walking poses and aligned visible character sizing. A still capture cannot demonstrate gait quality; some pose limitations remained documented.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Environment and interaction redesign": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "15 October 2026 · Local 0.3.0-rc.1 / monday-8 capture. The redesigned office adds detailed furniture, clearer circulation and contextual interaction cues, alongside the visible priorities panel. This shows the reviewed local build, not a newly verified itch.io upload.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Manager": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Developer": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "IT operations coordinator": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "A focused office update": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "10 October capture. The dark dialogue panel keeps Maya’s request, response choices and time cost together, with a small event illustration.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Stronger document hierarchy": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "11 October capture. The paper treatment separates event classification, spoken text and responses, with a collapsed record of earlier decisions. This is a different office event, not a matched replay.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Context before the next decision": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "15 October capture of the current DialoguePanel in the read-only development harness. Recorded feedback appears inside the interruption; responses use the available width. No response was selected. This is a component preview, not a continuous playthrough.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "An empty recovery plan": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "10 October capture. Available operations sit beside an empty proposed order, with explicit execution cost and optional notes. The image shows no selected steps or submitted solution.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The recovery workspace on paper": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "12 October hosted-build QA capture. The paper interface retains the operation list and separate planning area. The plan is empty; option position is not a solution sequence.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The current puzzle component": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "15 October read-only preview of the current WorkPuzzle with an initial-state fixture. The empty plan, disabled submit, closed notes and visible time costs show the interface without a diagnosis answer, ordered solution or revealed hint. No gameplay action was executed.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Open full-size {{value0}} {{value1}} capture": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Portfolio": [
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/WorkWithMe.tsx"
+  ],
+  "/ Independent game case study": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Engineering No Two Mondays:": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "An extensible simulation with AI.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "How I used AI-assisted development to build an office narrative game, applying human judgment and engineering expertise to turn repeated feedback into a system I could keep extending.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Mohd. Paramasvara · Product direction, engineering and playtest iteration": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Read the engineering summary ↓": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Play on itch.io": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "recovered human prompts": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "interactive Codex sessions": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "prompts tagged as corrections or refinement": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Historical local audit: 9 October–14 October 2026, cutoff 00:05 MYT. Counts describe recovered records through that cutoff; development continued afterward.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "How these numbers were counted": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Engineering at a Glance": [
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The brief": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "AI workflow": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Revisions": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Dialogue UI": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Puzzle UI": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Architecture": [
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Verification": [
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Lessons": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Evidence sources": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Executive summary / Independent engineering project": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Challenge": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Build an extensible office simulation where technical work, conversations and spatial interactions have connected consequences.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "I directed the product and architecture, set engineering constraints, reviewed AI-assisted implementation and iterated through playtesting.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "A TypeScript simulation owns state; React presents the interface and Phaser handles spatial presentation. Validated saves, migrations and headless verification support change.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Inspect the boundaries": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Engineering decisions": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Separate state ownership from rendering, reproduce recorded actions deterministically, preserve supported historical saves and require evidence for each bounded iteration.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Review the workflow": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The 15 October 2026 campaign against the recorded 0.3.0-rc.1 / monday-8 snapshot verified 112,402 completed simulation runs and independently replayed 8,050 retained artifacts. It verified 44 ending targets; two campaign target gaps remained.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Read the scope and gaps": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Limitations": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Historical campaign figures are not current game-wide totals or evidence of the hosted build. Automated traversal does not establish human understanding, enjoyment, browser accessibility or production infrastructure scale.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Check the evidence sources": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "01 / The product problem": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "A small office. A growing system.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "No Two Mondays starts with a simple premise: one working day, three coworkers and a production outage. The challenge was to make decisions feel connected across technical work, conversations and the office around you. The setting could stay compact while the underlying system became richer.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "I used Codex throughout development, directing features, playing the results, reporting what felt wrong and asking for focused revisions. My work included setting the product constraints, deciding which changes belonged in the game, and requiring evidence that new work preserved existing behaviour.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Here, scalability means being able to add and revise behaviour without losing consistency, save compatibility or a usable browser experience. This is a client-side game; the project does not demonstrate multiplayer concurrency or backend traffic scaling.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Open the full-size No Two Mondays office screenshot": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "No Two Mondays office at the beginning of the day, with coworkers, desks, room doors and the game toolbar.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Actual game capture, 10 October 2026. An earlier presentation snapshot of the office; later development continued to refine the interface and artwork.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "A little office conversation.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "I wanted the characters to sound like people carrying their work into an ordinary conversation. These are authored in-game coffee responses, shown as separate excerpts rather than one exchange. They give a taste of the office humour without revealing incident explanations or story outcomes.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "02 / Working with AI": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The prompt started the work. Human judgment steered it.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Codex accelerated implementation, but each change still needed a human decision about what belonged in the game and whether the result worked. I set the direction, played the results, identified what felt unclear or inconsistent, and turned those observations into focused revisions. Keeping a human in the loop meant shaping the work throughout development: framing the problem, inspecting the result and deciding what needed to change.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Domain expertise made that feedback actionable. Software engineering knowledge helped me translate a feature request into requirements for state ownership, persistence, compatibility and regression checks. Interaction decisions needed a different lens: could a player understand a choice, notice its consequences and navigate the interface comfortably? The useful brief connected the intended experience to the constraints and evidence needed to evaluate it.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Diagram 01 / The development loop": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Direct": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Human: define the experience, constraints and acceptance criteria.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Implement": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Codex: implement a bounded change and supporting checks.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Inspect": [
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/features/incident-zero/CanvasWorld.tsx",
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Human: play and review the result alongside automated evidence.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Refine": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Human: identify the gap and make the next brief more precise.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Each review feeds the next brief. This is a synthesis of the recorded workflow, rather than a transcript of one session.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "What I directed": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Product scope, interaction clarity, engineering constraints and acceptance criteria. I judged the results against the intended experience and directed follow-up changes.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "What AI accelerated": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Implementation, test scaffolding, diagnostic tools, documentation and asset iteration. I used those outputs as material to inspect, test and refine.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "03 / The cost of iteration": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "210 prompts did not mean 210 finished features.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The historical audit recovered 210 deduplicated human prompts across 20 interactive sessions. A union of its bug-fixing, refinement and refactoring tags contains 37 distinct prompts. The project feedback log separately records 21 feedback entries at the time of this review. These are different measures: a feedback entry may summarize several requests, and a prompt may address several concerns.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The tagging is automated and lexical. It describes the requests that were recovered, rather than proving how many code modifications were necessary or how much time each feature took. The audit is a partial historical record, not the total lifetime prompt count.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Diagram 02 / Selected request types": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Selected workflow tags in the historical prompt audit": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Tags overlap. These selected categories do not sum to 210; requests with other or unspecified tags are omitted from this chart.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Examples of documented revision work": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Observed issue": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Engineering response": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Why human judgment mattered": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Choices were ambiguous": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Named the affected character and added clearer action feedback.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Recognising ambiguity required evaluating the player’s understanding as well as the state change.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Too much information at once": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Grouped interactions and introduced contextual disclosure.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Interaction judgment helped determine when additional depth became too much information.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Menus and reading competed with the game viewport": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Contained the game surface and refined keyboard, mouse and internal scrolling.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Browser interaction knowledge turned layout and input problems into explicit acceptance checks.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Generated character art needed correction": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Retained approved sources, recorded generation provenance and used deterministic extraction and registration.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Visual review and asset requirements determined whether generated artwork was usable in the game.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "New systems had to preserve earlier progress": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Made migration, historical fixtures and recovery paths part of the release requirements.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Engineering judgment made preservation of earlier progress a release requirement.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Art and animation took repeated correction.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Getting the character art right took several rounds of direction and visual review. I asked for changes to the player’s proportions and facial treatment, then had to preserve that approved likeness across different directions and walking poses. I preferred the original, unnormalised artwork; the generation notes record that preference alongside the extraction and registration requirements.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Walking exposed problems that a still image could hide. Equal-sized frame cells did not guarantee equal visible character sizes, and the earlier sequence mixed walking contacts with idle and blink poses. The correction work separated those states, used a uniform scale per character and tied animation to measured movement. A live check also caught gait resets between fixed-step physics updates. These were asset and runtime problems that needed different checks.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The art review still records subtle support-leg differences in some generated poses, including Maya’s front passing frames. Automated bounds, registration and sequence checks could verify parts of the asset contract; they could not establish convincing anatomical motion on their own. I needed to inspect the artwork and movement in the game, and the remaining pose limitations were kept explicit.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "From early visuals to the current build.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "These retained development captures show the early presentation, the character remaster, its sizing/walking correction and the latest reviewed environment redesign. Here, v1–v3 label historical visual milestones, not game release numbers. The latest entry shows the local build captured on 15 October 2026. The captures use different viewport sizes and are not a matched animation comparison. Select an image to inspect the original full-size capture.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Dialogue UI: from a reply to a decision with context.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The dialogue interface evolved alongside the feedback system. These selected captures show changes in hierarchy, reading space and the relationship between previous results and the next choice. They show routine office interruptions before a response is chosen; no incident explanation or story outcome is revealed. The latest image was captured from the current source on 15 October 2026.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Puzzle UI: make the plan readable before executing it.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The recovery puzzle separates available operations from the player’s proposed order. These historical and current captures keep the plan empty and the notes closed. They illustrate interface evolution, rather than three different solutions or new puzzle rules. I have omitted diagnosis logs, submitted plans and revealed hints so the reasoning stays in the game.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "04 / Making change manageable": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Give each layer a clear responsibility.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The game uses TypeScript, React, Phaser 3 and Vite. Its simulation owns the world state and publishes snapshots. React subscribes to those snapshots for interface updates; Phaser handles spatial presentation and traversal. A bridge carries room, proximity and interaction signals between the office and the interface.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "This boundary lets the simulation run without rendering the office. It supports deterministic tests, automated traversal and save-restoration checks, while interface and artwork changes can be inspected separately. Shared state still needs care: the main simulation runtime coordinates many systems, and adding a module is not free of integration work.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Diagram 03 / Runtime responsibilities": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "React interface": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Menus, reading, feedback and player actions": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Phaser office": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Rooms, movement and spatial interaction": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Room and interaction signals pass through the GameBridge": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Actions in ↓ / State snapshots out ↑": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "TypeScript simulation runtime": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "State transitions · authored rules · seeded randomness · consequence records": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Persistence": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Validated snapshots, migrations and local archives": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Headless verification": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Tests, traversal and independent replay": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Responsibility diagram simplified from the runtime, UI subscriptions and game bridge. It shows engineering boundaries without disclosing narrative rules.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Extend content through explicit rules": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Authored registries, typed actions and state predicates give new content a defined integration point. The event Director filters and scores authored possibilities; it is not a runtime language model inventing the story.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Seeded randomness makes a recorded sequence reproducible under matching code and settings. That is useful for debugging; it does not make the whole possibility space exhaustively tested.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Keep optional work out of startup": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The game defers Phaser, optional panels and other modules. Bundle checks inspect the startup graph and enforce size budgets, including keeping the analytics SDK outside startup until optional consent.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "These controls make growth measurable. They do not establish a universal frame-rate or mobile performance guarantee.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Preserve progress while the system evolves": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Save loading validates the record and applies explicit incremental migrations. Supported historical saves receive conservative defaults; loading restores a snapshot without replaying gameplay. Original bytes are retained before browser conversion, and unsupported or unreadable records have recovery paths.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Diagram 04 / Save compatibility": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Identify": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Check the stored version and supported format.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Preserve": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Retain the original before rewriting.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Migrate": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Apply ordered changes and validate the result.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Restore": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Resume the snapshot without rerunning actions.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Invalid or unsupported records are preserved for recovery. Browser origin, storage access and quota remain real constraints; local saves are not cloud sync.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "05 / Verification at scale": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Eight hours of automated exploration.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The latest reviewed completion campaign ran on 15 October 2026 against a recorded 0.3.0-rc.1 / monday-8 source snapshot. Its eight-hour execution budget produced 112,402 completed simulation runs with matching verified receipts and unique run identifiers. The integrity report passed.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The tool used witness-guided exploration through normal simulation actions, with recorded settings and source identity. Of the retained artifacts, 8,050 were independently replayed. A compact suite selected 44 replay witnesses covering 118 observed targets. Those targets mix endings, achievements and challenges; they are not 118 separate stories.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "How the CLI turns timelines into reviewable evidence.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The developer-only": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "CLI exercises the real simulation through legal inputs. It records the order of decisions and semantic state changes, rather than treating every seed or wording change as a new story. That gives me evidence for deciding which variations deserve a closer playtest and which missing paths need investigation.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Diagram 05 / From story traversal to gameplay review": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Configure": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Record source, seed, settings, strategy and resource budgets.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Explore": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Run legal action sequences through the actual simulation.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Verify": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Replay retained traces and check their recorded state witnesses.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Compare": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Group semantic timelines and report diversity, dependencies and gaps.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Timeline variants": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Compare ordered, meaningful decisions and state changes. Cosmetic wording and seed-only differences do not create separate route identities.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Essential variations": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Inspect distinct verified route families and canonical prerequisites. A frequent event in sampled runs is an association, not proof that the event is necessary.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Blocking states and gaps": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Distinguish unmet prerequisites, legitimate refusals and stalled attempts from replay failures or a search that exhausted its budget. An unobserved path is not proven impossible.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Human review → a focused revision or playtest": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "I can inspect retained timelines, compare counterfactual branches and prioritise suspected bottlenecks. The reports provide investigation leads; they do not rewrite the game or establish that a variation is enjoyable. Any change still needs a clear brief, regression checks and human evaluation.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Simplified from the ASTDE and targeted-search documentation. Replay verifies a recorded trace under matching source and settings, not every possible timeline. Raw traces, route conditions and specific blockers remain private; the diagram discloses no solution or unlock sequence.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "completed runs / verified receipts": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "independently replayed artifacts": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "replay witnesses in the compact suite": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The execution budget elapsed in about 8 hours; final reporting finished afterward. Counts are specific to this campaign and its recorded source snapshot.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Endings found, with their files still sealed.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The latest reviewed crawl verified": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "ending targets. Below are all their public locked titles and the number of newly executed runs that finished in each outcome. The labels describe sealed files; real ending names, conditions and route traces stay private.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Automated crawl /": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "completed runs": [
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "locked labels · linear bar scale": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Scroll to read all labels. Each run contributes to one final ending; repeated runs of the same route still count as runs.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Scrollable chart of automated completed runs by locked ending title": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Counts reconcile to 112,402 unique, verified completed-run receipts from this campaign. The 40 reused baseline successes are excluded. Targeted exploration and repeated attempts shape this distribution: it is not human-player popularity, natural ending probability, unique storyline count or exhaustive coverage. Achievement awards can overlap within one run and are not added to these ending counts.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Unverified ending target, kept separate from the chart": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Locked title": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Campaign status": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "An inconvenient agenda": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Known witness, unverified in this campaign": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The campaign ended at its duration budget with two target gaps: the unverified outcome above and its associated achievement. That is an unresolved verification gap, not proof that the outcome is impossible. A long run is useful precisely because it can expose a stubborn blind spot rather than manufacture an all-green coverage claim.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Headless traversal does not exercise room collision, visual layout, keyboard focus or whether a person enjoys the pacing. Those need browser checks and human playtests. The 15 October release notes separately record 733 automated tests and a 133-test save-compatibility gate for the prepared release candidate; these are historical release checks, not tests rerun by this case study.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Collect evidence about understanding, not just completion.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The crawl records deterministic actions, semantic changes and verification receipts so I can investigate the system’s behaviour. Human playtesting answers different questions: did someone understand the next task, recognise the result of a choice or know why a puzzle attempt failed? The game’s optional analytics is designed to support those questions alongside direct feedback.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Implemented playtest instrumentation and the questions it can support": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Collected signals": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Question for review": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Interpretation limit": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Puzzle views, attempts, repeated wrong plans, hints and active time": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Does a viewed stage receive an attempt? Where might instructions or feedback need attention?": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "A long visit or repeated attempt can mean deliberation, difficulty or confusion; the metric alone cannot tell which.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Presented events, committed choices, consequence receipts and ordered run context": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "What did the player encounter, choose and observe before the next decision?": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Recorded sequence and linked consequences do not prove that the player noticed or understood them.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Run milestones, completions, resumes, replay activity and active/paused timing": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Where was a run last observed, and how does a repeat visit differ from an initial run?": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Missing completion is not confirmed abandonment. Pauses, later returns, consent changes and delivery gaps matter.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Gameplay sharing is consent-gated and uses explicit event/property allowlists. Automatic click capture and session replay are disabled in the game’s adapter. Local run records and diagnostic exports serve a separate purpose; a playtest report is copied or downloaded explicitly rather than automatically submitted.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "No private player records or live analytics results are published here. These are implemented collection capabilities, not a claim that player behaviour has already established a particular improvement. I still need to inspect the evidence, ask players what they understood and evaluate any revision in context.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "06 / What I learned": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "AI accelerated the work. Expertise guided the decisions.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "AI made it practical to move quickly between a feature idea, implementation and a diagnostic tool. My responsibility was to decide what the game should become, recognise where the result fell short and make the next change reviewable. Human involvement mattered at every stage: setting priorities, interpreting feedback and deciding what evidence was sufficient for the question being asked.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The value of domain expertise was in turning observations into durable requirements. Ambiguous choices called for clearer feedback. Evolving systems needed boundaries and save compatibility. Generated artwork needed visual inspection and reliable extraction. Automated traversal could verify recorded behaviour at scale, while pacing, clarity and the experience of playing still needed human evaluation.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "I would carry that approach into another project: define acceptance criteria early, preserve observations alongside decisions, and evaluate each change at the appropriate layer. Better prompts emerged from understanding the product and its constraints. The outcome I am aiming for is maintainable behaviour and a coherent player experience.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Try the Monday for yourself.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The game is available on itch.io. This case study covers development snapshots and does not assert that every reviewed change is in the currently hosted build.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Play No Two Mondays ↗": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Discuss the engineering": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Evidence / Reviewed 15 October 2026": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "How the case study was grounded.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The prompt figures come from an existing local development audit of surviving Codex records. It deduplicates human messages and excludes machine-agent tasks from the human-prompt count. The 37-prompt figure is the distinct union of three overlapping workflow tags: bug fixing, refinement and refactoring. Classification is lexical and can miss or misclassify requests. Missing history and later development are outside that snapshot.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "The revision examples come from the project feedback log, refinement notes and art review. Architecture was checked against the TypeScript simulation, React subscriptions, Phaser bridge, save migrations and bundle checks. Traversal figures come from the 15 October completion campaign’s coverage, integrity, checkpoint and replay-suite reports. Public locked labels were checked against the game’s hint registry.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Only aggregate evidence and spoiler-safe descriptions are reproduced here. Private chat transcripts, raw traversal traces, puzzle solutions, hidden conditions and real ending titles are not published.": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Back to portfolio ↗": [
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Page not found | Mohd. Paramasvara": [
+    "src/NotFound.tsx"
+  ],
+  "404 / Page not found": [
+    "src/NotFound.tsx"
+  ],
+  "This page could not be found.": [
+    "src/NotFound.tsx"
+  ],
+  "The address may be incorrect, or the page may have moved.": [
+    "src/NotFound.tsx"
+  ],
+  "Return to portfolio": [
+    "src/NotFound.tsx",
+    "src/Page.tsx",
+    "src/Page.tsx",
+    "src/Page.tsx",
+    "src/RouteRecovery.tsx"
+  ],
+  "Contact Mohd": [
+    "src/NotFound.tsx"
+  ],
+  "PACE-RAG supports English questions and answers only. Please ask your question in English.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "The assistant could not load.": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Read the source library": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "or try opening it again.": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Ask about my engineering experience": [
+    "src/PaceAssistantLauncher.tsx",
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Engineering experience assistant": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Explore my professional experience through concise answers and supporting sources. Search runs on your device. Live AI is disabled.": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Enter an English question. Suggested questions and answers remain in English when you change the portfolio language.": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Loading the knowledge assistant…": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Browse professional sources": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Explore the Engineering RAG Lab ↗": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "Interactive search needs JavaScript. The source library and Lab documentation remain readable.": [
+    "src/PaceAssistantLauncher.tsx"
+  ],
+  "PACE-RAG v1.6.2 · Independent applied AI": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Knowledge first. Inference optional. Evidence always.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "An independently developed, experimental RAG engineering demonstration for exploring public professional evidence. Enterprise production deployment, commercial RAG delivery and production-hardened security are not established. Live AI is disabled.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "This is the official expansion going forward, not a claim about the name’s historical origin. RAG describes the architectural approach and direction; each query does not invoke a generative model.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Explore the Engineering RAG Lab": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Inspect the implementation": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "A one-minute overview": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "PACE-RAG is a browser-first assistant for reviewed professional information, with a separate engineering Lab. Cached answers and deterministic technology lookups avoid hosted inference; other questions can use a locally loaded model to suggest relevant reviewed questions. Every direct answer retains its own validated sources.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Measured retrieval results below show how well expected answers appear in the ranked suggestions. They do not prove factual certainty or production readiness. Live generation, enterprise security and provider billing remain unverified; the public demo is experimental.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Architecture at a glance": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Two paths share source validation. Technology relationships use confirmed facts; other wording uses retrieval.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Question-to-answer architecture": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Question": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "The visitor chooses a knowledge source.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Entity / intent detection": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Identify supported technology relationships and question intent.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Approved facts or hybrid retrieval": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Compose from confirmed technology facts, or rank reviewed questions using semantic and lexical signals.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Citation validation": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Check source ownership, version, hash, URL and review status.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Reviewed answer, suggestions or abstention": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Unsupported wording remains a limitation, never a similarity-based factual claim.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Exact reviewed questions can reuse the cache directly. None of these paths automatically calls Workers AI.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "A real technology lookup": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Recognized category:": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "web": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Ontology matches:": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Verified project mappings:": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Approved fact composition:": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Supporting citations:": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Workers AI inference calls:": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Evidence version:": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  ". The portfolio build verifies this generated example against the packaged corpus.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "The problem and constraints": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Recruiters need concise answers supported by public sources. A free-tier-oriented design keeps reviewed answers and retrieval usable without hosted inference, provider quota or a live API. Browser inference trades a model download, CPU and memory for fewer remote dependencies; free-tier billing and production capacity have not been verified.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "From query to evidence": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Load a checksum-verified corpus and its versioned source and answer registries. Opening the assistant does not initialize the embedding model.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Exact reviewed questions reuse approved cached answers with their own citations. Bounded technology questions compose answers from owner-confirmed project facts using a directed ontology of entities, categories and relationships.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Other semantic queries initialize the pinned MiniLM q8 WASM model in a browser worker. Professional suggestions combine question-vector cosine, answer-body BM25 and bounded intent adjustments. Other Lab views retain reviewed-question-and-answer BM25. Distinct answer records are ranked once. Passage retrieval remains a separate evidence-discovery path.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Similarity suggests related questions; it does not establish answer equivalence. Unsupported requests abstain. Lexical retrieval and static sources remain available when model initialization fails.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Cached answers, technology composition and local retrieval make zero Workers AI inference calls. A guarded gateway exists in source, but live generation is disabled. Mocked quota/provider tests do not establish deployed runtime or billing behaviour.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Retrieval and hybrid ranking": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Technology entity resolution": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Answer composition and validation": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Architecture and methodology": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Provenance and publication boundaries": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Reuse requires current approval, matching source hash, document version, citation URL and corpus ownership. Professional Experience is isolated from implementation documentation and fictional test documents; scoped vector rows follow the same filtered records. Retrieved passages are labelled separately from sources supporting an answer.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Hash-bound owner publication approval covers the existing source and answer registries. Generated Q&A is never automatically promoted. Content changes need renewed review, and integrity or licensing failures block packaging. Historic professional snapshots retain their review context; the current portfolio clarifies ongoing WenSymes collaboration and the existence of this demonstration.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Corpus provenance": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Publication checks": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Scope and vector isolation": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Measured retrieval and limitations": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "19 October 2026 · Local, versioned evaluation with the pinned browser model. Owner-approved v1.6 knowledge refresh adds commercial evidence and five reviewed answers. The v1.6.1 investigation reproduces prior results and partially recovers rankings through bounded question-facet adjustments. All approved knowledge is preserved; recovery targets remain unmet on two metrics. Automatic semantic reuse remains disabled.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Previously inspected regression sets; not independent review": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Questions": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "v1.5 Top-1 / Top-3": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "v1.6 Top-1 / Top-3": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "v1.6.1 Top-1 / Top-3": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Original 100 (development)": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Preserved 50 (verification)": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Preserved 40 (v1.4)": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Labels are agent-authored and await independent review. These are unchanged provisional regression labels. The content-refresh baseline used the unchanged prior ranker. The v1.6.1 correction was investigated on these published sets without relabeling. Original-set Top-1 remains below the 80% recovery target, and preserved-50 Top-3 remains below 96%; content approval does not certify these trade-offs. None is now unseen. A fresh independently prepared holdout and real-user review remain pending; the independent 80% Top-1 target has not been demonstrated. All 124 professional critical questions across the regression and new-feature suites abstain, with zero observed incorrect automatic answers, invalid citation references or cross-corpus references. These finite observations do not establish correctness probabilities or live-generation grounding.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Reviewed wording can return its cached answer; other paraphrases usually require choosing a suggested question. Lexical/static fallbacks remain available. Actual screen-reader sessions, physical-device memory, enterprise authorization and deployed provider billing remain unverified.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Current evaluation and per-query reports": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Preserved verification wording": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Trade-offs and reproducibility": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "How to inspect it": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Start with the Lab’s three separated knowledge views, then inspect a result’s matched questions, supporting sources and resource usage. Fictional documents and simulated failures are explicitly labelled. Production security and inference availability must be evaluated separately before applying this design to confidential material.": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Explore an engagement approach": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Discuss an engineering problem": [
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Loading case study…": [
+    "src/Page.tsx"
+  ],
+  "Loading the PACE-RAG case study…": [
+    "src/Page.tsx"
+  ],
+  "Loading the No Two Mondays case study…": [
+    "src/Page.tsx"
+  ],
+  "Initialising System Defence…": [
+    "src/Page.tsx"
+  ],
+  "Return to Incident Zero": [
+    "src/Page.tsx",
+    "src/features/incident-zero/defence/DefenceRoute.tsx",
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Initialising Incident Zero…": [
+    "src/Page.tsx"
+  ],
+  "Loading engineering engagements…": [
+    "src/Page.tsx"
+  ],
+  "01A / Public engineering": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Open to inspection.": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Selected public engineering work you can inspect directly — from domain rules and tests to frontend delivery.": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Engineering case studies": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Legacy behavior → modern contracts": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Locally verified · public release blocked": [
+    "src/PublicEngineering.tsx",
+    "src/caseStudies.ts"
+  ],
+  "NAAE": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Narrative glyphs → visual worlds": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Local prototype · public studio pending": [
+    "src/PublicEngineering.tsx",
+    "src/caseStudies.ts"
+  ],
+  "Eleven languages, one source": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Routes, direction and content integrity": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Implemented · editorial review pending": [
+    "src/PublicEngineering.tsx",
+    "src/caseStudies.ts"
+  ],
+  "Independent applied AI": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Experimental engineering demonstration": [
+    "src/PublicEngineering.tsx",
+    "src/caseStudies.ts"
+  ],
+  "Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation. Reviewed cached answers, deterministic technology composition and local retrieval; live generative inference is disabled.": [
+    "src/PublicEngineering.tsx"
+  ],
+  "TypeScript · React · Transformers.js · MiniLM · Web Workers": [
+    "src/PublicEngineering.tsx"
+  ],
+  "Inspect implementation, evaluation & limitations": [
+    "src/PublicEngineering.tsx"
+  ],
+  "View source on GitHub for {{value0}} (opens in a new tab)": [
+    "src/PublicEngineering.tsx"
+  ],
+  "View more public work on GitHub": [
+    "src/PublicEngineering.tsx"
+  ],
+  "This experience could not load.": [
+    "src/RouteRecovery.tsx"
+  ],
+  "The download may have failed or the experience encountered an error. Check your connection, then retry.": [
+    "src/RouteRecovery.tsx"
+  ],
+  "Retry": [
+    "src/RouteRecovery.tsx",
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Modernisation work on an established education platform.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Full-stack development alongside technical leadership.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Maintainability and ongoing delivery guide the engineering work.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Maintenance of established education applications.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Full-stack engineering in the education sector.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Ongoing delivery and maintainability.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "HR and administration application development.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Hands-on full-stack engineering within a principal developer role.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Technical ownership, with internal workflows and implementation details kept private.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Rate fetching across multiple insurance providers and product types.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Backend and frontend normalization brings different provider rates into a consistent interface.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "External insurer APIs and internal services connect quotation and policy issuance for teams and partners.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "A shared HR system supports the corporate structures of multiple companies.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Leave entitlements can be configured around each company’s policies.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Attendance policies and HR workflows adapt to the organization rather than one fixed process.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Reliable multi-entity data structures connect properties, tenants, and contracts.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Contract generation, payment tracking, renewals, and cancellations support day-to-day operations.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Property-level income, expenses, and profit/loss reporting covers more than 20 properties.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Conceptual scope summary": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Interfaces, services and integrations.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Legacy systems, domain models and delivery.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Databases and repeatable environments.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Engineering direction, training and knowledge tools.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Interfaces": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Services": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Integration": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "System integrations · REST APIs": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Delivery": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Technical documentation · CI/CD": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Data models": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Environments": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Team enablement": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Technical training · Stakeholder alignment": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Knowledge tools": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "RAG · Vector databases · AI-assisted engineering": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Engineering capability relationships": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "One system. Four connected disciplines.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Select a branch or practice to explore.": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "/ Connected practice": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Technical training": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Engineering direction": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Principal delivery": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "Selected role starts / overlapping engagements": [
+    "src/SystemDiagrams.tsx"
+  ],
+  "03A / What I solve": [
+    "src/WhatISolve.tsx"
+  ],
+  "When the software": [
+    "src/WhatISolve.tsx"
+  ],
+  "becomes the problem.": [
+    "src/WhatISolve.tsx"
+  ],
+  "Explore working together": [
+    "src/WhatISolve.tsx"
+  ],
+  "/ Work with me": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Principal engineering / Selected engagements": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Complex systems.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Clear engineering decisions.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "I work with teams on software problems where architecture, domain complexity, modernisation or technical leadership matter.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Mohd. Paramasvara · Principal Full-Stack Engineer": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Based in Sabah, Malaysia. Discuss an engineering role or a scoped project engagement.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "(opens Cal.com in a new tab)": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Email the context": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Explore the problems I work on": [
+    "src/WorkWithMe.tsx"
+  ],
+  "01 / Problems & evidence": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Start with the system.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Inspect public engineering work": [
+    "src/WorkWithMe.tsx"
+  ],
+  "02 / Engagement fit": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Agree the scope.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Then own the work.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Useful inputs": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Possible deliverables": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Next step": [
+    "src/WorkWithMe.tsx"
+  ],
+  "These are possible deliverables, not fixed packages. Bring a concrete problem, technical context and a decision maker. We can then agree scope, responsibilities and an engagement.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "03 / Let’s talk": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Bring a system that needs modernising, a difficult product workflow or an architecture question. We can discuss the problem and whether an engagement makes sense.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "An introductory conversation. You can also email the context directly.": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Explore selected work": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Back to portfolio": [
+    "src/WorkWithMe.tsx"
+  ],
+  "Preserve asset-management behavior while replacing an obsolete Rails foundation.": [
+    "src/caseStudies.ts"
+  ],
+  "I directed the modernization, defined parity contracts and reviewed implementation and verification.": [
+    "src/caseStudies.ts"
+  ],
+  "Use a Rails monolith with database constraints, explicit lifecycle events and private attachments.": [
+    "src/caseStudies.ts"
+  ],
+  "22 October 2026: 66 tests, 568 assertions, zero failures, errors or skips; local deployment regressions pass.": [
+    "src/caseStudies.ts"
+  ],
+  "Behavioral parity, authorization, auditability and recovery. Historical data was not migrated; security dispositions and provider acceptance remain pending.": [
+    "src/caseStudies.ts"
+  ],
+  "Make a scene recognizable at a distance while preserving meaningful narrative characters up close.": [
+    "src/caseStudies.ts"
+  ],
+  "I directed the visual language, rendering constraints and iterative review of the procedural engine.": [
+    "src/caseStudies.ts"
+  ],
+  "Reserve exact narrative text before allocating semantic glyph texture; separate occupancy from intensity.": [
+    "src/caseStudies.ts"
+  ],
+  "Saved Organic v0.3 and Pixel-Hybrid v0.4 artifacts expose configuration and integrity diagnostics.": [
+    "src/caseStudies.ts"
+  ],
+  "Seeded geometry, source integrity and bounded character budgets. Scene mode is experimental; physical print quality and official release dates are unverified.": [
+    "src/caseStudies.ts"
+  ],
+  "Multilingual portfolio engineering": [
+    "src/caseStudies.ts"
+  ],
+  "Maintain one professional source across eleven languages, scripts and reading directions.": [
+    "src/caseStudies.ts"
+  ],
+  "I own the route model, content boundaries, presentation controls and localization maintenance workflow.": [
+    "src/caseStudies.ts"
+  ],
+  "Keep canonical English strings and one locale registry; isolate professional Q&A from translation.": [
+    "src/caseStudies.ts"
+  ],
+  "Eleven registered locales share localized routes, metadata, translation notices and static HTML generation.": [
+    "src/caseStudies.ts"
+  ],
+  "Direction-aware layouts, accessible controls and incremental translation provenance. Automated checks do not establish linguistic fluency or replace native-language and screen-reader review.": [
+    "src/caseStudies.ts"
+  ],
+  "Answer professional questions from approved evidence without treating similarity as factual certainty.": [
+    "src/caseStudies.ts"
+  ],
+  "I defined the knowledge boundaries, retrieval architecture and evaluation workflow for this independent demonstration.": [
+    "src/caseStudies.ts"
+  ],
+  "Use reviewed cached answers and deterministic technology lookups; otherwise suggest evidence-backed questions or abstain.": [
+    "src/caseStudies.ts"
+  ],
+  "The recorded evaluation reports abstention for all 124 professional critical questions, with zero observed incorrect automatic answers.": [
+    "src/caseStudies.ts"
+  ],
+  "Browser retrieval, citations and explicit uncertainty. These finite observations do not certify production correctness. Live generation is disabled; professional questions and answers remain English-only.": [
+    "src/caseStudies.ts"
+  ],
+  "Connect office interactions and engineering choices in an extensible simulation without losing state consistency.": [
+    "src/caseStudies.ts"
+  ],
+  "I directed product, architecture and AI-assisted implementation, reviewing changes through tests and playtesting.": [
+    "src/caseStudies.ts"
+  ],
+  "Let the TypeScript simulation own state; keep React presentation, Phaser rendering and persistence separate.": [
+    "src/caseStudies.ts"
+  ],
+  "The 15 October 2026 campaign recorded 112,402 completed simulation runs and 8,050 independently replayed artifacts.": [
+    "src/caseStudies.ts"
+  ],
+  "Independent project · historical campaign": [
+    "src/caseStudies.ts"
+  ],
+  "Deterministic replay, save compatibility and modular ownership. Two campaign target gaps remained; historical local results do not verify the hosted build or human playability.": [
+    "src/caseStudies.ts"
+  ],
+  "Make conflicting operational evidence understandable through a short interactive investigation.": [
+    "src/caseStudies.ts"
+  ],
+  "I designed the engineering narrative, decision paths and browser-based experience as an independent portfolio demonstration.": [
+    "src/caseStudies.ts"
+  ],
+  "Use a fictional incident and synthetic records, with non-spatial navigation and plain-language puzzles.": [
+    "src/caseStudies.ts"
+  ],
+  "The portfolio contains a playable investigation and an optional System Defence arcade prototype.": [
+    "src/caseStudies.ts"
+  ],
+  "Interactive prototype · fictional scenario": [
+    "src/caseStudies.ts"
+  ],
+  "Evidence gathering, accessible interaction and consequences of engineering decisions. This illustrates reasoning; it does not establish commercial incident response, real security protection or measured learning outcomes.": [
+    "src/caseStudies.ts"
+  ],
+  "Principal Full Stack Engineer": [
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "2023 onward": [
+    "src/content.ts"
+  ],
+  "Enterprise Education Systems — Modernization & Technical Consulting": [
+    "src/content.ts"
+  ],
+  "Stakeholder-informed workflows across established and modernized education and administrative systems.": [
+    "src/content.ts"
+  ],
+  "Education platform · full-stack engineering · technical leadership": [
+    "src/content.ts"
+  ],
+  "Helped align operational workflows with user responsibilities while supporting continued platform use and modernisation.": [
+    "src/content.ts"
+  ],
+  "Platform modernisation": [
+    "src/content.ts"
+  ],
+  "Maintainability": [
+    "src/content.ts"
+  ],
+  "Education Platform Modernisation": [
+    "src/content.ts"
+  ],
+  "Business problem": [
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "Established education and administrative systems needed workflows shaped around actual operational processes and responsibilities.": [
+    "src/content.ts"
+  ],
+  "My contribution": [
+    "src/content.ts"
+  ],
+  "Led full-stack development and contributed technical direction as Principal Full Stack Engineer.": [
+    "src/content.ts"
+  ],
+  "Key Engineering Decision": [
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "Engaged stakeholders to understand existing operational processes, identify workflow requirements and design suitable workflows across established and modernized systems.": [
+    "src/content.ts"
+  ],
+  "Verified workflow examples": [
+    "src/content.ts"
+  ],
+  "Online class activity tracking, HRMS document-expiration tracking and other stakeholder-informed operational workflows.": [
+    "src/content.ts"
+  ],
+  "Modernise established software while supporting its ongoing use and development. Maintainability, dependable delivery and long-term platform development remain priorities. Internal product identities and implementation details remain private.": [
+    "src/content.ts"
+  ],
+  "Delivered Capability": [
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "Helped shape structured workflows aligned with actual user and stakeholder responsibilities, while supporting continued operation and modernization of existing systems.": [
+    "src/content.ts"
+  ],
+  "Education applications · maintenance · integration": [
+    "src/content.ts"
+  ],
+  "Education / Enterprise applications": [
+    "src/content.ts"
+  ],
+  "2021 onward": [
+    "src/content.ts"
+  ],
+  "Supporting established education applications.": [
+    "src/content.ts"
+  ],
+  "Full-stack development and integration work in the education sector.": [
+    "src/content.ts"
+  ],
+  "Contributed to application maintenance and ongoing software delivery.": [
+    "src/content.ts"
+  ],
+  "Application maintenance": [
+    "src/content.ts"
+  ],
+  "Full-stack development": [
+    "src/content.ts"
+  ],
+  "Ongoing delivery": [
+    "src/content.ts"
+  ],
+  "Education Application Engineering": [
+    "src/content.ts"
+  ],
+  "Full-stack development, progressing to principal engineering responsibilities.": [
+    "src/content.ts"
+  ],
+  "Engineering focus": [
+    "src/content.ts"
+  ],
+  "Maintaining and evolving established applications while supporting their ongoing use.": [
+    "src/content.ts"
+  ],
+  "Disclosure": [
+    "src/content.ts"
+  ],
+  "This summary is deliberately limited to broad professional responsibilities.": [
+    "src/content.ts"
+  ],
+  "Senior Full Stack Developer → Director, Engineering": [
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "Motor · medical · group medical · fire insurance": [
+    "src/content.ts"
+  ],
+  "2019–2021": [
+    "src/content.ts"
+  ],
+  "PolicyStreet — Insurance Comparison Platform": [
+    "src/content.ts"
+  ],
+  "Internal teams and partners needed consistent quoting and issuance across different insurers.": [
+    "src/content.ts"
+  ],
+  "Connected insurer quotations and policy issuance for internal teams and partners.": [
+    "src/content.ts"
+  ],
+  "Multiple insurance providers": [
+    "src/content.ts"
+  ],
+  "Normalized quotations": [
+    "src/content.ts"
+  ],
+  "Partner APIs & policy issuance": [
+    "src/content.ts"
+  ],
+  "Insurance Comparison System": [
+    "src/content.ts"
+  ],
+  "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance.": [
+    "src/content.ts"
+  ],
+  "Ownership": [
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "Built backend and frontend rate-fetching and normalization as a Senior Full Stack Developer, then led development and operations as Engineering Director.": [
+    "src/content.ts"
+  ],
+  "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers.": [
+    "src/content.ts"
+  ],
+  "Business rules": [
+    "src/content.ts"
+  ],
+  "Quotations expire after seven days. Changes to customer information that affect quotation terms require quotation revision. Caching and pre-warming do not exempt quotations from these validity requirements.": [
+    "src/content.ts"
+  ],
+  "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability.": [
+    "src/content.ts"
+  ],
+  "Supported fast quotation workflows with rate normalization and integrated issuance for internal teams and partners, while accommodating expiry and changes affecting quotations.": [
+    "src/content.ts"
+  ],
+  "Principal Full Stack Developer": [
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "HR and administration · full-stack engineering": [
+    "src/content.ts"
+  ],
+  "People / Enterprise applications": [
+    "src/content.ts"
+  ],
+  "2025 onward": [
+    "src/content.ts"
+  ],
+  "WenSymes — Human Resources Management Platform": [
+    "src/content.ts"
+  ],
+  "Adaptable HR and administration workflows, with full-stack web development, Google Cloud and Microsoft 365.": [
+    "src/content.ts"
+  ],
+  "Contributed adaptable internal tools; professional collaboration continues on an occasional basis.": [
+    "src/content.ts"
+  ],
+  "Technical ownership": [
+    "src/content.ts"
+  ],
+  "WenSymes HR Platform": [
+    "src/content.ts"
+  ],
+  "Internal HR and operational administration needed to accommodate changing employee roles and organizational needs.": [
+    "src/content.ts"
+  ],
+  "Principal Full Stack Developer experience building internal administration tools and planning product-domain capabilities. The engagement continues as occasional professional collaboration.": [
+    "src/content.ts"
+  ],
+  "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved.": [
+    "src/content.ts"
+  ],
+  "Organizational flexibility must account for clear responsibilities and appropriate access to HR information. Planning considers data consistency, access control and uptime; detailed internal rules and implementation remain private.": [
+    "src/content.ts"
+  ],
+  "Supported an adaptable approach to organizational roles and HR workflows without assuming that responsibilities would remain fixed.": [
+    "src/content.ts"
+  ],
+  "Technical approach": [
+    "src/content.ts"
+  ],
+  "Full-stack web development with Google Cloud and Microsoft 365.": [
+    "src/content.ts"
+  ],
+  "Web Developer · collaborative development": [
+    "src/content.ts"
+  ],
+  "Multiple companies · configurable leave and attendance rules": [
+    "src/content.ts"
+  ],
+  "People / Business operations": [
+    "src/content.ts"
+  ],
+  "2016–2017": [
+    "src/content.ts"
+  ],
+  "HR workflows that adapt to different companies.": [
+    "src/content.ts"
+  ],
+  "Helped build configurable HR workflows for multiple companies.": [
+    "src/content.ts"
+  ],
+  "Flexible HR workflows that accommodate each company’s corporate structure and policies within the same system.": [
+    "src/content.ts"
+  ],
+  "Multiple company structures": [
+    "src/content.ts"
+  ],
+  "Configurable leave entitlements": [
+    "src/content.ts"
+  ],
+  "Attendance policies & workflows": [
+    "src/content.ts"
+  ],
+  "Human Resource Management System": [
+    "src/content.ts"
+  ],
+  "Different companies needed HR tools that could reflect their own corporate structures, leave rules, and attendance policies.": [
+    "src/content.ts"
+  ],
+  "Collaborated on development of the HR management system during the Web Developer role at Centre for Content Creation.": [
+    "src/content.ts"
+  ],
+  "Engineering": [
+    "src/content.ts"
+  ],
+  "Built support for multiple companies, configurable leave entitlements, and flexible attendance policies around real HR workflows.": [
+    "src/content.ts"
+  ],
+  "Result": [
+    "src/content.ts"
+  ],
+  "Delivered configurable structures, leave and attendance workflows across companies.": [
+    "src/content.ts"
+  ],
+  "Freelance Principal Full Stack Solution Developer": [
+    "src/content.ts"
+  ],
+  "20+ properties · tenants · contracts · financial reporting": [
+    "src/content.ts"
+  ],
+  "Proptech / Business operations": [
+    "src/content.ts"
+  ],
+  "2018–2020": [
+    "src/content.ts"
+  ],
+  "Rental operations, from contracts to financial clarity.": [
+    "src/content.ts"
+  ],
+  "Web-based rental operations for staff working in the office and on the move.": [
+    "src/content.ts"
+  ],
+  "Made key rental-management functions accessible from compatible mobile and desktop browsers.": [
+    "src/content.ts"
+  ],
+  "Property-level financial reporting": [
+    "src/content.ts"
+  ],
+  "Home Rental Management System": [
+    "src/content.ts"
+  ],
+  "Staff needed to manage contracts, renewals, cancellations and financial visibility across more than 20 rental properties, including operational work outside the office.": [
+    "src/content.ts"
+  ],
+  "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer.": [
+    "src/content.ts"
+  ],
+  "Designed and developed a mobile-friendly, web-based rental management system to support operational work outside the office.": [
+    "src/content.ts"
+  ],
+  "Domain design": [
+    "src/content.ts"
+  ],
+  "Separated property, tenant and contract records to support multi-entity workflows, contract generation and payment tracking.": [
+    "src/content.ts"
+  ],
+  "Operating constraints": [
+    "src/content.ts"
+  ],
+  "Access described here is internet-connected through compatible mobile or desktop browsers.": [
+    "src/content.ts"
+  ],
+  "Enabled access to property, tenant and rental records; supported rental contract renewals and sending contract PDFs directly from mobile devices. Staff could review rental and financial reports remotely, including property-level income, expenses and profit/loss. Supported rental operations involving more than 20 properties.": [
+    "src/content.ts"
+  ],
+  "Mar 2025 — ongoing collaboration": [
+    "src/content.ts"
+  ],
+  "Occasional professional collaboration · Remote · Singapore": [
+    "src/content.ts"
+  ],
+  "Principal full-stack experience on HR and administration tools with cloud services. Planning considered data consistency, access control and uptime. Occasional engineering collaboration continues.": [
+    "src/content.ts"
+  ],
+  "Jun 2022 — Present": [
+    "src/content.ts"
+  ],
+  "Leading classroom applications, meeting tools and integrations. Modernizing legacy systems and establishing DevOps and deployment standards. Progressed from Full Stack Developer (June 2021–June 2022).": [
+    "src/content.ts"
+  ],
+  "May 2019 — Jun 2021": [
+    "src/content.ts"
+  ],
+  "Built insurance rate normalization; progressed to engineering direction in October 2019. Led development, operations and partner integrations across quotation and policy issuance.": [
+    "src/content.ts"
+  ],
+  "Jun 2018 — Present": [
+    "src/content.ts"
+  ],
+  "Technical Trainer": [
+    "src/content.ts"
+  ],
+  "Training": [
+    "src/content.ts"
+  ],
+  "Teaching full-stack development from beginner to advanced levels, across backend frameworks and relational and non-relational databases.": [
+    "src/content.ts"
+  ],
+  "User interfaces, backend services, and integrations, chosen around the needs of the system.": [
+    "src/content.ts"
+  ],
+  "Legacy modernization, multi-entity data modeling, and dependable integration between platforms.": [
+    "src/content.ts"
+  ],
+  "System integrations · REST APIs · Technical documentation · CI/CD": [
+    "src/content.ts"
+  ],
+  "Relational, graph, and document databases, with repeatable development and deployment environments.": [
+    "src/content.ts"
+  ],
+  "Leadership & applied AI": [
+    "src/content.ts"
+  ],
+  "Engineering direction and technical training. PACE-RAG demonstrates independently developed retrieval and evidence-aware answers; No Two Mondays demonstrates AI-assisted engineering. Enterprise production RAG delivery is not established.": [
+    "src/content.ts"
+  ],
+  "Team enablement · Stakeholder alignment · RAG · Vector databases · AI-assisted engineering": [
+    "src/content.ts"
+  ],
+  "No Two Mondays · AI-assisted engineering": [
+    "src/evidence.ts"
+  ],
+  "PACE-RAG · implementation & evidence boundaries": [
+    "src/evidence.ts"
+  ],
+  "Top-down incident map. WASD or arrow keys move; E interacts. Use simplified navigation for a non-spatial alternative.": [
+    "src/features/incident-zero/CanvasWorld.tsx"
+  ],
+  "Enter": [
+    "src/features/incident-zero/CanvasWorld.tsx",
+    "src/features/incident-zero/defence/input.ts"
+  ],
+  "Initialising the system map…": [
+    "src/features/incident-zero/CanvasWorld.tsx"
+  ],
+  "Incident map could not start. Simplified navigation keeps the entire story playable.": [
+    "src/features/incident-zero/CanvasWorld.tsx"
+  ],
+  "Retry map": [
+    "src/features/incident-zero/CanvasWorld.tsx"
+  ],
+  "Previous room": [
+    "src/features/incident-zero/CanvasWorld.tsx",
+    "src/features/incident-zero/game.ts"
+  ],
+  "Next room": [
+    "src/features/incident-zero/CanvasWorld.tsx",
+    "src/features/incident-zero/game.ts"
+  ],
+  "Movement controls": [
+    "src/features/incident-zero/CanvasWorld.tsx"
+  ],
+  "Move {{value0}}": [
+    "src/features/incident-zero/CanvasWorld.tsx"
+  ],
+  "In this room": [
+    "src/features/incident-zero/CanvasWorld.tsx"
+  ],
+  "Reliability": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Delivery readiness": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Remaining technical debt": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Stakeholder confidence": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Observability": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Incident report /": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "The Archaeologist / additional insight": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "You inspected every major evidence source before modifying production. The undocumented reporting consumer was found before the intervention. Investigation made the boundary visible.": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "These are illustrative simulation bands, not measured business outcomes, predictions or an assessment of your professional ability.": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "How this outcome was assessed": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "The deterministic model starts with the same incident, adds puzzle safeguards, then applies your intervention and handover trade-offs. Values are clamped to 0–100 internally: below 40 is Low, 40–74 Moderate, and 75–100 High. These thresholds are narrative design choices, not calibrated measurements.": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Every solved reasoning step adds the same reliability and observability credit. Manual reconciliation favours delivery but retains debt; replacement favours debt reduction but loses delivery readiness; the targeted patch improves reliability with a narrower change. Containment adds speed and debt; observation improves signals and confidence; a staged migration trades some speed for lower future debt and stronger safeguards.": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Identified the historical selection rule and tested the delivery responsibilities.": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "a simplified, fictional version of the kinds of systems problems I enjoy solving.": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Explore real engineering work ↗": [
+    "src/features/incident-zero/EndingScreen.tsx",
+    "src/features/incident-zero/IncidentZeroRoute.tsx",
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Download résumé (PDF) ↗": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "Replay incident": [
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
+  "FIELD /": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "/ 6 evidence": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Open current task →": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Help": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Pause": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Current system status": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Incident exploration": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Current room /": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Visit a location, then inspect its people or records. This mode contains the complete incident.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Available locations": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "People & terminals": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "The historical contract is ready to connect at the evidence desk.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Location directory / accessible travel": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Investigation desk": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Evidence, before edits.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Talk to the delivery lead, then compare the records in Finance and HR.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "All names, records and system relationships are synthetic. Nothing here changes a real production system.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Find the evidence. Test the reasoning.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Compare Finance, HR, payroll history and Operations. Open the current task when its evidence is ready. The location directory and simplified navigation provide the complete story without precise movement.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Keyboard": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "WASD / arrows move. E / Enter inspects. R opens the current task. N / B changes rooms. Escape pauses or closes a dialog.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Tab highlights the next choice or ↑ / ↓ button; Shift + Tab goes back. Enter / Space activates it. In dialogs, up/down changes the highlighted button, not the list order. Radio choices use arrow keys; checkboxes use Space.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Touch": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Tap the map to walk, or hold a direction on the pad. Release to stop. Tap Interact nearby or use the direct inspection buttons. Previous / Next room travels; tap dialog choices or puzzle arrows.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Return to investigation": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Recruiter preview / auto-selected demonstration": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "The calendar invite is in five minutes.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Choose the ending you want to preview. I’ll select its decisions for you. This is a demonstration, not a completed investigation.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "The Firefighter / shipped today, paged tomorrow": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "The Great Rewrite / impeccable diagram, awkward Monday": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "The Pragmatic Modernizer / a boundary and a sensible bedtime": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Travel between rooms, inspect people and records, then open the current task. Help keeps the controls available throughout.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "I’m a recruiter. Show me the ending.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Skip conversation": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Decision / Trade-offs": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Payroll closes tomorrow. The reporting consumer has limited regression coverage and its owner is unavailable today. A reviewed one-run correction can meet the deadline; a code change needs captured outputs and rollback. A full migration cannot be verified tonight.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Decision recorded": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Immediate effect": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "What follows": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "The incident can wait.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Progress lives in this tab. Leaving or refreshing starts a fresh incident.": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Resume investigation": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Restart incident": [
+    "src/features/incident-zero/GameShell.tsx"
+  ],
+  "Return to portfolio ↗": [
+    "src/features/incident-zero/GameShell.tsx",
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Incident simulation could not start.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Please retry, or return to the engineering portfolio.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Skip to incident": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Incident Zero · interactive engineering story": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Portfolio /": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "An interactive systems-engineering story.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "A FICTIONAL INCIDENT": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "A REAL KIND OF QUESTION": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Initialising incident…": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Monday / 08:47": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Payroll closes tomorrow.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "The systems disagree.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Finance says the total is wrong. HR says the record is correct. Operations says the integration succeeded.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "You are the engineer. Explore a small office, collect the evidence and decide what should change before production moves again.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Play the incident →": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Preview the engineering decisions": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Allow about 6–12 minutes · keyboard / touch": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "WASD / arrows to move. E / Enter to inspect. Esc to pause. A non-spatial navigation mode and plain-language puzzles are available throughout.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Tap to explore, hold the direction pad to walk, and tap choices to investigate. Direct room and inspection buttons are available throughout.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "System Defence — arcade prototype →": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Protect the system from malicious requests. A short playable combat prototype.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "This interactive story requires JavaScript. The engineering portfolio and public source remain available through normal links.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Three systems converge on an unresolved historical record": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "EXECUTED ≠ CORRECT": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "From conflicting signals to a clear decision": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Discuss a real engineering problem ↗": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "All incident data is synthetic.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "A fictional incident with synthetic data.": [
+    "src/features/incident-zero/IncidentZeroRoute.tsx"
+  ],
+  "Incident interaction": [
+    "src/features/incident-zero/Modal.tsx"
+  ],
+  "INCIDENT ZERO / FIELD NOTES": [
+    "src/features/incident-zero/Modal.tsx"
+  ],
+  "Close interaction": [
+    "src/features/incident-zero/Modal.tsx"
+  ],
+  "Close ×": [
+    "src/features/incident-zero/Modal.tsx"
+  ],
+  "Exclude future changes": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Newest valid change first": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Take one record": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Producer: assign stable event ID": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Create once; preserve through enqueueing, redelivery and retries": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Worker: check / claim processing": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Durable claim by event ID; completed events can be skipped": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Queue: persist and deliver": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "At-least-once delivery; duplicate messages are possible": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Destination: apply with idempotency key": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Remote deduplication uses the same event ID": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Retry transient failure": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Timeout means unknown outcome; bounded retry with the same key": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Failure record / escalation": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Reconcile unknown outcomes; exhausted attempts need an owner": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "HRMS, history, payroll and reporting; selected connections shown below": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Scenario assumptions": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "The producer persists an event ID before enqueueing. The queue can redeliver. One worker checks durable processing state before delivery. The destination atomically deduplicates the same idempotency key within a documented retention window; retries stay within it.": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "If safe retry is unavailable": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "A local “already sent” flag cannot guarantee exactly-once remote effects. If the destination lacks idempotency support, its key has expired, or acceptance is unknown, stop automatic retry and reconcile destination records or escalate to an owner.": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Key evidence": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Today’s HR approval": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "The payroll preview": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "The effective-dated salary history": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Connections": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "How to arrange the steps": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Tab to an ↑ / ↓ button, then Enter or Space to move its row. Shift + Tab goes back. Tab to “Test this reasoning” when ready.": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Tap ↑ or ↓ beside a row to move it. Tap “Test this reasoning” when ready.": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Move {{value0}} up": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Move {{value0}} down": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Apply tested reasoning →": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Test this": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "Why this matters": [
+    "src/features/incident-zero/Puzzles.tsx"
+  ],
+  "← Incident Zero": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "LEVEL": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Encounter status": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Integrity": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "of 3 integrity": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Tool": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Run score / personal best": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Threats remaining": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Pause / help": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "{{value0}} combat arena. WASD or arrows move, pointer aims and fires, 1 and 2 select tools, E restores service, Escape pauses.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Continue to level": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Retry same seed": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "New seed": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Flood Packets ·": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Injection Probes ·": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Service restored": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Undamaged completion": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Level": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Five-level completion bonus": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Level reached:": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "/ 5 · Seed:": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Personal best completed run:": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "· Completed runs:": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  ". Unverified browser-session data. The real engineering work explores resilient delivery, reconciliation and system modernisation.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "WASD / arrows move · pointer aims · hold click to fire": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "1 / 2 or Q switch · E / Enter at terminal · Esc pauses": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Drag the left pad to move. Hold FIRE for nearby, visible targets. Switch tools freely; restore at the unlocked terminal.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Pulse:": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "precise, repeatable, medium range.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Fan:": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "five double-damage short-range packets for nearby groups; slower cadence and wide spread. Pulse reaches distant probes and narrow lanes. Diamonds pursue; triangles mark an amber aim line before firing. A cyan ring signals temporary damage protection.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Three integrity. Each cleared level repairs one point for the next level, capped at three. The real-time action is spatial; the": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "original story": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "offers non-spatial navigation.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Resume run": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Restart same seed": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Start run": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Progress is saved in this tab when browser storage is available. Closing the tab may clear it. No permanent account history. Personal best counts completed five-level runs only. Refresh during combat restores this level’s entry checkpoint paused.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Renderer could not start.": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Retry loading": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Return to story": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Touch movement pad; drag to move": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Neutralise threats → restore terminal": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Diamonds: Flood · Triangles: Probe": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Switch tool": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "FIRE": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Assisted aim": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "Portfolio ↗": [
+    "src/features/incident-zero/defence/DefenceRoute.tsx"
+  ],
+  "EDGE GATEWAY · AUTHORED": [
+    "src/features/incident-zero/defence/floor.ts"
+  ],
+  "EDGE GATEWAY": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "MESSAGE BROKER": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "CACHE CLUSTER": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "AUTHENTICATION SERVICE": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "JOB SCHEDULER": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "STORAGE REPLICA": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "OBSERVABILITY RELAY": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "EDGE GATEWAY · FALLBACK": [
+    "src/features/incident-zero/defence/generation.ts"
+  ],
+  "Escape": [
+    "src/features/incident-zero/defence/input.ts"
+  ],
+  "ZONE {{number}}": [
+    "src/features/incident-zero/defence/renderer.ts"
+  ],
+  "ENTRY": [
+    "src/features/incident-zero/defence/renderer.ts"
+  ],
+  "TERMINAL / LOCKED": [
+    "src/features/incident-zero/defence/renderer.ts"
+  ],
+  "Packet Pulse": [
+    "src/features/incident-zero/defence/simulation.ts"
+  ],
+  "Firewall Fan": [
+    "src/features/incident-zero/defence/simulation.ts"
+  ],
+  "Follow the records. Keep the preview safe.": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "HISTORY": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "PAYROLL": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "REPORTING": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "The walls have become service boundaries.": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "INSPECT": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "Finance reconciliation": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "October preview: employee #1042 differs by RM1,000. Finance expected RM8,500; payroll used RM7,500. This is a synthetic incident, not a real payroll report.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "HR approval": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Employee #1042 · approved salary RM8,500 · effective 01 October. HR displays today’s approved record, not the record used by the export.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Payroll preview": [
+    "src/features/incident-zero/story.ts",
+    "src/features/incident-zero/story.ts"
+  ],
+  "Target date: 15 October. Selected salary: RM7,500. Preview only; no money has been disbursed. Reconcile before closing payroll.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Effective-dated history": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "01 January: RM7,500. 01 October: RM8,500. 01 November: RM9,000. The future increase must not leak into October payroll.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Integration log": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "02:14 SUCCESS means the HTTP request completed. A timeout at 02:13 triggered a retry; the destination later accepted both deliveries. No stable event key or reconciliation check.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Legacy resolver": [
+    "src/features/incident-zero/story.ts",
+    "src/features/incident-zero/story.ts"
+  ],
+  "The export takes the first matching history row without descending date order. An undocumented reporting job also consumes this resolver. Changing its contract affects two consumers.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Monday, 08:47. Payroll closes tomorrow. Finance, HR and Operations each have a different version of “correct”. Find evidence before changing production.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "What is the boundary?": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "I will inspect the records.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Keep the payroll preview safe. We can stop an export; we cannot undo a payment with a prettier architecture diagram.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Visit Finance, HR and Operations. Compare what was approved, what was selected, and what actually arrived. The evidence desk keeps your notes.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "The total does not match what HR approved. One synthetic employee is enough to trace it: #1042. The difference is RM1,000.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "We have not disbursed anything. The preview is the right place to investigate. Please preserve the reconciliation trail.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "The approved record is RM8,500 from 01 October. I checked it this morning. That does not tell us which historical row payroll selected.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "History matters here. There is also a future increase. “Latest” and “valid for payroll date” are different questions.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "The job finished at 02:14. No errors in the completion log. A request timed out just before that, so the worker retried.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "We count completed requests, not reconciled outcomes. The destination accepted the original and the retry. A successful job can still deliver the wrong thing twice.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "This resolver predates the current HR interface. The payroll export and a reporting job share it. Nobody wrote that second dependency down.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Inspect the resolver terminal. If you change date semantics, test both consumers. A small change still needs an explicit boundary.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Reception": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Delivery lead": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Finance": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Finance analyst": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "HR partner": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Salary history": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Operations": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Operations engineer": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Server room": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "System owner": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Architecture space": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Reconcile this payroll run manually": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Reconcile the preview now. Get Finance approval and preserve an audit trail; leave the resolver unchanged.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Rewrite the integration tonight": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Replace the resolver and export together. Accept a broad change under the current deadline.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Patch the date resolver + regression test": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Change the historical selection rule. Test the payroll and reporting consumers; preserve a rollback.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Close the incident after reconciliation": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Prioritise the deadline. Keep the remaining dependency risk in the incident record.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Add reconciliation and an operational owner": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Compare approved and delivered outcomes; name an escalation owner. Defer the migration.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Plan a staged migration behind the tested boundary": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Keep reconciliation and failure ownership. Plan incremental migration after the consumer owner returns; require funded test time and rollback.": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "The Firefighter": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "The Great Rewrite": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "The Pragmatic Modernizer": [
+    "src/features/incident-zero/story.ts"
+  ],
+  "Could not load this language. Please try again.": [
+    "src/i18n/Experience.tsx",
+    "src/i18n/Experience.tsx"
+  ],
+  "Language changed to {{language}}.": [
+    "src/i18n/Experience.tsx"
+  ],
+  "Language": [
+    "src/i18n/controls.tsx",
+    "src/i18n/controls.tsx",
+    "src/i18n/controls.tsx"
+  ],
+  "Machine translated from English": [
+    "src/i18n/controls.tsx"
+  ],
+  "Reading mode": [
+    "src/i18n/controls.tsx",
+    "src/i18n/controls.tsx"
+  ],
+  "Horizontal": [
+    "src/i18n/controls.tsx"
+  ],
+  "Vertical": [
+    "src/i18n/controls.tsx"
+  ],
+  "Machine Translation Notice": [
+    "src/i18n/controls.tsx"
+  ],
+  "This page has been automatically translated from English. Translations may contain errors, inaccuracies, or differences in meaning. For the most accurate information about my professional experience, projects, and achievements, please refer to the original English version.": [
+    "src/i18n/controls.tsx"
+  ],
+  "Some sections are still in English.": [
+    "src/i18n/controls.tsx"
+  ],
+  "View Original English Version": [
+    "src/i18n/controls.tsx"
+  ],
+  "Name pronunciation (approximate)": [
+    "src/i18n/controls.tsx",
+    "src/i18n/controls.tsx"
+  ],
+  "MMCATS Modern | Mohd. Paramasvara": [
+    "src/i18n/metadata.ts"
+  ],
+  "Evidence-backed Rails modernization, local verification and release limitations.": [
+    "src/i18n/metadata.ts"
+  ],
+  "NAAE evolution | Mohd. Paramasvara": [
+    "src/i18n/metadata.ts"
+  ],
+  "Narrative ASCII Art Engine: saved artwork, rendering architecture and version boundaries.": [
+    "src/i18n/metadata.ts"
+  ],
+  "Multilingual engineering | Mohd. Paramasvara": [
+    "src/i18n/metadata.ts"
+  ],
+  "Eleven portfolio locales: canonical English, direction-aware presentation and translation maintenance.": [
+    "src/i18n/metadata.ts"
+  ],
+  "Mohd. Paramasvara | Principal Full-Stack Engineer": [
+    "src/i18n/metadata.ts"
+  ],
+  "Mohd. Paramasvara — Principal Full-Stack Engineer, technical lead and software architect. Full-stack systems, legacy modernization and engineering leadership.": [
+    "src/i18n/metadata.ts"
+  ],
+  "Work with Mohd. Paramasvara | Software Architecture & Technical Leadership": [
+    "src/i18n/metadata.ts"
+  ],
+  "Software architecture, system modernisation and technical leadership for complex product and operational workflows.": [
+    "src/i18n/metadata.ts"
+  ],
+  "No Two Mondays — Engineering case study | Mohd. Paramasvara": [
+    "src/i18n/metadata.ts"
+  ],
+  "Human-directed engineering of an extensible simulation with AI: modular state ownership, save compatibility and verification.": [
+    "src/i18n/metadata.ts"
+  ],
+  "PACE-RAG — Engineering case study | Mohd. Paramasvara": [
+    "src/i18n/metadata.ts"
+  ],
+  "PACE-RAG: Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation. Reviewed answers and local retrieval; live generative inference disabled.": [
+    "src/i18n/metadata.ts"
+  ],
+  "Incident Zero — Interactive engineering story | Mohd. Paramasvara": [
+    "src/i18n/metadata.ts"
+  ],
+  "A short interactive systems-engineering puzzle. A fictional incident with synthetic data.": [
+    "src/i18n/metadata.ts"
+  ],
+  "System Defence — Arcade prototype | Mohd. Paramasvara": [
+    "src/i18n/metadata.ts"
+  ],
+  "A short, optional top-down combat prototype. Five generated levels, two defensive tools, and five services to restore.": [
+    "src/i18n/metadata.ts"
+  ],
+  "System modernisation": [
+    "src/problemSummaries.ts"
+  ],
+  "Legacy software slowing delivery": [
+    "src/problemSummaries.ts"
+  ],
+  "Complex product engineering": [
+    "src/problemSummaries.ts"
+  ],
+  "Business workflows that do not fit a simple app": [
+    "src/problemSummaries.ts"
+  ],
+  "Systems becoming hard to extend or operate": [
+    "src/problemSummaries.ts"
+  ],
+  "Applied AI integration": [
+    "src/problemSummaries.ts"
+  ],
+  "A knowledge workflow that needs more than an AI demo": [
+    "src/problemSummaries.ts"
+  ],
+  "Backend": [
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Plain PHP": [
+    "src/technology.ts"
+  ],
+  "PHP Data Objects (PDO)": [
+    "src/technology.ts"
+  ],
+  "Database": [
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Symfony": [
+    "src/technology.ts"
+  ],
+  "Web server": [
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Apache": [
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Hosting": [
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Third-party cloud provider": [
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Legacy systems": [
+    "src/technology.ts"
+  ],
+  "Application": [
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "AWS EC2": [
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Modern systems": [
+    "src/technology.ts"
+  ],
+  "Data": [
+    "src/technology.ts"
+  ],
+  "Web servers": [
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Nginx": [
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "AWS ECS": [
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Kubernetes": [
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Frontend": [
+    "src/technology.ts"
+  ],
+  "Engineering tools": [
+    "src/technology.ts"
+  ],
+  "Playwright": [
+    "src/technology.ts"
+  ],
+  "Infrastructure": [
+    "src/technology.ts"
+  ],
+  "Cloud": [
+    "src/technology.ts",
+    "src/technology.ts"
+  ],
+  "Google Cloud (GCP)": [
+    "src/technology.ts"
+  ],
+  "Ruby on Rails": [
+    "src/technology.ts"
+  ],
+  "Microsoft Azure": [
+    "src/technology.ts"
+  ],
+  "Hotel booking constraint API": [
+    "src/data/public-github.json"
+  ],
+  "API experiment": [
+    "src/data/public-github.json"
+  ],
+  "An interview project that allocates hotel rooms under adult, child and infant occupancy rules.": [
+    "src/data/public-github.json"
+  ],
+  "Inspectable booking logic, a reusable constraint parser and tests covering valid and rejected requests.": [
+    "src/data/public-github.json"
+  ],
+  "This portfolio, in source": [
+    "src/data/public-github.json"
+  ],
+  "Frontend engineering": [
+    "src/data/public-github.json"
+  ],
+  "The React and TypeScript source behind this static engineering portfolio.": [
+    "src/data/public-github.json"
+  ],
+  "Prerendered content, native disclosures, theme handling and production-artifact checks are available to inspect.": [
+    "src/data/public-github.json"
+  ],
+  "Closing-time checklist": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Tomorrow’s agenda": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Someone else’s inbox": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "The door policy": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "An internal memo": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A team exercise": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A footnote at five": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Career development": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Business as usual": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Permission to clock out": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Beyond the dashboard": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A familiar arrangement": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Awaiting approval": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "An unusual visitor": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A management contribution": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Professional boundaries": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Recognition pending": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A revised understanding": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Outside the service agreement": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Restricted circulation": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Items awaiting a desk": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Unofficial office business": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Personal effects": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A personal release": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A circulation problem": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "An extended meeting": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "An address on file": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "For the next shift": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Additional responsibilities": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "An operations perspective": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Time between alerts": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A developer’s perspective": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A different kind of signal": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A personnel inquiry": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "A qualified success": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Access under review": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Additional attendees": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "An unexpected response": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Attendance review": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Availability subject to change": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Break-room minutes": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Handling instructions": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Regarding your earlier account": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "The seating plan": [
+    "src/data/ntm-crawl-summary.json"
+  ],
+  "Local deterministic build-time execution against the publication-approved registry; not a captured production session.": [
+    "src/data/pace-php-example.json"
+  ],
+  "(Modern systems)": [
+    "src/data/pace-php-example.json"
+  ]
+}

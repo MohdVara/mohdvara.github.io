@@ -52,3 +52,6 @@ public/pace-rag/
 # Local v1.6 audit, build, browser and bundle measurements.
 /output/pace-v1.6/
 /output/performance/
+
+# Local case-study authoring and QA artifacts
+/output/case-study-expansion/

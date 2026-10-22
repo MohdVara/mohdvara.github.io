@@ -1,3 +1,5 @@
+import { text, i18n, currentLocale } from "../../../i18n/config";
+import { language } from "../../../i18n/languages";
 import Phaser from 'phaser';
 import { createPortfolioGame } from '../PortfolioGame';
 import { newCombat, step, weapons, distance, type Combat, type WeaponId } from './simulation';
@@ -60,9 +62,9 @@ export function createDefence(host: HTMLElement, initialWeapon: WeaponId, onHud:
                 floor.strokeRect(w.x + .5, w.y + .5, w.w - 1, w.h - 1);
             }
             for (const c of state.floor.chambers)
-                this.labels.push(this.add.text(c.x + 12, c.y + 10, `ZONE ${c.id + 1}`, { fontFamily: "monospace", fontSize: 11, color: "#718375" }));
-            this.labels.push(this.add.text(state.floor.entry.x - 34, state.floor.entry.y - 35, "ENTRY", { fontFamily: "monospace", fontSize: 11, color: "#aeb9a8" }));
-            this.terminalText = this.add.text(730, 490, "TERMINAL / LOCKED", { fontFamily: "monospace", fontSize: 11, color: "#aeb9a8" });
+                this.labels.push(this.add.text(c.x + 12, c.y + 10, text("ZONE {{number}}", {number: c.id + 1}), { fontFamily: language(currentLocale()).fonts, fontSize: 11, color: "#718375" }));
+            this.labels.push(this.add.text(state.floor.entry.x - 34, state.floor.entry.y - 35, text("ENTRY"), { fontFamily: language(currentLocale()).fonts, fontSize: 11, color: "#aeb9a8" }));
+            this.terminalText = this.add.text(730, 490, text("TERMINAL / LOCKED"), { fontFamily: language(currentLocale()).fonts, fontSize: 11, color: "#aeb9a8" });
             this.labels.push(this.terminalText);
         }
         create() {
@@ -85,7 +87,7 @@ export function createDefence(host: HTMLElement, initialWeapon: WeaponId, onHud:
             g.lineStyle(2, 0xa4d5ae);
             g.strokeRect(t.x - 14, t.y - 13, 28, 20);
             g.lineBetween(t.x - 8, t.y + 13, t.x + 8, t.y + 13);
-            this.terminalText.setText(unlocked ? 'TERMINAL / RESTORE' : 'TERMINAL / LOCKED').setColor(unlocked ? '#b9e3b9' : '#aeb9a8');
+            this.terminalText.setText(text(unlocked ? 'TERMINAL / RESTORE' : 'TERMINAL / LOCKED')).setColor(unlocked ? '#b9e3b9' : '#aeb9a8');
             for (const e of state.enemies) {
                 if (e.hp <= 0)
                     continue;
@@ -172,6 +174,9 @@ export function createDefence(host: HTMLElement, initialWeapon: WeaponId, onHud:
         }
     });
     resize.observe(host);
+    const translateScene = () => {scene?.buildFloor();scene?.draw();};
+    i18n.on("languageChanged", translateScene);
+    document.fonts.addEventListener("loadingdone", translateScene);
     game.events.on('destroy', () => { scene = undefined; });
     game.events.on('boot', () => {
         if (!game.canvas)
@@ -207,6 +212,8 @@ export function createDefence(host: HTMLElement, initialWeapon: WeaponId, onHud:
                 game.loop.sleep();
         }, restart() { input.clear(); state = newCombat(state.weapon, state.floor, integrity); state.status = 'playing'; scene?.draw(); emit(); game.loop.wake(); host.focus({ preventScroll: true }); }, destroy() {
             disposed = true;
+            i18n.off("languageChanged", translateScene);
+            document.fonts.removeEventListener("loadingdone", translateScene);
             diagnostics?.destroy();
             if (import.meta.env.DEV)
                 delete (window as Window & {

@@ -2,15 +2,15 @@
 .project-network svg { position: absolute; inset: 18px 0 0; width: 100%; height: calc(100% - 30px); color: var(--accent); pointer-events: none; }
 .project-network .diagram-connection { stroke: currentColor; stroke-width: 1; opacity: .2; transition: opacity 180ms ease, stroke-width 180ms ease; }
 .project-network .diagram-connection.connected { opacity: .65; stroke-width: 1.5; }
-.node { position: relative; display: flex; align-items: center; gap: 12px; min-height: 50px; border: 1px solid var(--sketch-border); background: var(--sketch-surface); color: var(--visual-text); text-align: left; padding: 10px 12px; font-size: .8125rem; cursor: pointer; transition: border-color 180ms ease, color 180ms ease; }
+.node { position: relative; display: flex; align-items: center; gap: 12px; min-height: 50px; border: 1px solid var(--sketch-border); background: var(--sketch-surface); color: var(--visual-text); text-align: start; padding: 10px 12px; font-size: .8125rem; cursor: pointer; transition: border-color 180ms ease, color 180ms ease; }
 .node .mono { color: var(--accent); font-size: 0.75rem; }
 .node.active { border-color: var(--accent); color: var(--text); }
-.node-dot { flex-shrink: 0; margin-left: auto; width: 6px; height: 6px; border: 1px solid var(--accent); border-radius: 50%; }
+.node-dot { flex-shrink: 0; margin-inline-start: auto; width: 6px; height: 6px; border: 1px solid var(--accent); border-radius: 50%; }
 .node.active .node-dot { background: var(--accent); }
 .node-explanation { margin-top: 14px; min-height: 96px; font-size: .8125rem; line-height: 1.65; color: var(--muted); }
-.network-meetings .node:nth-of-type(2) { margin-left: 18px; }
-.network-insurance .node:nth-of-type(1) { margin-right: 20px; }
-.network-insurance .node:nth-of-type(3) { margin-left: 20px; }
+.network-meetings .node:nth-of-type(2) { margin-inline-start: 18px; }
+.network-insurance .node:nth-of-type(1) { margin-inline-end: 20px; }
+.network-insurance .node:nth-of-type(3) { margin-inline-start: 20px; }
 .network-hr { grid-template-columns: 1fr 1fr; gap: 36px 12px; }
 .network-hr .node:first-of-type { grid-column: 1 / -1; }
 .network-hr .node:not(:first-of-type) { flex-direction: column; align-items: start; }
@@ -27,7 +27,7 @@ svg .branch-active { opacity: .65; }
 svg .branch-rest { opacity: .18; }
 .capability-branches { display: grid; gap: 16px; padding: 28px 0 28px 28px; position: relative; }
 .capability-branch { position: relative; display: grid; grid-template-columns: 1.5fr 1fr; gap: 6px 40px; }
-.capability-branch button { min-height: 44px; border: 0; border-bottom: 1px solid var(--line); background: var(--background); color: var(--muted); text-align: left; padding: 8px; font-size: .8125rem; cursor: pointer; line-height: 1.4; transition: color 180ms ease, border-color 180ms ease; }
+.capability-branch button { min-height: 44px; border: 0; border-bottom: 1px solid var(--line); background: var(--background); color: var(--muted); text-align: start; padding: 8px; font-size: .8125rem; cursor: pointer; line-height: 1.4; transition: color 180ms ease, border-color 180ms ease; }
 .capability-branch button:first-of-type { grid-row: span 2; align-self: center; font-size: .9375rem; color: var(--text); }
 .capability-branch button .mono { display: block; font-size: 0.75rem; color: var(--accent); margin-bottom: 4px; }
 .capability-branch.branch-active button { border-color: var(--button-border); }
@@ -64,13 +64,13 @@ svg .branch-rest { opacity: .18; }
  .capability-system { grid-template-columns: 1fr; gap: 28px; }
  .capability-detail { min-height: 360px; }
  .capability-branch { gap: 6px 22px; }
- .capability-branches { padding-left: 16px; }
+ .capability-branches { padding-inline-start: 16px; }
  .capability-branch button:first-of-type { font-size: .8125rem; }
  .capability-branch button { font-size: .75rem; }
  .experience-grid { grid-template-columns: 1fr; }
  .career-path { height: 165px; max-width: none; margin-top: 28px; }
  .career-path svg { display: none; }
- .career-node { position: relative; transform: none; left: auto !important; top: auto !important; display: flex; align-items: center; gap: 16px; min-height: 36px; width: 100%; padding-left: 20px; font-size: .75rem; border-left: 1px solid var(--line); }
+ .career-node { position: relative; transform: none; left: auto !important; top: auto !important; display: flex; align-items: center; gap: 16px; min-height: 36px; width: 100%; padding-inline-start: 20px; font-size: .75rem; border-inline-start: 1px solid var(--line); }
  .career-node::before { content: ""; position: absolute; left: -3px; width: 5px; height: 5px; border: 1px solid var(--accent); background: var(--section-surface); }
  .career-node.active::before { background: var(--accent); }
  .career-path figcaption { bottom: -8px; font-size: 0.75rem; }
@@ -91,5 +91,5 @@ svg .branch-rest { opacity: .18; }
 
 /* The four disciplines explain their scope before visitors explore practices. */
 .capability-branch button:first-of-type .capability-summary { display: block; margin-top: 6px; font-size: .75rem; color: var(--muted); line-height: 1.5; }
-.role-index { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 24px; margin-right: 8px; border: 1px solid var(--line); color: var(--text); }
+.role-index { display: inline-flex; align-items: center; justify-content: center; min-width: 24px; min-height: 24px; margin-inline-end: 8px; border: 1px solid var(--line); color: var(--text); }
 .timeline .reading-active .role-index { border-color: var(--accent); }

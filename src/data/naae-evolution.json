@@ -1,0 +1,139 @@
+[
+  {
+    "id": "v0.2",
+    "preview": "/images/naae/v0.2.png",
+    "original": "/images/naae/v0.2.svg",
+    "previewWidth": 1800,
+    "previewHeight": 1013,
+    "sha256": "76028f320120e8c05f0a0be52719c78b35a2b53bd96d7aa9009d4374755d3b5b",
+    "config": {
+      "rendererVersion": "0.2.0",
+      "seed": 1842,
+      "width": 1800,
+      "height": 1012.5,
+      "maxTexture": 11000
+    },
+    "previewSha256": "67b8c6fbd0fd65e5413f4013bd77963fdc27ffac25edf7ac5541ef5ad7702ce6",
+    "provenance": "saved-compatible-renderer-reproduction"
+  },
+  {
+    "id": "v0.3",
+    "preview": "/images/naae/v0.3.png",
+    "original": "/images/naae/v0.3.svg",
+    "previewWidth": 1400,
+    "previewHeight": 788,
+    "sha256": "686923b82a87151704be89f9d93d5e87a625ab3e8cd379e1e1941df7533c513c",
+    "config": {
+      "rendererVersion": "0.3.0",
+      "seed": 1842,
+      "width": 1800,
+      "height": 1012.5,
+      "coverage": {
+        "profile": "continuous",
+        "target": 1,
+        "intensity": 0.7,
+        "backgroundColor": "#101713",
+        "colorVariation": 0.8,
+        "textureMode": "mixed",
+        "wordDensity": 0.48,
+        "atmosphericDetail": 0.6,
+        "backgroundDetail": 0.7,
+        "foregroundDetail": 0.85,
+        "textureComplexity": 0.65,
+        "minWeight": 0.015,
+        "maxWeight": 0.4,
+        "depthContrast": 0.7,
+        "narrativeContrast": 4.5,
+        "minimumContrast": 2.3,
+        "materialIntensity": {
+          "atmosphere": 0.25,
+          "cloud": 0.36,
+          "rock": 0.55,
+          "leaves": 0.78,
+          "bark": 0.85,
+          "water": 0.5,
+          "soil": 0.67,
+          "shadow": 0.3
+        },
+        "intent": "digital",
+        "fabricColor": "#101713",
+        "process": "dtg",
+        "detailLoss": 0.25,
+        "exclusions": []
+      },
+      "maxTexture": 30000
+    },
+    "previewSha256": "b942aba43487e850b0571faf124259ead802c60b663673bffe124b8713818cac",
+    "provenance": "saved-source-export"
+  },
+  {
+    "id": "v0.4",
+    "preview": "/images/naae/v0.4.png",
+    "original": "/images/naae/v0.4.svg",
+    "previewWidth": 1400,
+    "previewHeight": 788,
+    "sha256": "84ed13b596b71ab4ad720c879af601940ba8f786ceed59b12af6819008a631f7",
+    "config": {
+      "rendererVersion": "0.4.0",
+      "seed": 1842,
+      "width": 1800,
+      "height": 1012.5,
+      "renderStyle": "pixelHybrid",
+      "coverage": {
+        "profile": "continuous",
+        "target": 1,
+        "intensity": 0.7,
+        "backgroundColor": "#101713",
+        "colorVariation": 0.8,
+        "textureMode": "mixed",
+        "wordDensity": 0.18,
+        "atmosphericDetail": 0.6,
+        "backgroundDetail": 0.7,
+        "foregroundDetail": 0.85,
+        "textureComplexity": 0.65,
+        "minWeight": 0.015,
+        "maxWeight": 0.4,
+        "depthContrast": 0.7,
+        "narrativeContrast": 4.5,
+        "minimumContrast": 2.3,
+        "materialIntensity": {
+          "atmosphere": 0.25,
+          "cloud": 0.36,
+          "rock": 0.55,
+          "leaves": 0.78,
+          "bark": 0.85,
+          "water": 0.5,
+          "soil": 0.67,
+          "shadow": 0.3
+        },
+        "intent": "digital",
+        "fabricColor": "#101713",
+        "process": "dtg",
+        "detailLoss": 0.25,
+        "exclusions": []
+      },
+      "pixel": {
+        "tileEmphasis": 0.35,
+        "shapeSimplification": 0.3,
+        "steppedContours": 0.5,
+        "palettePreset": "borneoDusk",
+        "paletteDepth": 18,
+        "layerSeparation": 0.8,
+        "macroBalance": 0.55,
+        "glyphSets": {
+          "atmosphere": ".:'-~",
+          "cloud": "-=~:",
+          "rock": "^/\\=_#H",
+          "leaves": "oO*+%&#@",
+          "bark": "|!/\\:",
+          "water": "~_=-.",
+          "soil": "=#/\\:+",
+          "shadow": ".:-~"
+        }
+      },
+      "maxTexture": 30000
+    },
+    "previewSha256": "01894e5378a7190553f529400dcd4d30d795d3ae8ec64cd5668d6a267a7c200b",
+    "provenance": "saved-source-export"
+  }
+]
