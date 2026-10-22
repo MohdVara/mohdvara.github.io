@@ -136,3 +136,21 @@
     mask-composite: add;
   }
 }
+
+/* Frame the homepage landscape within a desktop screen without clipping copy.
+   Short screens and enlarged text retain natural document flow. */
+@media (min-width: 1100px) {
+  :root:not([data-text-size="largest"]) .hero-environment > .hero {
+    min-height: calc(100svh - var(--header-height, 92px));
+    padding-block: clamp(24px, 4vh, 44px);
+  }
+  :root:not([data-text-size="largest"]) .hero-environment h1 {
+    font-size: clamp(3rem, 5vw, 4.2rem);
+    margin-top: 18px;
+  }
+  :root:not([data-text-size="largest"]) .hero-environment .hero-role { margin-top: 20px; }
+  :root:not([data-text-size="largest"]) .hero-environment .hero-description { margin-top: 16px; }
+  :root:not([data-text-size="largest"]) .hero-environment .actions { margin-top: 20px; }
+  :root:not([data-text-size="largest"]) .hero-environment .hero-social { margin-top: 12px; }
+  :root:not([data-text-size="largest"]) .hero-environment .hero-projects + .hero-social { margin-top: 0; }
+}
