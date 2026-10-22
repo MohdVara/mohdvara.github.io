@@ -124,3 +124,21 @@ The Contact artwork now uses an explicit many-to-one visual narrative. Four wind
 The outlet's central current uses the brightest existing water ink and sparse ASCII `^` marks to indicate upward flow in the reflected view. This is a water-current cue, not an interactive button or separate diagram overlay. Terrain, canopy and water still use the same character-grid renderer and shared motion policy. Paused/reduced-motion presentation shows the complete stream network and direction cue.
 
 Tests check that the outlet course is calmer than the winding catchments, cue glyphs stay in the outlet, all tagged tributaries connect to the main channel, and separate tributaries do not cross outside it. The hero art is unchanged by this refinement.
+
+## NAAE v0.3 integration — 21 October 2026
+
+This section supersedes the earlier character/palette treatment for forests. Each existing forest now uses one finer native Canvas grid with NAAE-derived landscape words and varied seeded material marks. Directional trunks and branches retain their shapes. Moss, olive and warm timber distinguish the dark forest; the separate daylight palette uses blue-gray distance, fern/sage canopy, umber branches and restrained ochre patches. Nearby light foliage and letters have more contrast than the first faded trial; distant atmosphere remains quiet. Reading masks still protect the professional content. The final light-only adjustment leaves the tested 390/1440 dark screenshots identical.
+
+The actual NAAE v0.3 Borneo export is available through “Explore the written landscape”, with five authored passages, region highlighting, zoom and pan. Small semantic accents connect selected work, experience, capabilities and About to the same material vocabulary. Professional copy remains ordinary HTML. The full export has its own dark proof ground in either theme; portfolio scenes use their dedicated theme palettes.
+
+A separately scaled SVG overlay was rejected during visual review because it produced competing glyph sizes and a gray wash. The native forest uses a single grid, its existing silhouettes and animation. This is an adaptation of NAAE vocabulary and material color, not a claim that the animated forest is the original NAAE composition or contains all five passages. River geometry, tributaries and motion retain their established treatment.
+
+Desktop columns scale with width (approximately one column per six CSS pixels, 128–400 columns); mobile below 600px keeps 84 columns. This adds fine detail without shrinking a full panoramic poster onto a phone. Continuous source coverage and visual intensity are independent: a cell can contain a faint character while still giving the landscape breathing room. Website masks deliberately reduce visible intensity behind content.
+
+The subsequent desktop framing refinement reduces oversized top/bottom whitespace, title size and stacked link gaps. At widths from 1100px, default text uses a minimum hero height of the available viewport below the measured header. Content remains intrinsically sized: there is no fixed height or clipping if a short screen or text enlargement needs more room. Mobile and Largest text keep their natural stacked layout. The result fits 1440×900, 1900×960 and 1920×1080, preserving the complete scene fade-out and links within the first screen. This changes desktop framing in both themes; the earlier identical-dark screenshot claim concerns the light-color adjustment alone.
+
+## Current follow-up: consistent river and page art
+
+All five forest/river pairs now share the same fine botanical character treatment. Each page retains its own seeded composition. Aerial scenes use warm exposed silt, teal/blue-green water, fern/olive canopy and occasional water words, with most channel characters staying as flowing marks. Light and dark inks are independently tuned. This extends the homepage's visual language without replacing natural tributaries with diagram lines or repeating a single scene across pages.
+
+The two optional reading links and their explorer interface have been removed at the user's request. Artwork remains decorative and the existing portfolio content/actions keep their hierarchy. The desktop first-screen framing remains; removing the extra hero reading link reduces stacked content further.
