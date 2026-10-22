@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useCallback, useEffect, useRef, useState, type ReactNode } from "react";
 import { language, languages } from "./languages";
 import { useExperience } from "./context";
 import { text } from "./config";
@@ -7,14 +7,28 @@ import { localizedPath } from "./localeResolution";
 export function LanguageSwitcher() {
   const {locale, changeLocale, busy} = useExperience();
   const panel = useRef<HTMLDetailsElement>(null);
+  const close = useCallback(() => {
+    const element = panel.current;
+    if (!element?.open) return;
+    const focused = element.contains(document.activeElement);
+    element.open = false;
+    if (focused) element.querySelector("summary")?.focus({preventScroll: true});
+  }, []);
+  useEffect(() => {
+    const outside = (event: PointerEvent) => {if (!panel.current?.contains(event.target as Node)) close();};
+    const back = () => close();
+    document.addEventListener("pointerdown", outside);
+    window.addEventListener("popstate", back);
+    return () => {document.removeEventListener("pointerdown", outside);window.removeEventListener("popstate", back);};
+  }, [close]);
   return <details className="language-control" ref={panel} onKeyDown={event => {
-    if (event.key === "Escape" && panel.current) {panel.current.open = false; panel.current.querySelector("summary")?.focus();}
+    if (event.key === "Escape") close();
   }}>
-    <summary aria-label={text("Language")}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6h14M5 18h14"/></svg><bdi>{language(locale).nativeName}</bdi></summary>
+    <summary aria-label={`${text("Language")}: ${language(locale).nativeName}`}><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6h14M5 18h14"/></svg><bdi>{language(locale).nativeName}</bdi></summary>
     <div className="language-panel">
-      <label><span>{text("Language")}</span><select aria-label={text("Language")} value={locale} aria-busy={busy} onChange={event => {
+      <label><span>{text("Language")}</span><select aria-label={text("Language")} value={locale} aria-busy={busy} onChange={async event => {
         const selected = languages.find(item => item.locale === event.target.value);
-        if (selected) changeLocale(selected.locale);
+        if (selected && await changeLocale(selected.locale)) close();
       }}>{languages.map(item => <option key={item.locale} value={item.locale} lang={item.locale} dir={item.direction}>{item.nativeName} · {item.englishName}</option>)}</select></label>
       {locale !== "en" && <p className="translation-status">{text("Machine translated from English")}</p>}
       <ReadingModeToggle />

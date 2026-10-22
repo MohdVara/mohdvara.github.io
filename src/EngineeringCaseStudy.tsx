@@ -96,7 +96,7 @@ function Naae() {
         <li>{text("Integrity diagnostics → SVG text, PNG and scene configuration")}</li>
       </ol>
       <p>{text("Coverage counts visibly occupied eligible cells; protected narrative spaces are excluded. Intensity controls appearance independently of occupancy. Pixel-Hybrid adds stepped geometry and tile-coherent glyph selection while sharing narrative protection. Diagnostics are engineering checks, not aesthetic quality scores.")}</p>
-      <p>{text("The studio/package v0.4 label is separate from rendererVersion: Organic uses 0.3.0; Pixel-Hybrid uses 0.4.0. Scene mode is experimental. Supported text is measured Latin ASCII; physical print quality and a public studio release are pending.")}</p>
+      <p id="naae-limitations">{text("The studio/package v0.4 label is separate from rendererVersion: Organic uses 0.3.0; Pixel-Hybrid uses 0.4.0. Scene mode is experimental. Supported text is measured Latin ASCII; physical print quality and a public studio release are pending.")}</p>
     </section>
   </>;
 }
@@ -111,10 +111,6 @@ export default function EngineeringCaseStudy() {
         <h1>{text(titles[study].title)}</h1><a href={localizedHref("/#public-engineering")}>{text("Public engineering")} ↑</a>
       </header></PageLandscape>
       <CaseStudyQuickRead study={study} />
-      <nav className="engineering-contents" aria-label={text("Case study contents")}>
-        <a href={study === "multilingual-engineering" ? "#localization-pipeline" : "#architecture"}>{text("Architecture and decisions")}</a>
-        <a href={study === "mmcats-modern" ? "#verification" : study === "naae" ? "#evolution" : "#direction-demo"}>{text("Inspect the evidence")}</a>
-      </nav>
       {study === "mmcats-modern" ? <Mmcats /> : study === "naae" ? <Naae /> : <Multilingual />}
       <footer><a href={localizedHref("/#public-engineering")}>{text("Return to public engineering")}</a></footer>
     </main>

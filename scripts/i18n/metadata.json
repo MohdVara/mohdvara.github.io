@@ -9009,6 +9009,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "ar": {
@@ -18019,6 +18043,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "ja": {
@@ -27029,6 +27077,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "zh-Hans": {
@@ -36039,6 +36111,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "es": {
@@ -45049,6 +45145,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "fr": {
@@ -49735,8 +49855,10 @@
       "React interface": {
         "status": "machine_translated",
         "sourceHash": "5e01f93a2953d8c77947e090736ff1ed30eba376cf56f04de484b9adde56ee80",
-        "provider": "google-translate-development-bootstrap",
-        "model": "service-version-unspecified"
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       },
       "React · Vue · TypeScript": {
         "status": "machine_translated",
@@ -54059,6 +54181,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "de": {
@@ -63069,6 +63215,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "pt-BR": {
@@ -67755,8 +67925,10 @@
       "React interface": {
         "status": "machine_translated",
         "sourceHash": "5e01f93a2953d8c77947e090736ff1ed30eba376cf56f04de484b9adde56ee80",
-        "provider": "google-translate-development-bootstrap",
-        "model": "service-version-unspecified"
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       },
       "React · Vue · TypeScript": {
         "status": "machine_translated",
@@ -72079,6 +72251,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "hi": {
@@ -81089,6 +81285,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     },
     "ta": {
@@ -90099,6 +90319,30 @@
         "sourceHash": "3b6a62a73dc774378ef54686b80f7fe585dfd23416a96a1d65e3d60222cd2d23",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Compare artwork": {
+        "status": "machine_translated",
+        "sourceHash": "1a5ee53cee032f1e87fbfd2d9c2d5199494a68c53f357b38519993f4eb8a44cb",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Delivery decisions": {
+        "status": "machine_translated",
+        "sourceHash": "6f4051103188c3260a661f13f7f346288dc997b60cc5004fca39d41d878fe0b8",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
+      },
+      "Professional delivery": {
+        "status": "machine_translated",
+        "sourceHash": "7d0e0c771c2d58c8b288730856104c69c46266de2441357576839d8ae4d8a11a",
+        "provider": "coding-assistant",
+        "model": "session-model",
+        "method": "direct-generation",
+        "task": "portfolio-ux-localization-v1"
       }
     }
   }

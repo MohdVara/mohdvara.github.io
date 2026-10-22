@@ -4,4 +4,8 @@
 .case-quick-read dt { color: var(--accent); font-size: .8rem; }
 .case-quick-read dd { margin: .2rem 0 0; font-size: .88rem; }
 .case-quick-read a { text-decoration: underline; text-underline-offset: .2em; }
+.quick-read-actions { display:flex;flex-wrap:wrap;gap:.25rem 1.5rem;writing-mode:horizontal-tb; }
+.quick-read-actions a, .case-quick-read > a { display:inline-flex;align-items:center;min-block-size:44px; }
+.case-quick-read a:focus-visible { outline:2px solid var(--accent);outline-offset:3px; }
+main :is(section[id], h2[id], p[id], dl[id]) { scroll-margin-block-start:calc(var(--header-height, 6rem) + 1rem); }
 @media (max-width: 760px) { .case-quick-read dl { grid-template-columns: minmax(0,1fr); } }

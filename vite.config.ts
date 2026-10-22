@@ -10,7 +10,7 @@ export default defineConfig({
   // Shared static content stays available before hydration and is cached independently.
   // Do not split runtime dependencies or turn public copy into asynchronous fetching.
   build: { rolldownOptions: { output: { codeSplitting: { groups: [
-    { name: "i18n-core", test: /\/src\/i18n\/(config|languages|localeResolution|metadata|lookup|context)\.(tsx?|json)$/ },
+    { name: "i18n-core", test: /\/src\/i18n\/(config|languages|localeResolution|metadata|lookup|context|controls)\.(tsx?|json)$/ },
     { name: "i18n-vendor", test: /\/node_modules\/(i18next|react-i18next|html-parse-stringify|void-elements|@babel\/runtime)\// },
     { name: "portfolio-content", test: /\/src\/(content|technology)\.ts$/ },
   ] } } } },

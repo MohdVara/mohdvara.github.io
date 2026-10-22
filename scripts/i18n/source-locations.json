@@ -100,7 +100,7 @@
   "Discuss an engineering opportunity": [
     "src/App.tsx"
   ],
-  "Explore engineering work": [
+  "Professional delivery": [
     "src/App.tsx"
   ],
   "2-page résumé": [
@@ -136,8 +136,9 @@
   "Independent engineering projects": [
     "src/App.tsx"
   ],
-  "No Two Mondays · case study": [
-    "src/App.tsx"
+  "Independent engineering": [
+    "src/App.tsx",
+    "src/EngineeringCaseStudy.tsx"
   ],
   "Incident Zero · engineering story": [
     "src/App.tsx"
@@ -440,8 +441,60 @@
   "Technical focus": [
     "src/CaseStudyQuickRead.tsx"
   ],
+  "Delivery decisions": [
+    "src/CaseStudyQuickRead.tsx"
+  ],
   "Explore the evidence": [
     "src/CaseStudyQuickRead.tsx"
+  ],
+  "Architecture and decisions": [
+    "src/CaseStudySummary.tsx",
+    "src/CaseStudySummary.tsx",
+    "src/CaseStudySummary.tsx",
+    "src/CaseStudySummary.tsx"
+  ],
+  "Inspect the evidence": [
+    "src/CaseStudySummary.tsx",
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Sources and limitations": [
+    "src/CaseStudySummary.tsx",
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Compare artwork": [
+    "src/CaseStudySummary.tsx"
+  ],
+  "Limitations": [
+    "src/CaseStudySummary.tsx",
+    "src/CaseStudySummary.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Direction follows the language": [
+    "src/CaseStudySummary.tsx",
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Measured retrieval and limitations": [
+    "src/CaseStudySummary.tsx",
+    "src/PaceRagCaseStudy.tsx"
+  ],
+  "Architecture": [
+    "src/CaseStudySummary.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Verification": [
+    "src/CaseStudySummary.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Evidence sources": [
+    "src/CaseStudySummary.tsx",
+    "src/CaseStudySummary.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
+  ],
+  "Case study contents": [
+    "src/CaseStudySummary.tsx",
+    "src/NoTwoMondaysCaseStudy.tsx"
   ],
   "Untangle domain rules, improve integration boundaries and modernise the parts of a system that make change difficult.": [
     "src/EngagementContent.ts"
@@ -608,9 +661,6 @@
   "Render preparation is implemented locally. Strict emulated AMD64 load failed; native provider performance and off-host recovery are unverified. No public application deployment is established. Production integrations and security decisions remain pending.": [
     "src/EngineeringCaseStudy.tsx"
   ],
-  "Sources and limitations": [
-    "src/EngineeringCaseStudy.tsx"
-  ],
   "Public source and recorded verification are available for inspection. Source publication does not authorize application deployment; security and provider acceptance remain blocked or unverified.": [
     "src/EngineeringCaseStudy.tsx"
   ],
@@ -624,10 +674,6 @@
     "src/PublicEngineering.tsx",
     "src/caseStudies.ts"
   ],
-  "Inspect the evidence": [
-    "src/EngineeringCaseStudy.tsx",
-    "src/EngineeringCaseStudy.tsx"
-  ],
   "Inspect the archived legacy source": [
     "src/EngineeringCaseStudy.tsx"
   ],
@@ -640,9 +686,6 @@
     "src/EngineeringCaseStudy.tsx"
   ],
   "View evidence": [
-    "src/EngineeringCaseStudy.tsx"
-  ],
-  "Direction follows the language": [
     "src/EngineeringCaseStudy.tsx"
   ],
   "Reading direction sample": [
@@ -736,16 +779,6 @@
     "src/EngineeringCaseStudy.tsx"
   ],
   "The portfolio as an engineering artifact": [
-    "src/EngineeringCaseStudy.tsx"
-  ],
-  "Independent engineering": [
-    "src/EngineeringCaseStudy.tsx"
-  ],
-  "Case study contents": [
-    "src/EngineeringCaseStudy.tsx",
-    "src/NoTwoMondaysCaseStudy.tsx"
-  ],
-  "Architecture and decisions": [
     "src/EngineeringCaseStudy.tsx"
   ],
   "Return to public engineering": [
@@ -975,18 +1008,7 @@
   "Puzzle UI": [
     "src/NoTwoMondaysCaseStudy.tsx"
   ],
-  "Architecture": [
-    "src/NoTwoMondaysCaseStudy.tsx",
-    "src/NoTwoMondaysCaseStudy.tsx"
-  ],
-  "Verification": [
-    "src/NoTwoMondaysCaseStudy.tsx",
-    "src/NoTwoMondaysCaseStudy.tsx"
-  ],
   "Lessons": [
-    "src/NoTwoMondaysCaseStudy.tsx"
-  ],
-  "Evidence sources": [
     "src/NoTwoMondaysCaseStudy.tsx"
   ],
   "Executive summary / Independent engineering project": [
@@ -1020,9 +1042,6 @@
     "src/NoTwoMondaysCaseStudy.tsx"
   ],
   "Read the scope and gaps": [
-    "src/NoTwoMondaysCaseStudy.tsx"
-  ],
-  "Limitations": [
     "src/NoTwoMondaysCaseStudy.tsx"
   ],
   "Historical campaign figures are not current game-wide totals or evidence of the hosted build. Automated traversal does not establish human understanding, enjoyment, browser accessibility or production infrastructure scale.": [
@@ -1778,9 +1797,6 @@
     "src/PaceRagCaseStudy.tsx"
   ],
   "Scope and vector isolation": [
-    "src/PaceRagCaseStudy.tsx"
-  ],
-  "Measured retrieval and limitations": [
     "src/PaceRagCaseStudy.tsx"
   ],
   "19 October 2026 · Local, versioned evaluation with the pinned browser model. Owner-approved v1.6 knowledge refresh adds commercial evidence and five reviewed answers. The v1.6.1 investigation reproduces prior results and partially recovers rankings through bounded question-facet adjustments. All approved knowledge is preserved; recovery targets remain unmet on two metrics. Automatic semantic reuse remains disabled.": [

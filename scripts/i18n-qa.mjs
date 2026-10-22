@@ -168,7 +168,10 @@ try {
   const german=JSON.parse(await readFile("src/i18n/locales/de.json","utf8"));
   await page.waitForFunction(title=>document.title===title,german["Mohd. Paramasvara | Principal Full-Stack Engineer"]);
   report.scenarios.push("browser title updates with selected language");
-  assert.equal(await page.locator(".language-panel > label:first-child > select").evaluate(el=>el===document.activeElement),true);
+  assert.equal(await page.locator(".language-control").getAttribute("open"),null,"committed selection closes disclosure");
+  assert.equal(await page.locator(".language-control summary").evaluate(el=>el===document.activeElement),true);
+  await page.locator(".language-control summary").click();
+  await page.locator(".language-panel > label:first-child > select").focus();
   await page.keyboard.press("Escape");
   assert.equal(await page.locator(".language-control").getAttribute("open"),null);
   assert.equal(await page.locator(".language-control summary").evaluate(el=>el===document.activeElement),true);

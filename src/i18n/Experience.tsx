@@ -1,4 +1,4 @@
-import { useEffect, useState, type ComponentProps } from "react";
+import { startTransition, useEffect, useState, type ComponentProps } from "react";
 import { useTranslation } from "react-i18next";
 import Page from "../Page";
 import { currentLocale, i18n, loadLocale, text } from "./config";
@@ -15,7 +15,8 @@ export default function Experience(props: ComponentProps<typeof Page>) {
   const [error, setError] = useState("");
   const [announcement, announce] = useState("");
   useEffect(() => {
-    try {setWriting(localStorage.getItem(writingPreferenceKey) === "vertical" ? "vertical" : "horizontal");} catch { /* Private browsing can disable storage. */ }
+    // A saved preference must not interrupt hydration of a lazy case-study boundary.
+    try {const saved = localStorage.getItem(writingPreferenceKey);startTransition(() => setWriting(saved === "vertical" ? "vertical" : "horizontal"));} catch { /* Private browsing can disable storage. */ }
   }, []);
   useEffect(() => {
     applyMetadata(locale, path);
@@ -31,7 +32,7 @@ export default function Experience(props: ComponentProps<typeof Page>) {
     return () => window.removeEventListener("popstate", back);
   }, []);
   const changeLocale = async (next: Locale) => {
-    if (busy) return;
+    if (busy) return false;
     setBusy(true); setError("");
     try {
       await loadLocale(next);
@@ -41,7 +42,8 @@ export default function Experience(props: ComponentProps<typeof Page>) {
       setPath(location.pathname);
       try {localStorage.setItem(localePreferenceKey, next);} catch { /* Preferences still work in memory. */ }
       announce(text("Language changed to {{language}}.", {language: language(next).nativeName}));
-    } catch {setError(text("Could not load this language. Please try again."));}
+      return true;
+    } catch {setError(text("Could not load this language. Please try again."));return false;}
     finally {setBusy(false);}
   };
   return <ExperienceContext.Provider value={{path, locale, writingMode, busy, error, changeLocale, changeWritingMode: mode => {

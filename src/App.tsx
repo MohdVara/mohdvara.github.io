@@ -234,12 +234,12 @@ function Hero() {
         <div className="actions">
           <a className="button primary" href="#contact">{text("Discuss an engineering opportunity ")}<Arrow />
           </a>
-          <a className="button secondary" href="#work">{text("Explore engineering work ")}<Arrow /></a>
+          <a className="button secondary" href="#work">{text("Professional delivery ")}<Arrow /></a>
           <a className="text-link" href={localizedHref(profile.resume)} target="_blank" rel="noopener noreferrer">{text("2-page résumé ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
           </a>
         </div>
         <nav className="hero-social hero-projects" aria-label={text("Independent engineering projects")}>
-          <a href={localizedHref("/no-two-mondays/")}>{text("No Two Mondays · case study ")}<Arrow /></a>
+          <a href="#public-engineering">{text("Independent engineering ")}<Arrow /></a>
           <a href={localizedHref("/incident-zero/")}>{text("Incident Zero · engineering story ")}<Arrow /></a>
         </nav>
         <div className="hero-social">
@@ -389,10 +389,10 @@ function SelectedWork() {
                     result: project.result,
                     status: "Production status not independently verified.",
                     focus: project.scope,
-                    evidence: profile.cv,
+                    evidence: `#delivery-${project.id}`,
                   }} />}
 
-                  <dl>
+                  <dl id={`delivery-${project.id}`}>
                     {localizedContent(project.details.map(([label, text]) => (
                       <div key={label}>
                         <dt>{localizedContent(label)}</dt>

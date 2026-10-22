@@ -993,7 +993,7 @@
   "Rails 8.1.4 / Ruby 4.0.7": "Rails 8.1.4 / Ruby 4.0.7",
   "Rate fetching across multiple insurance providers and product types.": "Récupération de tarifs auprès de plusieurs fournisseurs d’assurance et types de produits.",
   "React and i18next use languages.json for locale order, direction, fonts, calendars and writing modes. URL, saved preference, browser preference and English fallback resolve language in that order. Switching preserves route, query and fragment.": "React et i18next utilisent languages.json pour l’ordre des langues, la direction, les polices, calendriers et modes d’écriture. L’URL, la préférence enregistrée, celle du navigateur puis l’anglais déterminent la langue. Le changement conserve route, requête et fragment.",
-  "React interface": "React interface",
+  "React interface": "Interface React",
   "React · Vue · TypeScript": "React · Vue · TypeScript",
   "Read the engineering summary ↓": "Lire le résumé technique ↓",
   "Read the incident report": "Lire le rapport d'incident",
@@ -1453,5 +1453,8 @@
   "العربية · RTL": "العربية · RTL",
   "← Incident Zero": "← Incident Zero",
   "日本語 · LTR": "日本語 · LTR",
-  "Public source and recorded verification are available for inspection. Source publication does not authorize application deployment; security and provider acceptance remain blocked or unverified.": "Le code source public et les vérifications consignées sont consultables. La publication du code ne vaut pas autorisation de déployer l’application ; les validations de sécurité et du fournisseur restent bloquées ou non vérifiées."
+  "Public source and recorded verification are available for inspection. Source publication does not authorize application deployment; security and provider acceptance remain blocked or unverified.": "Le code source public et les vérifications consignées sont consultables. La publication du code ne vaut pas autorisation de déployer l’application ; les validations de sécurité et du fournisseur restent bloquées ou non vérifiées.",
+  "Compare artwork": "Comparer les œuvres d’art",
+  "Delivery decisions": "Décisions de réalisation",
+  "Professional delivery": "Réalisations professionnelles"
 }
