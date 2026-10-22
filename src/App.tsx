@@ -15,6 +15,7 @@ import "./SystemDiagrams.css";
 import "./VisualMotion.css";
 import "./Readability.css";
 import { readAnalyticsPreference, setAnalyticsPreference, subscribeAnalyticsPreference } from "./analyticsPreference";
+import { NarrativeAccent } from "./NarrativeArtwork/NarrativeAccent";
 import { AsciiForestBackdrop } from "./AsciiForest/AsciiForestBackdrop";
 import { SceneryControl } from "./AsciiForest/SceneryControl";
 import PaceAssistantLauncher from "./PaceAssistantLauncher";
@@ -364,6 +365,7 @@ function SelectedWork() {
         property operations.
       </p>
       </div>
+      <NarrativeAccent region="river" />
       <div className="project-list" data-reveal>
         {projects.map((project, index) => (
           <article className={`project${index > 2 ? " project-secondary" : ""}`} id={`case-${project.id}`} key={project.id}>
@@ -440,6 +442,7 @@ function Experience() {
           <span id="experience-title">Ownership at every level.</span>
         </SectionHeading>
         </div>
+        <NarrativeAccent region="earth" />
         <div className="experience-grid" data-reveal>
           <div className="experience-note">
             <p>
@@ -490,6 +493,7 @@ function Capabilities() {
       </SectionHeading>
       </div>
       <p className="section-intro capability-evidence">Capabilities describe my wider practice. For project-specific application, data and cloud experience, <a className="text-link" href="#work">open the selected-work engineering details</a> or <a className="text-link" href="#additional-systems">additional engineering systems</a>. Independent AI engineering demonstrations and their evidence boundaries are linked below.</p>
+      <NarrativeAccent region="mountains" />
       <CapabilityMap />
       <div className="ai-evidence" id="ai-evidence">
         <h3>AI capabilities &amp; evidence</h3>
@@ -524,6 +528,7 @@ function About() {
             starts with <em>why.</em>
           </h2>
           <BorneoBotanical />
+          <NarrativeAccent region="forest" />
         </div>
         <div className="about-copy" data-reveal>
           <p>
