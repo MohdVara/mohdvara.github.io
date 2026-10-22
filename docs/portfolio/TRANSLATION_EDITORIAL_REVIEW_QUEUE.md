@@ -1,0 +1,68 @@
+# Translation editorial review queue — UX refinement v1
+
+22 October 2026 · English remains canonical. **PENDING HUMAN REVIEW**. This is a model-assisted triage package, not qualified linguistic approval. No T0 material semantic reversal was established; this is not proof that none exists. No professional facts were rewritten.
+
+Machine-readable detail: [portfolio-translation-editorial-v1.json](../../verification/portfolio-translation-editorial-v1.json). It includes all 97 current warning rows and 210 prioritized critical locale/key pairs with full English/translation, intended meaning, provenance, reviewer questions and empty reviewer/evidence fields. Those 210 pairs are a selected review scope, not all catalog prose and not 210 diagnosed defects.
+
+| Scope | Classification | Disposition |
+|---|---|---|
+| Material semantic defects | T0: 0 diagnosed | No security/ownership/deployment reversal demonstrated by this pass. Fluent semantic review remains open. |
+| Confirmed separator defect | T1: 1 corrected | Portuguese `Reactinterface` → `Interface React`; remains machine-translated. |
+| French noun/brand ordering | T2: 1 corrected | `React interface` → `Interface React`; conservative editorial edit, no human approval. |
+| Unchanged edge gateway labels | T2: 2 pending | Malay and German; technical noun and fallback terminology require contextual confirmation. |
+| Proper nouns/stack labels | T3: 95 retained | Individually classified; not suppressed from validator output. |
+
+## Priority review items
+
+Severity below is diagnosed T2 or review priority, not a false assertion that an unreviewed consequential claim is defective.
+
+| Locale | Stable key / canonical English | Current translation | Intended meaning / concern | Suggested revision | Reviewer question | Status / provenance |
+|---|---|---|---|---|---|---|
+| ms | `EDGE GATEWAY · FALLBACK` | EDGE GATEWAY · FALLBACK | Edge gateway and fallback path; unchanged English UI words may be unnatural. | None asserted | Is the local technical term clearer than the English loanword in this architecture label? | HUMAN_REVIEW_PENDING; machine_translated |
+| de | `EDGE GATEWAY · FALLBACK` | EDGE GATEWAY · FALLBACK | Edge gateway and fallback path; unchanged English UI words may be unnatural. | None asserted | Is the local technical term clearer than the English loanword in this architecture label? | HUMAN_REVIEW_PENDING; machine_translated |
+| ms | `Locally verified · public release blocked` | Disahkan setempat · pelepasan awam disekat | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| ms | `Production status not independently verified.` | Status produksi belum disahkan secara bebas. | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| ar | `Locally verified · public release blocked` | تحقق محليًا · الإصدار العام محظور | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| ar | `Production status not independently verified.` | حالة الإنتاج غير متحقق منها بصورة مستقلة. | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| ta | `Locally verified · public release blocked` | உள்ளூரில் சரிபார்க்கப்பட்டது · பொதுவெளியீடு தடுக்கப்பட்டுள்ளது | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| ta | `Production status not independently verified.` | உற்பத்தி நிலை தனியாகச் சரிபார்க்கப்படவில்லை. | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| ja | `Locally verified · public release blocked` | ローカル検証済み · 一般公開はブロック中 | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| ja | `Production status not independently verified.` | 本番稼働状況は独立検証されていません。 | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| zh-Hans | `Locally verified · public release blocked` | 已本地验证 · 公开发布被阻止 | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| zh-Hans | `Production status not independently verified.` | 生产状态未经独立验证。 | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| es | `Locally verified · public release blocked` | Verificado localmente · publicación bloqueada | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| es | `Production status not independently verified.` | Estado de producción no verificado independientemente. | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| fr | `Locally verified · public release blocked` | Vérifié localement · publication bloquée | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| fr | `Production status not independently verified.` | État de production non vérifié indépendamment. | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| de | `Locally verified · public release blocked` | Lokal verifiziert · öffentliche Freigabe blockiert | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| de | `Production status not independently verified.` | Produktionsstatus nicht unabhängig verifiziert. | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| pt-BR | `Locally verified · public release blocked` | Verificado localmente · publicação bloqueada | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| pt-BR | `Production status not independently verified.` | Status de produção não verificado independentemente. | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| hi | `Locally verified · public release blocked` | स्थानीय रूप से सत्यापित · सार्वजनिक रिलीज़ अवरुद्ध | Local checks do not authorize public release. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+| hi | `Production status not independently verified.` | उत्पादन स्थिति स्वतंत्र रूप से सत्यापित नहीं है। | Absence of independent verification, not a declaration of failure. | None without supported correction | Does the negation/status preserve the English scope naturally? | HUMAN_REVIEW_PENDING; machine_translated |
+
+The full queue also covers seniority, individual contribution, MMCATS source/deployment separation, NAAE pending studio, historical results, translation disclaimer, English-original access, contact actions and the English-only professional assistant boundary. The three new functional labels are queued in every non-English locale.
+
+## Accepted identifiers
+
+- `AWS ECS`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `Active Storage`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `Google Cloud (GCP)`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `Incident Zero | Mohd. Paramasvara`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `MMCATS Modern`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `MMCATS Modern | Mohd. Paramasvara`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `Microsoft Azure`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `No Two Mondays | Mohd. Paramasvara`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `System Defence — Incident Zero | Mohd. Paramasvara`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `TypeScript · React · Transformers.js · MiniLM · Web Workers`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+- `← Incident Zero`: preserved project/author, component, cloud service or technical stack identifier. Each locale row remains in the JSON warning ledger.
+
+## Reviewer workflow
+
+1. Select a locale and exact key in the JSON; read English, translation, meaning and live/local page context side by side.
+2. Record **approve existing**, **propose correction** or **request clarification**. Include an actual reviewer identity/qualification, date, scope and evidence reference only when supplied by that reviewer.
+3. Keep questions about employer permission, dates and ownership with the owner; do not guess a revised career history.
+4. Apply agreed corrections with current source hashes and preserve prior provenance. Until actual qualified review is evidenced, retain `machine_translated` in the catalog metadata. `OWNER_APPROVED` and `HUMAN_REVIEWED` require their separate actual evidence.
+5. Re-run extraction, validation, strict coverage, date audit, build/static route audit and affected browser tasks. Review the diff before any later publication request.
+
+The existing `i18n:review` command changes status immediately; do not invoke it from this automatic audit or treat its existence as reviewer evidence. No complex translation application was added.

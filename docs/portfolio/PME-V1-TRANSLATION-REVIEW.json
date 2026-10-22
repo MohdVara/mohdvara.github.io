@@ -568,15 +568,6 @@
   },
   {
     "locale": "fr",
-    "key": "React interface",
-    "source": "React interface",
-    "translation": "React interface",
-    "warnings": [
-      "unchanged English; review or record as invariant"
-    ]
-  },
-  {
-    "locale": "fr",
     "key": "System Defence — Incident Zero | Mohd. Paramasvara",
     "source": "System Defence — Incident Zero | Mohd. Paramasvara",
     "translation": "System Defence — Incident Zero | Mohd. Paramasvara",

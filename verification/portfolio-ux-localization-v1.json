@@ -1,0 +1,1746 @@
+{
+  "schema_version": "1.0",
+  "task": "portfolio-ux-localization-v1",
+  "timestamp": "2026-10-22T11:02:48.884557+00:00",
+  "timezone": "Asia/Kuching",
+  "git_base": "7c27a4e9aa765a6c86889aaa37e28bb688ee03a0",
+  "uncommitted": true,
+  "status": {
+    "UX-01": "COMPLETE",
+    "UX-02": "COMPLETE",
+    "UX-03": "COMPLETE",
+    "I18N-01": "PARTIAL — PENDING HUMAN REVIEW"
+  },
+  "baseline": {
+    "entry": "dist/assets/index-C0n8dqQm.js",
+    "bytes": 214727,
+    "sha256": "279945a320f36c0b5525424410ce0bae07b34401b86842bf869519aabaa694b6",
+    "head": "7c27a4e9aa765a6c86889aaa37e28bb688ee03a0"
+  },
+  "bundle": {
+    "entry": {
+      "path": "assets/index-C5BeTS5i.js",
+      "bytes": 209235,
+      "sha256": "05c8aba6506f2e9354e3d89be896635446ae17a920ec1be1def8cbfd5eb60a40",
+      "gzip": 64539
+    },
+    "i18n_core": {
+      "path": "assets/i18n-core-DSoBMoqb.js",
+      "bytes": 273623,
+      "sha256": "b4d833360f30fc73df48f6385a2976c38d554c42b947ff4e7ddab88eb758524d",
+      "gzip": 67569
+    },
+    "combined_raw": 482858,
+    "combined_gzip": 132108,
+    "budget": 215000,
+    "budget_unchanged": true,
+    "regrouping_is_not_total_load_reduction": true
+  },
+  "localization": {
+    "locales": [
+      "en",
+      "ms",
+      "ar",
+      "ta",
+      "ja",
+      "zh-Hans",
+      "es",
+      "fr",
+      "de",
+      "pt-BR",
+      "hi"
+    ],
+    "units_before": 1455,
+    "units_after": 1458,
+    "missing": 0,
+    "stale": 0,
+    "warnings_before": 98,
+    "warnings_after": 97,
+    "remaining_warning_classes": {
+      "T0": 0,
+      "T1": 0,
+      "T2": 2,
+      "T3": 95
+    },
+    "corrections": {
+      "T1": 1,
+      "T2": 1,
+      "details": "pt-BR Reactinterface → Interface React; fr React interface → Interface React. Remain machine translated."
+    },
+    "human_reviewed": 0,
+    "qualified_review_status": "PENDING HUMAN REVIEW",
+    "critical_review_pairs": 210,
+    "changes": [
+      {
+        "locale": "ms",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "Keputusan pelaksanaan",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ms",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "Penyampaian profesional",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ms",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "Bandingkan karya seni",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ar",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "قرارات التنفيذ",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ar",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "التنفيذ المهني",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ar",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "قارن الأعمال الفنية",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ta",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "கலைப்படைப்புகளை ஒப்பிடுக",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ta",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "செயலாக்க முடிவுகள்",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ta",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "தொழில்முறைப் பணிகள்",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ja",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "アート作品を比較",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ja",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "開発上の判断",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "ja",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "業務での開発実績",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "zh-Hans",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "职业项目交付",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "zh-Hans",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "交付决策",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "zh-Hans",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "比较艺术作品",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "es",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "Comparar obras de arte",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "es",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "Decisiones de entrega",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "es",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "Entrega profesional",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "fr",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "Réalisations professionnelles",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "fr",
+        "key": "React interface",
+        "canonical": "React interface",
+        "before": "React interface",
+        "after": "Interface React",
+        "prior_provenance": {
+          "status": "machine_translated",
+          "sourceHash": "5e01f93a2953d8c77947e090736ff1ed30eba376cf56f04de484b9adde56ee80",
+          "provider": "google-translate-development-bootstrap",
+          "model": "service-version-unspecified"
+        },
+        "reason": "French noun/adjective ordering",
+        "classification": "T2"
+      },
+      {
+        "locale": "fr",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "Décisions de réalisation",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "fr",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "Comparer les œuvres d’art",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "de",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "Kunstwerke vergleichen",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "de",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "Berufliche Projekte",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "de",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "Umsetzungsentscheidungen",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "pt-BR",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "Comparar obras de arte",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "pt-BR",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "Entregas profissionais",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "pt-BR",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "Decisões de implementação",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "pt-BR",
+        "key": "React interface",
+        "canonical": "React interface",
+        "before": "Reactinterface",
+        "after": "Interface React",
+        "prior_provenance": {
+          "status": "machine_translated",
+          "sourceHash": "5e01f93a2953d8c77947e090736ff1ed30eba376cf56f04de484b9adde56ee80",
+          "provider": "google-translate-development-bootstrap",
+          "model": "service-version-unspecified"
+        },
+        "reason": "Missing separator in Reactinterface; restore readable interface label",
+        "classification": "T1"
+      },
+      {
+        "locale": "hi",
+        "key": "Compare artwork",
+        "canonical": "Compare artwork",
+        "before": null,
+        "after": "कलाकृतियों की तुलना करें",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "hi",
+        "key": "Professional delivery",
+        "canonical": "Professional delivery",
+        "before": null,
+        "after": "पेशेवर परियोजना कार्य",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      },
+      {
+        "locale": "hi",
+        "key": "Delivery decisions",
+        "canonical": "Delivery decisions",
+        "before": null,
+        "after": "कार्यान्वयन के निर्णय",
+        "prior_provenance": null,
+        "reason": "New functional UI label",
+        "classification": "new UI"
+      }
+    ]
+  },
+  "tests": {
+    "Typecheck": "PASS",
+    "Lint": "PASS",
+    "Production build/prerender": "PASS",
+    "Unit/integration tests": "PASS — 164",
+    "Focused browser": "PASS",
+    "Existing eleven-locale browser": "PASS",
+    "Static route/SEO/internal fragment audit": "PASS — 108 routes, 0 issues",
+    "Localization validation/strict coverage/date audit": "PASS; 97 editorial warnings retained",
+    "Qualified linguistic / screen-reader / physical devices": "NOT VERIFIED",
+    "Production deployment": "NOT PERFORMED"
+  },
+  "route_count": 108,
+  "route_issues": [],
+  "source_fingerprint": "626c5a86fadccf53dbeeab34452d6601c38e648abf573c0a6b00687e4cef42b2",
+  "artifact_fingerprint": "250aa1e82e4e3dc99e174218f5e3bd583878b863dfa6ee9d04e96790545d4307",
+  "browser": {
+    "focused_pass": true,
+    "i18n_pass": true,
+    "focused": {
+      "switches": [
+        {
+          "width": 320,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 320,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 320,
+          "locale": "ms",
+          "url": "http://127.0.0.1:4185/ms/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 320,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 320,
+          "locale": "ja",
+          "url": "http://127.0.0.1:4185/ja/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 320,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 320,
+          "locale": "ta",
+          "url": "http://127.0.0.1:4185/ta/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 390,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 390,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 390,
+          "locale": "ms",
+          "url": "http://127.0.0.1:4185/ms/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 390,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 390,
+          "locale": "ja",
+          "url": "http://127.0.0.1:4185/ja/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 390,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 390,
+          "locale": "ta",
+          "url": "http://127.0.0.1:4185/ta/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 768,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 768,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 768,
+          "locale": "ms",
+          "url": "http://127.0.0.1:4185/ms/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 768,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 768,
+          "locale": "ja",
+          "url": "http://127.0.0.1:4185/ja/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 768,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 768,
+          "locale": "ta",
+          "url": "http://127.0.0.1:4185/ta/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 1440,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 1440,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 1440,
+          "locale": "ms",
+          "url": "http://127.0.0.1:4185/ms/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 1440,
+          "locale": "en",
+          "url": "http://127.0.0.1:4185/en/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 1440,
+          "locale": "ja",
+          "url": "http://127.0.0.1:4185/ja/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 1440,
+          "locale": "ar",
+          "url": "http://127.0.0.1:4185/ar/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        },
+        {
+          "width": 1440,
+          "locale": "ta",
+          "url": "http://127.0.0.1:4185/ta/multilingual-engineering/?source=ux#direction-demo",
+          "closed": true,
+          "focus": "summary"
+        }
+      ],
+      "dismissal": [
+        {
+          "width": 320,
+          "escape": true,
+          "outside": true,
+          "englishPointer": true,
+          "englishKeyboard": true,
+          "history": true
+        },
+        {
+          "width": 390,
+          "escape": true,
+          "outside": true,
+          "englishPointer": true,
+          "englishKeyboard": true,
+          "history": true
+        },
+        {
+          "width": 768,
+          "escape": true,
+          "outside": true,
+          "englishPointer": true,
+          "englishKeyboard": true,
+          "history": true
+        },
+        {
+          "width": 1440,
+          "escape": true,
+          "outside": true,
+          "englishPointer": true,
+          "englishKeyboard": true,
+          "history": true
+        },
+        {
+          "task": "failed locale load",
+          "keepsOpen": true,
+          "locale": "en"
+        }
+      ],
+      "journeys": [
+        {
+          "width": 320,
+          "task": "professional delivery",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#work"
+        },
+        {
+          "width": 320,
+          "task": "independent engineering",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#public-engineering"
+        },
+        {
+          "width": 390,
+          "task": "professional delivery",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#work"
+        },
+        {
+          "width": 390,
+          "task": "independent engineering",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#public-engineering"
+        },
+        {
+          "width": 768,
+          "task": "professional delivery",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#work"
+        },
+        {
+          "width": 768,
+          "task": "independent engineering",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#public-engineering"
+        },
+        {
+          "width": 1440,
+          "task": "professional delivery",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#work"
+        },
+        {
+          "width": 1440,
+          "task": "independent engineering",
+          "clicks": 1,
+          "destination": "http://127.0.0.1:4185/en/#public-engineering"
+        },
+        {
+          "task": "commercial delivery decision",
+          "passed": true
+        },
+        {
+          "task": "consulting contact alternatives",
+          "submitted": false
+        }
+      ],
+      "layouts": [
+        {
+          "width": 320,
+          "route": "mmcats-modern",
+          "actions": [
+            "Architecture and decisions",
+            "Inspect the evidence",
+            "Sources and limitations"
+          ],
+          "anchorTop": 283.859375
+        },
+        {
+          "width": 320,
+          "route": "naae",
+          "actions": [
+            "Compare artwork",
+            "Architecture and decisions",
+            "Limitations"
+          ],
+          "anchorTop": 284.265625
+        },
+        {
+          "width": 320,
+          "route": "multilingual-engineering",
+          "actions": [
+            "Architecture and decisions",
+            "Direction follows the language",
+            "Limitations"
+          ],
+          "anchorTop": 283.578125
+        },
+        {
+          "width": 320,
+          "route": "pace-rag-case-study",
+          "actions": [
+            "Architecture and decisions",
+            "Measured retrieval and limitations"
+          ],
+          "anchorTop": 283.59375
+        },
+        {
+          "width": 320,
+          "route": "no-two-mondays",
+          "actions": [
+            "Architecture",
+            "Verification",
+            "Evidence sources"
+          ],
+          "anchorTop": 284.75
+        },
+        {
+          "width": 390,
+          "route": "mmcats-modern",
+          "actions": [
+            "Architecture and decisions",
+            "Inspect the evidence",
+            "Sources and limitations"
+          ],
+          "anchorTop": 188.328125
+        },
+        {
+          "width": 390,
+          "route": "naae",
+          "actions": [
+            "Compare artwork",
+            "Architecture and decisions",
+            "Limitations"
+          ],
+          "anchorTop": 187.578125
+        },
+        {
+          "width": 390,
+          "route": "multilingual-engineering",
+          "actions": [
+            "Architecture and decisions",
+            "Direction follows the language",
+            "Limitations"
+          ],
+          "anchorTop": 187.546875
+        },
+        {
+          "width": 390,
+          "route": "pace-rag-case-study",
+          "actions": [
+            "Architecture and decisions",
+            "Measured retrieval and limitations"
+          ],
+          "anchorTop": 188.03125
+        },
+        {
+          "width": 390,
+          "route": "no-two-mondays",
+          "actions": [
+            "Architecture",
+            "Verification",
+            "Evidence sources"
+          ],
+          "anchorTop": 188.296875
+        },
+        {
+          "width": 768,
+          "route": "mmcats-modern",
+          "actions": [
+            "Architecture and decisions",
+            "Inspect the evidence",
+            "Sources and limitations"
+          ],
+          "anchorTop": 216.34375
+        },
+        {
+          "width": 768,
+          "route": "naae",
+          "actions": [
+            "Compare artwork",
+            "Architecture and decisions",
+            "Limitations"
+          ],
+          "anchorTop": 216.453125
+        },
+        {
+          "width": 768,
+          "route": "multilingual-engineering",
+          "actions": [
+            "Architecture and decisions",
+            "Direction follows the language",
+            "Limitations"
+          ],
+          "anchorTop": 215.765625
+        },
+        {
+          "width": 768,
+          "route": "pace-rag-case-study",
+          "actions": [
+            "Architecture and decisions",
+            "Measured retrieval and limitations"
+          ],
+          "anchorTop": 216.0625
+        },
+        {
+          "width": 768,
+          "route": "no-two-mondays",
+          "actions": [
+            "Architecture",
+            "Verification",
+            "Evidence sources"
+          ],
+          "anchorTop": 215.21875
+        },
+        {
+          "width": 1440,
+          "route": "mmcats-modern",
+          "actions": [
+            "Architecture and decisions",
+            "Inspect the evidence",
+            "Sources and limitations"
+          ],
+          "anchorTop": 215.625
+        },
+        {
+          "width": 1440,
+          "route": "naae",
+          "actions": [
+            "Compare artwork",
+            "Architecture and decisions",
+            "Limitations"
+          ],
+          "anchorTop": 216.484375
+        },
+        {
+          "width": 1440,
+          "route": "multilingual-engineering",
+          "actions": [
+            "Architecture and decisions",
+            "Direction follows the language",
+            "Limitations"
+          ],
+          "anchorTop": 215.625
+        },
+        {
+          "width": 1440,
+          "route": "pace-rag-case-study",
+          "actions": [
+            "Architecture and decisions",
+            "Measured retrieval and limitations"
+          ],
+          "anchorTop": 215.59375
+        },
+        {
+          "width": 1440,
+          "route": "no-two-mondays",
+          "actions": [
+            "Architecture",
+            "Verification",
+            "Evidence sources"
+          ],
+          "anchorTop": 216.59375
+        },
+        {
+          "locale": "en",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "en",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "en",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "ms",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "ms",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "ms",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "ms",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "ar",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "ar",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "ar",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "ar",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "ta",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "ta",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "ta",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "ta",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "ja",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "ja",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "ja",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "ja",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "es",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "es",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "es",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "fr",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "fr",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "fr",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "de",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "de",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "de",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "de",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "pt-BR",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "pt-BR",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "pt-BR",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "pt-BR",
+          "width": 1440,
+          "noOverflow": true
+        },
+        {
+          "locale": "hi",
+          "width": 320,
+          "noOverflow": true
+        },
+        {
+          "locale": "hi",
+          "width": 390,
+          "noOverflow": true
+        },
+        {
+          "locale": "hi",
+          "width": 768,
+          "noOverflow": true
+        },
+        {
+          "locale": "hi",
+          "width": 1440,
+          "noOverflow": true
+        }
+      ],
+      "accessibility": [
+        {
+          "locale": "en",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "errors": [],
+      "requests": []
+    },
+    "i18n_summary": {
+      "layouts": 88,
+      "scenarios": 9,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0,
+      "assistantChecks": 11
+    }
+  },
+  "acceptance_journeys": {
+    "journeys": [
+      {
+        "scenario": "recruiter",
+        "actions": [
+          "Professional delivery",
+          "Insurance engineering details",
+          "Delivery decisions",
+          "Contact"
+        ],
+        "url": "http://127.0.0.1:4185/en/#contact",
+        "resume": 3
+      },
+      {
+        "scenario": "principal",
+        "actions": [
+          "Independent engineering",
+          "MMCATS Modern",
+          "Inspect the evidence",
+          "Sources and limitations"
+        ],
+        "url": "http://127.0.0.1:4185/mmcats-modern/#sources"
+      },
+      {
+        "scenario": "creative",
+        "actions": [
+          "Independent engineering",
+          "NAAE",
+          "Compare artwork"
+        ],
+        "url": "http://127.0.0.1:4185/naae/#evolution"
+      },
+      {
+        "scenario": "consulting",
+        "actions": [
+          "Work with me",
+          "Read engagement inputs",
+          "Inspect contact links"
+        ],
+        "email": 2,
+        "booking": 2,
+        "submitted": false
+      }
+    ],
+    "errors": [],
+    "requests": [
+      "http://127.0.0.1:4185/images/naae/v0.2.png",
+      "http://127.0.0.1:4185/images/naae/v0.3.png"
+    ],
+    "accessibility": {
+      "violations": [],
+      "incomplete": [
+        {
+          "id": "aria-prohibited-attr",
+          "count": 3
+        },
+        {
+          "id": "color-contrast",
+          "count": 20
+        }
+      ]
+    }
+  },
+  "existing_case_browser": {
+    "routes": 33,
+    "layouts": 72,
+    "accessibility": 24,
+    "interactions": 3,
+    "errors": 0,
+    "limits": 2
+  },
+  "whitespace": {
+    "task_scope": "PASS",
+    "repository_wide": "preexisting owner trailing whitespace preserved"
+  },
+  "modified_paths": [
+    "docs/portfolio/PME-V1-COVERAGE.json",
+    "docs/portfolio/PME-V1-QA.json",
+    "docs/portfolio/PME-V1-TRANSLATION-REVIEW.json",
+    "docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+    "scripts/i18n-qa.mjs",
+    "scripts/i18n/metadata.json",
+    "scripts/i18n/source-locations.json",
+    "src/App.tsx",
+    "src/CaseStudyQuickRead.css",
+    "src/CaseStudyQuickRead.tsx",
+    "src/CaseStudySummary.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/i18n/Experience.tsx",
+    "src/i18n/context.ts",
+    "src/i18n/controls.tsx",
+    "src/i18n/locales/ar.json",
+    "src/i18n/locales/de.json",
+    "src/i18n/locales/en.json",
+    "src/i18n/locales/es.json",
+    "src/i18n/locales/fr.json",
+    "src/i18n/locales/hi.json",
+    "src/i18n/locales/ja.json",
+    "src/i18n/locales/ms.json",
+    "src/i18n/locales/pt-BR.json",
+    "src/i18n/locales/ta.json",
+    "src/i18n/locales/zh-Hans.json",
+    "src/i18n/status.json",
+    "vite.config.ts"
+  ],
+  "owner_preexisting_paths": [
+    "docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+    "previous employer audit documents/manifest",
+    "preexisting .playwright-cli scratch"
+  ],
+  "limits": [
+    "Not deployed",
+    "Qualified linguistic review pending",
+    "No real screen-reader or physical device session",
+    "Contrast incomplete checks need contextual review",
+    "No actual recruiters or conversion study"
+  ],
+  "safety": {
+    "career_facts_changed": false,
+    "related_repositories_changed": false,
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "hosting_changed": false,
+    "booking_or_email_submitted": false,
+    "analytics_changed": false
+  },
+  "evidence": [
+    {
+      "path": "output/playwright/ux-localization-v1/acceptance-before-name-fix.json",
+      "sha256": "1a106543bddb000f87487c1eb2f9bd51e83c9ded3d0d7a15e2693006fd2ca1ae"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/acceptance.cjs",
+      "sha256": "349316b6186e0f055578f5e211ee18564f815fe1775e8c0671a10c0075114ce5"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/acceptance.json",
+      "sha256": "6b9202d4de5af414dd71bf8bcff8350f876499fcb9f864437dc5a24814a7b6af"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/artifact/artifact.json",
+      "sha256": "fad32a88503ea2d8dc9edb1ea582eada00adf8c6d5a1fa8e371ed0d25b4e4e5f"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/baseline-browser.json",
+      "sha256": "f91115fecdca756f84809f89aaf7385cc6ae21ff63cc2214ef7603ba6bcd111e"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/baseline.cjs",
+      "sha256": "f73b067db7a370501a16c8f27ed40acce2ff75673cbce6d633734f1bbd989c0a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/baseline.json",
+      "sha256": "c0fec9dc956768b50331b3307a16cb527f6c96654f74f9d6cb7e5453fe97be6f"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/before-popover.png",
+      "sha256": "383db6be9cc29cfde89eea9ee36f6caa00f9eb7aba3baa0e73a25a380ec6169b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ar-largest.png",
+      "sha256": "99e0c5b4852e74aa2a81f455c9fb1e08ee054c7bab6fb789f2134f8d9d276311"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/home-1440.png",
+      "sha256": "af40df0af4ed695314c234948043a2cf9ffb627276b271e4f3c46d74db934952"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/home-320.png",
+      "sha256": "a53cd73936af3465597bdf6e4293e01abde86007464ac602810cb6e6ddfa3e92"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/home-390.png",
+      "sha256": "a3c3c7a4d006d117964c1fc8fe7e6936c72fbc7af864a3d656b5982e3bc4aeec"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/home-768.png",
+      "sha256": "b34dc0d24cbcd59462415734d3e9be0d486febd2b9222448168fe4abfa418edb"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/independent-1440.png",
+      "sha256": "a6dfa65deca77a32ec45694746ff22e71b178f7410fca842f178728becc29982"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/independent-320.png",
+      "sha256": "fc7fec4ccea8a0ad7dcb24ac50ea52cf7f4b321d8166b03f0de37c7b77544544"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/independent-390.png",
+      "sha256": "e175530a2f3a87f269e596ce120da8a6fcdaf7ddbeee0fd059c16a3c452ea471"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/independent-768.png",
+      "sha256": "5cf2a68a8a468ba4fff17567155159c9b3417808cbf0178a00d38a4f64186f67"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ja-largest.png",
+      "sha256": "5c085c928784d0f0042db005bdfe9db3216427a47376a9205430e57125a4adf9"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/mmcats-modern-1440.png",
+      "sha256": "d8b493675a37196d86ec12a2095c0cb84e6a8fa9abf057a14a32a9e528e4279a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/mmcats-modern-320.png",
+      "sha256": "7daef020e977fe973e382912a8d6de6bd3c57802ba017ea32557257737c58ef0"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/mmcats-modern-390.png",
+      "sha256": "fbf8a9325a0b9a9befaf377eb9d9287d7f236500edcdb4949a09783442d78dd2"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/mmcats-modern-768.png",
+      "sha256": "9fbfe6977253832e9b878ba052546d82aa0ec5ce76b52bb9704080e0b9323e64"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ms-largest.png",
+      "sha256": "ab93522829d20abd7cfdfc63263944df5757fad08c63d6fcc5b796894d724573"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/multilingual-engineering-1440.png",
+      "sha256": "56a142a080ac19be9a77619e87e28ef8c5b89eaf7c8846ab047bf900f57cee9d"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/multilingual-engineering-320.png",
+      "sha256": "bdb9b917f47414454e5037d4f79e3c81f7b49bdb4e771d3ef43f9dd8193187e9"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/multilingual-engineering-390.png",
+      "sha256": "8902f73903aa9eea9a409a1d69bc0788ad5273578478f60dc84da9cf9aab112b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/multilingual-engineering-768.png",
+      "sha256": "0df71fbfabe4d8ba302b0d43f1b9dde0f5042dacffd164119944372c44eafb23"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/naae-1440.png",
+      "sha256": "91494fd33e83b04aa7072020a8110b9c9601883e9e80560b43ea7890fd5e8a58"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/naae-320.png",
+      "sha256": "9ff9e003a95feef96fb5a52f0584a58438a5a6187d6dc29c773c95557c1438a2"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/naae-390.png",
+      "sha256": "77764db3a8220c8ade3ce5d85d7aeed3aae874d6ac6325e18c17737ad00e271a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/naae-768.png",
+      "sha256": "3b31ac04fadfa684a121eb3695b378a7a4b44dc1dccf493638096b79b3b12208"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ntm-1440.png",
+      "sha256": "e4c9a7e8ff00bc44d94c8b2981777a632335182c9a3ee39d9858c4eb9e39aebd"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ntm-320.png",
+      "sha256": "a8c41338a5788195e18c19a3578c60401679eb989c3a259e462d291199f7aaf3"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ntm-390.png",
+      "sha256": "c620fd3600b4b9e50a712169f4e1c4383292b09fc4d2761aaf1f86146049ebe3"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ntm-768.png",
+      "sha256": "e944b4df09c14b77e71334227b5b275dc67ae6887fe9fc758548d1de358407e4"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/pace-1440.png",
+      "sha256": "77c03354d50c3cd98b0550bf9b3514d6988479cf3f50fe89d97c9b22e3b3429e"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/pace-320.png",
+      "sha256": "13061e4801f5b27a2b0df9bb3599142db265f221fd590ac924d9c2b2be5a46c3"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/pace-390.png",
+      "sha256": "7b1b981f752d2fc5387f4f1d8f4488395fc423d5bed9bd0f73cfc20bb6db4f41"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/pace-768.png",
+      "sha256": "641eb285cd6feb82faeda55707529f5c69d34b7924af256baa354bb01b5d141b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/report.json",
+      "sha256": "fca84cc0bd805fbb684698936c03211bfd40274c96ffa8dc7d34bcb5c4e0012e"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/ta-largest.png",
+      "sha256": "2d62467da8c02d58a8861746ae74492b29244863b4d3369c00cc591b241002f4"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser/zh-Hans-largest.png",
+      "sha256": "9888a0d485063792d89343a7ab3c33825fd26581eb262bb8b205beb6b7b5c2d7"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/browser-before-hydration-fix.json",
+      "sha256": "90b27bd6fa547491a418a155e0b7e5d95cddd09aef32e1256b146752536cc717"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/mmcats-desktop.png",
+      "sha256": "07151e9a1e808f0abc24d0396876dd1408c7669bfd58a780d654dc90be2a6c52"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/mmcats-viewport.png",
+      "sha256": "fe3689eddb7df93466b2d09f5e4348444a280ef1f5b84b41eb1601853d531b26"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/multilingual-ar-mobile.png",
+      "sha256": "1ff62d609f51cc33a8de5064779332c984ecbeb6a30bf64a9843b90033767d15"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/multilingual-ar-viewport.png",
+      "sha256": "b87240956264c04300188c24dfff528e9db201a148dc33abf496d0d26cd22ad7"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/naae-desktop.png",
+      "sha256": "a3a082e9b183661ef4d09ff27ab079cedcc2b3bdbea63b06db5094e340c5193e"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/naae-mobile.png",
+      "sha256": "2c1430b83c4dc70802940f02376907cb860bfe6dee02dc52803c972687266cb8"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/naae-viewer-desktop.png",
+      "sha256": "bd7950021be801cdb44c40ba2539b85eaf774a6c1b7e913270b94727e59be5b8"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/naae-viewer-mobile.png",
+      "sha256": "755d56e28793f378ece8c2eebf31e811f8c10cf6ba92bd2323e9a807653d09d6"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/cases/report.json",
+      "sha256": "99086ec17534848738a337524cc6c29870371be0133d50d633a9322175364bac"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/home-normal-motion.png",
+      "sha256": "cac148dff384434b4c003d7f0301649cc9c0e59f2a220d3d6f59b7c99d495b9d"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ar-1440.png",
+      "sha256": "5f685e534393031a0928dc3633746673af003449bc4296d8dbc9c0bc7ae00cfb"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ar-390.png",
+      "sha256": "15b27a7cd37155a3e938364bc5e56ca06222e30f4365c3d079ca4e107cda729a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/de-1440.png",
+      "sha256": "9c42aa1e7083e4f8d1038f74ff7adbc19482375b6b752862d4be03f934acce1a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/de-390.png",
+      "sha256": "35ef3fecd9bdda3bc2102377f1a9ca6fd415190f03281d4c73091572954e79d3"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/en-1440.png",
+      "sha256": "5d766fe2e278db8ad77b502c3d7c813d5585a9400e218606da793ad94100ba84"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/en-390.png",
+      "sha256": "dc3c00779370bddbf0ba7938f8740086f4ff986017fdcbce35fc6f8957dfe74b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/es-1440.png",
+      "sha256": "20f876daf334a0732e19c257d1b9d7cf3cc489f0f2fe09f25720adc95b2bbe1a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/es-390.png",
+      "sha256": "a057c6460b8575a89f8dc60c097a9c04fc76ae9fbbf7572c8ea6b3ba325650c8"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/fr-1440.png",
+      "sha256": "4614ffd19689e4a3bfe672d6103215f04f2087315d6a80411c69b009e15e212b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/fr-390.png",
+      "sha256": "75dfeb2c7de9329fd85c4b2747ab7462b20c75550752f35b8a1df8abebd594b6"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/hi-1440.png",
+      "sha256": "28ed73c8d0a1aeed3feebe21fbe9618e780e0782f3f6c7a441bb3315e97f370e"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/hi-390.png",
+      "sha256": "fc912d5ab95f7c6a75acab779d8efbb7755d9767bba04592be981c8cdfcff93e"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ja-1440.png",
+      "sha256": "f54ba86bac9e94155a09b28dcc5149aa5724b2fdc06cc41f7d0ee4b9daa3c9bd"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ja-390.png",
+      "sha256": "b93e2e9021afcc3bd5770ec5b12351e56d5f9a58ab567105b3aac4b6b8c56279"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ja-vertical-hero.png",
+      "sha256": "f8d3b79a04576e603253970d8695b7127f709bade3e161827ec54bd0162f4eda"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ms-1440.png",
+      "sha256": "0f10c8832136850a84c11b0d6543063036b53d4e916c2fcdbf7baffc8ed92010"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ms-390.png",
+      "sha256": "5c1ed58e5cd1f1f66e19e5b12d69a38a646b015f1b55c4a2f4d1d38c8cb69376"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/pt-BR-1440.png",
+      "sha256": "1dd0c0e4362407bbc843ac7c3465df4079174b61bdebf384a69af3960c76760b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/pt-BR-390.png",
+      "sha256": "38ad42854c4f2722f9aea5bd1a3ffc5288be87e3abdfcf06a896c5d97403e8e9"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/results.json",
+      "sha256": "15531840b77c8a4de926f6f1e0eb79bc8e6e7ea5d6bb4f8036837111d02ed5a8"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ta-1440.png",
+      "sha256": "75437d3220b9b7bfa66da1621cb75f7aa8d2c2b2afd5c402e6dbf6334727dd6c"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/ta-390.png",
+      "sha256": "6e9863b3ebce9c4818ec554937f76c1eeeb3aad8adf3807c41fe9cc9c2c70929"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/zh-Hans-1440.png",
+      "sha256": "991bb69581098e46a3e17b9765baf3b165779e25cd09a39a6a0410cdac2037d7"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/zh-Hans-390.png",
+      "sha256": "c34e0d61e7c633be515aadcf85d068a4acd5eb02023234a553c90992fb6f41c5"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n/zh-Hans-vertical-hero.png",
+      "sha256": "c6be332c2335e49bb47b0f461e2e516a62a88320905fb854342bb49f57c39a47"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ar-1440.png",
+      "sha256": "5f685e534393031a0928dc3633746673af003449bc4296d8dbc9c0bc7ae00cfb"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ar-390.png",
+      "sha256": "15b27a7cd37155a3e938364bc5e56ca06222e30f4365c3d079ca4e107cda729a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/de-1440.png",
+      "sha256": "bf4f2e7239ebeb69f53b7955e382323214a93192eb1f8f3f47fc44013e6c9dea"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/de-390.png",
+      "sha256": "35ef3fecd9bdda3bc2102377f1a9ca6fd415190f03281d4c73091572954e79d3"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/en-1440.png",
+      "sha256": "1ff383281a3a50204930a8a318ba3c87dafe59742e928ac6995d781d0999fca0"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/en-390.png",
+      "sha256": "dc3c00779370bddbf0ba7938f8740086f4ff986017fdcbce35fc6f8957dfe74b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/es-1440.png",
+      "sha256": "20f876daf334a0732e19c257d1b9d7cf3cc489f0f2fe09f25720adc95b2bbe1a"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/es-390.png",
+      "sha256": "a057c6460b8575a89f8dc60c097a9c04fc76ae9fbbf7572c8ea6b3ba325650c8"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/fr-1440.png",
+      "sha256": "4614ffd19689e4a3bfe672d6103215f04f2087315d6a80411c69b009e15e212b"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/fr-390.png",
+      "sha256": "75dfeb2c7de9329fd85c4b2747ab7462b20c75550752f35b8a1df8abebd594b6"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/hi-1440.png",
+      "sha256": "cf1ea16298d715f88c46ad811ef2e5e1325a0ca865817edf5558be1d149ea505"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/hi-390.png",
+      "sha256": "fc912d5ab95f7c6a75acab779d8efbb7755d9767bba04592be981c8cdfcff93e"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ja-1440.png",
+      "sha256": "f54ba86bac9e94155a09b28dcc5149aa5724b2fdc06cc41f7d0ee4b9daa3c9bd"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ja-390.png",
+      "sha256": "b93e2e9021afcc3bd5770ec5b12351e56d5f9a58ab567105b3aac4b6b8c56279"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ja-vertical-hero.png",
+      "sha256": "f8d3b79a04576e603253970d8695b7127f709bade3e161827ec54bd0162f4eda"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ms-1440.png",
+      "sha256": "80aa18358f1bc8af25a67d34e393299952b2a09534ab910dae424fc07c3fefcd"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ms-390.png",
+      "sha256": "5c1ed58e5cd1f1f66e19e5b12d69a38a646b015f1b55c4a2f4d1d38c8cb69376"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/pt-BR-1440.png",
+      "sha256": "60e89b698ef73b0cea89ec4df28d47ec8e0c0a9a00bf6dd02c6f776a6eff18f6"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/pt-BR-390.png",
+      "sha256": "38ad42854c4f2722f9aea5bd1a3ffc5288be87e3abdfcf06a896c5d97403e8e9"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/results.json",
+      "sha256": "15531840b77c8a4de926f6f1e0eb79bc8e6e7ea5d6bb4f8036837111d02ed5a8"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ta-1440.png",
+      "sha256": "75437d3220b9b7bfa66da1621cb75f7aa8d2c2b2afd5c402e6dbf6334727dd6c"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/ta-390.png",
+      "sha256": "6e9863b3ebce9c4818ec554937f76c1eeeb3aad8adf3807c41fe9cc9c2c70929"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/zh-Hans-1440.png",
+      "sha256": "991bb69581098e46a3e17b9765baf3b165779e25cd09a39a6a0410cdac2037d7"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/zh-Hans-390.png",
+      "sha256": "c34e0d61e7c633be515aadcf85d068a4acd5eb02023234a553c90992fb6f41c5"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/i18n-final/zh-Hans-vertical-hero.png",
+      "sha256": "c6be332c2335e49bb47b0f461e2e516a62a88320905fb854342bb49f57c39a47"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/owner-initial.diff",
+      "sha256": "c7cf25047c3ea9f1bafca04b87ef19c4ff0ef271ef121e230ba27dd6d4399cc3"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/translate-ui.py",
+      "sha256": "43f4975b99969327ab9443a162f67eb47f497004deb720ed44425029b4b295ca"
+    },
+    {
+      "path": "output/playwright/ux-localization-v1/translation-changes.json",
+      "sha256": "48e4f2a83671b3036803d80ea411e533a67882af5cb32593d8c94c493106e5a1"
+    }
+  ]
+}

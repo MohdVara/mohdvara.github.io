@@ -460,5 +460,23 @@
     "fluentEditorialReview": "NOT VERIFIED",
     "publicDeploymentParity": "FAIL: 102 of 108 intended URLs return not-found content",
     "ownerReleaseAuthorization": "PENDING OWNER APPROVAL"
+  },
+  "uxLocalizationRefinementV1": {
+    "date": "2026-10-22",
+    "scope": "Current refinement; earlier fields retain their historical scope.",
+    "unitsPerLocale": 1458,
+    "locales": 11,
+    "missing": 0,
+    "stale": 0,
+    "humanReviewed": 0,
+    "warnings": 97,
+    "layouts": 88,
+    "assistantChecks": 11,
+    "focusedSwitches": 28,
+    "focusedPageErrors": 0,
+    "tests": 164,
+    "report": "UX_LOCALIZATION_REFINEMENT_V1.md",
+    "machineManifest": "../../verification/portfolio-ux-localization-v1.json",
+    "linguisticReview": "PENDING HUMAN REVIEW"
   }
 }
