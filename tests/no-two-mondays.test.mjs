@@ -39,7 +39,7 @@ test('No Two Mondays case study serves complete static content, metadata and acc
   await access(join('dist', css[1]));
   await access('dist/images/no-two-mondays/office.jpg');
   for (const [, image] of page.matchAll(/<img[^>]+src="(\/images\/[^\"]+)"/g)) await access(join('dist', image));
-  assert.match(home, /href="\/no-two-mondays\/"/);
+  assert.match(home, /href="\/en\/no-two-mondays\/"/);
   assert.doesNotMatch(home, /NoTwoMondaysCaseStudy-/);
   const schema = JSON.parse(page.match(/<script type="application\/ld\+json">([\s\S]+?)<\/script>/)[1]);
   assert.ok(schema['@graph'].some(item => item['@type'] === 'WebPage' && item.url.endsWith('/no-two-mondays/')));

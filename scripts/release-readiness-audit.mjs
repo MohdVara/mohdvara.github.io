@@ -1,0 +1,50 @@
+// Read-only artifact and HTTP audit. Optional browser tooling stays outside dependencies.
+import {readFile, readdir, stat, writeFile, mkdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {gzipSync} from 'node:zlib';
+import {execFileSync} from 'node:child_process';
+import {createRequire} from 'node:module';
+import {resolve} from 'node:path';
+const out=process.env.QA_OUTPUT || 'output/playwright/release-readiness';
+await mkdir(out,{recursive:true});
+const sha=b=>createHash('sha256').update(b).digest('hex');
+async function files(dir){return (await Promise.all((await readdir(dir,{withFileTypes:true})).map(e=>e.isDirectory()?files(`${dir}/${e.name}`):`${dir}/${e.name}`))).flat().sort();}
+const domain='https://mohd.paramasvara.online';
+const paths=[...new Set([...((await readFile('dist/sitemap.xml','utf8')).matchAll(/<loc>(.*?)<\/loc>/g))].map(x=>new URL(x[1]).pathname))];
+if(process.argv.includes('--public')){
+ const results=[];
+ for(let i=0;i<paths.length;i+=6)await Promise.all(paths.slice(i,i+6).map(async path=>{
+  try{const r=await fetch(domain+path,{signal:AbortSignal.timeout(20000)});const html=await r.text();results.push({path,status:r.status,url:r.url,sha256:sha(html),title:html.match(/<title>(.*?)<\/title>/s)?.[1],canonical:html.match(/rel="canonical" href="([^"]+)/)?.[1],main:html.includes('<main'),notFound:/<title>Page not found/.test(html),entry:html.match(/type="module"[^>]*src="([^"]+)/)?.[1],server:r.headers.get('server')});}catch(e){results.push({path,error:e.message});}
+ }));
+ const links=['https://github.com/MohdVara/mmcats-modern','https://github.com/MohdVara/mmcats-modern/blob/main/docs/RENDER_FREE_ACCEPTANCE.md','https://github.com/MohdVara/mmcats-legacy','https://github.com/MohdVara','https://pace-rag.paramasvara.online/pace-rag/','https://github.com/MohdVara/pace-rag','https://modvar.itch.io/no-two-mondays','https://rxresu.me/mwara95/2-page-resume','https://rxresu.me/mwara95/curriculum-vitae','https://www.linkedin.com/in/mohdvara/','https://cal.com/mohd-paramasvara/discovery'];
+ const external=[];for(const url of links){try{const r=await fetch(url,{signal:AbortSignal.timeout(20000)});external.push({url,status:r.status,finalUrl:r.url});await r.body?.cancel();}catch(e){external.push({url,error:e.message});}}
+ const report={observedAt:new Date().toISOString(),routes:results.sort((a,b)=>a.path.localeCompare(b.path)),external,provider:'Cloudflare response headers observed; origin provider/project/deployment SHA not established'};
+ await writeFile(`${out}/public.json`,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({routes:results.length,notFound:results.filter(r=>r.notFound).length,errors:results.filter(r=>r.error).length,external}));
+}else if(process.argv.includes('--browser')){
+ const require=createRequire(resolve(process.env.QA_MODULES_DIR || '.', 'package.json'));
+ const {chromium}=require('playwright');const browser=await chromium.launch({channel:'chrome',headless:true});const report={journeys:[],errors:[],requests:[],routes:[],keyboard:[]};
+ try{
+ const context=await browser.newContext({viewport:{width:390,height:844},reducedMotion:'reduce'});const page=await context.newPage();page.on('pageerror',e=>report.errors.push(e.message));page.on('request',r=>report.requests.push(r.url()));
+ const base=process.env.QA_URL || 'http://127.0.0.1:4183';await page.goto(base+'/en/');await page.waitForFunction(()=>document.documentElement.dataset.localeReady==='en');
+ const snap=()=>page.evaluate(()=>({title:document.title,headings:[...document.querySelectorAll('h1,h2')].map(x=>x.textContent),links:[...document.querySelectorAll('main a')].map(x=>({text:x.textContent,href:x.getAttribute('href')}))}));
+ const home=await snap();report.home=home;report.homeRequests=[...report.requests];report.homeResources=await page.evaluate(()=>performance.getEntriesByType("resource").map(x=>({name:x.name,transferSize:x.transferSize,decodedBodySize:x.decodedBodySize})));
+ const first=page.locator('a[href="https://rxresu.me/mwara95/2-page-resume"]').first();report.journeys.push({scenario:'A recruiter',role:await page.locator('.hero-role').innerText(),resumeLinks:await first.count(),commercialCases:await page.locator('#case-insurance,#case-wensymes').count(),email:await page.locator('a[href="mailto:mohd@paramasvara.online"]').count(),steps:'Role: 0; résumé: 1 external click; commercial summary: scroll; email: scroll and 1 click'});
+ for(const [scenario,route,id] of [['B modernization manager','mmcats-modern','quick-mmcats-modern'],['C creative reviewer','naae','quick-naae']]){
+ await page.goto(base+'/en/');await page.locator(`a[href$="/${route}/"]`).first().click();await page.locator('#'+id).waitFor();const quick=await page.locator('#'+id).locator('..').boundingBox();report.journeys.push({scenario,homepageClicks:1,quickReadTop:quick.y,quickReadHeight:quick.height,viewportHeight:844,content:await page.locator('#'+id).locator('..').innerText(),modernSourceLinks:await page.locator('a[href="https://github.com/MohdVara/mmcats-modern"]').count()});}
+ await page.goto(base+'/ar/multilingual-engineering/');await page.locator('.translation-original').click();await page.waitForURL('**/en/multilingual-engineering/');report.journeys.push({scenario:'D international frontend',steps:'Language disclosure: 1 open; Arabic selection: 1; case link: 1; English original: 1',englishOriginal:page.url(),note:'Language switching additionally covered by existing i18n matrix'});
+ await page.goto(base+'/en/work-with-me/');report.journeys.push({scenario:'E consulting',homepageToEngagement:1,bookingLinks:await page.locator('a[href="https://cal.com/mohd-paramasvara/discovery"]').count(),emailLinks:await page.locator('a[href="mailto:mohd@paramasvara.online"]').count(),bookingSubmitted:false});
+ await page.goto(base+'/en/');for(let i=0;i<18;i++){await page.keyboard.press('Tab');report.keyboard.push(await page.evaluate(()=>({tag:document.activeElement.tagName,text:document.activeElement.textContent?.trim().slice(0,90),outline:getComputedStyle(document.activeElement).outlineStyle})));}
+ for(const route of ['','mmcats-modern/','naae/','multilingual-engineering/','pace-rag-case-study/','no-two-mondays/','incident-zero/','work-with-me/']){
+ await page.goto(base+'/en/'+route);await page.reload();await page.waitForFunction(()=>document.documentElement.dataset.localeReady==='en');report.routes.push({route,main:await page.locator('main').count(),h1:await page.locator('h1').count(),quickReads:await page.locator('.case-quick-read').count()});}
+ const nojs=await browser.newContext({javaScriptEnabled:false});const p=await nojs.newPage();await p.goto(base+'/en/mmcats-modern/');report.noJavaScript={h1:await p.locator('h1').innerText(),source:await p.locator('a[href="https://github.com/MohdVara/mmcats-modern"]').count()};await nojs.close();await context.close();
+ }finally{await browser.close();await writeFile(`${out}/journeys.json`,JSON.stringify(report,null,2)+'\n');}
+ console.log(JSON.stringify({journeys:report.journeys.length,errors:report.errors,routeRefresh:report.routes.length,artworkRequestedOnHome:report.homeRequests.filter(x=>/images\/naae\//.test(x))}));
+}else{
+ const issues=[],pages=[];for(const path of paths){const html=await readFile('dist'+path+'index.html','utf8');const ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(x=>x[1]);const canon=html.match(/rel="canonical" href="([^"]+)/)?.[1];if(canon!==domain+path)issues.push({path,type:'canonical',canon});if((html.match(/hreflang=/g)||[]).length!==12)issues.push({path,type:'alternates'});if((html.match(/<h1[\s>]/g)||[]).length!==1)issues.push({path,type:'h1'});
+ for(const [,raw]of html.matchAll(/(?:href|src)="([^"]+)"/g)){const href=raw.replaceAll('&amp;','&');if(/^(?:file:|https?:\/\/(?:localhost|127\.0\.0\.1)|\/Users\/|\/private\/)/.test(href))issues.push({path,type:'unsafe-link',href});if(href.startsWith('/')||href.startsWith('#')){const u=new URL(href,domain+path);let target='dist'+decodeURI(u.pathname);try{if((await stat(target)).isDirectory())target+='/index.html';await stat(target);if(u.hash){const other=u.pathname===path?ids:[...(await readFile(target,'utf8')).matchAll(/\sid="([^"]+)"/g)].map(x=>x[1]);if(!other.includes(decodeURIComponent(u.hash.slice(1))))issues.push({path,type:'fragment',href});}}catch{issues.push({path,type:'missing-target',href});}}}
+ pages.push({path,canonical:canon,htmlSha256:sha(html)});}
+ const built=[];for(const file of await files('dist')){const b=await readFile(file);built.push({path:file.slice(5),bytes:b.length,sha256:sha(b),...(/\.(js|css)$/.test(file)?{gzip:gzipSync(b).length}:{})});}
+ const names=execFileSync('git',['ls-files','--cached','--others','--exclude-standard','-z'],{encoding:'utf8'}).split('\0').filter(p=>p&&!p.startsWith('docs/')&&!p.startsWith('verification/')&&!p.startsWith('output/')&&!p.startsWith('.playwright-cli/')).sort();const source=[];for(const path of names)source.push({path,sha256:sha(await readFile(path))});
+ const entry=built.find(x=>/^assets\/index-[^/]+\.js$/.test(x.path));const chunks=built.filter(x=>/\.(js|css)$/.test(x.path));
+ const report={observedAt:new Date().toISOString(),head:execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim(),sourceFingerprint:sha(JSON.stringify(source)),sourceFingerprintScope:'Sorted git tracked + nonignored untracked path/SHA256 pairs; excludes docs/, verification/, output/, .playwright-cli/ to avoid report self-reference. Includes build scripts, lockfile, vendor, public assets and source.',source,artifactFingerprint:sha(JSON.stringify(built)),artifactFiles:built.length,routes:pages,issues,metrics:{entry,totalChunks:{raw:chunks.reduce((s,x)=>s+x.bytes,0),gzip:chunks.reduce((s,x)=>s+x.gzip,0)},largestChunks:chunks.sort((a,b)=>b.bytes-a.bytes).slice(0,8),naae:built.filter(x=>x.path.startsWith('images/naae/')),fonts:built.filter(x=>/\.(woff2?|ttf|otf)$/.test(x.path))},built};await writeFile(`${out}/artifact.json`,JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({routes:pages.length,issues,sourceFingerprint:report.sourceFingerprint,artifactFingerprint:report.artifactFingerprint,entry}));
+}

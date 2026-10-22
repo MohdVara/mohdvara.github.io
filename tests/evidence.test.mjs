@@ -18,13 +18,13 @@ test('commercial fragments allow only known projects, including encoded valid li
 
 test('all generated service evidence links resolve to actual static fragments', async () => {
   const work = await readFile('dist/work-with-me/index.html', 'utf8');
-  const cases = [...work.matchAll(/href="(\/#case-[^"]+)"/g)].map(match => match[1]);
+  const cases = [...work.matchAll(/href="(\/en\/#case-[^"]+)"/g)].map(match => match[1]);
   assert.ok(cases.length >= 7);
   const home = await readFile('dist/index.html', 'utf8');
-  for (const hash of cases) assert.ok(home.includes(`id="${hash.slice(2)}"`), hash);
+  for (const hash of cases) assert.ok(home.includes(`id="${hash.split("#")[1]}"`), hash);
   assert.match(work, /PolicyStreet · engineering leadership/);
   assert.match(work, /PACE-RAG · implementation &amp; evidence boundaries/);
-  assert.match(work, /href="\/pace-rag-case-study\/"/);
+  assert.match(work, /href="\/en\/pace-rag-case-study\/"/);
   const rag = await readFile("dist/pace-rag-case-study/index.html", "utf8");
   assert.match(rag, /72.5%/);
   assert.match(rag, /Architecture at a glance/);

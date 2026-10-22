@@ -88,12 +88,12 @@ test('Incident Zero ships static route content and no eager game-engine preload 
   assert.match(page,/Payroll closes tomorrow/);
   assert.match(page,/all incident data is synthetic/i);
   assert.match(page,/rel="canonical" href="https:\/\/mohd.paramasvara.online\/incident-zero\/"/);
-  assert.match(page,/href="\/#contact"/);
+  assert.match(page,/href="\/en\/#contact"/);
   const routeCss=page.match(/href="(\/assets\/IncidentZeroRoute-[^"]+\.css)"/);
   assert.ok(routeCss,'Static incident landing requires its route stylesheet');
   await access(join('dist',routeCss[1]));
   assert.doesNotMatch(page,/app-html/);
-  assert.match(html,/href="\/incident-zero\/"/);
+  assert.match(html,/href="\/en\/incident-zero\/"/);
   assert.doesNotMatch(html,/<link[^>]+(?:GameShell|game-|IncidentZeroRoute)/);
   assert.match(await readFile('dist/sitemap.xml','utf8'),/incident-zero\//);
 });
