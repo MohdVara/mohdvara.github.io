@@ -28,7 +28,7 @@ function grid(cols: number, rows: number, layer: number): ForestGrid {
 }
 
 export function* generateScene(cols: number, rows: number, seed: number = forestConfig.seed): Generator<void, ForestScene> {
-  cols = Math.round(bounded(cols, 40, 200)); rows = Math.round(bounded(rows, 30, 150));
+  cols = Math.round(bounded(cols, 40, 400)); rows = Math.round(bounded(rows, 30, 150));
   const grids = Array.from({ length: 4 }, (_, layer) => grid(cols, rows, layer));
   const crowns: Crown[] = [];
   // Broad terrain is entirely glyph-defined. Distant cells thin toward each edge.

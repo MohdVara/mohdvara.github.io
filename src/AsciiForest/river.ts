@@ -4,7 +4,7 @@ import { noise, type ForestGrid, type ForestScene } from "./scene";
 // The channel and crown field live in normalized map coordinates, so quality
 // changes resample one landscape rather than choosing a different river.
 export function* generateRiverScene(cols: number, rows: number, seed: number = forestConfig.seed): Generator<void, ForestScene> {
-  cols = Math.round(bounded(cols, 40, 200));
+  cols = Math.round(bounded(cols, 40, 400));
   rows = Math.round(bounded(rows, 30, 150));
   const grids: ForestGrid[] = Array.from({ length: 4 }, (_, layer) => ({
     cols, rows, glyph: new Uint8Array(cols * rows), color: new Uint8Array(cols * rows),

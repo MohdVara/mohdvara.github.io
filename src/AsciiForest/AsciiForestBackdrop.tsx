@@ -17,7 +17,7 @@ export function AsciiForestBackdrop({ aerial = false, seed, codeCanopy = false }
     const load = () => { first = requestAnimationFrame(() => {
       second = requestAnimationFrame(() => {
         import("./renderer").then(module => {
-          if (!cancelled) renderer = module.mountForest(element, state(), aerial, seed, codeCanopy);
+          if (!cancelled) renderer = module.mountForest(element, state(), aerial, seed, codeCanopy, true);
         }).catch(() => { /* Existing botanical drawing remains the fallback. */ });
       });
     }); };

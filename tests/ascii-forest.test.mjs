@@ -565,3 +565,59 @@ test('homepage code canopy increases real code coverage while keeping silhouette
   assert.ok(newCode > priorCode * 3, 'homepage has materially more code than the selective texture');
   assert.ok(newCode / occupied > 0.45, 'letters form a substantial portion of the canopy');
 });
+
+test('NAAE-derived field uses one grid, preserves structures, and scales glyph size without changing the landscape', () => {
+  const {atmosphereGlyph,narrativeGlyph,emptySceneCells,narrativeColumns}=load('narrativeField');
+  for(const width of [360,390,768,1280,1440,1900,2560,3840]){
+    const cols=narrativeColumns(width),scene=createScene(cols,100),empty=emptySceneCells(scene);
+    assert.equal(scene.grids[0].cols,cols);
+    assert.equal(scene.signature,createScene(84,60).signature);
+    assert.ok(cols>=84&&cols<=400);
+    for(let i=0;i<empty.length;i++)assert.equal(empty[i],scene.grids.every(g=>!g.glyph[i])?1:0,'atmosphere never paints over occupied scenery');
+    for(let row=0;row<100;row++)for(let col=0;col<cols;col++){
+      assert.match(atmosphereGlyph(col,row,scene.seed),/^[\x21-\x7e]$/);
+      assert.match(narrativeGlyph('#',col,row,2,scene.seed),/^[\x21-\x7e]$/);
+    }
+  }
+  for(const mark of ['/',String.fromCharCode(92),'|','!'])assert.equal(narrativeGlyph(mark,20,30,3,240916),mark);
+  assert.equal(narrativeColumns(390),84,'mobile has its own legible pitch');
+  assert.equal(narrativeColumns(1440),240);
+  assert.equal(narrativeColumns(1900),317);
+});
+
+test('NAAE materials vary their marks and distinguish wood, foliage and daylight inks', () => {
+  const {narrativeGlyph,narrativeInk,narrativeForestInks}=load('narrativeField');
+  let pairs=0;const characters=new Set(),inks=new Set();
+  for(let row=0;row<70;row++){
+    const line=Array.from({length:240},(_,col)=>narrativeGlyph('#',col,row,3,240916)).join('');
+    for(const char of line)characters.add(char);
+    pairs+=(line.match(/o\+/g)||[]).length;
+    for(let col=0;col<240;col+=7)inks.add(narrativeInk('#',col,row,3,1,240916,'dark'));
+  }
+  assert.ok(characters.size>20);assert.ok(pairs/(70*240)<0.015,'no repeated o+ filler band');assert.ok(inks.size>1,'foliage includes coherent warm patches');
+  for(const theme of ['light','dark']){
+    const wood=narrativeInk('|',10,10,3,2,240916,theme),leaf=narrativeInk('#',10,10,3,2,240916,theme);
+    assert.notEqual(wood,leaf);assert.notEqual(wood,narrativeInk('|',10,10,3,2,240916,theme==='light'?'dark':'light'));
+    assert.equal(narrativeInk('/',10,10,0,2,240916,theme),narrativeForestInks[theme][0][2],'ridge diagonals are rock, not bark');
+  }
+});
+
+test('aerial narrative materials preserve channels, current direction and seeded catchments at fine resolutions', () => {
+  const { narrativeColumns, narrativeRiverGlyph, narrativeRiverInk, narrativeRiverInks } = load('narrativeField');
+  for (const seed of [forestConfig.seed, ...Object.values(pageSceneSeeds)]) {
+    const coarse = riverScene(84, 60, seed), fine = riverScene(narrativeColumns(1900), 100, seed);
+    assert.equal(fine.signature, coarse.signature, 'finer detail resamples the established bends');
+    assert.equal(fine.grids[2].cols,317);
+    let letters=0, water=0, marks=0;
+    for (const [layer,g] of fine.grids.entries()) for(let i=0;i<g.glyph.length;i++) {
+      if(!g.glyph[i])continue;
+      const original=forestConfig.glyphs[g.glyph[i]],col=i%g.cols,row=Math.floor(i/g.cols);
+      const glyph=narrativeRiverGlyph(original,col,row,layer,seed);
+      assert.match(glyph,/^[\x21-\x7e]$/,'every occupied material cell remains inked');
+      if(layer===2){water++;if(/[a-z]/i.test(glyph))letters++;else marks++;if(original==='^')assert.equal(glyph,'^','downstream direction survives');}
+      for(const theme of ['light','dark'])assert.match(narrativeRiverInk(col,row,layer,g.color[i],seed,theme),/^#[0-9a-f]{6}$/i);
+    }
+    assert.ok(letters>0&&marks/water>.75,'words are occasional details inside a continuous wave channel');
+  }
+  for(const theme of ['light','dark'])assert.notEqual(narrativeRiverInks[theme][1][2],narrativeRiverInks[theme][2][2],'silt and water remain distinct');
+});

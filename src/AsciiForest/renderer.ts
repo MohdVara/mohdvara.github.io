@@ -3,13 +3,15 @@ import { daylightCodeCanopy, palettes } from "./palette";
 import { generateScene, type ForestScene } from "./scene";
 import { createAnimation } from "./animation";
 import { generateRiverScene } from "./river";
+import { atmosphereGlyph, emptySceneCells, narrativeForestInks, narrativeGlyph, narrativeColumns, narrativeInk, narrativeRiverGlyph, narrativeRiverInk, narrativeRiverInks } from "./narrativeField";
 import { sourceTextureGlyph } from "./sourceTexture";
 
 export type ForestState = { theme: ForestTheme; enabled: boolean };
 export type ForestHandle = { update: (state: ForestState) => void; dispose: () => void };
-type MovingCell = { x: number; y: number; glyph: string; color: number; group: number; alpha: number };
+type MovingCell = { x: number; y: number; glyph: string; color: number; group: number; alpha: number; ink?: string };
 
-export function mountForest(host: HTMLElement, initial: ForestState, aerial = false, seed: number = forestConfig.seed, codeCanopy = false): ForestHandle {
+export function mountForest(host: HTMLElement, initial: ForestState, aerial = false, seed: number = forestConfig.seed, codeCanopy = false, narrativeStyle = false): ForestHandle {
+  if (narrativeStyle) host.dataset.narrative = "naae-v0.3";
   const canvas = document.createElement("canvas");
   canvas.setAttribute("aria-hidden", "true");
   const context = canvas.getContext("2d", { alpha: true });
@@ -28,6 +30,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   let totalFrames = 0, paintMs = 0, maxPaintMs = 0;
   let font = "";
   function getPalette() {
+    if (narrativeStyle) return aerial ? narrativeRiverInks[state.theme] : narrativeForestInks[state.theme];
     if (codeCanopy && !aerial && state.theme === "light") return daylightCodeCanopy;
     if (!aerial) return palettes[state.theme];
     return state.theme === "light" ? [palettes.light[2], ["#c1b994", "#b6b18e", "#9aa080", "#7b9579"], ["#659b9d", "#4a8d91", "#337f88", "#246d7d"], palettes.light[3]] : [palettes.dark[2], ["#4e5b3f", "#67704c", "#718062", "#829078"], ["#24464b", "#315c61", "#46797d", "#79a2a0"], palettes.dark[3]];
@@ -62,12 +65,12 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
           if (reach > 0.12 + branchProgress * 0.82) continue;
         }
         const wind = state.enabled && cell.group < 64 ? Math.sin(time * forestConfig.speed + cell.group * 1.7) * (aerial ? 0.55 : forestConfig.wind) : 0;
-        ctx.fillStyle = palette[layer][cell.color];
+        ctx.fillStyle = cell.ink || palette[layer][cell.color];
         ctx.globalAlpha = cell.alpha;
         ctx.fillText(cell.glyph, cell.x + px + wind, cell.y + py);
         ctx.globalAlpha = 1;
       }
-      if (layer === 1 && !aerial) {
+      if (layer === 1 && !aerial && !narrativeStyle) {
         const drift = state.enabled ? Math.sin(time * 0.08) * width * 0.035 : 0;
         const fog = ctx.createRadialGradient(width * 0.59 + drift, height * 0.5, 0, width * 0.59 + drift, height * 0.5, width * 0.33);
         fog.addColorStop(0, state.theme === "dark" ? `rgba(145,175,161,${forestConfig.mist})` : `rgba(250,248,242,${forestConfig.mist * 2})`);
@@ -100,6 +103,14 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
       c.font = font; c.textBaseline = "alphabetic";
       const g = scene.grids[layer];
       const dynamic: MovingCell[] = [];
+      if (narrativeStyle && !aerial && layer === 0) {
+        const empty = emptySceneCells(scene);
+        c.fillStyle = state.theme === "dark" ? "#25372b" : "#e0e7e3";
+        for (let i = 0; i < empty.length; i++) if (empty[i]) {
+          const col = i % g.cols, row = Math.floor(i / g.cols);
+          c.fillText(atmosphereGlyph(col, row, seed), col * cellWidth, (row + 0.84) * cellHeight);
+        }
+      }
       // Group static glyph painting by ink. Only selected coherent crown groups
       // are redrawn each animation frame; all terrain remains cached.
       for (let color = 0; color < 4; color++) {
@@ -107,17 +118,24 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
         for (let i = 0; i < g.glyph.length; i++) {
           if (!g.glyph[i] || g.color[i] !== color) continue;
           const originalGlyph = forestConfig.glyphs[g.glyph[i]];
-          const glyph = sourceTextureGlyph(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, seed, aerial, codeCanopy, g.color[i], state.theme);
+          const glyph = narrativeStyle ? (aerial ? narrativeRiverGlyph : narrativeGlyph)(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, seed) : sourceTextureGlyph(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, seed, aerial, codeCanopy, g.color[i], state.theme);
           // Letters have more ink than small punctuation. Match their visual
           // weight so distant crowns stay light and nearer shadows stay deep.
-          const weight = codeCanopy && !aerial && glyph !== originalGlyph
+          const weight = !narrativeStyle && codeCanopy && !aerial && glyph !== originalGlyph
             ? (".,:;".includes(originalGlyph) ? 0.5 : "+*o".includes(originalGlyph) ? 0.75 : 0.95) : 1;
-          const alpha = weight * (codeCanopy && !aerial && state.theme === "light" && glyph !== originalGlyph
+          const daylightWeight = narrativeStyle && state.theme === "light" && /[a-z]/i.test(glyph) ? (aerial || layer > 1 ? 0.78 : 0.55) : 1;
+          const alpha = weight * daylightWeight * (!narrativeStyle && codeCanopy && !aerial && state.theme === "light" && glyph !== originalGlyph
             ? [0.5, 0.58, 0.72, 0.82][layer] : 1);
+          const ink = narrativeStyle ? (aerial ? narrativeRiverInk(i % g.cols, Math.floor(i / g.cols), layer, color, seed, state.theme) : narrativeInk(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, color, seed, state.theme)) : undefined;
           const x = (i % g.cols) * cellWidth;
           const y = (Math.floor(i / g.cols) + 0.84) * cellHeight;
-          if (g.motion[i]) dynamic.push({ x, y, glyph, color, group: g.motion[i], alpha });
-          else { c.globalAlpha = alpha; c.fillText(glyph, x, y); }
+          if (g.motion[i]) dynamic.push({ x, y, glyph, color, group: g.motion[i], alpha, ink });
+          else {
+            c.globalAlpha = alpha;
+            if (ink) c.fillStyle = ink;
+            c.fillText(glyph, x, y);
+            c.fillStyle = palette[layer][color];
+          }
         }
       }
       caches.push(cache); moving.push(dynamic);
@@ -150,7 +168,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
     scale = Math.min(devicePixelRatio || 1, forestConfig.maxDpr, 1920 / width, forestConfig.maxHeight / height);
     canvas.width = Math.round(width * scale); canvas.height = Math.round(height * scale);
     ctx.setTransform(scale, 0, 0, scale, 0, 0);
-    const quality = qualityFor(width), cols = forestConfig.columns[quality];
+    const quality = qualityFor(width), cols = narrativeStyle ? narrativeColumns(width) : forestConfig.columns[quality];
     // Measure the actual font, then tighten its advance independently of ink
     // size. Larger glyphs on a tighter pitch connect the landscape forms.
     const tracking = bounded(forestConfig.tracking, 0.75, 1);

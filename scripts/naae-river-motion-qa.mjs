@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+import {resolve} from 'node:path';
+import {mkdir,writeFile} from 'node:fs/promises';
+const require=createRequire(resolve(process.env.QA_MODULES_DIR||'/private/tmp/pace-qa','package.json'));
+const engine=process.env.QA_BROWSER||'chromium',out=`output/playwright/naae-rivers/motion-${engine}`;
+await mkdir(out,{recursive:true});
+const browser=await require('playwright')[engine].launch({...engine==='chromium'?{channel:'chrome'}:{},headless:true});
+const report={engine,errors:[],checks:[]};
+try{
+ const page=await browser.newPage({viewport:{width:1440,height:900},reducedMotion:'no-preference'});page.on('pageerror',e=>report.errors.push(e.message));
+ await page.goto(process.env.QA_URL||'http://127.0.0.1:4174');
+ assert.equal(await page.getByRole('link',{name:'Explore the written landscape'}).count(),0);
+ assert.equal(await page.getByRole('link',{name:'Read the river passage'}).count(),0);
+ await page.locator('#contact').scrollIntoViewIfNeeded();
+ const river=page.locator('.ascii-river[data-ready=true][data-narrative="naae-v0.3"]');await river.waitFor();
+ await page.waitForFunction(()=>document.querySelector('.ascii-river')?.dataset.running==='true');
+ const frames=Number(await river.getAttribute('data-frames')),signature=await river.getAttribute('data-signature');
+ await page.waitForFunction(before=>Number(document.querySelector('.ascii-river')?.dataset.frames)>before,frames);
+ await page.locator('.display-settings summary').click();await page.getByLabel('Animated scenery').selectOption('paused');
+ await page.waitForFunction(()=>document.querySelector('.ascii-river')?.dataset.running==='false');
+ const raw=await river.locator('canvas').evaluate(c=>c.toDataURL());await page.waitForTimeout(250);assert.equal(await river.locator('canvas').evaluate(c=>c.toDataURL()),raw);
+ await page.evaluate(()=>window.dispatchEvent(new CustomEvent('theme-preference',{detail:'light'})));
+ await page.waitForFunction(()=>document.documentElement.dataset.theme==='light');
+ assert.equal(await river.getAttribute('data-signature'),signature);
+ await page.getByLabel('Animated scenery').selectOption('enabled');await page.waitForFunction(()=>document.querySelector('.ascii-river')?.dataset.running==='true');await page.emulateMedia({reducedMotion:'reduce'});
+ await page.waitForFunction(()=>document.querySelector('.ascii-river')?.dataset.running==='false');
+ report.checks.push('Removed reading controls absent; native river frames advance; pause freezes raw pixels; theme preserves catchment identity; OS reduced motion overrides animation.');
+ assert.deepEqual(report.errors,[]);
+}finally{await writeFile(`${out}/results.json`,JSON.stringify(report,null,2));await browser.close();}
