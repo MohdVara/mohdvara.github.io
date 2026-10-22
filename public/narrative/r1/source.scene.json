@@ -1,0 +1,87 @@
+{
+  "engine": "NAAE/0.3",
+  "config": {
+    "rendererVersion": "0.3.0",
+    "mode": "landscape",
+    "preset": "borneo",
+    "seed": 1842,
+    "width": 1800,
+    "height": 1012.5,
+    "profile": {
+      "id": "poster",
+      "widthMm": 720,
+      "heightMm": 405,
+      "safeMarginMm": 12,
+      "minCharacterMm": 2.5,
+      "minStrokeMm": 0.2,
+      "minSpacingMm": 0.2,
+      "aspectRatio": 1.7777777777777777
+    },
+    "fontSize": 12,
+    "tracking": 0.5,
+    "lineHeight": 1.25,
+    "density": 0.9,
+    "contrast": 0.9,
+    "narrativeRatio": 0.18,
+    "narrativePriority": 0.8,
+    "strategy": "balanced",
+    "maxTexture": 30000,
+    "palette": "botanical",
+    "curve": 0.25,
+    "transparent": true,
+    "pngWidth": 3600,
+    "environment": {
+      "mountains": 0.7,
+      "forest": 0.8,
+      "terrain": 0.65,
+      "atmosphere": 0.7,
+      "foreground": 0.8,
+      "river": true
+    },
+    "visible": {
+      "sky": true,
+      "mountains": true,
+      "forest": true,
+      "river": true,
+      "earth": true
+    },
+    "coverage": {
+      "profile": "continuous",
+      "target": 1,
+      "intensity": 0.7,
+      "textureMode": "mixed",
+      "wordDensity": 0.48,
+      "atmosphericDetail": 0.6,
+      "backgroundDetail": 0.7,
+      "foregroundDetail": 0.85,
+      "textureComplexity": 0.65,
+      "minWeight": 0.015,
+      "maxWeight": 0.4,
+      "depthContrast": 0.7,
+      "narrativeContrast": 4.5,
+      "minimumContrast": 1.8,
+      "materialIntensity": {
+        "atmosphere": 0.25,
+        "cloud": 0.36,
+        "rock": 0.55,
+        "leaves": 0.78,
+        "bark": 0.85,
+        "water": 0.5,
+        "soil": 0.67,
+        "shadow": 0.3
+      },
+      "intent": "digital",
+      "fabricColor": "#101713",
+      "process": "dtg",
+      "detailLoss": 0.25,
+      "exclusions": []
+    }
+  },
+  "narratives": {
+    "sky": "The wind carries no border. It brings the rain that knew another shore, then leaves us changed beneath an open sky.",
+    "mountains": "Before our names, these ridges held the dawn. Generations passed below; the stone kept watch, and made no claim to time.",
+    "forest": "A fallen tree becomes a thousand beginnings. In the green dark, memory is not still. It feeds the living leaf.",
+    "river": "I take the road that will not stay. What leaves one bank may nourish another. Even loss can learn the shape of rain.",
+    "earth": "Under every path lie paths forgotten. Here the roots hold what the water could not carry. To belong is also to remember."
+  }
+}

@@ -1,0 +1,1959 @@
+{
+  "revision": 1,
+  "sourceEngine": "NAAE",
+  "engineVersion": "0.3.0",
+  "artworkId": "borneo-002",
+  "composition": "Borneo panoramic landscape",
+  "seed": 1842,
+  "sourceSha256": "988d402723e932e76a755963604a19ab5d0ecc06e9eb168f37a8c1920699575b",
+  "font": {
+    "url": "/narrative/r1/LiberationMono-f2b83c763e8a.ttf",
+    "sha256": "f2b83c763e8afd21709333370bed4774337fae82267937e2b5aea7e2fbd922c1",
+    "license": "/narrative/r1/LICENSE_LIBERATION.txt"
+  },
+  "language": "en",
+  "supportedShaping": "Latin ASCII only; other scripts require a shaped export",
+  "width": 1800,
+  "height": 1012.5,
+  "glyphCount": 14175,
+  "coverage": {
+    "eligible": 14073,
+    "occupied": 14073,
+    "coverage": 1,
+    "averageIntensity": 0.2829420808314276,
+    "averageInkCoverage": 0.1458828683356823,
+    "structural": 14175,
+    "invisibleAssigned": 0,
+    "protectedWhitespace": 102,
+    "profile": "continuous",
+    "target": 1,
+    "feasibleMaximum": 1,
+    "targetSatisfied": true,
+    "textureBudget": 30000,
+    "states": {
+      "narrative": 479,
+      "texture": 13594,
+      "eligible-empty": 0,
+      "narrative-space": 102,
+      "exclusion": 0,
+      "outside": 67,
+      "safe-margin": 1369,
+      "unplaceable": 0
+    },
+    "byRegion": {
+      "sky": {
+        "eligible": 5400,
+        "occupied": 5400,
+        "coverage": 1,
+        "averageIntensity": 0.07361226071177904,
+        "averageInkCoverage": 0.08676542057621495,
+        "structural": 5420,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 20
+      },
+      "mountains": {
+        "eligible": 2105,
+        "occupied": 2105,
+        "coverage": 1,
+        "averageIntensity": 0.28816916449443963,
+        "averageInkCoverage": 0.17691043843307008,
+        "structural": 2125,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 20
+      },
+      "forest": {
+        "eligible": 3558,
+        "occupied": 3558,
+        "coverage": 1,
+        "averageIntensity": 0.4973009372132762,
+        "averageInkCoverage": 0.19748374147167072,
+        "structural": 3577,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 19
+      },
+      "river": {
+        "eligible": 920,
+        "occupied": 920,
+        "coverage": 1,
+        "averageIntensity": 0.20018272004284726,
+        "averageInkCoverage": 0.1212101770962747,
+        "structural": 942,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 22
+      },
+      "earth": {
+        "eligible": 2090,
+        "occupied": 2090,
+        "coverage": 1,
+        "averageIntensity": 0.4900367308096186,
+        "averageInkCoverage": 0.19039203205274,
+        "structural": 2111,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 21
+      }
+    },
+    "byLayer": {
+      "atmosphere-field": {
+        "eligible": 3644,
+        "occupied": 3644,
+        "coverage": 1,
+        "averageIntensity": 0.05965427924145255,
+        "averageInkCoverage": 0.08264151076148099,
+        "structural": 3644,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 0
+      },
+      "sky-bands": {
+        "eligible": 996,
+        "occupied": 996,
+        "coverage": 1,
+        "averageIntensity": 0.13967511570003002,
+        "averageInkCoverage": 0.11610365183191672,
+        "structural": 1016,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 20
+      },
+      "distant-range": {
+        "eligible": 1539,
+        "occupied": 1539,
+        "coverage": 1,
+        "averageIntensity": 0.29551846987178754,
+        "averageInkCoverage": 0.18163971990457242,
+        "structural": 1559,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 20
+      },
+      "near-range": {
+        "eligible": 566,
+        "occupied": 566,
+        "coverage": 1,
+        "averageIntensity": 0.2681858058800596,
+        "averageInkCoverage": 0.16405113775348804,
+        "structural": 566,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 0
+      },
+      "valley-mist": {
+        "eligible": 760,
+        "occupied": 760,
+        "coverage": 1,
+        "averageIntensity": 0.05395999875069608,
+        "averageInkCoverage": 0.06808995877910883,
+        "structural": 760,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 0
+      },
+      "forest-0": {
+        "eligible": 828,
+        "occupied": 828,
+        "coverage": 1,
+        "averageIntensity": 0.45065862906720255,
+        "averageInkCoverage": 0.1819034926482632,
+        "structural": 836,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 8
+      },
+      "river": {
+        "eligible": 920,
+        "occupied": 920,
+        "coverage": 1,
+        "averageIntensity": 0.20018272004284726,
+        "averageInkCoverage": 0.1212101770962747,
+        "structural": 942,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 22
+      },
+      "left-fronds": {
+        "eligible": 669,
+        "occupied": 669,
+        "coverage": 1,
+        "averageIntensity": 0.583898434693999,
+        "averageInkCoverage": 0.21470052430526618,
+        "structural": 671,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 2
+      },
+      "right-fronds": {
+        "eligible": 645,
+        "occupied": 645,
+        "coverage": 1,
+        "averageIntensity": 0.5789187897806626,
+        "averageInkCoverage": 0.2144972284648091,
+        "structural": 645,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 0
+      },
+      "forest-1": {
+        "eligible": 966,
+        "occupied": 966,
+        "coverage": 1,
+        "averageIntensity": 0.5119161463390883,
+        "averageInkCoverage": 0.20320556708196577,
+        "structural": 975,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 9
+      },
+      "forest-2": {
+        "eligible": 1764,
+        "occupied": 1764,
+        "coverage": 1,
+        "averageIntensity": 0.5111906986244972,
+        "averageInkCoverage": 0.20166353879948265,
+        "structural": 1766,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 2
+      },
+      "river-stones": {
+        "eligible": 25,
+        "occupied": 25,
+        "coverage": 1,
+        "averageIntensity": 0.39572484524532037,
+        "averageInkCoverage": 0.20838315863367352,
+        "structural": 27,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 2
+      },
+      "earth": {
+        "eligible": 751,
+        "occupied": 751,
+        "coverage": 1,
+        "averageIntensity": 0.3332263302824985,
+        "averageInkCoverage": 0.14743595859434577,
+        "structural": 768,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 17
+      }
+    },
+    "byMaterial": {
+      "atmosphere": {
+        "eligible": 4404,
+        "occupied": 4404,
+        "coverage": 1,
+        "averageIntensity": 0.05867161503323944,
+        "averageInkCoverage": 0.08013034375271742,
+        "structural": 4404,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 0
+      },
+      "cloud": {
+        "eligible": 996,
+        "occupied": 996,
+        "coverage": 1,
+        "averageIntensity": 0.13967511570003002,
+        "averageInkCoverage": 0.11610365183191672,
+        "structural": 1016,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 20
+      },
+      "rock": {
+        "eligible": 2130,
+        "occupied": 2130,
+        "coverage": 1,
+        "averageIntensity": 0.28943155511358154,
+        "averageInkCoverage": 0.17727983655749022,
+        "structural": 2152,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 22
+      },
+      "leaves": {
+        "eligible": 4485,
+        "occupied": 4485,
+        "coverage": 1,
+        "averageIntensity": 0.5409546302790784,
+        "averageInkCoverage": 0.21069320654051604,
+        "structural": 4503,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 18
+      },
+      "bark": {
+        "eligible": 387,
+        "occupied": 387,
+        "coverage": 1,
+        "averageIntensity": 0.27712116284741173,
+        "averageInkCoverage": 0.10251546238240349,
+        "structural": 390,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 3
+      },
+      "water": {
+        "eligible": 920,
+        "occupied": 920,
+        "coverage": 1,
+        "averageIntensity": 0.20018272004284726,
+        "averageInkCoverage": 0.1212101770962747,
+        "structural": 942,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 22
+      },
+      "soil": {
+        "eligible": 751,
+        "occupied": 751,
+        "coverage": 1,
+        "averageIntensity": 0.3332263302824985,
+        "averageInkCoverage": 0.14743595859434577,
+        "structural": 768,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 17
+      }
+    },
+    "byProfile": {
+      "continuous": {
+        "eligible": 14073,
+        "occupied": 14073,
+        "coverage": 1,
+        "averageIntensity": 0.2829420808314276,
+        "averageInkCoverage": 0.1458828683356823,
+        "structural": 14175,
+        "invisibleAssigned": 0,
+        "protectedWhitespace": 102
+      }
+    },
+    "intensityDistribution": {
+      "low": 4449,
+      "medium": 4820,
+      "high": 4804
+    },
+    "requestedIntensity": 0.7,
+    "clampedVisibility": 276,
+    "actualTexture": 13594,
+    "narrativeCharacters": 581,
+    "visibleNarrative": 479,
+    "gapsBefore": [
+      {
+        "size": 4545,
+        "region": "sky",
+        "material": "atmosphere",
+        "classification": "missing atmospheric texture",
+        "minCol": 0,
+        "maxCol": 224,
+        "minRow": 0,
+        "maxRow": 26
+      },
+      {
+        "size": 1717,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 16,
+        "maxCol": 154,
+        "minRow": 31,
+        "maxRow": 56
+      },
+      {
+        "size": 1619,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 0,
+        "maxCol": 224,
+        "minRow": 18,
+        "maxRow": 35
+      },
+      {
+        "size": 760,
+        "region": "sky",
+        "material": "atmosphere",
+        "classification": "missing atmospheric texture",
+        "minCol": 5,
+        "maxCol": 224,
+        "minRow": 28,
+        "maxRow": 32
+      },
+      {
+        "size": 482,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 141,
+        "maxCol": 205,
+        "minRow": 32,
+        "maxRow": 56
+      },
+      {
+        "size": 274,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 4,
+        "maxCol": 49,
+        "minRow": 49,
+        "maxRow": 57
+      },
+      {
+        "size": 256,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 177,
+        "maxCol": 221,
+        "minRow": 49,
+        "maxRow": 57
+      },
+      {
+        "size": 102,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 125,
+        "maxCol": 156,
+        "minRow": 33,
+        "maxRow": 38
+      },
+      {
+        "size": 83,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 208,
+        "maxCol": 224,
+        "minRow": 31,
+        "maxRow": 42
+      },
+      {
+        "size": 57,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 4,
+        "maxCol": 15,
+        "minRow": 35,
+        "maxRow": 42
+      },
+      {
+        "size": 39,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 76,
+        "maxCol": 92,
+        "minRow": 31,
+        "maxRow": 33
+      },
+      {
+        "size": 37,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 95,
+        "maxCol": 111,
+        "minRow": 30,
+        "maxRow": 32
+      },
+      {
+        "size": 36,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 30,
+        "maxCol": 45,
+        "minRow": 32,
+        "maxRow": 36
+      },
+      {
+        "size": 35,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 89,
+        "maxCol": 110,
+        "minRow": 16,
+        "maxRow": 17
+      },
+      {
+        "size": 35,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 172,
+        "maxCol": 186,
+        "minRow": 32,
+        "maxRow": 34
+      },
+      {
+        "size": 34,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 39,
+        "maxCol": 54,
+        "minRow": 29,
+        "maxRow": 31
+      },
+      {
+        "size": 33,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 87,
+        "maxCol": 101,
+        "minRow": 33,
+        "maxRow": 35
+      },
+      {
+        "size": 30,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 199,
+        "maxCol": 213,
+        "minRow": 32,
+        "maxRow": 36
+      },
+      {
+        "size": 29,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 180,
+        "maxCol": 191,
+        "minRow": 32,
+        "maxRow": 36
+      },
+      {
+        "size": 25,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 167,
+        "maxCol": 176,
+        "minRow": 32,
+        "maxRow": 36
+      },
+      {
+        "size": 25,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 67,
+        "maxCol": 81,
+        "minRow": 33,
+        "maxRow": 35
+      },
+      {
+        "size": 24,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 48,
+        "maxCol": 59,
+        "minRow": 32,
+        "maxRow": 34
+      },
+      {
+        "size": 19,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 105,
+        "maxCol": 114,
+        "minRow": 33,
+        "maxRow": 35
+      },
+      {
+        "size": 11,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 151,
+        "maxCol": 156,
+        "minRow": 34,
+        "maxRow": 36
+      },
+      {
+        "size": 9,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 206,
+        "maxCol": 208,
+        "minRow": 36,
+        "maxRow": 38
+      },
+      {
+        "size": 5,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 165,
+        "maxCol": 168,
+        "minRow": 33,
+        "maxRow": 34
+      },
+      {
+        "size": 5,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 216,
+        "maxCol": 218,
+        "minRow": 39,
+        "maxRow": 41
+      },
+      {
+        "size": 4,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 9,
+        "maxCol": 10,
+        "minRow": 45,
+        "maxRow": 46
+      },
+      {
+        "size": 4,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 10,
+        "maxCol": 12,
+        "minRow": 47,
+        "maxRow": 48
+      },
+      {
+        "size": 4,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 213,
+        "maxCol": 214,
+        "minRow": 47,
+        "maxRow": 48
+      },
+      {
+        "size": 3,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 112,
+        "maxCol": 114,
+        "minRow": 18,
+        "maxRow": 18
+      },
+      {
+        "size": 3,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 8,
+        "maxCol": 9,
+        "minRow": 42,
+        "maxRow": 43
+      },
+      {
+        "size": 3,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 216,
+        "maxCol": 217,
+        "minRow": 42,
+        "maxRow": 43
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 151,
+        "maxCol": 153,
+        "minRow": 49,
+        "maxRow": 49
+      },
+      {
+        "size": 3,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 4,
+        "maxCol": 5,
+        "minRow": 50,
+        "maxRow": 51
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 127,
+        "maxCol": 128,
+        "minRow": 50,
+        "maxRow": 51
+      },
+      {
+        "size": 3,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 220,
+        "maxCol": 221,
+        "minRow": 50,
+        "maxRow": 51
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 109,
+        "maxCol": 110,
+        "minRow": 55,
+        "maxRow": 56
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 94,
+        "maxCol": 95,
+        "minRow": 57,
+        "maxRow": 58
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 97,
+        "maxCol": 98,
+        "minRow": 57,
+        "maxRow": 58
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 114,
+        "maxCol": 114,
+        "minRow": 59,
+        "maxRow": 61
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 96,
+        "maxCol": 98,
+        "minRow": 60,
+        "maxRow": 60
+      },
+      {
+        "size": 3,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 104,
+        "maxCol": 105,
+        "minRow": 61,
+        "maxRow": 62
+      },
+      {
+        "size": 2,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 86,
+        "maxCol": 87,
+        "minRow": 18,
+        "maxRow": 18
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 170,
+        "maxCol": 171,
+        "minRow": 34,
+        "maxRow": 34
+      },
+      {
+        "size": 2,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 115,
+        "maxCol": 116,
+        "minRow": 35,
+        "maxRow": 35
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 168,
+        "maxCol": 168,
+        "minRow": 36,
+        "maxRow": 37
+      },
+      {
+        "size": 2,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 119,
+        "maxCol": 120,
+        "minRow": 37,
+        "maxRow": 37
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 160,
+        "maxCol": 160,
+        "minRow": 37,
+        "maxRow": 38
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 14,
+        "maxCol": 14,
+        "minRow": 41,
+        "maxRow": 42
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 74,
+        "maxCol": 75,
+        "minRow": 41,
+        "maxRow": 41
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 211,
+        "maxCol": 211,
+        "minRow": 41,
+        "maxRow": 42
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 4,
+        "maxCol": 4,
+        "minRow": 44,
+        "maxRow": 45
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 221,
+        "maxCol": 221,
+        "minRow": 44,
+        "maxRow": 45
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 215,
+        "maxCol": 215,
+        "minRow": 45,
+        "maxRow": 46
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 4,
+        "maxCol": 4,
+        "minRow": 47,
+        "maxRow": 48
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 147,
+        "maxCol": 148,
+        "minRow": 47,
+        "maxRow": 47
+      },
+      {
+        "size": 2,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 221,
+        "maxCol": 221,
+        "minRow": 47,
+        "maxRow": 48
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 156,
+        "maxCol": 157,
+        "minRow": 49,
+        "maxRow": 49
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 133,
+        "maxCol": 133,
+        "minRow": 52,
+        "maxRow": 53
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 137,
+        "maxCol": 138,
+        "minRow": 52,
+        "maxRow": 52
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 131,
+        "maxCol": 132,
+        "minRow": 57,
+        "maxRow": 57
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 104,
+        "maxCol": 105,
+        "minRow": 58,
+        "maxRow": 58
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 123,
+        "maxCol": 123,
+        "minRow": 58,
+        "maxRow": 59
+      },
+      {
+        "size": 2,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 132,
+        "maxCol": 132,
+        "minRow": 59,
+        "maxRow": 60
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 84,
+        "maxCol": 84,
+        "minRow": 19,
+        "maxRow": 19
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 81,
+        "maxCol": 81,
+        "minRow": 20,
+        "maxRow": 20
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 157,
+        "maxCol": 157,
+        "minRow": 31,
+        "maxRow": 31
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 45,
+        "maxCol": 45,
+        "minRow": 32,
+        "maxRow": 32
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 158,
+        "maxCol": 158,
+        "minRow": 32,
+        "maxRow": 32
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 73,
+        "maxCol": 73,
+        "minRow": 33,
+        "maxRow": 33
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 82,
+        "maxCol": 82,
+        "minRow": 34,
+        "maxRow": 34
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 86,
+        "maxCol": 86,
+        "minRow": 34,
+        "maxRow": 34
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 157,
+        "maxCol": 157,
+        "minRow": 34,
+        "maxRow": 34
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 160,
+        "maxCol": 160,
+        "minRow": 34,
+        "maxRow": 34
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 26,
+        "maxCol": 26,
+        "minRow": 35,
+        "maxRow": 35
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 177,
+        "maxCol": 177,
+        "minRow": 35,
+        "maxRow": 35
+      },
+      {
+        "size": 1,
+        "region": "mountains",
+        "material": "rock",
+        "classification": "missing terrain detail",
+        "minCol": 118,
+        "maxCol": 118,
+        "minRow": 36,
+        "maxRow": 36
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 169,
+        "maxCol": 169,
+        "minRow": 36,
+        "maxRow": 36
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 155,
+        "maxCol": 155,
+        "minRow": 37,
+        "maxRow": 37
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 157,
+        "maxCol": 157,
+        "minRow": 37,
+        "maxRow": 37
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 162,
+        "maxCol": 162,
+        "minRow": 38,
+        "maxRow": 38
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 166,
+        "maxCol": 166,
+        "minRow": 38,
+        "maxRow": 38
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 155,
+        "maxCol": 155,
+        "minRow": 39,
+        "maxRow": 39
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 165,
+        "maxCol": 165,
+        "minRow": 39,
+        "maxRow": 39
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 154,
+        "maxCol": 154,
+        "minRow": 40,
+        "maxRow": 40
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 168,
+        "maxCol": 168,
+        "minRow": 40,
+        "maxRow": 40
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 22,
+        "maxCol": 22,
+        "minRow": 41,
+        "maxRow": 41
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 203,
+        "maxCol": 203,
+        "minRow": 41,
+        "maxRow": 41
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 192,
+        "maxCol": 192,
+        "minRow": 42,
+        "maxRow": 42
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 203,
+        "maxCol": 203,
+        "minRow": 43,
+        "maxRow": 43
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 16,
+        "maxCol": 16,
+        "minRow": 44,
+        "maxRow": 44
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 165,
+        "maxCol": 165,
+        "minRow": 44,
+        "maxRow": 44
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 161,
+        "maxCol": 161,
+        "minRow": 46,
+        "maxRow": 46
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 138,
+        "maxCol": 138,
+        "minRow": 47,
+        "maxRow": 47
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 150,
+        "maxCol": 150,
+        "minRow": 47,
+        "maxRow": 47
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 160,
+        "maxCol": 160,
+        "minRow": 47,
+        "maxRow": 47
+      },
+      {
+        "size": 1,
+        "region": "forest",
+        "material": "leaves",
+        "classification": "missing vegetation",
+        "minCol": 124,
+        "maxCol": 124,
+        "minRow": 48,
+        "maxRow": 48
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 139,
+        "maxCol": 139,
+        "minRow": 48,
+        "maxRow": 48
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 126,
+        "maxCol": 126,
+        "minRow": 49,
+        "maxRow": 49
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 121,
+        "maxCol": 121,
+        "minRow": 50,
+        "maxRow": 50
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 133,
+        "maxCol": 133,
+        "minRow": 50,
+        "maxRow": 50
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 141,
+        "maxCol": 141,
+        "minRow": 50,
+        "maxRow": 50
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 119,
+        "maxCol": 119,
+        "minRow": 51,
+        "maxRow": 51
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 122,
+        "maxCol": 122,
+        "minRow": 51,
+        "maxRow": 51
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 140,
+        "maxCol": 140,
+        "minRow": 51,
+        "maxRow": 51
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 150,
+        "maxCol": 150,
+        "minRow": 51,
+        "maxRow": 51
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 112,
+        "maxCol": 112,
+        "minRow": 52,
+        "maxRow": 52
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 114,
+        "maxCol": 114,
+        "minRow": 52,
+        "maxRow": 52
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 116,
+        "maxCol": 116,
+        "minRow": 52,
+        "maxRow": 52
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 111,
+        "maxCol": 111,
+        "minRow": 53,
+        "maxRow": 53
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 115,
+        "maxCol": 115,
+        "minRow": 53,
+        "maxRow": 53
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 142,
+        "maxCol": 142,
+        "minRow": 53,
+        "maxRow": 53
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 145,
+        "maxCol": 145,
+        "minRow": 53,
+        "maxRow": 53
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 105,
+        "maxCol": 105,
+        "minRow": 54,
+        "maxRow": 54
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 137,
+        "maxCol": 137,
+        "minRow": 54,
+        "maxRow": 54
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 144,
+        "maxCol": 144,
+        "minRow": 54,
+        "maxRow": 54
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 113,
+        "maxCol": 113,
+        "minRow": 55,
+        "maxRow": 55
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 133,
+        "maxCol": 133,
+        "minRow": 55,
+        "maxRow": 55
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 96,
+        "maxCol": 96,
+        "minRow": 56,
+        "maxRow": 56
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 118,
+        "maxCol": 118,
+        "minRow": 56,
+        "maxRow": 56
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 92,
+        "maxCol": 92,
+        "minRow": 57,
+        "maxRow": 57
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 127,
+        "maxCol": 127,
+        "minRow": 57,
+        "maxRow": 57
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 109,
+        "maxCol": 109,
+        "minRow": 58,
+        "maxRow": 58
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 121,
+        "maxCol": 121,
+        "minRow": 58,
+        "maxRow": 58
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 126,
+        "maxCol": 126,
+        "minRow": 58,
+        "maxRow": 58
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 102,
+        "maxCol": 102,
+        "minRow": 59,
+        "maxRow": 59
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 130,
+        "maxCol": 130,
+        "minRow": 59,
+        "maxRow": 59
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 90,
+        "maxCol": 90,
+        "minRow": 60,
+        "maxRow": 60
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 100,
+        "maxCol": 100,
+        "minRow": 60,
+        "maxRow": 60
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 112,
+        "maxCol": 112,
+        "minRow": 60,
+        "maxRow": 60
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 117,
+        "maxCol": 117,
+        "minRow": 60,
+        "maxRow": 60
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 121,
+        "maxCol": 121,
+        "minRow": 60,
+        "maxRow": 60
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 83,
+        "maxCol": 83,
+        "minRow": 61,
+        "maxRow": 61
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 125,
+        "maxCol": 125,
+        "minRow": 61,
+        "maxRow": 61
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 127,
+        "maxCol": 127,
+        "minRow": 61,
+        "maxRow": 61
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 131,
+        "maxCol": 131,
+        "minRow": 61,
+        "maxRow": 61
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 91,
+        "maxCol": 91,
+        "minRow": 62,
+        "maxRow": 62
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 112,
+        "maxCol": 112,
+        "minRow": 62,
+        "maxRow": 62
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 115,
+        "maxCol": 115,
+        "minRow": 62,
+        "maxRow": 62
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 124,
+        "maxCol": 124,
+        "minRow": 62,
+        "maxRow": 62
+      },
+      {
+        "size": 1,
+        "region": "river",
+        "material": "water",
+        "classification": "missing water texture",
+        "minCol": 128,
+        "maxCol": 128,
+        "minRow": 62,
+        "maxRow": 62
+      }
+    ],
+    "gapsAfter": [],
+    "largestUnresolvedGap": 0,
+    "refinement": [
+      {
+        "pass": 0,
+        "filled": 3096,
+        "note": "Reserve narrative, then primary geometry and material structures."
+      },
+      {
+        "pass": 1,
+        "filled": 10498,
+        "note": "Fill semantic gaps in one bounded, deterministic pass."
+      },
+      {
+        "pass": 2,
+        "filled": 0,
+        "note": "Refine measured glyph weight and complete optional material words; preserve all source indices."
+      }
+    ],
+    "warnings": [
+      "276 glyphs reached the applicable minimum contrast instead of the requested lower intensity. Coverage was unchanged."
+    ],
+    "quality": {
+      "adjacentIntensityDifference": 0.08682449700795443,
+      "longIdenticalRuns": 196,
+      "uniformIntensityFraction": 0.3424998223548639,
+      "minimumMaterialSeparation": 0.012310392266169812,
+      "interpretation": "Ink-weight × contrast is an explicit heuristic, not a calibrated perceptual score. Repetition, neighbor variation and material means flag review priorities; human visual review is required."
+    },
+    "print": {
+      "intent": "digital",
+      "process": "dtg",
+      "fabricColor": "#101713",
+      "physicalPrintTested": false,
+      "lowContrastGlyphs": 7885,
+      "fineDetailRisk": 2486,
+      "estimatedVisibleFraction": 0.4387834861081503,
+      "warnings": [
+        "No physical DTG print sample has been tested. Ink/fabric behavior is not inferred from screen contrast.",
+        "7885 occupied cells have solid-ink contrast below the conservative 4.5:1 print-proof heuristic on #101713.",
+        "2164 cells use small measured ink areas; 2486 cells may lose fine detail under the configured 25% loss assumption."
+      ]
+    },
+    "timingsExcluded": true
+  },
+  "regions": [
+    {
+      "id": "sky",
+      "title": "What the Wind Carries",
+      "feature": "Atmospheric bands",
+      "passage": "The wind carries no border. It brings the rain that knew another shore, then leaves us changed beneath an open sky.",
+      "language": "en",
+      "direction": "ltr",
+      "writingMode": "horizontal-tb",
+      "bounds": {
+        "x": 307.242,
+        "y": 137.49,
+        "width": 331.150171875,
+        "height": 45.51999999999998
+      }
+    },
+    {
+      "id": "mountains",
+      "title": "What the Mountains Witness",
+      "feature": "Layered ridgelines",
+      "passage": "Before our names, these ridges held the dawn. Generations passed below; the stone kept watch, and made no claim to time.",
+      "language": "en",
+      "direction": "ltr",
+      "writingMode": "horizontal-tb",
+      "bounds": {
+        "x": 615.289,
+        "y": 303.336,
+        "width": 385.05817187499997,
+        "height": 60.17199999999997
+      }
+    },
+    {
+      "id": "forest",
+      "title": "What the Forest Remembers",
+      "feature": "Midground rainforest",
+      "passage": "A fallen tree becomes a thousand beginnings. In the green dark, memory is not still. It feeds the living leaf.",
+      "language": "en",
+      "direction": "ltr",
+      "writingMode": "horizontal-tb",
+      "bounds": {
+        "x": 384.254,
+        "y": 602.747,
+        "width": 315.748171875,
+        "height": 45.51200000000006
+      }
+    },
+    {
+      "id": "river",
+      "title": "What the River Takes",
+      "feature": "River corridor",
+      "passage": "I take the road that will not stay. What leaves one bank may nourish another. Even loss can learn the shape of rain.",
+      "language": "en",
+      "direction": "ltr",
+      "writingMode": "horizontal-tb",
+      "bounds": {
+        "x": 1085.061,
+        "y": 648.478,
+        "width": 246.4371718750001,
+        "height": 90.06200000000001
+      }
+    },
+    {
+      "id": "earth",
+      "title": "What the Earth Keeps",
+      "feature": "Roots and riverbanks",
+      "passage": "Under every path lie paths forgotten. Here the roots hold what the water could not carry. To belong is also to remember.",
+      "language": "en",
+      "direction": "ltr",
+      "writingMode": "horizontal-tb",
+      "bounds": {
+        "x": 237.932,
+        "y": 872.772,
+        "width": 462.070171875,
+        "height": 59.9079999999999
+      }
+    }
+  ],
+  "assets": {
+    "panorama": {
+      "url": "/narrative/r1/panorama-2425a9a35873.svg",
+      "sha256": "2425a9a3587319e588aa82e3cddb654d0c363f691c9f6c7066da8d05e19ccf8e",
+      "bytes": 210464,
+      "gzipBytes": 56073,
+      "glyphCount": 14175,
+      "textNodes": 134,
+      "viewBox": [
+        0,
+        0,
+        1800,
+        1012.5
+      ],
+      "completeNarratives": true
+    }
+  },
+  "config": {
+    "rendererVersion": "0.3.0",
+    "mode": "landscape",
+    "preset": "borneo",
+    "seed": 1842,
+    "width": 1800,
+    "height": 1012.5,
+    "profile": {
+      "id": "poster",
+      "widthMm": 720,
+      "heightMm": 405,
+      "safeMarginMm": 12,
+      "minCharacterMm": 2.5,
+      "minStrokeMm": 0.2,
+      "minSpacingMm": 0.2,
+      "aspectRatio": 1.7777777777777777
+    },
+    "fontSize": 12,
+    "tracking": 0.5,
+    "lineHeight": 1.25,
+    "density": 0.9,
+    "contrast": 0.9,
+    "narrativeRatio": 0.18,
+    "narrativePriority": 0.8,
+    "strategy": "balanced",
+    "maxTexture": 30000,
+    "palette": "botanical",
+    "curve": 0.25,
+    "transparent": true,
+    "pngWidth": 3600,
+    "environment": {
+      "mountains": 0.7,
+      "forest": 0.8,
+      "terrain": 0.65,
+      "atmosphere": 0.7,
+      "foreground": 0.8,
+      "river": true
+    },
+    "visible": {
+      "sky": true,
+      "mountains": true,
+      "forest": true,
+      "river": true,
+      "earth": true
+    },
+    "coverage": {
+      "profile": "continuous",
+      "target": 1,
+      "intensity": 0.7,
+      "textureMode": "mixed",
+      "wordDensity": 0.48,
+      "atmosphericDetail": 0.6,
+      "backgroundDetail": 0.7,
+      "foregroundDetail": 0.85,
+      "textureComplexity": 0.65,
+      "minWeight": 0.015,
+      "maxWeight": 0.4,
+      "depthContrast": 0.7,
+      "narrativeContrast": 4.5,
+      "minimumContrast": 1.8,
+      "materialIntensity": {
+        "atmosphere": 0.25,
+        "cloud": 0.36,
+        "rock": 0.55,
+        "leaves": 0.78,
+        "bark": 0.85,
+        "water": 0.5,
+        "soil": 0.67,
+        "shadow": 0.3
+      },
+      "intent": "digital",
+      "fabricColor": "#101713",
+      "process": "dtg",
+      "detailLoss": 0.25,
+      "exclusions": []
+    }
+  }
+}

@@ -1,0 +1,4 @@
+/narrative/r1/panorama-*
+  Cache-Control: public, max-age=31536000, immutable
+/narrative/r1/LiberationMono-*
+  Cache-Control: public, max-age=31536000, immutable
