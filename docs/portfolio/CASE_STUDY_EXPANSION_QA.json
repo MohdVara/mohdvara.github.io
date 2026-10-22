@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-22",
+  "routes": 33,
+  "layouts": 72,
+  "accessibilityScans": 24,
+  "violations": 0,
+  "incompleteRules": [
+    "color-contrast"
+  ],
+  "interactions": [
+    "Native stage radios, keyboard range zoom, focused arrow scrolling, configuration disclosure, reset and reduced motion passed.",
+    "Missing image fallback preserves configuration and milestone text.",
+    "RTL/LTR direction samples, Arabic largest text and matching English-original navigation passed."
+  ],
+  "pageErrors": [],
+  "existingI18nLayouts": 88,
+  "existingI18nScenarios": [
+    "left-side Arabic artwork across pages",
+    "browser detection",
+    "browser title updates with selected language",
+    "manual override and persistent preference",
+    "URL overrides preference",
+    "nested route, query, fragment and history preservation",
+    "English original updates saved preference and preserves route/query/fragment",
+    "vertical preference stays inactive in unrelated languages",
+    "unsupported browser language falls back"
+  ],
+  "performance": {
+    "before": {
+      "bytes": 4638897,
+      "gzip": 1411066
+    },
+    "after": {
+      "bytes": 4979210,
+      "gzip": 1524548
+    },
+    "entryBefore": [
+      {
+        "name": "index--4o4ieo_.js",
+        "bytes": 211622,
+        "gzip": 65051
+      }
+    ],
+    "entryAfter": [
+      {
+        "name": "index-Dwk1KkTC.js",
+        "bytes": 214720,
+        "gzip": 66017
+      }
+    ],
+    "caseStudy": [
+      {
+        "name": "EngineeringCaseStudy-CW6Q4HJL.css",
+        "bytes": 3127,
+        "gzip": 986
+      },
+      {
+        "name": "EngineeringCaseStudy-Dr5jClcj.js",
+        "bytes": 16742,
+        "gzip": 6348
+      }
+    ],
+    "artwork": [
+      {
+        "name": "v0.2.png",
+        "bytes": 425605
+      },
+      {
+        "name": "v0.2.svg",
+        "bytes": 1714758
+      },
+      {
+        "name": "v0.3.png",
+        "bytes": 634097
+      },
+      {
+        "name": "v0.3.svg",
+        "bytes": 3932531
+      },
+      {
+        "name": "v0.4.png",
+        "bytes": 395018
+      },
+      {
+        "name": "v0.4.svg",
+        "bytes": 4682187
+      }
+    ]
+  },
+  "limitations": [
+    "No actual screen-reader, physical-device or fluent editorial review.",
+    "Axe incomplete results require contextual review; zero violations is not certification."
+  ]
+}

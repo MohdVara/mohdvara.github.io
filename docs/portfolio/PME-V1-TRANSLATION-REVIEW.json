@@ -1,0 +1,884 @@
+[
+  {
+    "locale": "ms",
+    "key": "AWS ECS",
+    "source": "AWS ECS",
+    "translation": "AWS ECS",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "EDGE GATEWAY · FALLBACK",
+    "source": "EDGE GATEWAY · FALLBACK",
+    "translation": "EDGE GATEWAY · FALLBACK",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "Microsoft Azure",
+    "source": "Microsoft Azure",
+    "translation": "Microsoft Azure",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ms",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "source": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "translation": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ar",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "AWS ECS",
+    "source": "AWS ECS",
+    "translation": "AWS ECS",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ta",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "AWS ECS",
+    "source": "AWS ECS",
+    "translation": "AWS ECS",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "ja",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "zh-Hans",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "AWS ECS",
+    "source": "AWS ECS",
+    "translation": "AWS ECS",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "es",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "AWS ECS",
+    "source": "AWS ECS",
+    "translation": "AWS ECS",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "Microsoft Azure",
+    "source": "Microsoft Azure",
+    "translation": "Microsoft Azure",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "React interface",
+    "source": "React interface",
+    "translation": "React interface",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "source": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "translation": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "fr",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "AWS ECS",
+    "source": "AWS ECS",
+    "translation": "AWS ECS",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "EDGE GATEWAY · FALLBACK",
+    "source": "EDGE GATEWAY · FALLBACK",
+    "translation": "EDGE GATEWAY · FALLBACK",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "Microsoft Azure",
+    "source": "Microsoft Azure",
+    "translation": "Microsoft Azure",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "de",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "AWS ECS",
+    "source": "AWS ECS",
+    "translation": "AWS ECS",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "Microsoft Azure",
+    "source": "Microsoft Azure",
+    "translation": "Microsoft Azure",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "source": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "translation": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "pt-BR",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "Active Storage",
+    "source": "Active Storage",
+    "translation": "Active Storage",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "Google Cloud (GCP)",
+    "source": "Google Cloud (GCP)",
+    "translation": "Google Cloud (GCP)",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "Incident Zero | Mohd. Paramasvara",
+    "source": "Incident Zero | Mohd. Paramasvara",
+    "translation": "Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "MMCATS Modern | Mohd. Paramasvara",
+    "source": "MMCATS Modern | Mohd. Paramasvara",
+    "translation": "MMCATS Modern | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "MMCATS Modern",
+    "source": "MMCATS Modern",
+    "translation": "MMCATS Modern",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "No Two Mondays | Mohd. Paramasvara",
+    "source": "No Two Mondays | Mohd. Paramasvara",
+    "translation": "No Two Mondays | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "source": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "translation": "System Defence — Incident Zero | Mohd. Paramasvara",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "source": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "translation": "TypeScript · React · Transformers.js · MiniLM · Web Workers",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  },
+  {
+    "locale": "hi",
+    "key": "← Incident Zero",
+    "source": "← Incident Zero",
+    "translation": "← Incident Zero",
+    "warnings": [
+      "unchanged English; review or record as invariant"
+    ]
+  }
+]

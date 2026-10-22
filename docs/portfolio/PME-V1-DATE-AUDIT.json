@@ -1,0 +1,599 @@
+{
+  "policy": "Preserve source precision; alternate calendars include Gregorian equivalents; localize open-ended grammar.",
+  "rows": [
+    {
+      "locale": "en",
+      "calendar": "gregory",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "Since 2013"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "Building since 2013."
+        },
+        {
+          "source": "2023 onward",
+          "display": "2023 onward"
+        },
+        {
+          "source": "2021 onward",
+          "display": "2021 onward"
+        },
+        {
+          "source": "2019–2021",
+          "display": "2019–2021"
+        },
+        {
+          "source": "2025 onward",
+          "display": "2025 onward"
+        },
+        {
+          "source": "2016–2017",
+          "display": "2016–2017"
+        },
+        {
+          "source": "2018–2020",
+          "display": "2018–2020"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "Mar 2025 — ongoing collaboration"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "Jun 2022 — Present"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "May 2019 — Jun 2021"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "Jun 2018 — Present"
+        }
+      ]
+    },
+    {
+      "locale": "ms",
+      "calendar": "islamic-umalqura",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "Sejak Hijri (Umm al-Qura): 1434 H – 1435 H [2013]"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "Membina sejak 2013. (Hijri (Umm al-Qura): 1434 H – 1435 H [2013])"
+        },
+        {
+          "source": "2023 onward",
+          "display": "Hijri (Umm al-Qura): 1444 H – 1445 H [2023] dan seterusnya"
+        },
+        {
+          "source": "2021 onward",
+          "display": "Hijri (Umm al-Qura): 1442 H – 1443 H [2021] dan seterusnya"
+        },
+        {
+          "source": "2019–2021",
+          "display": "Hijri (Umm al-Qura): 1440 H – 1441 H [2019] — Hijri (Umm al-Qura): 1442 H – 1443 H [2021]"
+        },
+        {
+          "source": "2025 onward",
+          "display": "Hijri (Umm al-Qura): 1446 H – 1447 H [2025] dan seterusnya"
+        },
+        {
+          "source": "2016–2017",
+          "display": "Hijri (Umm al-Qura): 1437 H – 1438 H [2016] — Hijri (Umm al-Qura): 1438 H – 1439 H [2017]"
+        },
+        {
+          "source": "2018–2020",
+          "display": "Hijri (Umm al-Qura): 1439 H – 1440 H [2018] — Hijri (Umm al-Qura): 1441 H – 1442 H [2020]"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "Hijri (Umm al-Qura): Ramadan 1446 H – Syawal 1446 H [2025-03] — kerjasama berterusan"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "Hijri (Umm al-Qura): Zulkaedah 1443 H – Zulhijah 1443 H [2022-06] — Kini"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "Hijri (Umm al-Qura): Syaaban 1440 H – Ramadan 1440 H [2019-05] — Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06]"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "Hijri (Umm al-Qura): Ramadan 1439 H – Syawal 1439 H [2018-06] — Kini"
+        }
+      ]
+    },
+    {
+      "locale": "ar",
+      "calendar": "islamic-umalqura",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "منذ هجري (أم القرى): 1434 هـ – 1435 هـ [2013]"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "البناء منذ 2013. (هجري (أم القرى): 1434 هـ – 1435 هـ [2013])"
+        },
+        {
+          "source": "2023 onward",
+          "display": "من هجري (أم القرى): 1444 هـ – 1445 هـ [2023] فصاعدًا"
+        },
+        {
+          "source": "2021 onward",
+          "display": "من هجري (أم القرى): 1442 هـ – 1443 هـ [2021] فصاعدًا"
+        },
+        {
+          "source": "2019–2021",
+          "display": "هجري (أم القرى): 1440 هـ – 1441 هـ [2019] — هجري (أم القرى): 1442 هـ – 1443 هـ [2021]"
+        },
+        {
+          "source": "2025 onward",
+          "display": "من هجري (أم القرى): 1446 هـ – 1447 هـ [2025] فصاعدًا"
+        },
+        {
+          "source": "2016–2017",
+          "display": "هجري (أم القرى): 1437 هـ – 1438 هـ [2016] — هجري (أم القرى): 1438 هـ – 1439 هـ [2017]"
+        },
+        {
+          "source": "2018–2020",
+          "display": "هجري (أم القرى): 1439 هـ – 1440 هـ [2018] — هجري (أم القرى): 1441 هـ – 1442 هـ [2020]"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "هجري (أم القرى): رمضان 1446 هـ – شوال 1446 هـ [2025-03] — تعاون مستمر"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "هجري (أم القرى): ذو القعدة 1443 هـ – ذو الحجة 1443 هـ [2022-06] — حتى الآن"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "هجري (أم القرى): شعبان 1440 هـ – رمضان 1440 هـ [2019-05] — هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06]"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "هجري (أم القرى): رمضان 1439 هـ – شوال 1439 هـ [2018-06] — حتى الآن"
+        }
+      ]
+    },
+    {
+      "locale": "ta",
+      "calendar": "indian",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1934 சாகா – 1935 சாகா [2013] முதல்"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "2013 முதல் கட்டிடம். (இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1934 சாகா – 1935 சாகா [2013])"
+        },
+        {
+          "source": "2023 onward",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1944 சாகா – 1945 சாகா [2023] முதல்"
+        },
+        {
+          "source": "2021 onward",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1942 சாகா – 1943 சாகா [2021] முதல்"
+        },
+        {
+          "source": "2019–2021",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1940 சாகா – 1941 சாகா [2019] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1942 சாகா – 1943 சாகா [2021]"
+        },
+        {
+          "source": "2025 onward",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1946 சாகா – 1947 சாகா [2025] முதல்"
+        },
+        {
+          "source": "2016–2017",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1937 சாகா – 1938 சாகா [2016] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1938 சாகா – 1939 சாகா [2017]"
+        },
+        {
+          "source": "2018–2020",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1939 சாகா – 1940 சாகா [2018] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1941 சாகா – 1942 சாகா [2020]"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): பங்குனி 1946 சாகா – சித்திரை 1947 சாகா [2025-03] — ஒத்துழைப்பு தொடர்கிறது"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1944 சாகா – ஆடி 1944 சாகா [2022-06] — தற்போது வரை"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1941 சாகா – ஆனி 1941 சாகா [2019-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06]"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1940 சாகா – ஆடி 1940 சாகா [2018-06] — தற்போது வரை"
+        }
+      ]
+    },
+    {
+      "locale": "ja",
+      "calendar": "japanese",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "和暦: 平成25年 [2013]から"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "2013 から構築。 (和暦: 平成25年 [2013])"
+        },
+        {
+          "source": "2023 onward",
+          "display": "和暦: 令和5年 [2023]以降"
+        },
+        {
+          "source": "2021 onward",
+          "display": "和暦: 令和3年 [2021]以降"
+        },
+        {
+          "source": "2019–2021",
+          "display": "和暦: 平成31年 – 令和元年 [2019] — 和暦: 令和3年 [2021]"
+        },
+        {
+          "source": "2025 onward",
+          "display": "和暦: 令和7年 [2025]以降"
+        },
+        {
+          "source": "2016–2017",
+          "display": "和暦: 平成28年 [2016] — 和暦: 平成29年 [2017]"
+        },
+        {
+          "source": "2018–2020",
+          "display": "和暦: 平成30年 [2018] — 和暦: 令和2年 [2020]"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "和暦: 令和7年3月 [2025-03] — 継続的な協力"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "和暦: 令和4年6月 [2022-06] — 現在"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "和暦: 令和元年5月 [2019-05] — 和暦: 令和3年6月 [2021-06]"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "和暦: 平成30年6月 [2018-06] — 現在"
+        }
+      ]
+    },
+    {
+      "locale": "zh-Hans",
+      "calendar": "chinese",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "自农历: 2012壬辰年 – 2013癸巳年 [2013]起"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "从2013开始建造。 (农历: 2012壬辰年 – 2013癸巳年 [2013])"
+        },
+        {
+          "source": "2023 onward",
+          "display": "农历: 2022壬寅年 – 2023癸卯年 [2023]起"
+        },
+        {
+          "source": "2021 onward",
+          "display": "农历: 2020庚子年 – 2021辛丑年 [2021]起"
+        },
+        {
+          "source": "2019–2021",
+          "display": "农历: 2018戊戌年 – 2019己亥年 [2019] — 农历: 2020庚子年 – 2021辛丑年 [2021]"
+        },
+        {
+          "source": "2025 onward",
+          "display": "农历: 2024甲辰年 – 2025乙巳年 [2025]起"
+        },
+        {
+          "source": "2016–2017",
+          "display": "农历: 2015乙未年 – 2016丙申年 [2016] — 农历: 2016丙申年 – 2017丁酉年 [2017]"
+        },
+        {
+          "source": "2018–2020",
+          "display": "农历: 2017丁酉年 – 2018戊戌年 [2018] — 农历: 2019己亥年 – 2020庚子年 [2020]"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "农历: 2025乙巳年二月 – 2025乙巳年三月 [2025-03] — 持续合作"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "农历: 2022壬寅年五月 – 2022壬寅年六月 [2022-06] — 至今"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "农历: 2019己亥年三月 – 2019己亥年四月 [2019-05] — 农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06]"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "农历: 2018戊戌年四月 – 2018戊戌年五月 [2018-06] — 至今"
+        }
+      ]
+    },
+    {
+      "locale": "es",
+      "calendar": "gregory",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "Desde 2013"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "Construyendo desde 2013."
+        },
+        {
+          "source": "2023 onward",
+          "display": "Desde 2023"
+        },
+        {
+          "source": "2021 onward",
+          "display": "Desde 2021"
+        },
+        {
+          "source": "2019–2021",
+          "display": "2019 — 2021"
+        },
+        {
+          "source": "2025 onward",
+          "display": "Desde 2025"
+        },
+        {
+          "source": "2016–2017",
+          "display": "2016 — 2017"
+        },
+        {
+          "source": "2018–2020",
+          "display": "2018 — 2020"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "marzo de 2025 — colaboración en curso"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "junio de 2022 — Actualidad"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "mayo de 2019 — junio de 2021"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "junio de 2018 — Actualidad"
+        }
+      ]
+    },
+    {
+      "locale": "fr",
+      "calendar": "gregory",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "Depuis 2013"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "En construction depuis 2013."
+        },
+        {
+          "source": "2023 onward",
+          "display": "Depuis 2023"
+        },
+        {
+          "source": "2021 onward",
+          "display": "Depuis 2021"
+        },
+        {
+          "source": "2019–2021",
+          "display": "2019 — 2021"
+        },
+        {
+          "source": "2025 onward",
+          "display": "Depuis 2025"
+        },
+        {
+          "source": "2016–2017",
+          "display": "2016 — 2017"
+        },
+        {
+          "source": "2018–2020",
+          "display": "2018 — 2020"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "mars 2025 — collaboration en cours"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "juin 2022 — Aujourd’hui"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "mai 2019 — juin 2021"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "juin 2018 — Aujourd’hui"
+        }
+      ]
+    },
+    {
+      "locale": "de",
+      "calendar": "gregory",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "Seit 2013"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "Bau seit 2013."
+        },
+        {
+          "source": "2023 onward",
+          "display": "Seit 2023"
+        },
+        {
+          "source": "2021 onward",
+          "display": "Seit 2021"
+        },
+        {
+          "source": "2019–2021",
+          "display": "2019 — 2021"
+        },
+        {
+          "source": "2025 onward",
+          "display": "Seit 2025"
+        },
+        {
+          "source": "2016–2017",
+          "display": "2016 — 2017"
+        },
+        {
+          "source": "2018–2020",
+          "display": "2018 — 2020"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "März 2025 — fortlaufende Zusammenarbeit"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "Juni 2022 — heute"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "Mai 2019 — Juni 2021"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "Juni 2018 — heute"
+        }
+      ]
+    },
+    {
+      "locale": "pt-BR",
+      "calendar": "gregory",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "Desde 2013"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "Construindo desde 2013."
+        },
+        {
+          "source": "2023 onward",
+          "display": "Desde 2023"
+        },
+        {
+          "source": "2021 onward",
+          "display": "Desde 2021"
+        },
+        {
+          "source": "2019–2021",
+          "display": "2019 — 2021"
+        },
+        {
+          "source": "2025 onward",
+          "display": "Desde 2025"
+        },
+        {
+          "source": "2016–2017",
+          "display": "2016 — 2017"
+        },
+        {
+          "source": "2018–2020",
+          "display": "2018 — 2020"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "março de 2025 — colaboração em andamento"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "junho de 2022 — Atualmente"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "maio de 2019 — junho de 2021"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "junho de 2018 — Atualmente"
+        }
+      ]
+    },
+    {
+      "locale": "hi",
+      "calendar": "indian",
+      "periods": [
+        {
+          "source": "Since 2013",
+          "display": "शक संवत: 1934 शक – 1935 शक [2013] से"
+        },
+        {
+          "source": "Building since 2013.",
+          "display": "2013 से निर्माण। (शक संवत: 1934 शक – 1935 शक [2013])"
+        },
+        {
+          "source": "2023 onward",
+          "display": "शक संवत: 1944 शक – 1945 शक [2023] से आगे"
+        },
+        {
+          "source": "2021 onward",
+          "display": "शक संवत: 1942 शक – 1943 शक [2021] से आगे"
+        },
+        {
+          "source": "2019–2021",
+          "display": "शक संवत: 1940 शक – 1941 शक [2019] — शक संवत: 1942 शक – 1943 शक [2021]"
+        },
+        {
+          "source": "2025 onward",
+          "display": "शक संवत: 1946 शक – 1947 शक [2025] से आगे"
+        },
+        {
+          "source": "2016–2017",
+          "display": "शक संवत: 1937 शक – 1938 शक [2016] — शक संवत: 1938 शक – 1939 शक [2017]"
+        },
+        {
+          "source": "2018–2020",
+          "display": "शक संवत: 1939 शक – 1940 शक [2018] — शक संवत: 1941 शक – 1942 शक [2020]"
+        },
+        {
+          "source": "Mar 2025 — ongoing collaboration",
+          "display": "शक संवत: फाल्गुन 1946 शक – चैत्र 1947 शक [2025-03] — सहयोग जारी है"
+        },
+        {
+          "source": "Jun 2022 — Present",
+          "display": "शक संवत: ज्येष्ठ 1944 शक – आषाढ़ 1944 शक [2022-06] — वर्तमान"
+        },
+        {
+          "source": "May 2019 — Jun 2021",
+          "display": "शक संवत: वैशाख 1941 शक – ज्येष्ठ 1941 शक [2019-05] — शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06]"
+        },
+        {
+          "source": "Jun 2018 — Present",
+          "display": "शक संवत: ज्येष्ठ 1940 शक – आषाढ़ 1940 शक [2018-06] — वर्तमान"
+        }
+      ]
+    }
+  ]
+}

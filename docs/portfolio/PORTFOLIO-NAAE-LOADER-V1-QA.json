@@ -1,0 +1,1004 @@
+{
+  "date": "2026-10-22",
+  "revision": "Multicolor rainforest canopy, full-width fill and exact header monogram",
+  "browser": "Chromium, local Vite and production preview",
+  "scenarioCount": 21,
+  "errors": [],
+  "scenarios": [
+    {
+      "name": "fast",
+      "states": [
+        {
+          "state": "removed",
+          "time": 20.200000002980232
+        },
+        {
+          "state": "waiting",
+          "time": 65.80000000074506
+        },
+        {
+          "state": "removed",
+          "time": 130.30000000074506
+        }
+      ],
+      "shifts": [],
+      "longTasks": []
+    },
+    {
+      "name": "slow-en",
+      "shell": {
+        "width": 320,
+        "scroll": 320,
+        "art": [
+          24,
+          207.640625
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 32.099999997764826
+          },
+          {
+            "state": "waiting",
+            "time": 75.19999999925494
+          },
+          {
+            "state": "loading",
+            "time": 217.09999999776483
+          }
+        ],
+        "shifts": [],
+        "longTasks": [
+          {
+            "time": 118.89999999850988,
+            "duration": 67
+          }
+        ]
+      }
+    },
+    {
+      "name": "slow-ms",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          448.84375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 17.299999997019768
+          },
+          {
+            "state": "waiting",
+            "time": 38.599999997764826
+          },
+          {
+            "state": "loading",
+            "time": 175.89999999850988
+          }
+        ],
+        "shifts": [],
+        "longTasks": []
+      }
+    },
+    {
+      "name": "slow-ar",
+      "shell": {
+        "width": 390,
+        "scroll": 390,
+        "art": [
+          167.0625,
+          366
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 19.5
+          },
+          {
+            "state": "waiting",
+            "time": 55.20000000298023
+          },
+          {
+            "state": "loading",
+            "time": 865
+          }
+        ],
+        "shifts": [
+          {
+            "time": 977.5,
+            "value": 0.005400314544735155,
+            "inLoader": false
+          },
+          {
+            "time": 1012.1000000014901,
+            "value": 0.00008368277948925285,
+            "inLoader": false
+          }
+        ],
+        "longTasks": []
+      }
+    },
+    {
+      "name": "slow-ta",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          448.84375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "none",
+        "states": [
+          {
+            "state": "removed",
+            "time": 197.69999999925494
+          },
+          {
+            "state": "waiting",
+            "time": 294.69999999925494
+          },
+          {
+            "state": "loading",
+            "time": 649
+          }
+        ],
+        "shifts": [
+          {
+            "time": 757.6000000014901,
+            "value": 0.05429582384544952,
+            "inLoader": false
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 503.5,
+            "duration": 129
+          }
+        ]
+      }
+    },
+    {
+      "name": "slow-ja",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          358.609375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 21.099999997764826
+          },
+          {
+            "state": "waiting",
+            "time": 102.29999999701977
+          },
+          {
+            "state": "loading",
+            "time": 445.19999999925494
+          }
+        ],
+        "shifts": [],
+        "longTasks": [
+          {
+            "time": 342.29999999701977,
+            "duration": 89
+          }
+        ]
+      }
+    },
+    {
+      "name": "slow-zh-Hans",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          448.84375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 82.10000000149012
+          },
+          {
+            "state": "waiting",
+            "time": 140.90000000223517
+          },
+          {
+            "state": "loading",
+            "time": 578
+          }
+        ],
+        "shifts": [
+          {
+            "time": 576.3000000007451,
+            "value": 0.000024145954369964923,
+            "inLoader": false
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 372.5,
+            "duration": 90
+          }
+        ]
+      }
+    },
+    {
+      "name": "slow-es",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          448.84375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 25
+          },
+          {
+            "state": "waiting",
+            "time": 54.19999999925494
+          },
+          {
+            "state": "loading",
+            "time": 189.60000000149012
+          }
+        ],
+        "shifts": [],
+        "longTasks": [
+          {
+            "time": 97,
+            "duration": 75
+          }
+        ]
+      }
+    },
+    {
+      "name": "slow-fr",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          448.84375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 18.300000000745058
+          },
+          {
+            "state": "waiting",
+            "time": 53.100000001490116
+          },
+          {
+            "state": "loading",
+            "time": 188.80000000074506
+          }
+        ],
+        "shifts": [],
+        "longTasks": []
+      }
+    },
+    {
+      "name": "slow-de",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          448.84375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 17.300000000745058
+          },
+          {
+            "state": "waiting",
+            "time": 42.19999999925494
+          },
+          {
+            "state": "loading",
+            "time": 184.60000000149012
+          }
+        ],
+        "shifts": [],
+        "longTasks": []
+      }
+    },
+    {
+      "name": "slow-pt-BR",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          448.84375
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 18.700000002980232
+          },
+          {
+            "state": "waiting",
+            "time": 37.5
+          },
+          {
+            "state": "loading",
+            "time": 174.20000000298023
+          }
+        ],
+        "shifts": [],
+        "longTasks": []
+      }
+    },
+    {
+      "name": "slow-hi",
+      "shell": {
+        "width": 768,
+        "scroll": 768,
+        "art": [
+          204,
+          449.640625
+        ],
+        "direction": "ltr",
+        "writing": "horizontal-tb",
+        "pointer": "none",
+        "animation": "loader-flow",
+        "states": [
+          {
+            "state": "removed",
+            "time": 33.900000002235174
+          },
+          {
+            "state": "waiting",
+            "time": 58.100000001490116
+          },
+          {
+            "state": "loading",
+            "time": 340
+          }
+        ],
+        "shifts": [
+          {
+            "time": 413.6000000014901,
+            "value": 0.00000803707471789998,
+            "inLoader": false
+          },
+          {
+            "time": 495.6000000014901,
+            "value": 0.00003406760029677007,
+            "inLoader": false
+          }
+        ],
+        "longTasks": [
+          {
+            "time": 222.19999999925494,
+            "duration": 107
+          },
+          {
+            "time": 441,
+            "duration": 50
+          }
+        ]
+      }
+    },
+    {
+      "name": "lazy-route-commit",
+      "ready": true
+    },
+    {
+      "name": "throttled-network",
+      "states": [
+        {
+          "state": "removed",
+          "time": 177
+        },
+        {
+          "state": "waiting",
+          "time": 349
+        },
+        {
+          "state": "loading",
+          "time": 1073.9000000022352
+        },
+        {
+          "state": "leaving",
+          "time": 1626.1000000014901
+        },
+        {
+          "state": "removed",
+          "time": 1806.4000000022352
+        }
+      ],
+      "shifts": [],
+      "longTasks": [
+        {
+          "time": 958.9000000022352,
+          "duration": 58
+        }
+      ]
+    },
+    {
+      "name": "entry-error",
+      "state": "failed"
+    },
+    {
+      "name": "slow-connection",
+      "state": "slow"
+    },
+    {
+      "name": "empty-root",
+      "state": "failed"
+    },
+    {
+      "name": "mount-error",
+      "state": "failed"
+    },
+    {
+      "name": "route-error",
+      "state": "failed"
+    },
+    {
+      "name": "stylesheet-error",
+      "state": "failed"
+    },
+    {
+      "name": "no-javascript",
+      "main": true,
+      "shell": false
+    }
+  ],
+  "sizes": {
+    "baseline": {
+      "html": 70369,
+      "htmlGzip": 15939,
+      "entry": {
+        "file": "index-D2oKe80y.js",
+        "bytes": 211235,
+        "gzip": 64919
+      },
+      "totalJS": 4522436,
+      "totalJSGzip": 1387179
+    },
+    "current": {
+      "html": {
+        "raw": 88631,
+        "gzip": 22397
+      },
+      "shell": {
+        "raw": 18180,
+        "gzip": 6508
+      },
+      "entry": {
+        "raw": 211622,
+        "gzip": 65046
+      },
+      "allJS": {
+        "raw": 4530464,
+        "gzip": 1387899
+      }
+    }
+  },
+  "developmentProgress": {
+    "latencyMs": 400,
+    "downloadBytesPerSecond": 100000,
+    "updates": 61,
+    "scriptRequests": 64,
+    "errors": [],
+    "samples": [
+      {
+        "time": 990.6999999992549,
+        "text": "Startup files: 0 loaded · 1 pending",
+        "pending": "Pending: main.tsx",
+        "completed": "Completed: —",
+        "state": "waiting"
+      },
+      {
+        "time": 991.1999999992549,
+        "text": "Startup files: 0 loaded · 2 pending",
+        "pending": "Pending: main.tsx, react_jsx-dev-runtime.js",
+        "completed": "Completed: —",
+        "state": "waiting"
+      },
+      {
+        "time": 1027.699999999255,
+        "text": "Startup files: 0 loaded · 58 pending",
+        "pending": "Pending: main.tsx, react_jsx-dev-runtime.js",
+        "completed": "Completed: —",
+        "state": "waiting"
+      },
+      {
+        "time": 2053.60000000149,
+        "text": "Startup files: 1 loaded · 57 pending",
+        "pending": "Pending: main.tsx, react_jsx-dev-runtime.js",
+        "completed": "Completed: index.css",
+        "state": "loading"
+      },
+      {
+        "time": 3632.39999999851,
+        "text": "Startup files: 2 loaded · 56 pending",
+        "pending": "Pending: main.tsx, react_jsx-dev-runtime.js",
+        "completed": "Completed: index.css, i18n.css",
+        "state": "loading"
+      },
+      {
+        "time": 4553.300000000745,
+        "text": "Startup files: 3 loaded · 55 pending",
+        "pending": "Pending: main.tsx, react_jsx-dev-runtime.js",
+        "completed": "Completed: i18n.css, RouteRecovery.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 5845.800000000745,
+        "text": "Startup files: 4 loaded · 54 pending",
+        "pending": "Pending: main.tsx, react_jsx-dev-runtime.js",
+        "completed": "Completed: RouteRecovery.tsx, Experience.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 6857.5,
+        "text": "Startup files: 5 loaded · 53 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: RouteRecovery.tsx, Experience.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 6863.800000000745,
+        "text": "Startup files: 6 loaded · 52 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: Experience.tsx, config.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 7694.5,
+        "text": "Startup files: 7 loaded · 51 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: config.tsx, localeResolution.ts",
+        "state": "loading"
+      },
+      {
+        "time": 7993.89999999851,
+        "text": "Startup files: 8 loaded · 50 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: metadata.ts, localeResolution.ts",
+        "state": "loading"
+      },
+      {
+        "time": 8441.39999999851,
+        "text": "Startup files: 9 loaded · 49 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: localeResolution.ts, analytics.ts",
+        "state": "loading"
+      },
+      {
+        "time": 8453.699999999255,
+        "text": "Startup files: 10 loaded · 48 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: analytics.ts, rolldown-runtime-BPOCksWG.js",
+        "state": "loading"
+      },
+      {
+        "time": 9027.60000000149,
+        "text": "Startup files: 11 loaded · 47 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: rolldown-runtime-BPOCksWG.js, context.ts",
+        "state": "loading"
+      },
+      {
+        "time": 9595.699999999255,
+        "text": "Startup files: 12 loaded · 46 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: context.ts, languages.ts",
+        "state": "loading"
+      },
+      {
+        "time": 10199.10000000149,
+        "text": "Startup files: 13 loaded · 45 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: context.ts, languages.ts",
+        "state": "loading"
+      },
+      {
+        "time": 10767,
+        "text": "Startup files: 14 loaded · 44 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: languages.ts, lookup.ts",
+        "state": "loading"
+      },
+      {
+        "time": 11186,
+        "text": "Startup files: 15 loaded · 43 pending",
+        "pending": "Pending: main.tsx, react.js",
+        "completed": "Completed: formatting.ts, lookup.ts",
+        "state": "loading"
+      },
+      {
+        "time": 13098.699999999255,
+        "text": "Startup files: 16 loaded · 42 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: formatting.ts, lookup.ts",
+        "state": "loading"
+      },
+      {
+        "time": 13768.39999999851,
+        "text": "Startup files: 17 loaded · 41 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: lookup.ts, analyticsPreference.ts",
+        "state": "loading"
+      },
+      {
+        "time": 14427.800000000745,
+        "text": "Startup files: 18 loaded · 40 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: analyticsPreference.ts, FirstFrame.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 14922.300000000745,
+        "text": "Startup files: 19 loaded · 39 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: analyticsPreference.ts, FirstFrame.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 15943.10000000149,
+        "text": "Startup files: 20 loaded · 38 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: FirstFrame.tsx, NotFound.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 17594.300000000745,
+        "text": "Startup files: 21 loaded · 37 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: NotFound.tsx, useFragmentNavigation.ts",
+        "state": "loading"
+      },
+      {
+        "time": 18478.39999999851,
+        "text": "Startup files: 22 loaded · 36 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: NotFound.tsx, useFragmentNavigation.ts",
+        "state": "loading"
+      },
+      {
+        "time": 19526.300000000745,
+        "text": "Startup files: 23 loaded · 35 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: useFragmentNavigation.ts, languages.json",
+        "state": "loading"
+      },
+      {
+        "time": 20054.699999999255,
+        "text": "Startup files: 24 loaded · 34 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: languages.json, technology.ts",
+        "state": "loading"
+      },
+      {
+        "time": 22268.39999999851,
+        "text": "Startup files: 25 loaded · 33 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: technology.ts, controls.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 23081.699999999255,
+        "text": "Startup files: 26 loaded · 32 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: controls.tsx, usePortfolioMotion.ts",
+        "state": "loading"
+      },
+      {
+        "time": 25877.89999999851,
+        "text": "Startup files: 27 loaded · 31 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: controls.tsx, usePortfolioMotion.ts",
+        "state": "loading"
+      },
+      {
+        "time": 25995.60000000149,
+        "text": "Startup files: 28 loaded · 30 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: usePortfolioMotion.ts, NaturalGraphics.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 26668.699999999255,
+        "text": "Startup files: 29 loaded · 29 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: NaturalGraphics.tsx, evidence.ts",
+        "state": "loading"
+      },
+      {
+        "time": 26788.60000000149,
+        "text": "Startup files: 30 loaded · 28 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: SystemDiagrams.tsx, evidence.ts",
+        "state": "loading"
+      },
+      {
+        "time": 27689.60000000149,
+        "text": "Startup files: 31 loaded · 27 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: SystemDiagrams.tsx, evidence.ts",
+        "state": "loading"
+      },
+      {
+        "time": 27792.800000000745,
+        "text": "Startup files: 32 loaded · 26 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: evidence.ts, IncidentCallout.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 27818.60000000149,
+        "text": "Startup files: 33 loaded · 25 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: evidence.ts, IncidentCallout.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 27835,
+        "text": "Startup files: 34 loaded · 24 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: WhatISolve.tsx, IncidentCallout.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 28648.60000000149,
+        "text": "Startup files: 35 loaded · 23 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: IncidentCallout.tsx, NaturalGraphics.css",
+        "state": "loading"
+      },
+      {
+        "time": 28721.199999999255,
+        "text": "Startup files: 36 loaded · 22 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: NoTwoMondays.tsx, NaturalGraphics.css",
+        "state": "loading"
+      },
+      {
+        "time": 28751.300000000745,
+        "text": "Startup files: 37 loaded · 21 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: NaturalGraphics.css, SystemDiagrams.css",
+        "state": "loading"
+      },
+      {
+        "time": 29416.5,
+        "text": "Startup files: 38 loaded · 20 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: SystemDiagrams.css, NarrativeAccent.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 29484.800000000745,
+        "text": "Startup files: 39 loaded · 19 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: SystemDiagrams.css, NarrativeAccent.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 29532.10000000149,
+        "text": "Startup files: 40 loaded · 18 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: Readability.css, NarrativeAccent.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 29561.300000000745,
+        "text": "Startup files: 41 loaded · 17 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: Readability.css, NarrativeAccent.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 30298.199999999255,
+        "text": "Startup files: 42 loaded · 16 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: NarrativeAccent.tsx, AsciiForestBackdrop.tsx",
+        "state": "loading"
+      },
+      {
+        "time": 30309.699999999255,
+        "text": "Startup files: 43 loaded · 15 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: AsciiForestBackdrop.tsx, status.json",
+        "state": "loading"
+      },
+      {
+        "time": 30430.10000000149,
+        "text": "Startup files: 44 loaded · 14 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: SceneryControl.tsx, status.json",
+        "state": "loading"
+      },
+      {
+        "time": 30698.699999999255,
+        "text": "Startup files: 45 loaded · 13 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: PaceAssistantLauncher.tsx, status.json",
+        "state": "loading"
+      },
+      {
+        "time": 30885.89999999851,
+        "text": "Startup files: 46 loaded · 12 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: status.json, PublicEngineering.css",
+        "state": "loading"
+      },
+      {
+        "time": 30944.199999999255,
+        "text": "Startup files: 47 loaded · 11 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: public-github.json, PublicEngineering.css",
+        "state": "loading"
+      },
+      {
+        "time": 30955.89999999851,
+        "text": "Startup files: 48 loaded · 10 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: PublicEngineering.css, problemSummaries.ts",
+        "state": "loading"
+      },
+      {
+        "time": 31226.5,
+        "text": "Startup files: 49 loaded · 9 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: problemSummaries.ts, Engagements.css",
+        "state": "slow"
+      },
+      {
+        "time": 31363,
+        "text": "Startup files: 50 loaded · 8 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: Engagements.css, assets.ts",
+        "state": "slow"
+      },
+      {
+        "time": 31394,
+        "text": "Startup files: 51 loaded · 7 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: assets.ts, NarrativeArtwork.css",
+        "state": "slow"
+      },
+      {
+        "time": 31556,
+        "text": "Startup files: 52 loaded · 6 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: NarrativeArtwork.css, preference.ts",
+        "state": "slow"
+      },
+      {
+        "time": 31885.300000000745,
+        "text": "Startup files: 53 loaded · 5 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: preference.ts, paceLinks.ts",
+        "state": "slow"
+      },
+      {
+        "time": 31928.39999999851,
+        "text": "Startup files: 54 loaded · 4 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: paceLinks.ts, PaceAssistantLauncher.css",
+        "state": "slow"
+      },
+      {
+        "time": 31951.199999999255,
+        "text": "Startup files: 55 loaded · 3 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: paceLinks.ts, PaceAssistantLauncher.css",
+        "state": "slow"
+      },
+      {
+        "time": 40970.199999999255,
+        "text": "Startup files: 56 loaded · 2 pending",
+        "pending": "Pending: main.tsx, react-dom_client.js",
+        "completed": "Completed: paceLinks.ts, PaceAssistantLauncher.css",
+        "state": "slow"
+      },
+      {
+        "time": 56432,
+        "text": "Startup files: 57 loaded · 1 pending",
+        "pending": "Pending: react-dom_client.js",
+        "completed": "Completed: paceLinks.ts, PaceAssistantLauncher.css",
+        "state": "slow"
+      },
+      {
+        "time": 56441.300000000745,
+        "text": "Startup files: 58 loaded · 0 pending",
+        "pending": "Pending: —",
+        "completed": "Completed: paceLinks.ts, PaceAssistantLauncher.css",
+        "state": "slow"
+      }
+    ]
+  },
+  "checks": {
+    "productionBuild": "passed",
+    "typecheck": "passed",
+    "lint": "passed",
+    "focusedTests": {
+      "passed": 11,
+      "failed": 0
+    },
+    "fullSuite": {
+      "passed": 153,
+      "failed": 0
+    },
+    "i18nValidate": {
+      "errors": 0,
+      "warnings": 68
+    },
+    "i18nCoverage": "all eleven locales: 100%, missing=0, stale=0",
+    "i18nQA": "passed en, ar, ta at eight widths each",
+    "dateAudit": "passed"
+  },
+  "behavior": {
+    "noTimerBasedFailure": true,
+    "slowGuidanceMs": 30000,
+    "continuousMotionWhilePending": true,
+    "showPendingAndCompletedFiles": true,
+    "readyAtUsableReactCommit": true,
+    "canopyColors": 5,
+    "fullWidthRepeatingFill": true,
+    "exactHeaderMonogram": "Computed font family, size, weight, tracking, line height, padding, direction, color, dot color and text match in all 11 locales"
+  },
+  "limits": [
+    "Local Chromium only; no deployment or Lighthouse claim.",
+    "Translations have machine provenance, not editorial review.",
+    "Counts cover explicit startup dependencies and new resource tags, not every optional or browser-internal request."
+  ]
+}
