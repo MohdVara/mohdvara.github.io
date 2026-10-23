@@ -84,3 +84,17 @@ The owner superseded the education flagship's project-led period with the full J
 ### TM proposal and HRMS end-date clarification
 
 Review seven canonical units / 70 target translations: TM proposal name, type, scope and August 2017–January 2018 period; HRMS May 2016–December 2024 period and continued-development summary; timeline introduction including project work. Preserve proposal-versus-employment and development-versus-employment distinctions. December 2024 is owner-confirmed development completion, not an extension of the first Centre employment or proof of continuous personal involvement. Current canonical count 1,543; machine provenance and fluent-review requirement retained.
+
+## Production polish closeout — 23 October 2026
+
+The old status keys above remain historical/add-only catalog entries. Current UI now uses `Public source · locally verified · application deployment blocked` and `Owner-reported delivery · public verification limited.` All ten target locales have new machine-authored translations with current source hashes (`development-assistant` / `session-assistant`), not human approval. Review all 20 new locale/key pairs before treating these consequential claims as linguistically approved; current values are in the locale catalogs and closeout manifest.
+
+| Priority | Scope | Required reviewer decision |
+| --- | --- | --- |
+| P1 | New MMCATS status, all ten target locales | Public **source** is available; application **deployment** remains blocked. Local verification grants neither security clearance nor migration/provider acceptance. Check especially Malay technical deployment loanword, Arabic negation and Tamil compounding. |
+| P1 | New commercial status, all ten target locales | Delivery is owner-reported professional work; limited public verification does not make the work hypothetical or independently certify acceptance. |
+| P1 | WenSymes employment terms; Centre seniority/progression | Preserve occasional collaboration versus full-time employment; June 2021 return, June 2022 principal progression and April 2023 project start remain distinct. |
+| P1 | Contact, consent, English-original and 404 recovery actions | Preserve permission, opt-out/withdrawal and recovery destinations; no reversal of choice. |
+| P2 | Technical limitations, prototype labels and PACE-RAG boundary | Keep machine-translation disclosure; professional questions, answers and evidence remain English-only. |
+
+The 97 validator warnings remain visible (95 previously classified proper noun/stack labels; two gateway-label editorial questions). Warning counts do not measure fluent quality. Qualified native-language review and actual screen-reader review are still pending. No translation was promoted to `human_reviewed`.

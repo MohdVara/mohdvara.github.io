@@ -1026,5 +1026,22 @@
       },
       "delivery": "Portfolio local, uncommitted, unpushed; no deployment. External HRMS date corrections saved as recorded."
     }
+  },
+  "productionPolishCloseoutV1": {
+    "date": "2026-10-23",
+    "manifest": "verification/portfolio-production-polish-closeout-v1.json",
+    "unitsPerLocale": 1545,
+    "missing": 0,
+    "stale": 0,
+    "errors": 0,
+    "warnings": 97,
+    "layouts": 88,
+    "scenarios": 9,
+    "assistantChecks": 11,
+    "newDiscoveryLinkAssertions": 33,
+    "entryBytes": 214797,
+    "testsPassed": 202,
+    "qualifiedHumanReview": false,
+    "liveIdentityVerified": false
   }
 }

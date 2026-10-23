@@ -1,0 +1,1069 @@
+{
+  "schemaVersion": 1,
+  "task": "PORTFOLIO-PRODUCTION-POLISH-CLOSEOUT v1.0",
+  "date": "2026-10-23",
+  "timezone": "Asia/Kuching",
+  "completedAt": "2026-10-23T14:17:55.132551+00:00",
+  "status": "COMPLETE WITH EXTERNAL/EDITORIAL EXCEPTIONS",
+  "branch": "main",
+  "initialHead": "e6ea36550b9fc11e3c232137fe38835e1ab7d6ec",
+  "ownerWorkPreserved": {
+    "tracked": [
+      "docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md"
+    ],
+    "untrackedPlaywrightSnapshots": 9
+  },
+  "findings": [
+    {
+      "finding": "MMCATS source publication versus application deployment",
+      "classification": "CONFIRMED — FIXED",
+      "change": "Public source · locally verified · application deployment blocked"
+    },
+    {
+      "finding": "Commercial evidence basis unexplained",
+      "classification": "CONFIRMED — FIXED",
+      "change": "Owner-reported delivery · public verification limited.",
+      "scope": "Four existing commercial quick reads; approved facts unchanged"
+    },
+    {
+      "finding": "Three engineering discovery routes missing from locale-link registry",
+      "classification": "CONFIRMED — FIXED",
+      "change": "Preserve visitor locale for MMCATS, NAAE and Multilingual Engineering; all eleven locales and suffixes tested"
+    },
+    {
+      "finding": "Stale 404 selectors/output, unsynchronized case heading, hardcoded QA host",
+      "classification": "CONFIRMED — FIXED",
+      "change": "Current utility rail targets, visible-heading readiness, configurable output/URLs; assertions retained"
+    },
+    {
+      "finding": "MegaInfinite role/project end dates",
+      "classification": "ALREADY RESOLVED",
+      "evidence": "Fresh public documents: role May 2018–April 2020; rental project May 2018–May 2020"
+    },
+    {
+      "finding": "Centre progression, consolidated education card and current art provenance",
+      "classification": "ALREADY RESOLVED",
+      "evidence": "June 2021 return; June 2022 principal; April 2023 modernization project; five selected-work cards"
+    },
+    {
+      "finding": "WenSymes primary engagement end versus ongoing occasional work",
+      "classification": "CONFIRMED — REQUIRES OWNER APPROVAL",
+      "action": "No end date inferred; approve qualifier and supply primary end only if applicable"
+    },
+    {
+      "finding": "External Centre title, WenSymes qualifier and AI summaries",
+      "classification": "CONFIRMED — EXTERNAL SYSTEM",
+      "action": "Exact suggested text in CAREER_ARTIFACT_ALIGNMENT_PENDING.md; not applied"
+    },
+    {
+      "finding": "Consequential translation and screen-reader review",
+      "classification": "CONFIRMED — REQUIRES QUALIFIED HUMAN REVIEW"
+    },
+    {
+      "finding": "Rail obstruction/overflow, stale portraits, broken recovery",
+      "classification": "NOT REPRODUCED",
+      "scope": "Tested desktop Chrome viewport and preference matrix only"
+    },
+    {
+      "finding": "NAAE/PACE-RAG/Incident Zero/No Two Mondays evidence limits",
+      "classification": "ACCEPTED LIMITATION",
+      "action": "Keep explicit prototype, fictional, experimental and historical labels"
+    },
+    {
+      "finding": "LinkedIn public read",
+      "classification": "CONFIRMED — EXTERNAL SYSTEM",
+      "httpStatus": 429
+    }
+  ],
+  "baseline": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "tests": {
+      "total": 201,
+      "pass": 201
+    },
+    "build": "PASS after SWC native-cache sandbox retry",
+    "entryRawBytes": 214762,
+    "browserFinding": "Arabic discovery links could leave the locale"
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "build": "PASS",
+    "tests": {
+      "total": 202,
+      "pass": 202,
+      "fail": 0,
+      "skipped": 0
+    },
+    "localizationValidation": "PASS",
+    "strictCoverage": "PASS",
+    "dateAudit": "PASS",
+    "routeSeoInternalLinks": {
+      "routes": 108,
+      "issues": []
+    },
+    "localizedHomepageDiscoveryLinks": 33,
+    "scopedWhitespace": "PASS",
+    "secretScan": {
+      "tool": "Gitleaks",
+      "publicationCandidates": "PASS; zero findings",
+      "dist": "PASS; zero findings",
+      "rawEvidence": "ignored and redacted"
+    }
+  },
+  "localization": {
+    "locales": [
+      "en",
+      "ms",
+      "ar",
+      "ta",
+      "ja",
+      "zh-Hans",
+      "es",
+      "fr",
+      "de",
+      "pt-BR",
+      "hi"
+    ],
+    "unitsPerLocale": 1545,
+    "missing": 0,
+    "stale": 0,
+    "errors": 0,
+    "editorialWarnings": 97,
+    "newSourceUnits": 2,
+    "newTargetTranslations": 20,
+    "qualifiedHumanApproval": false,
+    "credentialsAvailable": false,
+    "syncDryRunPending": 0,
+    "statusTranslations": [
+      {
+        "locale": "ms",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "Kod sumber awam · disahkan setempat · deployment aplikasi disekat",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "ms",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "Penyampaian dilaporkan pemilik · pengesahan awam terhad.",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "ar",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "الشفرة متاحة للعامة · تم التحقق محليًا · نشر التطبيق محظور",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "ar",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "التنفيذ حسب إفادة المالك · التحقق العام محدود.",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "ta",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "மூலக்குறியீடு பொதுவில் உள்ளது · உள்ளூரில் சரிபார்க்கப்பட்டது · பயன்பாட்டு வெளியீடு தடுக்கப்பட்டுள்ளது",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "ta",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "உரிமையாளர் தெரிவித்த வழங்கல் · பொதுச் சரிபார்ப்பு வரையறுக்கப்பட்டுள்ளது.",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "ja",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "ソース公開済み · ローカル検証済み · アプリケーションのデプロイはブロック中",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "ja",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "所有者による実装報告 · 公開情報による検証は限定的。",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "zh-Hans",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "源码公开 · 已本地验证 · 应用部署受阻",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "zh-Hans",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "所有者报告的交付成果 · 公开验证有限。",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "es",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "Código fuente público · verificado localmente · despliegue de la aplicación bloqueado",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "es",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "Entrega declarada por el propietario · verificación pública limitada.",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "fr",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "Code source public · vérifié localement · déploiement de l’application bloqué",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "fr",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "Livraison déclarée par le propriétaire · vérification publique limitée.",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "de",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "Öffentlicher Quellcode · lokal verifiziert · Anwendungsbereitstellung blockiert",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "de",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "Vom Inhaber berichtete Umsetzung · öffentliche Überprüfung begrenzt.",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "pt-BR",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "Código-fonte público · verificado localmente · implantação da aplicação bloqueada",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "pt-BR",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "Entrega relatada pelo proprietário · verificação pública limitada.",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "hi",
+        "key": "Public source · locally verified · application deployment blocked",
+        "translation": "स्रोत कोड सार्वजनिक · स्थानीय रूप से सत्यापित · अनुप्रयोग की तैनाती अवरुद्ध",
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      {
+        "locale": "hi",
+        "key": "Owner-reported delivery · public verification limited.",
+        "translation": "स्वामी द्वारा बताया गया कार्यान्वयन · सार्वजनिक सत्यापन सीमित।",
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      }
+    ],
+    "browser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "datePeriods": 11,
+      "errors": 0,
+      "missingSource": 0,
+      "translationRequests": 0
+    },
+    "assistantBoundary": "English-only questions, answers and evidence preserved",
+    "finalMalayFocusedChecks": 8
+  },
+  "utilityRail": {
+    "checks": [
+      "all five panels: seven widths, viewport bounds, touch targets, single panel, Escape and focus restoration",
+      "fixed while scrolling",
+      "all theme/text choices, direct panel replacement and persisted preferences",
+      "effective reduced-motion state and saved scenery pause",
+      "privacy panel never grants consent; explicit opt-in, refresh, withdrawal and outside dismissal",
+      "DNT/GPC effective state distinguished",
+      "Arabic left docking, Tamil, Japanese vertical mode and successful locale dismissal",
+      "mobile collapse/expand and mobile navigation coexistence",
+      "single functional rail across all deep routes and custom 404 artifact",
+      "equivalent deep route, query, fragment, English-original link and history",
+      "failed locale download retains recoverable panel and successful alternative closes it",
+      "axe utility subtree: zero violations"
+    ],
+    "layouts": 13,
+    "errors": [],
+    "analyticsRequests": [],
+    "axePanelScans": 30,
+    "axeViolations": 0,
+    "edgeChecks": [
+      {
+        "width": 320,
+        "height": 568,
+        "largest": true,
+        "bounds": "pass"
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "largest": true,
+        "bounds": "pass"
+      },
+      {
+        "width": 720,
+        "height": 450,
+        "largest": true,
+        "bounds": "pass"
+      },
+      {
+        "nativeModal": "rail hidden, modal focus preserved"
+      },
+      {
+        "forcedColors": "rendered"
+      },
+      {
+        "storageUnavailable": "theme and explicit in-memory consent usable"
+      },
+      {
+        "unknownRouteHTTP": 404
+      }
+    ],
+    "lazyPanelFailure": {
+      "result": "PASS; retry fallback visible and Escape restores trigger",
+      "focus": true
+    },
+    "privacyLimit": "Local build has no production analytics token. Signal gating independently tested in unit suite; no production opted-in network claim."
+  },
+  "caseStudies": {
+    "routes": 33,
+    "layouts": 72,
+    "axeScans": 24,
+    "axeViolations": 0,
+    "interactions": [
+      "Native stage radios, keyboard range zoom, focused arrow scrolling, configuration disclosure, reset and reduced motion passed.",
+      "Missing image fallback preserves configuration and milestone text.",
+      "RTL/LTR direction samples, Arabic largest text and matching English-original navigation passed."
+    ],
+    "pageErrors": [],
+    "incomplete": [
+      {
+        "locale": "en",
+        "route": "mmcats-modern",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "route": "mmcats-modern",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "route": "naae",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "route": "naae",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "route": "multilingual-engineering",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "route": "multilingual-engineering",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "route": "mmcats-modern",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "route": "mmcats-modern",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "route": "naae",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "route": "naae",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "route": "multilingual-engineering",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "route": "multilingual-engineering",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "route": "mmcats-modern",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "route": "mmcats-modern",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "route": "naae",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "route": "naae",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "route": "multilingual-engineering",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "route": "multilingual-engineering",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "route": "mmcats-modern",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "route": "mmcats-modern",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "route": "naae",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "route": "naae",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "route": "multilingual-engineering",
+        "theme": "light",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 4
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "route": "multilingual-engineering",
+        "theme": "dark",
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "count": 4
+          }
+        ]
+      }
+    ]
+  },
+  "visuals": {
+    "portraits": [
+      {
+        "theme": "light",
+        "alt": "Illustrated portrait of Mohd. Paramasvara",
+        "width": 330,
+        "height": 354.75,
+        "top": 363.65625,
+        "decorative": null,
+        "asset": "/images/portrait.webp"
+      },
+      {
+        "theme": "dark",
+        "alt": "Illustrated portrait of Mohd. Paramasvara",
+        "width": 330,
+        "height": 354.75,
+        "top": 363.65625,
+        "decorative": null,
+        "asset": "/images/MohdVaraLetters-refined.svg"
+      },
+      {
+        "theme": "light",
+        "alt": "Illustrated portrait of Mohd. Paramasvara",
+        "width": 330,
+        "height": 354.75,
+        "top": 363.65625,
+        "decorative": null,
+        "asset": "/images/portrait.webp"
+      }
+    ],
+    "portraitDimensionsStable": true,
+    "artDirectionChanges": false,
+    "provenance": "Light illustration distinct from dark glyph SVG; source-field reconstruction does not establish standalone photo generation"
+  },
+  "notFound": {
+    "host": "Local Cloudflare Wrangler Pages",
+    "layouts": 54,
+    "axeScans": 44,
+    "axeViolations": 0,
+    "recoveryLinks": 33,
+    "validRouteStatuses": 108,
+    "noJavaScriptLocales": 11,
+    "errors": [],
+    "failedArtworkChunk": "Static error message and recovery remain visible",
+    "publicChecks": [
+      {
+        "path": "/en/unmapped-closeout/",
+        "status": 404,
+        "server": "cloudflare",
+        "title": "Page not found | Mohd. Paramasvara",
+        "entry": "/assets/index-B21BXwwj.js"
+      },
+      {
+        "path": "/ar/unmapped-closeout/",
+        "status": 404,
+        "server": "cloudflare",
+        "title": "لم يتم العثور على الصفحة | Mohd. Paramasvara",
+        "entry": "/assets/index-B21BXwwj.js"
+      },
+      {
+        "path": "/ta/unmapped-closeout/",
+        "status": 404,
+        "server": "cloudflare",
+        "title": "பக்கம் கிடைக்கவில்லை | Mohd. Paramasvara",
+        "entry": "/assets/index-B21BXwwj.js"
+      }
+    ]
+  },
+  "accessibility": {
+    "computedColorPairs": 124,
+    "minimumSampledContrast": 5.488768554012691,
+    "sampledFailures": 0,
+    "contrastBoundary": "124 flat text/background pairs; decorative layers and all pixels not certified",
+    "screenReaderTested": false,
+    "physicalDeviceTested": false,
+    "softKeyboardTested": false,
+    "nativeBrowserZoomTested": false,
+    "reflow": [
+      {
+        "width": 640,
+        "zoomEquivalent": 2,
+        "overflow": false
+      },
+      {
+        "width": 320,
+        "zoomEquivalent": 4,
+        "overflow": false
+      }
+    ]
+  },
+  "recruiterJourneys": [
+    {
+      "name": "Singapore recruiter",
+      "actions": [
+        "Read professional summary",
+        "Open employment anchor",
+        "Inspect résumé destination",
+        "Open contact anchor"
+      ],
+      "result": "PASS; occasional WenSymes engagement explicit; external wording exception recorded"
+    },
+    {
+      "name": "Technical hiring manager",
+      "actions": [
+        "Open commercial case",
+        "Read delivery decision and verification basis",
+        "Inspect full CV destination"
+      ],
+      "result": "PASS; no independent production certification asserted"
+    },
+    {
+      "name": "Staff/Principal Engineer",
+      "actions": [
+        "Open MMCATS",
+        "Read status",
+        "Open verification anchor",
+        "Inspect public source and limitations"
+      ],
+      "result": "PASS; source publication distinct from blocked application deployment"
+    },
+    {
+      "name": "Creative technology reviewer",
+      "actions": [
+        "Open NAAE",
+        "Read portfolio identity section",
+        "Decode evidence images",
+        "Inspect implementation destination"
+      ],
+      "result": "PASS; portfolio glyph processing, illustration and standalone capabilities distinguished"
+    },
+    {
+      "name": "International visitor",
+      "actions": [
+        "Arabic theme panel",
+        "Text size panel",
+        "Open localized engineering case",
+        "English original"
+      ],
+      "result": "PASS; inward RTL controls and equivalent route preserved"
+    },
+    {
+      "name": "Lost visitor",
+      "actions": [
+        "Invalid Tamil route",
+        "Engineering recovery",
+        "Invalid route again",
+        "Contact recovery"
+      ],
+      "result": "PASS; HTTP 404 and localized recovery anchors"
+    }
+  ],
+  "journeyDiagnostics": {
+    "pageErrors": [],
+    "failedRequests": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    ],
+    "consoleDisposition": "Two expected Chrome resource messages for deliberate HTTP 404 navigations; no additional console errors"
+  },
+  "performance": {
+    "entryBudgetRawBytes": 215000,
+    "baselineEntryRawBytes": 214762,
+    "finalEntry": {
+      "path": "assets/index-BETseIvI.js",
+      "bytes": 214797,
+      "sha256": "ed3d267e5f6ec80e209cb22020d3ce74b4e6e74870896dff185311c017b53609",
+      "gzip": 65823
+    },
+    "headroomRawBytes": 203,
+    "entryRawDelta": 35,
+    "totalJsCss": {
+      "raw": 6047704,
+      "gzip": 1816949
+    },
+    "lazyChunks": [
+      {
+        "path": "assets/EngineeringCaseStudy-BrS01sLw.css",
+        "bytes": 3372,
+        "sha256": "c8c6a97e927291e3a0ed1ceed17684a2b8456bbc40503edcd10ada73dda394f6",
+        "gzip": 1029
+      },
+      {
+        "path": "assets/EngineeringCaseStudy-D83iWb7H.js",
+        "bytes": 22370,
+        "sha256": "725fae039ac5ab34273419c71f5a8381c2219804991d9c7d78f79e1079b7ba52",
+        "gzip": 8077
+      },
+      {
+        "path": "assets/NotFound-5BN4-w9-.css",
+        "bytes": 2735,
+        "sha256": "1cd80c6d48f6f3767f3080841051270c249e32f19c810f7b9dfd8ca562376e4d",
+        "gzip": 1017
+      },
+      {
+        "path": "assets/NotFound-CfcrKtW3.js",
+        "bytes": 4948,
+        "sha256": "ba467b6e7bd733beb07fae07b671f2ee5c10b4b4d3cbe3b24af0a8dc6c61c8f7",
+        "gzip": 2409
+      },
+      {
+        "path": "assets/UtilityPanel-0MYpy3yD.js",
+        "bytes": 3948,
+        "sha256": "c6bae7b8b8a7e124ef5debbc042d721b716519f1aa9e5b80e56bd66f28cefc40",
+        "gzip": 1370
+      }
+    ],
+    "initialResourceSample": {
+      "resources": 13,
+      "transferBytes": 540463,
+      "beforeRegistryFix": true,
+      "lazyNaaeImagesRequested": false
+    },
+    "improvementClaimed": false,
+    "clsInpMeasured": false,
+    "retainedBuildWarning": "Existing large chunk warning"
+  },
+  "fingerprints": {
+    "source": "ce40406a26951ef75456e4127d5f29c4f1ac4cd98dabb7fc2c75c2510c004546",
+    "artifact": "39e2ca2f57fa15de0d3cf226db507bb90401f49d895e497a08cdc62b2ec2fcc5",
+    "scope": "Sorted git tracked + nonignored untracked path/SHA256 pairs; excludes docs/, verification/, output/, .playwright-cli/ to avoid report self-reference. Includes build scripts, lockfile, vendor, public assets and source.",
+    "note": "Public GitHub snapshot refreshed by build then restored as unrelated source churn. Independent source/artifact observations, not network-independent reproducibility."
+  },
+  "public": {
+    "status": "LIVE CONTENT OBSERVED — DEPLOYMENT IDENTITY UNVERIFIED",
+    "routes": 108,
+    "statuses": {
+      "200": 108
+    },
+    "canonicalMismatches": 0,
+    "home": {
+      "canonical": "https://mohd.paramasvara.online/en/",
+      "hreflang": 12,
+      "entry": "/assets/index-B21BXwwj.js",
+      "entryBytes": 214594,
+      "entrySha256": "823d1d6b7051c101df23cc902f628a626743572b7abc55fdab530f4c12777abc"
+    },
+    "sourceLinks": [
+      {
+        "url": "https://github.com/MohdVara/mmcats-modern",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mmcats-modern/blob/main/docs/RENDER_FREE_ACCEPTANCE.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mmcats-legacy",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/scripts/artwork/portrait-v3.mjs",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_PORTRAIT_V3_IMPLEMENTATION.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_404_EXPERIENCE_V1.md",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/src/UtilityRail.tsx",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/verification/portfolio-adaptive-utility-rail-v1.json",
+        "status": 200
+      },
+      {
+        "url": "https://github.com/MohdVara/mohdvara.github.io",
+        "status": 200
+      }
+    ],
+    "external": [
+      {
+        "url": "https://github.com/MohdVara/mmcats-modern",
+        "status": 200,
+        "finalUrl": "https://github.com/MohdVara/mmcats-modern"
+      },
+      {
+        "url": "https://github.com/MohdVara/mmcats-modern/blob/main/docs/RENDER_FREE_ACCEPTANCE.md",
+        "status": 200,
+        "finalUrl": "https://github.com/MohdVara/mmcats-modern/blob/main/docs/RENDER_FREE_ACCEPTANCE.md"
+      },
+      {
+        "url": "https://github.com/MohdVara/mmcats-legacy",
+        "status": 200,
+        "finalUrl": "https://github.com/MohdVara/mmcats-legacy"
+      },
+      {
+        "url": "https://github.com/MohdVara",
+        "status": 200,
+        "finalUrl": "https://github.com/MohdVara"
+      },
+      {
+        "url": "https://pace-rag.paramasvara.online/pace-rag/",
+        "status": 200,
+        "finalUrl": "https://pace-rag.paramasvara.online/pace-rag/"
+      },
+      {
+        "url": "https://github.com/MohdVara/pace-rag",
+        "status": 200,
+        "finalUrl": "https://github.com/MohdVara/pace-rag"
+      },
+      {
+        "url": "https://modvar.itch.io/no-two-mondays",
+        "status": 200,
+        "finalUrl": "https://modvar.itch.io/no-two-mondays"
+      },
+      {
+        "url": "https://rxresu.me/mwara95/2-page-resume",
+        "status": 200,
+        "finalUrl": "https://rxresu.me/mwara95/2-page-resume"
+      },
+      {
+        "url": "https://rxresu.me/mwara95/curriculum-vitae",
+        "status": 200,
+        "finalUrl": "https://rxresu.me/mwara95/curriculum-vitae"
+      },
+      {
+        "url": "https://www.linkedin.com/in/mohdvara/",
+        "status": 429,
+        "finalUrl": "https://www.linkedin.com/in/mohdvara"
+      },
+      {
+        "url": "https://cal.com/mohd-paramasvara/discovery",
+        "status": 200,
+        "finalUrl": "https://cal.com/mohd-paramasvara/discovery"
+      }
+    ],
+    "sitemapAndArt": [
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "server": "cloudflare"
+      },
+      {
+        "path": "/images/portrait.webp",
+        "status": 200,
+        "server": "cloudflare"
+      },
+      {
+        "path": "/images/MohdVaraLetters-refined.svg",
+        "status": 200,
+        "server": "cloudflare"
+      }
+    ],
+    "careerDocuments": {
+      "method": "Read-only Chrome body text, no iframe needed",
+      "resumeCharacters": 5151,
+      "cvCharacters": 12983,
+      "externalWrites": false
+    },
+    "localLiveEntryParity": false,
+    "deployedSha": null
+  },
+  "exceptions": [
+    "WenSymes primary-employment end is not established; ongoing occasional collaboration preserved",
+    "External résumé/CV edits require owner review and separate service authorization",
+    "Qualified consequential-translation review pending",
+    "Physical screen-reader/device/soft-keyboard/native-zoom review not performed",
+    "Cloudflare deployed SHA unavailable; local fixes unpublished",
+    "LinkedIn returned HTTP 429"
+  ],
+  "safety": {
+    "commits": 0,
+    "pushes": 0,
+    "deployments": 0,
+    "externalDocumentEdits": 0,
+    "messagesSent": 0,
+    "newDependencies": 0,
+    "hostingChanges": 0,
+    "analyticsChanges": 0,
+    "siblingRepositoryWrites": 0
+  },
+  "rawEvidenceDirectory": "output/playwright/production-polish-v1/ (gitignored)",
+  "reports": [
+    "docs/portfolio/PORTFOLIO_PRODUCTION_POLISH_CLOSEOUT_V1.md",
+    "docs/portfolio/CAREER_ARTIFACT_ALIGNMENT_PENDING.md",
+    "docs/portfolio/TRANSLATION_EDITORIAL_REVIEW_QUEUE.md"
+  ],
+  "rawEvidenceSha256": {
+    "final-build.log": "190c72e1d5ca7bec65e0be0e2468527c480ce3da317f75ab5a3a7453bfd99689",
+    "final-tests.log": "fff8e3523e961c3388cfd51c17b5f46c2bf06de72f944746eab2ac7950a7990f",
+    "final-localization.log": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0",
+    "final-coverage.log": "a2395b4f1deb54cd4139380bd910ac5473f1d5f934f58bdd631235f314496740",
+    "final-dates.log": "1b16ac5ddf7bac5ab829c676bd94db7c4a6f409bc2481708b7149859a0d8a107",
+    "artifact-final/artifact.json": "1f41e2c3f280f278f3ddcabdb43940f068225b0f1c2a3e85be50539e7cb35cb9",
+    "i18n-final/results.json": "a1ae93f54b926658c52c63b6ce3bc16262f864b75ff024611b13eca45436785d",
+    "cases-final/report.json": "99086ec17534848738a337524cc6c29870371be0133d50d633a9322175364bac",
+    "rail-final/report.json": "97ccd2c0d313e1b1a8bd358c656f4dd54547f30cc63a6f010f2e4f509bc6474d",
+    "404/browser.json": "d1c482e78ff8d358d602318ee71b2af4a0a8fb7289d96e73237f1f284619f7d2",
+    "journeys.json": "462795c934113b55ca70b0da3601aca71ed1a3d24253e8c19247b0d0a10b53b5",
+    "contrast.json": "e06e8104f56e325b4650f447abe731b2e3f5b87f2f439b79582421836ff597e2",
+    "public/public.json": "245eaecee79651bc9dfe0724738e4a27260a5fe15465bb529e1cb4a031145203",
+    "live-detail.json": "0e503d2de5ba9660799f88a10e2c09b48756fd6f0bcf4dff61046e520dfa6729",
+    "malay-final.json": "7e4b005b6d7ea95bde3e0ec7df0e65419bf5799d9cdba472b721e1fd3641fd60"
+  }
+}
