@@ -78,43 +78,7 @@
   --menu-border: #b7bfaa;
   --menu-surface: #faf8f2;
 }
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme]) {
-    color-scheme: light;
-    --text: #252822;
-    --background: #faf8f2;
-    --accent: #875409;
-    --accent-hover: #734608;
-    --on-accent: #ffffff;
-    --muted: #5e6258;
-    --line: #d4d7cb;
-    --surface: #f0f0e8;
-    --nav-text: #51564b;
-    --strong-muted: #3c4236;
-    --tools-text: #51594a;
-    --button-border: #89917f;
-    --hover-surface: #e9ebdf;
-    --section-surface: #f0f1e9;
-    --portrait-border: #c1c8b6;
-    --portrait-surface: #e8eddf;
-    --visual-surface: #edf1e5;
-    --visual-border: #bdc8ad;
-    --insurance-surface: #f3eee0;
-    --insurance-border: #d3c7a8;
-    --hr-surface: #e9f0f0;
-    --hr-border: #b5cccc;
-    --visual-text: #515b46;
-    --sketch-surface: #fafcf6;
-    --sketch-border: #b4c2a3;
-    --insurance-sketch-surface: #fffaf0;
-    --insurance-sketch-border: #cbbb94;
-    --hr-sketch-surface: #f6fbfb;
-    --hr-sketch-border: #a4bebe;
-    --contact-border: #89917f;
-    --menu-border: #b7bfaa;
-    --menu-surface: #faf8f2;
-  }
-}
+
 * {
   box-sizing: border-box;
 }

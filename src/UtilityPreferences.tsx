@@ -32,10 +32,10 @@ export function AnalyticsControl() {
 export function ThemeControl() {
   // Keep the server and first client render identical; the head script applies
   // the actual palette before paint, then this effect syncs the control.
-  const [preference, setPreference] = useState("system");
+  const [preference, setPreference] = useState("dark");
   useEffect(() => {
     const sync = () => {
-      setPreference(document.documentElement.dataset.themePreference || "system");
+      setPreference(document.documentElement.dataset.themePreference || "dark");
     };
     sync();
     window.addEventListener("theme-change", sync);

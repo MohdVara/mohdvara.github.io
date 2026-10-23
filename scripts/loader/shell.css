@@ -47,7 +47,6 @@ html{background:#101110}
 #portfolio-loader[data-static="true"][data-state="failed"] .loader-scene{display:none}
 :root[data-theme="light"] #portfolio-loader{--loader-far:#7894a0;--loader-mid:#517e6a;--loader-near:#577e60;--loader-far-lit:#3b6e7b;--loader-mid-lit:#2f6e4d;--loader-near-lit:#647532;--loader-sunlight:#936a20;--loader-bark:#79523b;--loader-surface:var(--surface,#f0f0e8);background:var(--background,#faf8f2);color:var(--text,#252822)}
 :root[data-theme="light"] #portfolio-loader .loader-message{color:var(--muted,#5e6258)}
-@media(prefers-color-scheme:light){html:not([data-theme]){background:#faf8f2}html:not([data-theme]) #portfolio-loader{background:#faf8f2;color:#252822;--loader-far:#7894a0;--loader-mid:#517e6a;--loader-near:#577e60;--loader-far-lit:#3b6e7b;--loader-mid-lit:#2f6e4d;--loader-near-lit:#647532;--loader-sunlight:#936a20;--loader-bark:#79523b;--loader-surface:var(--surface,#f0f0e8)}html:not([data-theme]) #portfolio-loader .loader-message{color:#5e6258}}
 /* Repeating full-width fill; decorative activity, never a percentage. */
 @keyframes loader-flow{0%{clip-path:inset(0 100% 0 0)}85%,100%{clip-path:inset(0 0 0 0)}}
 @media(prefers-reduced-motion:reduce){#portfolio-loader{transition:none}#portfolio-loader .loader-highlight{visibility:hidden!important;animation:none!important}}

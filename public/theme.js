@@ -3,7 +3,7 @@
   const key = "portfolio-theme";
   const valid = (value) => ["system", "time", "light", "dark"].includes(value);
   const system = window.matchMedia("(prefers-color-scheme: dark)");
-  let preference = "system";
+  let preference = "dark";
   try {
     const saved = localStorage.getItem(key);
     if (valid(saved)) preference = saved;
@@ -32,7 +32,7 @@
   });
   window.addEventListener("storage", (event) => {
     if (event.key !== key && event.key !== null) return;
-    preference = valid(event.newValue) ? event.newValue : "system";
+    preference = valid(event.newValue) ? event.newValue : "dark";
     apply();
   });
   system.addEventListener("change", apply);
