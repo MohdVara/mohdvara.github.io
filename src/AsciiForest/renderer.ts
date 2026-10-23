@@ -8,6 +8,7 @@ import { sourceTextureGlyph } from "./sourceTexture";
 import { geometryForScene, layerOf, renderSceneTexture } from "../artwork/adapter";
 import { unicodeSVG } from "../../vendor/naae-unicode/unicode/render.js";
 import type { Locale, WritingMode } from "../i18n/languages";
+import { portraitWeight, portraitInkAlpha, portraitInkLuminance, portraitLightForestInk, portraitSeparationPreset, type PortraitBounds } from "./portraitSeparation";
 
 export type ForestState = { theme: ForestTheme; enabled: boolean; locale?: Locale; writingMode?: WritingMode };
 export type ForestHandle = { update: (state: ForestState) => void; dispose: () => void };
@@ -34,6 +35,19 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   let font = "";
   let textureGeneration = 0;
   let transition: HTMLCanvasElement | undefined;
+  let portraitBox: PortraitBounds | undefined;
+  let portraitStrength: number = portraitSeparationPreset.strength;
+  let portraitLuminance: number = portraitSeparationPreset.luminance;
+  let portraitLightSage=0;
+  const portraitImage = !aerial && host.closest?.('.hero-environment')?.querySelector<HTMLImageElement>('.portrait img');
+  function separationAlpha(ink: string, x: number, y: number) {
+    return portraitBox ? portraitInkAlpha(ink, portraitWeight(x,y,portraitBox),portraitStrength) : 1;
+  }
+  function separationInk(ink: string, x: number, y: number) {
+    if(!portraitBox || (!portraitLuminance && !portraitLightSage)) return ink;
+    const weight=portraitWeight(x,y,portraitBox);
+    return portraitLightForestInk(portraitInkLuminance(ink,weight,state.theme,portraitLuminance),weight,state.theme,portraitLightSage);
+  }
   let geometry: ReturnType<typeof geometryForScene> | undefined, geometryKey = '', geometryBuilds = 0;
   function getPalette() {
     if (narrativeStyle) return aerial ? narrativeRiverInks[state.theme] : narrativeForestInks[state.theme];
@@ -89,6 +103,19 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
     if (totalFrames % 25 === 1) publish();
   }
   async function cacheLayers() {
+    if (portraitImage) {
+      const h=host.getBoundingClientRect(),p=portraitImage.getBoundingClientRect();
+      const fit=Math.min(p.width/900,p.height/972),w=900*fit,hh=972*fit;
+      portraitBox={x:p.left-h.left+(p.width-w)/2,y:p.top-h.top+(p.height-hh)/2,width:w,height:hh};
+      const style=getComputedStyle(host);
+      const configured=parseFloat(style.getPropertyValue('--portrait-separation-strength'));
+      const luminance=parseFloat(style.getPropertyValue('--portrait-separation-luminance'));
+      const sage=parseFloat(style.getPropertyValue('--portrait-light-sage'));
+      portraitLightSage=state.theme==='light'&&Number.isFinite(sage)?Math.max(0,Math.min(.25,sage)):0;
+      portraitLuminance=Number.isFinite(luminance)?luminance:portraitSeparationPreset.luminance;
+      portraitStrength=Number.isFinite(configured)?configured:portraitSeparationPreset.strength;
+      host.dataset.portraitSeparation=JSON.stringify({...portraitBox,strength:portraitStrength,luminance:portraitLuminance,lightSage:portraitLightSage});
+    }
     const generation = ++textureGeneration;
     host.dataset.textureStatus = 'loading';
     cancelAnimationFrame(buildFrame); buildFrame = 0;
@@ -111,7 +138,12 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
       if (disposed || generation !== textureGeneration) return;
       if (texture.artwork.request.settings.writingMode === 'vertical-rl') {
         verticalImages = await Promise.all([0,1,2,3].map(async layer => {
-          const runs=texture!.artwork.runs.filter(run => layerOf(run) === layer);
+          const gw=texture!.artwork.request.geometry.width,gh=texture!.artwork.request.geometry.height;
+          const runs=texture!.artwork.runs.filter(run => layerOf(run) === layer).map(run => {
+            const alpha=separationAlpha(run.ink,run.x*width/gw,run.y*height/gh);
+            const ink=separationInk(run.ink,run.x*width/gw,run.y*height/gh);
+            return alpha===1&&ink===run.ink?run:{...run,ink:ink+Math.round(alpha*255).toString(16).padStart(2,'0')};
+          });
           const svg = unicodeSVG({...texture!.artwork,runs},texture!.fonts);
           const url = URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));
           try {const image = new Image(); await new Promise<void>((resolve,reject) => {image.onload=()=>resolve();image.onerror=()=>reject(Error('Vertical artwork rasterization failed'));image.src=url;});return image;}
@@ -168,11 +200,13 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
           const weight = !narrativeStyle && codeCanopy && !aerial && glyph !== originalGlyph
             ? (".,:;".includes(originalGlyph) ? 0.5 : "+*o".includes(originalGlyph) ? 0.75 : 0.95) : 1;
           const daylightWeight = narrativeStyle && state.theme === "light" && /[a-z]/i.test(glyph) ? (aerial || layer > 1 ? 0.78 : 0.55) : 1;
-          const alpha = weight * daylightWeight * (!narrativeStyle && codeCanopy && !aerial && state.theme === "light" && glyph !== originalGlyph
+          let alpha = weight * daylightWeight * (!narrativeStyle && codeCanopy && !aerial && state.theme === "light" && glyph !== originalGlyph
             ? [0.5, 0.58, 0.72, 0.82][layer] : 1);
-          const ink = narrativeStyle ? (aerial ? narrativeRiverInk(i % g.cols, Math.floor(i / g.cols), layer, color, seed, state.theme) : narrativeInk(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, color, seed, state.theme)) : undefined;
+          let ink = narrativeStyle ? (aerial ? narrativeRiverInk(i % g.cols, Math.floor(i / g.cols), layer, color, seed, state.theme) : narrativeInk(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, color, seed, state.theme)) : undefined;
           const x = (i % g.cols) * cellWidth;
           const y = (Math.floor(i / g.cols) + 0.84) * cellHeight;
+          alpha *= separationAlpha(ink || palette[layer][color],x,y);
+          if(portraitBox) ink=separationInk(ink || palette[layer][color],x,y);
           if (g.motion[i]) dynamic.push({ x, y, glyph, color, group: g.motion[i], alpha, ink });
           else {
             c.globalAlpha = alpha;
@@ -194,7 +228,8 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
         c.direction = texture.artwork.request.textPack.direction; c.textAlign = 'left'; c.textBaseline = 'alphabetic';
         c.globalAlpha = 1;
         for (const run of runs) {
-          c.fillStyle = run.ink;
+          c.fillStyle = separationInk(run.ink,run.x*textureScaleX,run.y*textureScaleY);
+          c.globalAlpha=separationAlpha(run.ink,run.x*textureScaleX,run.y*textureScaleY);
           c.fillText(run.text,run.x,run.y);
         }
       }
@@ -282,6 +317,12 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   function scheduleResize() {
     if (!rebuildFrame && !disposed) rebuildFrame = requestAnimationFrame(safeRebuild);
   }
+  // Reflow can move the portrait while leaving the forest container unchanged.
+  let portraitResizeFrame=0;
+  const portraitResize = portraitImage ? new ResizeObserver(() => {
+    cancelAnimationFrame(portraitResizeFrame);
+    portraitResizeFrame=requestAnimationFrame(() => { if(scene && !building && !disposed) void cacheLayers(); });
+  }) : undefined;
   function fail() { host.dataset.ready = "false"; dispose(); }
   function safeRebuild() { try { rebuild(); } catch { fail(); } }
   function sync() {
@@ -304,7 +345,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   function dispose() {
     if (disposed) return;
     disposed = true; textureGeneration++; transition?.remove(); clock.dispose(); cancelAnimationFrame(rebuildFrame); cancelAnimationFrame(buildFrame); cancelAnimationFrame(generationFrame);
-    resize.disconnect(); visibility.disconnect();
+    resize.disconnect(); visibility.disconnect(); portraitResize?.disconnect(); cancelAnimationFrame(portraitResizeFrame);
     document.removeEventListener("visibilitychange", sync);
     hero.removeEventListener("pointermove", move); hero.removeEventListener("pointerleave", leave);
     caches.forEach(c => { c.width = 0; c.height = 0; }); caches = []; moving = [];
@@ -319,6 +360,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   safeRebuild();
   if (!disposed) {
     resize.observe(host); visibility.observe(hero);
+    if(portraitImage) portraitResize?.observe(portraitImage);
     document.addEventListener("visibilitychange", sync);
     hero.addEventListener("pointermove", move, { passive: true });
     hero.addEventListener("pointerleave", leave);

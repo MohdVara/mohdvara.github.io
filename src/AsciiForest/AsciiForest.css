@@ -27,6 +27,40 @@
 .ascii-forest canvas, .ascii-river canvas { display: block; width: 100%; height: 100%; }
 .hero-environment:has(.ascii-forest[data-ready="true"]) .hero-botanical { opacity: .055; }
 .hero-environment .portrait { max-width: 330px; }
+.hero-environment .portrait-frame {
+  /* Keep the letter portrait prominent over the moving forest. */
+  --portrait-saturation: 1.2;
+  --portrait-brightness: 1.25;
+  --portrait-contrast: 1;
+}
+.hero-environment .portrait-frame::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: rgb(0 0 0 / .825);
+  mask: url('/images/MohdVaraPortrait-mask.svg') center / contain no-repeat;
+}
+:root[data-theme="light"] .hero-environment .portrait-frame::before {
+  /* The original illustration needs no glyph-silhouette backing. */
+  content: none;
+}
+.hero-environment .portrait-frame img {
+  position: relative;
+  z-index: 1;
+  color-scheme: dark;
+  filter: saturate(var(--portrait-saturation))
+    brightness(var(--portrait-brightness)) contrast(var(--portrait-contrast));
+}
+:root[data-theme="light"] .hero-environment .portrait-frame {
+  /* Explicit warm SVG palette supplies light-mode depth; avoid filtering it grey. */
+  --portrait-saturation: 1;
+  --portrait-brightness: 1;
+  --portrait-contrast: 1;
+}
+:root[data-theme="light"] .hero-environment .portrait-frame img { color-scheme: light; }
+:root[data-theme="light"] .hero-environment .ascii-forest { --portrait-light-sage: .18; --portrait-separation-strength: .78; }
 .hero-environment .portrait figcaption span {
   background: color-mix(in srgb, var(--background) 96%, transparent);
   box-shadow: 0 0 9px 6px color-mix(in srgb, var(--background) 96%, transparent);

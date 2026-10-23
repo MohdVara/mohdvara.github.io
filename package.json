@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/pace-rag-assets.mjs && vite",
-    "build": "node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && node scripts/i18n/extract.mjs && node scripts/i18n/coverage.mjs --write && node scripts/artwork/sync.mjs --strict && tsc -b && vite build && node scripts/prerender.mjs",
+    "build": "node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && node scripts/i18n/extract.mjs && node scripts/i18n/coverage.mjs --write && node scripts/artwork/sync.mjs --strict && node scripts/artwork/portrait.mjs && tsc -b && vite build && node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

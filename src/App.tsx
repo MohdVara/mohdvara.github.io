@@ -254,15 +254,7 @@ function Hero() {
         <HeroNameReading portrait />
         <BotanicalDrawing className="hero-botanical" />
         <div className="portrait-frame">
-          <img
-            src="/images/portrait.webp"
-            srcSet="/images/portrait-small.webp 480w, /images/portrait.webp 900w"
-            sizes="(max-width: 760px) 80vw, 420px"
-            width="900"
-            height="972"
-            {...{ fetchpriority: "high" }}
-            alt={text("Illustrated portrait of Mohd. Paramasvara")}
-          />
+          <PortraitImage />
         </div>
         <PortraitUnderstory />
         <figcaption>
@@ -273,6 +265,23 @@ function Hero() {
       </div>
     </section>
   );
+}
+function PortraitImage() {
+  const [isLight, setIsLight] = useState(false);
+  useEffect(() => {
+    const sync = () => setIsLight(document.documentElement.dataset.theme === "light");
+    sync();
+    window.addEventListener("theme-change", sync);
+    return () => window.removeEventListener("theme-change", sync);
+  }, []);
+  return <img
+    src={isLight ? "/images/portrait.webp" : "/images/MohdVaraLetters-refined.svg"}
+    sizes="(max-width: 760px) 80vw, 420px"
+    width="900"
+    height="972"
+    {...{ fetchpriority: "high" }}
+    alt={text("Illustrated portrait of Mohd. Paramasvara")}
+  />;
 }
 function Highlights() {
   return (
