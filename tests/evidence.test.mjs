@@ -5,13 +5,14 @@ import vm from 'node:vm';
 import ts from 'typescript';
 const source = await readFile('src/useFragmentNavigation.ts', 'utf8');
 const compiled = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText;
-const ids = ['insurance', 'wensymes', 'campus', 'rental', 'meetings', 'hr'];
+const ids = ['insurance', 'wensymes', 'campus', 'rental', 'hr'];
 const context = { exports: {}, require: name => name === './content' ? { projectIds: ids } : {} };
 vm.runInNewContext(compiled, context);
 
 test('commercial fragments allow only known projects, including encoded valid links', () => {
   for (const id of ids) assert.equal(context.exports.projectIdFromHash(`#case-${id}`), id);
   assert.equal(context.exports.projectIdFromHash('#case-%69nsurance'), 'insurance');
+  assert.equal(context.exports.projectIdFromHash('#case-meetings'), 'campus');
   for (const hash of ['#case-unknown', '#case-insurance/extra', '#case-__proto__', '#work', '#ntm-summary', '#case-%E0%A4%A', ''])
     assert.equal(context.exports.projectIdFromHash(hash), null, hash);
 });

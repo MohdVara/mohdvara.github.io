@@ -9430,6 +9430,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "ar": {
@@ -18861,6 +19022,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "ja": {
@@ -28292,6 +28614,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "zh-Hans": {
@@ -37723,6 +38206,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "es": {
@@ -47154,6 +47798,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "fr": {
@@ -56587,6 +57392,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "de": {
@@ -66018,6 +66984,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "pt-BR": {
@@ -75451,6 +76578,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "hi": {
@@ -84882,6 +86170,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     },
     "ta": {
@@ -94313,6 +95762,167 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Apr 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "315ca6742f58d57f73241946a025bc1f0de6736af7807094f6aa982a1e432ffa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2019 — Apr 2021": {
+        "status": "machine_translated",
+        "sourceHash": "71023e3ef8350bddedb840d9178e446ec043224abf0bd7fa77a072a154f85d0c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Apr 2023 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "5fe4d5c872834258933da306d917221b7faaeef9e0f41de6ab710af59212749c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Jun 2021 — Present": {
+        "status": "machine_translated",
+        "sourceHash": "58c370518c1eb91136ce8e8b503ae6d3171c0eaeeae141c04cb436d1cc99c46e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "May 2018 — May 2020": {
+        "status": "machine_translated",
+        "sourceHash": "845ad5751c79d571f5ae9271918f4d566ffda210e5635962df142a8c9efe828a",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Principal engineering": {
+        "status": "machine_translated",
+        "sourceHash": "94c1dc688d3c35e4235704ded664a890bd1ec3e0b32ffd7a0dde17f703f9e32e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Timeline alignment, 23 October 2026; month precision follows source and owner clarification. Fluent editorial review pending."
+      },
+      "Full Stack Developer → Principal Full Stack Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "46ec1742e4fe4148fb3ef494a89d85fd46711f2cb72beaa355daac201c4e0747",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": {
+        "status": "machine_translated",
+        "sourceHash": "36fb41a77f3ad73be513c6f06cd2dd14b346eadee2e77518ad3e2e732dad98ee",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Centre continuity clarification, owner-confirmed 23 October 2026; fluent review pending."
+      },
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": {
+        "status": "machine_translated",
+        "sourceHash": "36a1eef9f679a35dbe9167ec7d19fd2de842eab65f41d5c8cfdce2f465d21b98",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Contract": {
+        "status": "machine_translated",
+        "sourceHash": "a6f5b0e592fa68e4ba8014ad5f62214f41153de6a5d51c78fc6148c54a1d6deb",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Feb 2018 — May 2018": {
+        "status": "machine_translated",
+        "sourceHash": "363a9ea833e4b49e05cff97e4fdeda111958d3466179eabe4d11f6b08f21aae5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — Apr 2017": {
+        "status": "machine_translated",
+        "sourceHash": "a22cbdee670993103eded4419f48b9f3a3be3208c897dd2c1e9d03073cbc690b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "May 2016 — May 2017": {
+        "status": "machine_translated",
+        "sourceHash": "d35acd4af7ab88f0700755627210e32c6162a4164432081cc98123013617ac6d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": {
+        "status": "machine_translated",
+        "sourceHash": "69a63a1355e01a1449ccaabef8b9b3dba4cd59864849557cb1574264e32c0b4f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Senior Software Engineer": {
+        "status": "machine_translated",
+        "sourceHash": "2eb599402d7afb51fe815f7f7463a6de203227d5157a805982ca518a64f8f726",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Web Developer": {
+        "status": "machine_translated",
+        "sourceHash": "7e82a525e7d39e229a35915e5c6627ff16525eba853efee84dd3c82ac7ccf6b8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Owner-confirmed Centre/Cryptoika chronology, 23 October 2026; fluent review pending."
+      },
+      "Aug 2017 — Jan 2018": {
+        "status": "machine_translated",
+        "sourceHash": "a23433020de32dfa8c2a37af6df8bb7ebb77a8e7387efaa392d8ac06a7a41b5c",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": {
+        "status": "machine_translated",
+        "sourceHash": "d88e28ea489fe6e8d3a9c31583f01d19caab3ed2e536fe206f44a5ccfb5e9b89",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Project proposal": {
+        "status": "machine_translated",
+        "sourceHash": "b28b7b9fd33551259757e4d02d486873e079901bad12b8f9c7c16e62bb375b77",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "VOC Solution Proposal for TM": {
+        "status": "machine_translated",
+        "sourceHash": "58013c1da0efdd7c3d2c626c4ed03c56d81e3381c45a09fd1904e9e80f534d88",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "May 2016 — Dec 2024": {
+        "status": "machine_translated",
+        "sourceHash": "fbf492bd30b994109ae16c37bdfb6e70d365577a1b348581fa7ec92a72fc61f2",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": {
+        "status": "machine_translated",
+        "sourceHash": "cffd9c1161e85c29d18d0375e6be7c6d02dc7a7f78212b194eda008880dec772",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Selected roles and project work. Several engagements run concurrently.": {
+        "status": "machine_translated",
+        "sourceHash": "44c3ecd4bead9b9e7a130a79c767e2a67408121387df15697116d4d04b999f0e",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
       }
     }
   }

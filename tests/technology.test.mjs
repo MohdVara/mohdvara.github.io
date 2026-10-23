@@ -43,9 +43,9 @@ test('education generations and explicit legacy versions remain distinct', () =>
   assert.match(education.note, /every legacy system was replaced/);
 });
 test('Project.stack is a generated projection and existing work IDs/order and uninventoried cases stay intact', () => {
-  assert.deepEqual(JSON.parse(JSON.stringify(content.projects.map(p => p.id))), ['insurance', 'wensymes', 'campus', 'rental', 'meetings', 'hr']);
+  assert.deepEqual(JSON.parse(JSON.stringify(content.projects.map(p => p.id))), ['insurance', 'wensymes', 'campus', 'rental', 'hr']);
   for (const project of content.projects) assert.deepEqual(JSON.parse(JSON.stringify(project.stack)), JSON.parse(JSON.stringify(mapping.technologyStack(project.id))));
-  for (const id of ['meetings', 'hr']) {
+  for (const id of ['hr']) {
     const project = content.projects.find(p => p.id === id);
     assert.equal(project.stack.length, 0); assert.equal(project.technology, undefined);
   }

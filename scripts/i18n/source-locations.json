@@ -162,8 +162,7 @@
   ],
   "Role": [
     "src/App.tsx",
-    "src/NoTwoMondaysCaseStudy.tsx",
-    "src/content.ts"
+    "src/NoTwoMondaysCaseStudy.tsx"
   ],
   "Scope": [
     "src/App.tsx"
@@ -201,7 +200,7 @@
   "Leading through the code.": [
     "src/App.tsx"
   ],
-  "Selected roles. Several engagements run concurrently.": [
+  "Selected roles and project work. Several engagements run concurrently.": [
     "src/App.tsx"
   ],
   "Full CV": [
@@ -2007,15 +2006,6 @@
   "Maintainability and ongoing delivery guide the engineering work.": [
     "src/SystemDiagrams.tsx"
   ],
-  "Maintenance of established education applications.": [
-    "src/SystemDiagrams.tsx"
-  ],
-  "Full-stack engineering in the education sector.": [
-    "src/SystemDiagrams.tsx"
-  ],
-  "Ongoing delivery and maintainability.": [
-    "src/SystemDiagrams.tsx"
-  ],
   "HR and administration application development.": [
     "src/SystemDiagrams.tsx"
   ],
@@ -2385,18 +2375,18 @@
   "Evidence gathering, accessible interaction and consequences of engineering decisions. This illustrates reasoning; it does not establish commercial incident response, real security protection or measured learning outcomes.": [
     "src/caseStudies.ts"
   ],
-  "Principal Full Stack Engineer": [
-    "src/content.ts",
+  "Full Stack Developer → Principal Full Stack Engineer": [
     "src/content.ts",
     "src/content.ts"
   ],
-  "2023 onward": [
+  "Jun 2021 — Present": [
+    "src/content.ts",
     "src/content.ts"
   ],
   "Enterprise Education Systems — Modernization & Technical Consulting": [
     "src/content.ts"
   ],
-  "Stakeholder-informed workflows across established and modernized education and administrative systems.": [
+  "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.": [
     "src/content.ts"
   ],
   "Education platform · full-stack engineering · technical leadership": [
@@ -2454,51 +2444,6 @@
   "Helped shape structured workflows aligned with actual user and stakeholder responsibilities, while supporting continued operation and modernization of existing systems.": [
     "src/content.ts"
   ],
-  "Education applications · maintenance · integration": [
-    "src/content.ts"
-  ],
-  "Education / Enterprise applications": [
-    "src/content.ts"
-  ],
-  "2021 onward": [
-    "src/content.ts"
-  ],
-  "Supporting established education applications.": [
-    "src/content.ts"
-  ],
-  "Full-stack development and integration work in the education sector.": [
-    "src/content.ts"
-  ],
-  "Contributed to application maintenance and ongoing software delivery.": [
-    "src/content.ts"
-  ],
-  "Application maintenance": [
-    "src/content.ts"
-  ],
-  "Full-stack development": [
-    "src/content.ts"
-  ],
-  "Ongoing delivery": [
-    "src/content.ts"
-  ],
-  "Education Application Engineering": [
-    "src/content.ts"
-  ],
-  "Full-stack development, progressing to principal engineering responsibilities.": [
-    "src/content.ts"
-  ],
-  "Engineering focus": [
-    "src/content.ts"
-  ],
-  "Maintaining and evolving established applications while supporting their ongoing use.": [
-    "src/content.ts"
-  ],
-  "Disclosure": [
-    "src/content.ts"
-  ],
-  "This summary is deliberately limited to broad professional responsibilities.": [
-    "src/content.ts"
-  ],
   "Senior Full Stack Developer → Director, Engineering": [
     "src/content.ts",
     "src/content.ts"
@@ -2506,7 +2451,7 @@
   "Motor · medical · group medical · fire insurance": [
     "src/content.ts"
   ],
-  "2019–2021": [
+  "Apr 2019 — Apr 2021": [
     "src/content.ts"
   ],
   "PolicyStreet — Insurance Comparison Platform": [
@@ -2566,7 +2511,8 @@
   "People / Enterprise applications": [
     "src/content.ts"
   ],
-  "2025 onward": [
+  "Mar 2025 — ongoing collaboration": [
+    "src/content.ts",
     "src/content.ts"
   ],
   "WenSymes — Human Resources Management Platform": [
@@ -2614,13 +2560,13 @@
   "People / Business operations": [
     "src/content.ts"
   ],
-  "2016–2017": [
+  "May 2016 — Dec 2024": [
     "src/content.ts"
   ],
   "HR workflows that adapt to different companies.": [
     "src/content.ts"
   ],
-  "Helped build configurable HR workflows for multiple companies.": [
+  "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.": [
     "src/content.ts"
   ],
   "Flexible HR workflows that accommodate each company’s corporate structure and policies within the same system.": [
@@ -2665,7 +2611,7 @@
   "Proptech / Business operations": [
     "src/content.ts"
   ],
-  "2018–2020": [
+  "May 2018 — May 2020": [
     "src/content.ts"
   ],
   "Rental operations, from contracts to financial clarity.": [
@@ -2707,16 +2653,10 @@
   "Enabled access to property, tenant and rental records; supported rental contract renewals and sending contract PDFs directly from mobile devices. Staff could review rental and financial reports remotely, including property-level income, expenses and profit/loss. Supported rental operations involving more than 20 properties.": [
     "src/content.ts"
   ],
-  "Mar 2025 — ongoing collaboration": [
-    "src/content.ts"
-  ],
   "Occasional professional collaboration · Remote · Singapore": [
     "src/content.ts"
   ],
   "Principal full-stack experience on HR and administration tools with cloud services. Planning considered data consistency, access control and uptime. Occasional engineering collaboration continues.": [
-    "src/content.ts"
-  ],
-  "Jun 2022 — Present": [
     "src/content.ts"
   ],
   "Leading classroom applications, meeting tools and integrations. Modernizing legacy systems and establishing DevOps and deployment standards. Progressed from Full Stack Developer (June 2021–June 2022).": [
@@ -2738,6 +2678,40 @@
     "src/content.ts"
   ],
   "Teaching full-stack development from beginner to advanced levels, across backend frameworks and relational and non-relational databases.": [
+    "src/content.ts"
+  ],
+  "Feb 2018 — May 2018": [
+    "src/content.ts"
+  ],
+  "Senior Software Engineer": [
+    "src/content.ts"
+  ],
+  "Contract": [
+    "src/content.ts",
+    "src/content.ts"
+  ],
+  "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.": [
+    "src/content.ts"
+  ],
+  "Aug 2017 — Jan 2018": [
+    "src/content.ts"
+  ],
+  "VOC Solution Proposal for TM": [
+    "src/content.ts"
+  ],
+  "Project proposal": [
+    "src/content.ts"
+  ],
+  "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.": [
+    "src/content.ts"
+  ],
+  "May 2016 — May 2017": [
+    "src/content.ts"
+  ],
+  "Web Developer": [
+    "src/content.ts"
+  ],
+  "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.": [
     "src/content.ts"
   ],
   "User interfaces, backend services, and integrations, chosen around the needs of the system.": [

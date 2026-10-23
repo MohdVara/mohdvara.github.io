@@ -12,7 +12,7 @@ export const profile = {
   // Add only an owner-approved PDF after inspecting every page of the current export.
   resumePdf: null as string | null,
 };
-export const projectIds = ["insurance", "wensymes", "campus", "rental", "meetings", "hr"] as const;
+export const projectIds = ["insurance", "wensymes", "campus", "rental", "hr"] as const;
 export type ProjectId = typeof projectIds[number];
 interface Project {
   id: ProjectId;
@@ -32,9 +32,9 @@ interface Project {
 }
 const projectContent: Project[] = [
   {
-    id: "campus", role: "Principal Full Stack Engineer", category: "Education / Modernisation", company: "Centre for Content Creation", period: "2023 onward",
+    id: "campus", role: "Full Stack Developer → Principal Full Stack Engineer", category: "Education / Modernisation", company: "Centre for Content Creation", period: "Jun 2021 — Present",
     title: "Enterprise Education Systems — Modernization & Technical Consulting",
-    summary: "Stakeholder-informed workflows across established and modernized education and administrative systems.",
+    summary: "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.",
     scope: "Education platform · full-stack engineering · technical leadership",
     result: "Helped align operational workflows with user responsibilities while supporting continued platform use and modernisation.",
     functions: ["Platform modernisation", "Full-stack engineering", "Maintainability"],
@@ -49,31 +49,12 @@ const projectContent: Project[] = [
     ], stack: [],
   },
   {
-    id: "meetings",
-    role: "Principal Full Stack Engineer",
-    scope: "Education applications · maintenance · integration",
-    category: "Education / Enterprise applications",
-    company: "Centre for Content Creation",
-    period: "2021 onward",
-    title: "Supporting established education applications.",
-    summary: "Full-stack development and integration work in the education sector.",
-    result: "Contributed to application maintenance and ongoing software delivery.",
-    functions: ["Application maintenance", "Full-stack development", "Ongoing delivery"],
-    visualLabel: "Education Application Engineering",
-    details: [
-      ["Role", "Full-stack development, progressing to principal engineering responsibilities."],
-      ["Engineering focus", "Maintaining and evolving established applications while supporting their ongoing use."],
-      ["Disclosure", "This summary is deliberately limited to broad professional responsibilities."],
-    ],
-    stack: [],
-  },
-  {
     id: "insurance",
     role: "Senior Full Stack Developer → Director, Engineering",
     scope: "Motor · medical · group medical · fire insurance",
     category: "Fintech / Integration",
     company: "PolicyStreet",
-    period: "2019–2021",
+    period: "Apr 2019 — Apr 2021",
     title: "PolicyStreet — Insurance Comparison Platform",
     summary:
       "Internal teams and partners needed consistent quoting and issuance across different insurers.",
@@ -101,7 +82,7 @@ const projectContent: Project[] = [
     scope: "HR and administration · full-stack engineering",
     category: "People / Enterprise applications",
     company: "WenSymes",
-    period: "2025 onward",
+    period: "Mar 2025 — ongoing collaboration",
     title: "WenSymes — Human Resources Management Platform",
     summary: "Adaptable HR and administration workflows, with full-stack web development, Google Cloud and Microsoft 365.",
     result: "Contributed adaptable internal tools; professional collaboration continues on an occasional basis.",
@@ -123,10 +104,10 @@ const projectContent: Project[] = [
     scope: "Multiple companies · configurable leave and attendance rules",
     category: "People / Business operations",
     company: "Centre for Content Creation",
-    period: "2016–2017",
+    period: "May 2016 — Dec 2024",
     title: "HR workflows that adapt to different companies.",
     summary:
-      "Helped build configurable HR workflows for multiple companies.",
+      "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.",
     result:
       "Flexible HR workflows that accommodate each company’s corporate structure and policies within the same system.",
     functions: [
@@ -161,7 +142,7 @@ const projectContent: Project[] = [
     scope: "20+ properties · tenants · contracts · financial reporting",
     category: "Proptech / Business operations",
     company: "MegaInfinite",
-    period: "2018–2020",
+    period: "May 2018 — May 2020",
     title: "Rental operations, from contracts to financial clarity.",
     summary:
       "Web-based rental operations for staff working in the office and on the move.",
@@ -195,8 +176,8 @@ export const experience = [
       "Principal full-stack experience on HR and administration tools with cloud services. Planning considered data consistency, access control and uptime. Occasional engineering collaboration continues.",
   },
   {
-    period: "Jun 2022 — Present",
-    title: "Principal Full Stack Engineer",
+    period: "Jun 2021 — Present",
+    title: "Full Stack Developer → Principal Full Stack Engineer",
     company: "Centre for Content Creation",
     type: "Contract · Remote",
     description:
@@ -217,6 +198,30 @@ export const experience = [
     type: "Training",
     description:
       "Teaching full-stack development from beginner to advanced levels, across backend frameworks and relational and non-relational databases.",
+  },
+  {
+    period: "Feb 2018 — May 2018",
+    title: "Senior Software Engineer",
+    company: "Cryptoika",
+    type: "Contract",
+    description:
+      "A roughly three-month engagement building a real-time cryptocurrency quotes dashboard.",
+  },
+  {
+    period: "Aug 2017 — Jan 2018",
+    title: "VOC Solution Proposal for TM",
+    company: "Telekom Malaysia",
+    type: "Project proposal",
+    description:
+      "Prepared a proposal for a consolidated customer complaints and feedback analytics system for Telekom Malaysia, gathering information from multiple channels to support decision-making.",
+  },
+  {
+    period: "May 2016 — May 2017",
+    title: "Web Developer",
+    company: "Centre for Content Creation",
+    type: "Contract",
+    description:
+      "My first employment at Centre for Content Creation. Left in May 2017 to continue my degree in Singapore, before later joining PolicyStreet and returning to Centre in June 2021.",
   },
 ];
 export const capabilities = [

@@ -365,7 +365,7 @@ function Experience() {
         <div className="experience-grid" data-reveal>
           <div className="experience-note">
             <p>{text("Building since 2013.")}<br />{text("Leading through the code.")}</p>
-            <span>{text("Selected roles. Several engagements run concurrently.")}</span>
+            <span>{text("Selected roles and project work. Several engagements run concurrently.")}</span>
             <div className="resume-links"><a className="text-link" href={localizedHref(profile.resume)} target="_blank" rel="noopener noreferrer">{text("2-page résumé ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
             </a>
             <a className="text-link" href={localizedHref(profile.cv)} target="_blank" rel="noopener noreferrer">{text("Full CV ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span></a>

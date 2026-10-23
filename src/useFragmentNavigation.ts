@@ -6,7 +6,7 @@ export function projectIdFromHash(hash: string): ProjectId | null {
   try { id = decodeURIComponent(hash.replace(/^#/, "")); }
   catch { return null; }
   if (!id.startsWith("case-")) return null;
-  const project = id.slice(5);
+  const project = id === "case-meetings" ? "campus" : id.slice(5);
   return projectIds.find(candidate => candidate === project) ?? null;
 }
 
@@ -50,7 +50,7 @@ export function useFragmentNavigation(path: string) {
       if (!hash) return;
       const current = generation;
       let id: string;
-      try { id = decodeURIComponent(hash.slice(1)); }
+      try { id = projectIdFromHash(hash) ? `case-${projectIdFromHash(hash)}` : decodeURIComponent(hash.slice(1)); }
       catch { return; }
       const locate = () => {
         if (generation !== current || window.location.hash !== hash) return;

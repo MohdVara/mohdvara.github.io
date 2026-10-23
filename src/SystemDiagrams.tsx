@@ -6,7 +6,6 @@ import { capabilities, projects } from "./content";
 // These describe documented functions, not inferred infrastructure topology.
 const explanations: Record<string, string[]> = {
   campus: ["Modernisation work on an established education platform.", "Full-stack development alongside technical leadership.", "Maintainability and ongoing delivery guide the engineering work."],
-  meetings: ["Maintenance of established education applications.", "Full-stack engineering in the education sector.", "Ongoing delivery and maintainability."],
   wensymes: ["HR and administration application development.", "Hands-on full-stack engineering within a principal developer role.", "Technical ownership, with internal workflows and implementation details kept private."],
   insurance: ["Rate fetching across multiple insurance providers and product types.", "Backend and frontend normalization brings different provider rates into a consistent interface.", "External insurer APIs and internal services connect quotation and policy issuance for teams and partners."],
   hr: ["A shared HR system supports the corporate structures of multiple companies.", "Leave entitlements can be configured around each company’s policies.", "Attendance policies and HR workflows adapt to the organization rather than one fixed process."],
@@ -15,7 +14,6 @@ const explanations: Record<string, string[]> = {
 const projectPaths: Record<string, { d: string; nodes: number[] }[]> = {
   campus: [{ d: "M20 28C20 55 50 48 50 75", nodes: [0, 1] }, { d: "M80 28C80 55 50 48 50 75", nodes: [0, 1] }, { d: "M50 75V130", nodes: [1, 2] }],
   wensymes: [{ d: "M20 28C20 55 50 48 50 75", nodes: [0, 1] }, { d: "M50 75C50 105 80 105 80 130", nodes: [1, 2] }],
-  meetings: [{ d: "M35 28C35 50 62 46 62 75", nodes: [0, 1] }, { d: "M62 75C62 105 35 103 35 126", nodes: [1, 2] }],
   insurance: [{ d: "M12 10C12 38 35 35 35 65", nodes: [0, 1] }, { d: "M75 10C75 38 35 35 35 65", nodes: [0, 1] }, { d: "M35 65C35 95 60 91 60 130", nodes: [1, 2] }],
   hr: [{ d: "M50 24C50 57 22 55 22 100", nodes: [0, 1] }, { d: "M50 24C50 57 78 55 78 100", nodes: [0, 2] }],
   rental: [{ d: "M20 28C20 61 45 52 45 77", nodes: [0, 1] }, { d: "M45 77C45 109 76 97 76 130", nodes: [1, 2] }, { d: "M20 28C6 90 8 137 76 130", nodes: [0, 2] }],
