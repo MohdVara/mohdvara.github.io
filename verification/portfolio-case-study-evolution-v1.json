@@ -1,0 +1,1053 @@
+{
+  "schemaVersion": 1,
+  "task": "portfolio-case-study-evolution-v1",
+  "date": "2026-10-23",
+  "timezone": "Asia/Kuching",
+  "status": "COMPLETE locally; qualified editorial, screen-reader, physical-device and live-deployment verification remain outside the achieved scope",
+  "sourceRevision": "3da08e49b937fa348a33e53cd353cb190b921a20",
+  "comparisonBaseline": "215bc73 (last case-study implementation); related verification 0ab00f4, 7c27a4e; owner report dated 22 October 2026",
+  "ownerChangesPreserved": [
+    "docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+    ".playwright-cli existing untracked snapshots"
+  ],
+  "claims": [
+    {
+      "claim": "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Adaptive Preferences Across Scripts and Layouts",
+      "section": "rail",
+      "sources": [
+        "src/UtilityRail.tsx",
+        "src/UtilityPanel.tsx",
+        "src/UtilityPreferences.tsx",
+        "src/UtilityRail.css",
+        "src/analytics.ts",
+        "src/analyticsPreference.ts"
+      ],
+      "evidence": [
+        "tests/utility-rail.test.mjs",
+        "verification/portfolio-adaptive-utility-rail-v1.json"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Arabic utility rail with the language panel open on the left.",
+      "section": "rail",
+      "sources": [
+        "src/UtilityRail.tsx",
+        "src/UtilityPanel.tsx",
+        "src/UtilityPreferences.tsx",
+        "src/UtilityRail.css",
+        "src/analytics.ts",
+        "src/analyticsPreference.ts"
+      ],
+      "evidence": [
+        "tests/utility-rail.test.mjs",
+        "verification/portfolio-adaptive-utility-rail-v1.json"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED",
+        "VISUALLY_OBSERVED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Dark homepage with an amber glyph portrait in the narrative landscape.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED",
+        "VISUALLY_OBSERVED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.",
+      "section": "rail",
+      "sources": [
+        "src/UtilityRail.tsx",
+        "src/UtilityPanel.tsx",
+        "src/UtilityPreferences.tsx",
+        "src/UtilityRail.css",
+        "src/analytics.ts",
+        "src/analyticsPreference.ts"
+      ],
+      "evidence": [
+        "tests/utility-rail.test.mjs",
+        "verification/portfolio-adaptive-utility-rail-v1.json"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Light homepage with a separate illustrated portrait in the landscape.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED",
+        "VISUALLY_OBSERVED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Local dark treatment: actual SVG characters, reconstructed before runtime.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED",
+        "VISUALLY_OBSERVED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Local implementation capture: Arabic RTL docking and a horizontal language panel.",
+      "section": "rail",
+      "sources": [
+        "src/UtilityRail.tsx",
+        "src/UtilityPanel.tsx",
+        "src/UtilityPreferences.tsx",
+        "src/UtilityRail.css",
+        "src/analytics.ts",
+        "src/analyticsPreference.ts"
+      ],
+      "evidence": [
+        "tests/utility-rail.test.mjs",
+        "verification/portfolio-adaptive-utility-rail-v1.json"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED",
+        "VISUALLY_OBSERVED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Local light treatment: a separate illustration, not an ASCII portrait.",
+      "section": "portrait",
+      "sources": [
+        "scripts/artwork/portrait-v3.mjs",
+        "scripts/artwork/portrait.mjs",
+        "scripts/artwork/portrait-glyph-metrics.json",
+        "src/AsciiForest/portraitSeparation.ts",
+        "src/App.tsx"
+      ],
+      "evidence": [
+        "tests/portrait-v3.test.mjs",
+        "tests/portrait-paper-ink.test.mjs",
+        "verification/naae-portrait-v3.json",
+        "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+        "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED",
+        "VISUALLY_OBSERVED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.",
+      "section": "rail",
+      "sources": [
+        "src/UtilityRail.tsx",
+        "src/UtilityPanel.tsx",
+        "src/UtilityPreferences.tsx",
+        "src/UtilityRail.css",
+        "src/analytics.ts",
+        "src/analyticsPreference.ts"
+      ],
+      "evidence": [
+        "tests/utility-rail.test.mjs",
+        "verification/portfolio-adaptive-utility-rail-v1.json"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.",
+      "section": "rail",
+      "sources": [
+        "src/UtilityRail.tsx",
+        "src/UtilityPanel.tsx",
+        "src/UtilityPreferences.tsx",
+        "src/UtilityRail.css",
+        "src/analytics.ts",
+        "src/analyticsPreference.ts"
+      ],
+      "evidence": [
+        "tests/utility-rail.test.mjs",
+        "verification/portfolio-adaptive-utility-rail-v1.json"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.",
+      "section": "rail",
+      "sources": [
+        "src/UtilityRail.tsx",
+        "src/UtilityPanel.tsx",
+        "src/UtilityPreferences.tsx",
+        "src/UtilityRail.css",
+        "src/analytics.ts",
+        "src/analyticsPreference.ts"
+      ],
+      "evidence": [
+        "tests/utility-rail.test.mjs",
+        "verification/portfolio-adaptive-utility-rail-v1.json"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.",
+      "section": "404",
+      "sources": [
+        "src/notFoundGeometry.ts",
+        "src/NotFound.css",
+        "src/NotFoundLandscape.tsx",
+        "src/NotFound.tsx",
+        "scripts/prerender.mjs"
+      ],
+      "evidence": [
+        "verification/portfolio-404-experience-v1.json",
+        "docs/portfolio/NAAE_404_EXPERIENCE_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.",
+      "section": "404",
+      "sources": [
+        "src/notFoundGeometry.ts",
+        "src/NotFound.css",
+        "src/NotFoundLandscape.tsx",
+        "src/NotFound.tsx",
+        "scripts/prerender.mjs"
+      ],
+      "evidence": [
+        "verification/portfolio-404-experience-v1.json",
+        "docs/portfolio/NAAE_404_EXPERIENCE_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    },
+    {
+      "claim": "The Unmapped Path: narrative typography for recovery",
+      "section": "404",
+      "sources": [
+        "src/notFoundGeometry.ts",
+        "src/NotFound.css",
+        "src/NotFoundLandscape.tsx",
+        "src/NotFound.tsx",
+        "scripts/prerender.mjs"
+      ],
+      "evidence": [
+        "verification/portfolio-404-experience-v1.json",
+        "docs/portfolio/NAAE_404_EXPERIENCE_V1.md"
+      ],
+      "classification": [
+        "SOURCE_VERIFIED"
+      ],
+      "confidence": "high for source architecture; qualitative for visual judgment and discovery motivation",
+      "implementationStatus": [
+        "IMPLEMENTED_AND_TESTED"
+      ],
+      "contentStatus": "LOCAL_UNCOMMITTED",
+      "verificationDate": "2026-10-23",
+      "publicationStatus": "source present in local Git HEAD; remote publication and live deployment not independently reverified",
+      "limits": "Historical light-glyph experiments are superseded for the homepage by light illustration. Recorded previous QA is attributed, not rerun portrait/404 hosting QA. No recognition or usability study."
+    }
+  ],
+  "sourceHashes": {
+    "docs/portfolio/NAAE_404_EXPERIENCE_V1.md": "1ca4452fa168c45ecd44a22728f1719227ec90a643d5bcbd2b5495ad04e2b50c",
+    "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md": "add45b7cfff383048458146241b713bd7df4bf97cb1f316b1e13b2c699131ca9",
+    "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md": "2b7656334cfe01d6ffe11ef9b29578b7c01208b3c22415c015d98a2ffd799d78",
+    "scripts/artwork/portrait-glyph-metrics.json": "cb452e850927ef19ccc74564bea6f3d3e131f2c358b9a8c384ceeea635e5e902",
+    "scripts/artwork/portrait-v3.mjs": "96e3ebadcd6bedd5b412df959af3290bc2eef8396b5ee39477e36220314e960b",
+    "scripts/artwork/portrait.mjs": "9add190cad070b3ea5e7d4904b015db1dbefc2850631b511ab3a6bec7ec119d6",
+    "scripts/prerender.mjs": "3cfdd08a49f73f74cf54ed5175500fd1ba963eaa242a90b827761bd2c6245554",
+    "src/App.tsx": "45143ffce1f2351b88e8faca661700cff384cad44fcd8636d7f0ecaf887715d1",
+    "src/AsciiForest/portraitSeparation.ts": "1739670b96b574c904ac0ef828efd40f35b3574e84f57d5f4dbdf51395c6e08e",
+    "src/NotFound.css": "2e1598915baf41d0e91fd10604a29933b53520a536dc1b1d068cab53a5776722",
+    "src/NotFound.tsx": "9e8fb0a4dbd44a76fb10379d6168dca4951b98e4ac4755c2fc102c7f21841d99",
+    "src/NotFoundLandscape.tsx": "8a51bae7b1bedb269586685fe2fdf033719274c5aaadd37f397092170fc5abd1",
+    "src/UtilityPanel.tsx": "b64281c6b912769575f363139bb7664ebd44082b15c2f7350ff841b817196a44",
+    "src/UtilityPreferences.tsx": "62df37a9ed0495975c86f29419a7d9accde91cc9aae1265f44236d181302655c",
+    "src/UtilityRail.css": "98e84108ca6b7fa3123a2b0a071c0d057ef64034896b6b67844dfdd67a48ce50",
+    "src/UtilityRail.tsx": "fd6bad85d2d0cad1095053076785ce1c715b41d297abe385ec58dd892ee09759",
+    "src/analytics.ts": "ed254e70af62eaff9831b486916425292d9e770e7886931bdc9004b358f5570e",
+    "src/analyticsPreference.ts": "50dfcd3d8ee4f97f1d76b42314cfa0288b734a8b0880b57518e3c59db6a25da7",
+    "src/notFoundGeometry.ts": "bb37506bdf32210885b8a039bb9d7e31759c0f4b06a4dd93a2366fee3ca0e4d5",
+    "tests/portrait-paper-ink.test.mjs": "4703a0f138ea1e2ea9a541be49a794da2f0012edd61bec02db21ff413fd031f5",
+    "tests/portrait-v3.test.mjs": "49228fd43b7a734d440fdef11e39a87c2dafb2586c0b4fe8636e9b0540279d98",
+    "tests/utility-rail.test.mjs": "72e4b0dc4e288ba5872f06e1af77ace9542669c3230551540dad0312cca3aa53",
+    "verification/naae-portrait-v3.json": "a4cb15312b2cd92562cde690ed6a2af3e5acdf6324015ec743811ef7a868a952",
+    "verification/portfolio-404-experience-v1.json": "ba01522fc96ee34cf9c6e17531cef62816b0c7c71f053aed2080873201747755",
+    "verification/portfolio-adaptive-utility-rail-v1.json": "882a8e4db3c61f1209decab0a4b7d254b0a213986c99eec549745c57d582b655"
+  },
+  "assets": [
+    {
+      "path": "public/images/engineering/identity-dark.webp",
+      "bytes": 154272,
+      "sha256": "82ce0e20dc58318acd1188ef406000983161042577851ced2cd17cf71a723ae8",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "origin": "Fresh local production-preview screenshot, 2026-10-23, source HEAD 3da08e4; homepage/rail implementation unchanged by this task. 1440x900, DPR 1, reduced motion, complete landscape textures.",
+      "raw": "output/playwright/case-study-evolution/identity-dark.png",
+      "publicationReview": "Visually inspected; existing public artwork and UI only, no private source photograph.",
+      "historicalComparison": false
+    },
+    {
+      "path": "public/images/engineering/identity-light.webp",
+      "bytes": 153986,
+      "sha256": "98f255ad3664e010afe2d3253c9f88bdaf8a7db57ce4ea8140aa099452f93775",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "origin": "Fresh local production-preview screenshot, 2026-10-23, source HEAD 3da08e4; homepage/rail implementation unchanged by this task. 1440x900, DPR 1, reduced motion, complete landscape textures.",
+      "raw": "output/playwright/case-study-evolution/identity-light.png",
+      "publicationReview": "Visually inspected; existing public artwork and UI only, no private source photograph.",
+      "historicalComparison": false
+    },
+    {
+      "path": "public/images/engineering/utility-ar.webp",
+      "bytes": 107112,
+      "sha256": "66bae9a3b8bd403ec287e8008bd6c43dd93210f5e0fd5478f655ec75465e9288",
+      "dimensions": [
+        1440,
+        900
+      ],
+      "origin": "Fresh local production-preview screenshot, 2026-10-23, source HEAD 3da08e4; homepage/rail implementation unchanged by this task. 1440x900, DPR 1, reduced motion, complete landscape textures.",
+      "raw": "output/playwright/case-study-evolution/utility-ar.png",
+      "publicationReview": "Visually inspected; existing public artwork and UI only, no private source photograph.",
+      "historicalComparison": false
+    }
+  ],
+  "localization": {
+    "canonicalUnits": 1520,
+    "addedUnits": 19,
+    "addedTargetTranslations": 190,
+    "missing": 0,
+    "stale": 0,
+    "validationErrors": 0,
+    "editorialWarnings": 97,
+    "provenance": "development-assistant / session-model-unspecified / machine_translated; SHA-256 source hashes",
+    "reviewRequired": "All new technical prose, especially anatomical/graphics terms, focus behavior, privacy negation and status distinctions across ten target locales.",
+    "providerAttempt": "npm run i18n:translate failed because explicit authoring credentials/model were unavailable; repository-permitted direct machine authoring used."
+  },
+  "routingChanges": false,
+  "scope": "Existing NAAE and Multilingual Engineering views only; no fourth case study, engine, artwork implementation or privacy change.",
+  "liveDeploymentVerified": false,
+  "qa": {
+    "typecheck": "PASS: npm run typecheck",
+    "lint": "PASS: npm run lint",
+    "build": "PASS: npm run build (native compiler cache required escalation)",
+    "tests": {
+      "command": "npm test",
+      "passed": 201,
+      "failed": 0,
+      "skipped": 0
+    },
+    "localization": {
+      "commands": [
+        "npm run i18n:extract",
+        "npm run i18n:validate",
+        "npm run i18n:coverage -- --strict",
+        "npm run i18n:audit-dates"
+      ],
+      "missing": 0,
+      "stale": 0,
+      "errors": 0,
+      "editorialWarnings": 97
+    },
+    "staticAudit": {
+      "command": "node scripts/release-readiness-audit.mjs",
+      "routes": 108,
+      "issues": [],
+      "rawReport": "output/playwright/case-study-evolution/artifact/artifact.json"
+    },
+    "caseBrowser": {
+      "command": "node scripts/case-study-expansion-qa.mjs",
+      "routes": 33,
+      "layouts": 72,
+      "axeScans": 24,
+      "axeViolations": 0,
+      "incomplete": [
+        {
+          "locale": "en",
+          "route": "mmcats-modern",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "route": "mmcats-modern",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "route": "naae",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "route": "naae",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "route": "multilingual-engineering",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "route": "multilingual-engineering",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "route": "mmcats-modern",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "route": "mmcats-modern",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "route": "naae",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "route": "naae",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "route": "multilingual-engineering",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "route": "multilingual-engineering",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "route": "mmcats-modern",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "route": "mmcats-modern",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "route": "naae",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "route": "naae",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "route": "multilingual-engineering",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "route": "multilingual-engineering",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "route": "mmcats-modern",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "route": "mmcats-modern",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "route": "naae",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "route": "naae",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "route": "multilingual-engineering",
+          "theme": "light",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "route": "multilingual-engineering",
+          "theme": "dark",
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "interactionGroups": [
+        "Native stage radios, keyboard range zoom, focused arrow scrolling, configuration disclosure, reset and reduced motion passed.",
+        "Missing image fallback preserves configuration and milestone text.",
+        "RTL/LTR direction samples, Arabic largest text and matching English-original navigation passed."
+      ],
+      "errors": [],
+      "images": "All new evidence images decode at 1440x900 with lazy loading, descriptions and captions on all eleven locales",
+      "rawReport": "output/playwright/case-study-evolution/cases/report.json"
+    },
+    "localeBrowser": {
+      "command": "node scripts/i18n-qa.mjs",
+      "counts": {
+        "layouts": 88,
+        "scenarios": 9,
+        "errors": 0,
+        "translationRequests": 0,
+        "missingSource": 0,
+        "datePeriods": 11,
+        "assistantChecks": 11
+      },
+      "rawReport": "output/playwright/case-study-evolution/locales/results.json"
+    },
+    "visualReview": {
+      "sections": [
+        {
+          "locale": "en",
+          "route": "naae",
+          "section": "visual-identity",
+          "width": 1440,
+          "overflow": false
+        },
+        {
+          "locale": "en",
+          "route": "naae",
+          "section": "visual-identity",
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "locale": "ar",
+          "route": "multilingual-engineering",
+          "section": "adaptive-preferences",
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "locale": "ta",
+          "route": "naae",
+          "section": "visual-identity",
+          "width": 390,
+          "overflow": false
+        },
+        {
+          "locale": "ja",
+          "route": "multilingual-engineering",
+          "section": "adaptive-preferences",
+          "width": 1440,
+          "overflow": false
+        },
+        {
+          "homeCaseMediaRequests": 0
+        }
+      ],
+      "limits": "Automated region captures can include the fixed navigation overlay; public evidence images are full reviewed viewport captures. No screen-reader, physical device or native language certification."
+    },
+    "performance": {
+      "entry": {
+        "path": "assets/index-MjUrTquq.js",
+        "bytes": 214948,
+        "sha256": "e99172849fda8d636a8da2fe55f8349026485de9237447b46e3d0349fe4bd0fd",
+        "gzip": 65855
+      },
+      "entryBaseline": {
+        "entry": "index-BenoWGeB.js",
+        "raw": 214948,
+        "gzip": 65856
+      },
+      "entryBudget": 215000,
+      "budgetRaised": false,
+      "routeChunks": [
+        {
+          "path": "assets/EngineeringCaseStudy-BrS01sLw.css",
+          "bytes": 3372,
+          "sha256": "c8c6a97e927291e3a0ed1ceed17684a2b8456bbc40503edcd10ada73dda394f6",
+          "gzip": 1029
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-DfOnQxuK.js",
+          "bytes": 22370,
+          "sha256": "ede73c37ba7a83229854dc5fc0583985910861fd05eb8addd6afc7fa9f8367a3",
+          "gzip": 8080
+        }
+      ],
+      "allChunks": {
+        "raw": 6007929,
+        "gzip": 1803361
+      },
+      "evidenceMediaBytes": 415370,
+      "homeEvidenceMediaRequests": 0,
+      "limits": "Local raw/gzip sizes, not observed CDN transfer or a latency improvement. Existing large-chunk warning retained."
+    },
+    "whitespace": "Task-owned changes pass git diff --check excluding the untouched owner report; whole-worktree check still identifies its pre-existing trailing whitespace."
+  },
+  "historicalExperiments": {
+    "status": [
+      "EXPERIMENTAL",
+      "SUPERSEDED"
+    ],
+    "sources": [
+      "docs/portfolio/NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+      "docs/portfolio/NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md",
+      "docs/portfolio/NAAE_LIGHTMODE_INK_RECONSTRUCTION_V2.md"
+    ],
+    "currentSelection": "src/App.tsx chooses portrait.webp for light mode; historical glyph passes must not be presented as the current light homepage portrait"
+  },
+  "contentHashes": {
+    "src/EngineeringCaseStudy.tsx": "8f70c52a444feb3ed74e30702adaf8844fc507d4715644a6e196e3bdffbf6881",
+    "src/EngineeringCaseStudy.css": "17b84e15f5fa344f4aacedf07409b76ccacb0122555930b6dec6a6a96d7dd054",
+    "scripts/case-study-expansion-qa.mjs": "e23abb062b2e389787754400381373f90d9c25a7fcd9b07800f444bc20488de7"
+  },
+  "sourceBranch": "main"
+}

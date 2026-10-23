@@ -746,5 +746,31 @@
     "budgetUnchanged": true,
     "unknownRouteHttpStatus": 404,
     "deployed": false
+  },
+  "caseStudyEvolutionV1": {
+    "date": "2026-10-23",
+    "sourceRevision": "3da08e49b937fa348a33e53cd353cb190b921a20",
+    "status": "COMPLETE locally with limits",
+    "evidence": "verification/portfolio-case-study-evolution-v1.json",
+    "canonicalUnits": 1520,
+    "missing": 0,
+    "stale": 0,
+    "editorialWarnings": 97,
+    "testsPassed": 201,
+    "staticRoutes": 108,
+    "caseRoutes": 33,
+    "caseLayouts": 72,
+    "axeScans": 24,
+    "axeViolations": 0,
+    "localeBrowserCounts": {
+      "layouts": 88,
+      "scenarios": 9,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0,
+      "datePeriods": 11,
+      "assistantChecks": 11
+    },
+    "deployment": "Not performed; no new live parity claim."
   }
 }
