@@ -4,12 +4,13 @@ import {resolve} from 'node:path';
 import {mkdir,writeFile} from 'node:fs/promises';
 const require=createRequire(resolve(process.env.QA_MODULES_DIR||'.','package.json'));
 const {chromium}=require('playwright');
+const base=process.env.QA_URL||'http://127.0.0.1:4183';
 const browser=await chromium.launch({channel:'chrome'});
 const output=process.env.QA_OUTPUT||`output/playwright/utility-a11y-${Date.now()}`;await mkdir(output,{recursive:true});
 const report=[];
 try {
  for(const locale of ['en','ar','ja'])for(const width of [390,1440]) {
-  const context=await browser.newContext({locale:'en',viewport:{width,height:1000},reducedMotion:'reduce'});const page=await context.newPage();await page.goto(`http://127.0.0.1:4183/${locale}/`,{waitUntil:'networkidle'});await page.addScriptTag({path:process.env.QA_AXE});
+  const context=await browser.newContext({locale:'en',viewport:{width,height:1000},reducedMotion:'reduce'});const page=await context.newPage();await page.goto(`${base}/${locale}/`,{waitUntil:'networkidle'});await page.addScriptTag({path:process.env.QA_AXE});
   if(width===390)await page.locator('.utility-entry').click();
   for(const control of ['language','theme','size','motion','privacy']) {
    await page.locator(`[data-control="${control}"]`).click();await page.locator('.utility-panel select,.utility-panel input').first().waitFor();

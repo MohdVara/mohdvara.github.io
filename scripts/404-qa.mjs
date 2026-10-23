@@ -7,7 +7,7 @@ const { chromium } = require('playwright');
 const axeRequire = process.env.QA_AXE_MODULES_DIR ? createRequire(resolve(process.env.QA_AXE_MODULES_DIR, 'package.json')) : require;
 const axeSource = await readFile(axeRequire.resolve('axe-core/axe.min.js'), 'utf8');
 const base = process.env.QA_URL || 'http://127.0.0.1:4192';
-const out = 'output/playwright/404-experience-v1';
+const out = process.env.QA_OUTPUT || 'output/playwright/404-experience-v1';
 await mkdir(out, { recursive: true });
 const locales = JSON.parse(await readFile('src/i18n/languages.json', 'utf8'));
 const report = { observedAt: new Date().toISOString(), host: 'Cloudflare Wrangler Pages local emulator', layouts: [], accessibility: [], errors: [], recovery: [], staticRoutes: [] };
@@ -76,13 +76,13 @@ try {
   await page.locator('.unmapped-actions .primary').focus();await page.keyboard.press('Enter');await page.waitForURL('**/en/');report.keyboard.home=page.url();
   // Actual selector: change locale on a missing path without inventing a route.
   await page.goto(`${base}/en/lost/?source=qa#trace`);await page.locator('#portfolio-loader').waitFor({state:'detached'});
-  await page.locator('.language-control summary').click();await page.locator('.language-panel select').first().selectOption('ar');
+  await page.locator('[data-control="language"]').click();await page.locator('.utility-panel select').first().selectOption('ar');
   await page.waitForFunction(()=>document.documentElement.dataset.localeReady==='ar');
   report.localeSwitch={url:page.url(),title:await page.title(),quote:await page.locator('blockquote').innerText(),canonical:await page.locator('link[rel=canonical],link[hreflang]').count()};
   assert.ok(page.url().endsWith('/ar/lost/?source=qa#trace'));assert.equal(report.localeSwitch.canonical,0);
   await page.goto(`${base}/ja/lost/`);await page.locator('#portfolio-loader').waitFor({state:'detached'});
-  await page.locator('.language-control summary').click();await page.locator('.reading-control select').selectOption('vertical');
-  await page.locator('.language-control summary').click();await page.screenshot({path:`${out}/ja-vertical-1440.png`,fullPage:true});
+  await page.locator('[data-control="language"]').click();await page.locator('.reading-control select').selectOption('vertical');
+  await page.keyboard.press('Escape');await page.screenshot({path:`${out}/ja-vertical-1440.png`,fullPage:true});
   report.vertical={writing:await page.locator('blockquote .vertical-text').evaluate(e=>getComputedStyle(e).writingMode),overflow:await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)};
   assert.equal(report.vertical.writing,'vertical-rl');assert.ok(!report.vertical.overflow);
   await page.goto(`${base}/en/lost/`);await page.locator('#portfolio-loader').waitFor({state:'detached'});

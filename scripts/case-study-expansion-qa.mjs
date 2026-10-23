@@ -23,6 +23,8 @@ try{
    await page.goto(`${base}/${locale}/${route}/`);
    await page.locator(`#quick-${route}`).waitFor();
    await page.waitForFunction(locale=>document.documentElement.dataset.localeReady===locale,locale);
+   // Locale readiness can precede the lazy case module's hydrated heading.
+   await page.locator('h1').waitFor({state:'visible'});
    assert.equal(await page.locator('html').getAttribute('dir'),direction);
    assert.equal(await page.locator('h1').count(),1);
    if(locale!=='en'){
