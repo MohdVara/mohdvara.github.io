@@ -10,7 +10,7 @@ const output = resolve(process.env.QA_OUTPUT_DIR || `output/playwright/pace-v1.1
 await mkdir(output, { recursive: true });
 const browser = await engines[engine].launch(engine === 'chromium' ? { channel: 'chrome' } : {});
 const results = { engine, cases: [], evidence: [], ntm: [], noJavaScript: [], recovery: [], errors: [] };
-const projects = ['insurance', 'wensymes', 'campus', 'rental', 'meetings', 'hr'];
+const projects = ['insurance', 'wensymes', 'campus', 'rental', 'hr'];
 async function aligned(page, id, open = false) {
   await page.waitForFunction(({ id, open }) => {
     const target = document.getElementById(id);

@@ -120,10 +120,23 @@ try {
       assert.ok(caption.height<=caption.line+1,'Tamil profile label stays on one line');
     }
     const periods=await page.locator('.project .project-meta, .role-period').allTextContents();
-    const yearPeriod=await page.locator('#case-wensymes').locator('.project-meta').textContent();
-    if(item.locale!=="en")assert.ok(!yearPeriod.includes('onward'),`${item.locale}: translated open-ended period`);
-    if(item.calendar!=="gregory")assert.ok(yearPeriod.includes('[2025]'),`${item.locale}: Gregorian year retained`);
-    report.datePeriods.push({locale:item.locale,periods,yearPeriod});
+    // Source-verified project months; role dates are a separate timeline.
+    const projectMonths={campus:['2021-06'],insurance:['2019-04','2021-04'],wensymes:['2025-03'],hr:['2016-05','2024-12'],rental:['2018-05','2020-05']};
+    const projectDates=[];
+    for(const [id,months]of Object.entries(projectMonths)){
+      const display=await page.locator(`#case-${id} .project-meta`).innerText();
+      if(item.locale!=="en")assert.ok(!/Present|ongoing collaboration|onward/.test(display),`${item.locale}/${id}: localized period grammar`);
+      if(item.calendar!=="gregory")for(const month of months)assert.ok(display.includes(`[${month}]`),`${item.locale}/${id}: Gregorian month retained ${month}`);
+      else if(item.locale!=="en")for(const month of months){
+        const expected=new Intl.DateTimeFormat(item.locale,{calendar:'gregory',timeZone:'UTC',year:'numeric',month:'long'}).format(new Date(month+'-01T12:00:00Z'));
+        assert.ok(display.toLocaleLowerCase(item.locale).includes(expected.toLocaleLowerCase(item.locale)),`${item.locale}/${id}: localized source month ${month}`);
+      }
+      projectDates.push({id,sourceMonths:months,display});
+    }
+    const principal=page.locator('.career-node[href$="#role-1"]');
+    const principalDate=await principal.locator('.mono').innerText();
+    assert.ok(principalDate.includes(item.calendar==='gregory'?'2021':'[2021]'),`${item.locale}: Centre engagement starts in 2021`);
+    report.datePeriods.push({locale:item.locale,periods,projectDates,principalDate});
     await page.locator('.experience-assistant > summary').click();
     const assistant=page.locator('.pace-assistant');
     await assistant.locator('.pace-starters button').first().waitFor();

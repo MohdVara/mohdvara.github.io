@@ -28,12 +28,12 @@ try {
     page.on('pageerror', error => errors.push(error.message));
     for (const id of ['case-meetings', 'case-insurance', 'case-hr', 'case-rental']) {
       await page.goto(`${base}/#${id}`, { waitUntil: 'networkidle' });
-      await aligned(page, id);
+      await aligned(page, id === 'case-meetings' ? 'case-campus' : id);
       await page.reload({ waitUntil: 'networkidle' });
-      await aligned(page, id);
+      await aligned(page, id === 'case-meetings' ? 'case-campus' : id);
     }
     await page.goto(`${base}/work-with-me/`, { waitUntil: 'networkidle' });
-    await page.locator('.engagement-problems a[href="/#case-insurance"]').click();
+    await page.locator('.engagement-problems a[href$="/#case-insurance"]').click();
     await page.waitForURL('**/#case-insurance');
     await aligned(page, 'case-insurance');
     await page.evaluate(() => { location.hash = 'case-rental'; });
