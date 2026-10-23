@@ -6,7 +6,7 @@ import { readFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 
 // Load the real TS modules, keeping one shared browser environment per fixture.
-function modules(globals = {}) {
+function modules(globals = {}, imports = {}) {
   const cache = new Map();
   function load(file) {
     const path = resolve(file.endsWith('.ts') ? file : `${file}.ts`);
@@ -17,9 +17,9 @@ function modules(globals = {}) {
       compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 },
     }).outputText;
     vm.runInNewContext(source, { ...globals, exports,
-      require: name => name.endsWith("?raw")
+      require: name => imports[name] || (name.endsWith('.json') ? JSON.parse(readFileSync(resolve(dirname(path), name),'utf8')) : name.endsWith("?raw")
         ? { default: readFileSync(resolve(dirname(path), name.slice(0, -4)), "utf8") }
-        : load(resolve(dirname(path), name)),
+        : load(resolve(dirname(path), name))),
     }, { filename: path });
     return exports;
   }
@@ -118,7 +118,7 @@ test('every tagged tributary water cell physically connects to the main river', 
   }
 });
 
-test('final artwork removes X marks and gathers winding streams into a calm outlet', () => {
+test('final artwork removes X marks and keeps winding streams through the outlet', () => {
   assert.doesNotMatch(forestConfig.glyphs, /[xX]/);
   for (const scene of [createScene(128, 80), riverScene(128, 80)]) {
     const used = new Set(scene.grids.flatMap(grid => [...grid.glyph].map(index => forestConfig.glyphs[index])));
@@ -135,7 +135,7 @@ test('final artwork removes X marks and gathers winding streams into a calm outl
   };
   const outlet = Array.from({ length: 14 }, (_, row) => centerOf(row));
   const winding = Array.from({ length: 32 }, (_, row) => centerOf(row + 32));
-  assert.ok(Math.max(...outlet) - Math.min(...outlet) < 0.06, 'resolved outlet has a calm coherent course');
+  assert.ok(Math.max(...outlet) - Math.min(...outlet) > 0.06, 'outlet retains a visible meander');
   assert.ok(Math.max(...winding) - Math.min(...winding) > 0.10, 'upstream landscape keeps pronounced meanders');
   const cues = [...water.keys()].filter(i => water[i] === 17);
   assert.ok(cues.length > 0, 'a sparse ASCII current cue marks the clear downstream direction');
@@ -326,7 +326,7 @@ function browserFixture({ width = 1440, height = 900, dpr = 2, unavailable = fal
       assert.equal(tag, 'canvas');
       const context = {
         font: '', inks: new Set(),
-        setTransform() {}, clearRect() { paints++; }, drawImage() {}, fillRect() {},
+        save() {}, restore() {}, scale() {}, setTransform() {}, clearRect() { paints++; }, drawImage() {}, fillRect() {},
         fillText() { glyphs++; this.inks.add(this.fillStyle); },
         measureText() { return { width: parseFloat(this.font) * 0.602 }; },
         createRadialGradient() { return { addColorStop() {} }; },
@@ -356,6 +356,11 @@ function browserFixture({ width = 1440, height = 900, dpr = 2, unavailable = fal
     matchMedia: () => ({ matches: true }),
     requestAnimationFrame: clock.request, cancelAnimationFrame: clock.cancel,
     performance: { now: () => 1 },
+  }, {
+    // Lifecycle fixtures exercise the classic punctuation renderer. Unicode
+    // shaping and asset loading have their own real-browser integration suite.
+    '../artwork/adapter': {},
+    '../../vendor/naae-unicode/unicode/render.js': {},
   })('renderer');
   return { mountForest, host, hero, document, clock, canvases, resize, visibility, bounds, styleProperties,
     completeBuild() {
@@ -620,4 +625,12 @@ test('aerial narrative materials preserve channels, current direction and seeded
     assert.ok(letters>0&&marks/water>.75,'words are occasional details inside a continuous wave channel');
   }
   for(const theme of ['light','dark'])assert.notEqual(narrativeRiverInks[theme][1][2],narrativeRiverInks[theme][2][2],'silt and water remain distinct');
+});
+
+test('the reflected river stem retains broad meanders rather than a straight outlet', () => {
+  for (const seed of [forestConfig.seed, ...Object.values(pageSceneSeeds)]) {
+    const {grids}=riverScene(176,100,seed),water=grids[2];
+    const centers=Array.from({length:25},(_,row)=>{const cols=[];for(let col=0;col<water.cols;col++)if(water.glyph[row*water.cols+col])cols.push(col);return (Math.min(...cols)+Math.max(...cols))/2/water.cols;});
+    assert.ok(Math.max(...centers)-Math.min(...centers)>.075,'upper reach has a visible lateral bend');
+  }
 });

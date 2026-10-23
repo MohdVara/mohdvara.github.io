@@ -1,1 +1,4 @@
 .narrative-accent { font: .64rem/1.9 "Courier New", monospace; letter-spacing: .13em; color: var(--muted); overflow: hidden; max-width: 32rem; white-space: nowrap; margin-block: 18px 26px; user-select: none; }
+.narrative-accent:lang(ar), .narrative-accent:lang(hi), .narrative-accent:lang(ta) { font-family:var(--locale-font); letter-spacing:normal; line-height:2; }
+.narrative-accent:lang(ar) { direction:rtl; }
+.narrative-accent:lang(ja), .narrative-accent:lang(zh-Hans) { font-family:var(--locale-font); letter-spacing:.06em; }

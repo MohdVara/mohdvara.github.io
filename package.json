@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/pace-rag-assets.mjs && vite",
-    "build": "node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && node scripts/i18n/extract.mjs && node scripts/i18n/coverage.mjs --write && tsc -b && vite build && node scripts/prerender.mjs",
+    "build": "node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && node scripts/i18n/extract.mjs && node scripts/i18n/coverage.mjs --write && node scripts/artwork/sync.mjs --strict && tsc -b && vite build && node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -17,12 +17,14 @@
     "refresh:github": "node scripts/public-github.mjs",
     "export:technology": "node scripts/technology-evidence.mjs",
     "check:rag-assets": "node scripts/pace-rag-assets.mjs",
-    "i18n:translate": "node scripts/i18n/extract.mjs && node scripts/i18n/translate.mjs",
+    "i18n:translate": "node scripts/i18n/extract.mjs && node scripts/i18n/translate.mjs && node scripts/artwork/sync.mjs --strict",
     "i18n:validate": "node scripts/i18n/validate.mjs",
     "i18n:coverage": "node scripts/i18n/coverage.mjs",
     "i18n:review": "node scripts/i18n/review.mjs",
     "i18n:extract": "node scripts/i18n/extract.mjs",
-    "i18n:audit-dates": "node scripts/i18n/date-audit.mjs"
+    "i18n:audit-dates": "node scripts/i18n/date-audit.mjs",
+    "artwork:sync": "node scripts/artwork/sync.mjs",
+    "artwork:check": "node scripts/artwork/sync.mjs --strict"
   },
   "dependencies": {
     "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.6.2-english.1.tgz",

@@ -15,7 +15,14 @@
     "pronunciation": "Mohd. · pa-ra-mas-va-ra",
     "nativeNameReading": null,
     "calendar": "gregory",
-    "calendarLabel": "Gregorian"
+    "calendarLabel": "Gregorian",
+    "artwork": {
+      "fontId": "latin",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "ms",
@@ -33,7 +40,14 @@
     "pronunciation": "Mohd. · pa-ra-mas-va-ra",
     "nativeNameReading": null,
     "calendar": "islamic-umalqura",
-    "calendarLabel": "Hijri (Umm al-Qura)"
+    "calendarLabel": "Hijri (Umm al-Qura)",
+    "artwork": {
+      "fontId": "latin",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "ar",
@@ -54,7 +68,14 @@
       "family": "پاراماسڤارا"
     },
     "calendar": "islamic-umalqura",
-    "calendarLabel": "هجري (أم القرى)"
+    "calendarLabel": "هجري (أم القرى)",
+    "artwork": {
+      "fontId": "arabic",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.8,
+      "tracking": 0
+    }
   },
   {
     "locale": "ta",
@@ -75,7 +96,14 @@
       "family": "பரமஸ்வரா"
     },
     "calendar": "indian",
-    "calendarLabel": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு)"
+    "calendarLabel": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு)",
+    "artwork": {
+      "fontId": "tamil",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.8,
+      "tracking": 0
+    }
   },
   {
     "locale": "ja",
@@ -97,7 +125,14 @@
       "family": "パラマスヴァラ"
     },
     "calendar": "japanese",
-    "calendarLabel": "和暦"
+    "calendarLabel": "和暦",
+    "artwork": {
+      "fontId": "japanese",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "zh-Hans",
@@ -119,7 +154,14 @@
       "family": "帕拉马斯瓦拉"
     },
     "calendar": "chinese",
-    "calendarLabel": "农历"
+    "calendarLabel": "农历",
+    "artwork": {
+      "fontId": "chinese",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "es",
@@ -137,7 +179,14 @@
     "pronunciation": "Mohd. · pa-ra-mas-va-ra",
     "nativeNameReading": null,
     "calendar": "gregory",
-    "calendarLabel": "Gregorian"
+    "calendarLabel": "Gregorian",
+    "artwork": {
+      "fontId": "latin",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "fr",
@@ -155,7 +204,14 @@
     "pronunciation": "Mohd. · pa-ra-mass-va-ra",
     "nativeNameReading": null,
     "calendar": "gregory",
-    "calendarLabel": "Gregorian"
+    "calendarLabel": "Gregorian",
+    "artwork": {
+      "fontId": "latin",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "de",
@@ -173,7 +229,14 @@
     "pronunciation": "Mohd. · pa-ra-mass-wa-ra",
     "nativeNameReading": null,
     "calendar": "gregory",
-    "calendarLabel": "Gregorian"
+    "calendarLabel": "Gregorian",
+    "artwork": {
+      "fontId": "latin",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "pt-BR",
@@ -191,7 +254,14 @@
     "pronunciation": "Mohd. · pa-ra-mas-va-ra",
     "nativeNameReading": null,
     "calendar": "gregory",
-    "calendarLabel": "Gregorian"
+    "calendarLabel": "Gregorian",
+    "artwork": {
+      "fontId": "latin",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.45,
+      "tracking": 0
+    }
   },
   {
     "locale": "hi",
@@ -212,6 +282,13 @@
       "family": "परमस्वरा"
     },
     "calendar": "indian",
-    "calendarLabel": "शक संवत"
+    "calendarLabel": "शक संवत",
+    "artwork": {
+      "fontId": "hindi",
+      "profileRevision": "pme-1.5-1",
+      "minFontSize": 11,
+      "lineHeight": 1.8,
+      "tracking": 0
+    }
   }
 ]

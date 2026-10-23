@@ -1,0 +1,403 @@
+{
+  "schema": "PME/semantic-source/1",
+  "revision": "pme-1.5-vocabulary-1",
+  "density": 0.9,
+  "entries": [
+    {
+      "id": "wind",
+      "key": "artwork.wind",
+      "source": "wind",
+      "category": "sky",
+      "regions": [
+        "sky"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "light",
+      "key": "artwork.light",
+      "source": "light",
+      "category": "sky",
+      "regions": [
+        "sky"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "rain",
+      "key": "artwork.rain",
+      "source": "rain",
+      "category": "sky",
+      "regions": [
+        "sky"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "ridge",
+      "key": "artwork.ridge",
+      "source": "ridge",
+      "category": "mountains",
+      "regions": [
+        "mountains"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "stone",
+      "key": "artwork.stone",
+      "source": "stone",
+      "category": "mountains",
+      "regions": [
+        "mountains"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "summit",
+      "key": "artwork.summit",
+      "source": "summit",
+      "category": "mountains",
+      "regions": [
+        "mountains"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "leaf",
+      "key": "artwork.leaf",
+      "source": "leaf",
+      "category": "forest",
+      "regions": [
+        "forest"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 2
+    },
+    {
+      "id": "branch",
+      "key": "artwork.branch",
+      "source": "branch",
+      "category": "forest",
+      "regions": [
+        "forest"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 2
+    },
+    {
+      "id": "growth",
+      "key": "artwork.growth",
+      "source": "growth",
+      "category": "forest",
+      "regions": [
+        "forest"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 2
+    },
+    {
+      "id": "river",
+      "key": "artwork.river",
+      "source": "river",
+      "category": "river",
+      "regions": [
+        "river"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "current",
+      "key": "artwork.current",
+      "source": "current",
+      "category": "river",
+      "regions": [
+        "river"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "flow",
+      "key": "artwork.flow",
+      "source": "flow",
+      "category": "river",
+      "regions": [
+        "river"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "root",
+      "key": "artwork.root",
+      "source": "root",
+      "category": "earth",
+      "regions": [
+        "earth"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "soil",
+      "key": "artwork.soil",
+      "source": "soil",
+      "category": "earth",
+      "regions": [
+        "earth"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "seed",
+      "key": "artwork.seed",
+      "source": "seed",
+      "category": "earth",
+      "regions": [
+        "earth"
+      ],
+      "role": "texture",
+      "weight": 3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "build",
+      "key": "artwork.build",
+      "source": "build",
+      "category": "engineering",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "design",
+      "key": "artwork.design",
+      "source": "design",
+      "category": "engineering",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "systems",
+      "key": "artwork.systems",
+      "source": "systems",
+      "category": "engineering",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "verify",
+      "key": "artwork.verify",
+      "source": "verify",
+      "category": "reliability",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "evidence",
+      "key": "artwork.evidence",
+      "source": "evidence",
+      "category": "reliability",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "trust",
+      "key": "artwork.trust",
+      "source": "trust",
+      "category": "reliability",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "learn",
+      "key": "artwork.learn",
+      "source": "learn",
+      "category": "progress",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "adapt",
+      "key": "artwork.adapt",
+      "source": "adapt",
+      "category": "progress",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "preserve",
+      "key": "artwork.preserve",
+      "source": "preserve",
+      "category": "progress",
+      "regions": [
+        "forest",
+        "earth",
+        "river"
+      ],
+      "role": "texture",
+      "weight": 0.35,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 1
+    },
+    {
+      "id": "build-evidence",
+      "key": "artwork.build-evidence",
+      "source": "Build with evidence.",
+      "category": "reliability",
+      "regions": [
+        "forest"
+      ],
+      "role": "highlight",
+      "weight": 0.3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 3
+    },
+    {
+      "id": "learn-adapt",
+      "key": "artwork.learn-adapt",
+      "source": "Learn and adapt.",
+      "category": "progress",
+      "regions": [
+        "river"
+      ],
+      "role": "highlight",
+      "weight": 0.3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 3
+    },
+    {
+      "id": "preserve-working",
+      "key": "artwork.preserve-working",
+      "source": "Preserve what works.",
+      "category": "reliability",
+      "regions": [
+        "earth"
+      ],
+      "role": "highlight",
+      "weight": 0.3,
+      "visible": true,
+      "tone": "restrained",
+      "priority": 3
+    }
+  ]
+}

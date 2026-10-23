@@ -1,0 +1,445 @@
+{
+  "schema_version": "1.0",
+  "task": "pme-v1.5-semantic-art",
+  "timestamp": "2026-10-23T01:13:32.965057+08:00",
+  "timezone": "Asia/Kuching",
+  "git_head_at_verification": "1b66ae1536259ed855d5165f2203937f606f2f97",
+  "uncommitted": true,
+  "status": "IMPLEMENTED — LOCAL VALIDATION COMPLETE; QUALIFIED LINGUISTIC REVIEW PENDING",
+  "architecture": {
+    "geometry": "Existing deterministic four-layer forest/river fields, independent of locale; no RTL mirroring",
+    "texture": "Complete native-shaped words and short phrases through NAAE/PME/1",
+    "integration": "Vendored NAAE 0.5.0 Unicode adapter, native Canvas/SVG measurement, worker placement, cached canvases",
+    "upstream": "vendor/naae-unicode/UPSTREAM.json",
+    "runtime_dependency_on_sibling": false,
+    "main_text": "Runtime continuous passages are not enabled; precomputed NAAE runs required"
+  },
+  "localization": {
+    "locales": [
+      "en",
+      "ms",
+      "ar",
+      "ta",
+      "ja",
+      "zh-Hans",
+      "es",
+      "fr",
+      "de",
+      "pt-BR",
+      "hi"
+    ],
+    "semantic_entries": 27,
+    "new_target_translations": 270,
+    "units_before": 1461,
+    "units_after": 1488,
+    "missing": 0,
+    "stale": 0,
+    "editorial_warnings": 97,
+    "new_semantic_entries_human_reviewed": 0,
+    "provenance": "development-assistant / session-assistant; machine_translated; canonical SHA-256",
+    "sync": "Incremental extraction and strict content-addressed pack generation; preserves reviewed text, detects stale/missing units, retains compatible prior packs with incomplete status",
+    "source_revision": "e3b1c46679e07cf2793f8ff511365c943b571b806c3356d04adf9a3ef84f9219",
+    "complete_packs": 11
+  },
+  "typography": {
+    "registry": "src/i18n/languages.json",
+    "arabic": "Whole RTL words, zero tracking; geometry/glyphs unmirrored",
+    "tamil_hindi": "Whole joining/combining runs, zero tracking",
+    "cjk": "Horizontal default per v1.5 specification; optional native vertical-rl and saved preferences",
+    "fonts": "Six licensed local subsets, exact Unicode coverage and revision hashes"
+  },
+  "width_and_river": {
+    "width": "Shared full-width bounds and masks for opening and ending art on eight routes; existing text-only endings preserved",
+    "combinations": 72,
+    "hosts": 117,
+    "errors": [],
+    "river": "Broader main-stem meanders and lateral S bends spread across exposed reaches; tangential joins and connected tributaries retained",
+    "final_visual": "output/playwright/pme-v1.5/twisty-river-final-ar.png",
+    "sequencing": "Broad artwork and width matrices preceded final tributary path refinement. Final river tests, production build, Arabic visual check and existing localization browser regression followed it."
+  },
+  "cache_and_rendering": {
+    "placement_entries": 6,
+    "keys": [
+      "scene identity",
+      "geometry revision/dimensions",
+      "locale",
+      "text revision",
+      "profile revision",
+      "font revision",
+      "writing mode",
+      "theme",
+      "renderer revision"
+    ],
+    "lazy": "Only selected locale pack and required script fonts; offscreen river deferred",
+    "transition_ms": 180,
+    "reduced_motion": "Static rendering; no crossfade/animation",
+    "failure": "Neutral geometry on missing pack/font/worker; no silent English fallback",
+    "late_responses": "Superseded/disposed renderer generations discarded",
+    "continuous_animation": "Existing 25 FPS four-layer compositor; no per-frame text layout"
+  },
+  "tests": {
+    "typecheck": "PASS — production tsc -b",
+    "lint": "PASS",
+    "production_build_prerender": "PASS",
+    "full_suite_before_final_river": {
+      "passed": 175,
+      "failed": 0
+    },
+    "final_river_suite": {
+      "passed": 25,
+      "failed": 0
+    },
+    "final_production_and_artwork_contract_suite": {
+      "passed": 14,
+      "failed": 0
+    },
+    "artwork_browser": {
+      "layouts": 88,
+      "vertical": 2,
+      "switches": 7,
+      "fallbacks": 3,
+      "errors": 0
+    },
+    "fixed_scene": {
+      "locales": 11,
+      "minimum_coarse_silhouette_iou": 0.9959138187221397,
+      "split_runs": 0,
+      "clipped_runs": 0
+    },
+    "existing_locale_browser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "route_audit": {
+      "routes": 108,
+      "issues": []
+    },
+    "localization_validation": "PASS — 0 errors, 97 editorial warnings",
+    "date_audit": "PASS",
+    "whitespace_task_scope": "PASS"
+  },
+  "performance": {
+    "baseline_assets": [
+      {
+        "path": "dist/assets/i18n-core-B4jBoDNA.js",
+        "bytes": 273745,
+        "sha256": "5f97ac0d99992e2e54577b1ab043130f7f3b17f09ddf6c7b343139e6733af15f"
+      },
+      {
+        "path": "dist/assets/index-DbYBmWeD.js",
+        "bytes": 209903,
+        "sha256": "5db7eadda189920383bea74230d7fb97b2ca03e5ebfd24f467ba6f8c154f174a"
+      },
+      {
+        "path": "dist/assets/renderer-mYI3zDXS.js",
+        "bytes": 7374,
+        "sha256": "787eecd3ca8d3537a4002ca14f873f0e104716da389c15cd85b380ceb58f4ad7"
+      },
+      {
+        "path": "dist/assets/renderer-Dkl0GypQ.js",
+        "bytes": 27021,
+        "sha256": "76f2335f8977046dc9fadc7dcc6b0a0db10c42bf5912f44044266ba73eae7314"
+      }
+    ],
+    "final_assets": [
+      {
+        "path": "dist/assets/index-BIvrq8RI.js",
+        "bytes": 214415,
+        "gzip": 65558,
+        "sha256": "43e007daa186e4b4fe2ef15d4194364d8967f6364f5b92bdf6634b853deaa4d4"
+      },
+      {
+        "path": "dist/assets/i18n-core-BcydBcls.js",
+        "bytes": 275528,
+        "gzip": 67943,
+        "sha256": "e765be6d5cbcf9302a38bb76e2c0c63763fa0333f7701aacc06925c514cc87c8"
+      },
+      {
+        "path": "dist/assets/renderer-Ref42hBs.js",
+        "bytes": 7374,
+        "gzip": 3090,
+        "sha256": "9c1d9beec6e8f16d64b6c1a4288f78e7bcad794d8bc895621c9b2b3198d39834"
+      },
+      {
+        "path": "dist/assets/renderer-CH2wbBTT.js",
+        "bytes": 45607,
+        "gzip": 17817,
+        "sha256": "72827ec8a90537a534ca5436c41ec8585591e76fa091a6732eb0f855f13a7548"
+      },
+      {
+        "path": "dist/assets/layout.worker-D9ceUgfv.js",
+        "bytes": 12782,
+        "gzip": 4942,
+        "sha256": "484c5fc1e072d71684107d581e57a14b174cd248401c18493cfae20fa92a9596"
+      }
+    ],
+    "entry_budget": 215000,
+    "entry_budget_unchanged": true,
+    "regrouping_is_not_total_load_reduction": true,
+    "normal_motion_sample": {
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "first": {
+        "narrative": "naae-v0.3",
+        "textureStatus": "complete",
+        "running": "true",
+        "quality": "desktop",
+        "cells": "81600",
+        "backingPixels": "5824800",
+        "signature": "3853075699",
+        "geometryBuilds": "1",
+        "textureMs": "302.20",
+        "locale": "en",
+        "writingMode": "horizontal",
+        "textRuns": "2347",
+        "clippedRuns": "0",
+        "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+        "placementCacheHit": "false",
+        "frames": "1",
+        "paintMs": "4.800",
+        "maxPaintMs": "4.800",
+        "ready": "true",
+        "initializationMs": "36.80",
+        "initializationElapsedMs": "369.90",
+        "maxInitializationSliceMs": "7.40"
+      },
+      "after": {
+        "narrative": "naae-v0.3",
+        "textureStatus": "complete",
+        "running": "true",
+        "quality": "desktop",
+        "cells": "81600",
+        "backingPixels": "5824800",
+        "signature": "3853075699",
+        "geometryBuilds": "1",
+        "textureMs": "302.20",
+        "locale": "en",
+        "writingMode": "horizontal",
+        "textRuns": "2347",
+        "clippedRuns": "0",
+        "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+        "placementCacheHit": "false",
+        "frames": "51",
+        "paintMs": "0.231",
+        "maxPaintMs": "4.800",
+        "ready": "true",
+        "initializationMs": "36.80",
+        "initializationElapsedMs": "369.90",
+        "maxInitializationSliceMs": "7.40"
+      },
+      "animatedFramesInTwoSeconds": 50,
+      "pauseResume": "PASS",
+      "longTasks": [
+        {
+          "start": 4077.39999999851,
+          "duration": 107
+        },
+        {
+          "start": 4189.29999999702,
+          "duration": 183
+        },
+        {
+          "start": 4372.5,
+          "duration": 108
+        }
+      ],
+      "shifts": [],
+      "heap": 13813517,
+      "resources": [
+        {
+          "path": "/assets/index-BIvrq8RI.js",
+          "transfer": 65858,
+          "encoded": 65558
+        },
+        {
+          "path": "/assets/rolldown-runtime-hePW80VL.js",
+          "transfer": 1016,
+          "encoded": 716
+        },
+        {
+          "path": "/assets/i18n-vendor-CfOnPcyz.js",
+          "transfer": 2777,
+          "encoded": 2477
+        },
+        {
+          "path": "/assets/i18n-core-BcydBcls.js",
+          "transfer": 68243,
+          "encoded": 67943
+        },
+        {
+          "path": "/assets/portfolio-content-Bg0wP62G.js",
+          "transfer": 5200,
+          "encoded": 4900
+        },
+        {
+          "path": "/assets/index-BMfB8VZq.css",
+          "transfer": 15629,
+          "encoded": 15329
+        },
+        {
+          "path": "/assets/renderer-CH2wbBTT.js",
+          "transfer": 18117,
+          "encoded": 17817
+        },
+        {
+          "path": "/assets/config-DjNMDW_l.js",
+          "transfer": 863,
+          "encoded": 563
+        },
+        {
+          "path": "/artwork/pme-v1.5/manifest.json",
+          "transfer": 1176,
+          "encoded": 876
+        },
+        {
+          "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+          "transfer": 2422,
+          "encoded": 2122
+        },
+        {
+          "path": "/fonts/unicode/manifest.json",
+          "transfer": 2060,
+          "encoded": 1760
+        },
+        {
+          "path": "/fonts/unicode/latin.woff2",
+          "transfer": 12884,
+          "encoded": 12584
+        },
+        {
+          "path": "/fonts/unicode/latin-OFL.txt",
+          "transfer": 2267,
+          "encoded": 1967
+        },
+        {
+          "path": "/assets/layout.worker-D9ceUgfv.js",
+          "transfer": 5242,
+          "encoded": 4942
+        }
+      ]
+    },
+    "baseline_normal_motion": {
+      "initialization_elapsed_ms": 72.9,
+      "instrumented_work_ms": 40,
+      "maximum_initialization_slice_ms": 9.7,
+      "mean_paint_ms": 1.691,
+      "heap_bytes": 6633206,
+      "backing_pixels": 5824800
+    },
+    "limits": "Individual local Chrome observations, different warm-up durations and host load; page-wide startup long tasks included; no controlled benchmark or mobile guarantee. Worker and GPU memory excluded from main-thread heap."
+  },
+  "source_fingerprint": "1362d0d8ca0bf9429bb97a92225dd0c18be96d626ffe1092ff84d601490a044e",
+  "source_fingerprint_scope": "Sorted git tracked + nonignored untracked path/SHA256 pairs; excludes docs/, verification/, output/, .playwright-cli/ to avoid report self-reference. Includes build scripts, lockfile, vendor, public assets and source.",
+  "artifact_fingerprint": "d99e666b52b9b57a76ffe37e42e9c119f2f58ff8111152d53ea5198d4fd2b3f9",
+  "limits": [
+    "Qualified linguistic review pending; new translations remain machine-authored",
+    "No physical-device or real screen-reader session",
+    "No production deployment or fresh Lighthouse claim",
+    "Runtime continuous passages require precomputed NAAE runs",
+    "Cold initialization, payload and memory increase; larger initialization slices observed in viewport stress checks",
+    "Coarse silhouette comparisons do not establish pixel equality or linguistic quality"
+  ],
+  "safety": {
+    "task_committed": false,
+    "task_pushed": false,
+    "deployed": false,
+    "hosting_changed": false,
+    "sibling_repositories_changed": false,
+    "career_facts_changed": false,
+    "booking_or_email_submitted": false,
+    "analytics_changed": false,
+    "owner_changes_preserved": true
+  },
+  "evidence": [
+    {
+      "path": "output/playwright/pme-v1.5/artifact-final/artifact.json",
+      "sha256": "d72e0272bc0e7e070409c6fb871db62997c16d3da8a6420ef7ad78b103d389d3"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/baseline-assets.json",
+      "sha256": "02819d6e620e7b9c752bef3802f2a2906ccddb314136f20427c9ca5d006c69e7"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/baseline-browser.log",
+      "sha256": "2de2c373b0311df07177f065d0f0c6dd317360a87b02a476d893a46b4b0e0411"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/final-assets.json",
+      "sha256": "a227694955e5cfa2067eaf8ea47f75a43428cc24edc68d5d3cf9d1376c814a9e"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/final-browser/results.json",
+      "sha256": "bde172701dedf2c99e4bb3ed4aa6b00aa3999d33fea4fc6b7f03834204c48da8"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/fixtures/results.json",
+      "sha256": "2d09de7664f47d62d39fb80596689c292233668f1a90eab4e1a78d18f827168b"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/i18n-final/results.json",
+      "sha256": "15531840b77c8a4de926f6f1e0eb79bc8e6e7ea5d6bb4f8036837111d02ed5a8"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/artifact-and-artwork-tests.log",
+      "sha256": "685e83772da07c9e72772baf1b4fa28892782f3409b923060fb9d28f0508e5b0"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/artwork-browser.log",
+      "sha256": "ad106725d2cd94de253bba93492534c40d3af69124e970284174e92d99cf1118"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/build.log",
+      "sha256": "809479580190cfb06816a99e0e4ff0c0e278728388a1a2a2046054950c98c0f1"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/date-audit.log",
+      "sha256": "1b16ac5ddf7bac5ab829c676bd94db7c4a6f409bc2481708b7149859a0d8a107"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/final-river-tests.log",
+      "sha256": "04aaba6e9600f97ba5ed203d229da20925491ece47f171cea36148891f1a0576"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/final-river-visual.log",
+      "sha256": "039d3ea69aba57baee9aeb7be9f89025a6983121c66ac67af34a6f35b8f59b80"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/full-suite-before-river.log",
+      "sha256": "98b50b4b600ce7f79e7e8c82074768dc9d4b8cfbec4b2b124639ab5a05ccfcec"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/i18n-browser.log",
+      "sha256": "5fc44a26fd6694872ea7997696eb6256fc247cd192490a33b615747a6855313d"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/lint.log",
+      "sha256": "57a6f3fa719ae46956d55d0df50044fc56567b33a3da32d300fec46f09e33034"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/localization-validation.log",
+      "sha256": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/logs/width-browser.log",
+      "sha256": "f71be391a17ce379f9146b53c4415b7a54edd7f25db058cd61ba0286f9895e31"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/performance-final.json",
+      "sha256": "c55a33d8912ae10e64812d22c4e79cb609f74aba6d5d04bcb06a4485142eaf44"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/twisty-river-final-ar.png",
+      "sha256": "daa5e1a30e1200f14f6a59aa35d6f3349e6195acbbf414a191d2e3f8b6719626"
+    },
+    {
+      "path": "output/playwright/pme-v1.5/widths/results.json",
+      "sha256": "6656221b2056ce48f1cb406bebd0bd2d4206c9b7a85ef8fe026a9d48f60d9b15"
+    }
+  ]
+}

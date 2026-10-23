@@ -23,22 +23,15 @@
   user-select: none;
   contain: strict;
   opacity: .95;
-  mask-image: linear-gradient(to right, rgb(0 0 0 / var(--forest-left)) 0%, rgb(0 0 0 / .16) 36%, rgb(0 0 0 / .6) 58%, rgb(0 0 0 / var(--forest-right)) 100%), linear-gradient(to bottom, transparent 0%, #000 13%, #000 var(--forest-bottom-start, 81%), transparent 100%);
-  mask-composite: intersect;
 }
 .ascii-forest canvas, .ascii-river canvas { display: block; width: 100%; height: 100%; }
 .hero-environment:has(.ascii-forest[data-ready="true"]) .hero-botanical { opacity: .055; }
 .hero-environment .portrait { max-width: 330px; }
-.hero-environment .portrait-frame { filter: saturate(.8); }
 .hero-environment .portrait figcaption span {
   background: color-mix(in srgb, var(--background) 96%, transparent);
   box-shadow: 0 0 9px 6px color-mix(in srgb, var(--background) 96%, transparent);
 }
 .hero-environment .secondary { background: color-mix(in srgb, var(--background) 95%, transparent); }
-:root[data-theme="light"] .ascii-forest {
-  mask-image: linear-gradient(to right, transparent 0%, transparent 39%, rgb(0 0 0 / .18) 51%, rgb(0 0 0 / .85) 68%, #000 100%), linear-gradient(to bottom, transparent, #000 12%, #000 var(--forest-bottom-start, 81%), transparent);
-  mask-composite: intersect;
-}
 .scenery-control small { display: block; color: var(--muted); font-size: .75rem; line-height: 1.5; margin: -6px 0 14px; }
 @media (min-width: 1100px) {
   .hero-environment .portrait { margin-inline-end: 24px; }
@@ -48,28 +41,18 @@
   .hero-environment .hero-copy::before {
     background: color-mix(in srgb, var(--background) 96%, transparent);
   }
-  .ascii-forest, :root[data-theme="light"] .ascii-forest {
-    mask-image: linear-gradient(to bottom, rgb(0 0 0 / .17) 0%, rgb(0 0 0 / .12) 43%, #000 65%, transparent 100%);
-    mask-composite: add;
-  }
   .hero-environment .portrait { max-width: 270px; }
-}
-:root[data-text-size="largest"] .ascii-forest, :root[data-theme="light"][data-text-size="largest"] .ascii-forest {
-  mask-image: linear-gradient(to bottom, rgb(0 0 0 / .1), rgb(0 0 0 / .12) 55%, rgb(0 0 0 / .7) 73%, transparent);
-  mask-composite: add;
 }
 .contact-environment { overflow: clip; }
 .contact .ascii-river {
   inset: 0;
   z-index: -1;
-  mask-image: linear-gradient(to right, transparent 22%, rgb(0 0 0 / .2) 40%, #000 64%, #000 94%, transparent), linear-gradient(to bottom, transparent, #000 16%, #000 78%, transparent);
-  mask-composite: intersect;
 }
 .contact:has(.ascii-river[data-ready="true"]) .contact-convergence { visibility: hidden; }
 .contact > [data-reveal] { position: relative; isolation: isolate; }
 .contact > [data-reveal]::before {
   content: ""; position: absolute; z-index: -1; inset: -12px 40% -12px -24px; pointer-events: none;
-  background: linear-gradient(to right, var(--background) 65%, transparent);
+  background: linear-gradient(to right, color-mix(in srgb, var(--background) 92%, transparent) 65%, transparent);
 }
 .contact-email, .contact-links .text-link, .copy-email, .contact-booking > p {
   background: color-mix(in srgb, var(--background) 96%, transparent);
@@ -77,8 +60,6 @@
 @media (max-width: 760px) {
   .contact .ascii-river {
     inset: 0;
-    mask-image: linear-gradient(to bottom, transparent, rgb(0 0 0 / .12) 10%, rgb(0 0 0 / .15) 60%, #000 77%, transparent 100%);
-    mask-composite: add;
   }
   .contact > [data-reveal]::before { inset: -12px -8px 18%; background: color-mix(in srgb, var(--background) 94%, transparent); }
 }
@@ -98,9 +79,11 @@
   content: "";
   position: absolute;
   z-index: -1;
-  inset: 0;
+  inset-block: 0;
+  inset-inline-start: max(24px, calc((100% - 1180px) / 2));
+  width: min(760px, 72%);
   pointer-events: none;
-  background: linear-gradient(to right, var(--background) 6%, color-mix(in srgb, var(--background) 97%, transparent) 43%, color-mix(in srgb, var(--background) 90%, transparent) 59%, transparent 85%);
+  background: linear-gradient(var(--art-copy-direction, 90deg), color-mix(in srgb, var(--background) 94%, transparent), color-mix(in srgb, var(--background) 90%, transparent) 75%, transparent);
 }
 .page-landscape-forest .page-landscape-content { min-height: 480px; }
 .page-landscape-river .page-landscape-content { min-height: 380px; }
@@ -113,10 +96,6 @@
   text-shadow: 0 0 6px var(--background), 0 0 12px var(--background);
 }
 .page-landscape .secondary { background: var(--background); }
-.page-landscape .ascii-river {
-  mask-image: linear-gradient(to right, transparent 22%, rgb(0 0 0 / .18) 40%, #000 64%, #000 94%, transparent), linear-gradient(to bottom, transparent, #000 16%, #000 78%, transparent);
-  mask-composite: intersect;
-}
 .page-landscape:has(.ascii-river[data-ready="true"]) .contact-convergence { visibility: hidden; }
 .page-landscape .contact { overflow: visible; }
 @media (max-width: 760px) {
@@ -124,16 +103,10 @@
   .page-landscape .ascii-forest, :root[data-theme="light"] .page-landscape .ascii-forest {
     inset: auto 0 0;
     height: 440px;
-    mask-image: linear-gradient(to bottom, transparent, #000 42%, #000 82%, transparent);
-    mask-composite: add;
   }
   .page-landscape-river .page-landscape-content { min-height: 0; padding-bottom: 190px; }
   .page-landscape-content::before {
     background: linear-gradient(to bottom, color-mix(in srgb, var(--background) 97%, transparent) 0%, color-mix(in srgb, var(--background) 97%, transparent) calc(100% - 240px), transparent 100%);
-  }
-  .page-landscape .ascii-river {
-    mask-image: linear-gradient(to bottom, transparent, rgb(0 0 0 / .12) 35%, #000 77%, transparent);
-    mask-composite: add;
   }
 }
 
@@ -153,4 +126,28 @@
   :root:not([data-text-size="largest"]) .hero-environment .actions { margin-top: 20px; }
   :root:not([data-text-size="largest"]) .hero-environment .hero-social { margin-top: 12px; }
   :root:not([data-text-size="largest"]) .hero-environment .hero-projects + .hero-social { margin-top: 0; }
+}
+
+
+/* One full-bleed field for opening and closing scenes on every route.
+   Direction changes the reading-side attenuation, never the scene geometry. */
+:root {
+  --art-side-mask: linear-gradient(to right, rgb(0 0 0 / .14), rgb(0 0 0 / .18) 36%, rgb(0 0 0 / .6) 58%, rgb(0 0 0 / .86));
+}
+:root[dir="rtl"] {
+  --art-copy-direction: 270deg;
+  --art-side-mask: linear-gradient(to left, rgb(0 0 0 / .14), rgb(0 0 0 / .18) 36%, rgb(0 0 0 / .6) 58%, rgb(0 0 0 / .86));
+}
+:is(.hero-environment, .contact-environment, .page-landscape) > :is(.ascii-forest, .ascii-river) {
+  inset-inline: 0;
+  width: 100%;
+  mask-image: var(--art-side-mask), linear-gradient(to bottom, transparent, #000 13%, #000 81%, transparent);
+  mask-composite: intersect;
+}
+@media (max-width: 760px) {
+  :is(.hero-environment, .contact-environment, .page-landscape) > :is(.ascii-forest, .ascii-river) {
+    mask-image: linear-gradient(to bottom, rgb(0 0 0 / .14), rgb(0 0 0 / .18) 43%, #000 77%, transparent);
+    mask-composite: add;
+  }
+  .page-landscape-content::before { inset-inline:0; width:100%; }
 }

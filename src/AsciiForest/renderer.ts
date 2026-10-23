@@ -3,10 +3,13 @@ import { daylightCodeCanopy, palettes } from "./palette";
 import { generateScene, type ForestScene } from "./scene";
 import { createAnimation } from "./animation";
 import { generateRiverScene } from "./river";
-import { atmosphereGlyph, emptySceneCells, narrativeForestInks, narrativeGlyph, narrativeColumns, narrativeInk, narrativeRiverGlyph, narrativeRiverInk, narrativeRiverInks } from "./narrativeField";
+import { emptySceneCells, narrativeForestInks, narrativeColumns, narrativeInk, narrativeRiverInk, narrativeRiverInks } from "./narrativeField";
 import { sourceTextureGlyph } from "./sourceTexture";
+import { geometryForScene, layerOf, renderSceneTexture } from "../artwork/adapter";
+import { unicodeSVG } from "../../vendor/naae-unicode/unicode/render.js";
+import type { Locale, WritingMode } from "../i18n/languages";
 
-export type ForestState = { theme: ForestTheme; enabled: boolean };
+export type ForestState = { theme: ForestTheme; enabled: boolean; locale?: Locale; writingMode?: WritingMode };
 export type ForestHandle = { update: (state: ForestState) => void; dispose: () => void };
 type MovingCell = { x: number; y: number; glyph: string; color: number; group: number; alpha: number; ink?: string };
 
@@ -29,6 +32,9 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   let pointerX = 0, pointerY = 0;
   let totalFrames = 0, paintMs = 0, maxPaintMs = 0;
   let font = "";
+  let textureGeneration = 0;
+  let transition: HTMLCanvasElement | undefined;
+  let geometry: ReturnType<typeof geometryForScene> | undefined, geometryKey = '', geometryBuilds = 0;
   function getPalette() {
     if (narrativeStyle) return aerial ? narrativeRiverInks[state.theme] : narrativeForestInks[state.theme];
     if (codeCanopy && !aerial && state.theme === "light") return daylightCodeCanopy;
@@ -82,16 +88,54 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
     totalFrames++; paintMs += cost; maxPaintMs = Math.max(maxPaintMs, cost);
     if (totalFrames % 25 === 1) publish();
   }
-  function cacheLayers() {
+  async function cacheLayers() {
+    const generation = ++textureGeneration;
+    host.dataset.textureStatus = 'loading';
     cancelAnimationFrame(buildFrame); buildFrame = 0;
     building = true; clock.setActive(false); host.dataset.running = "false";
     caches.forEach(c => { c.width = 0; c.height = 0; });
     caches = []; moving = [];
     const started = performance.now();
+    let texture: Awaited<ReturnType<typeof renderSceneTexture>> | undefined;
+    let verticalImages: HTMLImageElement[] | undefined;
+    const locale = state.locale || "en";
+    const textureStarted = performance.now();
+    let textureStatus = 'fallback';
+    if (narrativeStyle) try {
+      const nextGeometryKey = `${scene.signature}:${width}:${height}:${state.theme}`;
+      if (nextGeometryKey !== geometryKey) {
+        geometry = geometryForScene(scene, width, height, aerial, getPalette(), state.theme);
+        geometryKey = nextGeometryKey;host.dataset.geometryBuilds = String(++geometryBuilds);
+      }
+      texture = await renderSceneTexture(geometry!, locale, state.writingMode || "horizontal", state.theme);
+      if (disposed || generation !== textureGeneration) return;
+      if (texture.artwork.request.settings.writingMode === 'vertical-rl') {
+        verticalImages = await Promise.all([0,1,2,3].map(async layer => {
+          const runs=texture!.artwork.runs.filter(run => layerOf(run) === layer);
+          const svg = unicodeSVG({...texture!.artwork,runs},texture!.fonts);
+          const url = URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));
+          try {const image = new Image(); await new Promise<void>((resolve,reject) => {image.onload=()=>resolve();image.onerror=()=>reject(Error('Vertical artwork rasterization failed'));image.src=url;});return image;}
+          finally {URL.revokeObjectURL(url);}
+        }));
+      }
+      textureStatus = texture.status === 'incomplete' ? 'stale' : 'complete';
+    } catch {
+      if (disposed || generation !== textureGeneration) return;
+      // Geometry-only punctuation remains language-neutral if assets are unavailable.
+      textureStatus = 'fallback';
+    }
+    if (disposed || generation !== textureGeneration) return;
+    host.dataset.textureMs = (performance.now()-textureStarted).toFixed(2);
+    host.dataset.locale = locale;
+    host.dataset.writingMode = state.writingMode || 'horizontal';
+    host.dataset.textRuns = String(texture?.artwork.runs.length || 0);
+    host.dataset.clippedRuns = String(texture?.artwork.report.clipped || 0);
+    host.dataset.textureRevision = texture?.artwork.request.textPack.sourceRevision || '';
+    host.dataset.placementCacheHit = String(texture?.placementCacheHit || false);
     let layer = 0;
     const buildLayer = () => {
       buildFrame = 0;
-      if (disposed) return;
+      if (disposed || generation !== textureGeneration) return;
       const sliceStart = performance.now();
       try {
       const palette = getPalette();
@@ -108,7 +152,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
         c.fillStyle = state.theme === "dark" ? "#25372b" : "#e0e7e3";
         for (let i = 0; i < empty.length; i++) if (empty[i]) {
           const col = i % g.cols, row = Math.floor(i / g.cols);
-          c.fillText(atmosphereGlyph(col, row, seed), col * cellWidth, (row + 0.84) * cellHeight);
+          c.fillText("·", col * cellWidth, (row + 0.84) * cellHeight);
         }
       }
       // Group static glyph painting by ink. Only selected coherent crown groups
@@ -118,7 +162,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
         for (let i = 0; i < g.glyph.length; i++) {
           if (!g.glyph[i] || g.color[i] !== color) continue;
           const originalGlyph = forestConfig.glyphs[g.glyph[i]];
-          const glyph = narrativeStyle ? (aerial ? narrativeRiverGlyph : narrativeGlyph)(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, seed) : sourceTextureGlyph(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, seed, aerial, codeCanopy, g.color[i], state.theme);
+          const glyph = narrativeStyle ? originalGlyph : sourceTextureGlyph(originalGlyph, i % g.cols, Math.floor(i / g.cols), layer, seed, aerial, codeCanopy, g.color[i], state.theme);
           // Letters have more ink than small punctuation. Match their visual
           // weight so distant crowns stay light and nearer shadows stay deep.
           const weight = !narrativeStyle && codeCanopy && !aerial && glyph !== originalGlyph
@@ -138,15 +182,44 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
           }
         }
       }
-      caches.push(cache); moving.push(dynamic);
+      // Whole native-shaped runs replace their patch of stipple; no character-cell
+      // positioning is used for Arabic, Indic or localized semantic words.
+      const textureScaleX = width / (texture?.artwork.request.geometry.width || width), textureScaleY = height / (texture?.artwork.request.geometry.height || height);
+      c.save(); c.scale(textureScaleX,textureScaleY);
+      const runs = texture?.artwork.runs.filter(run => layerOf(run) === layer) || [];
+      for (const run of runs) c.clearRect(run.box.x-.5,run.box.y-.5,run.box.width+1,run.box.height+1);
+      if (verticalImages) c.drawImage(verticalImages[layer],0,0,texture!.artwork.request.geometry.width,texture!.artwork.request.geometry.height);
+      else if (texture) {
+        c.font = `${texture.artwork.request.settings.fontSize}px ${texture.fonts.map(f => `"${f.family}"`).join(',')}`;
+        c.direction = texture.artwork.request.textPack.direction; c.textAlign = 'left'; c.textBaseline = 'alphabetic';
+        c.globalAlpha = 1;
+        for (const run of runs) {
+          c.fillStyle = run.ink;
+          c.fillText(run.text,run.x,run.y);
+        }
+      }
+      c.restore();
+      // Punctuation inside a semantic run must not animate back over its glyphs.
+      const occupied = new Uint8Array(g.cols*g.rows);
+      for (const run of runs) for (let row=Math.max(0,Math.floor(run.box.y*textureScaleY/cellHeight));row<=Math.min(g.rows-1,Math.ceil((run.box.y+run.box.height)*textureScaleY/cellHeight));row++)
+        for (let col=Math.max(0,Math.floor(run.box.x*textureScaleX/cellWidth));col<=Math.min(g.cols-1,Math.ceil((run.box.x+run.box.width)*textureScaleX/cellWidth));col++) occupied[row*g.cols+col]=1;
+      const visibleMotion = dynamic.filter(cell => !occupied[Math.min(g.rows-1,Math.floor(cell.y/cellHeight))*g.cols+Math.floor(cell.x/cellWidth)]);
+      caches.push(cache); moving.push(visibleMotion);
       layer++;
       const work = performance.now() - sliceStart;
       initializationWorkMs += work; maxInitializationSliceMs = Math.max(maxInitializationSliceMs, work);
       if (layer < 4) buildFrame = requestAnimationFrame(buildLayer);
       else {
+        transition?.remove(); transition = undefined;
+        if (state.enabled && totalFrames > 0) {
+          transition = document.createElement('canvas'); transition.width=canvas.width;transition.height=canvas.height;
+          transition.getContext('2d')?.drawImage(canvas,0,0);transition.style.cssText='position:absolute;inset:0;pointer-events:none';host.append(transition);
+          const previous = transition;previous.animate([{opacity:1},{opacity:0}],{duration:180}).finished.then(()=>previous.remove()).catch(()=>previous.remove());
+        }
         building = false;
         paint(clock.time); sync();
         host.dataset.ready = "true";
+        host.dataset.textureStatus = textureStatus;
         host.dataset.initializationMs = initializationWorkMs.toFixed(2);
         host.dataset.initializationElapsedMs = (performance.now() - started).toFixed(2);
         host.dataset.maxInitializationSliceMs = maxInitializationSliceMs.toFixed(2);
@@ -164,6 +237,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
     if (!nextWidth || !nextHeight) return;
     if (nextWidth === width && nextHeight === height && scene) return;
     width = nextWidth; height = nextHeight;
+    host.dataset.textureStatus = 'loading';
     // Bound both dimensions, including 4K and tall Largest-text heroes.
     scale = Math.min(devicePixelRatio || 1, forestConfig.maxDpr, 1920 / width, forestConfig.maxHeight / height);
     canvas.width = Math.round(width * scale); canvas.height = Math.round(height * scale);
@@ -185,7 +259,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
     cellHeight = height / rows;
     initializationWorkMs = performance.now() - started;
     maxInitializationSliceMs = initializationWorkMs;
-    cancelAnimationFrame(generationFrame); cancelAnimationFrame(buildFrame);
+    textureGeneration++; cancelAnimationFrame(generationFrame); cancelAnimationFrame(buildFrame);
     building = true; clock.setActive(false); host.dataset.running = "false";
     const steps = aerial ? generateRiverScene(cols, rows, seed) : generateScene(cols, rows, seed);
     const generate = () => {
@@ -196,7 +270,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
         const next = steps.next();
         const work = performance.now() - start;
         initializationWorkMs += work; maxInitializationSliceMs = Math.max(maxInitializationSliceMs, work);
-        if (next.done) { scene = next.value; host.dataset.signature = String(scene.signature); cacheLayers(); }
+        if (next.done) { scene = next.value; host.dataset.signature = String(scene.signature); void cacheLayers(); }
         else generationFrame = requestAnimationFrame(generate);
       } catch { fail(); }
     };
@@ -229,7 +303,7 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   const visibility = new IntersectionObserver(([entry]) => { intersecting = entry.isIntersecting; sync(); });
   function dispose() {
     if (disposed) return;
-    disposed = true; clock.dispose(); cancelAnimationFrame(rebuildFrame); cancelAnimationFrame(buildFrame); cancelAnimationFrame(generationFrame);
+    disposed = true; textureGeneration++; transition?.remove(); clock.dispose(); cancelAnimationFrame(rebuildFrame); cancelAnimationFrame(buildFrame); cancelAnimationFrame(generationFrame);
     resize.disconnect(); visibility.disconnect();
     document.removeEventListener("visibilitychange", sync);
     hero.removeEventListener("pointermove", move); hero.removeEventListener("pointerleave", leave);
@@ -252,9 +326,9 @@ export function mountForest(host: HTMLElement, initial: ForestState, aerial = fa
   return {
     update(next) {
       if (disposed) return;
-      const changed = next.theme !== state.theme;
+      const changed = next.theme !== state.theme || next.locale !== state.locale || next.writingMode !== state.writingMode;
       state = next;
-      try { if (changed && scene) { initializationWorkMs = 0; maxInitializationSliceMs = 0; cacheLayers(); } sync(); if (scene) paint(clock.time); }
+      try { if (changed && scene) { initializationWorkMs = 0; maxInitializationSliceMs = 0; void cacheLayers(); } sync(); if (scene) paint(clock.time); }
       catch { fail(); }
     },
     dispose,

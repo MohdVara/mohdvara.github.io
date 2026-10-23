@@ -15,14 +15,15 @@ export function* generateRiverScene(cols: number, rows: number, seed: number = f
   const variant = seed !== forestConfig.seed;
   const phase = (noise(18, 41, seed) - 0.5) * (variant ? 4 : 0.35);
   const amplitude = variant ? 0.085 + noise(39, 12, seed) * 0.045 : 0.105;
-  // The visible artwork occupies the right half beside the protected copy.
-  // Its central spine stays near .70 of the full-bleed canvas, with tributaries
-  // subordinate to that one clear downstream channel.
+  // The river keeps one clear spine across the full-bleed landscape. Its upper
+  // reach (after reflection) keeps winding rather than resolving to a straight stem.
   const center = (y: number) => {
     const winding = 0.70 + amplitude * Math.sin(y * 14 + phase) + 0.025 * Math.sin(y * 31 + phase);
     const t = bounded((y - 0.66) / 0.22, 0, 1);
     const resolved = t * t * (3 - 2 * t);
-    return winding * (1 - resolved) + (0.66 + 0.012 * Math.sin(y * 7 + phase)) * resolved;
+    const downstream = 0.66 + 0.085 * Math.sin((y - 0.66) * 13 + phase * 0.5)
+      + 0.018 * Math.sin((y - 0.66) * 29 + phase);
+    return winding * (1 - resolved) + downstream * resolved;
   };
   const halfWidth = (y: number) => 0.025 + 0.014 * (0.5 + 0.5 * Math.sin(y * 9 + phase + 1));
   let signature = seed >>> 0;
@@ -43,9 +44,12 @@ export function* generateRiverScene(cols: number, rows: number, seed: number = f
       // Tributaries follow smaller S bends through their own catchment. The
       // side-distance approaches zero with zero derivative, so each inlet
       // meets the main channel's downstream tangent instead of crossing it.
-      const envelope = 16 * t * t * u * u;
-      const y = sourceY + t * 0.21 + 0.045 * Math.sin(t * Math.PI * 4 + branch) * envelope;
-      const distanceFromMain = spread * u * u * (1 + 0.45 * Math.sin(t * Math.PI * 6));
+      const envelope = 4 * t * u;
+      const bendPhase = left ? 0 : Math.PI;
+      const y = bounded(sourceY + t * 0.21
+        + (0.11 * Math.sin(t * Math.PI * 4 + bendPhase)
+          + 0.025 * Math.sin(t * Math.PI * 6 + phase + bendPhase)) * envelope, 0.008, 0.96);
+      const distanceFromMain = spread * u * u;
       const x = bounded(center(y) + (left ? -1 : 1) * distanceFromMain, 0.035, 0.985);
       const cx = x * (cols - 1), cy = y * (rows - 1);
       const rx = Math.max(0.8, (0.004 + t * 0.005) * cols);

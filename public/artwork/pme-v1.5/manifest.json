@@ -1,0 +1,85 @@
+{
+  "schema": "PME/artwork-manifest/1",
+  "renderer": "NAAE/Unicode-1",
+  "geometryRevision": "forest-field-1",
+  "sourceRevision": "e3b1c46679e07cf2793f8ff511365c943b571b806c3356d04adf9a3ef84f9219",
+  "locales": {
+    "en": {
+      "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+      "revision": "2cc4e45dc8f0c169bc21a66280310b09fb7983d60d7255302107cee905e73f0b",
+      "bytes": 6147,
+      "status": "complete",
+      "issues": []
+    },
+    "ms": {
+      "path": "/artwork/pme-v1.5/ms-bc17c2d0c5ff1939.json",
+      "revision": "bc17c2d0c5ff1939b803d5cf8adc05e5bb475fc7ce4487413256dbca6b06247d",
+      "bytes": 8160,
+      "status": "complete",
+      "issues": []
+    },
+    "ar": {
+      "path": "/artwork/pme-v1.5/ar-af2bd675a642f246.json",
+      "revision": "af2bd675a642f24683d6aed2defac23077a1c72afa5bb51fcecf335b8a9d3af9",
+      "bytes": 8222,
+      "status": "complete",
+      "issues": []
+    },
+    "ta": {
+      "path": "/artwork/pme-v1.5/ta-d376b216d5671bea.json",
+      "revision": "d376b216d5671bea32779e3b18cc3ec8114ef6880edbbcbb29879e2cd0b1911a",
+      "bytes": 8640,
+      "status": "complete",
+      "issues": []
+    },
+    "ja": {
+      "path": "/artwork/pme-v1.5/ja-287d7d0d539b62c6.json",
+      "revision": "287d7d0d539b62c64c1654621bdfaee9534f630db13f104fb3572015757656a9",
+      "bytes": 8180,
+      "status": "complete",
+      "issues": []
+    },
+    "zh-Hans": {
+      "path": "/artwork/pme-v1.5/zh-Hans-d9ed85fe8c65ff55.json",
+      "revision": "d9ed85fe8c65ff554c58cefd365f73ffe48047a528075aadfdeae3eac4c7db45",
+      "bytes": 8160,
+      "status": "complete",
+      "issues": []
+    },
+    "es": {
+      "path": "/artwork/pme-v1.5/es-13beb96c97ff48f9.json",
+      "revision": "13beb96c97ff48f98f0dee4e63f20c6a03b3ec2eea316c711bf8a234d2bbf15f",
+      "bytes": 8167,
+      "status": "complete",
+      "issues": []
+    },
+    "fr": {
+      "path": "/artwork/pme-v1.5/fr-20b97daf96269662.json",
+      "revision": "20b97daf96269662f9913f1f366baa8a3c51be5a6fb016f8d5cf52469c03b04c",
+      "bytes": 8195,
+      "status": "complete",
+      "issues": []
+    },
+    "de": {
+      "path": "/artwork/pme-v1.5/de-1889d19219090612.json",
+      "revision": "1889d19219090612974f4e8dec893407789bda008ba6e3b6c6e9d09f6c3f1c49",
+      "bytes": 8145,
+      "status": "complete",
+      "issues": []
+    },
+    "pt-BR": {
+      "path": "/artwork/pme-v1.5/pt-BR-59c5bc2ff7542aaa.json",
+      "revision": "59c5bc2ff7542aaaa851a7eb916db0bef772d958e0043746ad4f795451d44315",
+      "bytes": 8168,
+      "status": "complete",
+      "issues": []
+    },
+    "hi": {
+      "path": "/artwork/pme-v1.5/hi-9709e61683ae9421.json",
+      "revision": "9709e61683ae942136ce06f51c48b7a72c752e231456b8c677a6945a5dcb3278",
+      "bytes": 8577,
+      "status": "complete",
+      "issues": []
+    }
+  }
+}

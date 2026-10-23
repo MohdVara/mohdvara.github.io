@@ -39,6 +39,12 @@ const example = await readJson("src/data/pace-php-example.json");
 for (const field of ["measurement"]) add(example[field],"src/data/pace-php-example.json");
 for (const mapping of example.mappings) if (mapping.generation !== "Unspecified generation") add(`(${mapping.generation})`,"src/data/pace-php-example.json");
 const added = [];
+// Artwork shares catalog hashes, reviewed-entry protection and translation sync.
+for (const entry of (await readJson("src/artwork/vocabulary.json")).entries) {
+  candidates.set(entry.key, entry.source);
+  (locations[entry.key] ||= []).push("src/artwork/vocabulary.json");
+  source[entry.key] = entry.source;
+}
 for (const [key,value] of candidates) if (!(key in source)) {source[key]=value;added.push(key);}
 console.log(`English: ${added.length} added units; ${Object.keys(source).length} total.`);
 // Add-only extraction protects deliberately authored semantic/interpolation keys.

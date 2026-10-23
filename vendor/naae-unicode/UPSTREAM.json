@@ -1,0 +1,107 @@
+{
+  "source": "portfolio-inspired-ascii-art",
+  "version": "0.5.0",
+  "entrypoint": "src/unicode/pme-adapter.ts",
+  "upstream": [
+    {
+      "path": "src/unicode/contract.ts",
+      "sha256": "f2e0d952b7278cb003ce1dbfbcce922422a58623454f0b121852e5850f536754"
+    },
+    {
+      "path": "src/font-license.ts",
+      "sha256": "73397e64bd8db09f148bec8202861b6bd7f61e1257635cd292d1e3af6dae14a1"
+    },
+    {
+      "path": "src/svg.ts",
+      "sha256": "cc48b32c4f5c22d6fb92da6a375b86297918286ca38516355a772718838868e8"
+    },
+    {
+      "path": "src/unicode/fonts.ts",
+      "sha256": "b6153f4af700f243efeb3617681771d8ee28ae4b2cadbf962cbf5356c746e8bf"
+    },
+    {
+      "path": "src/unicode/measure.ts",
+      "sha256": "56f2675636347067409b1d75cbc6bbc44cf634b9f9d63270c022a8111e3fa594"
+    },
+    {
+      "path": "src/hybrid-model.ts",
+      "sha256": "77ffa4f1397d7f6c831cbe199824a15fcfaf944194f68f92752ed802b029360d"
+    },
+    {
+      "path": "src/ink.ts",
+      "sha256": "3bdc50bb26b60b4585073e23fcc58f124ec3fdcf8fb9199d696b5ccd3f40753d"
+    },
+    {
+      "path": "src/blending.ts",
+      "sha256": "4e172b7fffa7e558be847a2e0d08537d6b5e18a00e7bce90cca74700684d3a2b"
+    },
+    {
+      "path": "src/typography.ts",
+      "sha256": "e92f25b6b4438859fab498aa27409bc24ec4ea4f4895625c2b7eeb4de3351323"
+    },
+    {
+      "path": "src/engine.ts",
+      "sha256": "1ab27d53f878eab073eb503af765fa81389d4b66a78520e88f7256ea753b774f"
+    },
+    {
+      "path": "src/model.ts",
+      "sha256": "bd6575d909d4f9e23f9f7b53d7c3b85bcba6e5a770634b4ff85c9f662b161fa0"
+    },
+    {
+      "path": "src/coverage-model.ts",
+      "sha256": "6d1a65cca583bb3cea98019f7db26d86f1b9a32ba614e7a23f6d05b557244cbd"
+    },
+    {
+      "path": "src/object-branches.ts",
+      "sha256": "84ee2bb6e449cc9555ec6aa0194a57d61e2625bc729ced8f451b6c3f9fcdf73b"
+    },
+    {
+      "path": "src/canvas.ts",
+      "sha256": "97274b35cb84453bf0c592beb11a3190e73f21d2d350782c2128b87d50acb892"
+    },
+    {
+      "path": "src/hybrid-geometry.ts",
+      "sha256": "b96381ffb308d23cdce309e4144567ff19fe5885c5bbac0aca0f35fc781fabb2"
+    },
+    {
+      "path": "src/geometry.ts",
+      "sha256": "46ca83a31e61beb8bc045af5093c00f882d5783231a6e5b1b26c1e6ebc2e5d43"
+    },
+    {
+      "path": "src/glyph-metrics.ts",
+      "sha256": "55b8c80adff2599a0ef882c2c48d5fa7edfa218b7685b139cee8719ed0bb81c3"
+    },
+    {
+      "path": "src/glyphs.ts",
+      "sha256": "6c17c9596ac9902941f7641df7f1a80879c0a4187b6f594981de16d43b15f085"
+    },
+    {
+      "path": "src/hybrid-render.ts",
+      "sha256": "43e2762981d3b2b4fca63a06353637a4478d9453f706109fc54f5430fd7fb212"
+    },
+    {
+      "path": "src/semantic.ts",
+      "sha256": "30fb180a64c4afe4ed770f35cebf3b5d0dd095f5d13f5b8ad911dd79bf13deba"
+    },
+    {
+      "path": "src/appearance.ts",
+      "sha256": "d76b975d2c6e0dbf231b23fb797ce12ce4a086bb76186b0ac92904283734ebbc"
+    },
+    {
+      "path": "src/unicode/layout.ts",
+      "sha256": "19bf3df089a19b99dc9358ff47bfd76b62d9517fb161328530039b27d8710897"
+    },
+    {
+      "path": "src/unicode/render.ts",
+      "sha256": "89e5512cdb835432e9cc07af3e1fd56a73e29e30483d884c04c0e8ecf9cc2190"
+    },
+    {
+      "path": "src/unicode/pme-adapter.ts",
+      "sha256": "487310683990ceba29bb33ac66525c75cf7d895fa80de9c5eb93e582190bf618"
+    }
+  ],
+  "patches": [
+    "fonts.js: root-relative /fonts/unicode paths and revision-keyed font requests"
+  ],
+  "shaping": "Unmodified NAAE BrowserTextMeasurer/layoutText/renderForPME"
+}

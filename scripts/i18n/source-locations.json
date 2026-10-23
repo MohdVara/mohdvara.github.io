@@ -146,13 +146,13 @@
   "Work with me": [
     "src/App.tsx"
   ],
-  "Illustrated portrait of Mohd. Paramasvara": [
-    "src/App.tsx"
-  ],
   "Engineer. Architect. Builder.": [
     "src/App.tsx"
   ],
   "01 / PROFILE": [
+    "src/App.tsx"
+  ],
+  "Illustrated portrait of Mohd. Paramasvara": [
     "src/App.tsx"
   ],
   "Career highlights": [
@@ -1905,6 +1905,10 @@
     "src/PublicEngineering.tsx",
     "src/caseStudies.ts"
   ],
+  "Multilingual portfolio engineering": [
+    "src/PublicEngineering.tsx",
+    "src/caseStudies.ts"
+  ],
   "Eleven languages, one source": [
     "src/PublicEngineering.tsx"
   ],
@@ -2191,9 +2195,6 @@
     "src/caseStudies.ts"
   ],
   "Seeded geometry, source integrity and bounded character budgets. Scene mode is experimental; physical print quality and official release dates are unverified.": [
-    "src/caseStudies.ts"
-  ],
-  "Multilingual portfolio engineering": [
     "src/caseStudies.ts"
   ],
   "Maintain one professional source across eleven languages, scripts and reading directions.": [
@@ -3239,6 +3240,10 @@
     "src/features/incident-zero/defence/renderer.ts"
   ],
   "TERMINAL / LOCKED": [
+    "src/features/incident-zero/defence/renderer.ts",
+    "src/features/incident-zero/defence/renderer.ts"
+  ],
+  "TERMINAL / RESTORE": [
     "src/features/incident-zero/defence/renderer.ts"
   ],
   "Packet Pulse": [
@@ -3262,7 +3267,22 @@
   "The walls have become service boundaries.": [
     "src/features/incident-zero/game.ts"
   ],
+  "EXPORT HELD": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "RM8,500 / REVIEWED": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "RM7,500 / MISMATCH": [
+    "src/features/incident-zero/game.ts"
+  ],
   "INSPECT": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "SAME-KEY RETRY / RECONCILIATION OWNER RECORDED": [
+    "src/features/incident-zero/game.ts"
+  ],
+  "TIMEOUT / UNKNOWN OUTCOME / DUPLICATE RISK": [
     "src/features/incident-zero/game.ts"
   ],
   "Finance reconciliation": [
@@ -3801,5 +3821,86 @@
   ],
   "(Modern systems)": [
     "src/data/pace-php-example.json"
+  ],
+  "artwork.wind": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.light": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.rain": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.ridge": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.stone": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.summit": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.leaf": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.branch": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.growth": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.river": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.current": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.flow": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.root": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.soil": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.seed": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.build": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.design": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.systems": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.verify": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.evidence": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.trust": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.learn": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.adapt": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.preserve": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.build-evidence": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.learn-adapt": [
+    "src/artwork/vocabulary.json"
+  ],
+  "artwork.preserve-working": [
+    "src/artwork/vocabulary.json"
   ]
 }
