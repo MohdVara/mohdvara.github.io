@@ -1,0 +1,3182 @@
+{
+  "schema_version": "2.0",
+  "task": "naae-lightmode-ink-reconstruction-v2",
+  "timestamp": "2026-10-23T06:15:26.217054+00:00",
+  "timezone": "Asia/Kuching",
+  "status": "COMPLETE WITH LIMITATIONS",
+  "git_base": "1b66ae1536259ed855d5165f2203937f606f2f97",
+  "uncommitted": true,
+  "chosen_variant": "B \u2014 source-aware sepia ink on paper",
+  "diagnosis": {
+    "rootCause": "Pale illumination-like foreground palette combined with small/sparse glyph coverage and antialiasing. Not foreground alpha reduction, a wrong theme stylesheet, group opacity, blend mode or an image filter.",
+    "computedEvidence": [
+      {
+        "theme": "dark",
+        "samples": [
+          {
+            "region": "hair",
+            "x": 500.776,
+            "y": 105.652,
+            "before": {
+              "fill": "rgb(9, 25, 43)",
+              "stroke": "rgb(9, 25, 43)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "6.39864px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(9, 25, 43)",
+              "stroke": "rgb(9, 25, 43)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "6.39864px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 16.679093178096444,
+            "opaqueInkContrastAgainstPaperAfter": 16.679093178096444
+          },
+          {
+            "region": "eye-left-support",
+            "x": 499.499,
+            "y": 300.491,
+            "before": {
+              "fill": "rgb(255, 191, 157)",
+              "stroke": "rgb(255, 191, 157)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.2176px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(255, 191, 157)",
+              "stroke": "rgb(255, 191, 157)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.2176px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.499025328745873,
+            "opaqueInkContrastAgainstPaperAfter": 1.499025328745873
+          },
+          {
+            "region": "eye-right-support",
+            "x": 633.097,
+            "y": 314.312,
+            "before": {
+              "fill": "rgb(255, 198, 60)",
+              "stroke": "rgb(255, 198, 60)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.3735px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(255, 198, 60)",
+              "stroke": "rgb(255, 198, 60)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.3735px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.4762295002746246,
+            "opaqueInkContrastAgainstPaperAfter": 1.4762295002746246
+          },
+          {
+            "region": "nose-region",
+            "x": 548.761,
+            "y": 383.404,
+            "before": {
+              "fill": "rgb(255, 174, 122)",
+              "stroke": "rgb(255, 174, 122)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.3352px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(255, 174, 122)",
+              "stroke": "rgb(255, 174, 122)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.3352px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.7064947179549337,
+            "opaqueInkContrastAgainstPaperAfter": 1.7064947179549337
+          },
+          {
+            "region": "cheek-region",
+            "x": 612.09,
+            "y": 438.659,
+            "before": {
+              "fill": "rgb(252, 156, 111)",
+              "stroke": "rgb(252, 156, 111)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.7762px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(252, 156, 111)",
+              "stroke": "rgb(252, 156, 111)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.7762px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.9531696836717358,
+            "opaqueInkContrastAgainstPaperAfter": 1.9531696836717358
+          },
+          {
+            "region": "mouth-region",
+            "x": 499.687,
+            "y": 493.866,
+            "before": {
+              "fill": "rgb(241, 135, 95)",
+              "stroke": "rgb(241, 135, 95)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.96049px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(241, 135, 95)",
+              "stroke": "rgb(241, 135, 95)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.96049px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 2.3621966322092516,
+            "opaqueInkContrastAgainstPaperAfter": 2.3621966322092516
+          },
+          {
+            "region": "jaw-region",
+            "x": 457.332,
+            "y": 604.64,
+            "before": {
+              "fill": "rgb(255, 182, 128)",
+              "stroke": "rgb(255, 182, 128)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.2379px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(255, 182, 128)",
+              "stroke": "rgb(255, 182, 128)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.2379px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.6135545303122476,
+            "opaqueInkContrastAgainstPaperAfter": 1.6135545303122476
+          },
+          {
+            "region": "neck-region",
+            "x": 450.823,
+            "y": 700.899,
+            "before": {
+              "fill": "rgb(123, 86, 74)",
+              "stroke": "rgb(123, 86, 74)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.208px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(123, 86, 74)",
+              "stroke": "rgb(123, 86, 74)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "0",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.208px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 6.043025810728005,
+            "opaqueInkContrastAgainstPaperAfter": 6.043025810728005
+          }
+        ],
+        "allGlyphsFillAlphaOne": true,
+        "allGlyphsBeforeFillAlphaOne": true,
+        "darkComputedGlyphStyleUnchanged": true,
+        "paper": "#101110",
+        "actualImageBefore": {
+          "tag": "IMG",
+          "class": "",
+          "opacity": "1",
+          "fillOpacity": "1",
+          "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+          "mixBlendMode": "normal",
+          "isolation": "auto",
+          "maskImage": "linear-gradient(rgb(0, 0, 0) 74%, rgba(0, 0, 0, 0) 93%), linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 8%)",
+          "colorScheme": "dark",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "actualImageAfter": {
+          "tag": "IMG",
+          "class": "",
+          "opacity": "1",
+          "fillOpacity": "1",
+          "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+          "mixBlendMode": "normal",
+          "isolation": "auto",
+          "maskImage": "linear-gradient(rgb(0, 0, 0) 74%, rgba(0, 0, 0, 0) 93%), linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 8%)",
+          "colorScheme": "dark",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      },
+      {
+        "theme": "light",
+        "samples": [
+          {
+            "region": "hair",
+            "x": 500.776,
+            "y": 105.652,
+            "before": {
+              "fill": "rgb(46, 34, 28)",
+              "stroke": "rgb(46, 34, 28)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "6.39864px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(50, 38, 29)",
+              "stroke": "rgb(50, 38, 29)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "6.39864px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 14.520988974234273,
+            "opaqueInkContrastAgainstPaperAfter": 13.822030717980741
+          },
+          {
+            "region": "eye-left-support",
+            "x": 499.499,
+            "y": 300.491,
+            "before": {
+              "fill": "rgb(210, 181, 131)",
+              "stroke": "rgb(210, 181, 131)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.2176px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(174, 124, 71)",
+              "stroke": "rgb(174, 124, 71)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.2176px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.8519040988309117,
+            "opaqueInkContrastAgainstPaperAfter": 3.424778230276081
+          },
+          {
+            "region": "eye-right-support",
+            "x": 633.097,
+            "y": 314.312,
+            "before": {
+              "fill": "rgb(208, 179, 128)",
+              "stroke": "rgb(208, 179, 128)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.3735px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(169, 119, 68)",
+              "stroke": "rgb(169, 119, 68)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "11.3735px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.8937413604388964,
+            "opaqueInkContrastAgainstPaperAfter": 3.6556059142278072
+          },
+          {
+            "region": "nose-region",
+            "x": 548.761,
+            "y": 383.404,
+            "before": {
+              "fill": "rgb(200, 161, 91)",
+              "stroke": "rgb(200, 161, 91)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.3352px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(144, 94, 52)",
+              "stroke": "rgb(144, 94, 52)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.3352px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 2.2715886885496688,
+            "opaqueInkContrastAgainstPaperAfter": 5.154120569428602
+          },
+          {
+            "region": "cheek-region",
+            "x": 612.09,
+            "y": 438.659,
+            "before": {
+              "fill": "rgb(177, 132, 66)",
+              "stroke": "rgb(177, 132, 66)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.7762px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(124, 79, 45)",
+              "stroke": "rgb(124, 79, 45)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.7762px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 3.1645373885314667,
+            "opaqueInkContrastAgainstPaperAfter": 6.562209076476684
+          },
+          {
+            "region": "mouth-region",
+            "x": 499.687,
+            "y": 493.866,
+            "before": {
+              "fill": "rgb(152, 101, 45)",
+              "stroke": "rgb(152, 101, 45)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.96049px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(106, 69, 41)",
+              "stroke": "rgb(106, 69, 41)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.96049px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 4.6697790837791295,
+            "opaqueInkContrastAgainstPaperAfter": 7.921919681357626
+          },
+          {
+            "region": "jaw-region",
+            "x": 457.332,
+            "y": 604.64,
+            "before": {
+              "fill": "rgb(209, 175, 108)",
+              "stroke": "rgb(209, 175, 108)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.2379px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(157, 106, 60)",
+              "stroke": "rgb(157, 106, 60)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "10.2379px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 1.9656780262916826,
+            "opaqueInkContrastAgainstPaperAfter": 4.335927517564152
+          },
+          {
+            "region": "neck-region",
+            "x": 450.823,
+            "y": 700.899,
+            "before": {
+              "fill": "rgb(113, 57, 39)",
+              "stroke": "rgb(113, 57, 39)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.208px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "after": {
+              "fill": "rgb(73, 50, 34)",
+              "stroke": "rgb(73, 50, 34)",
+              "opacity": "1",
+              "fillOpacity": "1",
+              "strokeOpacity": "1",
+              "strokeWidth": "0.28px",
+              "font": "",
+              "fontSize": "9.208px",
+              "fontWeight": "700",
+              "filter": "none",
+              "mixBlendMode": "normal"
+            },
+            "opaqueInkContrastAgainstPaperBefore": 8.53542012591307,
+            "opaqueInkContrastAgainstPaperAfter": 11.21839905817611
+          }
+        ],
+        "allGlyphsFillAlphaOne": true,
+        "allGlyphsBeforeFillAlphaOne": true,
+        "darkComputedGlyphStyleUnchanged": null,
+        "paper": "#faf8f2",
+        "actualImageBefore": {
+          "tag": "IMG",
+          "class": "",
+          "opacity": "1",
+          "fillOpacity": "1",
+          "filter": "saturate(1) brightness(1) contrast(1)",
+          "mixBlendMode": "normal",
+          "isolation": "auto",
+          "maskImage": "linear-gradient(rgb(0, 0, 0) 74%, rgba(0, 0, 0, 0) 93%), linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 8%)",
+          "colorScheme": "light",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "actualImageAfter": {
+          "tag": "IMG",
+          "class": "",
+          "opacity": "1",
+          "fillOpacity": "1",
+          "filter": "saturate(1) brightness(1) contrast(1)",
+          "mixBlendMode": "normal",
+          "isolation": "auto",
+          "maskImage": "linear-gradient(rgb(0, 0, 0) 74%, rgba(0, 0, 0, 0) 93%), linear-gradient(90deg, rgba(0, 0, 0, 0), rgb(0, 0, 0) 8%)",
+          "colorScheme": "light",
+          "background": "rgba(0, 0, 0, 0)"
+        }
+      }
+    ],
+    "paper": "#faf8f2",
+    "glyphs": 4632,
+    "sourceGlyphSizeDensityPreserved": true,
+    "maskCoreFaceOpaque": true,
+    "foregroundAndForestAttenuationIndependent": true,
+    "internalComputedProbe": "Same exact SVG loaded as a same-origin object with matched theme; actual page image/filter/mask/ancestor chain and full screenshots recorded separately.",
+    "computedReports": [
+      "output/playwright/ink-reconstruction-v2/baseline-computed.json",
+      "output/playwright/ink-reconstruction-v2/selected-computed.json"
+    ],
+    "rasterEvidence": [
+      {
+        "variant": "before",
+        "roi": [
+          66,
+          66,
+          279,
+          257
+        ],
+        "pixelCount": 40683,
+        "meanPaperMinusPixelLuminance": 0.14008460822840343,
+        "pixelsWithLuminanceDifferenceOver0_1": 15454,
+        "meaning": "Mean dark-ink signal on identical paper at fixed desktop scale, not recognition or structural fidelity score."
+      },
+      {
+        "variant": "A",
+        "roi": [
+          66,
+          66,
+          279,
+          257
+        ],
+        "pixelCount": 40683,
+        "meanPaperMinusPixelLuminance": 0.14994182440979845,
+        "pixelsWithLuminanceDifferenceOver0_1": 15717,
+        "meaning": "Mean dark-ink signal on identical paper at fixed desktop scale, not recognition or structural fidelity score."
+      },
+      {
+        "variant": "B",
+        "roi": [
+          66,
+          66,
+          279,
+          257
+        ],
+        "pixelCount": 40683,
+        "meanPaperMinusPixelLuminance": 0.16701987784290473,
+        "pixelsWithLuminanceDifferenceOver0_1": 16142,
+        "meaning": "Mean dark-ink signal on identical paper at fixed desktop scale, not recognition or structural fidelity score."
+      }
+    ]
+  },
+  "foreground": {
+    "variant": "sepia-remap",
+    "family": "sepia-engraving",
+    "preset": {
+      "family": "sepia-engraving",
+      "variant": "sepia-remap",
+      "bins": 64,
+      "stops": [
+        [
+          0,
+          "#30251c"
+        ],
+        [
+          0.3,
+          "#583a26"
+        ],
+        [
+          0.68,
+          "#88562f"
+        ],
+        [
+          1,
+          "#bb884f"
+        ]
+      ],
+      "paper": "#faf8f2"
+    },
+    "glyphs": 4632,
+    "colours": 62,
+    "geometryChanged": false,
+    "darkAttributesChanged": false,
+    "foregroundAlpha": 1,
+    "previousEyeAndProminenceColourPasses": false
+  },
+  "sourceAwareMapping": {
+    "sourceLuminanceWeights": [
+      0.2126,
+      0.7152,
+      0.0722
+    ],
+    "anchors": [
+      [
+        0,
+        0
+      ],
+      [
+        0.25,
+        0.1
+      ],
+      [
+        0.45,
+        0.25
+      ],
+      [
+        0.63,
+        0.48
+      ],
+      [
+        0.72,
+        0.68
+      ],
+      [
+        0.82,
+        1
+      ]
+    ],
+    "coolSourceToneMultiplier": 0.42,
+    "warmSourceClassifier": "r > b*1.18 and r > g*1.03",
+    "bins": 64,
+    "glyphOpacity": 1,
+    "fillOpacity": 1,
+    "negativeSpace": "Original gaps between letters and strokes; no invented holes, transparent highlights, glyph deletion or geometry changes."
+  },
+  "candidates": [
+    {
+      "name": "A",
+      "variant": "sepia",
+      "family": "sepia-engraving",
+      "preset": {
+        "family": "sepia-engraving",
+        "variant": "sepia-remap",
+        "bins": 64,
+        "stops": [
+          [
+            0,
+            "#30251c"
+          ],
+          [
+            0.3,
+            "#583a26"
+          ],
+          [
+            0.68,
+            "#88562f"
+          ],
+          [
+            1,
+            "#bb884f"
+          ]
+        ],
+        "paper": "#faf8f2"
+      },
+      "glyphs": 4632,
+      "colours": 63,
+      "geometryChanged": false,
+      "darkAttributesChanged": false,
+      "foregroundAlpha": 1,
+      "previousEyeAndProminenceColourPasses": false
+    },
+    {
+      "name": "B",
+      "variant": "sepia-remap",
+      "family": "sepia-engraving",
+      "preset": {
+        "family": "sepia-engraving",
+        "variant": "sepia-remap",
+        "bins": 64,
+        "stops": [
+          [
+            0,
+            "#30251c"
+          ],
+          [
+            0.3,
+            "#583a26"
+          ],
+          [
+            0.68,
+            "#88562f"
+          ],
+          [
+            1,
+            "#bb884f"
+          ]
+        ],
+        "paper": "#faf8f2"
+      },
+      "glyphs": 4632,
+      "colours": 62,
+      "geometryChanged": false,
+      "darkAttributesChanged": false,
+      "foregroundAlpha": 1,
+      "previousEyeAndProminenceColourPasses": false
+    }
+  ],
+  "decisions": {
+    "baseline": "Pale honey/ivory baseline preserved.",
+    "A": "Direct sepia improves print-like colour but retains weaker facial plane/shadow separation.",
+    "B": "Selected after normal-size isolated and full-scene inspection; better source-supported tonal structure.",
+    "optionalForestAdjustment": "Not needed and not implemented; scene, mask and attenuation settings fixed."
+  },
+  "preservation": {
+    "sourceSha256": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+    "sourceUnchanged": true,
+    "allOriginalGlyphAttributesFontNarrativeDarkStylesExact": true,
+    "maskSha256": "32019a6e2bcc248e2d938583f41b1d533e719f2cda8cf3298495bda7e449480b",
+    "maskUnchanged": true,
+    "portraitAndSceneryCssUnchanged": true,
+    "darkFinalPixelsUnchanged": true,
+    "backgroundSettingsUnchanged": true,
+    "copyAndPortraitBoundsUnchanged": true
+  },
+  "tests": {
+    "full": {
+      "passed": 194,
+      "failed": 0
+    },
+    "newInkTests": {
+      "passed": 3,
+      "failed": 0
+    },
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "productionBuildPrerender": "PASS",
+    "routeAudit": {
+      "routes": 108,
+      "issues": []
+    },
+    "localization": {
+      "locales": 11,
+      "units": 1488,
+      "missing": 0,
+      "stale": 0,
+      "errors": 0,
+      "editorialWarnings": 97
+    },
+    "existingI18nBrowser": {
+      "status": "INCOMPLETE",
+      "reason": "Startup locale-readiness timeout at scripts/i18n-qa.mjs:22",
+      "attemptedLocales": [
+        "en",
+        "ar",
+        "ta",
+        "ja"
+      ]
+    },
+    "physicalDevicesScreenReader": "NOT VERIFIED"
+  },
+  "browser": {
+    "candidateCases": 6,
+    "candidateCaptures": [
+      {
+        "variant": "before",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "dark",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68,\"luminance\":0,\"lightSage\":0}",
+          "geometryBuilds": "1",
+          "textureMs": "632.40",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "3.750",
+          "maxPaintMs": "7.400",
+          "ready": "true",
+          "initializationMs": "85.80",
+          "initializationElapsedMs": "745.40",
+          "maxInitializationSliceMs": "26.90"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(0, 0, 0, 0.824)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "A",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "dark",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68,\"luminance\":0,\"lightSage\":0}",
+          "geometryBuilds": "1",
+          "textureMs": "1585.00",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "3.900",
+          "maxPaintMs": "7.700",
+          "ready": "true",
+          "initializationMs": "96.50",
+          "initializationElapsedMs": "1693.70",
+          "maxInitializationSliceMs": "52.90"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(0, 0, 0, 0.824)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "B",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "dark",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68,\"luminance\":0,\"lightSage\":0}",
+          "geometryBuilds": "1",
+          "textureMs": "828.40",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "4.050",
+          "maxPaintMs": "8.000",
+          "ready": "true",
+          "initializationMs": "142.00",
+          "initializationElapsedMs": "982.20",
+          "maxInitializationSliceMs": "79.00"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(0, 0, 0, 0.824)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "before",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "light",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "486.10",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "4.450",
+          "maxPaintMs": "8.700",
+          "ready": "true",
+          "initializationMs": "129.90",
+          "initializationElapsedMs": "626.20",
+          "maxInitializationSliceMs": "69.80"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(255, 255, 255, 0.96)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "A",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "light",
+        "writing": "horizontal",
+        "retries": 1,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "314.30",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.900",
+          "maxPaintMs": "3.600",
+          "ready": "true",
+          "initializationMs": "74.30",
+          "initializationElapsedMs": "396.70",
+          "maxInitializationSliceMs": "31.70"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(255, 255, 255, 0.96)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "B",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "light",
+        "writing": "horizontal",
+        "retries": 1,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "306.50",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.500",
+          "maxPaintMs": "4.900",
+          "ready": "true",
+          "initializationMs": "55.80",
+          "initializationElapsedMs": "370.70",
+          "maxInitializationSliceMs": "16.40"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(255, 255, 255, 0.96)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      }
+    ],
+    "candidateDarkComparison": [
+      {
+        "candidate": "A",
+        "darkPixelIdentical": true
+      },
+      {
+        "candidate": "B",
+        "darkPixelIdentical": true
+      }
+    ],
+    "selectedCases": 5,
+    "selectedCaptures": [
+      {
+        "variant": "selected",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "dark",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68,\"luminance\":0,\"lightSage\":0}",
+          "geometryBuilds": "1",
+          "textureMs": "1285.90",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "4.000",
+          "maxPaintMs": "7.800",
+          "ready": "true",
+          "initializationMs": "113.50",
+          "initializationElapsedMs": "1416.50",
+          "maxInitializationSliceMs": "55.10"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(0, 0, 0, 0.824)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "selected",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "theme": "light",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "656.20",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.750",
+          "maxPaintMs": "3.500",
+          "ready": "true",
+          "initializationMs": "74.80",
+          "initializationElapsedMs": "736.70",
+          "maxInitializationSliceMs": "18.90"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(255, 255, 255, 0.96)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "selected",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "en",
+        "width": 390,
+        "height": 844,
+        "theme": "light",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "mobile",
+          "cells": "39648",
+          "backingPixels": "1694550",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":289.1111111111111,\"y\":16.875,\"width\":77.77777777777777,\"height\":84,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "222.50",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "867",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.950",
+          "maxPaintMs": "5.900",
+          "ready": "true",
+          "initializationMs": "43.60",
+          "initializationElapsedMs": "284.80",
+          "maxInitializationSliceMs": "12.50"
+        },
+        "portrait": {
+          "x": 286,
+          "y": 93.875,
+          "width": 84,
+          "height": 84
+        },
+        "copy": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(255, 255, 255, 0.96)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "selected",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "ar",
+        "width": 1440,
+        "height": 900,
+        "theme": "light",
+        "writing": "horizontal",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "72000",
+          "backingPixels": "5162400",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":130.76388888888889,\"y\":175.296875,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "660.10",
+          "locale": "ar",
+          "writingMode": "horizontal",
+          "textRuns": "2028",
+          "clippedRuns": "0",
+          "textureRevision": "f23e85877be599c70cb2996054a5f12df157d8fb38d3b01db904f63d071d8274",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.150",
+          "maxPaintMs": "4.100",
+          "ready": "true",
+          "initializationMs": "71.70",
+          "initializationElapsedMs": "1142.90",
+          "maxInitializationSliceMs": "20.20"
+        },
+        "portrait": {
+          "x": 130,
+          "y": 358.84375,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 666.609375,
+          "y": 310.0625,
+          "width": 643.390625,
+          "height": 463.953125
+        },
+        "overflow": false,
+        "dir": "rtl",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(255, 255, 255, 0.96)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      },
+      {
+        "variant": "selected",
+        "strength": 0.78,
+        "luminance": 0,
+        "locale": "ja",
+        "width": 1440,
+        "height": 900,
+        "theme": "light",
+        "writing": "vertical",
+        "retries": 0,
+        "errors": [],
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "72960",
+          "backingPixels": "5198400",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":166.328125,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "2695.90",
+          "locale": "ja",
+          "writingMode": "vertical",
+          "textRuns": "2600",
+          "clippedRuns": "0",
+          "textureRevision": "70b4b95a46017c872a0dc82ac31161079fcd83d0c361d0470fd8f4e37a952b2f",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.850",
+          "maxPaintMs": "5.500",
+          "ready": "true",
+          "initializationMs": "82.80",
+          "initializationElapsedMs": "2786.60",
+          "maxInitializationSliceMs": "21.90"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 344.703125,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 326.0625,
+          "width": 643.390625,
+          "height": 426.609375
+        },
+        "overflow": false,
+        "dir": "ltr",
+        "portraitSource": "/images/MohdVaraLetters-refined.svg",
+        "backing": {
+          "colour": "rgba(255, 255, 255, 0.96)",
+          "mask": "url(\"http://127.0.0.1:4197/images/MohdVaraPortrait-mask.svg\")",
+          "glyphZ": "1"
+        }
+      }
+    ],
+    "selectedComparison": [
+      {
+        "theme": "dark",
+        "pixelIdentical": true,
+        "differenceBounds": null,
+        "copyBoundsUnchanged": true,
+        "portraitBoundsUnchanged": true,
+        "sceneSignatureUnchanged": true,
+        "forestSettingsUnchanged": true,
+        "backingUnchanged": true
+      },
+      {
+        "theme": "light",
+        "pixelIdentical": false,
+        "differenceBounds": [
+          959,
+          325,
+          1229,
+          641
+        ],
+        "copyBoundsUnchanged": true,
+        "portraitBoundsUnchanged": true,
+        "sceneSignatureUnchanged": true,
+        "forestSettingsUnchanged": true,
+        "backingUnchanged": true
+      }
+    ],
+    "alignmentMatrix": {
+      "cases": [
+        {
+          "locale": "en",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "en",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 332.171875,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 312.65625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "en",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 312.65625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ms",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ms",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 292.65625,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ms",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ms",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ar",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 23.111111111111114,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ar",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 48.632233796296276,
+            "y": 296.28125,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ar",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 130.76388888888889,
+            "y": 265.296875,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ar",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 370.7638888888889,
+            "y": 265.296875,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ta",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ta",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 397.734375,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ta",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 256.09375,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ta",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 256.09375,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ja",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ja",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 287.3125,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ja",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 256.3125,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "ja",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 256.3125,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 299.46875,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 268.46875,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 268.46875,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "es",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "es",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 294.203125,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "es",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "fr",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "fr",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 296.734375,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "fr",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "de",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "de",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 309.046875,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "de",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "de",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "pt-BR",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "pt-BR",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 294.203125,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "pt-BR",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "pt-BR",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 269.15625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "hi",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 219.11111111111111,
+            "y": 16.875,
+            "width": 77.77777777777777,
+            "height": 84,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "hi",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 448.2884837962963,
+            "y": 298.78125,
+            "width": 271.07928240740745,
+            "height": 292.765625,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "hi",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 956.7638888888889,
+            "y": 267.796875,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        },
+        {
+          "locale": "hi",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true",
+          "field": {
+            "x": 1196.763888888889,
+            "y": 267.796875,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          }
+        }
+      ],
+      "errors": []
+    },
+    "initialMatrixAttempt": {
+      "passedLayouts": 16,
+      "status": "Stopped at stylesheet/readiness wait after 16 layouts; full final attempt completed separately."
+    },
+    "accessibilityMotion": [
+      {
+        "theme": "dark",
+        "startupRetries": 0,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 19
+            }
+          ]
+        },
+        "paused": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68,\"luminance\":0,\"lightSage\":0}",
+          "geometryBuilds": "1",
+          "textureMs": "359.40",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "3.500",
+          "maxPaintMs": "6.900",
+          "ready": "true",
+          "initializationMs": "77.40",
+          "initializationElapsedMs": "450.40",
+          "maxInitializationSliceMs": "22.60"
+        },
+        "moving": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "true",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68,\"luminance\":0,\"lightSage\":0}",
+          "geometryBuilds": "1",
+          "textureMs": "359.40",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "51",
+          "paintMs": "0.435",
+          "maxPaintMs": "6.900",
+          "ready": "true",
+          "initializationMs": "77.40",
+          "initializationElapsedMs": "450.40",
+          "maxInitializationSliceMs": "22.60"
+        },
+        "links": [
+          {
+            "href": "#case-campus",
+            "valid": true
+          },
+          {
+            "href": "#case-insurance",
+            "valid": true
+          },
+          {
+            "href": "/en/pace-rag-case-study/",
+            "valid": true
+          },
+          {
+            "href": "#contact",
+            "valid": true
+          },
+          {
+            "href": "#work",
+            "valid": true
+          },
+          {
+            "href": "https://rxresu.me/mwara95/2-page-resume",
+            "valid": true
+          },
+          {
+            "href": "#public-engineering",
+            "valid": true
+          },
+          {
+            "href": "/en/incident-zero/",
+            "valid": true
+          },
+          {
+            "href": "/en/work-with-me/",
+            "valid": true
+          },
+          {
+            "href": "https://www.linkedin.com/in/mohdvara/",
+            "valid": true
+          },
+          {
+            "href": "https://github.com/MohdVara",
+            "valid": true
+          }
+        ]
+      },
+      {
+        "theme": "light",
+        "startupRetries": 0,
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 19
+            }
+          ]
+        },
+        "paused": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "877.30",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.800",
+          "maxPaintMs": "3.500",
+          "ready": "true",
+          "initializationMs": "57.60",
+          "initializationElapsedMs": "940.70",
+          "maxInitializationSliceMs": "17.70"
+        },
+        "moving": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "true",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.78,\"luminance\":0,\"lightSage\":0.18}",
+          "geometryBuilds": "1",
+          "textureMs": "877.30",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "26",
+          "paintMs": "0.492",
+          "maxPaintMs": "3.500",
+          "ready": "true",
+          "initializationMs": "57.60",
+          "initializationElapsedMs": "940.70",
+          "maxInitializationSliceMs": "17.70"
+        },
+        "links": [
+          {
+            "href": "#case-campus",
+            "valid": true
+          },
+          {
+            "href": "#case-insurance",
+            "valid": true
+          },
+          {
+            "href": "/en/pace-rag-case-study/",
+            "valid": true
+          },
+          {
+            "href": "#contact",
+            "valid": true
+          },
+          {
+            "href": "#work",
+            "valid": true
+          },
+          {
+            "href": "https://rxresu.me/mwara95/2-page-resume",
+            "valid": true
+          },
+          {
+            "href": "#public-engineering",
+            "valid": true
+          },
+          {
+            "href": "/en/incident-zero/",
+            "valid": true
+          },
+          {
+            "href": "/en/work-with-me/",
+            "valid": true
+          },
+          {
+            "href": "https://www.linkedin.com/in/mohdvara/",
+            "valid": true
+          },
+          {
+            "href": "https://github.com/MohdVara",
+            "valid": true
+          }
+        ]
+      }
+    ],
+    "liveTheme": {
+      "states": [
+        {
+          "theme": "light",
+          "imageScheme": "light",
+          "filter": "saturate(1) brightness(1) contrast(1)",
+          "source": "/images/MohdVaraLetters-refined.svg",
+          "forest": {
+            "x": 956.7638888888889,
+            "y": 222.65625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.78,
+            "luminance": 0,
+            "lightSage": 0.18
+          },
+          "overflow": false
+        },
+        {
+          "theme": "dark",
+          "imageScheme": "dark",
+          "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+          "source": "/images/MohdVaraLetters-refined.svg",
+          "forest": {
+            "x": 956.7638888888889,
+            "y": 222.65625,
+            "width": 328.47222222222223,
+            "height": 354.75,
+            "strength": 0.68,
+            "luminance": 0,
+            "lightSage": 0
+          },
+          "overflow": false
+        }
+      ],
+      "errors": []
+    },
+    "isolation": [
+      {
+        "name": "before",
+        "normal": true,
+        "thumbnail": true,
+        "native": false
+      },
+      {
+        "name": "A",
+        "normal": true,
+        "thumbnail": true,
+        "native": false
+      },
+      {
+        "name": "B",
+        "normal": true,
+        "thumbnail": true,
+        "native": true
+      }
+    ],
+    "failedIsolationAttempt": "Multi-image screenshot timeout after fonts loaded; one-asset-at-a-time retry completed normal, thumbnail and native captures.",
+    "qaSelectorCorrection": "Initial live-theme test used wrong display-control selector; corrected to actual display-settings selector and final check passed.",
+    "selectedStartupRetries": 0,
+    "matrixRetriedLocales": []
+  },
+  "performance": {
+    "entry": {
+      "path": "assets/index-Bv9FY2Yo.js",
+      "bytes": 214359,
+      "sha256": "25d0e3fa644e622fce22016b774390c534fa596f341dac93a566960a6ca2cf91",
+      "gzip": 65540
+    },
+    "entryBudget": 215000,
+    "budgetRaised": false,
+    "svgBytes": 1661916,
+    "immediateBaselineSvgBytes": 1673897,
+    "svgDeltaBytes": -11981,
+    "lazyForest": {
+      "path": "assets/renderer-DgLthb8r.js",
+      "bytes": 51206,
+      "sha256": "029cc71a56ab1efb2873c1e43a6bf82574aa44ab1b9701863931d5312f123c36",
+      "gzip": 20176
+    },
+    "newRuntimeImageAnalysis": false,
+    "newCanvas": false,
+    "newNetworkInference": false,
+    "perFrameColourMapping": false,
+    "noComparativeSpeedupClaim": true
+  },
+  "source_fingerprint": "1d34e238ab1cb6fb21de3a2ca04a377679ee9e6982a584de95a80d17c825fe8c",
+  "artifact_fingerprint": "0e0b837b5b25e3cb0738bfd653cf7cfd50ea6cc612dedbc158c560de35f33707",
+  "safety": {
+    "scope": "Portfolio only; owner preexisting work preserved",
+    "glyphGeometryChanged": false,
+    "copyLayoutNavigationChanged": false,
+    "newBackgroundSuppression": false,
+    "maskChanged": false,
+    "forestReplaced": false,
+    "newPanelHaloOutlineOrRasterFace": false,
+    "analyticsHostingChanged": false,
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "limits": [
+    "Original source glyph density and small-size antialiasing still constrain hair and fine eye/nose/mouth detail.",
+    "Negative spaces are preserved, not reconstructed into new highlight holes.",
+    "Opaque ink/paper contrast is not antialiased-pixel contrast or WCAG certification.",
+    "No participant recognition study or physical-device/screen-reader certification.",
+    "19 incomplete axe colour-contrast checks per theme require contextual review.",
+    "Broad application locale/browser suite stopped at startup readiness; full targeted 44-layout portrait matrix passed."
+  ],
+  "implementation": [
+    {
+      "path": "scripts/artwork/portrait-paper-ink.mjs",
+      "sha256": "c1b2764f6697dd4b79c40e28cd60e776d808ba9faa6ff8d1c150853c48969ed5"
+    },
+    {
+      "path": "scripts/artwork/portrait.mjs",
+      "sha256": "9add190cad070b3ea5e7d4904b015db1dbefc2850631b511ab3a6bec7ec119d6"
+    },
+    {
+      "path": "tests/portrait-paper-ink.test.mjs",
+      "sha256": "4703a0f138ea1e2ea9a541be49a794da2f0012edd61bec02db21ff413fd031f5"
+    },
+    {
+      "path": "src/AsciiForest/portraitGeometry.json",
+      "sha256": "39cbda789a079c1cfd693dca96cde9ca20368ba06dfb1b7d27aa3abbaba1bd45"
+    },
+    {
+      "path": "public/images/MohdVaraLetters-refined.svg",
+      "sha256": "50f93b92b44270cc0f99484697a9ce6bcd0271aa5f85f25516b64dbc299f35f9"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "output/playwright/ink-reconstruction-v2/A.svg",
+      "bytes": 1663014,
+      "sha256": "c4ff8f72fbb869c4b7670447892fff00b216657cd9d0e992dbd1710afa2509fc"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/B-native-glyphs.png",
+      "bytes": 504886,
+      "sha256": "8606abe63c17e148f92d130ed3815e63850cae73e47adf5a04464a6808801267"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/B.svg",
+      "bytes": 1661916,
+      "sha256": "50f93b92b44270cc0f99484697a9ce6bcd0271aa5f85f25516b64dbc299f35f9"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/DIAGNOSIS.md",
+      "bytes": 2805,
+      "sha256": "cf83759ceaa6994ac241d6262835b2f7eefd43788391fc4ff2739e19a191a2e8"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/accessibility-motion.json",
+      "bytes": 5879,
+      "sha256": "a48b4b252352bed0ca2cff3fe0adfb1f0549b4d19069e0c1620d14342baae520"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/accessibility-motion.mjs",
+      "bytes": 2372,
+      "sha256": "2207bc758932b8977014e9d11467fce1bea4971e1252351664d705999614e8f6"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/artifact/artifact.json",
+      "bytes": 145649,
+      "sha256": "597609f258e94f5141e6d70af845b645dc0fea44c546a34e4f9a644690893324"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline/palette.mjs",
+      "bytes": 3584,
+      "sha256": "687bf7afb5b4432094e05fe0a244b5810c4792626df5949d4059d66cce5c7399"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline/portrait.css",
+      "bytes": 8033,
+      "sha256": "ce7d170ce5bbdf417484503efaa2b848aaef31f91548f2452dbc2bda9cb8fbfd"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline/portrait.svg",
+      "bytes": 1673897,
+      "sha256": "cff9639e4230065eddafd5dac06f7443372892b2d8317370ead4efeb488a761d"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline-computed.json",
+      "bytes": 1970200,
+      "sha256": "982c4dbe0b189898005df018f7d7dd0e36d9a8d73bc43ce0694e179367d639e4"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline-dark-hero.png",
+      "bytes": 891107,
+      "sha256": "9663d4ac0750f9ad246f5dde3625c88de11748b58e00083428af7b47fc8e1178"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline-dark-portrait.png",
+      "bytes": 165236,
+      "sha256": "95ff88f80c4cdb973f0b03c3bc4718f2ddb2ce1b29c364fc40c02d365cefead7"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline-light-hero.png",
+      "bytes": 1035402,
+      "sha256": "bc99c813a6ad0792003c5d7e84671f5d4ccdf78a201f381a4965f199a89b36a7"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/baseline-light-portrait.png",
+      "bytes": 187816,
+      "sha256": "1ffb0540010cde03d545392794f302ab6ca4db51c34f4061830207b2f07dbca3"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidate-dark-comparison.json",
+      "bytes": 126,
+      "sha256": "7cf7b3c4e5ccb8c40b997ac0ef8d0a9aad487ca6eb3f75a37e8e9f903979b549"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/A-en-1440-dark-horizontal-portrait.png",
+      "bytes": 165168,
+      "sha256": "829c60148adaeeee55804eecb130f23fada83952ad5db89f6f4c4c39b0c13e98"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/A-en-1440-dark-horizontal.png",
+      "bytes": 891107,
+      "sha256": "9663d4ac0750f9ad246f5dde3625c88de11748b58e00083428af7b47fc8e1178"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/A-en-1440-light-horizontal-portrait.png",
+      "bytes": 187300,
+      "sha256": "822f2f2f4496bc39b0a8b1a7ba41a72c1a1142d027b3aa7c49fd684dc6ed87f4"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/A-en-1440-light-horizontal.png",
+      "bytes": 1035190,
+      "sha256": "5a9ca6c0908610d3c100d3c57ac5a2d8f41abbdf932d3c81be8a9036d8f9a59e"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/B-en-1440-dark-horizontal-portrait.png",
+      "bytes": 165236,
+      "sha256": "95ff88f80c4cdb973f0b03c3bc4718f2ddb2ce1b29c364fc40c02d365cefead7"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/B-en-1440-dark-horizontal.png",
+      "bytes": 891107,
+      "sha256": "9663d4ac0750f9ad246f5dde3625c88de11748b58e00083428af7b47fc8e1178"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/B-en-1440-light-horizontal-portrait.png",
+      "bytes": 187685,
+      "sha256": "e89177ff951430ef81a0ed2ce2f6a1a39a5487b7ca7ca8ed0f968c3d88b133d4"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/B-en-1440-light-horizontal.png",
+      "bytes": 1035602,
+      "sha256": "19677514d0d0f3e50eb23a60804cccf656a186e40148eed32b41df1401773700"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/before-en-1440-dark-horizontal-portrait.png",
+      "bytes": 165168,
+      "sha256": "829c60148adaeeee55804eecb130f23fada83952ad5db89f6f4c4c39b0c13e98"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/before-en-1440-dark-horizontal.png",
+      "bytes": 891107,
+      "sha256": "9663d4ac0750f9ad246f5dde3625c88de11748b58e00083428af7b47fc8e1178"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/before-en-1440-light-horizontal-portrait.png",
+      "bytes": 187816,
+      "sha256": "1ffb0540010cde03d545392794f302ab6ca4db51c34f4061830207b2f07dbca3"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/before-en-1440-light-horizontal.png",
+      "bytes": 1035402,
+      "sha256": "bc99c813a6ad0792003c5d7e84671f5d4ccdf78a201f381a4965f199a89b36a7"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates/results.json",
+      "bytes": 9727,
+      "sha256": "44f3d49ab4be59281f4d276e8711a561d1b20e7abfc3df3151834e15c1fc719d"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/candidates.json",
+      "bytes": 1294,
+      "sha256": "702a588aa12c159d80af4501969eba24ced03431103b5c8e0f73dfaad7766ef4"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/capture.mjs",
+      "bytes": 3938,
+      "sha256": "b97a960c839e418a7fb8ce6ed59c0ce19a33b9d0baee2e63bedbfdd7ed312030"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/colour-and-raster-measurements.json",
+      "bytes": 20574,
+      "sha256": "c31977680d592fbbe52b0b0e7737cef9c258af5a29170dcfc41cdedf54c947ce"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/comparison.html",
+      "bytes": 3372,
+      "sha256": "8aec511775ec7894b83a7b4201433e2c96631c878ee8ca64d04172d9a941b663"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/diagnose.mjs",
+      "bytes": 4481,
+      "sha256": "cfcd2086537f6e646e7ba5a8aded055c9b5dbeb3a61f76f5b6df6490eaf7e756"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/gallery.mjs",
+      "bytes": 1548,
+      "sha256": "6cd9cecbb01242afe6454d386baee60a97e11962dec3fe6a11f311647780d418"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/i18n/results.json",
+      "bytes": 152,
+      "sha256": "97537cd01f4b5429461f9a1c31daa68bbb2849269b68c170ea70d4b81651cd7c"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolated-A-165.png",
+      "bytes": 23685,
+      "sha256": "339bf4054a7db10aec9e8d2cf3480cf98f2948e0186400604905b6f324017db6"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolated-A-330.png",
+      "bytes": 95667,
+      "sha256": "af4fc5210b83c695b908651f0b5a32195319198e1b06899c144d4aecb30f5674"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolated-B-165.png",
+      "bytes": 23617,
+      "sha256": "577716655f9f4348861af7599d25b514c956a1a25132285f1fd5af919c137b23"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolated-B-330.png",
+      "bytes": 95848,
+      "sha256": "9afc1f56dd3b2adfdd13b778eb230380cc1c0a55bdc432f1a7cbe46650905175"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolated-before-165.png",
+      "bytes": 23621,
+      "sha256": "9b067420409bb03ba596c4cd50a8a0fdcb8508c147b57435fac1b3adc17e5167"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolated-before-330.png",
+      "bytes": 95241,
+      "sha256": "489721ac0d13f89fb101dbe24159f52955790684c20e023c42e8a9d2a1d3f3dd"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolation-first-attempt.mjs",
+      "bytes": 1918,
+      "sha256": "c10da9ae843d8a30ef75af75a8b6402ee09a0272cfd34048bf9ed3f75997e108"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolation-results.json",
+      "bytes": 273,
+      "sha256": "43bcf590fc096a89aaf07fec5d4977516b4c81032730366f5041d1a547659501"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolation.html",
+      "bytes": 747,
+      "sha256": "e336ce9d28a4dfab66c73a48b60da160a98cebc4d73119b6703d319d977c8d50"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/isolation.mjs",
+      "bytes": 1754,
+      "sha256": "0cc42f179a2bb2fc7be20c26cf6553294ae808d99d3e388b88f8b9c9728621eb"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/live-theme-first-attempt.log",
+      "bytes": 417,
+      "sha256": "43f1eff6528142d0bb6e7a414ddf6e4357a7cb450a6eb6e45ff44633f8927a0d"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/live-theme.json",
+      "bytes": 886,
+      "sha256": "4a58489b65c36cd3b9e9a937ae4c79df8593ce02b55f8fd05aec3676e98ce4a0"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/live-theme.mjs",
+      "bytes": 2054,
+      "sha256": "de280346a4a202bde01e51750cad9f3cfaa7668870a9828d8a522235c1168c46"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/locale-matrix-first-attempt.json",
+      "bytes": 7209,
+      "sha256": "6d127e1616e54a4793df3075e405975d08b1f017a4ca66bdefff9683c9cef396"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/locale-matrix.json",
+      "bytes": 19781,
+      "sha256": "ff0dc816c565642cf537893e2cceed7099d3d0f1e514d129a0dae9027cd0ae46"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/locale-matrix.mjs",
+      "bytes": 2884,
+      "sha256": "968b0a3e8a0849fa1b8946a15dac2d585454acd02e9d320926e8bfeb8a2c68e8"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/accessibility.log",
+      "bytes": 249,
+      "sha256": "a2b6edf886bd7b7d47d4dbc66d4a8bd5b7a594c05311e36d1dcc633c3a7aaac9"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/artifact.log",
+      "bytes": 351,
+      "sha256": "08d7ac59c8d92c21f1f40d3800c38bab334eb59aa9a4639ed604533c068fc1a1"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/build.log",
+      "bytes": 8927,
+      "sha256": "55d443a7feb09c0817efb362cba094a2e29301d8abc61278282cfa8b708a49e1"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/candidates.log",
+      "bytes": 157,
+      "sha256": "409480046b5b0ad36a05a4cd3a93195c046c43e90848484c693d121730e3567a"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/diagnose-selected.log",
+      "bytes": 1174,
+      "sha256": "8cc0759e6219a8ab92a36a42eca7b30fcfa820170d33c58574749242c5c527f0"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/diagnose.log",
+      "bytes": 1174,
+      "sha256": "8cc0759e6219a8ab92a36a42eca7b30fcfa820170d33c58574749242c5c527f0"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/focused.log",
+      "bytes": 418,
+      "sha256": "50719248f489026d0e3e8506aa1e5a4eea0c4c9d43055111a8ea21a7d03e4dbb"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/i18n-browser.log",
+      "bytes": 263,
+      "sha256": "5e8ddfc71926b5b68b209d9489c1478f3b4598d18f7dd635f6dc64b5455dea35"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/i18n.log",
+      "bytes": 609,
+      "sha256": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/isolation-final.log",
+      "bytes": 68,
+      "sha256": "90f3605ee1eb0f084a43479e057840e076e2ebe6d3d3ae62105e71d71ae2ba8e"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/isolation.log",
+      "bytes": 507,
+      "sha256": "d6a2e8937e8bfd110cd3f27d9d0fcc41ba5dc0bd58df7f68ba72b52f6c99ffc5"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/lint.log",
+      "bytes": 45,
+      "sha256": "57a6f3fa719ae46956d55d0df50044fc56567b33a3da32d300fec46f09e33034"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/live-theme-final.log",
+      "bytes": 470,
+      "sha256": "0a00d396ef86727bb139ccba2cd0082146c7f2f81e7c36d5612ae15c95c346f1"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/live-theme.log",
+      "bytes": 417,
+      "sha256": "43f1eff6528142d0bb6e7a414ddf6e4357a7cb450a6eb6e45ff44633f8927a0d"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/matrix-final.log",
+      "bytes": 294,
+      "sha256": "1d77464b80f18174edc2534110cba029eb75ea9a67f5872d36e450f68b64af12"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/matrix.log",
+      "bytes": 405,
+      "sha256": "78a7acbb7cfe09de332d8a13d05222c154e4e99e1517950ffc763287ebc1890a"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/selected.log",
+      "bytes": 158,
+      "sha256": "8560c34f1453aab0df24be80f2ef8229797e5c8370807097a42159491affd039"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/tests.log",
+      "bytes": 19491,
+      "sha256": "1b05c6eda050b3c7a8b1be3f2e9c2b509f2fc6b77209dc98bb76496498e17faa"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/logs/typecheck.log",
+      "bytes": 48,
+      "sha256": "95bab48ec1244bcdc8f5253156f2bae74cd7ae934fd55cf99cd0c42c341a7d27"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/measure.py",
+      "bytes": 2539,
+      "sha256": "7e5157dd768b45b7329722c739ef61d68136bb2a9938fc6f38f6149ce546f1a1"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/prepare.mjs",
+      "bytes": 627,
+      "sha256": "9ac0d574c43f1e1bfc5d68ea9abd2cf085748276bd4f50e92ec425899d9b04bb"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/results.json",
+      "bytes": 8125,
+      "sha256": "7a3a70835981d6b1d11cc16476087d6bba987abd35918d5744b12ef98caa6a97"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-ar-1440-light-horizontal-portrait.png",
+      "bytes": 180793,
+      "sha256": "daeeb643c1ea976405cb0f21975b063d262571faf41ea93dc6c27a877bea2527"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-ar-1440-light-horizontal.png",
+      "bytes": 913424,
+      "sha256": "803e6da0309fa02527bf7db58e5878950bb8806c4cfd0ff6cf06e21dc07740fb"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-en-1440-dark-horizontal-portrait.png",
+      "bytes": 165236,
+      "sha256": "95ff88f80c4cdb973f0b03c3bc4718f2ddb2ce1b29c364fc40c02d365cefead7"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-en-1440-dark-horizontal.png",
+      "bytes": 891107,
+      "sha256": "9663d4ac0750f9ad246f5dde3625c88de11748b58e00083428af7b47fc8e1178"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-en-1440-light-horizontal-portrait.png",
+      "bytes": 187685,
+      "sha256": "e89177ff951430ef81a0ed2ce2f6a1a39a5487b7ca7ca8ed0f968c3d88b133d4"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-en-1440-light-horizontal.png",
+      "bytes": 1035602,
+      "sha256": "19677514d0d0f3e50eb23a60804cccf656a186e40148eed32b41df1401773700"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-en-390-light-horizontal-portrait.png",
+      "bytes": 7378,
+      "sha256": "ccdc5ffcb402157d2e19675d31fe8bc565465a8c53079a5e1db330caba3549c1"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-en-390-light-horizontal.png",
+      "bytes": 133167,
+      "sha256": "c87658f1856eeb34a5d7d57cf0c93b4567d462e17b63d68a4a0d8bd274747a12"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-ja-1440-light-vertical-portrait.png",
+      "bytes": 192616,
+      "sha256": "a520221daade8fc471a26ba8022d73959b0d8f9d0829e153dafdadb04cef4489"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected/selected-ja-1440-light-vertical.png",
+      "bytes": 1002448,
+      "sha256": "4d16ca5b8ea2e5cebe2ca3a6006ded06349379825870d3472db746c7ed826691"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected-comparison.json",
+      "bytes": 573,
+      "sha256": "9baaab7dce864da74ab6a1145ece754fdbea5f65e6a348c2f45c0e4e96622efe"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected-computed.json",
+      "bytes": 1967829,
+      "sha256": "5854739cc02c965e1d383aff154764a1f3723d4592faee0d70dac741b2ded1e2"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected-dark-hero.png",
+      "bytes": 891107,
+      "sha256": "9663d4ac0750f9ad246f5dde3625c88de11748b58e00083428af7b47fc8e1178"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected-dark-portrait.png",
+      "bytes": 165236,
+      "sha256": "95ff88f80c4cdb973f0b03c3bc4718f2ddb2ce1b29c364fc40c02d365cefead7"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected-light-hero.png",
+      "bytes": 1035602,
+      "sha256": "19677514d0d0f3e50eb23a60804cccf656a186e40148eed32b41df1401773700"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/selected-light-portrait.png",
+      "bytes": 187685,
+      "sha256": "e89177ff951430ef81a0ed2ce2f6a1a39a5487b7ca7ca8ed0f968c3d88b133d4"
+    },
+    {
+      "path": "output/playwright/ink-reconstruction-v2/verify.py",
+      "bytes": 8675,
+      "sha256": "27017fc04fefd3c33dec99262a29d56c9e9b4d71a85c8813ba149aff7638b35d"
+    }
+  ]
+}

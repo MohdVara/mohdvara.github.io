@@ -169,3 +169,39 @@ Desktop section checks cover 1366×768, 1440×900 and 1920×1080 across all loca
 Addendum files: `src/i18n/controls.tsx` contains the shared disclosure and compact selector status; `context.ts` and `Experience.tsx` provide the route to the original link; `src/App.tsx` places and measures the disclosure below navigation; `i18n.css` owns the theme-aware panel and responsive section sizing. The custom System Defence header and 404 view also expose the disclosure. `IncidentZeroRoute.tsx` safely renders its no-JavaScript text without apostrophe-related hydration mismatches. Locale catalogs, source hashes, coverage/status, static/unit tests, both browser QA scripts and `AGENTS.md` complete the maintenance changes. PACE-RAG's conversational package and generation/retrieval logic are untouched by this addendum.
 
 Validation evidence is recorded in `PME-V1-QA.json`; screenshots and detailed browser geometry remain in the ignored `output/playwright/` artifacts. Machine translations still require fluent editorial review. No deployment was performed.
+
+
+## Native vertical titles in secondary project cards
+
+At widths of 900px and above, the Japanese and Simplified Chinese secondary project cards use their available full width: metadata spans the top, the existing title is written natively with `vertical-rl` in the left column, and the role, summary, scope, contribution and expandable details remain horizontal on the right. The same heading stays in the DOM once, with unchanged text and anchors. This owner-requested title treatment is independent of the optional editorial reading mode, just like the native hero name column. Other locales retain their existing layout. Narrow screens and the largest-text setting revert to horizontal titles and natural reflow. No translation keys, career claims or PACE-RAG behavior changed.
+
+Verification for this change is recorded separately in `verification/cjk-project-titles-v1.json`, with screenshots and browser-check artifacts in `output/playwright/cjk-project-titles/`.
+
+
+## Incident Zero localization and history follow-up
+
+The Japanese opening previously contained an English sentence inside an otherwise translated catalog value. The complete paragraph is now Japanese, with machine-translation provenance retained. Three conditional canvas labels (terminal restoration, reviewed payroll and mismatched payroll) are now extracted and translated in every non-English locale. Each conditional branch calls `text()` with a literal; the terminal caption is centered and wrapped within the canvas bounds, including the generated terminal position near the lower-right edge.
+
+History restoration now discards obsolete asynchronous locale loads, invalidates pending manual language switches when history moves, and resynchronizes the URL locale on a persisted `pageshow` event. Focused tests exercise deliberately reordered loads, cancellation, cached restoration and current versus obsolete failures. The owner's exact mixed-language screenshot was not reproduced before this change; this is a fix for the identified history race and missing cache-restoration synchronization, with local regression evidence in `verification/incident-localization-fixes-v1.json`. No production deployment or fluent linguistic review is claimed.
+
+
+## Text link feedback
+
+Ordinary text links share an accent color, underline and theme background on hover and keyboard focus. Non-menu disclosure summaries use the same feedback. Button links and header menu items keep their existing treatment. The multilingual case-study card now displays its existing localized project title above the description. Scoped browser evidence and the incomplete broader locale-browser run are recorded in `verification/text-link-feedback-v1.json`. No deployment is claimed.
+
+
+## Additional systems cards
+
+The Hostel and Asset Management systems share a two-column card grid from 1000px, with subtle surfaces, accent borders and consistent padding. Japanese and Simplified Chinese titles use native vertical typography from 900px while details stay horizontal. Narrow screens use one column; the largest-text setting also restores horizontal titles. Existing text, translations, historical disclaimers and repository links are preserved. Verification is recorded in `verification/additional-systems-layout-v1.json`.
+
+
+## Expanded project details and CJK reading preference
+
+Expanded Rental, Meeting and HR project details sit beside the always-visible overview from 1100px. The divider follows reading direction; smaller screens and the largest-text setting retain normal stacked flow. Japanese and Simplified Chinese now default to vertical editorial mode. Visitors can select Horizontal or Vertical in the language panel, and their saved choice takes precedence on refresh and language changes. Project titles, including Additional Systems, follow that setting on supported desktop widths. Navigation, controls, detail prose and PACE-RAG stay horizontal. This supersedes the earlier horizontal-default and independently vertical project-title descriptions above. See `verification/project-details-reading-v1.json` for current local evidence.
+
+
+## PME v1.5 semantic artwork
+
+Portfolio forests, rivers and accent words now use localized semantic vocabulary through the vendored NAAE Unicode adapter. The shared scene geometry remains independent of language; Arabic and Indic words use complete shaped runs, with optional native CJK vertical artwork. Opening and ending scenery share full-width masks, and river tributaries have stronger S bends.
+
+The v1.5 specification restores horizontal Japanese/Chinese defaults, superseding the preceding default-setting description; saved visitor choices still take precedence. See [PME v1.5 implementation and maintenance](PME-V1.5-SEMANTIC-ART.md) and `verification/pme-v1.5-semantic-art.json` for architecture, synchronization, measured results and limitations. New translations remain machine-authored and require qualified review. No deployment is claimed.

@@ -1,0 +1,254 @@
+{
+  "schema_version": "1.0",
+  "task": "naae-lightmode-portrait-palette-v1",
+  "timestamp": "2026-10-23T04:19:14.921116+00:00",
+  "timezone": "Asia/Kuching",
+  "status": "PARTIAL \u2014 VISUAL SELECTION AND BUILD VERIFICATION PENDING",
+  "provisional_variant": "B \u2014 palette + contrast",
+  "chosen_after_visual_comparison": false,
+  "candidates": [
+    {
+      "name": "A",
+      "variant": "palette",
+      "glyphs": 4632,
+      "colours": 91,
+      "preset": {
+        "variant": "contrast",
+        "bins": 48,
+        "shadow": "#57301f",
+        "midtone": "#99551e",
+        "highlight": "#c78a29",
+        "hairShadow": "#362820",
+        "hairHighlight": "#795335"
+      },
+      "geometryChanged": false,
+      "darkAttributesChanged": false,
+      "background": {
+        "whiteOpacity": 0.93,
+        "forestSaturation": 1
+      },
+      "bytes": 1662203
+    },
+    {
+      "name": "B",
+      "variant": "contrast",
+      "glyphs": 4632,
+      "colours": 86,
+      "preset": {
+        "variant": "contrast",
+        "bins": 48,
+        "shadow": "#57301f",
+        "midtone": "#99551e",
+        "highlight": "#c78a29",
+        "hairShadow": "#362820",
+        "hairHighlight": "#795335"
+      },
+      "geometryChanged": false,
+      "darkAttributesChanged": false,
+      "background": {
+        "whiteOpacity": 0.93,
+        "forestSaturation": 1
+      },
+      "bytes": 1662033
+    },
+    {
+      "name": "C",
+      "variant": "background",
+      "glyphs": 4632,
+      "colours": 86,
+      "preset": {
+        "variant": "contrast",
+        "bins": 48,
+        "shadow": "#57301f",
+        "midtone": "#99551e",
+        "highlight": "#c78a29",
+        "hairShadow": "#362820",
+        "hairHighlight": "#795335"
+      },
+      "geometryChanged": false,
+      "darkAttributesChanged": false,
+      "background": {
+        "whiteOpacity": 0.97,
+        "forestSaturation": 0.7
+      },
+      "bytes": 1662033
+    }
+  ],
+  "geometry_and_dark_attributes_exactly_preserved": true,
+  "source": {
+    "path": "public/images/MohdVaraLetters.svg",
+    "sha256": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+    "unchanged": true
+  },
+  "output": {
+    "path": "public/images/MohdVaraLetters-refined.svg",
+    "sha256": "7f27ebd82b43b03f6b900c7a80a6ebfc7abd054967b506cf581aac7355944532",
+    "beforeBytes": 1600107,
+    "afterBytes": 1662033,
+    "extraBytes": 61926
+  },
+  "tests": {
+    "full": {
+      "passed": 187,
+      "failed": 0
+    },
+    "focusedPortrait": {
+      "passed": 11,
+      "failed": 0
+    },
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "localization": {
+      "errors": 0,
+      "editorialWarnings": 97,
+      "locales": 11,
+      "units": 1488,
+      "missing": 0,
+      "stale": 0
+    },
+    "build": "INCOMPLETE \u2014 ERR_SWC_NATIVE_CACHE loading Vite config",
+    "browser": "NOT RUN \u2014 automatic approval review failed, workspace out of credits",
+    "routeAudit": "NOT RUN on current change",
+    "darkPixelComparison": "NOT RUN"
+  },
+  "palette": {
+    "brownShadow": "#57301f",
+    "ochreMidtone": "#99551e",
+    "amberHighlight": "#c78a29",
+    "hairShadow": "#362820",
+    "hairHighlight": "#795335",
+    "tonalExpansion": 1.12,
+    "pivot": 0.48,
+    "bins": 48,
+    "classes": 86,
+    "lightCssFilter": "identity",
+    "darkCssFilter": "saturate(1.2) brightness(1.25) contrast(1)"
+  },
+  "background": {
+    "selectedWhiteOpacity": 0.93,
+    "hairAlpha": [
+      0.85,
+      0.9
+    ],
+    "environmentStrength": 0.68,
+    "candidateCOnly": {
+      "whiteOpacity": 0.97,
+      "backdropSaturation": 0.7
+    }
+  },
+  "performance": {
+    "entryBudget": 215000,
+    "budgetRaised": false,
+    "currentEntryBytes": null,
+    "newRuntimeJavascript": false,
+    "perFrameProcessing": false,
+    "newCanvas": false,
+    "runtimeCostsMeasured": false
+  },
+  "limits": [
+    "No visual winner selected; B provisional.",
+    "No new full-hero/portrait screenshots; comparison gallery is palette-only and excludes forest.",
+    "No completed production build or current bundle budget verification.",
+    "No dark-mode pixel equivalence claim.",
+    "No real device, screen-reader or participant session."
+  ],
+  "safety": {
+    "glyphGeometryChanged": false,
+    "portraitSourceChanged": false,
+    "copyChanged": false,
+    "layoutChanged": false,
+    "forestReplaced": false,
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "approvalRestrictionBypassed": false
+  },
+  "implementation": [
+    {
+      "path": "scripts/artwork/portrait-light-palette.mjs",
+      "sha256": "380b9da6c34da1340487aa25e05864fe10de8b82e8cc87ae0d559258701462c7"
+    },
+    {
+      "path": "scripts/artwork/portrait.mjs",
+      "sha256": "ec492aad042f5343438ed368587b1fccf571f4818c762b78d089607596ad215e"
+    },
+    {
+      "path": "src/AsciiForest/AsciiForest.css",
+      "sha256": "b09a83c6610cb81bfb30c51b714f3e30c64185613a58f11a052859f0914013fb"
+    },
+    {
+      "path": "tests/portrait-light-palette.test.mjs",
+      "sha256": "b85724a3eae3907e069209ced0d355ee2ed0bb1983ad1b40b6b3f6d137f91a4b"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "output/playwright/light-portrait-palette-v1/A.svg",
+      "sha256": "4f32912b14c6041d5338805f7c3afbf0fc77c87ae81b0a7d390820795da1c371"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/B.svg",
+      "sha256": "7f27ebd82b43b03f6b900c7a80a6ebfc7abd054967b506cf581aac7355944532"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/C-background.css",
+      "sha256": "a3b13fb61bf201349b397941e83fa30bd92c7551481772fde862b425c83285f5"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/C.svg",
+      "sha256": "7f27ebd82b43b03f6b900c7a80a6ebfc7abd054967b506cf581aac7355944532"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/baseline/portrait.css",
+      "sha256": "8ae54d97ab5209da3c8c30b3e8ce0803b53ff83292871510e1c3109077c49a56"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/baseline/portrait.mjs",
+      "sha256": "44d612d7084d10404bde5ffa91ee7d40d57e481f841217ea66bbb55cfeb63d47"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/baseline/portrait.svg",
+      "sha256": "523da84484f0299ae4c11e1de399ab7f3641bf0f97a4d8ca410b829d20eb128d"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/baseline/renderer.ts",
+      "sha256": "717b7ee88f92649d644620d41337dbd8319ba4596ef71e44d0dc0263ff7c9574"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/candidates.json",
+      "sha256": "d4a8bf69aa82c9a518cd02fb57e881bcf766bbbcdbee836d6dc4d90d309b8d64"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/comparison.html",
+      "sha256": "69fb459547baece9e78ba787083ed337e82976e50bc8683894d825398495778a"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/logs/build.log",
+      "sha256": "e732f5b05fdc269dadcc6b882cf1e9a1bb3ec4f69c89c085c587a832c73c8f18"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/logs/full-tests.log",
+      "sha256": "5cb712e441b732233e71053745c15bcb172751dc0feb9aa73f2cb4e3ad70713d"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/logs/i18n.log",
+      "sha256": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/logs/lint.log",
+      "sha256": "57a6f3fa719ae46956d55d0df50044fc56567b33a3da32d300fec46f09e33034"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/logs/tests.log",
+      "sha256": "0821fe1390fdc9cd403d81d9af11352ffd5bfa77c0dc80a5eae3ddcdabe7bcf0"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/logs/typecheck.log",
+      "sha256": "95bab48ec1244bcdc8f5253156f2bae74cd7ae934fd55cf99cd0c42c341a7d27"
+    },
+    {
+      "path": "output/playwright/light-portrait-palette-v1/prepare.mjs",
+      "sha256": "bbe0a22315ea46bc46389ea2c7665997baeb7ce7c3056e5f155e5b7470e3c14d"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "task": "light-illustration-restore",
+  "timestamp": "2026-10-23T08:07:19.764635+00:00",
+  "status": "COMPLETE",
+  "lightAsset": "public/images/portrait.webp",
+  "darkAsset": "public/images/MohdVaraLetters-refined.svg",
+  "lightGlyphBackingRemoved": true,
+  "darkMatchedPixelsUnchanged": true,
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "buildPrerender": "PASS",
+    "focusedTests": 6,
+    "liveThemeSequence": [
+      "light",
+      "dark",
+      "light"
+    ],
+    "desktopAndMobileNoOverflow": true,
+    "routeAudit": {
+      "routes": 108,
+      "issues": []
+    }
+  },
+  "browser": {
+    "states": [
+      {
+        "theme": "light",
+        "source": "/images/portrait.webp",
+        "currentSrc": "http://127.0.0.1:4197/images/portrait.webp",
+        "filter": "saturate(1) brightness(1) contrast(1)",
+        "backing": "none",
+        "bounds": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "alt": "Illustrated portrait of Mohd. Paramasvara",
+        "overflow": false
+      },
+      {
+        "theme": "dark",
+        "source": "/images/MohdVaraLetters-refined.svg",
+        "currentSrc": "http://127.0.0.1:4197/images/MohdVaraLetters-refined.svg",
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "backing": "\"\"",
+        "bounds": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "alt": "Illustrated portrait of Mohd. Paramasvara",
+        "overflow": false
+      },
+      {
+        "theme": "light",
+        "source": "/images/portrait.webp",
+        "currentSrc": "http://127.0.0.1:4197/images/portrait.webp",
+        "filter": "saturate(1) brightness(1) contrast(1)",
+        "backing": "none",
+        "bounds": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "alt": "Illustrated portrait of Mohd. Paramasvara",
+        "overflow": false
+      }
+    ],
+    "errors": []
+  },
+  "entry": {
+    "path": "assets/index-Bb0lLlq4.js",
+    "bytes": 214639,
+    "sha256": "94e5f9148208b72c4142ca2ee9dca596023d63eb5093119c86cc041d8e05ac65",
+    "gzip": 65572
+  },
+  "entryBudget": 215000,
+  "safety": {
+    "copyLayoutChanged": false,
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "captureNote": "Final capture waits for forest theme transition to settle; dark full hero and portrait crop match prior baseline pixels exactly."
+}

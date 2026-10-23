@@ -478,5 +478,232 @@
     "report": "UX_LOCALIZATION_REFINEMENT_V1.md",
     "machineManifest": "../../verification/portfolio-ux-localization-v1.json",
     "linguisticReview": "PENDING HUMAN REVIEW"
+  },
+  "cjkSecondaryProjectTitles": {
+    "verification": "verification/cjk-project-titles-v1.json",
+    "focusedCardLayouts": 42,
+    "existingResponsiveLayouts": 16,
+    "navigationScenarios": 9,
+    "unitTests": 14,
+    "errors": 0,
+    "note": "Scoped layout change; prior task results retained separately."
+  },
+  "incidentLocalizationFollowUp": {
+    "verification": "verification/incident-localization-fixes-v1.json",
+    "status": "PASS — local checks; exact owner screenshot not reproduced",
+    "focusedTests": 48,
+    "historyJourneys": 6,
+    "canvasLabelChecks": 22,
+    "existingLocaleLayouts": 88,
+    "existingNavigationScenarios": 9,
+    "runtimeErrors": 0,
+    "missing": 0,
+    "stale": 0,
+    "editorialWarnings": 97,
+    "humanReview": "PENDING",
+    "deployed": false
+  },
+  "textLinkFeedbackV1": {
+    "verification": "verification/text-link-feedback-v1.json",
+    "focusedLocaleTitles": 11,
+    "focusedLayouts": 22,
+    "hoverAndFocus": "PASS",
+    "buttonMenuExclusions": "PASS",
+    "existingLocaleBrowser": "INCOMPLETE — initial localeReady timeout",
+    "deployed": false,
+    "subsequentLocaleBrowserRegression": {
+      "status": "PASS",
+      "evidence": "output/playwright/additional-systems/i18n/results.json",
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    }
+  },
+  "additionalSystemsLayoutV1": {
+    "verification": "verification/additional-systems-layout-v1.json",
+    "focusedLayouts": 35,
+    "existingLocaleBrowser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "deployed": false
+  },
+  "projectDetailsReadingV1": {
+    "verification": "verification/project-details-reading-v1.json",
+    "focusedLayouts": 90,
+    "readingPreferences": "PASS — defaults, horizontal/vertical persistence, configured titles",
+    "broadLocaleRegression": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "testsPassed": 169,
+    "deployed": false
+  },
+  "pmeV15": {
+    "verification": "verification/pme-v1.5-semantic-art.json",
+    "artworkLayouts": 88,
+    "widthHosts": 117,
+    "fixedSceneLocales": 11,
+    "minimumCoarseSilhouetteIoU": 0.9959138187221397,
+    "localeRegression": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "routeAudit": {
+      "routes": 108,
+      "issues": 0
+    },
+    "entryBytes": 214415,
+    "qualifiedLinguisticReview": "PENDING",
+    "deployed": false
+  },
+  "portraitRefinementV1": {
+    "status": "COMPLETE WITH LIMITATIONS",
+    "report": "NAAE_PORTRAIT_REFINEMENT_V1.md",
+    "verification": "verification/naae-portrait-refinement-v1.json",
+    "unitTests": 180,
+    "focusedBrowserCases": 13,
+    "existingLocaleHomepageLayouts": 88,
+    "entryBytes": 214359,
+    "fullI18nSuite": "PARTIAL — editorial Arabic work-with-me mask assertion",
+    "deployed": false
+  },
+  "portraitV3": {
+    "status": "COMPLETE WITH LIMITATIONS",
+    "report": "NAAE_PORTRAIT_V3_IMPLEMENTATION.md",
+    "verification": "verification/naae-portrait-v3.json",
+    "unitTests": 184,
+    "focusedBrowserCases": 13,
+    "localeHomepageLayouts": 88,
+    "fullI18nSuite": "PARTIAL — legacy assistant starter assertion",
+    "entryBytes": 214359,
+    "deployed": false
+  },
+  "portraitSeparationRefinementV1": {
+    "status": "COMPLETE WITH LIMITATIONS",
+    "variant": "opacity-only",
+    "strengthBefore": 0.68,
+    "strengthAfter": 0.76,
+    "verification": "verification/naae-portrait-separation-refinement-v1.json",
+    "report": "NAAE_PORTRAIT_SEPARATION_REFINEMENT_V1.md",
+    "unitTests": 185,
+    "focusedCaptures": 6,
+    "variantCaptures": 9,
+    "localeAlignedLayouts": 44,
+    "entryBytes": 214359,
+    "legacyI18nBrowser": "INCOMPLETE — startup readiness timeout",
+    "deployed": false
+  },
+  "portraitBackingV1": {
+    "verification": "verification/naae-portrait-backing-v1.json",
+    "report": "NAAE_PORTRAIT_BACKING_V1.md",
+    "darkOpacity": 0.825,
+    "lightOpacity": 0.93,
+    "focusedBrowserCases": 3,
+    "issues": 0,
+    "finalPortraitTests": 9,
+    "fullSuiteBeforeFinalOpacity": 185,
+    "entryBytes": 214359,
+    "deployed": false,
+    "prior55_62BrowserCases": 6,
+    "hairMaskAlpha": [
+      0.85,
+      0.9
+    ]
+  },
+  "lightModePortraitPaletteV1": {
+    "status": "PARTIAL — VISUAL SELECTION AND BUILD VERIFICATION PENDING",
+    "provisionalVariant": "B",
+    "report": "NAAE_LIGHTMODE_PORTRAIT_PALETTE_V1.md",
+    "verification": "verification/naae-lightmode-portrait-palette-v1.json",
+    "unitTests": 187,
+    "focusedPortraitTests": 11,
+    "build": "INCOMPLETE — SWC cache permission",
+    "browser": "NOT RUN — approval review credit failure",
+    "deployed": false
+  },
+  "lightModeDistinctPaletteV1": {
+    "status": "COMPLETE WITH LIMITATIONS",
+    "variant": "C — ivory/honey/sepia + tonal mapping + sage forest",
+    "report": "NAAE_LIGHTMODE_DISTINCT_PALETTE_V1.md",
+    "verification": "verification/naae-lightmode-distinct-palette-v1.json",
+    "unitTests": 189,
+    "focusedTests": 13,
+    "candidateCaptures": 8,
+    "selectedCaptures": 5,
+    "lightLocaleAlignedLayouts": 44,
+    "darkPixelsUnchanged": true,
+    "entryBytes": 214359,
+    "legacyI18nBrowser": "INCOMPLETE — startup readiness timeout",
+    "deployed": false
+  },
+  "lightModeEyeHighlightV1": {
+    "status": "COMPLETE WITH LIMITATIONS",
+    "variant": "A — warm sand only",
+    "report": "NAAE_LIGHTMODE_EYE_HIGHLIGHT_REFINEMENT_V1.md",
+    "verification": "verification/naae-lightmode-eye-highlight-refinement-v1.json",
+    "unitTests": 191,
+    "candidateCases": 8,
+    "finalCases": 5,
+    "alignedLocaleLayouts": 44,
+    "darkFinalPixelIdentical": true,
+    "entryBytes": 214359,
+    "deployed": false
+  },
+  "lightModeProminenceV1": {
+    "status": "COMPLETE WITH LIMITATIONS",
+    "variant": "B — background + local contrast",
+    "report": "NAAE_LIGHTMODE_PROMINENCE_REFINEMENT_V1.md",
+    "verification": "verification/naae-lightmode-prominence-refinement-v1.json",
+    "unitTests": 191,
+    "candidateCases": 8,
+    "finalCases": 5,
+    "alignedLocaleLayouts": 44,
+    "darkFinalPixelIdentical": true,
+    "entryBytes": 214359,
+    "deployed": false
+  },
+  "lightModeInkReconstructionV2": {
+    "status": "COMPLETE WITH LIMITATIONS",
+    "variant": "B — source-aware opaque sepia ink",
+    "report": "NAAE_LIGHTMODE_INK_RECONSTRUCTION_V2.md",
+    "verification": "verification/naae-lightmode-ink-reconstruction-v2.json",
+    "unitTests": 194,
+    "newInkTests": 3,
+    "computedGlyphsPerTheme": 4632,
+    "candidateCases": 6,
+    "finalCases": 5,
+    "alignedLocaleLayouts": 44,
+    "darkFinalPixelIdentical": true,
+    "backgroundUnchanged": true,
+    "entryBytes": 214359,
+    "deployed": false
+  },
+  "lightIllustrationRestore": {
+    "status": "COMPLETE",
+    "lightAsset": "/images/portrait.webp",
+    "darkAsset": "/images/MohdVaraLetters-refined.svg",
+    "verification": "verification/light-illustration-restore.json",
+    "themeSwitching": "PASS — light/dark/light with OS dark",
+    "focusedTests": 6,
+    "build": "PASS",
+    "entryBytes": 214639,
+    "darkMatchedPixelsUnchanged": true,
+    "deployed": false
   }
 }

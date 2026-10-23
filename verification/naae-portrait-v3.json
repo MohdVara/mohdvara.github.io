@@ -1,0 +1,3782 @@
+{
+  "schema_version": "1.0",
+  "task": "naae-portrait-v3",
+  "timestamp": "2026-10-23T03:32:03.002326+00:00",
+  "timezone": "Asia/Kuching",
+  "status": "COMPLETE WITH LIMITATIONS",
+  "git_base": "1b66ae1536259ed855d5165f2203937f606f2f97",
+  "uncommitted": true,
+  "source": {
+    "path": "public/images/MohdVaraLetters.svg",
+    "sha256": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+    "bytes": 1452097,
+    "unchanged": true,
+    "viewBox": [
+      0,
+      0,
+      900,
+      972
+    ],
+    "glyphs": 4632,
+    "distinctStrings": 29,
+    "authority": "Owner: Continue from the SVG",
+    "originalPhotographFound": false,
+    "illustratedPixelsUsed": false
+  },
+  "output": {
+    "path": "public/images/MohdVaraLetters-refined.svg",
+    "sha256": "523da84484f0299ae4c11e1de399ab7f3641bf0f97a4d8ca410b829d20eb128d",
+    "bytes": 1600107,
+    "glyphOnly": true,
+    "sourceTextAndAnchorsPreserved": true
+  },
+  "reconstruction": {
+    "config": {
+      "version": 3,
+      "strategy": "integrated",
+      "localContrast": 0.38,
+      "multiscaleDetail": 0.12,
+      "densityWeight": 0.4,
+      "structureWeight": 0.55,
+      "negativeSpaceWeight": 0.045,
+      "maxToneDelta": 0.065,
+      "maxScaleChange": 0.1,
+      "lightStroke": 0.28
+    },
+    "sourceHash": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+    "fontHash": "f2b83c763e8afd21709333370bed4774337fae82267937e2b5aea7e2fbd922c1",
+    "glyphs": 4632,
+    "changedTone": 3564,
+    "changedSize": 3787,
+    "maxChannelChange": 28,
+    "variants": {
+      "normal": 2574,
+      "horizontal": 1135,
+      "vertical": 923
+    },
+    "estimatedInk": {
+      "before": 50685.57079050405,
+      "after": 48578.18548500432,
+      "ratio": 0.9584223819001649
+    },
+    "sourceMean": 0.41960452849777286,
+    "meanCorrection": 0.9989762626558352,
+    "analysis": "authored glyph RGB/size field, 18/32/72-unit scales; no photographic or illustrated pixel input"
+  },
+  "candidates": [
+    {
+      "name": "A",
+      "config": {
+        "version": 3,
+        "strategy": "tonal",
+        "localContrast": 0.38,
+        "multiscaleDetail": 0.12,
+        "densityWeight": 0.4,
+        "structureWeight": 0.55,
+        "negativeSpaceWeight": 0.045,
+        "maxToneDelta": 0.065,
+        "maxScaleChange": 0.1,
+        "lightStroke": 0.28
+      },
+      "sourceHash": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+      "fontHash": "f2b83c763e8afd21709333370bed4774337fae82267937e2b5aea7e2fbd922c1",
+      "glyphs": 4632,
+      "changedTone": 3564,
+      "changedSize": 0,
+      "maxChannelChange": 28,
+      "variants": {
+        "normal": 4632
+      },
+      "estimatedInk": {
+        "before": 50685.57079050405,
+        "after": 50685.57079050405,
+        "ratio": 1
+      },
+      "sourceMean": 0.41960452849777286,
+      "meanCorrection": 0.9989762626558352,
+      "analysis": "authored glyph RGB/size field, 18/32/72-unit scales; no photographic or illustrated pixel input",
+      "precomputeMs": 128.984917
+    },
+    {
+      "name": "B",
+      "config": {
+        "version": 3,
+        "strategy": "structural",
+        "localContrast": 0.38,
+        "multiscaleDetail": 0.12,
+        "densityWeight": 0.4,
+        "structureWeight": 0.55,
+        "negativeSpaceWeight": 0.045,
+        "maxToneDelta": 0.065,
+        "maxScaleChange": 0.1,
+        "lightStroke": 0.28
+      },
+      "sourceHash": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+      "fontHash": "f2b83c763e8afd21709333370bed4774337fae82267937e2b5aea7e2fbd922c1",
+      "glyphs": 4632,
+      "changedTone": 0,
+      "changedSize": 3787,
+      "maxChannelChange": 0,
+      "variants": {
+        "normal": 2574,
+        "horizontal": 1135,
+        "vertical": 923
+      },
+      "estimatedInk": {
+        "before": 50685.57079050405,
+        "after": 48578.18548500432,
+        "ratio": 0.9584223819001649
+      },
+      "sourceMean": 0.41960452849777286,
+      "meanCorrection": 1,
+      "analysis": "authored glyph RGB/size field, 18/32/72-unit scales; no photographic or illustrated pixel input",
+      "precomputeMs": 77.74920800000001
+    },
+    {
+      "name": "C",
+      "config": {
+        "version": 3,
+        "strategy": "integrated",
+        "localContrast": 0.38,
+        "multiscaleDetail": 0.12,
+        "densityWeight": 0.4,
+        "structureWeight": 0.55,
+        "negativeSpaceWeight": 0.045,
+        "maxToneDelta": 0.065,
+        "maxScaleChange": 0.1,
+        "lightStroke": 0.28
+      },
+      "sourceHash": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+      "fontHash": "f2b83c763e8afd21709333370bed4774337fae82267937e2b5aea7e2fbd922c1",
+      "glyphs": 4632,
+      "changedTone": 3564,
+      "changedSize": 3787,
+      "maxChannelChange": 28,
+      "variants": {
+        "normal": 2574,
+        "horizontal": 1135,
+        "vertical": 923
+      },
+      "estimatedInk": {
+        "before": 50685.57079050405,
+        "after": 48578.18548500432,
+        "ratio": 0.9584223819001649
+      },
+      "sourceMean": 0.41960452849777286,
+      "meanCorrection": 0.9989762626558352,
+      "analysis": "authored glyph RGB/size field, 18/32/72-unit scales; no photographic or illustrated pixel input",
+      "precomputeMs": 88.95649999999995
+    }
+  ],
+  "statistics": {
+    "glyphs": 4632,
+    "distinctStrings": 29,
+    "sourceSizes": {
+      "min": 5.186575876822792,
+      "max": 11.167338523687938
+    },
+    "fontCoverage": {
+      "min": 0.08964843749999994,
+      "max": 0.20875076593137243
+    },
+    "estimatedClippedFillFraction": {
+      "oldPreset": 0.5604490500863558,
+      "selectedPreset": 0.4268134715025907,
+      "note": "Analytical CSS saturate+brightness estimate on original fill colours, not a pixel metric or recognition score"
+    },
+    "sampleScales": [
+      18,
+      32,
+      72
+    ]
+  },
+  "integration": {
+    "strength": 0.68,
+    "falloff": 0.065,
+    "scope": "source glyph envelope, eligible vegetation alpha only; no painted backdrop",
+    "dark": {
+      "saturation": 1.2,
+      "brightness": 1.25,
+      "contrast": 1
+    },
+    "light": {
+      "saturation": 1.2,
+      "brightness": 0.64,
+      "contrast": 1.08
+    }
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "unitIntegration": {
+      "passed": 184,
+      "failed": 0
+    },
+    "productionBuildPrerender": "PASS",
+    "localization": {
+      "locales": [
+        "en",
+        "ms",
+        "ar",
+        "ta",
+        "ja",
+        "zh-Hans",
+        "es",
+        "fr",
+        "de",
+        "pt-BR",
+        "hi"
+      ],
+      "units": 1488,
+      "missing": 0,
+      "stale": 0,
+      "validationErrors": 0,
+      "editorialWarnings": 97,
+      "qualifiedReview": "PENDING"
+    },
+    "routes": {
+      "count": 108,
+      "issues": []
+    },
+    "legacyI18nBrowser": {
+      "status": "PARTIAL",
+      "layoutsBeforeStop": 48,
+      "stoppedAt": ".pace-starters button assertion before Spanish",
+      "note": "Direct script attempted; QA-only fresh-request/readiness retry copy retained assertions. Earlier startup timeouts retained; not a full-suite pass."
+    }
+  },
+  "browser": {
+    "focusedCases": 13,
+    "focusedIssues": 0,
+    "focusedHydrationRetries": 1,
+    "focused": [
+      {
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "1129.30",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.950",
+          "maxPaintMs": "3.800",
+          "ready": "true",
+          "initializationMs": "66.50",
+          "initializationElapsedMs": "1204.00",
+          "maxInitializationSliceMs": "21.90"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 1920,
+        "height": 1080,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "133120",
+          "backingPixels": "9494400",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":1196.763888888889,\"y\":312.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "974.90",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2600",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "3.400",
+          "maxPaintMs": "6.400",
+          "ready": "true",
+          "initializationMs": "181.10",
+          "initializationElapsedMs": "1173.70",
+          "maxInitializationSliceMs": "71.50"
+        },
+        "portrait": {
+          "x": 1196,
+          "y": 403.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 370,
+          "y": 355.34375,
+          "width": 643.390625,
+          "height": 460.3125
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 390,
+        "height": 844,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "mobile",
+          "cells": "39648",
+          "backingPixels": "1694550",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":289.1111111111111,\"y\":16.875,\"width\":77.77777777777777,\"height\":84,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "202.10",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "867",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.100",
+          "maxPaintMs": "2.100",
+          "ready": "true",
+          "initializationMs": "26.60",
+          "initializationElapsedMs": "255.30",
+          "maxInitializationSliceMs": "5.60"
+        },
+        "portrait": {
+          "x": 286,
+          "y": 93.875,
+          "width": 84,
+          "height": 84
+        },
+        "copy": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 768,
+        "height": 1024,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "tablet",
+          "cells": "50176",
+          "backingPixels": "3582720",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":448.2884837962963,\"y\":304.171875,\"width\":271.07928240740745,\"height\":292.765625,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "281.00",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "1486",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.800",
+          "maxPaintMs": "3.600",
+          "ready": "true",
+          "initializationMs": "33.40",
+          "initializationElapsedMs": "341.90",
+          "maxInitializationSliceMs": "7.80"
+        },
+        "portrait": {
+          "x": 447.65625,
+          "y": 395.171875,
+          "width": 272.34375,
+          "height": 292.765625
+        },
+        "copy": {
+          "x": 48,
+          "y": 135.5625,
+          "width": 367.65625,
+          "height": 843.875
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 2560,
+        "height": 1440,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "212800",
+          "backingPixels": "9715200",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":1516.763888888889,\"y\":492.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "463.00",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2600",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "4.800",
+          "maxPaintMs": "8.300",
+          "ready": "true",
+          "initializationMs": "92.30",
+          "initializationElapsedMs": "563.50",
+          "maxInitializationSliceMs": "19.00"
+        },
+        "portrait": {
+          "x": 1516,
+          "y": 583.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 690,
+          "y": 530.0625,
+          "width": 643.390625,
+          "height": 470.875
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "ar",
+        "width": 1440,
+        "height": 900,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "72000",
+          "backingPixels": "5162400",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":130.76388888888889,\"y\":175.296875,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "352.50",
+          "locale": "ar",
+          "writingMode": "horizontal",
+          "textRuns": "2028",
+          "clippedRuns": "0",
+          "textureRevision": "f23e85877be599c70cb2996054a5f12df157d8fb38d3b01db904f63d071d8274",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.100",
+          "maxPaintMs": "4.100",
+          "ready": "true",
+          "initializationMs": "57.50",
+          "initializationElapsedMs": "420.40",
+          "maxInitializationSliceMs": "17.90"
+        },
+        "portrait": {
+          "x": 130,
+          "y": 358.84375,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 666.609375,
+          "y": 310.0625,
+          "width": 643.390625,
+          "height": 463.953125
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "rtl",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "\u062a\u062d\u062f\u064a\u062b \u0623\u0646\u0638\u0645\u0629 \u0627\u0644\u0645\u0624\u0633\u0633\u0627\u062a \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "\u0647\u0646\u062f\u0633\u0629 \u0627\u0644\u062a\u0643\u0627\u0645\u0644 \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0627\u0644\u062a\u0637\u0628\u064a\u0642\u064a \u00b7 PACE-RAG \u2197",
+            "href": "/ar/pace-rag-case-study/"
+          },
+          {
+            "text": "\u0644\u0646\u0646\u0627\u0642\u0634 \u0641\u0631\u0635\u0629 \u0647\u0646\u062f\u0633\u064a\u0629 \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "\u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u0627\u0644\u0645\u0647\u0646\u064a \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "\u0633\u064a\u0631\u0629 \u0630\u0627\u062a\u064a\u0629 \u0645\u0646 \u0635\u0641\u062d\u062a\u064a\u0646 \u2197 (\u064a\u0641\u062a\u062d \u0641\u064a \u0639\u0644\u0627\u0645\u0629 \u062a\u0628\u0648\u064a\u0628 \u062c\u062f\u064a\u062f\u0629)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "\u0647\u0646\u062f\u0633\u0629 \u0645\u0633\u062a\u0642\u0644\u0629 \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 \u0642\u0635\u0629 \u0647\u0646\u062f\u0633\u064a\u0629 \u2197",
+            "href": "/ar/incident-zero/"
+          },
+          {
+            "text": "\u062a\u0639\u0627\u0648\u0646 \u0645\u0639\u064a \u2197",
+            "href": "/ar/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (\u064a\u0641\u062a\u062d \u0641\u064a \u0639\u0644\u0627\u0645\u0629 \u062a\u0628\u0648\u064a\u0628 \u062c\u062f\u064a\u062f\u0629)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (\u064a\u0641\u062a\u062d \u0641\u064a \u0639\u0644\u0627\u0645\u0629 \u062a\u0628\u0648\u064a\u0628 \u062c\u062f\u064a\u062f\u0629)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "width": 390,
+        "height": 844,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "mobile",
+          "cells": "50400",
+          "backingPixels": "2123000",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":289.1111111111111,\"y\":16.875,\"width\":77.77777777777777,\"height\":84,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "169.60",
+          "locale": "ta",
+          "writingMode": "horizontal",
+          "textRuns": "843",
+          "clippedRuns": "0",
+          "textureRevision": "215a0bc2dc1718d35af1036f2ab734e0a25179ca060d01b2a9cd76be737a7dcc",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.800",
+          "maxPaintMs": "3.500",
+          "ready": "true",
+          "initializationMs": "28.00",
+          "initializationElapsedMs": "222.90",
+          "maxInitializationSliceMs": "5.70"
+        },
+        "portrait": {
+          "x": 286,
+          "y": 239.03125,
+          "width": 84,
+          "height": 84
+        },
+        "copy": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "\u0ba8\u0bbf\u0bb1\u0bc1\u0bb5\u0ba9 \u0ba8\u0bb5\u0bc0\u0ba9\u0bae\u0baf\u0bae\u0bbe\u0b95\u0bcd\u0b95\u0bb2\u0bcd \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "\u0b92\u0bb0\u0bc1\u0b99\u0bcd\u0b95\u0bbf\u0ba3\u0bc8\u0baa\u0bcd\u0baa\u0bc1 \u0baa\u0bca\u0bb1\u0bbf\u0baf\u0bbf\u0baf\u0bb2\u0bcd \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "\u0baa\u0baf\u0ba9\u0bcd\u0baa\u0b9f\u0bc1\u0ba4\u0bcd\u0ba4\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f AI \u00b7 PACE-RAG \u2197",
+            "href": "/ta/pace-rag-case-study/"
+          },
+          {
+            "text": "\u0b92\u0bb0\u0bc1 \u0baa\u0bca\u0bb1\u0bbf\u0baf\u0bbf\u0baf\u0bb2\u0bcd \u0bb5\u0bbe\u0baf\u0bcd\u0baa\u0bcd\u0baa\u0bc8\u0baa\u0bcd \u0baa\u0bb1\u0bcd\u0bb1\u0bbf \u0bb5\u0bbf\u0bb5\u0bbe\u0ba4\u0bbf\u0b95\u0bcd\u0b95\u0bb5\u0bc1\u0bae\u0bcd \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "\u0ba4\u0bca\u0bb4\u0bbf\u0bb2\u0bcd\u0bae\u0bc1\u0bb1\u0bc8\u0baa\u0bcd \u0baa\u0ba3\u0bbf\u0b95\u0bb3\u0bcd \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-\u0baa\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0bb0\u0bc6\u0bb8\u0bcd\u0baf\u0bc2\u0bae\u0bcd \u2197 (\u0baa\u0bc1\u0ba4\u0bbf\u0baf \u0ba4\u0bbe\u0bb5\u0bb2\u0bbf\u0bb2\u0bcd \u0ba4\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "\u0ba4\u0ba9\u0bbf\u0ba4\u0bcd\u0ba4 \u0baa\u0bca\u0bb1\u0bbf\u0baf\u0bbf\u0baf\u0bb2\u0bcd \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 \u0baa\u0bca\u0bb1\u0bbf\u0baf\u0bbf\u0baf\u0bb2\u0bcd \u0b95\u0ba4\u0bc8 \u2197",
+            "href": "/ta/incident-zero/"
+          },
+          {
+            "text": "\u0b8e\u0ba9\u0bcd\u0ba9\u0bc1\u0b9f\u0ba9\u0bcd \u0bb5\u0bc7\u0bb2\u0bc8 \u0b9a\u0bc6\u0baf\u0bcd \u2197",
+            "href": "/ta/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (\u0baa\u0bc1\u0ba4\u0bbf\u0baf \u0ba4\u0bbe\u0bb5\u0bb2\u0bbf\u0bb2\u0bcd \u0ba4\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (\u0baa\u0bc1\u0ba4\u0bbf\u0baf \u0ba4\u0bbe\u0bb5\u0bb2\u0bbf\u0bb2\u0bcd \u0ba4\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bc1\u0bae\u0bcd)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "width": 1440,
+        "height": 900,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "72960",
+          "backingPixels": "5198400",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":166.328125,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "226.60",
+          "locale": "ja",
+          "writingMode": "horizontal",
+          "textRuns": "2600",
+          "clippedRuns": "0",
+          "textureRevision": "70b4b95a46017c872a0dc82ac31161079fcd83d0c361d0470fd8f4e37a952b2f",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.000",
+          "maxPaintMs": "3.700",
+          "ready": "true",
+          "initializationMs": "42.90",
+          "initializationElapsedMs": "300.90",
+          "maxInitializationSliceMs": "13.20"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 344.703125,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 326.0625,
+          "width": 643.390625,
+          "height": 426.609375
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "\u4f01\u696d\u30b7\u30b9\u30c6\u30e0\u306e\u5237\u65b0 \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "\u30b7\u30b9\u30c6\u30e0\u7d71\u5408 \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "\u5fdc\u7528AI \u00b7 PACE-RAG \u2197",
+            "href": "/ja/pace-rag-case-study/"
+          },
+          {
+            "text": "\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u306e\u3054\u76f8\u8ac7 \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "\u696d\u52d9\u3067\u306e\u958b\u767a\u5b9f\u7e3e \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2\u30da\u30fc\u30b8\u306e\u5c65\u6b74\u66f8 \u2197 \uff08\u65b0\u3057\u3044\u30bf\u30d6\u3067\u958b\u304d\u307e\u3059\uff09",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "\u72ec\u7acb\u3057\u305f\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0 \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 \u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u30b9\u30c8\u30fc\u30ea\u30fc \u2197",
+            "href": "/ja/incident-zero/"
+          },
+          {
+            "text": "\u304a\u4ed5\u4e8b\u306e\u3054\u76f8\u8ac7 \u2197",
+            "href": "/ja/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 \uff08\u65b0\u3057\u3044\u30bf\u30d6\u3067\u958b\u304d\u307e\u3059\uff09",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 \uff08\u65b0\u3057\u3044\u30bf\u30d6\u3067\u958b\u304d\u307e\u3059\uff09",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "width": 1440,
+        "height": 900,
+        "writing": "vertical",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "72960",
+          "backingPixels": "5198400",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":166.328125,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "482.80",
+          "locale": "ja",
+          "writingMode": "vertical",
+          "textRuns": "2600",
+          "clippedRuns": "0",
+          "textureRevision": "70b4b95a46017c872a0dc82ac31161079fcd83d0c361d0470fd8f4e37a952b2f",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.600",
+          "maxPaintMs": "4.900",
+          "ready": "true",
+          "initializationMs": "74.10",
+          "initializationElapsedMs": "568.30",
+          "maxInitializationSliceMs": "16.90"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 344.703125,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 326.0625,
+          "width": 643.390625,
+          "height": 426.609375
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "\u4f01\u696d\u30b7\u30b9\u30c6\u30e0\u306e\u5237\u65b0 \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "\u30b7\u30b9\u30c6\u30e0\u7d71\u5408 \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "\u5fdc\u7528AI \u00b7 PACE-RAG \u2197",
+            "href": "/ja/pace-rag-case-study/"
+          },
+          {
+            "text": "\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u306e\u3054\u76f8\u8ac7 \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "\u696d\u52d9\u3067\u306e\u958b\u767a\u5b9f\u7e3e \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2\u30da\u30fc\u30b8\u306e\u5c65\u6b74\u66f8 \u2197 \uff08\u65b0\u3057\u3044\u30bf\u30d6\u3067\u958b\u304d\u307e\u3059\uff09",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "\u72ec\u7acb\u3057\u305f\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0 \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 \u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30f3\u30b0\u30b9\u30c8\u30fc\u30ea\u30fc \u2197",
+            "href": "/ja/incident-zero/"
+          },
+          {
+            "text": "\u304a\u4ed5\u4e8b\u306e\u3054\u76f8\u8ac7 \u2197",
+            "href": "/ja/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 \uff08\u65b0\u3057\u3044\u30bf\u30d6\u3067\u958b\u304d\u307e\u3059\uff09",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 \uff08\u65b0\u3057\u3044\u30bf\u30d6\u3067\u958b\u304d\u307e\u3059\uff09",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 320,
+        "height": 844,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": true,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "mobile",
+          "cells": "50400",
+          "backingPixels": "1472000",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":219.11111111111111,\"y\":16.875,\"width\":77.77777777777777,\"height\":84,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "544.10",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "893",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.000",
+          "maxPaintMs": "3.700",
+          "ready": "true",
+          "initializationMs": "54.90",
+          "initializationElapsedMs": "626.50",
+          "maxInitializationSliceMs": "23.30"
+        },
+        "portrait": {
+          "x": 216,
+          "y": 141.875,
+          "width": 84,
+          "height": 84
+        },
+        "copy": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 1024,
+        "height": 1080,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "tablet",
+          "cells": "71136",
+          "backingPixels": "5063680",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":646.7638888888889,\"y\":312.640625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "724.90",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "1983",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "3.250",
+          "maxPaintMs": "6.400",
+          "ready": "true",
+          "initializationMs": "69.70",
+          "initializationElapsedMs": "806.60",
+          "maxInitializationSliceMs": "18.60"
+        },
+        "portrait": {
+          "x": 646,
+          "y": 403.640625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 48,
+          "y": 256.671875,
+          "width": 514.71875,
+          "height": 657.640625
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 3840,
+        "height": 1080,
+        "writing": "horizontal",
+        "theme": "dark",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "104000",
+          "backingPixels": "4752000",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":2156.7638888888887,\"y\":312.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "391.40",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2600",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "2.250",
+          "maxPaintMs": "4.000",
+          "ready": "true",
+          "initializationMs": "57.80",
+          "initializationElapsedMs": "453.60",
+          "maxInitializationSliceMs": "14.80"
+        },
+        "portrait": {
+          "x": 2156,
+          "y": 403.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 1330,
+          "y": 355.34375,
+          "width": 643.390625,
+          "height": 460.3125
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(1.25) contrast(1)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      },
+      {
+        "locale": "en",
+        "width": 1440,
+        "height": 900,
+        "writing": "horizontal",
+        "theme": "light",
+        "errors": [],
+        "hydrationRetry": false,
+        "forest": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "490.00",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.900",
+          "maxPaintMs": "3.700",
+          "ready": "true",
+          "initializationMs": "53.90",
+          "initializationElapsedMs": "562.40",
+          "maxInitializationSliceMs": "13.20"
+        },
+        "portrait": {
+          "x": 956,
+          "y": 313.65625,
+          "width": 330,
+          "height": 354.75
+        },
+        "copy": {
+          "x": 130,
+          "y": 282.875,
+          "width": 643.390625,
+          "height": 425.25
+        },
+        "overflow": false,
+        "filter": "saturate(1.2) brightness(0.64) contrast(1.08)",
+        "dir": "ltr",
+        "photoLayers": 1,
+        "links": [
+          {
+            "text": "Enterprise modernisation \u2197",
+            "href": "#case-campus"
+          },
+          {
+            "text": "Integration engineering \u2197",
+            "href": "#case-insurance"
+          },
+          {
+            "text": "Applied AI \u00b7 PACE-RAG \u2197",
+            "href": "/en/pace-rag-case-study/"
+          },
+          {
+            "text": "Discuss an engineering opportunity \u2197",
+            "href": "#contact"
+          },
+          {
+            "text": "Professional delivery \u2197",
+            "href": "#work"
+          },
+          {
+            "text": "2-page r\u00e9sum\u00e9 \u2197 (opens in a new tab)",
+            "href": "https://rxresu.me/mwara95/2-page-resume"
+          },
+          {
+            "text": "Independent engineering \u2197",
+            "href": "#public-engineering"
+          },
+          {
+            "text": "Incident Zero \u00b7 engineering story \u2197",
+            "href": "/en/incident-zero/"
+          },
+          {
+            "text": "Work with me \u2197",
+            "href": "/en/work-with-me/"
+          },
+          {
+            "text": "LinkedIn \u2197 (opens in a new tab)",
+            "href": "https://www.linkedin.com/in/mohdvara/"
+          },
+          {
+            "text": "GitHub \u2197 (opens in a new tab)",
+            "href": "https://github.com/MohdVara"
+          }
+        ]
+      }
+    ],
+    "localeMatrix": {
+      "cases": [
+        {
+          "locale": "en",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "en",
+          "width": 375,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "en",
+          "width": 390,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "en",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "en",
+          "width": 1024,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "en",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "en",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "en",
+          "width": 3840,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": false,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 320,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 375,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 390,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 768,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 1024,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 1440,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 1920,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ms",
+          "width": 3840,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 320,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 375,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 390,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 768,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 1024,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 1440,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 1920,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ar",
+          "width": 3840,
+          "retried": true,
+          "overflow": false,
+          "dir": "rtl",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 320,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 375,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 390,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 768,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 1024,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 1440,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 1920,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ta",
+          "width": 3840,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 320,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 375,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 390,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 768,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 1024,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 1440,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 1920,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "ja",
+          "width": 3840,
+          "retried": true,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 375,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 390,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 1024,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "zh-Hans",
+          "width": 3840,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 375,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 390,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 1024,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "es",
+          "width": 3840,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 375,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 390,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 1024,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "fr",
+          "width": 3840,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 375,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 390,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 1024,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "de",
+          "width": 3840,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 375,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 390,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 1024,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "pt-BR",
+          "width": 3840,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 320,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 375,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 390,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 768,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 1024,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 1440,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 1920,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        },
+        {
+          "locale": "hi",
+          "width": 3840,
+          "retried": false,
+          "overflow": false,
+          "dir": "ltr",
+          "original": true,
+          "portrait": "/images/MohdVaraLetters-refined.svg",
+          "ready": "true"
+        }
+      ],
+      "errors": []
+    },
+    "homeFlows": {
+      "checks": [
+        "Primary CTA reaches contact; email and booking not submitted",
+        "Keyboard navigation retains links",
+        "Mobile work navigation closes menu",
+        "Mobile Escape closes and restores focus",
+        "Live Arabic switch preserves RTL, disclosure, English-original link and English-only assistant",
+        "English-original action returns to English"
+      ],
+      "errors": [],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4197/images/MohdVaraLetters-refined.svg",
+          "bytes": 1600107
+        }
+      ]
+    },
+    "accessibilityMotion": [
+      {
+        "theme": "dark",
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 19
+            }
+          ]
+        },
+        "paused": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "304.20",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.800",
+          "maxPaintMs": "3.400",
+          "ready": "true",
+          "initializationMs": "56.40",
+          "initializationElapsedMs": "364.30",
+          "maxInitializationSliceMs": "12.70"
+        },
+        "moving": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "true",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "304.20",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "51",
+          "paintMs": "0.378",
+          "maxPaintMs": "3.400",
+          "ready": "true",
+          "initializationMs": "56.40",
+          "initializationElapsedMs": "364.30",
+          "maxInitializationSliceMs": "12.70"
+        },
+        "links": [
+          {
+            "href": "#case-campus",
+            "valid": true
+          },
+          {
+            "href": "#case-insurance",
+            "valid": true
+          },
+          {
+            "href": "/en/pace-rag-case-study/",
+            "valid": true
+          },
+          {
+            "href": "#contact",
+            "valid": true
+          },
+          {
+            "href": "#work",
+            "valid": true
+          },
+          {
+            "href": "https://rxresu.me/mwara95/2-page-resume",
+            "valid": true
+          },
+          {
+            "href": "#public-engineering",
+            "valid": true
+          },
+          {
+            "href": "/en/incident-zero/",
+            "valid": true
+          },
+          {
+            "href": "/en/work-with-me/",
+            "valid": true
+          },
+          {
+            "href": "https://www.linkedin.com/in/mohdvara/",
+            "valid": true
+          },
+          {
+            "href": "https://github.com/MohdVara",
+            "valid": true
+          }
+        ]
+      },
+      {
+        "theme": "light",
+        "axe": {
+          "violations": [],
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "count": 19
+            }
+          ]
+        },
+        "paused": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "false",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "248.70",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "2",
+          "paintMs": "1.550",
+          "maxPaintMs": "3.000",
+          "ready": "true",
+          "initializationMs": "45.40",
+          "initializationElapsedMs": "298.20",
+          "maxInitializationSliceMs": "11.50"
+        },
+        "moving": {
+          "narrative": "naae-v0.3",
+          "textureStatus": "complete",
+          "running": "true",
+          "quality": "desktop",
+          "cells": "81600",
+          "backingPixels": "5824800",
+          "signature": "3853075699",
+          "portraitSeparation": "{\"x\":956.7638888888889,\"y\":222.65625,\"width\":328.47222222222223,\"height\":354.75,\"strength\":0.68}",
+          "geometryBuilds": "1",
+          "textureMs": "248.70",
+          "locale": "en",
+          "writingMode": "horizontal",
+          "textRuns": "2347",
+          "clippedRuns": "0",
+          "textureRevision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+          "placementCacheHit": "false",
+          "frames": "26",
+          "paintMs": "0.388",
+          "maxPaintMs": "3.000",
+          "ready": "true",
+          "initializationMs": "45.40",
+          "initializationElapsedMs": "298.20",
+          "maxInitializationSliceMs": "11.50"
+        },
+        "links": [
+          {
+            "href": "#case-campus",
+            "valid": true
+          },
+          {
+            "href": "#case-insurance",
+            "valid": true
+          },
+          {
+            "href": "/en/pace-rag-case-study/",
+            "valid": true
+          },
+          {
+            "href": "#contact",
+            "valid": true
+          },
+          {
+            "href": "#work",
+            "valid": true
+          },
+          {
+            "href": "https://rxresu.me/mwara95/2-page-resume",
+            "valid": true
+          },
+          {
+            "href": "#public-engineering",
+            "valid": true
+          },
+          {
+            "href": "/en/incident-zero/",
+            "valid": true
+          },
+          {
+            "href": "/en/work-with-me/",
+            "valid": true
+          },
+          {
+            "href": "https://www.linkedin.com/in/mohdvara/",
+            "valid": true
+          },
+          {
+            "href": "https://github.com/MohdVara",
+            "valid": true
+          }
+        ]
+      }
+    ],
+    "outsideComparison": {
+      "exclusion": "portrait DOM rectangle plus 30 CSS pixels; reduced-motion DPR1 screenshots",
+      "cases": [
+        {
+          "case": "en-1440-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 1133344,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-1920-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 1910944,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-390-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 309730,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-768-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 668530,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-2560-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 3523744,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "ar-1440-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 1133344,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "ta-390-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 309730,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "ja-1440-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 1133344,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "ja-1440-vertical-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 1133344,
+          "changedOutside": 33125,
+          "outsideDeltaOver10": 522,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-320-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 250650,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-1024-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 943264,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-3840-horizontal-dark.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 3984544,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        },
+        {
+          "case": "en-1440-horizontal-light.png",
+          "copyBoundsUnchanged": true,
+          "portraitBoundsUnchanged": true,
+          "outsidePixels": 1133344,
+          "changedOutside": 0,
+          "outsideDeltaOver10": 0,
+          "sceneSignatureBefore": "3853075699",
+          "sceneSignatureAfter": "3853075699"
+        }
+      ],
+      "verticalResidual": {
+        "case": "ja-1440-vertical-dark.png",
+        "maximumChannelDelta": 18,
+        "cause": "Not isolated; residual raster/compositing difference. Exact pixel locality not established in this mode."
+      }
+    },
+    "captureCaveats": [
+      "Prior captures before CSS readiness were preserved under after-before-css-wait; final captures explicitly wait for body margin zero and hero grid.",
+      "Native screenshot first attempt failed in Chrome; subsequent fresh-page capture succeeded.",
+      "Recognition is qualitative and not verified by participants."
+    ]
+  },
+  "performance": {
+    "buildTime": {
+      "elapsedMs": 199.633,
+      "heapBefore": 6320560,
+      "heapAfter": 16340032,
+      "maxResidentKiB": 79312,
+      "sourceBytes": 1452097,
+      "outputBytes": 1600107,
+      "glyphs": 4632,
+      "scope": "Build-time process; max RSS includes Node and font/source strings, not visitor runtime or an isolated peak allocation"
+    },
+    "entry": {
+      "path": "assets/index-qc16RUnm.js",
+      "bytes": 214359,
+      "gzip": 65541,
+      "sha256": "b39210a81a03a17795baef87fc6f08ad598d1cc152a897ed8fbf544b64d74e8a",
+      "budget": 215000,
+      "budgetUnchanged": true,
+      "immediateBaselineBytes": 214359,
+      "originalBaselineBytes": 214351
+    },
+    "lazyForest": {
+      "rawKB": 49.8,
+      "gzipKB": 20.05,
+      "immediateBaselineRawKB": 49.07,
+      "immediateBaselineGzipKB": 19.68
+    },
+    "perFrameImageAnalysis": false,
+    "comparativeSpeedupClaimed": false
+  },
+  "source_fingerprint": "09523c50285461440401bb065fb7bb333cdd9676bc53bf3f26dc5436e97267a7",
+  "artifact_fingerprint": "c8a1cadc1ffb46a6625b9782dc8bfebed6718f2195f23734937f10cfba94c062",
+  "safety": {
+    "scope": "portfolio only; owner preexisting changes preserved",
+    "photographicUnderlay": false,
+    "illustratedPixels": false,
+    "hardContours": false,
+    "careerCopyChanged": false,
+    "relatedRepositoriesChanged": false,
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "hostingChanged": false,
+    "analyticsChanged": false,
+    "bookingOrEmailSubmitted": false
+  },
+  "limits": [
+    "SVG source cannot recover original photographic detail.",
+    "Fine eyes and mouth remain subtle at small display scales; no individual-recognition study.",
+    "Legacy broad i18n suite partial.",
+    "axe colour contrast incomplete checks require contextual review.",
+    "No physical-device or real screen-reader certification.",
+    "No deployment performed.",
+    "Japanese vertical comparison has residual outside-region pixel differences despite identical layout bounds; maximum channel delta 18/255."
+  ],
+  "evidence": [
+    {
+      "path": "output/playwright/naae-portrait-v3/A.svg",
+      "bytes": 1536750,
+      "sha256": "6ca34653e6c096ef6e4faa7001fc64fc5ef3d03a8d0f39772e64b970fcbbeaa7"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/B.svg",
+      "bytes": 1705827,
+      "sha256": "55ead583d93db300aa4983511cba08f2a41f93496c76eaefe86ebc0f5aeae20f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/C.svg",
+      "bytes": 1705827,
+      "sha256": "daac6348d3f42d2528566ab07265d647a1f7966a2daaf30838d25217f9f64bae"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/accessibility-motion.json",
+      "bytes": 5695,
+      "sha256": "0ddb1dbc4ef848e79dce947d613e31e6ffe901527be2ee93c090e07e0b27dd0b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/accessibility-motion.mjs",
+      "bytes": 2174,
+      "sha256": "3149d427036c37f88ecc58ba3db1e15e0991373e923087d68e0e6002da29a06f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ar-1440-horizontal-dark-portrait.png",
+      "bytes": 163897,
+      "sha256": "be8d3188bb3157011413e3f7b730c934662ae2dd001b611525f8ff1b7dc5e1a6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ar-1440-horizontal-dark.png",
+      "bytes": 780854,
+      "sha256": "88ad05521785c243c8b74bc8e24f338ae575e76bd954152f25d6f12601ee86ba"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1024-horizontal-dark-portrait.png",
+      "bytes": 171815,
+      "sha256": "2bda0eddd2882268eb6833306f4f51465aad37edd0f47bea5e4baeb6d93b2306"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1024-horizontal-dark.png",
+      "bytes": 802311,
+      "sha256": "479dab4de5daf66f5ce065938408a2e904ee4d90b17004f621a0661e04d5b668"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1440-horizontal-dark-portrait.png",
+      "bytes": 167282,
+      "sha256": "0122352ee0d2d0687e35c22cc864efdd7f015d28ae5c280c56de2acbeec5cbf4"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1440-horizontal-dark.png",
+      "bytes": 892852,
+      "sha256": "dcd1157034dcfda1d7551feef9c8e287c8de0ccf472bf2b83bb1812062914067"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1440-horizontal-light-portrait.png",
+      "bytes": 192360,
+      "sha256": "998ef754adc008a5e813c8003a2e0058af92e147e1b9de71de8a704ca2c012a6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1440-horizontal-light.png",
+      "bytes": 1039149,
+      "sha256": "97a327cab990b8745800d00d82a9e24a4fd9664021b9b440349f9f03dee3a7f0"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1920-horizontal-dark-portrait.png",
+      "bytes": 365369,
+      "sha256": "8a3ffab6e284d22ab7a4f18303d329f2456bb8d97731bdf3ebc42f9609856133"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-1920-horizontal-dark.png",
+      "bytes": 973810,
+      "sha256": "5194ca091cb365b1e07ddcf66c27e569548fc94a4d53b7b56e33a373842f017e"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-2560-horizontal-dark-portrait.png",
+      "bytes": 454779,
+      "sha256": "11f176c3d3d241efcd7eebc98ebb709b52ddc6038ec43fd187de379b0735cbb8"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-2560-horizontal-dark.png",
+      "bytes": 172573,
+      "sha256": "124fff37cb2826bfd893f687924973fe8eac8ba4ab5e32d34638adc774d25d4c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-320-horizontal-dark-portrait.png",
+      "bytes": 5733,
+      "sha256": "08b00f0e2f10ff75329618a6946cab13065004669ae8cc01b4c4d16c730af7bd"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-320-horizontal-dark.png",
+      "bytes": 80292,
+      "sha256": "eac4a610e4c093bafa797e3347a92c3247afce714eb86c326b201824e8cb0f53"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-3840-horizontal-dark-portrait.png",
+      "bytes": 170589,
+      "sha256": "35323b7f406f29e89623a2db58b2666bb905b2123897092a5499e62c91aa4123"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-3840-horizontal-dark.png",
+      "bytes": 2703207,
+      "sha256": "5a8222237f68a45085e0f9e867e21f2a7310a5743d82282bb5f2d07de856e58f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-390-horizontal-dark-portrait.png",
+      "bytes": 5787,
+      "sha256": "3b73613bf0f923e914873b9ad5dcdbc3fd70ab86e21d459ccade07112d78273b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-390-horizontal-dark.png",
+      "bytes": 97523,
+      "sha256": "7925d4d99b3bfa6c5b19f1caaaf946b2eb99ed132a8356b4ff1e32f3c686dd93"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-768-horizontal-dark-portrait.png",
+      "bytes": 119766,
+      "sha256": "ed0f90041bb0dd9eaf145db559fb603061d96fc986ffe4317f4e83951551c3d0"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/en-768-horizontal-dark.png",
+      "bytes": 591960,
+      "sha256": "0fdd960ffada1e968f98b47c48bd4840507d69573f6cfbfd38cce12b7de309ab"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ja-1440-horizontal-dark-portrait.png",
+      "bytes": 177875,
+      "sha256": "0e2e66b2b2c0405da1a706f1c64509d0c65a46576873637379d3b7f86b7e424d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ja-1440-horizontal-dark.png",
+      "bytes": 868181,
+      "sha256": "b87005d2929a77ae4e2ee5db70889a0688332b330e4fdc47532587ae7fc7c35c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ja-1440-vertical-dark-portrait.png",
+      "bytes": 176748,
+      "sha256": "ddc2f03e4a6ac36e0206fda9c4b4c7ce5addc5ae9826cd6c71e0f8bb7afdc0d8"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ja-1440-vertical-dark.png",
+      "bytes": 882446,
+      "sha256": "8a772cea048722795c7cbaea26af219eddb92901b6805bfa7bf352586b96c77d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/results.json",
+      "bytes": 34097,
+      "sha256": "1bc6a3733335903e6bfd2a8d8da19a946fe7bd762d117002528043f916a61ce2"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ta-390-horizontal-dark-portrait.png",
+      "bytes": 5588,
+      "sha256": "c9897ef26dace5710b34422dd24c9599c5c01cebda70a62113cdde39ad0fc045"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-before-css-wait/ta-390-horizontal-dark.png",
+      "bytes": 90509,
+      "sha256": "07dec1eab81abe3f4756fd8535920503b0856713132b025b4a2afd247599ea88"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-selected/results.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-tail/en-1440-horizontal-light-portrait.png",
+      "bytes": 192360,
+      "sha256": "998ef754adc008a5e813c8003a2e0058af92e147e1b9de71de8a704ca2c012a6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-tail/en-1440-horizontal-light.png",
+      "bytes": 1039149,
+      "sha256": "97a327cab990b8745800d00d82a9e24a4fd9664021b9b440349f9f03dee3a7f0"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-tail/en-3840-horizontal-dark-portrait.png",
+      "bytes": 170589,
+      "sha256": "35323b7f406f29e89623a2db58b2666bb905b2123897092a5499e62c91aa4123"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-tail/en-3840-horizontal-dark.png",
+      "bytes": 2703207,
+      "sha256": "5a8222237f68a45085e0f9e867e21f2a7310a5743d82282bb5f2d07de856e58f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-tail/results.json",
+      "bytes": 5163,
+      "sha256": "b39e53e918ad5313f4e71cd269d37d0fea61c8527008d941cbe44d7a577a23e9"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ar-1440-horizontal-dark-portrait.png",
+      "bytes": 163897,
+      "sha256": "be8d3188bb3157011413e3f7b730c934662ae2dd001b611525f8ff1b7dc5e1a6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ar-1440-horizontal-dark.png",
+      "bytes": 780854,
+      "sha256": "88ad05521785c243c8b74bc8e24f338ae575e76bd954152f25d6f12601ee86ba"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1024-horizontal-dark-portrait.png",
+      "bytes": 171815,
+      "sha256": "2bda0eddd2882268eb6833306f4f51465aad37edd0f47bea5e4baeb6d93b2306"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1024-horizontal-dark.png",
+      "bytes": 802311,
+      "sha256": "479dab4de5daf66f5ce065938408a2e904ee4d90b17004f621a0661e04d5b668"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1440-horizontal-dark-portrait.png",
+      "bytes": 167282,
+      "sha256": "0122352ee0d2d0687e35c22cc864efdd7f015d28ae5c280c56de2acbeec5cbf4"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1440-horizontal-dark.png",
+      "bytes": 892852,
+      "sha256": "dcd1157034dcfda1d7551feef9c8e287c8de0ccf472bf2b83bb1812062914067"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1440-horizontal-light-portrait.png",
+      "bytes": 192360,
+      "sha256": "998ef754adc008a5e813c8003a2e0058af92e147e1b9de71de8a704ca2c012a6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1440-horizontal-light.png",
+      "bytes": 1039149,
+      "sha256": "97a327cab990b8745800d00d82a9e24a4fd9664021b9b440349f9f03dee3a7f0"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1920-horizontal-dark-portrait.png",
+      "bytes": 166694,
+      "sha256": "adb8afc40cf6a2e43e69372a3efe2248dabebbd74ae0f4c808363b2691381949"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-1920-horizontal-dark.png",
+      "bytes": 1307340,
+      "sha256": "a447814acbb8f620e78f4e01fcf972f0b7e6db2f3f3e7f2fd3069cd4f8750a37"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-2560-horizontal-dark-portrait.png",
+      "bytes": 185805,
+      "sha256": "8f28a7f040e796dfb68ef3f179ab88277f4d705c9806e3b874d25560f9b5e5f7"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-2560-horizontal-dark.png",
+      "bytes": 2776412,
+      "sha256": "848749b91ed26203ad1d62321c501f31e29f80f8e46620117bfcc0ba3426ed5b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-320-horizontal-dark-portrait.png",
+      "bytes": 5733,
+      "sha256": "08b00f0e2f10ff75329618a6946cab13065004669ae8cc01b4c4d16c730af7bd"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-320-horizontal-dark.png",
+      "bytes": 80292,
+      "sha256": "eac4a610e4c093bafa797e3347a92c3247afce714eb86c326b201824e8cb0f53"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-3840-horizontal-dark-portrait.png",
+      "bytes": 170589,
+      "sha256": "35323b7f406f29e89623a2db58b2666bb905b2123897092a5499e62c91aa4123"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-3840-horizontal-dark.png",
+      "bytes": 2703207,
+      "sha256": "5a8222237f68a45085e0f9e867e21f2a7310a5743d82282bb5f2d07de856e58f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-390-horizontal-dark-portrait.png",
+      "bytes": 5787,
+      "sha256": "3b73613bf0f923e914873b9ad5dcdbc3fd70ab86e21d459ccade07112d78273b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-390-horizontal-dark.png",
+      "bytes": 97523,
+      "sha256": "7925d4d99b3bfa6c5b19f1caaaf946b2eb99ed132a8356b4ff1e32f3c686dd93"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-768-horizontal-dark-portrait.png",
+      "bytes": 119766,
+      "sha256": "ed0f90041bb0dd9eaf145db559fb603061d96fc986ffe4317f4e83951551c3d0"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/en-768-horizontal-dark.png",
+      "bytes": 591960,
+      "sha256": "0fdd960ffada1e968f98b47c48bd4840507d69573f6cfbfd38cce12b7de309ab"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/first-eleven-results.json",
+      "bytes": 29130,
+      "sha256": "2f29493b283ebc30d46a7188ee1cc3c3871cc13c5f5f99166c4cc89833c985bf"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ja-1440-horizontal-dark-portrait.png",
+      "bytes": 177875,
+      "sha256": "0e2e66b2b2c0405da1a706f1c64509d0c65a46576873637379d3b7f86b7e424d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ja-1440-horizontal-dark.png",
+      "bytes": 868181,
+      "sha256": "b87005d2929a77ae4e2ee5db70889a0688332b330e4fdc47532587ae7fc7c35c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ja-1440-vertical-dark-portrait.png",
+      "bytes": 176748,
+      "sha256": "ddc2f03e4a6ac36e0206fda9c4b4c7ce5addc5ae9826cd6c71e0f8bb7afdc0d8"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ja-1440-vertical-dark.png",
+      "bytes": 882446,
+      "sha256": "8a772cea048722795c7cbaea26af219eddb92901b6805bfa7bf352586b96c77d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/results.json",
+      "bytes": 37033,
+      "sha256": "7c4be49b52a590b86d5459f066470400a4b2a51308f030be48b8f54b1f4d28b4"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ta-390-horizontal-dark-portrait.png",
+      "bytes": 5588,
+      "sha256": "c9897ef26dace5710b34422dd24c9599c5c01cebda70a62113cdde39ad0fc045"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/after-verified/ta-390-horizontal-dark.png",
+      "bytes": 90509,
+      "sha256": "07dec1eab81abe3f4756fd8535920503b0856713132b025b4a2afd247599ea88"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/artifact/artifact.json",
+      "bytes": 144416,
+      "sha256": "51cea6156a1ec0da871e3c4cf7443ed6475cc285d1c8e464c3ca7c568a18ddef"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ar-1440-horizontal-dark-portrait.png",
+      "bytes": 168146,
+      "sha256": "a179f83dff1dae2f85e23d59a44933f2f11330d891a9b39439a3147ef89b88f5"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ar-1440-horizontal-dark.png",
+      "bytes": 785741,
+      "sha256": "097bdaff0f7c1ab8bb8908f3cf4b0371b64443b0656b3c4ad14457d600fab4d2"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1024-horizontal-dark-portrait.png",
+      "bytes": 176256,
+      "sha256": "7520e114ae92efa1564d8caa2b6dea657ee76c1631a8593802a07cd82f2c1a6b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1024-horizontal-dark.png",
+      "bytes": 807337,
+      "sha256": "dc97d540c0a202b91457dc86cd30edb2285d27ccdc21548f7ade2c692b530d8f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1440-horizontal-dark-portrait.png",
+      "bytes": 172299,
+      "sha256": "7b14c602944e86c47ae57094e7f8a76fb5a23db6093a86e3160c1e9abda6063d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1440-horizontal-dark.png",
+      "bytes": 897933,
+      "sha256": "54ca7c8666edd31bbbe24ca58bd631a54769da45067a14fed8864f87056ce259"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1440-horizontal-light-portrait.png",
+      "bytes": 191424,
+      "sha256": "1ab3aaeb2f4b7238acb87ead8a56bcbd74cedff946462ab8f92b58460afcb221"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1440-horizontal-light.png",
+      "bytes": 1037862,
+      "sha256": "5fe75eea0b5db61894f43fea0210f2b40f129e712ff5c996587a11592eb0f0be"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1920-horizontal-dark-portrait.png",
+      "bytes": 171735,
+      "sha256": "b44b82e31220cea634bd78a07d1fadda7fc8f3393241c8ebd5b637af8f894bd5"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-1920-horizontal-dark.png",
+      "bytes": 1312313,
+      "sha256": "e258316776bba1f318e8319190f04ece34cf9a5dc372a6a5f7aa0d696f3038d6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-2560-horizontal-dark-portrait.png",
+      "bytes": 191805,
+      "sha256": "4bc6d5c046bbd7fcdb9ef21ff468640e4b577e2061e1f5ac775d99ff43f8aa99"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-2560-horizontal-dark.png",
+      "bytes": 2783256,
+      "sha256": "25a7e4d720cb0dff4d57f6b27cffec145a6a77db3cc7b3d7cf08e7e102802bfd"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-320-horizontal-dark-portrait.png",
+      "bytes": 5976,
+      "sha256": "12c73f0fb033caeeaee400a1d8bbce772e22be7ad620611d314f184f7f358a87"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-320-horizontal-dark.png",
+      "bytes": 80598,
+      "sha256": "f90c05b667b911172fb00b9448c070f6f9e0bdd827324dbb766882e5fa7e997d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-3840-horizontal-dark-portrait.png",
+      "bytes": 176521,
+      "sha256": "2f57de79c3779b30b88ddd4e9f9a109031a427c7792bdf49da4460d58dc003c5"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-3840-horizontal-dark.png",
+      "bytes": 2710445,
+      "sha256": "d3bf85da394e6d3e416bbe8b0e3d4686e3ce9319496b2641f19517e83bb0cd0a"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-390-horizontal-dark-portrait.png",
+      "bytes": 6046,
+      "sha256": "e52646acfdd34e2313288225d16f52e62333a7a93f9e234c267ebce43a2a172d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-390-horizontal-dark.png",
+      "bytes": 97775,
+      "sha256": "802ebbaab91d41109f104928fc2e1cb13ba1f172da433b267630b8f1f4c8bad6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-768-horizontal-dark-portrait.png",
+      "bytes": 122896,
+      "sha256": "7ec4a045c5b6af4b62446c3a9fe1d1d87ccf094b354e8f23fd4245a0e186a2c2"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/en-768-horizontal-dark.png",
+      "bytes": 595311,
+      "sha256": "b3f67c5da2ef7a29e17609f95f9170a6e918c7549d90f1d432719e2c085d4b74"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ja-1440-horizontal-dark-portrait.png",
+      "bytes": 182965,
+      "sha256": "f654a2c3b2953bbd26e9210407ff4e8d5c33c7401018f00a5f6cfc2c7c5adbaf"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ja-1440-horizontal-dark.png",
+      "bytes": 872761,
+      "sha256": "af89eb96211b9ba681cd3b87dfe99cf50fa7c81d0de389b4e0c902a689313ff9"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ja-1440-vertical-dark-portrait.png",
+      "bytes": 183353,
+      "sha256": "c29e66faf298379050c002343b63938def480fcad22fa752100f62360f281760"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ja-1440-vertical-dark.png",
+      "bytes": 895592,
+      "sha256": "0b79a491aeca9850324eae800372718571c01eb63f51d26597ae1eff11cf7c3a"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/portrait.mjs",
+      "bytes": 4068,
+      "sha256": "b63ff7c68971daed4ae67ebc4214b10f38e893d42a1db300ec6d9c44b64536b4"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/portraitGeometry.json",
+      "bytes": 3459,
+      "sha256": "94d4b3c1c500f6585e8f04d965483833647e012b624388cc93ddcc56686986dd"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/refinement-v1.svg",
+      "bytes": 1567782,
+      "sha256": "f14ce04294dcc57a44f8eab6e6504120926aaa22adb15ea5013f2c9238a37dce"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/results.json",
+      "bytes": 34297,
+      "sha256": "2c8c4e5c6ac8c8c07f34b34228a61d8088f3b774e15f56f181c2276e6ca0940c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ta-390-horizontal-dark-portrait.png",
+      "bytes": 5859,
+      "sha256": "ee7614f6f386911b0f0c223dcf7f6f6405eda72c65175ecf84044505aeceecac"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/baseline/ta-390-horizontal-dark.png",
+      "bytes": 90795,
+      "sha256": "3209b37911755eb0c03538742553698f79fe6a07d61ad8182cad70a59eb37718"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/A-1440-dark-portrait.png",
+      "bytes": 174783,
+      "sha256": "5264111d97ea6772a47046c5846a53fe5beacaef8b305c31dc4bd31c601a3d5b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/A-1440-dark.png",
+      "bytes": 900495,
+      "sha256": "908107cb77ae60b71ce61fa846725e5ab6cbdc605ebf2af1688a3b93e26cb218"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/A-1440-light-portrait.png",
+      "bytes": 196574,
+      "sha256": "e3089d736ca049b30ba33918d8b41008d57285651f10d383be6b949cd3c0188b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/A-1440-light.png",
+      "bytes": 1043840,
+      "sha256": "29daf4b71010c26bf81f73fe1f7cc0ebd7efab302b439ac55930175803bca1cb"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/A-1920-dark-portrait.png",
+      "bytes": 173647,
+      "sha256": "e933481586d233a0c7d9a05f508ce672516d4e89b8495d2997720f0ba1b87f42"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/A-1920-dark.png",
+      "bytes": 1314484,
+      "sha256": "7e62d80384587d1e2552fe8e6732408cd7934aef5a0e0f4a58812b31701bb753"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/B-1440-dark-portrait.png",
+      "bytes": 174943,
+      "sha256": "571e5a8d1fd36e18e48296246eedf8c2f3dcc9e909697aefe2f1105e19d4c4b0"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/B-1440-dark.png",
+      "bytes": 900401,
+      "sha256": "892f2ab7068377dc886b2a3df0a8b0fc5c9f81df822018849d8a944fc30c0ea7"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/B-1440-light-portrait.png",
+      "bytes": 195968,
+      "sha256": "9e11abbd43d73441eb96cff650ecd69a115de9b13919377b8f9fc81f2c55fdff"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/B-1440-light.png",
+      "bytes": 1043055,
+      "sha256": "2a75ac94f1f17dc9b19d7901236dada3e6950e0085657551730ba4fbd29831d9"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/B-1920-dark-portrait.png",
+      "bytes": 173642,
+      "sha256": "7546b64830d97a848bde091bd7b38a967cfcb592eec6cb5318246d570f94c1b6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/B-1920-dark.png",
+      "bytes": 1314409,
+      "sha256": "e1efce1fd0af48411b136239581b41781ee259ceb008c339aa9c0dd62ddc66e9"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/C-1440-dark-portrait.png",
+      "bytes": 171984,
+      "sha256": "65ec2e85453217c6f826903df8b5cd7a08ceff54de3b4b4ba897ed176d0dbc1d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/C-1440-dark.png",
+      "bytes": 897749,
+      "sha256": "11f639f8a0a295d6945c64da697e36f17f0888a54d32473b244480c69193191d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/C-1440-light-portrait.png",
+      "bytes": 193850,
+      "sha256": "0f6909cef4006664859ebd2027af53e0245d4380e664bd7fe244c0f8fe94de90"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/C-1440-light.png",
+      "bytes": 1040524,
+      "sha256": "744d0affdfeed285bdf3c6cf7d8f94d4fa10efbddf9c96a46c929e318172a1a6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/C-1920-dark-portrait.png",
+      "bytes": 171445,
+      "sha256": "1de100e1fb018a01d44aa9bb61a483369540e206bf0ff1dd0de3af4d888bedae"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/C-1920-dark.png",
+      "bytes": 1312106,
+      "sha256": "6834d5f1916815af74ab902014f753b3d29df3ec2f13625295a1da6edfaaefb8"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates/results.json",
+      "bytes": 9307,
+      "sha256": "2174e503e4b2a085e0cc4490e27694c998f28d7f2d0180d4efc28abd9c1b33f7"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/candidates.json",
+      "bytes": 3110,
+      "sha256": "acb9b5302a7a99029c16cd284bc1676d6ce2e9dda9b5fdac3ff6d01de293ca7d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/capture-candidates.mjs",
+      "bytes": 2546,
+      "sha256": "a249274819428a44c8b59c3da5249f379429147c0e788bad36489968b856b996"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/capture-preset.mjs",
+      "bytes": 2782,
+      "sha256": "9ae1d0b950ef0253a8c8cfd84b7bc5520678e0c8ecb7a615dac1a1c9e67b382d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/capture-separation.mjs",
+      "bytes": 2709,
+      "sha256": "21e77462b6aadc7bcc68e1adba8071d5a4217104c008b12d1b5725ae98f7e3e1"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/capture.mjs",
+      "bytes": 3877,
+      "sha256": "97cf3f247cbf78625ad223eeafc222231a2d0342af36da71f0f8710c30acd19f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/compare-outside.py",
+      "bytes": 1295,
+      "sha256": "b29ab3db254b5da29fb7e869fa3d38a6afbd603082b4f9d1234a3aa098282723"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/comparison.html",
+      "bytes": 3425,
+      "sha256": "c9bb04a8e0127d2c58c5f00835351ecc06cc97b28cd5154a0423b84e5a30e5ab"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/diagnostics.mjs",
+      "bytes": 1591,
+      "sha256": "72a38f04535e08b8dae449261981705ba7e8fbb111d1af7f9ebc907aec485544"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/full-homepage-1440.png",
+      "bytes": 2366118,
+      "sha256": "a3701e070a3f78d9816bb532a32cb7e59fcf64ca5cceb46c1775a8f4dbf63092"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/gallery-capture.mjs",
+      "bytes": 1344,
+      "sha256": "0084890a8df2f044bd8ce27a7f1fca3288376bef31a48e6847e3a3437ceab19b"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/generate.mjs",
+      "bytes": 862,
+      "sha256": "d57f8d41d2c14f119d73f4c59828f0820953acc588666100cfaa587ee185d508"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/home-flows.json",
+      "bytes": 516,
+      "sha256": "df82b8c4ba6421dd2483c1baed1044077943c55ac675c4b80c632da63a20b570"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/home-flows.mjs",
+      "bytes": 3659,
+      "sha256": "2f5a586bb8cc3f787193dc4907fb8063dcb6dea84481a82b23fcb4a4d39df14e"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n/results.json",
+      "bytes": 152,
+      "sha256": "97537cd01f4b5429461f9a1c31daa68bbb2849269b68c170ea70d4b81651cd7c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-cache-stable.mjs",
+      "bytes": 19732,
+      "sha256": "f0525b64150f1e4ec346e9ec14b0ac5e808f12bf41d6fc99cceb074debe3b783"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-stable/results.json",
+      "bytes": 152,
+      "sha256": "97537cd01f4b5429461f9a1c31daa68bbb2849269b68c170ea70d4b81651cd7c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ar-1440.png",
+      "bytes": 317784,
+      "sha256": "dd09b586ced45d4a53a158f8e94144d0c2ab2b6471a392f2074648a2a417a327"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ar-390.png",
+      "bytes": 73014,
+      "sha256": "49a0db6153b6475dce57be0292d35d6fcb780d11fd85075f4350fa9ce2c2175d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/en-1440.png",
+      "bytes": 306066,
+      "sha256": "79adf0505ba24cfc2964c4880e249bc8a7c1dd6a568833ce352b2932744300d7"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/en-390.png",
+      "bytes": 66651,
+      "sha256": "25729004844d199081ef6ebf0fc2bc98273eb0d9d2894fc2e938d0bb7579c7e0"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/es-1440.png",
+      "bytes": 344991,
+      "sha256": "c995d63a0cff3122d0a7312797761f6f53e86d9cd9df92b14e0514b37839ddbc"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/es-390.png",
+      "bytes": 68930,
+      "sha256": "3d2089f05c3570f7824ba8b9a1c81c936914c0b388afdf426f81dae5444f81ec"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ja-1440.png",
+      "bytes": 334571,
+      "sha256": "c275c3828cc96784c26f6b4058e7ab9366800248839b6d07c4c5d1dd40e71319"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ja-390.png",
+      "bytes": 88764,
+      "sha256": "07f91283a9e5a6453fc4572b8e65c3d9b2442b312b371de6423700b1b3e0ab6a"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ja-vertical-hero.png",
+      "bytes": 344936,
+      "sha256": "e73a603d3318c4aa1f7bdd1ed1ab4c78d88322acc2f2c671e257956927dce9da"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ms-1440.png",
+      "bytes": 324425,
+      "sha256": "f4d865a19814acb70bc8e6596c1ed2e6ced095e8bda7e59bcb3bf9b596c8152e"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ms-390.png",
+      "bytes": 67679,
+      "sha256": "5a78b30de9322ca87998e27c00fc38a5d8a7544ffe22fb15ac22d86db4a25c36"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/results.json",
+      "bytes": 21013,
+      "sha256": "db8a8396adb79fc9e54cbc8ae3fc74aac35d43425bfbe3157de3a7b1acc6f9ec"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ta-1440.png",
+      "bytes": 408532,
+      "sha256": "e405b1bae4ebbbd7f1cbab47ce7b41b8d437d715d633e119e7f2f2b03b419a7a"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/ta-390.png",
+      "bytes": 97013,
+      "sha256": "d03f446069b3ca7cdd68c1311afbe66fbe9d087aa7101d85690666ba0c0161d6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/zh-Hans-1440.png",
+      "bytes": 321226,
+      "sha256": "ecdb69b3994cd5e2d310984376d0f4dd41741bb33ed2c556a43ff44a3e778ef3"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/zh-Hans-390.png",
+      "bytes": 77857,
+      "sha256": "25ca4536b4e177658aeb1e816f7be08d76b5d3b6c1ab527844b31e8bbf136dfa"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/i18n-verified/zh-Hans-vertical-hero.png",
+      "bytes": 333351,
+      "sha256": "eca45a67f1d1f3c7059af78ba91e802a668e37dc22a68bde6b62012edcd79fd1"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/locale-matrix-before-css-wait.json",
+      "bytes": 11003,
+      "sha256": "312987e6da7a16e9bb6bdb9985cf7c4fc992d4b494408b52407e5de4628d9e76"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/locale-matrix.json",
+      "bytes": 20095,
+      "sha256": "9e6f27f2ecc2b40a9605c7edf1104329baa7838ff4eed985abbc7b23525f5642"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/locale-matrix.mjs",
+      "bytes": 2365,
+      "sha256": "330280725aa962f6e2db50b8b8ab67b891a3891fd889263ef627278ce71190db"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/native-capture.mjs",
+      "bytes": 836,
+      "sha256": "95eedd720a7feed784c40948804342ec5408aa1b9e0dad755797ee267c6d3d9a"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/native-detail.html",
+      "bytes": 246,
+      "sha256": "199bbd96cee518356fab41486539b76605c4a31fc5af95f12555e636c501bf65"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/original.svg",
+      "bytes": 1452097,
+      "sha256": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/outside-comparison.json",
+      "bytes": 4112,
+      "sha256": "1b58942b1050170a0f2e283ff9552c0f27e8297b5d1859dac28b41f86a5d53b9"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/precompute-performance.json",
+      "bytes": 305,
+      "sha256": "875715e911cf3f58d95e4b067ba457171f4125a9d99c5105f6a9bfb12290d3cd"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/preset-comparison/balanced-1440-dark-portrait.png",
+      "bytes": 168405,
+      "sha256": "4a66f992790ebaa785c4ff0bbf7395e4e18a6dcf136dc41d5568b26cba9ca74c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/preset-comparison/balanced-1440-dark.png",
+      "bytes": 893752,
+      "sha256": "f00e370809f573209955bf61dbae3dab781ebc4c5beca25e105297a0d480b898"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/preset-comparison/current-1440-dark-portrait.png",
+      "bytes": 171984,
+      "sha256": "65ec2e85453217c6f826903df8b5cd7a08ceff54de3b4b4ba897ed176d0dbc1d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/preset-comparison/current-1440-dark.png",
+      "bytes": 897749,
+      "sha256": "11f639f8a0a295d6945c64da697e36f17f0888a54d32473b244480c69193191d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/preset-comparison/restrained-1440-dark-portrait.png",
+      "bytes": 166370,
+      "sha256": "70be0dcdaa453bb11cc6b878bb97e66793771433bfde7240a0472fc6f4dd3ad4"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/preset-comparison/restrained-1440-dark.png",
+      "bytes": 891102,
+      "sha256": "624fb4f62c177c5b8824e24306dafd15b868483be15378fac5117ecd95d7a9e6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/preset-comparison/results.json",
+      "bytes": 3130,
+      "sha256": "4b9de578754879dd2a5b65e63e96da69607e96893bd4e66f90815761279bd24a"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/root-cause.md",
+      "bytes": 1268,
+      "sha256": "79899da40c3f145b504817def29c4e5b6ef1f27b545831477bcef1c8171fff7c"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/selected-native-glyphs.png",
+      "bytes": 426690,
+      "sha256": "4d9dfb32af73f7758e5e4de36a2b6f96bcf381493a9e698e82fd71d1c85477d4"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/selected.svg",
+      "bytes": 1600107,
+      "sha256": "523da84484f0299ae4c11e1de399ab7f3641bf0f97a4d8ca410b829d20eb128d"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/separation-comparison/048-1440-dark-portrait.png",
+      "bytes": 169776,
+      "sha256": "ac0282ee0c5363c9e1a98d52ea6dff6ecf6e05dd1dfec5b995fafe19a6c51e7f"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/separation-comparison/048-1440-dark.png",
+      "bytes": 894840,
+      "sha256": "098899bc3227f2482fe6dd4fce8d5e9f2d74e07c0f40076a1a9020a2a3fd6f13"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/separation-comparison/068-1440-dark-portrait.png",
+      "bytes": 167274,
+      "sha256": "264a166b16b3a5e31ad47ca46f1338abe535f3776d7d0f267bf5b9f9fb0af5e2"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/separation-comparison/068-1440-dark.png",
+      "bytes": 892850,
+      "sha256": "aadc64da75b7d3e0bfe6ad0f582eb67179d6d9d0bb24ed0be44517eae7a80f45"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/separation-comparison/082-1440-dark-portrait.png",
+      "bytes": 164962,
+      "sha256": "647d8abf052c0c68a12028e4dedc4650654f134eb7f73ec6d24caad54f7dea74"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/separation-comparison/082-1440-dark.png",
+      "bytes": 890727,
+      "sha256": "4a37b8d37bd3db49d5915a763aa91489d97a88e91c3370d4098224ad39500d33"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/separation-comparison/results.json",
+      "bytes": 3119,
+      "sha256": "e4a65b319b317b95dd2373a430e3b8b071ee49678d85d4a63586af63f3af3ad4"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/source-edges.svg",
+      "bytes": 326298,
+      "sha256": "2b07fa8f14df81d94060da72db969b19b013ca061e64dcadf621ba9a3a78f3d6"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/source-statistics.json",
+      "bytes": 509,
+      "sha256": "0e083aa5ed3e875f9a7f9e00789f0f6c76386672064ed9c0c170b27a89a98be5"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/startup-diagnostic.json",
+      "bytes": 3074,
+      "sha256": "bd1665c5ad9e98a58a0047094261f084a3c1845496ccf3a332f01274beb51639"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/startup-diagnostic.mjs",
+      "bytes": 1811,
+      "sha256": "16ad2cbdf1c92ae2b0ab37873e1b1f2d2d4626b07464ce1f394c7250f4402da7"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/thumbnail-comparison.png",
+      "bytes": 336620,
+      "sha256": "b51935af776ae6a21810b8161548410780f96dbd4dd95eff7259d7184d2f7836"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/tone-broad.svg",
+      "bytes": 335331,
+      "sha256": "bb6ccf334da712a0f5829d5c4a8a4ff67e065e518684ac8c392a04622b34c046"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/tone-fine.svg",
+      "bytes": 335313,
+      "sha256": "fd9b631b55b9748577113717fbf37ddd8716289bb21b143a797af0343e3c37dd"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/tone-mid.svg",
+      "bytes": 335310,
+      "sha256": "4b340b6d5a262b1dc33581701875e86a96db195f176f28b08fa4bd7551e309bf"
+    },
+    {
+      "path": "output/playwright/naae-portrait-v3/write-verification.py",
+      "bytes": 5720,
+      "sha256": "0fa7812a455f1b5e8b84e643348b2a76e251dfb6164edc3cdb035f6e63c1c023"
+    }
+  ],
+  "implementationHashes": [
+    {
+      "path": "scripts/artwork/portrait-v3.mjs",
+      "sha256": "96e3ebadcd6bedd5b412df959af3290bc2eef8396b5ee39477e36220314e960b"
+    },
+    {
+      "path": "scripts/artwork/portrait.mjs",
+      "sha256": "3df53d8bc89d1e03ae1e623a78c989a840cb16ae1c8dd82f2ca1f9eafd5af72c"
+    },
+    {
+      "path": "scripts/artwork/portrait-glyph-metrics.json",
+      "sha256": "cb452e850927ef19ccc74564bea6f3d3e131f2c358b9a8c384ceeea635e5e902"
+    },
+    {
+      "path": "scripts/artwork/measure-portrait-glyphs.mjs",
+      "sha256": "82e8ff71a6056687a22022e59891cff68da06d5477f1765aceae8d602c858105"
+    },
+    {
+      "path": "src/AsciiForest/portraitSeparation.ts",
+      "sha256": "2725535745b8b982e1dcaee59d2113a98de94675015a5098ffedc309ef3bd022"
+    },
+    {
+      "path": "src/AsciiForest/portraitGeometry.json",
+      "sha256": "11502d28899c1331d3af15db058a2527112cc42a49afb8726ad185fd0873d05c"
+    },
+    {
+      "path": "src/AsciiForest/renderer.ts",
+      "sha256": "636f8cea607ce8a7c94d1a7f039ecfc9c595eada647f67a6a17997159764a0dc"
+    },
+    {
+      "path": "src/AsciiForest/AsciiForest.css",
+      "sha256": "78774a0a444d73f4201750a38eae7bdab8c7aea436e1bb1f59922296385b7f73"
+    },
+    {
+      "path": "tests/portrait-v3.test.mjs",
+      "sha256": "49228fd43b7a734d440fdef11e39a87c2dafb2586c0b4fe8636e9b0540279d98"
+    },
+    {
+      "path": "tests/portrait-refinement.test.mjs",
+      "sha256": "bee19d8ef1efe8d777df6bbe8024a4362334be5e6b16ba7193885f75d58da111"
+    }
+  ]
+}
