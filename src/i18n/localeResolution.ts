@@ -18,7 +18,7 @@ export function splitLocale(path: string): {locale?: Locale; path: string} {
 export function resolveLocale(path: string, saved: string | null, preferred: readonly string[]): Locale {
   return splitLocale(path).locale || (saved && isLocale(saved) ? saved : undefined) || preferred.map(browserLocale).find(Boolean) || "en";
 }
-export const routes = ["/", "/work-with-me/", "/no-two-mondays/", "/pace-rag-case-study/", "/incident-zero/", "/incident-zero/defence/"];
+export const routes = ["/", "/work-with-me/", "/no-two-mondays/", "/pace-rag-case-study/", "/incident-zero/", "/incident-zero/defence/", "/mmcats-modern/", "/naae/", "/multilingual-engineering/"];
 export function localizedPath(locale: Locale, path: string) {
   const clean = splitLocale(path).path;
   return `/${locale}${clean.startsWith("/") ? clean : "/" + clean}`;

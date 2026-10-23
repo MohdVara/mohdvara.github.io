@@ -32,6 +32,12 @@ test("localized switching preserves routes, fragments and queries without rewrit
   assert.equal(resolution.localizeHref("/work-with-me/?x=1#contact","fr"),"/fr/work-with-me/?x=1#contact");
   for(const href of ["#work","/images/photo.png","https://example.com/","mailto:a@example.com","//example.com/"])assert.equal(resolution.localizeHref(href,"ar"),href);
 });
+test("engineering discovery links preserve every visitor locale and URL suffix",()=>{
+  for(const {locale} of registry)for(const route of ["mmcats-modern","naae","multilingual-engineering"]){
+    assert.equal(resolution.localizeHref(`/${route}/?source=home#sources`,locale),`/${locale}/${route}/?source=home#sources`);
+    assert.equal(resolution.localizeHref(`/en/${route}/`,locale),`/${locale}/${route}/`);
+  }
+});
 test("source lookup preserves whitespace, safely falls back, and uses interpolation",()=>{
   const source={"Hello {{name}}":"Hello {{name}}"};
   const translator=(key,values)=>"مرحبا "+values.name;
