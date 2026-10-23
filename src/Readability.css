@@ -1,13 +1,3 @@
-/* A single compact header entry keeps reading preferences available on mobile. */
-.display-settings { position: relative; flex-shrink: 0; font-size: .85rem; }
-.display-settings summary { display: flex; align-items: center; gap: 8px; min-height: 44px; cursor: pointer; list-style: none; }
-.display-settings summary::-webkit-details-marker { display: none; }
-.display-settings summary > span { color: var(--accent); font-weight: 600; }
-.display-panel { position: absolute; top: calc(100% + 12px); right: 0; width: min(320px, calc(100vw - 40px)); padding: 20px; border: 1px solid var(--menu-border); border-radius: 4px; background: var(--menu-surface); box-shadow: 0 16px 30px #0003; }
-.display-panel .theme-control { display: grid; grid-template-columns: 1fr minmax(0, 1.3fr); gap: 12px; margin-bottom: 16px; font-size: .85rem; }
-.display-panel .theme-control > span { display: block; }
-.display-panel select { width: 100%; min-width: 0; padding-inline: 8px; }
-.display-panel p { color: var(--muted); font-size: .75rem; line-height: 1.6; }
 .project > *, .public-repository > *, .engagement-problem > *, .capability-system > *, .experience-grid > * { min-width: 0; }
 .project-summary, .case-body, .about-copy, .public-repository-detail, .engagement-problem p { max-width: 65ch; }
 .hero-description { font-size: 1rem; }
@@ -37,7 +27,6 @@
 @media (max-width: 600px) {
 
   .header-inner, .header-controls { gap: 12px; }
-  .display-panel { position: fixed; top: calc(var(--header-height, 76px) + 4px); right: 20px; }
 }
 :root[data-text-size="largest"] .hero,
 :root[data-text-size="largest"] .project,
@@ -70,7 +59,3 @@
 .analytics-control { margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--line); }
 .analytics-control label { display: flex; align-items: center; gap: 10px; min-height: 44px; cursor: pointer; }
 .analytics-control input { width: 20px; height: 20px; accent-color: var(--accent); flex-shrink: 0; }
-.display-panel { max-height: calc(100dvh - var(--header-height, 90px) - 24px); overflow-y: auto; overscroll-behavior: contain; }
-@media (max-width: 375px) {
-  :root[data-text-size="largest"] .display-settings summary > span { display: none; }
-}

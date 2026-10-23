@@ -5,11 +5,6 @@ html:lang(hi) { line-height: 1.9; }
 :lang(hi) { letter-spacing: normal; }
 html:lang(ja), html:lang(zh-Hans) { line-height: 1.8; }
 :lang(ja), :lang(zh-Hans) { letter-spacing: normal; word-break: normal; }
-.language-control { position: relative; font-size: .75rem; }
-.language-control summary { display: flex; align-items: center; gap: .35rem; cursor: pointer; white-space: nowrap; min-height: 44px; }
-.language-panel { position: absolute; inset-inline-end: 0; inset-block-start: 100%; z-index: 50; padding: 1rem; background: var(--menu-surface); border: 1px solid var(--menu-border); border-radius: 8px; inline-size: min(19rem, calc(100vw - 2rem)); box-shadow: 0 8px 24px #0003; }
-.language-panel label { display: grid; gap: .4rem; }
-.language-panel select { inline-size: 100%; min-block-size: 44px; font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--button-border); padding: .4rem; }
 .reading-control { margin-block-start: 1rem; }
 /* Full disclosure belongs below navigation; the selector carries only its status. */
 .translation-status { color: var(--muted); font-size: .7rem; line-height: 1.6; margin-block: .75rem 0; writing-mode: horizontal-tb; }
@@ -41,21 +36,15 @@ a[href^="mailto:"], a[href^="https:"], .mono { unicode-bidi: isolate; }
 @media (max-width: 760px) {
   .header-inner { flex-wrap: wrap; row-gap: .25rem; }
   .header-controls { margin-inline-start: auto; gap: .5rem; }
-  .language-control { font-size: .7rem; }
-  .language-panel { position: fixed; inset-inline: 1rem; inset-block-start: var(--header-height, 6rem); inline-size: auto; }
   .vertical-text { max-inline-size: min(19rem, 50svh); font-size: clamp(1rem, 4vw, 1.4rem); }
 }
-@media (prefers-reduced-motion: reduce) { .language-panel, .vertical-text { animation: none; transition: none; } }
+@media (prefers-reduced-motion: reduce) { .vertical-text { animation: none; transition: none; } }
 :root { --inline-sign: 1; }
 :root[dir="rtl"] { --inline-sign: -1; }
 #hero-title { direction: ltr; unicode-bidi: isolate; }
 [dir="rtl"] #hero-title { text-align: end; }
 [dir="rtl"] .button > span[aria-hidden="true"] { display: inline-block; transform: scaleX(-1); }
-.display-settings:not([open]) > .display-panel, .language-control:not([open]) > .language-panel, .mobile-menu:not([open]) > nav { display: none; }
-.display-panel { inset-inline-end: 0; right: auto; }
-@media (max-width: 600px) {
-  .display-panel { inset-inline: 1rem; right: auto; width: auto; }
-}
+.mobile-menu:not([open]) > nav { display: none; }
 .public-repository-stack { overflow-wrap: anywhere; }
 /* Arabic keeps the portrait and scenery together on the left. Reposition the
    visibility field, never reverse the face, ASCII glyphs or canvas pixels. */

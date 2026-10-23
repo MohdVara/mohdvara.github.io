@@ -9255,6 +9255,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ar": {
@@ -18511,6 +18553,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ja": {
@@ -27767,6 +27851,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "zh-Hans": {
@@ -37023,6 +37149,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "es": {
@@ -46279,6 +46447,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "fr": {
@@ -55537,6 +55747,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "de": {
@@ -64793,6 +65045,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "pt-BR": {
@@ -74051,6 +74345,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "hi": {
@@ -83307,6 +83643,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ta": {
@@ -92563,6 +92941,48 @@
         "provider": "openai-codex",
         "model": "session-model-unspecified",
         "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Privacy": {
+        "status": "machine_translated",
+        "sourceHash": "54a57c3147c49f33de5898b87084ad2b14c4ab308f762454bf92aca907478ad5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Settings": {
+        "status": "machine_translated",
+        "sourceHash": "74a883a037bc227f91891ab654a753d3a99f31ab06ae5b5d2b6e594a692b41f8",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Close settings": {
+        "status": "machine_translated",
+        "sourceHash": "0ccfef82895026e2194c1ba779b823e355aed510833e5200390f8e5f1ae316bf",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Open settings": {
+        "status": "machine_translated",
+        "sourceHash": "ca381c1e76e681b6c18fa984a2e2fda6ed4a9f28e914f539db34a6dcb3737149",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Tracking suppressed by your privacy signal.": {
+        "status": "machine_translated",
+        "sourceHash": "3d42b8d63d379e4c937cb392eba1647bd9b81224ef338fb30b116f74cff2e2c6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics on": {
+        "status": "machine_translated",
+        "sourceHash": "5518675fb5ae55e56b21593a616690446525ee41aca2fb54aea4464e76325a8a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Analytics off": {
+        "status": "machine_translated",
+        "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     }
   }

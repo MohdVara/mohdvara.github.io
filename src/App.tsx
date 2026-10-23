@@ -3,7 +3,7 @@ import { useExperience } from "./i18n/context";
 import { language } from "./i18n/languages";
 import { NamePronunciation, HeroNameReading } from "./i18n/controls";
 import { localizedHref } from "./i18n/config";
-import { LanguageSwitcher, TranslationNotice, VerticalText } from "./i18n/controls";
+import { TranslationNotice, VerticalText } from "./i18n/controls";
 import { text, localizedContent } from "./i18n/config";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { profile, projects, experience } from "./content";
@@ -21,10 +21,8 @@ import "./NaturalGraphics.css";
 import "./SystemDiagrams.css";
 import "./VisualMotion.css";
 import "./Readability.css";
-import { readAnalyticsPreference, setAnalyticsPreference, subscribeAnalyticsPreference } from "./analyticsPreference";
 import { NarrativeAccent } from "./NarrativeArtwork/NarrativeAccent";
 import { AsciiForestBackdrop } from "./AsciiForest/AsciiForestBackdrop";
-import { SceneryControl } from "./AsciiForest/SceneryControl";
 import PaceAssistantLauncher from "./PaceAssistantLauncher";
 
 function Arrow() {
@@ -37,92 +35,6 @@ const navItems = [
   ["about", "About"],
   ["contact", "Contact"],
 ] as const;
-function TextSizeControl() {
-  const [size, setSize] = useState("default");
-  useEffect(() => {
-    const sync = () => setSize(document.documentElement.dataset.textSize || "default");
-    sync();
-    window.addEventListener("text-size-change", sync);
-    return () => window.removeEventListener("text-size-change", sync);
-  }, []);
-  return <label className="theme-control"><span>{text("Text size")}</span>
-    <select aria-label={text("Text size")} value={size} onChange={(event) => {
-      window.dispatchEvent(new CustomEvent("text-size-preference", { detail: event.target.value }));
-    }}>
-      <option value="default">{text("Default")}</option><option value="large">{text("Large")}</option><option value="largest">{text("Largest")}</option>
-    </select>
-  </label>;
-}
-function AnalyticsControl() {
-  const [enabled, setEnabled] = useState(false);
-  useEffect(() => {
-    const sync = () => setEnabled(readAnalyticsPreference());
-    sync();
-    return subscribeAnalyticsPreference(sync);
-  }, []);
-  return <div className="analytics-control">
-    <label><input type="checkbox" checked={enabled} onChange={event => setAnalyticsPreference(event.target.checked)} aria-describedby="analytics-notice" />{text("Usage analytics")}</label>
-    <p id="analytics-notice">{text("Optional usage events via PostHog: page paths and link intent, with a session identifier in this tab. No form contents, gameplay actions or recordings. Off until you enable it; switch off here to withdraw. Do Not Track and Global Privacy Control take priority.")}</p>
-  </div>;
-}
-function DisplayControl() {
-  const settings = useRef<HTMLDetailsElement>(null);
-  useEffect(() => {
-    const dismiss = (event: PointerEvent) => {
-      if (event.target instanceof Node && !settings.current?.contains(event.target)) {
-        if (settings.current) settings.current.open = false;
-      }
-    };
-    document.addEventListener("pointerdown", dismiss);
-    return () => document.removeEventListener("pointerdown", dismiss);
-  }, []);
-  return <details className="display-settings" ref={settings} onKeyDown={(event) => {
-    if (event.key === "Escape" && settings.current) {
-      settings.current.open = false;
-      settings.current.querySelector("summary")?.focus();
-    }
-  }}>
-    <summary><span aria-hidden="true" lang="en">Aa</span>{text(" Display")}</summary>
-    <div className="display-panel"><TextSizeControl /><ThemeControl /><SceneryControl />
-      <p>{text("Display choices are remembered on this device.")}</p>
-      <AnalyticsControl />
-    </div>
-  </details>;
-}
-function ThemeControl() {
-  // Keep the server and first client render identical; the head script applies
-  // the actual palette before paint, then this effect syncs the control.
-  const [preference, setPreference] = useState("system");
-  useEffect(() => {
-    const sync = () => {
-      setPreference(document.documentElement.dataset.themePreference || "system");
-    };
-    sync();
-    window.addEventListener("theme-change", sync);
-    return () => window.removeEventListener("theme-change", sync);
-  }, []);
-  return (
-    <label className="theme-control">
-      <span>{text("Theme")}</span>
-      <select
-        aria-label={text("Color theme")}
-        value={preference}
-        onChange={(event) => {
-          window.dispatchEvent(
-            new CustomEvent("theme-preference", {
-              detail: event.target.value,
-            }),
-          );
-        }}
-      >
-        <option value="system">{text("System")}</option>
-        <option value="time">{text("Time of day")}</option>
-        <option value="light">{text("Light")}</option>
-        <option value="dark">{text("Dark")}</option>
-      </select>
-    </label>
-  );
-}
 export function Navigation({ home = true, contactOnPage = true }: { home?: boolean; contactOnPage?: boolean }) {
   const {locale} = useExperience();
   const [active, setActive] = useState("");
@@ -182,7 +94,6 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
               </a>
             )))}
           </nav>
-          <LanguageSwitcher /><DisplayControl />
           <details
             className="mobile-menu"
             ref={menu}

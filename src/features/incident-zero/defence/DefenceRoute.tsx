@@ -1,4 +1,4 @@
-import { LanguageSwitcher, TranslationNotice } from "../../../i18n/controls";
+import { TranslationNotice } from "../../../i18n/controls";
 import { localizedHref, labelParts } from "../../../i18n/config";
 import { text, localizedContent } from "../../../i18n/config";
 import { useEffect, useRef, useState, useMemo, type PointerEvent } from 'react';
@@ -130,7 +130,7 @@ export default function DefenceRoute() {
         controller.current?.input.fire(false);
     };
     return <div className="defence-page">
-    <header className="defence-header"><a href={localizedHref("/incident-zero/")}>{text("← Incident Zero")}</a><h1>{text("System Defence")}</h1><span className="defence-tag">{text("LEVEL ")}{localizedContent(session.level.toString().padStart(2, '0'))} / 05 · {localizedContent(labelParts(floor.name))}</span><LanguageSwitcher /></header><TranslationNotice /><main className="defence-content">
+    <header className="defence-header"><a href={localizedHref("/incident-zero/")}>{text("← Incident Zero")}</a><h1>{text("System Defence")}</h1><span className="defence-tag">{text("LEVEL ")}{localizedContent(session.level.toString().padStart(2, '0'))} / 05 · {localizedContent(labelParts(floor.name))}</span></header><TranslationNotice /><main className="defence-content">
     <div className="defence-hud" role="group" aria-label={text("Encounter status")}>
       <div><small>{text("Integrity")}</small><strong><span aria-hidden="true">{localizedContent('◆'.repeat(shownIntegrity))}<span className="defence-empty">{localizedContent('◇'.repeat(3 - shownIntegrity))}</span></span><span className="sr-only">{localizedContent(shownIntegrity)}{text(" of 3 integrity")}</span></strong></div>
       <div><small>{text("Tool")}</small><strong>{localizedContent(weapons[hud.weapon].name)}</strong></div>

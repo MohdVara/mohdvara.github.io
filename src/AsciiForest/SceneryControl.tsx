@@ -15,7 +15,7 @@ export function SceneryControl() {
   }, []);
   return <div className="scenery-control">
     <label className="theme-control"><span>{text('Animated scenery')}</span>
-      <select value={enabled ? "enabled" : "paused"} disabled={reduced}
+      <select aria-label={text('Animated scenery')} value={enabled ? "enabled" : "paused"} disabled={reduced}
         aria-describedby={reduced ? "scenery-motion-note" : undefined}
         onChange={event => setSceneryPreference(event.target.value === "enabled")}>
         <option value="enabled">{text('Enabled')}</option><option value="paused">{text('Paused')}</option>

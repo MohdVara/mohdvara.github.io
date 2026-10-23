@@ -15,52 +15,6 @@
   "Contact": [
     "src/App.tsx"
   ],
-  "Text size": [
-    "src/App.tsx",
-    "src/App.tsx"
-  ],
-  "Default": [
-    "src/App.tsx"
-  ],
-  "Large": [
-    "src/App.tsx"
-  ],
-  "Largest": [
-    "src/App.tsx"
-  ],
-  "Usage analytics": [
-    "src/App.tsx"
-  ],
-  "Optional usage events via PostHog: page paths and link intent, with a session identifier in this tab. No form contents, gameplay actions or recordings. Off until you enable it; switch off here to withdraw. Do Not Track and Global Privacy Control take priority.": [
-    "src/App.tsx"
-  ],
-  "Aa": [
-    "src/App.tsx"
-  ],
-  "Display": [
-    "src/App.tsx"
-  ],
-  "Display choices are remembered on this device.": [
-    "src/App.tsx"
-  ],
-  "Theme": [
-    "src/App.tsx"
-  ],
-  "Color theme": [
-    "src/App.tsx"
-  ],
-  "System": [
-    "src/App.tsx"
-  ],
-  "Time of day": [
-    "src/App.tsx"
-  ],
-  "Light": [
-    "src/App.tsx"
-  ],
-  "Dark": [
-    "src/App.tsx"
-  ],
   "mpv. Mohd. Paramasvara — home": [
     "src/App.tsx"
   ],
@@ -392,6 +346,7 @@
     "src/App.tsx",
     "src/EngineeringCaseStudy.tsx",
     "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NotFound.tsx",
     "src/PaceRagCaseStudy.tsx",
     "src/WorkWithMe.tsx"
   ],
@@ -409,13 +364,17 @@
     "src/App.tsx"
   ],
   "Animated scenery": [
-    "src/AsciiForest/SceneryControl.tsx"
+    "src/AsciiForest/SceneryControl.tsx",
+    "src/AsciiForest/SceneryControl.tsx",
+    "src/UtilityRail.tsx"
   ],
   "Enabled": [
-    "src/AsciiForest/SceneryControl.tsx"
+    "src/AsciiForest/SceneryControl.tsx",
+    "src/UtilityRail.tsx"
   ],
   "Paused": [
-    "src/AsciiForest/SceneryControl.tsx"
+    "src/AsciiForest/SceneryControl.tsx",
+    "src/UtilityRail.tsx"
   ],
   "Paused to follow your device’s reduced motion setting.": [
     "src/AsciiForest/SceneryControl.tsx"
@@ -1383,7 +1342,8 @@
     "src/NoTwoMondaysCaseStudy.tsx"
   ],
   "Explore": [
-    "src/NoTwoMondaysCaseStudy.tsx"
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/NotFoundLandscape.tsx"
   ],
   "Run legal action sequences through the actual simulation.": [
     "src/NoTwoMondaysCaseStudy.tsx"
@@ -1587,13 +1547,18 @@
   "Page not found | Mohd. Paramasvara": [
     "src/NotFound.tsx"
   ],
+  "The address may be incorrect, or the page may have moved.": [
+    "src/NotFound.tsx",
+    "src/NotFound.tsx"
+  ],
   "404 / Page not found": [
     "src/NotFound.tsx"
   ],
   "This page could not be found.": [
-    "src/NotFound.tsx"
+    "src/NotFound.tsx",
+    "src/Page.tsx"
   ],
-  "The address may be incorrect, or the page may have moved.": [
+  "The map may end here. The possibilities don't.": [
     "src/NotFound.tsx"
   ],
   "Return to portfolio": [
@@ -1601,10 +1566,29 @@
     "src/Page.tsx",
     "src/Page.tsx",
     "src/Page.tsx",
+    "src/Page.tsx",
     "src/RouteRecovery.tsx"
+  ],
+  "Explore engineering work": [
+    "src/NotFound.tsx"
   ],
   "Contact Mohd": [
     "src/NotFound.tsx"
+  ],
+  "Trace": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "Path": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "Beyond": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "Horizon": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "Onward": [
+    "src/NotFoundLandscape.tsx"
   ],
   "PACE-RAG supports English questions and answers only. Please ask your question in English.": [
     "src/PaceAssistant.tsx"
@@ -1949,6 +1933,7 @@
   ],
   "Retry": [
     "src/RouteRecovery.tsx",
+    "src/UtilityRail.tsx",
     "src/features/incident-zero/IncidentZeroRoute.tsx"
   ],
   "Modernisation work on an established education platform.": [
@@ -2079,6 +2064,81 @@
   ],
   "Selected role starts / overlapping engagements": [
     "src/SystemDiagrams.tsx"
+  ],
+  "Language": [
+    "src/UtilityPanel.tsx",
+    "src/UtilityPanel.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Machine translated from English": [
+    "src/UtilityPanel.tsx"
+  ],
+  "Text size": [
+    "src/UtilityPreferences.tsx",
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Default": [
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Large": [
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Largest": [
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Usage analytics": [
+    "src/UtilityPreferences.tsx"
+  ],
+  "Optional usage events via PostHog: page paths and link intent, with a session identifier in this tab. No form contents, gameplay actions or recordings. Off until you enable it; switch off here to withdraw. Do Not Track and Global Privacy Control take priority.": [
+    "src/UtilityPreferences.tsx"
+  ],
+  "Theme": [
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Color theme": [
+    "src/UtilityPreferences.tsx"
+  ],
+  "System": [
+    "src/UtilityPreferences.tsx"
+  ],
+  "Time of day": [
+    "src/UtilityPreferences.tsx"
+  ],
+  "Light": [
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Dark": [
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Privacy": [
+    "src/UtilityRail.tsx"
+  ],
+  "Tracking suppressed by your privacy signal.": [
+    "src/UtilityRail.tsx"
+  ],
+  "Analytics on": [
+    "src/UtilityRail.tsx"
+  ],
+  "Analytics off": [
+    "src/UtilityRail.tsx"
+  ],
+  "Settings": [
+    "src/UtilityRail.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Close settings": [
+    "src/UtilityRail.tsx",
+    "src/UtilityRail.tsx"
+  ],
+  "Open settings": [
+    "src/UtilityRail.tsx"
   ],
   "03A / What I solve": [
     "src/WhatISolve.tsx"
@@ -3447,14 +3507,6 @@
   "Language changed to {{language}}.": [
     "src/i18n/Experience.tsx"
   ],
-  "Language": [
-    "src/i18n/controls.tsx",
-    "src/i18n/controls.tsx",
-    "src/i18n/controls.tsx"
-  ],
-  "Machine translated from English": [
-    "src/i18n/controls.tsx"
-  ],
   "Reading mode": [
     "src/i18n/controls.tsx",
     "src/i18n/controls.tsx"
@@ -3902,23 +3954,5 @@
   ],
   "artwork.preserve-working": [
     "src/artwork/vocabulary.json"
-  ],
-  "Onward": [
-    "src/NotFoundLandscape.tsx"
-  ],
-  "Trace": [
-    "src/NotFoundLandscape.tsx"
-  ],
-  "The map may end here. The possibilities don't.": [
-    "src/NotFound.tsx"
-  ],
-  "Beyond": [
-    "src/NotFoundLandscape.tsx"
-  ],
-  "Horizon": [
-    "src/NotFoundLandscape.tsx"
-  ],
-  "Path": [
-    "src/NotFoundLandscape.tsx"
   ]
 }

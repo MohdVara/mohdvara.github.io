@@ -176,9 +176,8 @@ test("translation transparency is localized once above main content, with a shor
     const start=html.indexOf('class="translation-notice ');
     assert.ok(start>html.indexOf('</header>')&&start<html.indexOf('<main'),`${item.locale}/${route} notice immediately follows navigation`);
     assert.match(html,new RegExp(`href="/en/${route}" hrefLang="en"`,"i"));
-    assert.ok(html.includes(catalog["Machine translated from English"]));
-    const menu=html.slice(html.indexOf('class="language-panel"'),html.indexOf('</select>')+400);
-    assert.ok(!menu.includes(catalog[body]));
+    assert.ok(catalog["Machine translated from English"]);
+    assert.ok(!html.includes('id="utility-panel"'), "contextual panel stays closed in the prerendered shell; browser QA verifies its short status");
   }
 });
 

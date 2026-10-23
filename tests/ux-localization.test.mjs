@@ -8,7 +8,7 @@ const source=await readJson('src/i18n/locales/en.json');
 const metadata=await readJson('scripts/i18n/metadata.json');
 test('each locale offers distinct professional and independent homepage paths',async()=>{
  for(const {locale,nativeName} of registry){const html=await readFile(`dist/${locale}/index.html`,'utf8');const c=await readJson(`src/i18n/locales/${locale}.json`);
-  assert.ok(html.includes(`aria-label="${c.Language}: ${nativeName}"`),"language trigger accessible name includes visible selection");
+  assert.ok(html.includes(`aria-label="${c.Language}: ${nativeName} · ${locale}"`),"language trigger accessible name includes visible selection");
   assert.ok(html.includes(`href="#work">${c['Professional delivery']}`));
   assert.ok(html.includes(`href="#public-engineering">${c['Independent engineering']}`));
   assert.match(html,/id="public-engineering"/);assert.match(html,/id="work"/);

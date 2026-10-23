@@ -1,6 +1,7 @@
 import { startTransition, useEffect, useRef, useState, type ComponentProps } from "react";
 import { useTranslation } from "react-i18next";
 import Page from "../Page";
+import UtilityRail from "../UtilityRail";
 import { currentLocale, i18n, loadLocale, text } from "./config";
 import { ExperienceContext } from "./context";
 import { language, type Locale, type WritingMode } from "./languages";
@@ -69,6 +70,7 @@ export default function Experience(props: ComponentProps<typeof Page>) {
     setWriting(mode); try {localStorage.setItem(writingPreferenceKey, mode);} catch { /* Optional persistence. */ }
   }}}>
     <Page {...props} path={splitLocale(path).path} />
+    <UtilityRail />
     {error && <p role="alert">{error}</p>}
     <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">{announcement}</p>
   </ExperienceContext.Provider>;

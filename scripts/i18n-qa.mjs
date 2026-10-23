@@ -7,6 +7,11 @@ const {chromium} = require("playwright");
 const registry = JSON.parse(await readFile("src/i18n/languages.json","utf8"));
 const english = JSON.parse(await readFile("src/i18n/locales/en.json","utf8"));
 const base = process.env.QA_URL || "http://127.0.0.1:4173";
+async function toggleLanguage(page) {
+  const entry = page.locator('.utility-entry');
+  if (await entry.isVisible() && await entry.getAttribute('aria-expanded') === 'false') await entry.click();
+  await page.locator('[data-control="language"]').click();
+}
 const output = process.env.QA_OUTPUT || "output/playwright/pme";
 await mkdir(output,{recursive:true});
 const browser = await chromium.launch({channel:"chrome",headless:true});
@@ -80,18 +85,18 @@ try {
       assert.equal(await disclaimer.getAttribute('role'),null,'static notice is not an alert');
       await page.reload({waitUntil:'networkidle'});
       assert.equal(await page.locator('.translation-notice').count(),1,'notice persists after refresh');
-      await page.locator('.language-control summary').click();
+      await toggleLanguage(page);
       const catalog=JSON.parse(await readFile(`src/i18n/locales/${item.locale}.json`,'utf8'));
       assert.equal(await page.locator('.translation-status').textContent(),catalog['Machine translated from English']);
-      assert.ok(!(await page.locator('.language-panel').textContent()).includes(catalog['Machine Translation Notice']));
-      await page.locator('.language-control summary').click();
+      assert.ok(!(await page.locator('.utility-panel').textContent()).includes(catalog['Machine Translation Notice']));
+      await toggleLanguage(page);
     }
     assert.equal((await page.locator(".wordmark").innerText()).trim(),item.brandMark+".");
     if(item.writingModes.includes("vertical")) {
       await page.setViewportSize({width:1440,height:1000});
       const heroBefore=(await page.locator(".hero-environment").boundingBox()).height;
       assert.equal(await page.locator(".hero-native-column").evaluate(el=>getComputedStyle(el).writingMode),"vertical-rl");
-      await page.locator(".language-control summary").click();
+      await toggleLanguage(page);
       await page.locator(".reading-control select").selectOption("vertical");
       assert.equal(await page.locator(".vertical-text").first().evaluate(el=>getComputedStyle(el).writingMode),"vertical-rl");
       assert.ok(await page.locator("h2 > .vertical-text").count()>=4);
@@ -137,8 +142,8 @@ try {
     await assistant.locator('textarea').fill('Which projects used 株式会社 APIs?');
     await assistant.evaluate(el=>el.dataset.pmeIdentity='preserved');
     const next=item.locale==='en'?'ar':'en';
-    await page.locator('.language-control summary').click();
-    await page.locator('.language-panel > label:first-child > select').selectOption(next);
+    await toggleLanguage(page);
+    await page.locator('.utility-panel > .theme-control > select').selectOption(next);
     await page.waitForFunction(locale=>document.documentElement.lang===locale,next);
     assert.equal(await assistant.getAttribute('data-pme-identity'),'preserved');
     assert.equal(await assistant.locator('textarea').inputValue(),'Which projects used 株式会社 APIs?');
@@ -160,21 +165,21 @@ try {
   await page.goto(base+"/",{waitUntil:"networkidle"});
   await page.waitForURL("**/ar/");
   report.scenarios.push("browser detection");
-  await page.locator(".language-control summary").click();
-  await page.locator(".language-panel > label:first-child > select").focus();
-  await page.locator(".language-panel > label:first-child > select").selectOption("de");
+  await toggleLanguage(page);
+  await page.locator(".utility-panel > .theme-control > select").focus();
+  await page.locator(".utility-panel > .theme-control > select").selectOption("de");
   await page.waitForURL("**/de/");
   assert.equal(await page.evaluate(()=>localStorage.getItem("portfolio.locale.v1")),"de");
   const german=JSON.parse(await readFile("src/i18n/locales/de.json","utf8"));
   await page.waitForFunction(title=>document.title===title,german["Mohd. Paramasvara | Principal Full-Stack Engineer"]);
   report.scenarios.push("browser title updates with selected language");
-  assert.equal(await page.locator(".language-control").getAttribute("open"),null,"committed selection closes disclosure");
-  assert.equal(await page.locator(".language-control summary").evaluate(el=>el===document.activeElement),true);
-  await page.locator(".language-control summary").click();
-  await page.locator(".language-panel > label:first-child > select").focus();
+  assert.equal(await page.locator('[data-control="language"]').getAttribute("aria-expanded"),"false","committed selection closes disclosure");
+  assert.equal(await page.locator('[data-control="language"]').evaluate(el=>el===document.activeElement),true);
+  await toggleLanguage(page);
+  await page.locator(".utility-panel > .theme-control > select").focus();
   await page.keyboard.press("Escape");
-  assert.equal(await page.locator(".language-control").getAttribute("open"),null);
-  assert.equal(await page.locator(".language-control summary").evaluate(el=>el===document.activeElement),true);
+  assert.equal(await page.locator('[data-control="language"]').getAttribute("aria-expanded"),"false");
+  assert.equal(await page.locator('[data-control="language"]').evaluate(el=>el===document.activeElement),true);
   await page.reload({waitUntil:"networkidle"});
   assert.equal(await page.locator("html").getAttribute("lang"),"de");
   await page.goto(base+"/",{waitUntil:"networkidle"});await page.waitForURL("**/de/");
@@ -185,15 +190,15 @@ try {
   report.scenarios.push("URL overrides preference");
   const input=page.locator('input[type="text"]').first();
   if(await input.count()) await input.fill("Preserve this input");
-  await page.locator(".language-control summary").click();
-  await page.locator(".language-panel > label:first-child > select").selectOption("fr");
+  await toggleLanguage(page);
+  await page.locator(".utility-panel > .theme-control > select").selectOption("fr");
   await page.waitForURL("**/fr/work-with-me/?source=qa#contact");
   if(await input.count()) assert.equal(await input.inputValue(),"Preserve this input");
   await page.goBack();await page.waitForFunction(()=>document.documentElement.lang==="en");
   await page.goForward();await page.waitForFunction(()=>document.documentElement.lang==="fr");
   report.scenarios.push("nested route, query, fragment and history preservation");
   report.formPresent = Boolean(await input.count());
-  if(await page.locator(".language-control").getAttribute("open")!==null)await page.locator(".language-control summary").click();
+  if(await page.locator('[data-control="language"]').getAttribute("aria-expanded")==="true")await toggleLanguage(page);
   await page.locator(".translation-notice .translation-original").click();await page.waitForURL("**/en/work-with-me/?source=qa#contact");
   assert.equal(await page.evaluate(()=>localStorage.getItem("portfolio.locale.v1")),"en");
   assert.equal(await page.locator(".translation-notice").count(),0);
@@ -209,9 +214,9 @@ try {
     report.missingSource.push(...strings.filter(value=>!Object.hasOwn(english,value)).map(value=>({route,value})));
   }
   await page.goto(base+"/ja/",{waitUntil:"networkidle"});
-  await page.locator(".language-control summary").click();
+  await toggleLanguage(page);
   await page.locator(".reading-control select").selectOption("vertical");
-  await page.locator(".language-panel > label:first-child > select").selectOption("es");
+  await page.locator(".utility-panel > .theme-control > select").selectOption("es");
   await page.waitForFunction(()=>document.documentElement.lang==="es"&&document.documentElement.dataset.writingMode==="horizontal");
   assert.equal(await page.locator(".reading-control").count(),0);
   assert.equal(await page.locator(".vertical-text").count(),0);
