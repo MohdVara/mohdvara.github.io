@@ -30,6 +30,14 @@ try{
     assert.equal(await page.locator('.translation-original').getAttribute('href'),`/en/${route}/`);
    }
    report.routes.push({locale,route,direction,canonical:await page.locator('link[rel=canonical]').getAttribute('href')});
+   for(const image of await page.locator('.engineering-evidence img').all()){
+    await image.scrollIntoViewIfNeeded();
+    await image.evaluate(async img=>{await img.decode();if(img.naturalWidth!==1440||img.naturalHeight!==900)throw Error('Evidence image dimensions');});
+    assert.equal(await image.getAttribute('loading'),'lazy');
+    assert.ok(await image.getAttribute('alt'));
+    assert.ok(await image.locator('..').locator('figcaption').innerText());
+   }
+   await page.evaluate(()=>scrollTo(0,0));
    if(['en','ar','ta','ja'].includes(locale)){
     for(const width of [320,390,768,1280,1920,3840]){
      await page.setViewportSize({width,height:1000});
@@ -90,7 +98,10 @@ try{
  assert.equal(await page.locator('html').getAttribute('lang'),'en');
  report.interactions.push('RTL/LTR direction samples, Arabic largest text and matching English-original navigation passed.');
  await page.goto(`${base}/ja/multilingual-engineering/`);await page.locator('#quick-multilingual-engineering').waitFor();
- await page.locator('.language-control summary').click();
+ await page.waitForFunction(()=>document.documentElement.dataset.localeReady==='ja');
+ const entry=page.locator('.utility-entry');
+ if(await entry.isVisible() && await entry.getAttribute('aria-expanded')==='false')await entry.click();
+ await page.locator('[data-control=language]').click();
  await page.locator('.reading-control select').selectOption('vertical');
  await page.waitForFunction(()=>document.documentElement.dataset.writingMode==='vertical');
  assert.equal(await page.locator('#direction-demo select').evaluate(el=>getComputedStyle(el).writingMode),'horizontal-tb');
