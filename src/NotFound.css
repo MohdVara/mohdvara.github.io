@@ -1,0 +1,71 @@
+.unmapped-page {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: calc(100svh - var(--header-height, 90px) - var(--translation-notice-height, 0px));
+  display: grid;
+  align-items: center;
+  --unmapped-strength: 1.6;
+  --unmapped-ridge: #789b8f;
+  --unmapped-terrain: #728d79;
+  --unmapped-contour: #718a72;
+  --unmapped-trail: #dda658;
+  --unmapped-word: #b0bc9c;
+  --unmapped-grass: #84966f;
+}
+:root[data-theme="light"] .unmapped-page {
+  --unmapped-strength: 1.9;
+  --unmapped-ridge: #56695b;
+  --unmapped-terrain: #53644d;
+  --unmapped-contour: #536149;
+  --unmapped-trail: #87502c;
+  --unmapped-word: #64573a;
+  --unmapped-grass: #666b43;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) .unmapped-page {
+    --unmapped-strength: 1.9;
+    --unmapped-ridge: #56695b; --unmapped-terrain: #53644d; --unmapped-contour: #536149;
+    --unmapped-trail: #87502c; --unmapped-word: #64573a; --unmapped-grass: #666b43;
+  }
+}
+.unmapped-landscape { position: absolute; inset: 0; z-index: -1; pointer-events: none; direction: ltr; }
+.unmapped-landscape svg { width: 100%; height: 100%; display: block; }
+.unmapped-landscape .unmapped-mobile { display: none; }
+.unmapped-ink { font-family: var(--locale-font, "Avenir Next"), sans-serif; fill: var(--unmapped-terrain); }
+.unmapped-ink:not(.word) { font-family: "Courier New", monospace; font-weight: 600; }
+.unmapped-ink.ridge { fill: var(--unmapped-ridge); }
+.unmapped-ink.contour { fill: var(--unmapped-contour); }
+.unmapped-ink.trail, .unmapped-ink.marker { fill: var(--unmapped-trail); }
+.unmapped-ink.word { fill: var(--unmapped-word); }
+.unmapped-ink.grass { fill: var(--unmapped-grass); }
+.unmapped-content { padding-block: clamp(3rem, 7vh, 6rem); position: relative; }
+.unmapped-content > * { max-width: 32rem; }
+.unmapped-content h1 { font-size: clamp(2.25rem, 4.3vw, 4rem); line-height: 1.13; letter-spacing: -.035em; margin-block: .7rem 1.2rem; text-wrap: balance; }
+.unmapped-explanation { max-width: 29rem; color: var(--muted); }
+.unmapped-quote { margin: 2rem 0; padding-inline-start: 1.1rem; border-inline-start: 2px solid var(--accent); max-width: 27rem; }
+.unmapped-quote p { font-size: clamp(1.1rem, 1.7vw, 1.45rem); line-height: 1.5; color: var(--strong-muted); margin: 0; text-wrap: balance; }
+.unmapped-actions { gap: 1rem 1.3rem; flex-wrap: wrap; }
+.unmapped-actions a, .unmapped-contact { min-height: 44px; display: inline-flex; align-items: center; }
+.unmapped-contact { margin-block-start: .7rem; color: var(--muted); }
+/* Keep terrain geometry unmirrored; reserve the same empty editorial zone in RTL. */
+[dir="rtl"] .unmapped-content { direction: rtl; }
+[dir="rtl"] .unmapped-content > * { margin-inline-start: auto; margin-inline-end: 0; }
+[dir="rtl"] .unmapped-quote { margin-block: 2rem; }
+@media (max-width: 900px) {
+  .unmapped-page { display: block; }
+  .unmapped-content { padding-block: 2.5rem 24rem; }
+  .unmapped-content > * { max-width: 35rem; }
+  .unmapped-landscape { top: auto; height: 23rem; }
+  .unmapped-landscape .unmapped-wide { display: none; }
+  .unmapped-landscape .unmapped-mobile { display: block; }
+  .unmapped-content h1 { font-size: clamp(2rem, 6vw, 3.5rem); }
+  .unmapped-quote { margin-block: 1.5rem; }
+}
+@media (min-width: 1921px) {
+  .unmapped-landscape svg { max-height: 1100px; align-self: end; }
+  .unmapped-landscape { display: grid; align-items: end; }
+}
+@media (forced-colors: active) { .unmapped-landscape { display: none; } }
+
+.unmapped-quote .vertical-text { max-inline-size: 14rem; line-height: 1.6; }

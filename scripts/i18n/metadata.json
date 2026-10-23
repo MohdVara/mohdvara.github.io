@@ -9213,6 +9213,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "ar": {
@@ -18427,6 +18469,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "ja": {
@@ -27641,6 +27725,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "zh-Hans": {
@@ -36855,6 +36981,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "es": {
@@ -46069,6 +46237,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "fr": {
@@ -55285,6 +55495,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "de": {
@@ -64499,6 +64751,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "pt-BR": {
@@ -73715,6 +74009,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "hi": {
@@ -82929,6 +83265,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     },
     "ta": {
@@ -92143,6 +92521,48 @@
         "sourceHash": "47a4884937e91463b58852ff9e5b402c0edee1a431b247bad527a761f2e93c25",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Beyond": {
+        "status": "machine_translated",
+        "sourceHash": "1ebfbc76ebe3858f398cfcbdf81ed9770e5173f3a9997b695bac6c959c49c19a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Horizon": {
+        "status": "machine_translated",
+        "sourceHash": "ae8359684edfa68a550cb0ab9ffee0aa27c2d6325191fc805f0a1b5bf40a7d51",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Onward": {
+        "status": "machine_translated",
+        "sourceHash": "469191d5658e46b0905b042e3d47a02aefbdcbf56f19ea758bffc6c3ac42e897",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Path": {
+        "status": "machine_translated",
+        "sourceHash": "62fa5a5b0d3c318835a213e22a4b335c42515443d598741d0413e8c47f9ecf67",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "The map may end here. The possibilities don't.": {
+        "status": "machine_translated",
+        "sourceHash": "8e56e96acd92f54d1ee3da14545c0a78f219674681c7920fe59d05267b834fa2",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
+      },
+      "Trace": {
+        "status": "machine_translated",
+        "sourceHash": "7e14c3d7dd12bbd0947aa8cb491dff154a1644a85848fc28bd1997ef9ef54a2a",
+        "provider": "openai-codex",
+        "model": "session-model-unspecified",
+        "reviewNote": "Machine-authored in coding session; 404 quote and semantic vocabulary await qualified editorial review."
       }
     }
   }

@@ -3902,5 +3902,23 @@
   ],
   "artwork.preserve-working": [
     "src/artwork/vocabulary.json"
+  ],
+  "Onward": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "Trace": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "The map may end here. The possibilities don't.": [
+    "src/NotFound.tsx"
+  ],
+  "Beyond": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "Horizon": [
+    "src/NotFoundLandscape.tsx"
+  ],
+  "Path": [
+    "src/NotFoundLandscape.tsx"
   ]
 }

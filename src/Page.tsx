@@ -4,7 +4,7 @@ import { lazy, Suspense, type ComponentType } from "react";
 import FirstFrame from "./FirstFrame";
 import App from "./App";
 import RouteRecovery from "./RouteRecovery";
-import NotFound from "./NotFound";
+const LazyNotFound = import.meta.env.SSR ? () => null : lazy(() => import("./NotFound"));
 import { useFragmentNavigation } from "./useFragmentNavigation";
 // Static rendering injects the resolved component; the browser fetches it only
 // for this route. Do not include a client-only lazy import in the SSR bundle.
@@ -30,6 +30,7 @@ export default function Page({
   workWithMeComponent,
   paceRagCaseStudyComponent,
   engineeringCaseStudyComponent,
+  notFoundComponent,
 }: {
   path: string;
   incidentComponent?: ComponentType;
@@ -38,8 +39,10 @@ export default function Page({
   workWithMeComponent?: ComponentType;
   paceRagCaseStudyComponent?: ComponentType;
   engineeringCaseStudyComponent?: ComponentType;
+  notFoundComponent?: ComponentType;
 }) {
   useFragmentNavigation(path);
+  const NotFound = notFoundComponent || LazyNotFound;
   const route = path.replace(/\/$/, "");
   const WorkWithMe = workWithMeComponent || LazyWorkWithMe;
   const Incident = incidentComponent || LazyIncident;
@@ -72,5 +75,5 @@ export default function Page({
     <RouteRecovery><Suspense fallback={<main className="container section"><p role="status">{text("Loading engineering engagements…")}</p><a href={localizedHref("/")}>{text("Return to portfolio")}</a></main>}><FirstFrame><WorkWithMe /></FirstFrame></Suspense></RouteRecovery>
   ) : route === "" ? (
     <FirstFrame><App /></FirstFrame>
-  ) : <FirstFrame><NotFound /></FirstFrame>;
+  ) : <Suspense fallback={<main className="container section"><h1>{text("This page could not be found.")}</h1><a href={localizedHref("/")}>{text("Return to portfolio")}</a></main>}><FirstFrame><NotFound /></FirstFrame></Suspense>;
 }

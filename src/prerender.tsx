@@ -1,4 +1,5 @@
 import { renderToString } from "react-dom/server";
+import NotFound from "./NotFound";
 import Experience from "./i18n/Experience";
 import { i18n, loadLocale } from "./i18n/config";
 import { splitLocale } from "./i18n/localeResolution";
@@ -13,7 +14,7 @@ export async function render(path = "/") {
   await loadLocale(locale);
   await i18n.changeLanguage(locale);
   return renderToString(
-    <Experience engineeringCaseStudyComponent={EngineeringCaseStudy} paceRagCaseStudyComponent={PaceRagCaseStudy} workWithMeComponent={WorkWithMe} path={path} incidentComponent={IncidentZeroRoute} defenceComponent={DefenceRoute} ntmCaseStudyComponent={NoTwoMondaysCaseStudy} />,
+    <Experience notFoundComponent={NotFound} engineeringCaseStudyComponent={EngineeringCaseStudy} paceRagCaseStudyComponent={PaceRagCaseStudy} workWithMeComponent={WorkWithMe} path={path} incidentComponent={IncidentZeroRoute} defenceComponent={DefenceRoute} ntmCaseStudyComponent={NoTwoMondaysCaseStudy} />,
   );
 }
 

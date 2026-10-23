@@ -31,7 +31,7 @@ try {
     {"route": "naae", "title": "NAAE evolution | Mohd. Paramasvara", "description": "Narrative ASCII Art Engine: saved artwork, rendering architecture and version boundaries."},
     {"route": "multilingual-engineering", "title": "Multilingual engineering | Mohd. Paramasvara", "description": "Eleven portfolio locales: canonical English, direction-aware presentation and translation maintenance."},
     { route: "pace-rag-case-study", title: "PACE-RAG — Browser Retrieval Engineering | Mohd. Paramasvara", description: "PACE-RAG: Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation. Reviewed answers and local retrieval; live generative inference disabled." },
-    { route: "404", title: "Page not found | Mohd. Paramasvara", description: "This page could not be found. Return to the portfolio or contact Mohd. Paramasvara." },
+    { route: "404", title: "Page not found | Mohd. Paramasvara", description: "The address may be incorrect, or the page may have moved." },
     {
       route: "no-two-mondays",
       title: "Engineering No Two Mondays: An Extensible Simulation with AI | Mohd. Paramasvara",
@@ -137,8 +137,25 @@ try {
       },
     );
     if (route === "404") {
+      const css = (await readdir("dist/assets")).find(name => name.startsWith("NotFound-") && name.endsWith(".css"));
+      if (!css) throw new Error("404 stylesheet missing");
+      work = work.replace("</head>", `<link rel="stylesheet" href="/assets/${css}"></head>`);
       work = work.replace(/<link rel="canonical"[^>]*>/, "").replace(/<meta property="og:url"[^>]*>/, "").replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/, "").replace("</head>", '<meta name="robots" content="noindex, follow"></head>');
       await writeFile("dist/404.html", work);
+      // Pages walks up to the nearest 404.html. Locale subdirectories provide
+      // useful localized recovery even with JavaScript disabled, retaining 404.
+      for (const item of JSON.parse(await readFile("src/i18n/languages.json", "utf8"))) {
+        const catalog = JSON.parse(await readFile(`src/i18n/locales/${item.locale}.json`, "utf8"));
+        const markup = await render(`/${item.locale}/404/`);
+        let localized = work.replace(/<html lang="en">/, `<html lang="${item.locale}" dir="${item.direction}" style="--locale-font:${escape(item.fonts)}">`);
+        localized = localized.replace(/<div id="root">[\s\S]*<\/div>(\s*<script type="module"[^>]*><\/script>)?\s*<\/body>/, `<div id="root" data-locale="${item.locale}">${markup}</div></body>`);
+        localized = localized.replace(/<title>[^<]*<\/title>/, `<title>${escape(catalog[title] || title)}</title>`);
+        localized = localized.replace(/(<meta\s+(?:name|property)="(?:description|twitter:description|og:description|twitter:title|og:title)"\s+content=")[^"]*/g,
+          (start) => start.slice(0, start.lastIndexOf('"') + 1) + escape(catalog[/:title/.test(start) ? title : description] || (/:title/.test(start) ? title : description)));
+        if (item.fontQuery) localized = localized.replace("</head>", `<link id="locale-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=${item.fontQuery}&amp;display=swap"></head>`);
+        await mkdir(`dist/${item.locale}`, { recursive: true });
+        await writeFile(`dist/${item.locale}/404.html`, localized);
+      }
       continue;
     }
     await mkdir(`dist/${route}`, { recursive: true });

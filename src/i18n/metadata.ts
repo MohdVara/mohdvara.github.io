@@ -24,6 +24,12 @@ export function applyMetadata(locale: Locale, pathname: string) {
   const root = document.documentElement;
   root.lang = locale; root.dir = language(locale).direction;
   root.style.setProperty("--locale-font", language(locale).fonts);
+  let font = document.querySelector<HTMLLinkElement>("#locale-font");
+  const query = language(locale).fontQuery;
+  if (query) {
+    if (!font) {font = document.createElement("link"); font.id = "locale-font"; font.rel = "stylesheet"; document.head.append(font);}
+    font.href = `https://fonts.googleapis.com/css2?family=${query}&display=swap`;
+  } else font?.remove();
   if (!seo[path]) return;
   document.title = title;
   const setMeta = (selector: string, value: string) => document.querySelector(selector)?.setAttribute("content", value);
@@ -37,10 +43,5 @@ export function applyMetadata(locale: Locale, pathname: string) {
   for (const item of [...languages.map(item => ({code:item.locale, href: domain + localizedPath(item.locale, path)})), {code:"x-default",href:domain+path}]) {
     const link = document.createElement("link"); link.rel = "alternate"; link.hreflang = item.code; link.href = item.href; document.head.append(link);
   }
-  let font = document.querySelector<HTMLLinkElement>("#locale-font");
-  const query = language(locale).fontQuery;
-  if (query) {
-    if (!font) {font = document.createElement("link"); font.id = "locale-font"; font.rel = "stylesheet"; document.head.append(font);}
-    font.href = `https://fonts.googleapis.com/css2?family=${query}&display=swap`;
-  } else font?.remove();
+
 }
