@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.0",
+  "task": "portfolio-404-experience-v1",
+  "status": "COMPLETE — LOCALLY VERIFIED",
+  "timestamp": "2026-10-23T10:51:38.509943+00:00",
+  "git_base": "92a510618c60e2ec8cb4c72fb71d7a0ad498f037",
+  "uncommitted": true,
+  "artwork": {
+    "selected": "A — The Vanishing Trail",
+    "renderer": "Dedicated deterministic SVG text composition; shared native locale fonts and shaping; no full NAAE studio dependency",
+    "variants": {
+      "A": "Selected: clear narrowing trail and quiet recovery area",
+      "B": "Rejected: branching junction is busier and competes with recovery",
+      "C": "Rejected: fading map loses identifiable trail at distance"
+    },
+    "glyphs_only": true,
+    "static": true,
+    "foreground_ui_in_svg": false,
+    "quote": "The map may end here. The possibilities don't.",
+    "quote_element": "blockquote > p > localized VerticalText",
+    "owner_visibility_feedback": "Stronger terrain ink, weight 600 punctuation, darker light-mode sage, larger compact glyphs, mobile scene placed below recovery",
+    "desktop_viewbox": [
+      1600,
+      900
+    ],
+    "compact_viewbox": [
+      420,
+      440
+    ],
+    "maximum_measured_semantic_word_width": 77.1875,
+    "reserved_word_slot": 100
+  },
+  "localization": {
+    "locales": [
+      "en",
+      "ms",
+      "ar",
+      "ta",
+      "ja",
+      "zh-Hans",
+      "es",
+      "fr",
+      "de",
+      "pt-BR",
+      "hi"
+    ],
+    "units_before": 1488,
+    "units_after": 1494,
+    "new_keys": [
+      "Trace",
+      "Path",
+      "Beyond",
+      "Horizon",
+      "Onward",
+      "The map may end here. The possibilities don't."
+    ],
+    "new_target_translations": 60,
+    "missing": 0,
+    "stale": 0,
+    "editorial_warnings": 97,
+    "provider_credentials_available": false,
+    "new_provenance": {
+      "status": "machine_translated",
+      "provider": "openai-codex",
+      "model": "session-model-unspecified",
+      "human_reviewed": 0
+    },
+    "qualified_quote_review": "PENDING — all ten translated quotes flagged in metadata and implementation notes"
+  },
+  "routing": {
+    "emulator": "Wrangler 4.148.0 Pages dev, local only",
+    "root_404": "dist/404.html",
+    "localized_404s": 11,
+    "unknown_nested_paths_http_status": 404,
+    "known_routes_verified": 108,
+    "known_routes_http_status": 200,
+    "static_route_issues": [],
+    "no_javascript_locales": 11,
+    "robots": "noindex, follow",
+    "sitemap_includes_404": false,
+    "canonical_or_hreflang_on_missing_routes": false,
+    "fuzzy_redirects": false,
+    "deployment_verified": false,
+    "reference": "https://developers.cloudflare.com/pages/configuration/serving-pages/#not-found-behavior"
+  },
+  "performance": {
+    "baseline_entry_raw": 214639,
+    "final_entry": {
+      "path": "assets/index-CDBqdlk1.js",
+      "bytes": 214099,
+      "sha256": "deb867b9bd3e7e892b5425f65a4e5bc66cfaa21a13d5b5ea431186e897517d3e",
+      "gzip": 65433
+    },
+    "raw_entry_delta": -540,
+    "entry_budget": 215000,
+    "budget_changed": false,
+    "route_artifacts": [
+      {
+        "path": "dist/404.html",
+        "bytes": 253958,
+        "gzip": 51184,
+        "sha256": "fe3947cad6cbf132dfd8ee7fcb2a5ef8387dfb1544b22f81a8cd63fa98c0c19c"
+      },
+      {
+        "path": "dist/assets/NotFound-B3Lb7eYP.js",
+        "bytes": 4948,
+        "gzip": 2410,
+        "sha256": "192a7f4b8f8459690d75cd6c8df5de45b1809ac073db1b9c5e41b6bb33437a1c"
+      },
+      {
+        "path": "dist/assets/NotFound-Co2pmzVU.css",
+        "bytes": 2988,
+        "gzip": 1052,
+        "sha256": "849958e437525f67751ae1ccb84dd9023ad5f8a3c9660b177890e7b70f62a45c"
+      }
+    ],
+    "initial_implementation_404_raw": 1148227,
+    "animation_loop": false,
+    "new_runtime_dependencies": 0,
+    "studio_or_model_loaded": false
+  },
+  "tests": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "production_build_prerender": "PASS; final route/CSS changes also rebuilt with Vite + prerender without unrelated data refresh",
+    "full_unit_integration": "PASS — 196",
+    "focused_after_stronger_art": "PASS — 2 scene/quote/localization checks",
+    "localization_validation": "PASS — zero errors, 97 retained warnings",
+    "strict_coverage": "PASS — zero missing/stale",
+    "static_route_audit": "PASS — 108 routes, zero issues",
+    "dedicated_404_browser": {
+      "layouts": 54,
+      "axe_scans": 44,
+      "axe_violations": 0,
+      "unexpected_errors": [],
+      "incomplete": [
+        {
+          "locale": "en",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 414
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 1004
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 414
+            }
+          ]
+        },
+        {
+          "locale": "en",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 1004
+            }
+          ]
+        },
+        {
+          "locale": "ms",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "ms",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "ms",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "ms",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 411
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 943
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 411
+            }
+          ]
+        },
+        {
+          "locale": "ar",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 943
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 969
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "ta",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 969
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "ja",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "es",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "es",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "es",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "es",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "fr",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "fr",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "fr",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "fr",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "de",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "de",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "de",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "de",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "pt-BR",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "hi",
+          "theme": "dark",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "hi",
+          "theme": "dark",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        },
+        {
+          "locale": "hi",
+          "theme": "light",
+          "width": 390,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 415
+            }
+          ]
+        },
+        {
+          "locale": "hi",
+          "theme": "light",
+          "width": 1440,
+          "incomplete": [
+            {
+              "id": "color-contrast",
+              "nodes": 960
+            }
+          ]
+        }
+      ],
+      "widths_english": [
+        320,
+        390,
+        768,
+        1280,
+        1440,
+        1920,
+        3840
+      ],
+      "widths_other_locales": [
+        390,
+        1440
+      ],
+      "mobile_art_clear_of_recovery": true
+    },
+    "keyboard": {
+      "firstFocus": "skip-link",
+      "skipTarget": "main",
+      "home": "http://127.0.0.1:4192/en/"
+    },
+    "locale_switch": {
+      "url": "http://127.0.0.1:4192/ar/lost/?source=qa#trace",
+      "title": "لم يتم العثور على الصفحة | Mohd. Paramasvara",
+      "quote": "قد تنتهي الخريطة هنا، لكن الاحتمالات لا تنتهي.",
+      "canonical": 0
+    },
+    "optional_vertical_quote": {
+      "writing": "vertical-rl",
+      "overflow": false
+    },
+    "artwork_failure": {
+      "result": "Static error message and recovery remain visible",
+      "expected_injected_errors": [
+        "Failed to fetch dynamically imported module: http://127.0.0.1:4192/assets/NotFound-B3Lb7eYP.js"
+      ]
+    },
+    "existing_i18n_browser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0,
+      "assistantChecks": 11
+    }
+  },
+  "source_fingerprint": "a3d357e65e7798a3baec7304d3497f54027ddb89eb920a13731e883f0232854b",
+  "artifact_fingerprint": "d60a0ac42dba53f24966003a7f0ed21021797a77ad3068caddd4c80987084294",
+  "changed_paths": [
+    "docs/portfolio/NAAE_404_EXPERIENCE_V1.md",
+    "docs/portfolio/PME-V1-COVERAGE.json",
+    "docs/portfolio/PME-V1-QA.json",
+    "scripts/404-artwork-variants.mjs",
+    "scripts/404-preview.mjs",
+    "scripts/404-qa.mjs",
+    "scripts/i18n/metadata.json",
+    "scripts/i18n/source-locations.json",
+    "scripts/prerender.mjs",
+    "src/App.tsx",
+    "src/NotFound.css",
+    "src/NotFound.tsx",
+    "src/NotFoundLandscape.tsx",
+    "src/Page.tsx",
+    "src/UtilityPreferences.tsx",
+    "src/UtilityRail.css",
+    "src/UtilityRail.tsx",
+    "src/i18n/Experience.tsx",
+    "src/i18n/controls.tsx",
+    "src/i18n/locales/ar.json",
+    "src/i18n/locales/de.json",
+    "src/i18n/locales/en.json",
+    "src/i18n/locales/es.json",
+    "src/i18n/locales/fr.json",
+    "src/i18n/locales/hi.json",
+    "src/i18n/locales/ja.json",
+    "src/i18n/locales/ms.json",
+    "src/i18n/locales/pt-BR.json",
+    "src/i18n/locales/ta.json",
+    "src/i18n/locales/zh-Hans.json",
+    "src/i18n/metadata.ts",
+    "src/i18n/status.json",
+    "src/notFoundGeometry.ts",
+    "src/prerender.tsx",
+    "tests/not-found.test.mjs",
+    "verification/portfolio-404-experience-v1.json"
+  ],
+  "evidence": [
+    {
+      "path": "output/playwright/404-experience-v1/baseline-1440.png",
+      "sha256": "022db2dc2c3f887e10f6890e245d21323b8f4c0a1ce62d83ba9586030051451c"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/before-stronger-ink/en-light-390.png",
+      "sha256": "9ce0f9fb21fa67912096fb2935ea57031399b6c64f541c916edc18ba793d9abc"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/en-dark-1440.png",
+      "sha256": "97954e05c27c0a47e27db1f3c7ce00ec9fe7645842954c309e1d27561bd54632"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/en-light-1440.png",
+      "sha256": "6b20e15dc2fbf757d20d1342b6a6fa2d87f0d09ffc9b42122609d337d21d92ab"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/en-dark-390.png",
+      "sha256": "112be8cb638be97ade045172945f7b6f167674e7276db8cccad2a6bba53ac74c"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/en-light-390.png",
+      "sha256": "fa429d80e105ce781307ca1e9b2a89ef1f18d3c4e53004329824acd9a639635b"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/en-light-768.png",
+      "sha256": "864139af73c0a80b3cea8fb5bace6a9ea5cde6a7980206690949a62fc0cf6a87"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/ar-light-1440.png",
+      "sha256": "71c96c04d14aa433c9b5c0a254c604c65fae927916e05703339fa759eb1d91a5"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/ar-dark-1440.png",
+      "sha256": "f33d9e28facd48fb77c19e9721b14a4ba1c811a7be85c0a8a0dd0959f5492db5"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/ja-vertical-1440.png",
+      "sha256": "b893a3194c38973b53b02bf4b4b1327349d63aa7dc8861fa9e1a3ccb7d6d3b5a"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-art-only-dark.png",
+      "sha256": "28665b65d5d3ec07e2cfb6367bc9ee19d875f1081f71e88c441c8967bf553616"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-art-only-light.png",
+      "sha256": "342452c0e6e4e0b72a185ab401ca788ff97da97648b7496808b9ad6344cc70c2"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-glyph-detail-enlarged.png",
+      "sha256": "22c2787abf0a9a33da02339a966bb149eb0b7015f552b18e72e8f12607c83cb0"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-concept-vanishing-dark.png",
+      "sha256": "e25c509e992aeab40f4670b1ce2344a6441f18f7841051c1c5e254f6795a22a7"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-concept-vanishing-light.png",
+      "sha256": "f84bc52b22d0b72212c512310bd31dca870225b9d86a8a6efea05b04d4ac1c78"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-concept-diverging-dark.png",
+      "sha256": "e25c509e992aeab40f4670b1ce2344a6441f18f7841051c1c5e254f6795a22a7"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-concept-diverging-light.png",
+      "sha256": "f84bc52b22d0b72212c512310bd31dca870225b9d86a8a6efea05b04d4ac1c78"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-concept-beyond-dark.png",
+      "sha256": "e25c509e992aeab40f4670b1ce2344a6441f18f7841051c1c5e254f6795a22a7"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/stronger-concept-beyond-light.png",
+      "sha256": "f84bc52b22d0b72212c512310bd31dca870225b9d86a8a6efea05b04d4ac1c78"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/browser.json",
+      "sha256": "b667577de8fb6f8fd2c69f953bd5de52b96ade6379ce4a6ebaf2f69c9fe0f7c0"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/existing-i18n/results.json",
+      "sha256": "15531840b77c8a4de926f6f1e0eb79bc8e6e7ea5d6bb4f8036837111d02ed5a8"
+    },
+    {
+      "path": "output/playwright/404-experience-v1/artifact-final/artifact.json",
+      "sha256": "92f15b2b193091492a666d105a983c609b341e7f116cc0fe7154ba7b68f2722b"
+    }
+  ],
+  "limitations": [
+    "Native-language editorial review pending, particularly poetic quote nuance.",
+    "No physical device or actual screen-reader session.",
+    "Automated contrast incomplete nodes include intentionally decorative SVG ink; not a claim that every glyph meets UI text contrast.",
+    "True HTTP 404 verified locally in Cloudflare Pages emulator, not on the deployed production site.",
+    "Generic no-JavaScript root fallback is English; localized directory fallbacks use their registered locale. Static English-original links use the static 404 route until client locale/path inference.",
+    "Concurrent edits to shared navigation/display/readability and related files appeared at delivery time. They were not made or reverted by this task; the recorded tests apply to the captured 404 build before those changes."
+  ],
+  "safety": {
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "homepage_hero_modified": false,
+    "portrait_modified": false,
+    "professional_content_changed": false,
+    "case_studies_changed": false,
+    "analytics_changed": false,
+    "consent_changed": false,
+    "cloudflare_dns_or_hosting_settings_changed": false,
+    "related_repositories_changed": false,
+    "owner_whitespace_edit_preserved": true,
+    "scope": "Safety flags describe changes made by this 404 task, not unrelated concurrent owner work."
+  },
+  "verification_scope": "Captured 404 production build and screenshots identified by the recorded fingerprints. Separate shared-workspace edits appeared after validation and were left untouched; these results do not certify those subsequent edits.",
+  "snapshot_scope": "Local QA captured before the subsequent owner-authorized commits and push; uncommitted/no-commit/no-push safety fields describe the verification capture."
+}

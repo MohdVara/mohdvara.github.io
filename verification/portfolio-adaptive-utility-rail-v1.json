@@ -1,0 +1,424 @@
+{
+  "feature": "PORTFOLIO-ADAPTIVE-UTILITY-RAIL v1.0",
+  "date": "2026-10-23",
+  "status": "COMPLETE WITH LIMITATIONS",
+  "architecture": {
+    "mount": "src/i18n/Experience.tsx",
+    "component": "src/UtilityRail.tsx",
+    "lazyDetails": [
+      "src/UtilityPanel.tsx",
+      "src/UtilityPreferences.tsx"
+    ],
+    "controls": [
+      "language",
+      "theme",
+      "text size",
+      "animated scenery",
+      "privacy"
+    ],
+    "oldUIRemoved": [
+      "header LanguageSwitcher",
+      "header DisplayControl",
+      "System Defence LanguageSwitcher",
+      "obsolete disclosure handlers and styles"
+    ],
+    "preferenceMigration": "none; existing keys/events/services reused",
+    "desktop": "Fixed inline-end docking, inward nonmodal panel, bounded height, 72px reading gutters at intermediate desktop widths",
+    "mobile": "Settings entry expands horizontal controls at <=760px width or <=500px height; safe-area docking, panel above, footer clearance",
+    "rtl": "Arabic inline-end maps to left; inward panel to right; left safe-area inset",
+    "verticalCJK": "Interactive rail and panel stay horizontal",
+    "focus": "Panel receives focus without scrolling; Escape/close restore trigger; outside/history/path/hash dismiss; successful locale returns focus; failed locale remains recoverable",
+    "layers": "19 below header20/skip100; hidden during native/ARIA modals and fullscreen; mobile menu dismisses/hides rail"
+  },
+  "darkDefault": {
+    "newVisitor": "dark, including a light OS setting",
+    "validSavedChoices": "All four modes retain precedence",
+    "clearedInvalidUnavailableStorage": "dark",
+    "noJavaScript": "dark fallback, rail hidden",
+    "implementation": [
+      "public/theme.js",
+      "src/UtilityPreferences.tsx",
+      "src/index.css",
+      "scripts/loader/shell.css",
+      "src/NotFound.css"
+    ],
+    "geometryChanged": false
+  },
+  "privacy": {
+    "analyticsCodeChanged": false,
+    "newEvents": false,
+    "newConsentCategories": false,
+    "default": "off unless valid prior consent",
+    "panelOpeningWritesConsent": false,
+    "dntGpc": "existing precedence retained and suppression shown separately",
+    "noRecordings": true,
+    "noFormOrGameplayCollectionAdded": true
+  },
+  "localization": {
+    "locales": 11,
+    "sourceUnits": 1501,
+    "newSourceLabels": 7,
+    "newTranslations": 70,
+    "missing": 0,
+    "stale": 0,
+    "coveragePercent": 100,
+    "validationErrors": 0,
+    "existingEditorialWarnings": 97,
+    "provenance": "machine_translated / development-assistant / session-assistant; SHA-256 source hashes",
+    "providerCommand": "npm run i18n:translate attempted; OPENAI_API_KEY and OPENAI_TRANSLATION_MODEL not configured. Labels supplied through the authorized development assistant fallback.",
+    "humanReviewClaimed": false,
+    "paceEnglishBoundary": "Preserved; eleven locale assistant isolation/state checks passed"
+  },
+  "checks": {
+    "unit": {
+      "command": "npm test",
+      "passed": 201,
+      "failed": 0,
+      "log": "/private/tmp/utility-tests-passing.log"
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "exitCode": 0
+    },
+    "lint": {
+      "command": "npm run lint",
+      "exitCode": 0
+    },
+    "build": {
+      "command": "npm run build",
+      "exitCode": 0,
+      "log": "/private/tmp/utility-build-qa-final.log",
+      "note": "Existing large optional game-chunk warnings remain; no threshold was increased."
+    },
+    "localizationCommands": [
+      "npm run i18n:extract",
+      "npm run i18n:translate (provider unavailable; fallback recorded)",
+      "npm run i18n:validate",
+      "npm run i18n:coverage -- --strict"
+    ],
+    "browserAcceptance": {
+      "command": "QA_MODULES_DIR=<installed Playwright modules> QA_AXE=<axe.min.js> node scripts/utility-rail-qa.mjs",
+      "status": "passed",
+      "checks": [
+        "all five panels: seven widths, viewport bounds, touch targets, single panel, Escape and focus restoration",
+        "fixed while scrolling",
+        "all theme/text choices, direct panel replacement and persisted preferences",
+        "effective reduced-motion state and saved scenery pause",
+        "privacy panel never grants consent; explicit opt-in, refresh, withdrawal and outside dismissal",
+        "DNT/GPC effective state distinguished",
+        "Arabic left docking, Tamil, Japanese vertical mode and successful locale dismissal",
+        "mobile collapse/expand and mobile navigation coexistence",
+        "single functional rail across all deep routes and custom 404 artifact",
+        "equivalent deep route, query, fragment, English-original link and history",
+        "failed locale download retains recoverable panel and successful alternative closes it",
+        "axe utility subtree: zero violations"
+      ],
+      "widths": [
+        320,
+        390,
+        768,
+        1024,
+        1440,
+        1920,
+        3840
+      ],
+      "rawReport": "output/playwright/utility-rail-v1-1792754545454/report.json"
+    },
+    "localeBrowser": {
+      "command": "QA_MODULES_DIR=<installed Playwright modules> QA_URL=http://127.0.0.1:4183 node scripts/i18n-qa.mjs",
+      "allLocaleLayouts": 88,
+      "assistantChecks": 11,
+      "scenarios": [
+        "left-side Arabic artwork across pages",
+        "browser detection",
+        "browser title updates with selected language",
+        "manual override and persistent preference",
+        "URL overrides preference",
+        "nested route, query, fragment and history preservation",
+        "English original updates saved preference and preserves route/query/fragment",
+        "vertical preference stays inactive in unrelated languages",
+        "unsupported browser language falls back"
+      ],
+      "errors": 0,
+      "translationProviderRequests": 0,
+      "rawReport": "output/playwright/utility-i18n-acceptance-1792753900/results.json",
+      "finalDarkDefaultRepeat": {
+        "locales": [
+          "en",
+          "ar",
+          "ja"
+        ],
+        "layouts": 24,
+        "allGlobalScenariosRepeated": true,
+        "rawReport": "output/playwright/utility-i18n-dark-1792754600/results.json"
+      }
+    },
+    "accessibility": {
+      "command": "QA_MODULES_DIR=<installed Playwright modules> QA_AXE=<axe.min.js> node scripts/utility-rail-a11y-qa.mjs",
+      "scans": 30,
+      "violations": 0,
+      "locales": [
+        "en",
+        "ar",
+        "ja"
+      ],
+      "widths": [
+        390,
+        1440
+      ],
+      "rawReport": "output/playwright/utility-a11y-1792754457749/report.json",
+      "manualScreenReaderCertification": false
+    },
+    "edges": {
+      "command": "QA_MODULES_DIR=<installed Playwright modules> node scripts/utility-rail-edge-qa.mjs",
+      "status": "passed",
+      "results": [
+        {
+          "width": 320,
+          "height": 568,
+          "largest": true,
+          "bounds": "pass"
+        },
+        {
+          "width": 844,
+          "height": 390,
+          "largest": true,
+          "bounds": "pass"
+        },
+        {
+          "width": 720,
+          "height": 450,
+          "largest": true,
+          "bounds": "pass"
+        },
+        {
+          "nativeModal": "rail hidden, modal focus preserved"
+        },
+        {
+          "forcedColors": "rendered"
+        },
+        {
+          "storageUnavailable": "theme and explicit in-memory consent usable"
+        },
+        {
+          "unknownRouteHTTP": 404
+        }
+      ],
+      "rawReport": "output/playwright/utility-edge-1792754558966/report.json"
+    },
+    "darkFirstPaint": {
+      "command": "QA_MODULES_DIR=<installed Playwright modules> node scripts/utility-dark-default-qa.mjs",
+      "status": "passed",
+      "checks": [
+        {
+          "saved": null,
+          "preference": "dark",
+          "theme": "dark",
+          "reactBlocked": true
+        },
+        {
+          "saved": "system",
+          "preference": "system",
+          "theme": "light",
+          "reactBlocked": true
+        },
+        {
+          "saved": "light",
+          "preference": "light",
+          "theme": "light",
+          "reactBlocked": true
+        },
+        {
+          "saved": "dark",
+          "preference": "dark",
+          "theme": "dark",
+          "reactBlocked": true
+        },
+        {
+          "saved": "time",
+          "preference": "time",
+          "theme": "dark",
+          "reactBlocked": true
+        },
+        {
+          "menuOverride": "light persists after refresh"
+        },
+        {
+          "noJavaScript": "dark fallback, nonfunctional rail hidden"
+        }
+      ],
+      "rawReport": "output/playwright/utility-dark-default-1792754276609/report.json"
+    },
+    "routeChecks": [
+      "/en/",
+      "/en/mmcats-modern/",
+      "/en/naae/",
+      "/en/multilingual-engineering/",
+      "/en/pace-rag-case-study/",
+      "/en/no-two-mondays/",
+      "/en/incident-zero/",
+      "/en/incident-zero/defence/",
+      "/en/work-with-me/",
+      "/en/404.html",
+      "/en/unknown-utility-rail-qa/ (local static preview HTTP 404)"
+    ]
+  },
+  "performance": {
+    "entryBefore": 214099,
+    "cssBefore": 78909,
+    "entryAfter": 214948,
+    "entryBudget": 215000,
+    "panelBytes": 3948,
+    "preloadedModulesAndStyles": [
+      {
+        "path": "/assets/i18n-core-jWd62OIB.js",
+        "rawBytes": 274382,
+        "gzipBytes": 67523
+      },
+      {
+        "path": "/assets/i18n-vendor-BrEmgvM5.js",
+        "rawBytes": 5234,
+        "gzipBytes": 2480
+      },
+      {
+        "path": "/assets/index-BenoWGeB.js",
+        "rawBytes": 214948,
+        "gzipBytes": 65686
+      },
+      {
+        "path": "/assets/index-YpLNAeOY.css",
+        "rawBytes": 79443,
+        "gzipBytes": 15747
+      },
+      {
+        "path": "/assets/portfolio-content-Bg0wP62G.js",
+        "rawBytes": 14953,
+        "gzipBytes": 4896
+      },
+      {
+        "path": "/assets/rolldown-runtime-hePW80VL.js",
+        "rawBytes": 716,
+        "gzipBytes": 430
+      }
+    ],
+    "preloadedModuleAndStyleBytes": 589676,
+    "headScripts": [
+      {
+        "path": "dist/theme.js",
+        "rawBytes": 1763
+      },
+      {
+        "path": "dist/reading.js",
+        "rawBytes": 1068
+      }
+    ],
+    "htmlArtifacts": 143,
+    "entryDelta": 849,
+    "entryHeadroom": 52,
+    "initialNetwork": {
+      "context": "Fresh English desktop, 1440x1000, reduced motion, first-visit dark; measured before opening preferences",
+      "resourceCount": 18,
+      "transferBytes": 562786,
+      "encodedBytes": 557386,
+      "decodedBytes": 2343411,
+      "rawResourceInventory": "output/playwright/utility-rail-v1-1792754545454/report.json",
+      "baselineLimit": "Only entry JS and entry CSS were measured from the original dist. No full-network baseline or speed improvement is claimed."
+    }
+  },
+  "screenshots": {
+    "directory": "output/playwright/utility-rail-v1-1792754545454",
+    "files": [
+      "output/playwright/utility-rail-v1-1792754545454/ar-1440.png",
+      "output/playwright/utility-rail-v1-1792754545454/ar-390.png",
+      "output/playwright/utility-rail-v1-1792754545454/dark-theme.png",
+      "output/playwright/utility-rail-v1-1792754545454/desktop-closed.png",
+      "output/playwright/utility-rail-v1-1792754545454/desktop-language.png",
+      "output/playwright/utility-rail-v1-1792754545454/desktop-motion.png",
+      "output/playwright/utility-rail-v1-1792754545454/desktop-privacy.png",
+      "output/playwright/utility-rail-v1-1792754545454/desktop-size.png",
+      "output/playwright/utility-rail-v1-1792754545454/desktop-theme.png",
+      "output/playwright/utility-rail-v1-1792754545454/ja-1440.png",
+      "output/playwright/utility-rail-v1-1792754545454/ja-390.png",
+      "output/playwright/utility-rail-v1-1792754545454/light-theme.png",
+      "output/playwright/utility-rail-v1-1792754545454/mobile-collapsed.png",
+      "output/playwright/utility-rail-v1-1792754545454/mobile-expanded.png",
+      "output/playwright/utility-rail-v1-1792754545454/ta-1440.png",
+      "output/playwright/utility-rail-v1-1792754545454/ta-390.png"
+    ],
+    "edges": [
+      "output/playwright/utility-edge-1792754558966/forced-colors.png",
+      "output/playwright/utility-edge-1792754558966/largest-320-568.png",
+      "output/playwright/utility-edge-1792754558966/largest-720-450.png",
+      "output/playwright/utility-edge-1792754558966/largest-844-390.png"
+    ],
+    "baseline": "output/playwright/utility-language-initial.png",
+    "note": "Raw screenshots and intermediate/failed QA runs are retained under ignored output/playwright. No earlier evidence was overwritten."
+  },
+  "changedFiles": {
+    "components": [
+      "src/UtilityRail.tsx",
+      "src/UtilityRail.css",
+      "src/UtilityPanel.tsx",
+      "src/UtilityPreferences.tsx",
+      "src/i18n/Experience.tsx",
+      "src/App.tsx",
+      "src/App.css",
+      "src/AsciiForest/SceneryControl.tsx",
+      "src/i18n/controls.tsx",
+      "src/i18n/i18n.css",
+      "src/Readability.css",
+      "src/features/incident-zero/defence/DefenceRoute.tsx"
+    ],
+    "darkDefaults": [
+      "public/theme.js",
+      "index.html",
+      "src/index.css",
+      "scripts/loader/shell.css",
+      "src/NotFound.css (theme fallback only; existing owner artwork preserved)"
+    ],
+    "translations": [
+      "all eleven locale catalogs",
+      "scripts/i18n/metadata.json",
+      "scripts/i18n/source-locations.json",
+      "src/i18n/status.json",
+      "docs/portfolio/PME-V1-COVERAGE.json"
+    ],
+    "tests": [
+      "tests/utility-rail.test.mjs",
+      "tests/theme.test.mjs",
+      "tests/i18n.test.mjs",
+      "tests/ux-localization.test.mjs",
+      "scripts/i18n-qa.mjs",
+      "scripts/utility-rail-qa.mjs",
+      "scripts/utility-rail-edge-qa.mjs",
+      "scripts/utility-rail-a11y-qa.mjs",
+      "scripts/utility-dark-default-qa.mjs"
+    ],
+    "docs": [
+      "docs/portfolio/ADAPTIVE_UTILITY_RAIL_V1.md",
+      "docs/portfolio/PME-V1-QA.json",
+      "verification/portfolio-adaptive-utility-rail-v1.json"
+    ]
+  },
+  "limitations": [
+    "No manual screen-reader certification or fluent editorial review.",
+    "No real iOS/Android virtual-keyboard or hardware safe-area certification.",
+    "Small/short CSS viewports exercise reflow; no physical browser-zoom certification.",
+    "Native select popup rendering varies by OS.",
+    "Entry budget has 52 raw bytes of headroom.",
+    "No live deployment/Cloudflare behavior claimed; HTTP 404 verified with local static-host model."
+  ],
+  "safety": {
+    "otherRepositoriesChanged": false,
+    "professionalContentChanged": false,
+    "resumeChanged": false,
+    "artworkGeometryChanged": false,
+    "analyticsImplementationChanged": false,
+    "cloudflareDnsHostingChanged": false,
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "preexistingOwnerChanges": "Preserved; Page/NotFound/prerender and existing case-study/404 documentation changes were already in progress. Build-only public GitHub timestamps restored."
+  },
+  "snapshot_scope": "Local QA captured before the subsequent owner-authorized commits and push; uncommitted/no-commit/no-push safety fields describe the verification capture."
+}
