@@ -74,6 +74,14 @@ function Multilingual() {
       <p>{text("Extraction, validation, coverage and prerendering are scripted. Translation sync requires configured authoring credentials; new case-study translations were generated directly by the coding assistant. They are machine-translated and await fluent editorial review.")}</p>
       <p>{text("Every non-English page retains the localized disclosure near navigation and a matching English-original link. Canonical URLs are locale-specific; reciprocal hreflang links and x-default connect equivalent pages. Translation is performed during authoring, never from visitor conversations.")}</p>
     </section>
+    <section id="adaptive-preferences"><h2>{text("Adaptive Preferences Across Scripts and Layouts")}</h2>
+      <p>{text("Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.")}</p>
+      <p>{text("One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.")}</p>
+      <p>{text("Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.")}</p>
+      <p>{text("Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.")}</p>
+      <figure className="engineering-evidence"><img src="/images/engineering/utility-ar.webp" width="1440" height="900" loading="lazy" decoding="async" alt={text("Arabic utility rail with the language panel open on the left.")} /><figcaption>{text("Local implementation capture: Arabic RTL docking and a horizontal language panel.")}</figcaption></figure>
+      <p><a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/src/UtilityRail.tsx">{text("Inspect the portfolio source")}</a>{" · "}<a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/verification/portfolio-adaptive-utility-rail-v1.json">{text("Inspect the evidence")}</a></p>
+    </section>
     <DirectionDemo />
     <section id="language-boundary"><h2>{text("A deliberate English-only boundary")}</h2>
       <p>{text("PACE-RAG professional questions, answers and evidence remain English-only. Its region retains lang=en, dir=ltr, translate=no and horizontal writing. Surrounding notices are localized; changing locale preserves the assistant and conversation state.")}</p>
@@ -87,6 +95,22 @@ function Naae() {
     <section id="evolution"><h2>{text("An artifact-backed evolution")}</h2>
       <p>{text("The canonical project name is Narrative ASCII Art Engine. Local documentation describes v0.1 object allocation and v0.2 layered landscapes. Saved v0.2, v0.3 and v0.4 outputs support the comparisons below; no Git history or tags were available to establish release dates.")}</p>
       <NaaeEvolution />
+    </section>
+    <section id="visual-identity"><h2>{text("Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits")}</h2>
+      <p>{text("A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.")}</p>
+      <p>{text("Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.")}</p>
+      <p>{text("Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.")}</p>
+      <div className="evolution-grid">
+        <figure className="engineering-evidence"><img src="/images/engineering/identity-dark.webp" width="1440" height="900" loading="lazy" decoding="async" alt={text("Dark homepage with an amber glyph portrait in the narrative landscape.")} /><figcaption>{text("Local dark treatment: actual SVG characters, reconstructed before runtime.")}</figcaption></figure>
+        <figure className="engineering-evidence"><img src="/images/engineering/identity-light.webp" width="1440" height="900" loading="lazy" decoding="async" alt={text("Light homepage with a separate illustrated portrait in the landscape.")} /><figcaption>{text("Local light treatment: a separate illustration, not an ASCII portrait.")}</figcaption></figure>
+      </div>
+      <p>{text("Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.")}</p>
+      <p><a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/scripts/artwork/portrait-v3.mjs">{text("Inspect the portfolio source")}</a>{" · "}<a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_PORTRAIT_V3_IMPLEMENTATION.md">{text("Inspect the evidence")}</a></p>
+    </section>
+    <section id="unmapped-path"><h2>{text("The Unmapped Path: narrative typography for recovery")}</h2>
+      <p>{text("The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.")}</p>
+      <p>{text("Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.")}</p>
+      <p><a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_404_EXPERIENCE_V1.md">{text("Inspect the evidence")}</a></p>
     </section>
     <section id="architecture"><h2>{text("Protect the story, then compose the texture")}</h2>
       <ol className="engineering-flow" aria-label={text("Artwork generation pipeline")}>

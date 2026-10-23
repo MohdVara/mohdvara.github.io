@@ -66,3 +66,9 @@ The full queue also covers seniority, individual contribution, MMCATS source/dep
 5. Re-run extraction, validation, strict coverage, date audit, build/static route audit and affected browser tasks. Review the diff before any later publication request.
 
 The existing `i18n:review` command changes status immediately; do not invoke it from this automatic audit or treat its existence as reviewer evidence. No complex translation application was added.
+
+## Case-study evolution v1 — 23 October 2026
+
+Pending qualified review in all ten target locales: **19 canonical units / 190 new translations**. Exact English keys and source-to-evidence mapping are in `verification/portfolio-case-study-evolution-v1.json` (`claims`); localized values are in the corresponding catalogs. All retain machine provenance and current source hashes. This queue entry does not approve them.
+
+Prioritize glyph luminance, ink coverage, local gradients, anatomical limits, reconstruction versus illustration, nonmodal focus behavior, hydration, consent versus DNT/GPC suppression, and the distinction between local HTTP checks and live deployment. Check negation and scope carefully. The heading “Engineering the Visual Identity” and poetic “The Unmapped Path” also need natural editorial phrasing. Screenshot alt text and captions describe actual local captures and must preserve the separate light illustration / dark glyph distinction. Existing 97 validator warnings remain separately tracked; no new warning was suppressed.

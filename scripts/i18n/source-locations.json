@@ -414,6 +414,9 @@
   ],
   "Inspect the evidence": [
     "src/CaseStudySummary.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/EngineeringCaseStudy.tsx",
     "src/EngineeringCaseStudy.tsx"
   ],
   "Sources and limitations": [
@@ -695,6 +698,32 @@
   "Every non-English page retains the localized disclosure near navigation and a matching English-original link. Canonical URLs are locale-specific; reciprocal hreflang links and x-default connect equivalent pages. Translation is performed during authoring, never from visitor conversations.": [
     "src/EngineeringCaseStudy.tsx"
   ],
+  "Adaptive Preferences Across Scripts and Layouts": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Arabic utility rail with the language panel open on the left.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Local implementation capture: Arabic RTL docking and a horizontal language panel.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Inspect the portfolio source": [
+    "src/EngineeringCaseStudy.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/EngineeringCaseStudy.tsx"
+  ],
   "A deliberate English-only boundary": [
     "src/EngineeringCaseStudy.tsx"
   ],
@@ -704,13 +733,46 @@
   "Font fallbacks, text scaling, reduced motion and RTL are presentation responsibilities. Automated browser checks support regression detection; native-language review, physical-device coverage and actual screen-reader sessions remain separate work.": [
     "src/EngineeringCaseStudy.tsx"
   ],
-  "Inspect the portfolio source": [
-    "src/EngineeringCaseStudy.tsx"
-  ],
   "An artifact-backed evolution": [
     "src/EngineeringCaseStudy.tsx"
   ],
   "The canonical project name is Narrative ASCII Art Engine. Local documentation describes v0.1 object allocation and v0.2 layered landscapes. Saved v0.2, v0.3 and v0.4 outputs support the comparisons below; no Git history or tags were available to establish release dates.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Dark homepage with an amber glyph portrait in the narrative landscape.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Local dark treatment: actual SVG characters, reconstructed before runtime.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Light homepage with a separate illustrated portrait in the landscape.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Local light treatment: a separate illustration, not an ASCII portrait.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "The Unmapped Path: narrative typography for recovery": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": [
+    "src/EngineeringCaseStudy.tsx"
+  ],
+  "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": [
     "src/EngineeringCaseStudy.tsx"
   ],
   "Protect the story, then compose the texture": [

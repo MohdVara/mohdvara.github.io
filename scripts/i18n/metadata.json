@@ -9297,6 +9297,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "ar": {
@@ -18595,6 +18728,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "ja": {
@@ -27893,6 +28159,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "zh-Hans": {
@@ -37191,6 +37590,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "es": {
@@ -46489,6 +47021,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "fr": {
@@ -55789,6 +56454,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "de": {
@@ -65087,6 +65885,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "pt-BR": {
@@ -74387,6 +75318,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "hi": {
@@ -83685,6 +84749,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     },
     "ta": {
@@ -92983,6 +94180,139 @@
         "sourceHash": "286424f68220df0c3a081c20db60d527ff4ce5a34dfd0f66cc266a1ef6bd7cd6",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.": {
+        "status": "machine_translated",
+        "sourceHash": "027d85dca272b54cfb0b0fb8aff8b892c54bcc9ba0ac962a561641ec5be5044d",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Adaptive Preferences Across Scripts and Layouts": {
+        "status": "machine_translated",
+        "sourceHash": "712292c136b06cad8786a67b372e7d7ec858df71867d3c84120b47a882aff579",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Arabic utility rail with the language panel open on the left.": {
+        "status": "machine_translated",
+        "sourceHash": "29c2ebfa65c2bb740184acf75f9371558ecf352d38f34824d5e049a0a684bf36",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.": {
+        "status": "machine_translated",
+        "sourceHash": "c067ad653aa06c980183f50ba5aa1953e34d40cb6ef5794808914004105899fa",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark homepage with an amber glyph portrait in the narrative landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "6c247bf6c56095961df486e092687b8eac3c69d4aaed0d874e20a6b19a54c9d7",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.": {
+        "status": "machine_translated",
+        "sourceHash": "839268160284417d61902b78785474a8890577f9b82873559ec9f546865a2a19",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.": {
+        "status": "machine_translated",
+        "sourceHash": "587fb78dd49b8ac5312780e8a343fb10e1559947c261c58f5a177a2b577ef4d4",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits": {
+        "status": "machine_translated",
+        "sourceHash": "9340b63e4b1f6c0f1016713c96f4ee0e76faec35a700d945d7ccba4436172be6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.": {
+        "status": "machine_translated",
+        "sourceHash": "89789acb4592f585191731fcd41672262e50e90b3c2326e9c6e4135702bbf916",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Light homepage with a separate illustrated portrait in the landscape.": {
+        "status": "machine_translated",
+        "sourceHash": "2c355764c7a1cfd0ed15da83261b24c556d2e130ecad1d41e7a1e41fcdcbb15b",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local dark treatment: actual SVG characters, reconstructed before runtime.": {
+        "status": "machine_translated",
+        "sourceHash": "3f6b524df5d140d0679abc40486dfc22e583922eb76372d53034f7de03674d2f",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local implementation capture: Arabic RTL docking and a horizontal language panel.": {
+        "status": "machine_translated",
+        "sourceHash": "46c3fc51839bf589051028207f8f6e04d3b2540ebe19b19aada262ede9dcdce3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Local light treatment: a separate illustration, not an ASCII portrait.": {
+        "status": "machine_translated",
+        "sourceHash": "a06e96164f657f9932b6ce9ec73ae823070118c49af4e3d518038c1adab9e3e3",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.": {
+        "status": "machine_translated",
+        "sourceHash": "3c2b68ddc83f50c8ab380c196806b4561d48348c23960a86cd0105ceb1428ee8",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.": {
+        "status": "machine_translated",
+        "sourceHash": "b6b7ca0e7215cc4f81913660b25b1403ce06903013463124593e6d2181cf82c5",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.": {
+        "status": "machine_translated",
+        "sourceHash": "b34cf7aadeeee09fca7f31726940d4e01c204a53281b71c6ee7e01f8e42d5516",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.": {
+        "status": "machine_translated",
+        "sourceHash": "fa0c7a1cadab569102b9ea8efec31c71777ca6af0ee347732aa5417a394e1fe9",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.": {
+        "status": "machine_translated",
+        "sourceHash": "04b879d76f6da9fdbf88c4bdadb47010066ce82c3654f21c0742edd4f50ff617",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
+      },
+      "The Unmapped Path: narrative typography for recovery": {
+        "status": "machine_translated",
+        "sourceHash": "d5dcca8df6caf16900136171644fd42e4155d9a3bcd56a5f183c3f9ec7c1cda6",
+        "provider": "development-assistant",
+        "model": "session-model-unspecified",
+        "notes": "Case-study evolution v1; machine-authored, fluent technical editorial review pending."
       }
     }
   }
