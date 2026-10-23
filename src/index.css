@@ -141,6 +141,14 @@ a {
 a:hover {
   color: var(--accent);
 }
+/* Shared feedback for text links; navigation menus and button links keep their own treatment. */
+a[href]:not(:where(.button, [role="button"], [role="menuitem"], .wordmark, .skip-link, .desktop-nav a, .mobile-menu a, [role="menu"] a)):is(:hover, :focus-visible),
+summary:not(:where(.site-header summary)):is(:hover, :focus-visible) {
+  color: var(--accent);
+  background-color: var(--hover-surface);
+  text-decoration: underline;
+  text-underline-offset: .25em;
+}
 a,
 select,
 summary {

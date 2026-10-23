@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "task": "additional-systems-layout-v1",
+  "timestamp": "2026-10-22T12:19:18.956943+00:00",
+  "status": "COMPLETE — local verification",
+  "scope": {
+    "desktop_columns": 2,
+    "two_column_min_width": 1000,
+    "cards": [
+      "system-hostel",
+      "system-asset"
+    ],
+    "cjk_vertical_titles": [
+      "ja",
+      "zh-Hans"
+    ],
+    "vertical_min_width": 900,
+    "largest_text": "Single column, horizontal titles",
+    "small_screens": "Single column; horizontal titles below 900px",
+    "copy_changed": false
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "production_build_prerender": "PASS",
+    "localization_validation": "PASS — zero missing/stale; 97 editorial warnings retained",
+    "strict_coverage": "PASS",
+    "focused_layouts": 35,
+    "title_copy_overlap": false,
+    "horizontal_overflow": false,
+    "largest_text_reflow": true,
+    "disclosure_toggle": true,
+    "page_errors": [],
+    "existing_locale_browser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    }
+  },
+  "evidence": [
+    "output/playwright/additional-systems/focused.json",
+    "output/playwright/additional-systems/en-desktop.png",
+    "output/playwright/additional-systems/ja-desktop.png",
+    "output/playwright/additional-systems/zh-Hans-desktop.png",
+    "output/playwright/additional-systems/i18n/results.json"
+  ],
+  "limits": [
+    "Chromium only; no physical device or screen-reader session",
+    "Existing qualified translation review remains pending",
+    "Local changes; not committed, pushed or deployed"
+  ]
+}

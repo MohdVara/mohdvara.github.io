@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "task": "project-details-reading-v1",
+  "timestamp": "2026-10-22T13:23:03.483215+00:00",
+  "status": "COMPLETE — local verification",
+  "scope": {
+    "projects": [
+      "rental",
+      "meetings",
+      "hr"
+    ],
+    "expanded_desktop": "Overview beside engineering details from 1100px; logical divider follows Arabic direction",
+    "collapsed": "Original overview and disclosure flow",
+    "small_screen_and_largest_text": "Stacked normal document flow",
+    "cjk_default": "Vertical editorial mode for ja and zh-Hans; stored horizontal or vertical choice takes precedence",
+    "cjk_titles": "Follow configured reading mode; small-screen/largest-text reflow retained",
+    "visitor_copy_changed": false
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "production_build_prerender": "PASS",
+    "tests": {
+      "passed": 169,
+      "failed": 0
+    },
+    "localization_validation": "PASS — no missing/stale; existing 97 editorial warnings",
+    "strict_coverage": "PASS",
+    "date_audit": "PASS",
+    "focused_layouts": 90,
+    "largest_text_reflow": true,
+    "disclosure_toggle": true,
+    "page_errors": [],
+    "preferences": {
+      "results": [
+        {
+          "locale": "ja",
+          "default": "vertical",
+          "horizontalPersists": true,
+          "verticalPersists": true,
+          "configurableTitles": true
+        },
+        {
+          "locale": "zh-Hans",
+          "default": "vertical",
+          "horizontalPersists": true,
+          "verticalPersists": true,
+          "configurableTitles": true
+        }
+      ],
+      "englishHorizontal": true
+    },
+    "broad_locale_regression": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    }
+  },
+  "evidence": [
+    "output/playwright/project-split/focused.json",
+    "output/playwright/project-split/preferences.json",
+    "output/playwright/project-split/en-rental.png",
+    "output/playwright/project-split/ar-rental.png",
+    "output/playwright/project-split/ta-rental.png",
+    "output/playwright/project-split/ja-rental.png",
+    "output/playwright/project-split/zh-Hans-rental.png",
+    "output/playwright/project-split/i18n-final/results.json"
+  ],
+  "limits": [
+    "Chromium only; no physical device or screen-reader session",
+    "Qualified linguistic review remains pending",
+    "Local changes; not committed, pushed or deployed"
+  ]
+}

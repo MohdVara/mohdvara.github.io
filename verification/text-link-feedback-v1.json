@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "task": "text-link-feedback-v1",
+  "timestamp": "2026-10-22T12:13:26.344338+00:00",
+  "scope": [
+    "Visible multilingual case-study title using existing eleven-locale translations",
+    "Shared accent color, underline and theme background on text-link hover and keyboard focus",
+    "Non-menu disclosure summaries share the feedback",
+    "Button links, header menus, menuitem roles, wordmark and skip link retain existing treatment"
+  ],
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "production_build_prerender": "PASS",
+    "unit_integration_tests": {
+      "passed": 169,
+      "failed": 0
+    },
+    "localization_validation": "PASS — zero missing/stale; 97 existing editorial warnings",
+    "strict_coverage": "PASS — 1461 units, eleven locales",
+    "date_audit": "PASS",
+    "focused_browser": {
+      "locale_titles": 11,
+      "layouts": 22,
+      "hover_and_keyboard_focus": "PASS",
+      "ordinary_links_and_disclosures": "PASS",
+      "button_and_menu_exclusions": "PASS",
+      "case_study_anchor_navigation": "PASS"
+    },
+    "existing_locale_browser": "INCOMPLETE — two attempts timed out waiting for the initial localeReady marker at scripts/i18n-qa.mjs:22; no layout records produced",
+    "subsequent_locale_browser": {
+      "status": "PASS — Vite preview in additional-systems task",
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    }
+  },
+  "evidence": [
+    "output/playwright/text-link-feedback/cli.log",
+    "output/playwright/text-link-feedback/final.log",
+    "output/playwright/text-link-feedback/cards-focus.png",
+    "output/playwright/text-link-feedback/i18n/results.json",
+    "output/playwright/additional-systems/i18n/results.json"
+  ],
+  "limits": [
+    "No physical device, screen-reader or qualified linguistic review",
+    "Local changes; not committed, pushed or deployed"
+  ]
+}

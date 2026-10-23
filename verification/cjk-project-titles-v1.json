@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "task": "cjk-project-titles-v1",
+  "timestamp": "2026-10-22T11:46:36.459374+00:00",
+  "timezone": "Asia/Kuching",
+  "git_base": "1b66ae1536259ed855d5165f2203937f606f2f97",
+  "status": "COMPLETE — scoped layout verification",
+  "uncommitted": true,
+  "scope": {
+    "locales": [
+      "ja",
+      "zh-Hans"
+    ],
+    "cards": [
+      "case-wensymes",
+      "case-hr",
+      "case-rental"
+    ],
+    "desktop_min_width": 900,
+    "title": "native vertical-rl in the left column",
+    "content": "horizontal in the right column",
+    "metadata": "full-width row above title and copy",
+    "small_screen_and_largest_text": "existing horizontal reflow",
+    "reading_mode": "native project titles remain vertical independently of optional section-heading mode"
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "production_build_prerender": "PASS",
+    "i18n_static_unit_tests": {
+      "passed": 14,
+      "failed": 0
+    },
+    "focused_browser": {
+      "layouts": 42,
+      "widths": [
+        320,
+        375,
+        768,
+        900,
+        1024,
+        1440,
+        1920
+      ],
+      "details_states": [
+        "closed",
+        "open"
+      ],
+      "title_copy_overlap": false,
+      "horizontal_overflow": false,
+      "largest_text_reflow": "PASS",
+      "editorial_modes": [
+        "horizontal",
+        "vertical"
+      ],
+      "unaffected_locale_controls": [
+        "en",
+        "ar",
+        "ta"
+      ],
+      "page_errors": []
+    },
+    "existing_locale_browser": {
+      "layouts": 16,
+      "scenarios": 9,
+      "assistant_locale_checks": 2,
+      "errors": 0,
+      "runtime_translation_requests": 0,
+      "missing_source": 0
+    }
+  },
+  "localization": {
+    "text_changed": false,
+    "new_translation_keys": 0,
+    "units": 1458,
+    "missing": 0,
+    "stale": 0,
+    "editorial_warnings": 97,
+    "human_review_status": "Unchanged; qualified review still pending."
+  },
+  "evidence": [
+    {
+      "path": "src/i18n/i18n.css",
+      "sha256": "ccdec9cecdfe47d05e952edb3a316a8572e0fe864513efc6f74aa43e8a13e139"
+    },
+    {
+      "path": "output/playwright/cjk-project-titles/check.js",
+      "sha256": "1eac515cca094bea332069d186db749ab92d98e8d71a0656f81e6feea217e8ab"
+    },
+    {
+      "path": "output/playwright/cjk-project-titles/cli.log",
+      "sha256": "5694ccc3bbf5dcf2d9080c5acfa4d541c9f5eaa5ff7ccdd81cb515b3ec53be0a"
+    },
+    {
+      "path": "output/playwright/cjk-project-titles/ja-desktop.png",
+      "sha256": "9284d040b0e1c1c1e43a28025eabb61fe06c3739a5d08be4512ecd9384b29806"
+    },
+    {
+      "path": "output/playwright/cjk-project-titles/zh-Hans-desktop.png",
+      "sha256": "f6ff12a4c452ff2dde1e7b27af4579037b7ebf13d0348e8fffafd0b88ac56409"
+    },
+    {
+      "path": "output/playwright/cjk-project-titles/regression/results.json",
+      "sha256": "b304fedc0c4fb8629277743cf3770b482ea173559780dff6876756d49ddc8df8"
+    }
+  ],
+  "limits": [
+    "Chromium verification; no physical device or screen-reader session.",
+    "Existing translation editorial review remains pending.",
+    "Not deployed."
+  ],
+  "safety": {
+    "career_facts_changed": false,
+    "pace_rag_changed": false,
+    "related_repositories_changed": false,
+    "owner_preexisting_files_preserved": true,
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  }
+}

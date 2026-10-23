@@ -369,6 +369,7 @@ function SelectedWork() {
           <article className={`project${index > 2 ? " project-secondary" : ""}`} id={`case-${project.id}`} key={project.id}>
             {localizedContent(index < 3 && <ProjectDiagram project={project} index={index} />)}
             <div className="project-content">
+              <div className="project-overview">
               <p className="project-meta mono">
                 {localizedContent(project.company)} <span> / </span> {localizedContent(project.period)}
               </p>
@@ -381,6 +382,7 @@ function SelectedWork() {
                 {localizedContent(project.result)}
               </p>
               {localizedContent(index < 3 && <p className="project-primary-stack mono" aria-label={text("Primary technologies")}>{localizedContent(project.technology?.generations.slice(-1)[0]?.groups.flatMap(group => group.technologies).slice(0, 5).join(" · "))}</p>)}
+              </div>
               <details
                 className="case-details"
                 name="engineering-case-studies"

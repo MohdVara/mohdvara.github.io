@@ -182,3 +182,57 @@ html:lang(ta) { line-height: 1.85; }
   :root:not([data-text-size="largest"]) .ntm-evidence { padding-block: 20px; }
   :root:not([data-text-size="largest"]) .ntm-evidence p { font-size: .8rem; line-height: 1.5; }
 }
+
+/* CJK secondary projects use the space previously left beside the copy.
+   Native vertical titles follow the configured editorial reading mode. */
+@media (min-width: 900px) {
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .additional-systems article {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 1.25rem;
+    align-items: start;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .additional-systems article > h3 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 1.35rem;
+    line-height: 1.6;
+    max-inline-size: 20rem;
+    padding-inline-end: .75rem;
+    border-inline-end: 1px solid var(--line);
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .additional-systems .project-stack {
+    margin-block-start: 0;
+    writing-mode: horizontal-tb;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .project-secondary .project-content { max-width: none; }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .project-secondary .project-overview {
+    display: grid;
+    grid-template-columns: fit-content(9rem) minmax(0, 1fr);
+    gap: 16px clamp(24px, 4vw, 64px);
+    max-width: none;
+    align-items: start;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .project-secondary .project-meta {
+    grid-column: 1 / -1;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .project-secondary .project-overview > h3 {
+    grid-column: 1;
+    grid-row: 2 / span 4;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: clamp(1.25rem, 2.1vw, 1.65rem);
+    line-height: 1.55;
+    letter-spacing: normal;
+    max-inline-size: min(19rem, 48svh);
+    max-block-size: none;
+    max-width: none;
+    margin: 0;
+    justify-self: start;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .project-secondary .project-overview > :not(h3, .project-meta) {
+    grid-column: 2;
+    min-inline-size: 0;
+    margin-block-start: 0;
+  }
+}

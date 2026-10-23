@@ -24,7 +24,7 @@ export function PublicEngineering() {
     <nav className="case-study-discovery" aria-label={text("Engineering case studies")}>
       <a href={localizedHref("/mmcats-modern/")}><bdi>MMCATS Modern</bdi><span>{text("Legacy behavior → modern contracts")}</span><span data-case-status>{text("Locally verified · public release blocked")}</span></a>
       <a href={localizedHref("/naae/")}><bdi>NAAE</bdi><span>{text("Narrative glyphs → visual worlds")}</span><span data-case-status>{text("Local prototype · public studio pending")}</span></a>
-      <a href={localizedHref("/multilingual-engineering/")}><span>{text("Eleven languages, one source")}</span><span>{text("Routes, direction and content integrity")}</span><span data-case-status>{text("Implemented · editorial review pending")}</span></a>
+      <a href={localizedHref("/multilingual-engineering/")}><strong>{text("Multilingual portfolio engineering")}</strong><span>{text("Eleven languages, one source")}</span><span>{text("Routes, direction and content integrity")}</span><span data-case-status>{text("Implemented · editorial review pending")}</span></a>
     </nav>
     <div className="public-repositories">
       <article className="public-repository" data-reveal>
