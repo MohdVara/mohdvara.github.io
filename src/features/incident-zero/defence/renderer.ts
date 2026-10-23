@@ -64,7 +64,7 @@ export function createDefence(host: HTMLElement, initialWeapon: WeaponId, onHud:
             for (const c of state.floor.chambers)
                 this.labels.push(this.add.text(c.x + 12, c.y + 10, text("ZONE {{number}}", {number: c.id + 1}), { fontFamily: language(currentLocale()).fonts, fontSize: 11, color: "#718375" }));
             this.labels.push(this.add.text(state.floor.entry.x - 34, state.floor.entry.y - 35, text("ENTRY"), { fontFamily: language(currentLocale()).fonts, fontSize: 11, color: "#aeb9a8" }));
-            this.terminalText = this.add.text(730, 490, text("TERMINAL / LOCKED"), { fontFamily: language(currentLocale()).fonts, fontSize: 11, color: "#aeb9a8" });
+            this.terminalText = this.add.text(Math.min(state.floor.width - 120, Math.max(120, state.floor.terminal.x)), Math.min(state.floor.height - 38, state.floor.terminal.y + 43), text("TERMINAL / LOCKED"), { fontFamily: language(currentLocale()).fonts, fontSize: 11, color: "#aeb9a8", align: "center", wordWrap: { width: 220, useAdvancedWrap: true }, padding: { y: 2 } }).setOrigin(.5, 0);
             this.labels.push(this.terminalText);
         }
         create() {
@@ -87,7 +87,7 @@ export function createDefence(host: HTMLElement, initialWeapon: WeaponId, onHud:
             g.lineStyle(2, 0xa4d5ae);
             g.strokeRect(t.x - 14, t.y - 13, 28, 20);
             g.lineBetween(t.x - 8, t.y + 13, t.x + 8, t.y + 13);
-            this.terminalText.setText(text(unlocked ? 'TERMINAL / RESTORE' : 'TERMINAL / LOCKED')).setColor(unlocked ? '#b9e3b9' : '#aeb9a8');
+            this.terminalText.setText(unlocked ? text('TERMINAL / RESTORE') : text('TERMINAL / LOCKED')).setColor(unlocked ? '#b9e3b9' : '#aeb9a8');
             for (const e of state.enemies) {
                 if (e.hp <= 0)
                     continue;

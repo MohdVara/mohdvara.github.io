@@ -229,7 +229,7 @@ export function createGame(
             g.lineStyle(2,colors.line);g.lineBetween(object.x-20,object.y+16,object.x+20,object.y+16);
           }
           if (object.id === "payroll") this.add.text(object.x, object.y + 45,
-            text(state.fix === "rewrite" ? "EXPORT HELD" : state.fix ? "RM8,500 / REVIEWED" : "RM7,500 / MISMATCH"),
+            state.fix === "rewrite" ? text("EXPORT HELD") : state.fix ? text("RM8,500 / REVIEWED") : text("RM7,500 / MISMATCH"),
             { fontFamily: language(currentLocale()).fonts, fontSize: "12px", color: colors.text }).setOrigin(0.5);
         }
         this.add
@@ -263,7 +263,7 @@ export function createGame(
         })
         .setOrigin(0.5);
       if (room === "operations") this.add.text(450, 470,
-        text(state.solved.includes("resilience") ? "SAME-KEY RETRY / RECONCILIATION OWNER RECORDED" : "TIMEOUT / UNKNOWN OUTCOME / DUPLICATE RISK"),
+        state.solved.includes("resilience") ? text("SAME-KEY RETRY / RECONCILIATION OWNER RECORDED") : text("TIMEOUT / UNKNOWN OUTCOME / DUPLICATE RISK"),
         { fontFamily: language(currentLocale()).fonts, fontSize: "12px", color: colors.text }).setOrigin(0.5);
       this.marker = this.add
         .ellipse(position.x, position.y, 50, 50, colors.gold, 0.12)

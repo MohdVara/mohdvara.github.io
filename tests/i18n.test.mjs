@@ -181,3 +181,14 @@ test("translation transparency is localized once above main content, with a shor
     assert.ok(!menu.includes(catalog[body]));
   }
 });
+
+test("Incident Zero opening and conditional canvas labels have localized catalog entries",async()=>{
+  const opening="You are the engineer. Explore a small office, collect the evidence and decide what should change before production moves again.";
+  const labels=["TERMINAL / RESTORE","RM8,500 / REVIEWED","RM7,500 / MISMATCH"];
+  for(const {locale} of registry.filter(item=>item.locale!=="en")) {
+    const catalog=await readJson(`src/i18n/locales/${locale}.json`);
+    assert.ok(catalog[opening],locale);
+    assert.ok(!catalog[opening].includes("Explore a small office"),`${locale}: partially untranslated opening`);
+    for(const key of labels) {assert.ok(catalog[key],`${locale}: ${key}`);assert.notEqual(catalog[key],key,`${locale}: ${key}`);}
+  }
+});

@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "task": "incident-localization-fixes-v1",
+  "timestamp": "2026-10-22T12:09:43.327202+00:00",
+  "git_base": "1b66ae1536259ed855d5165f2203937f606f2f97",
+  "uncommitted": true,
+  "opening_correction": {
+    "key": "You are the engineer. Explore a small office, collect the evidence and decide what should change before production moves again.",
+    "before": "あなたはエンジニアです。 Explore a small office, collect the evidence and decide what should change before production moves again.",
+    "after": "あなたはエンジニアです。小さなオフィスを探索し、証拠を集め、本番環境での処理を再開する前に何を変更すべきか判断してください。",
+    "prior_provenance": {
+      "status": "machine_translated",
+      "sourceHash": "cb80d10c3f53d2817ee2e3101d8196b1dd0c56eb19c04ec8feab3bb772bfff83",
+      "provider": "google-translate-development-bootstrap",
+      "model": "service-version-unspecified"
+    }
+  },
+  "canvas": {
+    "new_source_keys": [
+      "TERMINAL / RESTORE",
+      "RM8,500 / REVIEWED",
+      "RM7,500 / MISMATCH"
+    ],
+    "translated_non_english_locales": 10,
+    "rendered_label_checks": 22,
+    "states": [
+      "locked",
+      "restore"
+    ],
+    "bounds": "all within 900x540 at terminal (825,465)",
+    "fixture": "real development renderer, empty-spawn fixture for unlocked state; production simulation unchanged"
+  },
+  "history": {
+    "changes": [
+      "discard superseded locale loads and errors",
+      "cancel pending manual switches on history traversal",
+      "restore URL locale on persisted pageshow"
+    ],
+    "exact_owner_screenshot_reproduced": false,
+    "controlled_race_regressions": "PASS — 4",
+    "game_browser_matrix": {
+      "status": "PASS",
+      "locales": [
+        "en",
+        "ja",
+        "zh-Hans"
+      ],
+      "journeys": 6,
+      "cache_modes": [
+        "disabled",
+        "enabled"
+      ],
+      "confirmed_persisted_restores": 3,
+      "runtime_errors": 0,
+      "query_and_fragment_preserved": true,
+      "rapid_language_history_round_trips_per_non_english_journey": 3
+    }
+  },
+  "tests": {
+    "typecheck": "PASS",
+    "lint": "PASS — no warnings",
+    "production_build_prerender": "PASS",
+    "focused_tests": "PASS — 48",
+    "existing_i18n_browser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0,
+      "datePeriods": 11,
+      "assistantChecks": 11
+    },
+    "validation": "PASS — 0 errors, 97 retained editorial warnings",
+    "strict_coverage": "PASS — 1461 units, 0 missing, 0 stale",
+    "localized_static_opening": "PASS — all ten non-English routes omit English fragment"
+  },
+  "provenance": {
+    "corrected_and_added_text": "machine_translated; development-assistant/session-assistant",
+    "human_reviewed": false,
+    "qualified_review": "PENDING"
+  },
+  "modified_paths": [
+    "AGENTS.md",
+    "src/i18n/Experience.tsx",
+    "src/i18n/history.ts",
+    "src/features/incident-zero/game.ts",
+    "src/features/incident-zero/defence/renderer.ts",
+    "tests/i18n.test.mjs",
+    "tests/i18n-history.test.mjs",
+    "scripts/i18n/metadata.json",
+    "scripts/i18n/source-locations.json",
+    "src/i18n/status.json",
+    "docs/portfolio/PME-V1-COVERAGE.json",
+    "src/i18n/locales/ms.json",
+    "src/i18n/locales/ja.json",
+    "src/i18n/locales/de.json",
+    "src/i18n/locales/ta.json",
+    "src/i18n/locales/en.json",
+    "src/i18n/locales/zh-Hans.json",
+    "src/i18n/locales/fr.json",
+    "src/i18n/locales/hi.json",
+    "src/i18n/locales/pt-BR.json",
+    "src/i18n/locales/es.json",
+    "src/i18n/locales/ar.json"
+  ],
+  "source_fingerprint": "7820d2bf106ca3853ab0792a972e25317df0b1d0dbc26c15b1179cdf22f4b4d5",
+  "safety": {
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "career_facts_changed": false,
+    "game_simulation_changed": false,
+    "pace_rag_changed": false
+  },
+  "evidence": [
+    {
+      "path": "output/playwright/incident-localization-fixes/history.cjs",
+      "sha256": "a9b859186661d4b9cf7a5f2115a4f9d0f816c29025a4b4deeba35fed43538591"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/history.json",
+      "sha256": "c69a27a241b694111bb8c167127d1ef79e21cf43859c8def27089e7a8f280cbe"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/canvas-check.js",
+      "sha256": "86f86a6186f83fea44eaeea06b8574380ecd7b6b49635039276733dfed21eff9"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/canvas.json",
+      "sha256": "ca537e0eee0bac6b8ec4541252ee276df790b2a660b344e006d83491038f2af1"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/opening-correction.json",
+      "sha256": "63d160e9b8284ef058d67ace3f9482049d8a544c8e92f1beba0574f2cf4f82f8"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/ja-after-back.png",
+      "sha256": "f70cb5fabc9b7f710143d92942d57793b63d9d8d7df02a2fa68f9060eca5a1a5"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/ja-terminal-restored.png",
+      "sha256": "22266df2a9b26eed96d46b4300af1d475b7780182a88f67dc874b7e17e2ba797"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/ja-opening-corrected.png",
+      "sha256": "c855286edcb09c276e2b570e99c1da6bc7f6f5719d29694405003d7153f6c96e"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/i18n/results.json",
+      "sha256": "15531840b77c8a4de926f6f1e0eb79bc8e6e7ea5d6bb4f8036837111d02ed5a8"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/build.log",
+      "sha256": "ae55c6f7bb815cb9fa0ee71575b1beabf34c249644b0f9a65e1c14590141c279"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/lint.log",
+      "sha256": "57a6f3fa719ae46956d55d0df50044fc56567b33a3da32d300fec46f09e33034"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/typecheck.log",
+      "sha256": "95bab48ec1244bcdc8f5253156f2bae74cd7ae934fd55cf99cd0c42c341a7d27"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/tests.log",
+      "sha256": "4b2de3394076d409b0fc2c43f8e93c607ed2d15059ded8b35fe02f19651f027c"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/validate.log",
+      "sha256": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0"
+    },
+    {
+      "path": "output/playwright/incident-localization-fixes/coverage.log",
+      "sha256": "9826c9784859a7824946462cb92f60b8573781811f7267f24afcd2efb31b9ba9"
+    }
+  ],
+  "limits": [
+    "Other workspace edits continued during verification. Checks describe the recorded source fingerprint, not subsequent edits.",
+    "Exact owner screenshot not reproduced; controlled history race covered.",
+    "Qualified linguistic review pending."
+  ],
+  "subsequent_workspace_edits_detected": true
+}
