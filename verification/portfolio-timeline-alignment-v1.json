@@ -1,0 +1,1782 @@
+{
+  "schemaVersion": 1,
+  "task": "portfolio-timeline-alignment-v1",
+  "date": "2026-10-23",
+  "timezone": "Asia/Kuching",
+  "sourceRevision": "00584e35e43b1b9761e7e19479d51d83d525dc3c",
+  "status": "Portfolio alignment COMPLETE locally with owner-confirmed continuity corrections; corrected source-document dates saved and verified in Reactive Resume.",
+  "sourceDocuments": [
+    {
+      "slug": "2-page-resume",
+      "url": "https://rxresu.me/mwara95/2-page-resume",
+      "title": "Mohd Paramasvara - Reactive Resume",
+      "observedAt": "2026-10-23T12:44:17.527Z"
+    },
+    {
+      "slug": "curriculum-vitae",
+      "url": "https://rxresu.me/mwara95/curriculum-vitae",
+      "title": "Mohd Paramasvara - Reactive Resume",
+      "observedAt": "2026-10-23T12:44:25.704Z"
+    }
+  ],
+  "ownerResolutions": [
+    {
+      "entry": "Invisible Technologies role",
+      "resumeObserved": "May 2024–Present",
+      "cvObserved": "May 2024–March 2025",
+      "confirmed": "May 2024–March 2025",
+      "authority": "Owner response in this session: Ended March 2025",
+      "remainingSourceEdit": "Two-page résumé end date; not applied"
+    },
+    {
+      "entry": "MegaInfinite freelance role",
+      "resumeObserved": "May 2018–April 2020",
+      "cvObserved": "May 2018–April 2019",
+      "confirmed": "May 2018–April 2020",
+      "authority": "Owner response in this session: Role ended April 2020; project ended May 2020",
+      "remainingSourceEdit": "Full CV role end date; not applied"
+    },
+    {
+      "entry": "Rental project",
+      "cvObserved": "May 2018–May 2020",
+      "confirmed": "May 2018–May 2020",
+      "authority": "Same owner response; project and role have distinct end months"
+    }
+  ],
+  "portfolioChanges": {
+    "projects": {
+      "campus": "Apr 2023 — Present",
+      "meetings": "Jun 2021 — Present",
+      "insurance": "Apr 2019 — Apr 2021",
+      "wensymes": "Mar 2025 — ongoing collaboration",
+      "hr": "Apr 2016 — Apr 2017",
+      "rental": "May 2018 — May 2020"
+    },
+    "careerNode": {
+      "old": "2021 / Full-stack → Principal",
+      "new": "2022 / Principal engineering",
+      "source": "Both documents and existing role card place the principal role at June 2022; developer stage June 2021–June 2022."
+    },
+    "roleCards": "Dates already match shared documents; prior owner-confirmed Engineer title and WenSymes occasional collaboration status preserved."
+  },
+  "localization": {
+    "locales": 11,
+    "unitsPerLocale": 1526,
+    "addedUnits": 6,
+    "addedTargetTranslations": 60,
+    "missing": 0,
+    "stale": 0,
+    "validationErrors": 0,
+    "retainedEditorialWarnings": 97,
+    "provenance": "machine_translated / development-assistant / session-model-unspecified; source SHA-256 hashes",
+    "providerAttempt": "Configured authoring command attempted; unavailable explicit credentials/model; repository-permitted direct machine authoring used.",
+    "policy": "Locale-specific month names/grammar and registered calendars; alternate calendars retain Gregorian [YYYY-MM]; no invented day precision.",
+    "review": "Fluent editorial review pending."
+  },
+  "qa": {
+    "commands": [
+      "npm run i18n:extract",
+      "npm run i18n:translate (provider attempt failed; fallback recorded)",
+      "npm run i18n:validate",
+      "npm run i18n:coverage -- --strict",
+      "npm run i18n:audit-dates",
+      "npm run typecheck",
+      "npm run lint",
+      "npm run build",
+      "npm test",
+      "node scripts/i18n-qa.mjs",
+      "node scripts/release-readiness-audit.mjs"
+    ],
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "build": "PASS (existing compiler cache required escalation)",
+    "tests": {
+      "passed": 201,
+      "failed": 0,
+      "skipped": 0
+    },
+    "browser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "localesWithVerifiedDates": 11,
+      "projectPeriodChecks": 66,
+      "careerNodeYearChecks": 11,
+      "pageErrors": 0,
+      "missingRenderedSource": 0,
+      "translationRequests": 0,
+      "rawReport": "output/playwright/timeline-alignment/locales/results.json"
+    },
+    "staticAudit": {
+      "routes": 108,
+      "issues": [],
+      "rawReport": "output/playwright/timeline-alignment/artifact/artifact.json"
+    },
+    "performance": {
+      "entry": {
+        "path": "assets/index-GTkXDpAm.js",
+        "bytes": 214945,
+        "sha256": "3b74795acda5960b13c828c1f01cd019a5015f1a276ffddf4f7f44f15219e485",
+        "gzip": 65853
+      },
+      "budgetBytes": 215000,
+      "budgetRaised": false
+    },
+    "limits": "Local Chrome automation, not fluent linguistic, screen-reader, physical-device or live-deployment verification. Existing large-chunk warning retained. Owner report trailing whitespace remains unchanged."
+  },
+  "renderedDateEvidence": [
+    {
+      "locale": "en",
+      "periods": [
+        "PolicyStreet  /  Apr 2019 — Apr 2021",
+        "WenSymes  /  Mar 2025 — ongoing collaboration",
+        "Centre for Content Creation  /  Apr 2023 — Present",
+        "MegaInfinite  /  May 2018 — May 2020",
+        "Centre for Content Creation  /  Jun 2021 — Present",
+        "Centre for Content Creation  /  Apr 2016 — Apr 2017",
+        "01 Mar 2025 — ongoing collaboration",
+        "02 Jun 2022 — Present",
+        "03 May 2019 — Jun 2021",
+        "04 Jun 2018 — Present"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / Apr 2023 — Present"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / Jun 2021 — Present"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / Apr 2019 — Apr 2021"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / Mar 2025 — ongoing collaboration"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / Apr 2016 — Apr 2017"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / May 2018 — May 2020"
+        }
+      ],
+      "principalDate": "02 / 2022"
+    },
+    {
+      "locale": "ms",
+      "periods": [
+        "PolicyStreet  /  Hijri (Umm al-Qura): Rejab 1440 H – Syaaban 1440 H [2019-04] — Hijri (Umm al-Qura): Syaaban 1442 H – Ramadan 1442 H [2021-04]",
+        "WenSymes  /  Hijri (Umm al-Qura): Ramadan 1446 H – Syawal 1446 H [2025-03] — kerjasama berterusan",
+        "Centre for Content Creation  /  Hijri (Umm al-Qura): Ramadan 1444 H – Syawal 1444 H [2023-04] — Kini",
+        "MegaInfinite  /  Hijri (Umm al-Qura): Syaaban 1439 H – Ramadan 1439 H [2018-05] — Hijri (Umm al-Qura): Ramadan 1441 H – Syawal 1441 H [2020-05]",
+        "Centre for Content Creation  /  Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06] — Kini",
+        "Centre for Content Creation  /  Hijri (Umm al-Qura): Jamadilakhir 1437 H – Rejab 1437 H [2016-04] — Hijri (Umm al-Qura): Rejab 1438 H – Syaaban 1438 H [2017-04]",
+        "01 Hijri (Umm al-Qura): Ramadan 1446 H – Syawal 1446 H [2025-03] — kerjasama berterusan",
+        "02 Hijri (Umm al-Qura): Zulkaedah 1443 H – Zulhijah 1443 H [2022-06] — Kini",
+        "03 Hijri (Umm al-Qura): Syaaban 1440 H – Ramadan 1440 H [2019-05] — Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06]",
+        "04 Hijri (Umm al-Qura): Ramadan 1439 H – Syawal 1439 H [2018-06] — Kini"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / Hijri (Umm al-Qura): Ramadan 1444 H – Syawal 1444 H [2023-04] — Kini"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06] — Kini"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / Hijri (Umm al-Qura): Rejab 1440 H – Syaaban 1440 H [2019-04] — Hijri (Umm al-Qura): Syaaban 1442 H – Ramadan 1442 H [2021-04]"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / Hijri (Umm al-Qura): Ramadan 1446 H – Syawal 1446 H [2025-03] — kerjasama berterusan"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / Hijri (Umm al-Qura): Jamadilakhir 1437 H – Rejab 1437 H [2016-04] — Hijri (Umm al-Qura): Rejab 1438 H – Syaaban 1438 H [2017-04]"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / Hijri (Umm al-Qura): Syaaban 1439 H – Ramadan 1439 H [2018-05] — Hijri (Umm al-Qura): Ramadan 1441 H – Syawal 1441 H [2020-05]"
+        }
+      ],
+      "principalDate": "02 / Hijri (Umm al-Qura): 1443 H – 1444 H [2022]"
+    },
+    {
+      "locale": "ar",
+      "periods": [
+        "PolicyStreet  /  هجري (أم القرى): رجب 1440 هـ – شعبان 1440 هـ [2019-04] — هجري (أم القرى): شعبان 1442 هـ – رمضان 1442 هـ [2021-04]",
+        "WenSymes  /  هجري (أم القرى): رمضان 1446 هـ – شوال 1446 هـ [2025-03] — تعاون مستمر",
+        "Centre for Content Creation  /  هجري (أم القرى): رمضان 1444 هـ – شوال 1444 هـ [2023-04] — حتى الآن",
+        "MegaInfinite  /  هجري (أم القرى): شعبان 1439 هـ – رمضان 1439 هـ [2018-05] — هجري (أم القرى): رمضان 1441 هـ – شوال 1441 هـ [2020-05]",
+        "Centre for Content Creation  /  هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06] — حتى الآن",
+        "Centre for Content Creation  /  هجري (أم القرى): جمادى الآخرة 1437 هـ – رجب 1437 هـ [2016-04] — هجري (أم القرى): رجب 1438 هـ – شعبان 1438 هـ [2017-04]",
+        "01 هجري (أم القرى): رمضان 1446 هـ – شوال 1446 هـ [2025-03] — تعاون مستمر",
+        "02 هجري (أم القرى): ذو القعدة 1443 هـ – ذو الحجة 1443 هـ [2022-06] — حتى الآن",
+        "03 هجري (أم القرى): شعبان 1440 هـ – رمضان 1440 هـ [2019-05] — هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06]",
+        "04 هجري (أم القرى): رمضان 1439 هـ – شوال 1439 هـ [2018-06] — حتى الآن"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / هجري (أم القرى): رمضان 1444 هـ – شوال 1444 هـ [2023-04] — حتى الآن"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06] — حتى الآن"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / هجري (أم القرى): رجب 1440 هـ – شعبان 1440 هـ [2019-04] — هجري (أم القرى): شعبان 1442 هـ – رمضان 1442 هـ [2021-04]"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / هجري (أم القرى): رمضان 1446 هـ – شوال 1446 هـ [2025-03] — تعاون مستمر"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / هجري (أم القرى): جمادى الآخرة 1437 هـ – رجب 1437 هـ [2016-04] — هجري (أم القرى): رجب 1438 هـ – شعبان 1438 هـ [2017-04]"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / هجري (أم القرى): شعبان 1439 هـ – رمضان 1439 هـ [2018-05] — هجري (أم القرى): رمضان 1441 هـ – شوال 1441 هـ [2020-05]"
+        }
+      ],
+      "principalDate": "02 / هجري (أم القرى): 1443 هـ – 1444 هـ [2022]"
+    },
+    {
+      "locale": "ta",
+      "periods": [
+        "PolicyStreet  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1941 சாகா – வைகாசி 1941 சாகா [2019-04] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1943 சாகா – வைகாசி 1943 சாகா [2021-04]",
+        "WenSymes  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): பங்குனி 1946 சாகா – சித்திரை 1947 சாகா [2025-03] — ஒத்துழைப்பு தொடர்கிறது",
+        "Centre for Content Creation  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1945 சாகா – வைகாசி 1945 சாகா [2023-04] — தற்போது வரை",
+        "MegaInfinite  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1940 சாகா – ஆனி 1940 சாகா [2018-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1942 சாகா – ஆனி 1942 சாகா [2020-05]",
+        "Centre for Content Creation  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06] — தற்போது வரை",
+        "Centre for Content Creation  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1938 சாகா – வைகாசி 1938 சாகா [2016-04] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1939 சாகா – வைகாசி 1939 சாகா [2017-04]",
+        "01 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): பங்குனி 1946 சாகா – சித்திரை 1947 சாகா [2025-03] — ஒத்துழைப்பு தொடர்கிறது",
+        "02 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1944 சாகா – ஆடி 1944 சாகா [2022-06] — தற்போது வரை",
+        "03 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1941 சாகா – ஆனி 1941 சாகா [2019-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06]",
+        "04 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1940 சாகா – ஆடி 1940 சாகா [2018-06] — தற்போது வரை"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1945 சாகா – வைகாசி 1945 சாகா [2023-04] — தற்போது வரை"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06] — தற்போது வரை"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1941 சாகா – வைகாசி 1941 சாகா [2019-04] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1943 சாகா – வைகாசி 1943 சாகா [2021-04]"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): பங்குனி 1946 சாகா – சித்திரை 1947 சாகா [2025-03] — ஒத்துழைப்பு தொடர்கிறது"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1938 சாகா – வைகாசி 1938 சாகா [2016-04] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1939 சாகா – வைகாசி 1939 சாகா [2017-04]"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1940 சாகா – ஆனி 1940 சாகா [2018-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1942 சாகா – ஆனி 1942 சாகா [2020-05]"
+        }
+      ],
+      "principalDate": "02 / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1943 சாகா – 1944 சாகா [2022]"
+    },
+    {
+      "locale": "ja",
+      "periods": [
+        "PolicyStreet  /  和暦: 平成31年4月 [2019-04] — 和暦: 令和3年4月 [2021-04]",
+        "WenSymes  /  和暦: 令和7年3月 [2025-03] — 継続的な協力",
+        "Centre for Content Creation  /  和暦: 令和5年4月 [2023-04] — 現在",
+        "MegaInfinite  /  和暦: 平成30年5月 [2018-05] — 和暦: 令和2年5月 [2020-05]",
+        "Centre for Content Creation  /  和暦: 令和3年6月 [2021-06] — 現在",
+        "Centre for Content Creation  /  和暦: 平成28年4月 [2016-04] — 和暦: 平成29年4月 [2017-04]",
+        "01 和暦: 令和7年3月 [2025-03] — 継続的な協力",
+        "02 和暦: 令和4年6月 [2022-06] — 現在",
+        "03 和暦: 令和元年5月 [2019-05] — 和暦: 令和3年6月 [2021-06]",
+        "04 和暦: 平成30年6月 [2018-06] — 現在"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / 和暦: 令和5年4月 [2023-04] — 現在"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / 和暦: 令和3年6月 [2021-06] — 現在"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / 和暦: 平成31年4月 [2019-04] — 和暦: 令和3年4月 [2021-04]"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / 和暦: 令和7年3月 [2025-03] — 継続的な協力"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / 和暦: 平成28年4月 [2016-04] — 和暦: 平成29年4月 [2017-04]"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / 和暦: 平成30年5月 [2018-05] — 和暦: 令和2年5月 [2020-05]"
+        }
+      ],
+      "principalDate": "02 / 和暦: 令和4年 [2022]"
+    },
+    {
+      "locale": "zh-Hans",
+      "periods": [
+        "PolicyStreet  /  农历: 2019己亥年二月 – 2019己亥年三月 [2019-04] — 农历: 2021辛丑年二月 – 2021辛丑年三月 [2021-04]",
+        "WenSymes  /  农历: 2025乙巳年二月 – 2025乙巳年三月 [2025-03] — 持续合作",
+        "Centre for Content Creation  /  农历: 2023癸卯年闰二月 – 2023癸卯年三月 [2023-04] — 至今",
+        "MegaInfinite  /  农历: 2018戊戌年三月 – 2018戊戌年四月 [2018-05] — 农历: 2020庚子年四月 – 2020庚子年闰四月 [2020-05]",
+        "Centre for Content Creation  /  农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06] — 至今",
+        "Centre for Content Creation  /  农历: 2016丙申年二月 – 2016丙申年三月 [2016-04] — 农历: 2017丁酉年三月 – 2017丁酉年四月 [2017-04]",
+        "01 农历: 2025乙巳年二月 – 2025乙巳年三月 [2025-03] — 持续合作",
+        "02 农历: 2022壬寅年五月 – 2022壬寅年六月 [2022-06] — 至今",
+        "03 农历: 2019己亥年三月 – 2019己亥年四月 [2019-05] — 农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06]",
+        "04 农历: 2018戊戌年四月 – 2018戊戌年五月 [2018-06] — 至今"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / 农历: 2023癸卯年闰二月 – 2023癸卯年三月 [2023-04] — 至今"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / 农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06] — 至今"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / 农历: 2019己亥年二月 – 2019己亥年三月 [2019-04] — 农历: 2021辛丑年二月 – 2021辛丑年三月 [2021-04]"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / 农历: 2025乙巳年二月 – 2025乙巳年三月 [2025-03] — 持续合作"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / 农历: 2016丙申年二月 – 2016丙申年三月 [2016-04] — 农历: 2017丁酉年三月 – 2017丁酉年四月 [2017-04]"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / 农历: 2018戊戌年三月 – 2018戊戌年四月 [2018-05] — 农历: 2020庚子年四月 – 2020庚子年闰四月 [2020-05]"
+        }
+      ],
+      "principalDate": "02 / 农历: 2021辛丑年 – 2022壬寅年 [2022]"
+    },
+    {
+      "locale": "es",
+      "periods": [
+        "PolicyStreet  /  abril de 2019 — abril de 2021",
+        "WenSymes  /  marzo de 2025 — colaboración en curso",
+        "Centre for Content Creation  /  abril de 2023 — Actualidad",
+        "MegaInfinite  /  mayo de 2018 — mayo de 2020",
+        "Centre for Content Creation  /  junio de 2021 — Actualidad",
+        "Centre for Content Creation  /  abril de 2016 — abril de 2017",
+        "01 marzo de 2025 — colaboración en curso",
+        "02 junio de 2022 — Actualidad",
+        "03 mayo de 2019 — junio de 2021",
+        "04 junio de 2018 — Actualidad"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / abril de 2023 — Actualidad"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / junio de 2021 — Actualidad"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / abril de 2019 — abril de 2021"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / marzo de 2025 — colaboración en curso"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / abril de 2016 — abril de 2017"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / mayo de 2018 — mayo de 2020"
+        }
+      ],
+      "principalDate": "02 / 2022"
+    },
+    {
+      "locale": "fr",
+      "periods": [
+        "PolicyStreet  /  avril 2019 — avril 2021",
+        "WenSymes  /  mars 2025 — collaboration en cours",
+        "Centre for Content Creation  /  avril 2023 — Aujourd’hui",
+        "MegaInfinite  /  mai 2018 — mai 2020",
+        "Centre for Content Creation  /  juin 2021 — Aujourd’hui",
+        "Centre for Content Creation  /  avril 2016 — avril 2017",
+        "01 mars 2025 — collaboration en cours",
+        "02 juin 2022 — Aujourd’hui",
+        "03 mai 2019 — juin 2021",
+        "04 juin 2018 — Aujourd’hui"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / avril 2023 — Aujourd’hui"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / juin 2021 — Aujourd’hui"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / avril 2019 — avril 2021"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / mars 2025 — collaboration en cours"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / avril 2016 — avril 2017"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / mai 2018 — mai 2020"
+        }
+      ],
+      "principalDate": "02 / 2022"
+    },
+    {
+      "locale": "de",
+      "periods": [
+        "PolicyStreet  /  April 2019 — April 2021",
+        "WenSymes  /  März 2025 — fortlaufende Zusammenarbeit",
+        "Centre for Content Creation  /  April 2023 — heute",
+        "MegaInfinite  /  Mai 2018 — Mai 2020",
+        "Centre for Content Creation  /  Juni 2021 — heute",
+        "Centre for Content Creation  /  April 2016 — April 2017",
+        "01 März 2025 — fortlaufende Zusammenarbeit",
+        "02 Juni 2022 — heute",
+        "03 Mai 2019 — Juni 2021",
+        "04 Juni 2018 — heute"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / April 2023 — heute"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / Juni 2021 — heute"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / April 2019 — April 2021"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / März 2025 — fortlaufende Zusammenarbeit"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / April 2016 — April 2017"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / Mai 2018 — Mai 2020"
+        }
+      ],
+      "principalDate": "02 / 2022"
+    },
+    {
+      "locale": "pt-BR",
+      "periods": [
+        "PolicyStreet  /  abril de 2019 — abril de 2021",
+        "WenSymes  /  março de 2025 — colaboração em andamento",
+        "Centre for Content Creation  /  abril de 2023 — Atualmente",
+        "MegaInfinite  /  maio de 2018 — maio de 2020",
+        "Centre for Content Creation  /  junho de 2021 — Atualmente",
+        "Centre for Content Creation  /  abril de 2016 — abril de 2017",
+        "01 março de 2025 — colaboração em andamento",
+        "02 junho de 2022 — Atualmente",
+        "03 maio de 2019 — junho de 2021",
+        "04 junho de 2018 — Atualmente"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / abril de 2023 — Atualmente"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / junho de 2021 — Atualmente"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / abril de 2019 — abril de 2021"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / março de 2025 — colaboração em andamento"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / abril de 2016 — abril de 2017"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / maio de 2018 — maio de 2020"
+        }
+      ],
+      "principalDate": "02 / 2022"
+    },
+    {
+      "locale": "hi",
+      "periods": [
+        "PolicyStreet  /  शक संवत: चैत्र 1941 शक – वैशाख 1941 शक [2019-04] — शक संवत: चैत्र 1943 शक – वैशाख 1943 शक [2021-04]",
+        "WenSymes  /  शक संवत: फाल्गुन 1946 शक – चैत्र 1947 शक [2025-03] — सहयोग जारी है",
+        "Centre for Content Creation  /  शक संवत: चैत्र 1945 शक – वैशाख 1945 शक [2023-04] — वर्तमान",
+        "MegaInfinite  /  शक संवत: वैशाख 1940 शक – ज्येष्ठ 1940 शक [2018-05] — शक संवत: वैशाख 1942 शक – ज्येष्ठ 1942 शक [2020-05]",
+        "Centre for Content Creation  /  शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06] — वर्तमान",
+        "Centre for Content Creation  /  शक संवत: चैत्र 1938 शक – वैशाख 1938 शक [2016-04] — शक संवत: चैत्र 1939 शक – वैशाख 1939 शक [2017-04]",
+        "01 शक संवत: फाल्गुन 1946 शक – चैत्र 1947 शक [2025-03] — सहयोग जारी है",
+        "02 शक संवत: ज्येष्ठ 1944 शक – आषाढ़ 1944 शक [2022-06] — वर्तमान",
+        "03 शक संवत: वैशाख 1941 शक – ज्येष्ठ 1941 शक [2019-05] — शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06]",
+        "04 शक संवत: ज्येष्ठ 1940 शक – आषाढ़ 1940 शक [2018-06] — वर्तमान"
+      ],
+      "projectDates": [
+        {
+          "id": "campus",
+          "sourceMonths": [
+            "2023-04"
+          ],
+          "display": "Centre for Content Creation / शक संवत: चैत्र 1945 शक – वैशाख 1945 शक [2023-04] — वर्तमान"
+        },
+        {
+          "id": "meetings",
+          "sourceMonths": [
+            "2021-06"
+          ],
+          "display": "Centre for Content Creation / शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06] — वर्तमान"
+        },
+        {
+          "id": "insurance",
+          "sourceMonths": [
+            "2019-04",
+            "2021-04"
+          ],
+          "display": "PolicyStreet / शक संवत: चैत्र 1941 शक – वैशाख 1941 शक [2019-04] — शक संवत: चैत्र 1943 शक – वैशाख 1943 शक [2021-04]"
+        },
+        {
+          "id": "wensymes",
+          "sourceMonths": [
+            "2025-03"
+          ],
+          "display": "WenSymes / शक संवत: फाल्गुन 1946 शक – चैत्र 1947 शक [2025-03] — सहयोग जारी है"
+        },
+        {
+          "id": "hr",
+          "sourceMonths": [
+            "2016-04",
+            "2017-04"
+          ],
+          "display": "Centre for Content Creation / शक संवत: चैत्र 1938 शक – वैशाख 1938 शक [2016-04] — शक संवत: चैत्र 1939 शक – वैशाख 1939 शक [2017-04]"
+        },
+        {
+          "id": "rental",
+          "sourceMonths": [
+            "2018-05",
+            "2020-05"
+          ],
+          "display": "MegaInfinite / शक संवत: वैशाख 1940 शक – ज्येष्ठ 1940 शक [2018-05] — शक संवत: वैशाख 1942 शक – ज्येष्ठ 1942 शक [2020-05]"
+        }
+      ],
+      "principalDate": "02 / शक संवत: 1943 शक – 1944 शक [2022]"
+    }
+  ],
+  "sourceHashes": {
+    "src/content.ts": "69e14e25b52340e8e453a2da9ba6cf37eeb206491a1d190372629ce11ac588ee",
+    "src/SystemDiagrams.tsx": "5d199620479f9eef486fd6c49eed3695b665db3e9a62df0fac1de735ad9ffc73",
+    "src/i18n/formatting.ts": "7c00d10e505a003879d1c9f93d1e685fff304fa0ead32d836627e822e58fb342",
+    "scripts/i18n-qa.mjs": "38f75d9d59421135426e34ab4273e608fce8a18bda751a88e9b54d3e34e88f34",
+    "docs/portfolio/PME-V1-DATE-AUDIT.json": "c7e0f49fffba077cc2197decf607a779f43118e8b5ce644b9302f586f70e05f4"
+  },
+  "safety": {
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "externalResumeOrCvModified": true,
+    "otherRepositoriesModified": false,
+    "ownerChangesPreserved": true,
+    "externalModificationScope": "Owner-confirmed experience/project date corrections only; visibility, unrelated content and layouts preserved."
+  },
+  "continuityFollowUp": {
+    "date": "2026-10-23",
+    "status": "COMPLETE locally; source-document corrections saved in Reactive Resume",
+    "authority": [
+      "Owner: joined Centre directly after PolicyStreet in June 2021",
+      "Owner: before April 2023 developed real-time online meeting/classroom system and maintained/modernized existing HRMS",
+      "Owner: first Centre employment May 2016–May 2017, left to continue degree in Singapore",
+      "Owner: HRMS project also began May 2016",
+      "Owner: Cryptoika overlap recollection concerns MegaInfinite, not Centre; final instruction Follow the CV"
+    ],
+    "finalPeriods": {
+      "centreFirst": "May 2016 — May 2017",
+      "hrmsProject": "May 2016 — Apr 2017",
+      "cryptoika": "Feb 2018 — May 2018",
+      "megaInfiniteRole": "May 2018 — Apr 2020",
+      "rentalProject": "May 2018 — May 2020",
+      "policyStreetRole": "May 2019 — Jun 2021",
+      "centreReturn": "Jun 2021 — Present",
+      "principalSince": "Jun 2022",
+      "modernizationProjectSince": "Apr 2023"
+    },
+    "presentation": "Flagship and returning role show complete Centre engagement with Full Stack Developer → Principal progression; visible summary explains earlier work and later modernization. Career node 2021 identifies engagement start. Earlier 2022-only node attempt superseded.",
+    "overlapLimit": "No 2–3 month overlap claim; use CV Cryptoika February–May 2018 and MegaInfinite May 2018 start.",
+    "rxresume": {
+      "firstCentreEmploymentStart": "Changed April to May 2016 in both documents",
+      "hrmsProjectStart": "Changed April to May 2016 in both documents",
+      "saved": true,
+      "shortResumeHiddenRowsStayHidden": true,
+      "publicCvVerified": [
+        "May 2016 – May 2017",
+        "May 2016 – April 2017"
+      ],
+      "previousTaskSaved": [
+        "Invisible Technologies March 2025 end in résumé",
+        "MegaInfinite April 2020 role end in CV"
+      ],
+      "proof": [
+        "output/playwright/centre-continuity/cv-hrms-saved.png",
+        "output/playwright/centre-continuity/resume-hrms-saved.png"
+      ]
+    },
+    "localization": {
+      "locales": 11,
+      "canonicalUnits": 1536,
+      "missing": 0,
+      "stale": 0,
+      "errors": 0,
+      "retainedEditorialWarnings": 97,
+      "machineTranslated": true,
+      "fluentReviewPending": true,
+      "alternateCalendarPolicy": "Preserve Gregorian YYYY-MM equivalents with source precision."
+    },
+    "qa": {
+      "typecheck": "PASS",
+      "lint": "PASS",
+      "build": "PASS",
+      "tests": {
+        "passed": 201,
+        "failed": 0,
+        "skipped": 0
+      },
+      "staticRoutes": 108,
+      "staticIssues": [],
+      "localeBrowserCounts": {
+        "layouts": 88,
+        "scenarios": 9,
+        "errors": 0,
+        "translationRequests": 0,
+        "missingSource": 0,
+        "datePeriods": 11,
+        "assistantChecks": 11
+      },
+      "rawBrowserReport": "output/playwright/centre-continuity/locales/results.json",
+      "entry": {
+        "path": "assets/index-B6x6if6J.js",
+        "bytes": 214948,
+        "sha256": "592a4437c23979dec028029ed9758f25a844e58cb5abc9f4b3da8c1394dcd89b",
+        "gzip": 65859
+      },
+      "entryBudget": 215000,
+      "budgetRaised": false,
+      "visualProof": "output/playwright/centre-continuity/portfolio-centre.png",
+      "limits": "No fresh axe scans, fluent review, screen-reader or physical-device certification; local preview is not deployment."
+    },
+    "renderedDateEvidence": [
+      {
+        "locale": "en",
+        "periods": [
+          "PolicyStreet  /  Apr 2019 — Apr 2021",
+          "WenSymes  /  Mar 2025 — ongoing collaboration",
+          "Centre for Content Creation  /  Jun 2021 — Present",
+          "MegaInfinite  /  May 2018 — May 2020",
+          "Centre for Content Creation  /  Jun 2021 — Present",
+          "Centre for Content Creation  /  May 2016 — Apr 2017",
+          "01 Mar 2025 — ongoing collaboration",
+          "02 Jun 2021 — Present",
+          "03 May 2019 — Jun 2021",
+          "04 Jun 2018 — Present",
+          "05 Feb 2018 — May 2018",
+          "06 May 2016 — May 2017"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / Jun 2021 — Present"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / Jun 2021 — Present"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / Apr 2019 — Apr 2021"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / Mar 2025 — ongoing collaboration"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / May 2016 — Apr 2017"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / May 2018 — May 2020"
+          }
+        ],
+        "principalDate": "02 / 2021"
+      },
+      {
+        "locale": "ms",
+        "periods": [
+          "PolicyStreet  /  Hijri (Umm al-Qura): Rejab 1440 H – Syaaban 1440 H [2019-04] — Hijri (Umm al-Qura): Syaaban 1442 H – Ramadan 1442 H [2021-04]",
+          "WenSymes  /  Hijri (Umm al-Qura): Ramadan 1446 H – Syawal 1446 H [2025-03] — kerjasama berterusan",
+          "Centre for Content Creation  /  Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06] — Kini",
+          "MegaInfinite  /  Hijri (Umm al-Qura): Syaaban 1439 H – Ramadan 1439 H [2018-05] — Hijri (Umm al-Qura): Ramadan 1441 H – Syawal 1441 H [2020-05]",
+          "Centre for Content Creation  /  Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06] — Kini",
+          "Centre for Content Creation  /  Hijri (Umm al-Qura): Rejab 1437 H – Syaaban 1437 H [2016-05] — Hijri (Umm al-Qura): Rejab 1438 H – Syaaban 1438 H [2017-04]",
+          "01 Hijri (Umm al-Qura): Ramadan 1446 H – Syawal 1446 H [2025-03] — kerjasama berterusan",
+          "02 Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06] — Kini",
+          "03 Hijri (Umm al-Qura): Syaaban 1440 H – Ramadan 1440 H [2019-05] — Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06]",
+          "04 Hijri (Umm al-Qura): Ramadan 1439 H – Syawal 1439 H [2018-06] — Kini",
+          "05 Hijri (Umm al-Qura): Jamadilawal 1439 H – Jamadilakhir 1439 H [2018-02] — Hijri (Umm al-Qura): Syaaban 1439 H – Ramadan 1439 H [2018-05]",
+          "06 Hijri (Umm al-Qura): Rejab 1437 H – Syaaban 1437 H [2016-05] — Hijri (Umm al-Qura): Syaaban 1438 H – Ramadan 1438 H [2017-05]"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06] — Kini"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / Hijri (Umm al-Qura): Syawal 1442 H – Zulkaedah 1442 H [2021-06] — Kini"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / Hijri (Umm al-Qura): Rejab 1440 H – Syaaban 1440 H [2019-04] — Hijri (Umm al-Qura): Syaaban 1442 H – Ramadan 1442 H [2021-04]"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / Hijri (Umm al-Qura): Ramadan 1446 H – Syawal 1446 H [2025-03] — kerjasama berterusan"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / Hijri (Umm al-Qura): Rejab 1437 H – Syaaban 1437 H [2016-05] — Hijri (Umm al-Qura): Rejab 1438 H – Syaaban 1438 H [2017-04]"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / Hijri (Umm al-Qura): Syaaban 1439 H – Ramadan 1439 H [2018-05] — Hijri (Umm al-Qura): Ramadan 1441 H – Syawal 1441 H [2020-05]"
+          }
+        ],
+        "principalDate": "02 / Hijri (Umm al-Qura): 1442 H – 1443 H [2021]"
+      },
+      {
+        "locale": "ar",
+        "periods": [
+          "PolicyStreet  /  هجري (أم القرى): رجب 1440 هـ – شعبان 1440 هـ [2019-04] — هجري (أم القرى): شعبان 1442 هـ – رمضان 1442 هـ [2021-04]",
+          "WenSymes  /  هجري (أم القرى): رمضان 1446 هـ – شوال 1446 هـ [2025-03] — تعاون مستمر",
+          "Centre for Content Creation  /  هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06] — حتى الآن",
+          "MegaInfinite  /  هجري (أم القرى): شعبان 1439 هـ – رمضان 1439 هـ [2018-05] — هجري (أم القرى): رمضان 1441 هـ – شوال 1441 هـ [2020-05]",
+          "Centre for Content Creation  /  هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06] — حتى الآن",
+          "Centre for Content Creation  /  هجري (أم القرى): رجب 1437 هـ – شعبان 1437 هـ [2016-05] — هجري (أم القرى): رجب 1438 هـ – شعبان 1438 هـ [2017-04]",
+          "01 هجري (أم القرى): رمضان 1446 هـ – شوال 1446 هـ [2025-03] — تعاون مستمر",
+          "02 هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06] — حتى الآن",
+          "03 هجري (أم القرى): شعبان 1440 هـ – رمضان 1440 هـ [2019-05] — هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06]",
+          "04 هجري (أم القرى): رمضان 1439 هـ – شوال 1439 هـ [2018-06] — حتى الآن",
+          "05 هجري (أم القرى): جمادى الأولى 1439 هـ – جمادى الآخرة 1439 هـ [2018-02] — هجري (أم القرى): شعبان 1439 هـ – رمضان 1439 هـ [2018-05]",
+          "06 هجري (أم القرى): رجب 1437 هـ – شعبان 1437 هـ [2016-05] — هجري (أم القرى): شعبان 1438 هـ – رمضان 1438 هـ [2017-05]"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06] — حتى الآن"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / هجري (أم القرى): شوال 1442 هـ – ذو القعدة 1442 هـ [2021-06] — حتى الآن"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / هجري (أم القرى): رجب 1440 هـ – شعبان 1440 هـ [2019-04] — هجري (أم القرى): شعبان 1442 هـ – رمضان 1442 هـ [2021-04]"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / هجري (أم القرى): رمضان 1446 هـ – شوال 1446 هـ [2025-03] — تعاون مستمر"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / هجري (أم القرى): رجب 1437 هـ – شعبان 1437 هـ [2016-05] — هجري (أم القرى): رجب 1438 هـ – شعبان 1438 هـ [2017-04]"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / هجري (أم القرى): شعبان 1439 هـ – رمضان 1439 هـ [2018-05] — هجري (أم القرى): رمضان 1441 هـ – شوال 1441 هـ [2020-05]"
+          }
+        ],
+        "principalDate": "02 / هجري (أم القرى): 1442 هـ – 1443 هـ [2021]"
+      },
+      {
+        "locale": "ta",
+        "periods": [
+          "PolicyStreet  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1941 சாகா – வைகாசி 1941 சாகா [2019-04] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1943 சாகா – வைகாசி 1943 சாகா [2021-04]",
+          "WenSymes  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): பங்குனி 1946 சாகா – சித்திரை 1947 சாகா [2025-03] — ஒத்துழைப்பு தொடர்கிறது",
+          "Centre for Content Creation  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06] — தற்போது வரை",
+          "MegaInfinite  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1940 சாகா – ஆனி 1940 சாகா [2018-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1942 சாகா – ஆனி 1942 சாகா [2020-05]",
+          "Centre for Content Creation  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06] — தற்போது வரை",
+          "Centre for Content Creation  /  இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1938 சாகா – ஆனி 1938 சாகா [2016-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1939 சாகா – வைகாசி 1939 சாகா [2017-04]",
+          "01 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): பங்குனி 1946 சாகா – சித்திரை 1947 சாகா [2025-03] — ஒத்துழைப்பு தொடர்கிறது",
+          "02 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06] — தற்போது வரை",
+          "03 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1941 சாகா – ஆனி 1941 சாகா [2019-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06]",
+          "04 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1940 சாகா – ஆடி 1940 சாகா [2018-06] — தற்போது வரை",
+          "05 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): மாசி 1939 சாகா – பங்குனி 1939 சாகா [2018-02] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1940 சாகா – ஆனி 1940 சாகா [2018-05]",
+          "06 இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1938 சாகா – ஆனி 1938 சாகா [2016-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1939 சாகா – ஆனி 1939 சாகா [2017-05]"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06] — தற்போது வரை"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): ஆனி 1943 சாகா – ஆடி 1943 சாகா [2021-06] — தற்போது வரை"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1941 சாகா – வைகாசி 1941 சாகா [2019-04] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1943 சாகா – வைகாசி 1943 சாகா [2021-04]"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): பங்குனி 1946 சாகா – சித்திரை 1947 சாகா [2025-03] — ஒத்துழைப்பு தொடர்கிறது"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1938 சாகா – ஆனி 1938 சாகா [2016-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): சித்திரை 1939 சாகா – வைகாசி 1939 சாகா [2017-04]"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1940 சாகா – ஆனி 1940 சாகா [2018-05] — இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): வைகாசி 1942 சாகா – ஆனி 1942 சாகா [2020-05]"
+          }
+        ],
+        "principalDate": "02 / இந்திய தேசிய நாட்காட்டி (சக ஆண்டு): 1942 சாகா – 1943 சாகா [2021]"
+      },
+      {
+        "locale": "ja",
+        "periods": [
+          "PolicyStreet  /  和暦: 平成31年4月 [2019-04] — 和暦: 令和3年4月 [2021-04]",
+          "WenSymes  /  和暦: 令和7年3月 [2025-03] — 継続的な協力",
+          "Centre for Content Creation  /  和暦: 令和3年6月 [2021-06] — 現在",
+          "MegaInfinite  /  和暦: 平成30年5月 [2018-05] — 和暦: 令和2年5月 [2020-05]",
+          "Centre for Content Creation  /  和暦: 令和3年6月 [2021-06] — 現在",
+          "Centre for Content Creation  /  和暦: 平成28年5月 [2016-05] — 和暦: 平成29年4月 [2017-04]",
+          "01 和暦: 令和7年3月 [2025-03] — 継続的な協力",
+          "02 和暦: 令和3年6月 [2021-06] — 現在",
+          "03 和暦: 令和元年5月 [2019-05] — 和暦: 令和3年6月 [2021-06]",
+          "04 和暦: 平成30年6月 [2018-06] — 現在",
+          "05 和暦: 平成30年2月 [2018-02] — 和暦: 平成30年5月 [2018-05]",
+          "06 和暦: 平成28年5月 [2016-05] — 和暦: 平成29年5月 [2017-05]"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / 和暦: 令和3年6月 [2021-06] — 現在"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / 和暦: 令和3年6月 [2021-06] — 現在"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / 和暦: 平成31年4月 [2019-04] — 和暦: 令和3年4月 [2021-04]"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / 和暦: 令和7年3月 [2025-03] — 継続的な協力"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / 和暦: 平成28年5月 [2016-05] — 和暦: 平成29年4月 [2017-04]"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / 和暦: 平成30年5月 [2018-05] — 和暦: 令和2年5月 [2020-05]"
+          }
+        ],
+        "principalDate": "02 / 和暦: 令和3年 [2021]"
+      },
+      {
+        "locale": "zh-Hans",
+        "periods": [
+          "PolicyStreet  /  农历: 2019己亥年二月 – 2019己亥年三月 [2019-04] — 农历: 2021辛丑年二月 – 2021辛丑年三月 [2021-04]",
+          "WenSymes  /  农历: 2025乙巳年二月 – 2025乙巳年三月 [2025-03] — 持续合作",
+          "Centre for Content Creation  /  农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06] — 至今",
+          "MegaInfinite  /  农历: 2018戊戌年三月 – 2018戊戌年四月 [2018-05] — 农历: 2020庚子年四月 – 2020庚子年闰四月 [2020-05]",
+          "Centre for Content Creation  /  农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06] — 至今",
+          "Centre for Content Creation  /  农历: 2016丙申年三月 – 2016丙申年四月 [2016-05] — 农历: 2017丁酉年三月 – 2017丁酉年四月 [2017-04]",
+          "01 农历: 2025乙巳年二月 – 2025乙巳年三月 [2025-03] — 持续合作",
+          "02 农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06] — 至今",
+          "03 农历: 2019己亥年三月 – 2019己亥年四月 [2019-05] — 农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06]",
+          "04 农历: 2018戊戌年四月 – 2018戊戌年五月 [2018-06] — 至今",
+          "05 农历: 2017丁酉年腊月 – 2018戊戌年正月 [2018-02] — 农历: 2018戊戌年三月 – 2018戊戌年四月 [2018-05]",
+          "06 农历: 2016丙申年三月 – 2016丙申年四月 [2016-05] — 农历: 2017丁酉年四月 – 2017丁酉年五月 [2017-05]"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / 农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06] — 至今"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / 农历: 2021辛丑年四月 – 2021辛丑年五月 [2021-06] — 至今"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / 农历: 2019己亥年二月 – 2019己亥年三月 [2019-04] — 农历: 2021辛丑年二月 – 2021辛丑年三月 [2021-04]"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / 农历: 2025乙巳年二月 – 2025乙巳年三月 [2025-03] — 持续合作"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / 农历: 2016丙申年三月 – 2016丙申年四月 [2016-05] — 农历: 2017丁酉年三月 – 2017丁酉年四月 [2017-04]"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / 农历: 2018戊戌年三月 – 2018戊戌年四月 [2018-05] — 农历: 2020庚子年四月 – 2020庚子年闰四月 [2020-05]"
+          }
+        ],
+        "principalDate": "02 / 农历: 2020庚子年 – 2021辛丑年 [2021]"
+      },
+      {
+        "locale": "es",
+        "periods": [
+          "PolicyStreet  /  abril de 2019 — abril de 2021",
+          "WenSymes  /  marzo de 2025 — colaboración en curso",
+          "Centre for Content Creation  /  junio de 2021 — Actualidad",
+          "MegaInfinite  /  mayo de 2018 — mayo de 2020",
+          "Centre for Content Creation  /  junio de 2021 — Actualidad",
+          "Centre for Content Creation  /  mayo de 2016 — abril de 2017",
+          "01 marzo de 2025 — colaboración en curso",
+          "02 junio de 2021 — Actualidad",
+          "03 mayo de 2019 — junio de 2021",
+          "04 junio de 2018 — Actualidad",
+          "05 febrero de 2018 — mayo de 2018",
+          "06 mayo de 2016 — mayo de 2017"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / junio de 2021 — Actualidad"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / junio de 2021 — Actualidad"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / abril de 2019 — abril de 2021"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / marzo de 2025 — colaboración en curso"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / mayo de 2016 — abril de 2017"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / mayo de 2018 — mayo de 2020"
+          }
+        ],
+        "principalDate": "02 / 2021"
+      },
+      {
+        "locale": "fr",
+        "periods": [
+          "PolicyStreet  /  avril 2019 — avril 2021",
+          "WenSymes  /  mars 2025 — collaboration en cours",
+          "Centre for Content Creation  /  juin 2021 — Aujourd’hui",
+          "MegaInfinite  /  mai 2018 — mai 2020",
+          "Centre for Content Creation  /  juin 2021 — Aujourd’hui",
+          "Centre for Content Creation  /  mai 2016 — avril 2017",
+          "01 mars 2025 — collaboration en cours",
+          "02 juin 2021 — Aujourd’hui",
+          "03 mai 2019 — juin 2021",
+          "04 juin 2018 — Aujourd’hui",
+          "05 février 2018 — mai 2018",
+          "06 mai 2016 — mai 2017"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / juin 2021 — Aujourd’hui"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / juin 2021 — Aujourd’hui"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / avril 2019 — avril 2021"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / mars 2025 — collaboration en cours"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / mai 2016 — avril 2017"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / mai 2018 — mai 2020"
+          }
+        ],
+        "principalDate": "02 / 2021"
+      },
+      {
+        "locale": "de",
+        "periods": [
+          "PolicyStreet  /  April 2019 — April 2021",
+          "WenSymes  /  März 2025 — fortlaufende Zusammenarbeit",
+          "Centre for Content Creation  /  Juni 2021 — heute",
+          "MegaInfinite  /  Mai 2018 — Mai 2020",
+          "Centre for Content Creation  /  Juni 2021 — heute",
+          "Centre for Content Creation  /  Mai 2016 — April 2017",
+          "01 März 2025 — fortlaufende Zusammenarbeit",
+          "02 Juni 2021 — heute",
+          "03 Mai 2019 — Juni 2021",
+          "04 Juni 2018 — heute",
+          "05 Februar 2018 — Mai 2018",
+          "06 Mai 2016 — Mai 2017"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / Juni 2021 — heute"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / Juni 2021 — heute"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / April 2019 — April 2021"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / März 2025 — fortlaufende Zusammenarbeit"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / Mai 2016 — April 2017"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / Mai 2018 — Mai 2020"
+          }
+        ],
+        "principalDate": "02 / 2021"
+      },
+      {
+        "locale": "pt-BR",
+        "periods": [
+          "PolicyStreet  /  abril de 2019 — abril de 2021",
+          "WenSymes  /  março de 2025 — colaboração em andamento",
+          "Centre for Content Creation  /  junho de 2021 — Atualmente",
+          "MegaInfinite  /  maio de 2018 — maio de 2020",
+          "Centre for Content Creation  /  junho de 2021 — Atualmente",
+          "Centre for Content Creation  /  maio de 2016 — abril de 2017",
+          "01 março de 2025 — colaboração em andamento",
+          "02 junho de 2021 — Atualmente",
+          "03 maio de 2019 — junho de 2021",
+          "04 junho de 2018 — Atualmente",
+          "05 fevereiro de 2018 — maio de 2018",
+          "06 maio de 2016 — maio de 2017"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / junho de 2021 — Atualmente"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / junho de 2021 — Atualmente"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / abril de 2019 — abril de 2021"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / março de 2025 — colaboração em andamento"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / maio de 2016 — abril de 2017"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / maio de 2018 — maio de 2020"
+          }
+        ],
+        "principalDate": "02 / 2021"
+      },
+      {
+        "locale": "hi",
+        "periods": [
+          "PolicyStreet  /  शक संवत: चैत्र 1941 शक – वैशाख 1941 शक [2019-04] — शक संवत: चैत्र 1943 शक – वैशाख 1943 शक [2021-04]",
+          "WenSymes  /  शक संवत: फाल्गुन 1946 शक – चैत्र 1947 शक [2025-03] — सहयोग जारी है",
+          "Centre for Content Creation  /  शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06] — वर्तमान",
+          "MegaInfinite  /  शक संवत: वैशाख 1940 शक – ज्येष्ठ 1940 शक [2018-05] — शक संवत: वैशाख 1942 शक – ज्येष्ठ 1942 शक [2020-05]",
+          "Centre for Content Creation  /  शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06] — वर्तमान",
+          "Centre for Content Creation  /  शक संवत: वैशाख 1938 शक – ज्येष्ठ 1938 शक [2016-05] — शक संवत: चैत्र 1939 शक – वैशाख 1939 शक [2017-04]",
+          "01 शक संवत: फाल्गुन 1946 शक – चैत्र 1947 शक [2025-03] — सहयोग जारी है",
+          "02 शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06] — वर्तमान",
+          "03 शक संवत: वैशाख 1941 शक – ज्येष्ठ 1941 शक [2019-05] — शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06]",
+          "04 शक संवत: ज्येष्ठ 1940 शक – आषाढ़ 1940 शक [2018-06] — वर्तमान",
+          "05 शक संवत: माघ 1939 शक – फाल्गुन 1939 शक [2018-02] — शक संवत: वैशाख 1940 शक – ज्येष्ठ 1940 शक [2018-05]",
+          "06 शक संवत: वैशाख 1938 शक – ज्येष्ठ 1938 शक [2016-05] — शक संवत: वैशाख 1939 शक – ज्येष्ठ 1939 शक [2017-05]"
+        ],
+        "projectDates": [
+          {
+            "id": "campus",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06] — वर्तमान"
+          },
+          {
+            "id": "meetings",
+            "sourceMonths": [
+              "2021-06"
+            ],
+            "display": "Centre for Content Creation / शक संवत: ज्येष्ठ 1943 शक – आषाढ़ 1943 शक [2021-06] — वर्तमान"
+          },
+          {
+            "id": "insurance",
+            "sourceMonths": [
+              "2019-04",
+              "2021-04"
+            ],
+            "display": "PolicyStreet / शक संवत: चैत्र 1941 शक – वैशाख 1941 शक [2019-04] — शक संवत: चैत्र 1943 शक – वैशाख 1943 शक [2021-04]"
+          },
+          {
+            "id": "wensymes",
+            "sourceMonths": [
+              "2025-03"
+            ],
+            "display": "WenSymes / शक संवत: फाल्गुन 1946 शक – चैत्र 1947 शक [2025-03] — सहयोग जारी है"
+          },
+          {
+            "id": "hr",
+            "sourceMonths": [
+              "2016-05",
+              "2017-04"
+            ],
+            "display": "Centre for Content Creation / शक संवत: वैशाख 1938 शक – ज्येष्ठ 1938 शक [2016-05] — शक संवत: चैत्र 1939 शक – वैशाख 1939 शक [2017-04]"
+          },
+          {
+            "id": "rental",
+            "sourceMonths": [
+              "2018-05",
+              "2020-05"
+            ],
+            "display": "MegaInfinite / शक संवत: वैशाख 1940 शक – ज्येष्ठ 1940 शक [2018-05] — शक संवत: वैशाख 1942 शक – ज्येष्ठ 1942 शक [2020-05]"
+          }
+        ],
+        "principalDate": "02 / शक संवत: 1942 शक – 1943 शक [2021]"
+      }
+    ],
+    "sourceHashes": {
+      "src/content.ts": "21199f650f7bf94be063a0fdc1cb673c139e970825111094ba741151d454b970",
+      "src/SystemDiagrams.tsx": "2d55c7c6f59134429b31a1ee0b0bf3e650fb58d9337131b0020787ebc2cd4ae1",
+      "src/i18n/formatting.ts": "7c00d10e505a003879d1c9f93d1e685fff304fa0ead32d836627e822e58fb342",
+      "scripts/i18n-qa.mjs": "aa0c6c932f1920671696d80a327bbb155a1f0137db27dedc511b3ad031fff1a2",
+      "docs/portfolio/PME-V1-DATE-AUDIT.json": "d34e86b9b64edee61a306db0503dccd73748e29e6983c24524ad8f060070dae4"
+    }
+  },
+  "historicalInitialAuditNote": "Top-level portfolioChanges, localization, qa and renderedDateEvidence describe the earlier local candidate. continuityFollowUp is the current authoritative state after subsequent owner clarifications.",
+  "educationConsolidation": {
+    "date": "2026-10-23",
+    "change": "Removed redundant Supporting established education applications card; its useful scope is already in the main Centre case. Historical 2016–2017 HRMS case remains distinct.",
+    "selectedWorkCards": 5,
+    "legacyLinks": "Client-side #case-meetings resolves to case-campus, opens its details and scrolls to the consolidated case; no new route or translated string added.",
+    "localization": {
+      "locales": 11,
+      "canonicalUnits": 1536,
+      "missing": 0,
+      "stale": 0,
+      "validationErrors": 0,
+      "retainedEditorialWarnings": 97,
+      "note": "Retired source strings remain in the add-only catalog history; no translations fabricated or validators bypassed."
+    },
+    "qa": {
+      "typecheck": "PASS",
+      "lint": "PASS",
+      "build": "PASS",
+      "testsPassed": 201,
+      "testsFailed": 0,
+      "staticRoutes": 108,
+      "staticIssues": [],
+      "staticCardChecks": "All eleven homepages have five cards and no duplicate case-meetings article.",
+      "fragmentPositionChecks": 40,
+      "fragmentViewportWidths": [
+        375,
+        1440
+      ],
+      "motionModes": [
+        "reduce",
+        "no-preference"
+      ],
+      "fragmentNote": "Updated legacy alias assertion and fixed stale cross-page selector to accept localized hrefs; final suite passes.",
+      "localeBrowserCounts": {
+        "layouts": 88,
+        "scenarios": 9,
+        "errors": 0,
+        "translationRequests": 0,
+        "missingSource": 0,
+        "datePeriods": 11,
+        "assistantChecks": 11
+      },
+      "entry": {
+        "path": "assets/index-C3NBoDI_.js",
+        "bytes": 214745,
+        "sha256": "a324c46f500c04f36682e2a6f4d3878f8c8ed35488753784f1a55c74c4d066bd",
+        "gzip": 65810
+      },
+      "entryBudget": 215000,
+      "rawBrowserReport": "output/playwright/education-consolidation/locales/results.json",
+      "rawFragmentLog": "output/playwright/education-consolidation/fragments-final.log",
+      "screenshot": "output/playwright/education-consolidation/selected-work.png"
+    },
+    "sourceHashes": {
+      "src/content.ts": "423a4b123b1244bb93343b6c15275e5944adb553548acc80a3124e581a52b3c5",
+      "src/useFragmentNavigation.ts": "012d902d5aa9679da7ecb78cf745e8e5c031ad1b91302f9bb3bb0f827dd8388d",
+      "src/SystemDiagrams.tsx": "b619bf32256e6f896ffe5e544ef03b75732034a68e540ae6719636ef01d1fade",
+      "scripts/fragment-qa.mjs": "e1500674ea5a1e4bfa15a79fd69eaf67c5932c1c9804b93c5830caeaaa319bd8",
+      "scripts/i18n-qa.mjs": "0ca0e9384ce123d56674296147b894239bc3e266cd1723d45f1255f42fe9417a"
+    },
+    "delivery": "Local, uncommitted, unpushed, not deployed."
+  },
+  "tmProposalAndHrmsDuration": {
+    "date": "2026-10-23",
+    "status": "COMPLETE locally; HRMS end synchronized in both Reactive Resume documents",
+    "authority": "Owner: HRMS development continued after departure and ended in December 2024; add missing CV proposal entry.",
+    "proposal": {
+      "title": "VOC Solution Proposal for TM",
+      "period": "Aug 2017 — Jan 2018",
+      "type": "Project proposal",
+      "scope": "Proposed multi-channel customer complaints and feedback analytics; no employment or implementation claim.",
+      "source": "https://rxresu.me/mwara95/curriculum-vitae"
+    },
+    "hrms": {
+      "period": "May 2016 — Dec 2024",
+      "firstEmployment": "May 2016 — May 2017",
+      "limit": "Development timeline, not an employment extension or assertion of continuous personal involvement.",
+      "rxresumeSavedBoth": true,
+      "publicCvVerified": "May 2016 – December 2024",
+      "shortResumeProjectStillHidden": true,
+      "proof": [
+        "output/playwright/tm-proposal/resume-hrms-end.png",
+        "output/playwright/tm-proposal/cv-hrms-end.png"
+      ]
+    },
+    "localization": {
+      "unitsPerLocale": 1543,
+      "newCanonicalUnits": 7,
+      "newTargetTranslations": 70,
+      "missing": 0,
+      "stale": 0,
+      "validationErrors": 0,
+      "retainedEditorialWarnings": 97,
+      "status": "Machine-translated with source hashes; fluent review pending",
+      "providerAttempt": "Unavailable explicit credentials/model; repository-permitted direct coding-assistant translation fallback recorded."
+    },
+    "qa": {
+      "typecheck": "PASS",
+      "lint": "PASS",
+      "build": "PASS",
+      "testsPassed": 201,
+      "testsFailed": 0,
+      "staticRoutes": 108,
+      "staticIssues": [],
+      "staticProposalAndDateChecks": "All eleven homepages match translated proposal title/type and exact locale-formatted proposal and HRMS periods.",
+      "localeBrowserCounts": {
+        "layouts": 88,
+        "scenarios": 9,
+        "errors": 0,
+        "translationRequests": 0,
+        "missingSource": 0,
+        "datePeriods": 11,
+        "assistantChecks": 11
+      },
+      "rawBrowserReport": "output/playwright/tm-proposal/locales/results.json",
+      "entry": {
+        "path": "assets/index-tgaX9M6h.js",
+        "bytes": 214762,
+        "sha256": "2848436d1bf70e3fd739bfb49e23f4bab7fa2d4f9581e171558aea296061c1c3",
+        "gzip": 65812
+      },
+      "entryBudget": 215000,
+      "budgetRaised": false,
+      "screenshot": "output/playwright/tm-proposal/tm-entry.png",
+      "limits": "Local checks; no new axe scans, fluent linguistic, screen-reader, physical-device or live portfolio deployment verification."
+    },
+    "sourceHashes": {
+      "src/content.ts": "a5283e39b5e80183db8b456a4a1ef4bf76126f657da3e408f5d4837b54e1b1dd",
+      "src/App.tsx": "3091fbe69a68b26b0dc433a3aca1d630d45e21cc71ec6d1dcd9d1281cbfffb22",
+      "scripts/i18n-qa.mjs": "73eaba97ed60be34da1922eb2cf0c48281dca91d4b01a0f2099f11dd5a8304d6",
+      "docs/portfolio/PME-V1-DATE-AUDIT.json": "57238878f1109b7727868854d45b56b71d536d335a54de5f652fb8c0b1770b40"
+    },
+    "delivery": "Portfolio local, uncommitted, unpushed; no deployment. External HRMS date corrections saved as recorded."
+  }
+}

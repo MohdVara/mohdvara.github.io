@@ -772,5 +772,259 @@
       "assistantChecks": 11
     },
     "deployment": "Not performed; no new live parity claim."
+  },
+  "timelineAlignmentV1": {
+    "date": "2026-10-23",
+    "sourceRevision": "00584e35e43b1b9761e7e19479d51d83d525dc3c",
+    "status": "Portfolio alignment complete locally; two hosted source-document corrections pending authenticated editing access.",
+    "evidence": "verification/portfolio-timeline-alignment-v1.json",
+    "unitsPerLocale": 1526,
+    "missing": 0,
+    "stale": 0,
+    "retainedEditorialWarnings": 97,
+    "qa": {
+      "commands": [
+        "npm run i18n:extract",
+        "npm run i18n:translate (provider attempt failed; fallback recorded)",
+        "npm run i18n:validate",
+        "npm run i18n:coverage -- --strict",
+        "npm run i18n:audit-dates",
+        "npm run typecheck",
+        "npm run lint",
+        "npm run build",
+        "npm test",
+        "node scripts/i18n-qa.mjs",
+        "node scripts/release-readiness-audit.mjs"
+      ],
+      "typecheck": "PASS",
+      "lint": "PASS",
+      "build": "PASS (existing compiler cache required escalation)",
+      "tests": {
+        "passed": 201,
+        "failed": 0,
+        "skipped": 0
+      },
+      "browser": {
+        "layouts": 88,
+        "scenarios": 9,
+        "assistantChecks": 11,
+        "localesWithVerifiedDates": 11,
+        "projectPeriodChecks": 66,
+        "careerNodeYearChecks": 11,
+        "pageErrors": 0,
+        "missingRenderedSource": 0,
+        "translationRequests": 0,
+        "rawReport": "output/playwright/timeline-alignment/locales/results.json"
+      },
+      "staticAudit": {
+        "routes": 108,
+        "issues": [],
+        "rawReport": "output/playwright/timeline-alignment/artifact/artifact.json"
+      },
+      "performance": {
+        "entry": {
+          "path": "assets/index-GTkXDpAm.js",
+          "bytes": 214945,
+          "sha256": "3b74795acda5960b13c828c1f01cd019a5015f1a276ffddf4f7f44f15219e485",
+          "gzip": 65853
+        },
+        "budgetBytes": 215000,
+        "budgetRaised": false
+      },
+      "limits": "Local Chrome automation, not fluent linguistic, screen-reader, physical-device or live-deployment verification. Existing large-chunk warning retained. Owner report trailing whitespace remains unchanged."
+    },
+    "continuityFollowUp": {
+      "date": "2026-10-23",
+      "status": "COMPLETE locally; source-document corrections saved in Reactive Resume",
+      "finalPeriods": {
+        "centreFirst": "May 2016 — May 2017",
+        "hrmsProject": "May 2016 — Apr 2017",
+        "cryptoika": "Feb 2018 — May 2018",
+        "megaInfiniteRole": "May 2018 — Apr 2020",
+        "rentalProject": "May 2018 — May 2020",
+        "policyStreetRole": "May 2019 — Jun 2021",
+        "centreReturn": "Jun 2021 — Present",
+        "principalSince": "Jun 2022",
+        "modernizationProjectSince": "Apr 2023"
+      },
+      "localization": {
+        "locales": 11,
+        "canonicalUnits": 1536,
+        "missing": 0,
+        "stale": 0,
+        "errors": 0,
+        "retainedEditorialWarnings": 97,
+        "machineTranslated": true,
+        "fluentReviewPending": true,
+        "alternateCalendarPolicy": "Preserve Gregorian YYYY-MM equivalents with source precision."
+      },
+      "qa": {
+        "typecheck": "PASS",
+        "lint": "PASS",
+        "build": "PASS",
+        "tests": {
+          "passed": 201,
+          "failed": 0,
+          "skipped": 0
+        },
+        "staticRoutes": 108,
+        "staticIssues": [],
+        "localeBrowserCounts": {
+          "layouts": 88,
+          "scenarios": 9,
+          "errors": 0,
+          "translationRequests": 0,
+          "missingSource": 0,
+          "datePeriods": 11,
+          "assistantChecks": 11
+        },
+        "rawBrowserReport": "output/playwright/centre-continuity/locales/results.json",
+        "entry": {
+          "path": "assets/index-B6x6if6J.js",
+          "bytes": 214948,
+          "sha256": "592a4437c23979dec028029ed9758f25a844e58cb5abc9f4b3da8c1394dcd89b",
+          "gzip": 65859
+        },
+        "entryBudget": 215000,
+        "budgetRaised": false,
+        "visualProof": "output/playwright/centre-continuity/portfolio-centre.png",
+        "limits": "No fresh axe scans, fluent review, screen-reader or physical-device certification; local preview is not deployment."
+      },
+      "evidence": "verification/portfolio-timeline-alignment-v1.json"
+    },
+    "educationConsolidation": {
+      "date": "2026-10-23",
+      "change": "Removed redundant Supporting established education applications card; its useful scope is already in the main Centre case. Historical 2016–2017 HRMS case remains distinct.",
+      "selectedWorkCards": 5,
+      "legacyLinks": "Client-side #case-meetings resolves to case-campus, opens its details and scrolls to the consolidated case; no new route or translated string added.",
+      "localization": {
+        "locales": 11,
+        "canonicalUnits": 1536,
+        "missing": 0,
+        "stale": 0,
+        "validationErrors": 0,
+        "retainedEditorialWarnings": 97,
+        "note": "Retired source strings remain in the add-only catalog history; no translations fabricated or validators bypassed."
+      },
+      "qa": {
+        "typecheck": "PASS",
+        "lint": "PASS",
+        "build": "PASS",
+        "testsPassed": 201,
+        "testsFailed": 0,
+        "staticRoutes": 108,
+        "staticIssues": [],
+        "staticCardChecks": "All eleven homepages have five cards and no duplicate case-meetings article.",
+        "fragmentPositionChecks": 40,
+        "fragmentViewportWidths": [
+          375,
+          1440
+        ],
+        "motionModes": [
+          "reduce",
+          "no-preference"
+        ],
+        "fragmentNote": "Updated legacy alias assertion and fixed stale cross-page selector to accept localized hrefs; final suite passes.",
+        "localeBrowserCounts": {
+          "layouts": 88,
+          "scenarios": 9,
+          "errors": 0,
+          "translationRequests": 0,
+          "missingSource": 0,
+          "datePeriods": 11,
+          "assistantChecks": 11
+        },
+        "entry": {
+          "path": "assets/index-C3NBoDI_.js",
+          "bytes": 214745,
+          "sha256": "a324c46f500c04f36682e2a6f4d3878f8c8ed35488753784f1a55c74c4d066bd",
+          "gzip": 65810
+        },
+        "entryBudget": 215000,
+        "rawBrowserReport": "output/playwright/education-consolidation/locales/results.json",
+        "rawFragmentLog": "output/playwright/education-consolidation/fragments-final.log",
+        "screenshot": "output/playwright/education-consolidation/selected-work.png"
+      },
+      "sourceHashes": {
+        "src/content.ts": "423a4b123b1244bb93343b6c15275e5944adb553548acc80a3124e581a52b3c5",
+        "src/useFragmentNavigation.ts": "012d902d5aa9679da7ecb78cf745e8e5c031ad1b91302f9bb3bb0f827dd8388d",
+        "src/SystemDiagrams.tsx": "b619bf32256e6f896ffe5e544ef03b75732034a68e540ae6719636ef01d1fade",
+        "scripts/fragment-qa.mjs": "e1500674ea5a1e4bfa15a79fd69eaf67c5932c1c9804b93c5830caeaaa319bd8",
+        "scripts/i18n-qa.mjs": "0ca0e9384ce123d56674296147b894239bc3e266cd1723d45f1255f42fe9417a"
+      },
+      "delivery": "Local, uncommitted, unpushed, not deployed."
+    },
+    "tmProposalAndHrmsDuration": {
+      "date": "2026-10-23",
+      "status": "COMPLETE locally; HRMS end synchronized in both Reactive Resume documents",
+      "authority": "Owner: HRMS development continued after departure and ended in December 2024; add missing CV proposal entry.",
+      "proposal": {
+        "title": "VOC Solution Proposal for TM",
+        "period": "Aug 2017 — Jan 2018",
+        "type": "Project proposal",
+        "scope": "Proposed multi-channel customer complaints and feedback analytics; no employment or implementation claim.",
+        "source": "https://rxresu.me/mwara95/curriculum-vitae"
+      },
+      "hrms": {
+        "period": "May 2016 — Dec 2024",
+        "firstEmployment": "May 2016 — May 2017",
+        "limit": "Development timeline, not an employment extension or assertion of continuous personal involvement.",
+        "rxresumeSavedBoth": true,
+        "publicCvVerified": "May 2016 – December 2024",
+        "shortResumeProjectStillHidden": true,
+        "proof": [
+          "output/playwright/tm-proposal/resume-hrms-end.png",
+          "output/playwright/tm-proposal/cv-hrms-end.png"
+        ]
+      },
+      "localization": {
+        "unitsPerLocale": 1543,
+        "newCanonicalUnits": 7,
+        "newTargetTranslations": 70,
+        "missing": 0,
+        "stale": 0,
+        "validationErrors": 0,
+        "retainedEditorialWarnings": 97,
+        "status": "Machine-translated with source hashes; fluent review pending",
+        "providerAttempt": "Unavailable explicit credentials/model; repository-permitted direct coding-assistant translation fallback recorded."
+      },
+      "qa": {
+        "typecheck": "PASS",
+        "lint": "PASS",
+        "build": "PASS",
+        "testsPassed": 201,
+        "testsFailed": 0,
+        "staticRoutes": 108,
+        "staticIssues": [],
+        "staticProposalAndDateChecks": "All eleven homepages match translated proposal title/type and exact locale-formatted proposal and HRMS periods.",
+        "localeBrowserCounts": {
+          "layouts": 88,
+          "scenarios": 9,
+          "errors": 0,
+          "translationRequests": 0,
+          "missingSource": 0,
+          "datePeriods": 11,
+          "assistantChecks": 11
+        },
+        "rawBrowserReport": "output/playwright/tm-proposal/locales/results.json",
+        "entry": {
+          "path": "assets/index-tgaX9M6h.js",
+          "bytes": 214762,
+          "sha256": "2848436d1bf70e3fd739bfb49e23f4bab7fa2d4f9581e171558aea296061c1c3",
+          "gzip": 65812
+        },
+        "entryBudget": 215000,
+        "budgetRaised": false,
+        "screenshot": "output/playwright/tm-proposal/tm-entry.png",
+        "limits": "Local checks; no new axe scans, fluent linguistic, screen-reader, physical-device or live portfolio deployment verification."
+      },
+      "sourceHashes": {
+        "src/content.ts": "a5283e39b5e80183db8b456a4a1ef4bf76126f657da3e408f5d4837b54e1b1dd",
+        "src/App.tsx": "3091fbe69a68b26b0dc433a3aca1d630d45e21cc71ec6d1dcd9d1281cbfffb22",
+        "scripts/i18n-qa.mjs": "73eaba97ed60be34da1922eb2cf0c48281dca91d4b01a0f2099f11dd5a8304d6",
+        "docs/portfolio/PME-V1-DATE-AUDIT.json": "57238878f1109b7727868854d45b56b71d536d335a54de5f652fb8c0b1770b40"
+      },
+      "delivery": "Portfolio local, uncommitted, unpushed; no deployment. External HRMS date corrections saved as recorded."
+    }
   }
 }

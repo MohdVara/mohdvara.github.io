@@ -77,3 +77,33 @@ Authority: the owner's “PACE v1.6 — Commercial Engineering Evidence Enhancem
 - **WenSymes:** design prioritized adaptability as employee roles, responsibilities, headcount and operational needs evolved. Clear responsibilities and appropriate HR information access are engineering considerations; a fully configurable RBAC or specific permission mechanism is not established. Principal Full Stack Developer and ongoing occasional collaboration wording are preserved.
 
 The existing project data, disclosures, diagrams, chronology, full-CV references and owner-confirmed technology inventory remain the presentation sources. No approved RAG document, answer, hash, approval or provenance record was rewritten. See [the v1.6 review and separate RAG change plan](PACE-V1.6-REVIEW.md).
+
+## Timeline alignment — owner resolution, 23 October 2026
+
+Fresh browser review of the current [two-page résumé](https://rxresu.me/mwara95/2-page-resume) and [full CV](https://rxresu.me/mwara95/curriculum-vitae) found two date disagreements. The owner resolved them in this session:
+
+- **Invisible Technologies:** May 2024–March 2025; the two-page résumé still says Present and needs correction. The full CV already has the confirmed end date.
+- **MegaInfinite freelance role:** May 2018–April 2020; the full CV still says April 2019 and needs correction. The two-page résumé already has the confirmed end date.
+- **Rental project:** May 2018–May 2020, separately confirmed by the owner. Its end is distinct from the freelance role’s April 2020 end.
+
+Other shared role/project dates agree. The site now exposes documented months for the six selected commercial projects, with role history kept separate. Principal responsibility at Centre begins **June 2022**, following the June 2021–June 2022 developer role; the career graphic’s principal node is corrected from 2021 to 2022. The owner-confirmed Engineer display title and WenSymes ongoing occasional collaboration wording remain authoritative over the source documents’ broader labels.
+
+The selected portfolio timeline intentionally does not repeat every CV role. Invisible Technologies is not newly added solely to resolve its source discrepancy. No missing résumé entry is treated as a date conflict, and no education dates or career-since-2013 claim are inferred from a document’s omissions. Reactive Resume pages were readable but no authenticated editing session was available; source-document corrections above are recorded, not claimed applied. Raw source captures remain ignored in `.qa/timeline-alignment/`.
+
+All eleven locales use the same canonical months with the existing locale/calendar formatter. Alternate calendars retain Gregorian month equivalents; no day precision is invented. See `docs/portfolio/TIMELINE_ALIGNMENT_V1.md` and the refreshed `PME-V1-DATE-AUDIT.json` for the reconciliation and verification boundary.
+
+### Centre continuity follow-up — owner confirmation, 23 October 2026
+
+The owner clarified that Centre work resumed **June 2021 immediately after PolicyStreet**, not April 2023. Before April 2023 the work involved developing the real-time online meeting/classroom system and maintaining/modernizing the existing HRMS. Principal responsibilities began June 2022; April 2023 is the education-platform modernization project's start only. The flagship card and selected-role timeline now show the complete June 2021–Present engagement and Full Stack Developer → Principal progression. The career graphic remains at 2021 for that engagement's start.
+
+The owner also confirmed a separate first Centre engagement **May 2016–May 2017**, leaving to continue degree studies in Singapore, and explicitly corrected the earlier HRMS project start to **May 2016** (end remains April 2017). These confirmations supersede the CV's formerly April 2016 employment/project start. Both Reactive Resume documents were updated and saved through their UI, including the short résumé's hidden historical entries; their existing visibility is preserved. The public full CV was checked for both corrected periods.
+
+Cryptoika is added to the selected-role list as Senior Software Engineer, **February–May 2018**, building the real-time cryptocurrency quotes dashboard. After the owner clarified that a recollected overlap concerned MegaInfinite rather than Centre, a discrepancy with the CV's months was raised; the owner instructed **“Follow the CV.”** Keep Cryptoika February–May 2018 and MegaInfinite from May 2018. Do not assert an independently confirmed 2–3 month overlap. This was roughly three months of work, not a new exact day-level duration.
+
+Subsequent authenticated access also resolved the previously recorded source-edit limitations: Invisible Technologies ends March 2025 in the two-page résumé, and MegaInfinite's freelance role ends April 2020 in the CV; the rental project remains through May 2020. These were saved and verified against the public documents in the preceding task. No approved PACE-RAG corpus, employer confidentiality scope, or unrelated professional facts were changed.
+
+### TM proposal and HRMS duration — owner clarification, 23 October 2026
+
+The owner clarified that HRMS development continued after the first Centre employment ended in May 2017, and explicitly confirmed **development ended in December 2024**. The project period is therefore **May 2016–December 2024**. This supersedes the former April 2017 project end; it does not extend the first employment tenure or establish continuous personal involvement throughout the entire project life. The portfolio summary explicitly distinguishes continuing development from leaving employment. Both Reactive Resume documents' HRMS project end was changed to December 2024 and saved; the public CV was verified. The short résumé keeps this historical project hidden as before.
+
+The missing **VOC Solution Proposal for TM** entry is added to the portfolio timeline for **August 2017–January 2018**, as listed under Projects in the current full CV. It describes a proposal for consolidated customer complaints/feedback analytics across channels to support decisions. It is labeled **Project proposal**, not an employment role or delivered production system. No client employment, contract award, implementation stack or measured outcome is inferred. The timeline introduction now says selected roles and project work, preserving the distinction.

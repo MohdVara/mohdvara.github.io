@@ -72,3 +72,15 @@ The existing `i18n:review` command changes status immediately; do not invoke it 
 Pending qualified review in all ten target locales: **19 canonical units / 190 new translations**. Exact English keys and source-to-evidence mapping are in `verification/portfolio-case-study-evolution-v1.json` (`claims`); localized values are in the corresponding catalogs. All retain machine provenance and current source hashes. This queue entry does not approve them.
 
 Prioritize glyph luminance, ink coverage, local gradients, anatomical limits, reconstruction versus illustration, nonmodal focus behavior, hydration, consent versus DNT/GPC suppression, and the distinction between local HTTP checks and live deployment. Check negation and scope carefully. The heading “Engineering the Visual Identity” and poetic “The Unmapped Path” also need natural editorial phrasing. Screenshot alt text and captions describe actual local captures and must preserve the separate light illustration / dark glyph distinction. Existing 97 validator warnings remain separately tracked; no new warning was suppressed.
+
+## Timeline alignment — 23 October 2026
+
+Six new canonical units / 60 target translations need fluent review: five month-precision periods and “Principal engineering”. Exact month boundaries follow the résumé/CV and owner resolution in `TIMELINE_ALIGNMENT_V1.md`. Preserve the distinct rental role end (April 2020) and project end (May 2020). Runtime dates use the existing registered-calendar formatter; the displayed alternate-calendar interval must retain its Gregorian `[YYYY-MM]` equivalent. The corrected principal career node is 2022, year-only. All entries retain machine provenance; no review approval is implied.
+
+### Centre continuity follow-up
+
+The owner superseded the education flagship's project-led period with the full June 2021–Present engagement and clarified the June 2022 principal progression, pre-April-2023 meeting/classroom development and existing HRMS maintenance/modernization. May 2016 is now the first Centre employment and earlier HRMS start. Cryptoika stays February–May 2018 per the CV, with no claim of 2–3 months' overlap. Review the two new career summaries, combined role label and historical month ranges across all ten target locales; current total 1,536 canonical units. Existing machine provenance and review requirements remain.
+
+### TM proposal and HRMS end-date clarification
+
+Review seven canonical units / 70 target translations: TM proposal name, type, scope and August 2017–January 2018 period; HRMS May 2016–December 2024 period and continued-development summary; timeline introduction including project work. Preserve proposal-versus-employment and development-versus-employment distinctions. December 2024 is owner-confirmed development completion, not an extension of the first Centre employment or proof of continuous personal involvement. Current canonical count 1,543; machine provenance and fluent-review requirement retained.
