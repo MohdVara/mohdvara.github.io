@@ -9591,6 +9591,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ar": {
@@ -19183,6 +19195,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ja": {
@@ -28775,6 +28799,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "zh-Hans": {
@@ -38367,6 +38403,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "es": {
@@ -47959,6 +48007,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "fr": {
@@ -57553,6 +57613,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "de": {
@@ -67145,6 +67217,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "pt-BR": {
@@ -76739,6 +76823,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "hi": {
@@ -86331,6 +86427,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ta": {
@@ -95923,6 +96031,18 @@
         "provider": "development-assistant",
         "model": "session-model-unspecified",
         "notes": "TM proposal/HRMS duration clarification, 23 October 2026; machine-authored, fluent review pending."
+      },
+      "Public source · locally verified · application deployment blocked": {
+        "status": "machine_translated",
+        "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Owner-reported delivery · public verification limited.": {
+        "status": "machine_translated",
+        "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     }
   }

@@ -179,7 +179,7 @@
   "for": [
     "src/App.tsx"
   ],
-  "Production status not independently verified.": [
+  "Owner-reported delivery · public verification limited.": [
     "src/App.tsx"
   ],
   "Discuss a similar problem": [
@@ -1936,7 +1936,7 @@
   "Legacy behavior → modern contracts": [
     "src/PublicEngineering.tsx"
   ],
-  "Locally verified · public release blocked": [
+  "Public source · locally verified · application deployment blocked": [
     "src/PublicEngineering.tsx",
     "src/caseStudies.ts"
   ],

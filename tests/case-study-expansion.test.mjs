@@ -45,7 +45,7 @@ test('six summaries disclose ownership, evidence, results and bounded statuses i
   const words=[item.name,item.problem,item.role,item.decision,item.result,item.status,item.focus].join(' ').split(/\s+/).length;
   assert.ok(words>=75 && words<=110,`${id}: ${words} words`);
  }
- assert.match(summaries['mmcats-modern'].status,/public release blocked/);
+ assert.match(summaries['mmcats-modern'].status,/Public source.*locally verified.*application deployment blocked/);
  assert.match(summaries.naae.status,/public studio pending/);
  assert.match(summaries.pace.focus,/English-only/);
 });
@@ -89,7 +89,7 @@ test('public HTML links never point at loopback servers or local files',async()=
 test('commercial quick reads retain approved contribution wording and disclose verification limits',async()=>{
  const html=await readFile('dist/en/index.html','utf8');
  for(const id of ['insurance','wensymes','campus','rental'])assert.match(html,new RegExp(`id="quick-commercial-${id}"`));
- assert.equal((html.match(/Production status not independently verified\./g)||[]).length,4);
+ assert.equal((html.match(/Owner-reported delivery · public verification limited\./g)||[]).length,4);
 });
 test('missing translated case-study text safely resolves to canonical English',async()=>{
  const context={exports:{}};

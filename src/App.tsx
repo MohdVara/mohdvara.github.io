@@ -309,7 +309,7 @@ function SelectedWork() {
                     role: project.role,
                     decision: project.details.find(([label]) => label === "Key Engineering Decision")![1],
                     result: project.result,
-                    status: "Production status not independently verified.",
+                    status: "Owner-reported delivery · public verification limited.",
                     focus: project.scope,
                     evidence: `#delivery-${project.id}`,
                   }} />}

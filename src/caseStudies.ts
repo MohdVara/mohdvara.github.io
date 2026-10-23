@@ -7,7 +7,7 @@ export const quickReads: Record<StudyId, QuickRead> = {
     role: "I directed the modernization, defined parity contracts and reviewed implementation and verification.",
     decision: "Use a Rails monolith with database constraints, explicit lifecycle events and private attachments.",
     result: "22 October 2026: 66 tests, 568 assertions, zero failures, errors or skips; local deployment regressions pass.",
-    status: "Locally verified · public release blocked",
+    status: "Public source · locally verified · application deployment blocked",
     focus: "Behavioral parity, authorization, auditability and recovery. Historical data was not migrated; security dispositions and provider acceptance remain pending.",
     evidence: "#verification",
   },
