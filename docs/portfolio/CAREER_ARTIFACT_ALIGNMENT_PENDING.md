@@ -2,6 +2,9 @@
 
 23 October 2026 · Asia/Kuching. English is canonical. Current public résumé/CV rendered text was read in Chrome during this task; raw captures remain ignored. No external document was edited. Approved chronology: [TIMELINE_ALIGNMENT_V1.md](TIMELINE_ALIGNMENT_V1.md), `verification/portfolio-timeline-alignment-v1.json`, and `docs/content-sources.md` (latest corrections supersede historical sections).
 
+
+24 October follow-up: authorized v1.2 edits have now been saved and publicly observed for the WenSymes qualifier/integrations, Centre title, summaries and selected production outcomes. See [the current field-level matrix and exact amendments](CAREER_ALIGNMENT_V1_2.md). The tables below preserve the 23 October audit snapshot; their external-edit-pending labels are historical for the fields actually applied. No exact WenSymes primary-engagement end or precise HRMS enhancement dates were invented.
+
 ## Confirmed and aligned
 
 | Employer / work | Canonical period and engagement | Résumé / full CV comparison | Disposition |

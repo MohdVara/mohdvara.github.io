@@ -1,0 +1,7 @@
+{
+  "status": "AWAITING_REAL_RESPONSES",
+  "preparedOn": "2026-10-24",
+  "responses": [],
+  "recordFields": ["anonymousReviewId", "reviewDate", "reviewerCategory", "perspective", "consentToRetain", "consentToQuote", "retentionUntil", "reviewedUrl", "reviewedVersion", "exercise", "timeLimitFollowed", "observation", "category", "severity", "authorizedQuotation", "proposedCorrection", "actionTaken", "validationStatus"],
+  "privacy": "Keep actual responses in a private working copy. Never commit raw identifying or confidential material. Null means unknown, not consent."
+}
