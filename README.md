@@ -1,14 +1,56 @@
-# Mohd. Paramasvara — engineering portfolio
+<a href="https://mohd.paramasvara.online/en/">
+  <img src="public/og-image.png" alt="Mohd. Paramasvara — Principal Full-Stack Engineer. Technical leadership, software architecture and systems modernization." width="1200" />
+</a>
 
-React + TypeScript + Vite, deployable as a static site to GitHub Pages or Cloudflare Pages. The production domain is **https://mohd.paramasvara.online/**. The repository is a user site (`MohdVara/mohdvara.github.io`), so the Vite base is `/` for github.io, Cloudflare's pages.dev subdomain and the existing custom domain.
+# Engineering with context. Evidence behind the decisions.
 
-## Development and validation
+The source behind **[Mohd. Paramasvara’s engineering portfolio](https://mohd.paramasvara.online/en/)** — professional delivery, independent engineering case studies and interactive experiments, shaped by a Borneo-inspired visual identity.
 
-Use a supported Node LTS version (Node 22.13+ or Node 24+) and npm.
+[![Portfolio CI](https://github.com/MohdVara/mohdvara.github.io/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/MohdVara/mohdvara.github.io/actions/workflows/pages.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-b08b45?style=flat)](LICENSE)
+
+**[Visit the portfolio ↗](https://mohd.paramasvara.online/en/)** · [Professional work](https://mohd.paramasvara.online/en/#work) · [Work with me](https://mohd.paramasvara.online/en/work-with-me/) · [Résumé](https://rxresu.me/mwara95/2-page-resume) · [Contact](https://mohd.paramasvara.online/en/#contact)
+
+## Start with the work
+
+The portfolio connects problems, ownership and engineering decisions to the available evidence. Commercial case studies cover insurance quotation workflows, education-system modernization and HRMS integrations. Independent projects offer a closer look at source, architecture and verification.
+
+| Case study | What to explore |
+| --- | --- |
+| **[MMCATS Modern](https://mohd.paramasvara.online/en/mmcats-modern/)** | Behavioral parity during Rails modernization: lifecycle contracts, authorization, private files and recovery. |
+| **[PACE-RAG](https://mohd.paramasvara.online/en/pace-rag-case-study/)** | Cited cached answers, supported technology lookups and deliberate abstention. Start with a real source-bound example; live generative inference is disabled. |
+| **[NAAE](https://mohd.paramasvara.online/en/naae/)** | Saved artwork comparisons, rendering architecture and reproducible configurations, with experimental boundaries made explicit. |
+| **[No Two Mondays](https://mohd.paramasvara.online/en/no-two-mondays/)** | Simulation, presentation and persistence boundaries; save compatibility, bounded verification and a deeper historical archive. |
+| **[Multilingual engineering](https://mohd.paramasvara.online/en/multilingual-engineering/)** | Eleven locales, RTL layout, optional vertical typography, source provenance and equivalent English access. |
+
+For an interactive detour, [Incident Zero](https://mohd.paramasvara.online/en/incident-zero/) turns a fictional systems incident into an engineering investigation.
+
+This repository contains the **portfolio implementation**. Linked applications have their own repositories and release boundaries; local checks and owner-reported delivery are distinguished from independent production acceptance.
+
+## Built to be read, then explored
+
+- **Content before enhancement.** React pages are prerendered to static HTML, then hydrated. Core copy, links and native disclosures remain usable without JavaScript.
+- **Eleven locales.** English is canonical; machine-translated pages disclose their provenance and link directly to the equivalent original. Arabic RTL, Tamil and optional Japanese/Chinese vertical typography are supported. Professional assistant conversations remain English-only.
+- **A considered visual system.** Botanical branching, ASCII scenery, restrained gold accents and light/dark palettes reflect the portfolio’s Borneo identity. Reduced-motion preferences retain a complete static experience.
+- **Optional work stays optional.** Case routes, games and the assistant load separately. Pointer/parallax enhancement loads on input; analytics requires explicit consent and respects DNT/GPC.
+- **Inspectable delivery.** CI checks types, lint, production output, localization, tests, artwork and static routes. The footer links each build to its source commit.
+
+**Stack:** React · TypeScript · Vite · i18next · CSS/SVG · Cloudflare Pages. Phaser powers the separately loaded interactive stories.
+
+## Run locally
+
+Use **Node 22.13+ on the Node 22 line** selected by [`.nvmrc`](.nvmrc), or a supported newer Node version meeting Vite’s requirements, and npm.
 
 ```sh
+git clone https://github.com/MohdVara/mohdvara.github.io.git
+cd mohdvara.github.io
 npm ci
 npm run dev
+```
+
+For a production preview and validation:
+
+```sh
 npm run typecheck
 npm run lint
 npm run build
@@ -16,302 +58,29 @@ npm test
 npm run preview
 ```
 
-`npm test` inspects the production artifact; run the build first. It checks static content, heading/fragment integrity, asset existence and size budgets, schema and custom-domain consistency. The build generates readable HTML from the same React components and hydrates it in the browser; no server runs in production. Content and native disclosures remain usable without JavaScript.
+Build before testing: the test suite inspects the generated production artifact. Optional analytics and authoring credentials are documented in [`.env.example`](.env.example); they are not required to browse the local portfolio.
 
-## PACE-RAG
+## Find your way around
 
-**PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.** PACE denotes Portfolio, Assistant, Cited and Evidence. This is the official expansion going forward, not a claim about the historical naming origin.
-
-The homepage keeps the PACE-RAG short name and links to `/pace-rag-case-study/`. This implementation primarily uses reviewed cached answers, deterministic technology composition and local retrieval with supporting citations. Live generative inference is currently disabled; RAG describes the architectural approach and direction, not a generative-model call on every query. The familiar PACE/BAA visual identity, repositories, packages, domains and routes retain their existing names.
-
-## PostHog analytics
-
-Copy `.env.example` to `.env.local` and set `VITE_POSTHOG_PROJECT_TOKEN` to the portfolio's public project token from PostHog Project settings. Set `VITE_POSTHOG_HOST` to its US or EU ingestion host. Never use a personal API key: Vite embeds these values in public browser code.
-
-Usage analytics is **off by default**. Visitors may explicitly enable or withdraw it in **Display → Usage analytics**. The SDK is not requested before opt-in. Consent is remembered locally; analytics identifiers use tab-scoped session storage only after permission. Withdrawal stops named listeners/observers and opts out the SDK; cross-tab withdrawal and storage clearing resync preferences. Blocked storage defaults off, with explicit choices usable in memory for the current page.
-
-Even with permission, analytics loads only in production on `mohd.paramasvara.online`. Localhost, preview domains, automated browsers, Do Not Track and Global Privacy Control visitors are excluded. An empty token disables analytics. SDK failures do not block the site. No identification calls, recordings, form contents or gameplay action streams are collected. This technical choice control is not a jurisdiction-specific legal certification.
-
-After permission, page views and page leaves are collected alongside `section_viewed`, `case_study_opened`, `booking_clicked`, `resume_clicked`, `full_cv_clicked`, `email_clicked`, `email_copy_clicked`, `engagement_page_clicked`, `incident_zero_clicked`, `system_defence_clicked`, `ntm_case_study_clicked` and `external_project_clicked`. Incident entry clicks distinguish play and preview through an allowlisted mode property. Automatic click/form capture is disabled, and URL/referrer properties that can include arbitrary query strings are excluded. Custom events include the page path and section placement or case ID. Email copy measures the click; booking measures the outbound click, not a completed booking. Filter by `site = mohd_portfolio` and `environment = production` in PostHog. Start with a page-view → case-study → booking funnel, and compare résumé and engagement-page clicks by landing page.
-
-Session recording is disabled, including when the legacy `VITE_POSTHOG_SESSION_REPLAY` environment variable is set. Re-enabling it requires a separate privacy/consent review and a deliberate implementation change. No gameplay action stream or form content is recorded by this portfolio adapter.
-
-For GitHub Actions, configure repository **Settings → Secrets and variables → Actions → Variables** with `VITE_POSTHOG_PROJECT_TOKEN` and `VITE_POSTHOG_HOST`; the CI build step reads them. For Cloudflare Git builds, add them to the production build environment variables. For CLI deployment, `.env.local` supplies the values. Changing values requires rebuilding and deploying. Verify in PostHog Activity after an explicitly opted-in production visit without DNT/GPC; check the named events by opening a case study and following a résumé or booking link.
-
-Configuration follows the [PostHog JavaScript SDK documentation](https://posthog.com/docs/libraries/js/config).
-
-## Color themes
-
-The header’s theme selector offers **System** (default, follows the device’s color preference), **Time of day** (light from 07:00 to 18:59, dark otherwise, using the visitor’s local clock), **Light**, and **Dark**. Choices are remembered locally and synced across tabs. Automatic modes update while the page is open and when visitors return to it. If browser storage is unavailable, the choice still works for the current page.
-
-`public/theme.js` applies the theme before the page renders to avoid a flash of the wrong palette. Without JavaScript, the CSS follows the device’s preference; manual selection requires JavaScript.
-
-## Motion and interaction
-
-Native case-study disclosures share one exclusive group, with a fallback for older browsers. Their engineering copy and stack remain sourced from `src/content.ts`. The project panels use varied arrangements of documented functions rather than claiming implementation topology.
-
-Desktop portrait depth is capped at 8px, with the background network reaching 16px; mobile and reduced-motion users receive a stable portrait. A shared IntersectionObserver reveal enhances major visual groups once, with all prerendered content visible before JavaScript. Navigation tracks the reading position, including Contact at the page bottom. Experience synchronizes a branching career path with the role being read, without dimming role text. Email copying has inline success or failure feedback and retains the mailto link.
-
-`src/usePortfolioMotion.ts` owns reveal/reading observers and one passive, requestAnimationFrame-throttled scroll controller. It caches layout geometry after resize or disclosure changes and updates nearby regions through CSS variables; there is no perpetual JavaScript animation loop or per-frame React state. Effects clean up observers, listeners, and animation frames. Motion uses native APIs with no added runtime dependencies.
-
-## Borneo visual identity
-
-The Borneo Systems visual language combines flow, branching and botanical structure. `src/NaturalGraphics.tsx` holds the decorative fern, portrait understory, river transition and Contact convergence. `src/SystemDiagrams.tsx` holds interactive project workflows, a twelve-node capability map and chronological role-start links. The graphics describe documented functions and overlapping engagements; they do not assert infrastructure topology or depict a botanical specimen or geographic map.
-
-Project and capability nodes support hover previews, keyboard focus and persistent click/tap selection. Their explanations use the existing content sources. Career nodes link to the corresponding role; the current reading position receives gold emphasis. About retains the approved fern with field-plate leader lines, numbering and ticks. The existing portrait mask and lower-left understory remain.
-
-Motion now combines long ambient cycles with reversible section progress. Hero, transition, About and Contact use predetermined 43–59 second alternating translations; the capability spine has a smaller 53-second drift. About annotations form a second restrained layer. Only the most relevant visible project can emit a faint signal, with a 12-second interval (15 on mobile); interaction receives a stronger single pass. Offscreen regions and hidden documents pause ambient animations.
-
-Project connectors reveal once on row entry, and About veins draw once over 1.1 seconds. Experience activates its path as roles cross the 40–50% viewport reading band. Contact outer branches, merge, main line and endpoint activate through four scroll stages; the range is calibrated to the reachable email/CTA position, including the page bottom. Reversing scroll reverses progress. The regional graphics share `--section-progress`, `--section-energy` and bounded depth variables instead of a new global overlay.
-
-Desktop pointer response remains restricted to the hero backdrop, capped at 3px. Mobile reduces displacement/layers and omits pointer response. Reduced motion immediately shows complete static vectors and retains functional selections, disclosure and navigation. CSS/SVG/native observers provide these effects with no new runtime dependencies. See `docs/ambient-motion-validation.md` for measured QA and limitations.
-
-## Editing
-
-- `src/content.ts`: sourced roles, case studies, capabilities and public contact/profile links.
-- `src/App.tsx`: focused section components and native mobile/disclosure interactions.
-- `src/EngagementContent.ts`, `src/WhatISolve.tsx`, `src/WorkWithMe.tsx`: shared problem framing, compact homepage translation and the secondary engagement page.
-- `src/Page.tsx`: selects the homepage or Work With Me component for hydration and static rendering; navigation uses normal links.
-- `src/index.css` and `src/App.css`: palette, typography, responsive layout and reduced motion.
-- `index.html`: metadata, canonical and Person/WebSite structured data.
-- `public`: optimized original portrait, favicon, social card, CNAME, robots and sitemap.
-- `scripts/prerender.mjs`: static rendering during the build.
-- `docs/content-sources.md`: source facts and conflicts resolved in favor of the owner-supplied résumé.
-- `docs/audit.md`: original section decisions and design rationale.
-- `archive/template`: original template, starter assets and unused vendor code retained for reference, excluded from the shipped site.
-
-Do not add fictional metrics, sample employers or unverified project stacks. Current case panels summarize real functions and do not claim to be product screenshots. Update metadata and sitemap together if the domain changes. The social card is 1200 × 630 pixels; keep it aligned with current positioning.
-
-## Repository CI
-
-[`.github/workflows/pages.yml`](.github/workflows/pages.yml) is **CI-only** despite its historical filename. Pushes to `main`, pull requests and manual runs install locked dependencies, type-check, lint, build, validate localization and strict coverage, run tests, audit dates/artwork and audit static routes. Actions remain pinned; the workflow has read-only repository permissions and no Pages artifact or deployment job.
-
-Cloudflare Pages is the production deployment mechanism. Its existing Git integration is independent of GitHub Actions. A green CI run does not prove a Cloudflare deployment or artifact parity. Historical GitHub Pages deployment failures do not describe Cloudflare health. The legacy manual `npm run deploy` command targets GitHub Pages; it is not part of CI or the production procedure.
-
-## Cloudflare Pages
-
-Production uses the prerendered `dist` output. `wrangler.toml` declares the Pages project name (`mohdvara-portfolio`) and output directory; change the name if your project has a different name. No Worker or Pages Functions are required.
-
-### Deploy from GitHub
-
-In Cloudflare's **Workers & Pages**, create a **Pages** project and connect this repository. Use these settings:
-
-| Setting | Value |
+| Area | Entry point |
 | --- | --- |
-| Project name | `mohdvara-portfolio` (match `wrangler.toml`) |
-| Production branch | `main` |
-| Framework preset | None |
-| Root directory | Repository root (leave blank) |
-| Build command | `npm run build` |
-| Build output directory | `dist` |
-| Build system | v3 |
+| Professional content and source record | [`src/content.ts`](src/content.ts) · [content sources](docs/content-sources.md) |
+| Page selection and static rendering | [`src/Page.tsx`](src/Page.tsx) · [`scripts/prerender.mjs`](scripts/prerender.mjs) |
+| Independent case studies | [`src/caseStudies.ts`](src/caseStudies.ts) · [`src/EngineeringCaseStudy.tsx`](src/EngineeringCaseStudy.tsx) |
+| Languages and editorial rules | [`src/i18n/languages.json`](src/i18n/languages.json) · [`AGENTS.md`](AGENTS.md) |
+| Public assets and publication inventory | [`scripts/public-assets.json`](scripts/public-assets.json) · [asset hygiene](docs/DEVELOPMENT.md#public-assets) |
+| Verification and recent implementation evidence | [`tests/`](tests/) · [`verification/`](verification/) · [PALDA v1.3](docs/portfolio/PALDA_V1_3.md) |
 
-Cloudflare installs dependencies before building. The checked-in `.nvmrc` selects Node 22; use its latest patch release, which meets Vite's Node requirement. Pushes to `main` deploy production, and other branches can produce preview deployments. Do not use `npm run deploy` as the Cloudflare build command: that command publishes to GitHub Pages.
+**[Development guide](docs/DEVELOPMENT.md)** covers configuration, localization, validation, privacy and hosting. [Earlier implementation notes](docs/reference/README_IMPLEMENTATION_HISTORY.md) preserve the detailed project history without making it the repository’s introduction.
 
-### Deploy from your computer
+## Delivery and reuse
 
-For a CLI upload, install dependencies and sign in to your Cloudflare account:
+Production is hosted on **Cloudflare Pages** from the prerendered `dist` directory. [Portfolio CI](.github/workflows/pages.yml) validates the repository; it does not deploy to GitHub Pages. CI status and deployment identity are separate observations.
 
-```sh
-npm ci
-npx wrangler@4 login
-npm run deploy:cloudflare
-```
+The repository is [MIT licensed](LICENSE). Retain the accompanying notices for bundled fonts, artwork dependencies and vendored packages. If adapting the site, replace personal identity, career evidence and contact destinations with your own verified material.
 
-The npm predeploy hook builds the site first, then Wrangler uploads `dist` using `wrangler.toml`. The first invocation downloads Wrangler 4 through npx; it is not a production dependency. If the Pages project does not exist, Wrangler prompts to create it; select `main` as its production branch. To target a differently named existing project without editing the file:
+---
 
-```sh
-npm run deploy:cloudflare -- --project-name your-project-name --branch main
-```
+**Based in Borneo. Building beyond it.**
 
-For automatic GitHub builds, create the project with Git integration from the start. Cloudflare does not support converting a Direct Upload project to Git integration later.
-
-### Custom domain
-
-After verifying the pages.dev deployment, add `mohd.paramasvara.online` under the Pages project's **Custom domains** and follow Cloudflare's DNS setup instructions. `public/CNAME` supports GitHub Pages only; it does not configure a Cloudflare custom domain. Canonical URLs, structured data, social-image URLs, robots and sitemap continue to use the production domain. If you choose a new production domain, update those files together.
-
-References: [Pages build configuration](https://developers.cloudflare.com/pages/configuration/build-configuration/), [build image and Node selection](https://developers.cloudflare.com/pages/configuration/build-image/), [Wrangler configuration](https://developers.cloudflare.com/pages/functions/wrangler-configuration/), [Direct Upload](https://developers.cloudflare.com/pages/get-started/direct-upload/), and [custom domains](https://developers.cloudflare.com/pages/configuration/custom-domains/).
-
-## Optional browser QA
-
-Browser/accessibility/performance tools are intentionally outside the project dependency graph. With Google Chrome installed:
-
-```sh
-npm install --prefix /tmp/portfolio-qa --no-save playwright @axe-core/playwright lighthouse
-npm run preview -- --host 127.0.0.1 --port 4173
-# In another terminal:
-QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/portfolio-results node scripts/browser-qa.mjs
-QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/portfolio-results node scripts/systems-qa.mjs
-QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/portfolio-results node scripts/motion-qa.mjs
-```
-
-The script checks 320, 375, 430, 768, 1024, 1440 and 1920px; keyboard navigation, exclusive disclosures, copy-email confirmation, menu close/Escape, anchors and refresh; console and resources; axe WCAG A/AA checks; and a no-JavaScript page. Artifacts are written to `QA_OUTPUT_DIR` (ignored `.qa/` by default). Set `QA_URL` to test another local production preview. The systems suite also checks every project/capability selection, stable diagram dimensions, career links, pointer/scroll bounds, offscreen ambient pause, completed scroll convergence, reduced motion changes, and touch selection. The motion suite checks progressive/reverse paths, slow/fast native scroll, a 30-second idle interval, one occasional signal, frame cadence and visibility-event pause/resume. Automated checks complement visual inspection, not WCAG certification.
-
-## References used
-
-- [Vite static deployment](https://vite.dev/guide/static-deploy.html)
-- [React hydration](https://react.dev/reference/react-dom/client/hydrateRoot)
-- [MDN native details disclosures](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details)
-- [WCAG 2.2 reference](https://www.w3.org/WAI/WCAG22/quickref/)
-- [web.dev LCP optimization](https://web.dev/articles/optimize-lcp)
-- [Google profile structured data](https://developers.google.com/search/docs/appearance/structured-data/profile-page)
-
-Earlier validation is documented in `docs/validation.md`; those results describe the earlier revision. For the polish pass, the owner-linked Frontend App Builder, Frontend Testing & Debugging, and React Best Practices instructions were read and applied selectively to the existing design. Browser QA used Playwright with Chrome because the Browser plugin was unavailable.
-
-## Curated public GitHub evidence
-
-`PublicEngineering` adds two inspectable source examples after Selected Work. It uses the existing editorial palette, thin branching dividers and shared once-only reveal; it does not add a new motion controller, interactive graph or header navigation item. The existing Work navigation indicator also covers this subsection. Repository details and source links remain visible without hover or JavaScript.
-
-Verified without authentication on **7 October 2026**:
-
-- [nodejs-hotel-problem](https://github.com/MohdVara/nodejs-hotel-problem): public, non-fork, non-archived. Its README, `src/controllers/ApiController.js` and `test/test.js` support the interview-experiment label, occupancy rules, reusable constraint parser and valid/rejected request tests. This is not presented as a production service or a current dependency recommendation.
-- [mohdvara.github.io](https://github.com/MohdVara/mohdvara.github.io): public, non-fork, non-archived. Explicitly included as a meta/example: its public README/package/source document React, TypeScript, Vite, prerendering, native disclosures, themes and production-artifact checks. The claims describe publicly inspectable features rather than unpublished local additions.
-- [MohdVara profile](https://github.com/MohdVara): the final “View more public work” destination. All three displayed destinations returned HTTP 200 without authentication.
-
-Two entries were chosen instead of padding to three. Public discovery inspected both repository-list pages and author PR search. Unmodified forks were excluded; Sanity/Gatsby starters, the Next.js comments demo and `starter-template-check` do not establish original engineering depth. `continuous-integration-travis` and its small PRs are learning material, not sufficient evidence for a contributions area. The old site and résumé repository are not code evidence. The hostel presentation README explicitly describes unmaintained, non-production code; the house-sale student project, scaffolded Edulo README and practice-derived Ruby server were not selected. No private repositories or authenticated history were queried, so no private item names are recorded. No “open-source contributions” claim is made.
-
-### Build data and fallback
-
-Every `npm run build` first runs `scripts/public-github.mjs`, including Cloudflare Pages builds that use that command. `npm run refresh:github` can refresh the snapshot separately. No remote hosting configuration was changed.
-
-- `scripts/public-github-curation.mjs` is the small explicit editorial allowlist. New items require source review; metadata discovery never automatically adds repositories.
-- The fetcher calls only `https://api.github.com/repos/MohdVara/<allowlisted-name>`, unauthenticated, with an eight-second timeout. It requires `private === false`, `visibility === 'public'`, exact owner/name/URL, non-fork, non-archived and non-empty metadata. The portfolio is a deliberate exception to the portfolio exclusion rule.
-- Only minimal normalized fields are written to `src/data/public-github.json`: editorial copy, technologies, primary language, public URL and verification timestamp. No raw API payloads, code, commit history, stars/forks or credentials are stored. API descriptions do not override reviewed copy.
-- Network/server/rate-limit failures may reuse a previously verified, exact-URL allowlisted snapshot for up to 30 days. Its timestamp is not extended. Without a valid snapshot, the item is omitted and the profile CTA remains. This is a prior public verification, not a claim of a fresh check during an outage.
-- Private/fork/archive/empty responses and explicit access failures (including ordinary 403/404) omit the item immediately, even when cached. An unauthenticated API cannot distinguish a removed repository from one made private; both are omitted.
-- No token is required or supported. There is no `VITE_GITHUB_TOKEN`, authentication header, GitHub SDK, browser fetch or polling. TLS certificate verification is enabled even if the execution environment supplied a disabled verification setting.
-
-The checked-in snapshot keeps development/prerendering functional offline. Refresh and review it before publishing; the generator updates it during the build. A change in visibility can only be detected at a successful build-time verification, so the deployed static site must be rebuilt to update links. No private content is retrieved or serialized.
-
-### Public engineering QA
-
-`tests/public-github.test.mjs` exercises visibility/identity filtering, forks/archives/empty repositories, normalized missing metadata, no authentication, outage fallback, expiry, wrong URLs, explicit access failures and rate limiting.
-
-```sh
-QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/portfolio-public-github-qa node scripts/public-github-qa.mjs
-```
-
-The focused browser suite checks seven widths in both palettes, keyboard focus, 44px link targets, touch popup behavior, external-link semantics, oversized names/descriptions, no runtime GitHub API calls, axe A/AA checks and static no-JavaScript rendering. External destination availability is checked separately without authentication; the touch navigation check intercepts the destination to isolate popup behavior.
-
-Validated locally on 7 October 2026: build, TypeScript, lint and all 15 tests passed. The focused Chrome suite passed all 14 viewport/theme cases (320, 375, 430, 768, 1024, 1440 and 1920px, light/dark), with zero detected axe violations, console errors, oversized-content overflow or runtime GitHub API requests. Touch popup and no-JavaScript checks passed. Desktop dark and mobile light screenshots were inspected. Missing API descriptions/languages and low/no stars are handled by reviewed editorial copy and omitted counters; normalization tests cover absent metadata. Archived/fork/access/failure cases were tested with mocked API responses rather than querying private repositories.
-
-Bundle comparison against the preceding local motion pass: JavaScript 179,379 → 182,311 raw bytes and 56,956 → 57,730 Node-gzip bytes; CSS 37,898 → 39,576 raw bytes and 8,069 → 8,328 gzip bytes. Combined gzip growth is **1,033 bytes**. No runtime dependency was added. Lighthouse and field Web Vitals were not remeasured for this integration. Artifacts are in `/private/tmp/portfolio-public-github-qa/`; no commit or deployment was performed.
-
-The existing full-site Chrome regression also passed all seven widths: native navigation/deep-link refresh, keyboard, exclusive disclosures, email copy, responsive themes, resources and no-JavaScript content. No overflow, console errors or failed resources were detected. Axe reported zero detected violations; some full-site color-contrast checks remained incomplete and require manual review. Physical devices and Safari/Firefox were not tested for this integration.
-
-## Conversion and content hierarchy polish
-
-The 7 October 2026 polish keeps engineering credibility first: Hero retains **Explore my work** as primary and **View résumé** as secondary, with LinkedIn/GitHub as text links. Contact now uses **Book a conversation**, with direct email and quieter professional links. The Cal.com destination stays `https://cal.com/mohd-paramasvara/discovery`; its public configuration currently defaults to 30 minutes, with 60/90-minute options. No 20-minute promise is made and no provider setting was changed. A 20-minute introductory format would require updating the event in Cal.com. Public booking fields indicate name/email, optional notes and a hidden optional phone field; the portfolio adds no form, account requirement or provider embed.
-
-Selected Work uses **View engineering details** and retains native inline expansion. One contextual **Discuss a similar problem** link appears inside the insurance case study. Public Engineering explains its verifiable domain-rule/test/frontend signals and retains the two reviewed public repositories. External professional CTAs now consistently use normal anchors with new-tab notices and `noopener noreferrer`.
-
-Experience descriptions prioritize ownership and scope. Shared 01–04 references connect career-path nodes with role entries; the active path node has an accessible current-location indicator. Four always-visible capability summaries make the disciplines understandable before interaction, while existing practice exploration remains available. About explains domain rules, data and delivery rather than repeating sectors from the résumé; illustration opacity increased from .35 to .39 (about 11%). The completed desktop Contact route is aligned toward the conversation action.
-
-At the owner's follow-up request, two lightweight code-native header SVGs fill the open areas beside Selected Work and Public Engineering. They combine branching paths, leaf-vein forms and restrained system nodes, using existing gold/theme values. They are decorative, non-interactive and static; mobile retains a compact simplified route without the secondary leaf branches. No library, raster asset, new animation loop or extra scroll listener was added.
-
-Title, metadata and the 1200×630 social image were reviewed and already communicate Principal Full-Stack Engineer, technical leadership and architecture. At that historical checkpoint analytics had not yet been added. Current PostHog configuration is documented above. No uncertain availability, testimonials, metrics or client proof was added.
-
-Validation includes build, TypeScript, lint, 15 tests; seven-width Chrome regression in both palettes; a 14-case simulated recruiter/CTO/consulting journey suite (`scripts/conversion-qa.mjs`); keyboard focus, touch résumé/scheduling popups, direct email and no-JavaScript conversion links; all career anchors and capability selections with stable selection dimensions. A five-second Hero and thirty-second six-section walkthrough were captured for heuristic visual review, not measured user-comprehension research. Public source, profile, LinkedIn, résumé and scheduling destinations returned HTTP 200 without authentication; both surfaced GitHub repositories again reported `visibility: public` and `private: false`.
-
-Repeat the focused journey checks with:
-
-```sh
-QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/portfolio-conversion-qa node scripts/conversion-qa.mjs
-```
-
-Artifacts are in `/private/tmp/portfolio-conversion-qa/` and `/private/tmp/section-graphics-*.png`. No new runtime dependency, deployment or commit was added. Lighthouse/field Web Vitals were not remeasured for this polish.
-
-Final SVG placement was checked at all seven widths in light/dark, with desktop/tablet/mobile screenshots inspected. Compact mobile routes occupy the existing header padding and do not add section height. The final whole-page regression detected no overflow, console errors or failed resources and zero axe violations; some full-site color-contrast checks remained incomplete. The graphics are `aria-hidden`, unfocusable and use `pointer-events: none`. Physical-device and Safari/Firefox testing was not performed.
-
-The subsequent SVG consistency refinement applies the shared header treatment to Selected Work, Public Engineering, Experience and Capabilities. All four use the same 170px desktop illustration frame, placement, stroke, theme opacity and compact mobile treatment; the Public Engineering-only vertical offset was removed. Short desktop headers reserve room for the illustration so it cannot spill into the content. Hero, About, career, capability and Contact graphics retain their section-specific roles. Chrome checks at seven widths in both themes found no header text/SVG overlap or horizontal overflow; build, TypeScript and lint passed.
-
-## High-value conversation pathways
-
-The homepage retains the Principal Engineer hero and its work/résumé hierarchy. Four thin **What I Solve** rows follow Technical Capabilities, linking to `/work-with-me/`. That secondary page covers four system problems, relevant case-study/public-work links, three possible engagement models and a single primary booking action with direct email. It shares the existing typography, themes, decorative graphics and motion. Static rendering emits `dist/work-with-me/index.html` with distinct metadata, canonical, WebPage schema and sitemap entry; no SPA fallback or router package is needed.
-
-New scope lines describe existing meeting, insurance, HR and rental workflows. The only numeric scope resurfaced is **20+ properties**, already in `src/content.ts` and documented in `docs/content-sources.md` from the owner-supplied résumé. No new business outcome, migration/user count or before/after metric is claimed. Applied AI is explicitly identified as résumé-listed capability, not a delivered client case study. No verified specific testimonial or current availability statement was found, so neither was added. Engagement models describe proposed ways to work, not an asserted history of selling those packages.
-
-At that historical checkpoint no analytics events were added; current optional PostHog tracking is documented above. No conversion-rate claims were added. Cal.com remains a normal external link. Its public discovery page offers 30 minutes rather than the preferred 20; no account settings were changed, and no 20-minute promise appears on the site. Booking completion and email delivery cannot be confirmed by local link checks.
-
-Validation: production build (including TypeScript), lint and all 16 tests pass. Chrome checks cover 320, 375, 430, 768, 1024, 1440 and 1920px in both palettes, homepage regression, client/proof journeys, static route refresh, keyboard focus, touch booking navigation and no-JavaScript case-study links. No overflow, browser errors, failed local resources or axe violations were detected; some homepage color-contrast checks remain incomplete. Five-second hero and thirty-second employer/client walkthroughs are heuristic simulations, not visitor-comprehension research. Final contact endpoint alignment was checked at tablet/desktop widths. Public GitHub destinations, résumé and booking returned HTTP 200; both curated repositories reported public visibility. LinkedIn returned HTTP 429 on the latest check, so live accessibility there remains unconfirmed for this run.
-
-Run the additional client-path suite against a production preview with external Playwright/axe tooling:
-
-```sh
-QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/portfolio-engagement-qa node scripts/engagement-qa.mjs
-```
-
-No runtime dependency, scheduler embed, deployment or commit was added. The shared JavaScript bundle is 195.61 kB (61.04 kB gzip), within the existing production budget. Lighthouse/field performance and real conversion rates were not remeasured; Safari/Firefox and physical-device testing remain outside this run.
-
-Direct fragment visits are restored after React mounts and fonts settle, because the Vite development HTML initially contains no section targets. The restoration stops if the visitor interacts or changes the fragment. Case-study scroll margins complement the global sticky-header padding rather than duplicating it. `scripts/fragment-qa.mjs` checks actual target positions for every case study on direct visits and reloads, plus cross-page and same-page navigation at mobile/desktop sizes with normal/reduced motion; run it with the same `QA_MODULES_DIR` and optional `QA_URL` as the other browser suites.
-
-## Incident Zero
-
-`/incident-zero/` is a separate, statically rendered interactive engineering story. A compact homepage entry follows public engineering proof. Six rooms, five NPCs, six synthetic evidence sources, three core investigation/logic puzzles plus a visual architecture puzzle, two decisions, three main endings and an optional Archaeologist insight demonstrate historical state, integration correctness and bounded modernisation. It retains the existing editorial palette and portfolio CTA hierarchy.
-
-Phaser 3 and all game content are dynamically loaded; the homepage downloads neither the engine nor the incident styles. Native keyboard/pointer/touch exploration has a complete button-based non-spatial alternative. Dialogue is immediately readable/skippable, puzzles require no drag gestures, and reduced motion preserves playability. There are no accounts, runtime AI, trackers, real employee records or employer source. Refreshing starts a new in-memory incident.
-
-See [feature architecture and ending rules](src/features/incident-zero/README.md) and [future art slots](src/features/incident-zero/assets/README.md). The test suite now includes seven deterministic game-logic tests and static-route coverage. Gameplay QA must exercise the manual, rewrite, targeted and full-investigation paths whenever the story changes. This feature has not been deployed by the implementation task.
-
-
-## October portfolio and Incident Zero review
-
-See [the acceptance report](docs/review/acceptance.md) for functional root causes, verified behaviour, source boundaries, screenshots and local performance measurements. Active gameplay uses a fitted responsive room, compact toolbar, Help, explicit producer/worker/destination reasoning and report focus restoration. Real campus, insurance and rental cases lead the work section; public code exercises remain supplementary. The existing public résumé export overlaps text, so no PDF download is published until a clean current PDF is supplied or exported. Its optional destination belongs in `profile.resumePdf` in `src/content.ts`.
-
-```sh
-npm run build
-npm run lint
-npm test
-npm run preview -- --host 127.0.0.1
-QA_MODULES_DIR=/tmp/portfolio-qa QA_OUTPUT_DIR=/tmp/incident-review node scripts/incident-review-qa.mjs
-```
-
-The browser suite uses optional Playwright and axe installed outside the project. It covers six specified viewports, spatial pointer mapping and input cancellation, all primary endings, previews, report focus/scroll and replay isolation. Chrome emulation complements physical-device testing; it does not replace it.
-
-## System Defence — Stage 2
-
-The optional `/incident-zero/defence/` arcade route now supports five seeded floors, two tactical tools, explicit level transitions and paused level-entry recovery. No backend or deployment was added. See [the feature architecture](src/features/incident-zero/defence/README.md) and [the Stage 2 review](docs/review/incident-zero-defence-stage2.md) for measured performance, generation/browser evidence and the remaining human playtest needs. Existing arcade QA entry scripts now exercise Stage 2.
-
-## No Two Mondays case study
-
-`/no-two-mondays/` documents the owner's AI-assisted development process, historical prompt audit, revisions, runtime boundaries, save compatibility and the reviewed eight-hour traversal campaign. The homepage game entry links to it beside the itch.io card. Four semantic HTML/CSS diagrams remain readable without JavaScript; route content and CSS load separately from the homepage. Outcome examples use only the game's public locked labels. See [editorial sources and validation](docs/no-two-mondays-case-study.md) before updating counts or adding gameplay details.
-
-## Reading preferences
-
-Open **Display** in the shared header to choose **Default**, **Large**, or **Largest** text alongside the existing theme options. Default body text is 18px with standard browser settings; Large is 20px and Largest is 24px. Percentage sizing also respects browser font preferences and browser zoom. Choices apply before paint, persist locally, and sync across tabs; blocked storage still allows changes for the current page.
-
-Supporting labels are larger, paragraph spacing is more generous, and dense portfolio sections stack at Largest. The header measures its height so section links remain visible below it. Layouts and artwork retain their width rather than scaling the entire page. Without JavaScript, readable default text and native navigation remain available; the Display control is hidden.
-
-
-## PACE v1 portfolio review — 18 October 2026
-
-PACE keeps the existing Borneo visual identity and routes, leads commercial work with PolicyStreet, adds a bounded WenSymes summary and links concrete engineering decisions to their evidence. The hero now prioritizes an engineering conversation, followed by work and the hosted résumé. The NTM preview uses a reviewed local image with a direct itch.io link; its detailed route hydrates existing static content.
-
-Audit, evidence boundaries, confidentiality review and validation are in `docs/portfolio/PACE-V1-*.md`. No deployment was performed. Re-run the focused browser checks against a production preview using optional tools outside the app dependencies:
-
-```sh
-QA_MODULES_DIR=/private/tmp/pace-qa node scripts/pace-qa.mjs
-```
-
-Use the existing documented temporary-tool install procedure above if necessary. Captures and JSON results go to `output/playwright/pace/`. On restricted machines, `SWC_NATIVE_BINDING_CACHE=/private/tmp/pace-swc npm run build` avoids the default SWC cache location. This is a local environment workaround, not a deployment setting.
-
-## PACE v1.1 — navigation and evidence
-
-Commercial `/#case-*` links now open the matching native engineering disclosure on direct visits, reloads, history navigation and link activation. Known project IDs and evidence destinations are typed centrally. Keyboard-activated same-page links focus the project heading; normal scrolling does not change disclosure state or focus. Without JavaScript the linked card remains readable and its details can be opened manually.
-
-Work With Me is lazy-loaded in the browser but remains fully prerendered. Compact shared homepage labels keep secondary-page copy out of the main bundle. NTM now begins with an engineering summary while preserving the longform case study; Incident Zero offers a direct recruiter-preview chooser as well as normal play. Social previews are owned conceptual artwork, generated optionally with `python3 scripts/social-previews.py` using Pillow and a locally licensed font.
-
-See `docs/portfolio/PACE-V1.1-{AUDIT,IMPLEMENTATION,CONTENT-EVIDENCE,CONFIDENTIALITY,QA,RESULTS}.md` for evidence boundaries, exact results and remaining limitations. No deployment is performed by QA commands. Browser tooling stays outside application dependencies:
-
-```sh
-QA_OUTPUT_DIR=output/playwright/pace-v1.1/layout-chromium node scripts/pace-qa.mjs
-node scripts/pace-navigation-qa.mjs
-node scripts/pace-game-qa.mjs
-node scripts/pace-live-qa.mjs
-```
-
-Use `QA_MODULES_DIR` for the optional Playwright/axe installation. Layout and navigation suites accept `QA_BROWSER=firefox` or `webkit` when those engines are installed (set `PLAYWRIGHT_BROWSERS_PATH` for a temporary engine directory). Live QA checks the currently deployed version read-only; it does not publish or validate undeployed changes. Engine/default-platform keyboard differences and incomplete accessibility checks are recorded in QA.
-
-## Public asset hygiene
-
-`npm run assets:check` checks the reviewed inventory in `scripts/public-assets.json`; the production build runs it before copying public assets. Store downloaded career documents, raw captures and diagnostics in ignored output, never in `public/`. Vite copies files from `public/` into every deployment whether the UI references them or not. Keep build-only portrait originals in `assets/source/`; the active refined portrait remains in `public/images/`. Add a new public asset to the inventory only after reviewing its publication purpose and references. Generated PACE-RAG assets are separately verified from the pinned package during the build. Repository `docs/`, `verification/`, `archive/` and `assets/source/` are not copied into `dist`.
+[Discuss an engineering role or project](https://mohd.paramasvara.online/en/work-with-me/) · [LinkedIn](https://www.linkedin.com/in/mohdvara/)
