@@ -36,7 +36,7 @@ const projectContent: Project[] = [
     title: "Enterprise Education Systems — Modernization & Technical Consulting",
     summary: "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.",
     scope: "Education platform · full-stack engineering · technical leadership",
-    result: "Helped align operational workflows with user responsibilities while supporting continued platform use and modernisation.",
+    result: "Delivered browser-based meetings with recordings and operational reports while supporting established education workflows.",
     functions: ["Platform modernisation", "Full-stack engineering", "Maintainability"],
     visualLabel: "Education Platform Modernisation",
     details: [
@@ -45,7 +45,7 @@ const projectContent: Project[] = [
       ["Key Engineering Decision", "Engaged stakeholders to understand existing operational processes, identify workflow requirements and design suitable workflows across established and modernized systems."],
       ["Verified workflow examples", "Online class activity tracking, HRMS document-expiration tracking and other stakeholder-informed operational workflows."],
       ["Constraints & priorities", "Modernise established software while supporting its ongoing use and development. Maintainability, dependable delivery and long-term platform development remain priorities. Internal product identities and implementation details remain private."],
-      ["Delivered Capability", "Helped shape structured workflows aligned with actual user and stakeholder responsibilities, while supporting continued operation and modernization of existing systems."],
+      ["Delivered Capability", "Delivered browser-based meetings for older supported browsers, with recordings, meeting-activity telemetry and operational reporting. The meeting solution used AWS Chime and Amazon S3; compatibility was balanced against implementation and infrastructure constraints."],
     ], stack: [],
   },
   {
@@ -59,7 +59,7 @@ const projectContent: Project[] = [
     summary:
       "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.",
     result:
-      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.",
+      "Supported real-time production quotation workflows across up to 12 insurers, with integrated policy issuance.",
     functions: [
       "Multiple insurance providers",
       "Normalized quotations",
@@ -70,6 +70,7 @@ const projectContent: Project[] = [
       ["Problem", "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance."],
       ["My ownership", "Built rate-fetching and normalization, then led development and operations as Engineering Director. Held final architectural decision authority, evaluating approaches against integration constraints, available resources and commercial requirements. Explained trade-offs to stakeholders and generally sought informed consensus."],
       ["Key Engineering Decision", "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers."],
+      ["Evidence", "Historical production analytics recorded real-user activity. I recall a peak of approximately 15,000 distinct users within one hour; the original dashboard is not available for independent corroboration. This is an approximate historical recollection, not a concurrency, request-throughput or load-test measurement."],
       ["Business rules", "Quotations expire after seven days. Changes to customer information that affect quotation terms require quotation revision. Caching and pre-warming do not exempt quotations from these validity requirements."],
       ["Constraints & approach", "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability."],
       ["Delivered Capability", "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations."],
@@ -85,15 +86,15 @@ const projectContent: Project[] = [
     period: "Mar 2025 — ongoing collaboration",
     title: "WenSymes — Human Resources Management Platform",
     summary: "Adaptable HR and administration workflows, with full-stack web development, Google Cloud and Microsoft 365.",
-    result: "Contributed adaptable internal tools; professional collaboration continues on an occasional basis.",
+    result: "Integrated external applications through controlled HRMS APIs; occasional professional collaboration continues.",
     functions: ["HR & administration", "Full-stack engineering", "Technical ownership"],
     visualLabel: "WenSymes HR Platform",
     details: [
       ["Business problem", "Internal HR and operational administration needed to accommodate changing employee roles and organizational needs."],
       ["My ownership", "Principal Full Stack Developer with final architectural decision authority for HR and administration tools. Evaluated viable approaches against available resources, stakeholder requirements and changing business processes, generally seeking informed consensus. The engagement continues as occasional professional collaboration."],
-      ["Key Engineering Decision", "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved."],
+      ["Key Engineering Decision", "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved. Designed modular service boundaries to support authenticated API interfaces around selected capabilities."],
       ["Constraints & planning", "Organizational flexibility must account for clear responsibilities and appropriate access to HR information. Planning considers data consistency, access control and uptime; detailed internal rules and implementation remain private."],
-      ["Delivered Capability", "Supported an adaptable approach to organizational roles and HR workflows without assuming that responsibilities would remain fixed."],
+      ["Delivered Capability", "External applications were integrated through APIs built around existing service capabilities. Authentication and permission checks restricted access to sensitive HRMS records and protected workflows."],
       ["Technical approach", "Full-stack web development with Google Cloud and Microsoft 365."],
     ],
     stack: [],
@@ -109,7 +110,7 @@ const projectContent: Project[] = [
     summary:
       "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.",
     result:
-      "Flexible HR workflows that accommodate each company’s corporate structure and policies within the same system.",
+      "Supported configurable leave calculations for different organizational policies and employee populations.",
     functions: [
       "Multiple company structures",
       "Configurable leave entitlements",
@@ -127,7 +128,7 @@ const projectContent: Project[] = [
       ],
       [
         "Engineering",
-        "Built support for multiple companies, configurable leave entitlements, and flexible attendance policies around real HR workflows.",
+        "Supported leave-calculation rules that could vary by organization and apply to an individual employee, a selected group or the whole workforce. Configuration planning prioritized likely and urgent policy changes within available resources and operational constraints.",
       ],
       [
         "Result",

@@ -9,7 +9,11 @@ test("production delivers real content without client-side JavaScript", () => {
   assert.match(html, /<main/);
   assert.match(html, /Principal Full-Stack Engineer/);
   assert.match(html, /WenSymes — Human Resources Management Platform/);
-  assert.doesNotMatch(html, /Minute-by-minute|AWS Chime|Amazon S3/);
+  assert.doesNotMatch(html, /Minute-by-minute/);
+  const campus=html.slice(html.indexOf('id="case-campus"')).split('</article>')[0];
+  const hr=html.slice(html.indexOf('id="case-hr"')).split('</article>')[0];
+  assert.match(campus,/meeting solution used AWS Chime and Amazon S3/);
+  assert.doesNotMatch(hr,/AWS Chime|Amazon S3/);
   assert.match(html, /Human Resource Management System/);
   assert.doesNotMatch(
     html,
