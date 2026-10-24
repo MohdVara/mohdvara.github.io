@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-24",
+  "timezone": "Asia/Kuching",
+  "task": "PALDA v1",
+  "publication": {
+    "branch": "main",
+    "initialHead": "ecbfa752c8285740ac571848e0d2cdc55e1816e3",
+    "finalHead": "ecbfa752c8285740ac571848e0d2cdc55e1816e3",
+    "local": true,
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "productionParity": "Not claimed; production Chrome read showed the previous hero.",
+    "worktreeStatus": [
+      " M docs/content-sources.md",
+      " M docs/portfolio/PME-V1-COVERAGE.json",
+      " M docs/portfolio/PME-V1-QA.json",
+      " M docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+      " M docs/portfolio/TRANSLATION_EDITORIAL_REVIEW_QUEUE.md",
+      " M scripts/i18n-qa.mjs",
+      " M scripts/i18n/metadata.json",
+      " M scripts/i18n/source-locations.json",
+      " M src/App.tsx",
+      " M src/CaseStudyQuickRead.css",
+      " M src/EngagementContent.ts",
+      " M src/content.ts",
+      " M src/i18n/locales/ar.json",
+      " M src/i18n/locales/de.json",
+      " M src/i18n/locales/en.json",
+      " M src/i18n/locales/es.json",
+      " M src/i18n/locales/fr.json",
+      " M src/i18n/locales/hi.json",
+      " M src/i18n/locales/ja.json",
+      " M src/i18n/locales/ms.json",
+      " M src/i18n/locales/pt-BR.json",
+      " M src/i18n/locales/ta.json",
+      " M src/i18n/locales/zh-Hans.json",
+      " M src/i18n/status.json",
+      " M tests/i18n.test.mjs",
+      "?? .playwright-cli/page-2026-10-22T08-41-39-901Z.yml",
+      "?? .playwright-cli/page-2026-10-22T12-12-20-272Z.yml",
+      "?? .playwright-cli/page-2026-10-22T12-17-52-983Z.yml",
+      "?? .playwright-cli/page-2026-10-22T12-22-45-530Z.yml",
+      "?? .playwright-cli/page-2026-10-23T01-46-29-968Z.yml",
+      "?? .playwright-cli/page-2026-10-23T02-01-42-370Z.yml",
+      "?? .playwright-cli/page-2026-10-23T02-33-54-939Z.yml",
+      "?? .playwright-cli/page-2026-10-23T10-27-13-816Z.yml",
+      "?? .playwright-cli/page-2026-10-23T10-32-45-817Z.yml",
+      "?? docs/portfolio/PALDA_V1.md",
+      "?? scripts/palda-qa.mjs",
+      "?? verification/portfolio-architectural-leadership-v1.json"
+    ],
+    "previewServersStopped": true,
+    "recordScope": "Pre-commit validation snapshot. Owner subsequently authorized structured commits and origin push; consult Git history/origin for subsequent commit and push state. Main push triggers existing validation/deployment workflow; deployment outcome unverified."
+  },
+  "claims": [
+    {
+      "location": "Hero positioning",
+      "sourceFile": "src/App.tsx",
+      "canonicalKey": "Trusted with final architectural decisions. I align stakeholders on trade-offs and build full-stack systems around business needs.",
+      "basis": "OWNER_CONFIRMED — PALDA v1 brief, 24 October 2026",
+      "review": "Owner-supplied facts; not independent third-party verification."
+    },
+    {
+      "location": "Centre returning engagement",
+      "sourceFile": "src/content.ts",
+      "canonicalKey": "Led full-stack development as Principal Full Stack Engineer during the returning engagement. Held final architectural decision authority, balancing modernization with available resources, established workflows and continuity of operations. Presented viable approaches and their operational consequences to stakeholders, generally seeking informed consensus.",
+      "basis": "OWNER_CONFIRMED — PALDA v1 brief, 24 October 2026",
+      "review": "Owner-supplied facts; not independent third-party verification."
+    },
+    {
+      "location": "PolicyStreet",
+      "sourceFile": "src/content.ts",
+      "canonicalKey": "Built rate-fetching and normalization, then led development and operations as Engineering Director. Held final architectural decision authority, evaluating approaches against integration constraints, available resources and commercial requirements. Explained trade-offs to stakeholders and generally sought informed consensus.",
+      "basis": "OWNER_CONFIRMED — PALDA v1 brief, 24 October 2026",
+      "review": "Owner-supplied facts; not independent third-party verification."
+    },
+    {
+      "location": "WenSymes",
+      "sourceFile": "src/content.ts",
+      "canonicalKey": "Principal Full Stack Developer with final architectural decision authority for HR and administration tools. Evaluated viable approaches against available resources, stakeholder requirements and changing business processes, generally seeking informed consensus. The engagement continues as occasional professional collaboration.",
+      "basis": "OWNER_CONFIRMED — PALDA v1 brief, 24 October 2026",
+      "review": "Owner-supplied facts; not independent third-party verification."
+    },
+    {
+      "location": "Architecture capability",
+      "sourceFile": "src/content.ts",
+      "canonicalKey": "Compare viable approaches, explain costs, risks and business implications, then seek stakeholder consensus while retaining final technical decision authority.",
+      "basis": "OWNER_CONFIRMED — PALDA v1 brief, 24 October 2026",
+      "review": "Owner-supplied facts; not independent third-party verification."
+    },
+    {
+      "location": "Architecture-review engagement",
+      "sourceFile": "src/EngagementContent.ts",
+      "canonicalKey": "Compare architectural options, resource needs, costs and risks with stakeholders, then recommend a workable approach for the business.",
+      "basis": "OWNER_CONFIRMED — PALDA v1 brief, 24 October 2026",
+      "review": "Owner-supplied facts; not independent third-party verification."
+    }
+  ],
+  "localization": {
+    "locales": 11,
+    "canonicalUnits": 1551,
+    "newUnits": 6,
+    "newTargetTranslations": 60,
+    "missing": 0,
+    "stale": 0,
+    "validationErrors": 0,
+    "retainedWarnings": 97,
+    "provider": "development-assistant",
+    "model": "session-assistant",
+    "status": "machine_translated",
+    "qualifiedReview": "pending",
+    "configuredProvider": "Unavailable: explicit API key/model not set; supported direct-assistant fallback used."
+  },
+  "chronology": {
+    "allPeriodStringsUnchanged": true,
+    "roleTitlesAndTechnologyInventoryUnchanged": true,
+    "historicalCentreAuthorityUnchanged": true,
+    "wenSymesOccasionalQualifierRetained": true,
+    "careerSourceRead": "Current public résumé and full CV read in Chrome; no external document mutations in this task."
+  },
+  "performance": {
+    "baseline": {
+      "entry": {
+        "file": "index-9Oed5M20.js",
+        "raw": 214629,
+        "gzip": 65576,
+        "sha256": "135089875f91b4b04038fe36946ca33a04482c7d899734ec1d249ff106dc9c32"
+      },
+      "assets": {
+        "portfolio-content-": [
+          {
+            "file": "portfolio-content-OHN2gZAD.js",
+            "raw": 15240,
+            "gzip": 5107
+          }
+        ],
+        "i18n-core-": [
+          {
+            "file": "i18n-core-D8suBYsP.js",
+            "raw": 284408,
+            "gzip": 69768
+          }
+        ],
+        "WorkWithMe-": [
+          {
+            "file": "WorkWithMe-ByCh7EFa.js",
+            "raw": 10724,
+            "gzip": 3169
+          }
+        ],
+        "index-": [
+          {
+            "file": "index-YpLNAeOY.css",
+            "raw": 79443,
+            "gzip": 15747
+          },
+          {
+            "file": "index-9Oed5M20.js",
+            "raw": 214629,
+            "gzip": 65576
+          }
+        ]
+      },
+      "allJsCss": {
+        "raw": 5193447,
+        "gzip": 1585219
+      },
+      "initialLinks": [
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/rolldown-runtime-hePW80VL.js\">",
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/i18n-core-D8suBYsP.js\">",
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/i18n-vendor-B0KVaUV8.js\">",
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/portfolio-content-OHN2gZAD.js\">",
+        "<link rel=\"stylesheet\" crossorigin href=\"/assets/index-YpLNAeOY.css\">"
+      ]
+    },
+    "candidate": {
+      "entry": {
+        "file": "index-D_ZZmf6v.js",
+        "raw": 214912,
+        "gzip": 65706,
+        "sha256": "c0b278eea093b8b544b3ba1b4aa07a8382f51ddba0cf2b2833f12edb942c9ce9"
+      },
+      "assets": {
+        "portfolio-content-": [
+          {
+            "file": "portfolio-content-y8KK3iaP.js",
+            "raw": 15874,
+            "gzip": 5284
+          }
+        ],
+        "i18n-core-": [
+          {
+            "file": "i18n-core-BkbC_f-l.js",
+            "raw": 287308,
+            "gzip": 70254
+          }
+        ],
+        "WorkWithMe-": [
+          {
+            "file": "WorkWithMe-Dw1LoN3X.js",
+            "raw": 10761,
+            "gzip": 3192
+          }
+        ],
+        "index-": [
+          {
+            "file": "index-DoZfSIMM.css",
+            "raw": 79466,
+            "gzip": 15751
+          },
+          {
+            "file": "index-D_ZZmf6v.js",
+            "raw": 214912,
+            "gzip": 65706
+          }
+        ]
+      },
+      "allJsCss": {
+        "raw": 5235619,
+        "gzip": 1595396
+      },
+      "initialLinks": [
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/rolldown-runtime-hePW80VL.js\">",
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/i18n-core-BkbC_f-l.js\">",
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/i18n-vendor-BjdqdGnf.js\">",
+        "<link rel=\"modulepreload\" crossorigin href=\"/assets/portfolio-content-y8KK3iaP.js\">",
+        "<link rel=\"stylesheet\" crossorigin href=\"/assets/index-DoZfSIMM.css\">"
+      ]
+    },
+    "delta": {
+      "raw": 283,
+      "gzip": 130
+    },
+    "budget": 215000,
+    "initialSameCheckoutArtifact": {
+      "entry": "dist/assets/index-BETseIvI.js",
+      "raw": 214797,
+      "gzip": 65655
+    },
+    "initialArtifactDelta": {
+      "raw": 115,
+      "gzip": 51
+    },
+    "compression": "Python gzip level 9, mtime normalized for rebuilt artifacts; initial artifact gzip size captured before edits.",
+    "baselineNote": "Initial dist artifact matched prior closeout size. A clean HEAD archive was also rebuilt in /private/tmp; path-dependent chunk partitioning differs, so its entry is a separate comparison, not a claim of identical bundling."
+  },
+  "verification": {
+    "status": "Passed within documented scope; baseline Tamil full-main findings and qualified-language/device limits retained.",
+    "commands": {
+      "typecheck": "npm run typecheck",
+      "lint": "npm run lint",
+      "build": "SWC_NATIVE_BINDING_CACHE=/private/tmp/palda-swc npm run build",
+      "tests": "npm test",
+      "extraction": "npm run i18n:extract",
+      "providerSync": "npm run i18n:translate (unavailable: key/model absent; assistant fallback completed)",
+      "providerDryRun": "node scripts/i18n/translate.mjs --dry-run",
+      "validation": "npm run i18n:validate",
+      "coverage": "npm run i18n:coverage -- --strict",
+      "dates": "npm run i18n:audit-dates",
+      "artwork": "npm run artwork:check",
+      "static": "QA_OUTPUT=output/playwright/palda-v1/static node scripts/release-readiness-audit.mjs",
+      "locales": "QA_URL=http://127.0.0.1:4199 QA_OUTPUT=output/playwright/palda-v1/locales QA_MODULES_DIR=/Users/mohd.vara/.npm/_npx/9833c18b2d85bc59/node_modules node scripts/i18n-qa.mjs",
+      "focused": "QA_URL=http://127.0.0.1:4199 QA_OUTPUT=output/playwright/palda-v1/focused QA_MODULES_DIR=/Users/mohd.vara/.npm/_npx/9833c18b2d85bc59/node_modules QA_AXE=/Users/mohd.vara/.npm/_npx/2613f46d5c6aba5c/node_modules/axe-core/axe.min.js node scripts/palda-qa.mjs",
+      "baselineA11y": "node output/playwright/palda-v1/baseline-a11y.cjs",
+      "allEmployerAxe": "node output/playwright/palda-v1/axe-cases.cjs"
+    },
+    "unitTests": {
+      "pass": 202,
+      "fail": 0
+    },
+    "static": {
+      "routes": 108,
+      "issues": [],
+      "sourceFingerprint": "59a318495d5d71550a9f88d903140cf01fecc60556129ca5fe8fbc025b00162b",
+      "artifactFingerprint": "247d897dd2a8e8480704fea4556c60add6032b4698340f98372aa394cf44f3b7",
+      "entry": {
+        "path": "assets/index-D_ZZmf6v.js",
+        "bytes": 214912,
+        "sha256": "c0b278eea093b8b544b3ba1b4aa07a8382f51ddba0cf2b2833f12edb942c9ce9",
+        "gzip": 65871
+      }
+    },
+    "localeBrowser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantIsolation": 11,
+      "datePeriodGroups": 11,
+      "errors": 0,
+      "missingRenderedSource": 0,
+      "translationRequests": 0,
+      "artifactScope": "Completed before final overflow-wrap-only CSS change; affected final-build layouts repeated in focused run."
+    },
+    "focusedFinalBuild": {
+      "layouts": 72,
+      "widths": [
+        320,
+        375,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920,
+        3840
+      ],
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "englishTextSize": "largest",
+      "localeCardPairs": 33,
+      "localeWidths": [
+        320,
+        390
+      ],
+      "expandedLocaleLayouts": 66,
+      "noJavaScriptLocales": 11,
+      "deepLinkRefreshJourneys": 3,
+      "scopedAxeScans": 5,
+      "scopedAxeViolations": 0,
+      "pageErrors": 0,
+      "unexpectedGameOrGalleryRequests": 0
+    },
+    "employerAxe": {
+      "scans": 15,
+      "violations": 0,
+      "scope": "Each commercial disclosure open in en/ar/ta/ja/zh-Hans before wrapping-only correction."
+    },
+    "baselineA11y": [
+      {
+        "base": "http://127.0.0.1:4201",
+        "violations": [
+          {
+            "id": "label-content-name-mismatch",
+            "targets": [
+              [
+                ".public-repository:nth-child(2) > .public-repository-detail > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              [
+                ".public-repository:nth-child(3) > .public-repository-detail > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              [
+                "a[data-conversation-cta=\"\"]"
+              ]
+            ]
+          }
+        ],
+        "incomplete": [
+          "aria-prohibited-attr",
+          "color-contrast"
+        ]
+      },
+      {
+        "base": "http://127.0.0.1:4199",
+        "violations": [
+          {
+            "id": "label-content-name-mismatch",
+            "targets": [
+              [
+                ".public-repository:nth-child(2) > .public-repository-detail > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              [
+                ".public-repository:nth-child(3) > .public-repository-detail > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+              ],
+              [
+                "a[data-conversation-cta=\"\"]"
+              ]
+            ]
+          }
+        ],
+        "incomplete": [
+          "aria-prohibited-attr",
+          "color-contrast"
+        ]
+      }
+    ],
+    "resources": {
+      "count": 13,
+      "localTransferBytes": 545126,
+      "scope": "Final local Chrome cold context at 390px; environment-specific, not RUM or Web Vitals."
+    },
+    "limits": [
+      "Baseline Tamil label-content-name-mismatch: one rule affecting three unchanged nodes.",
+      "Axe incompletes remain; no actual screen-reader or physical-device certification.",
+      "Machine translations require qualified review.",
+      "No measured CLS/INP or real-user performance claim."
+    ]
+  },
+  "evidenceLimits": [
+    "No specific company alternatives meeting, approval record, rejected design, quantified gain or third-party acceptance established.",
+    "No formal business/executive authority inferred from technical decision authority.",
+    "No physical-device, screen-reader, fluent-language or real-user performance certification."
+  ],
+  "rawEvidence": "Ignored output/playwright/palda-v1/; screenshots and source captures are not public assets.",
+  "preservation": {
+    "ownerReportSha256": "9c5c94376787cb6dabd869df89ff35ca4ec7f03ad50029ea5b27c226252112f2",
+    "ownerReportByteMatch": true,
+    "publicGithubSnapshotByteMatch": true,
+    "initialUntrackedSnapshots": 9,
+    "dependenciesChanged": false,
+    "siblingRepositoriesModified": false,
+    "externalCareerDocumentsModified": false
+  },
+  "sourceHashes": {
+    "src/App.tsx": "8ba10a36488f3764a2d83c7944e6a1244acdbc2f449a0f1c3d717ef8d63ca462",
+    "src/content.ts": "961db8acddc63930d7a75ed8605574dac8fe119979aae6ddea3ef16ebd4a0d18",
+    "src/EngagementContent.ts": "966babb55b07e71e35fb36656ad2aabb46a5fd80b1e6fba1bf00895f6263a274",
+    "src/CaseStudyQuickRead.css": "161b240e00a33f2bfa8e62352c05622be19a89436303ce1be4f57a5e747d87ec",
+    "scripts/palda-qa.mjs": "f0a2f6696e79d625c54d644093a04d77fc307e823c9578083ef4697acfc34211",
+    "scripts/i18n-qa.mjs": "4c9262e6e208da024e00ace84ffc32d4540bdf7b072d127b3fac8ce104e3ef87"
+  }
+}

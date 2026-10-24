@@ -1043,5 +1043,59 @@
     "testsPassed": 202,
     "qualifiedHumanReview": false,
     "liveIdentityVerified": false
+  },
+  "paldaV1": {
+    "date": "2026-10-24",
+    "manifest": "verification/portfolio-architectural-leadership-v1.json",
+    "catalogUnits": 1551,
+    "newUnits": 6,
+    "newTargetTranslations": 60,
+    "missing": 0,
+    "stale": 0,
+    "errors": 0,
+    "retainedWarnings": 97,
+    "localeMatrix": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantIsolation": 11,
+      "datePeriodGroups": 11,
+      "errors": 0,
+      "missingRenderedSource": 0,
+      "translationRequests": 0,
+      "artifactScope": "Completed before final overflow-wrap-only CSS change; affected final-build layouts repeated in focused run."
+    },
+    "focusedFinalBuild": {
+      "layouts": 72,
+      "widths": [
+        320,
+        375,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920,
+        3840
+      ],
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "englishTextSize": "largest",
+      "localeCardPairs": 33,
+      "localeWidths": [
+        320,
+        390
+      ],
+      "expandedLocaleLayouts": 66,
+      "noJavaScriptLocales": 11,
+      "deepLinkRefreshJourneys": 3,
+      "scopedAxeScans": 5,
+      "scopedAxeViolations": 0,
+      "pageErrors": 0,
+      "unexpectedGameOrGalleryRequests": 0
+    },
+    "baselineTamilA11y": "One label-content-name-mismatch rule / three unchanged nodes reproduced on initial HEAD and candidate; no site-wide zero-violation claim.",
+    "qualifiedLanguageReview": "pending"
   }
 }
