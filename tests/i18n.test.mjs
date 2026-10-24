@@ -90,7 +90,7 @@ test("all localized static routes contain real translated HTML and reciprocal SE
     if(item.locale!=="en") {
       const catalog=await readJson(`src/i18n/locales/${item.locale}.json`);
       assert.ok(html.includes(catalog["This page has been automatically translated from English. Translations may contain errors, inaccuracies, or differences in meaning. For the most accurate information about my professional experience, projects, and achievements, please refer to the original English version."]));
-      if(!route) assert.ok(html.includes(catalog["From complex business requirements to production software. I build full-stack systems, modernize legacy platforms, and lead engineering delivery."]));
+      if(!route) assert.ok(html.includes(catalog["Trusted with final architectural decisions. I align stakeholders on trade-offs and build full-stack systems around business needs."]));
     }
   }
 });

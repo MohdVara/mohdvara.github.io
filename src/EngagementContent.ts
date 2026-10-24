@@ -25,7 +25,7 @@ interface Engagement {
 }
 export const engagements: Engagement[] = [
   { title: 'Architecture review & technical diagnosis',
-    description: 'For teams facing unclear system boundaries, integration failures or difficult delivery decisions.',
+    description: 'Compare architectural options, resource needs, costs and risks with stakeholders, then recommend a workable approach for the business.',
     inputs: 'A specific problem, architecture context, relevant code or API contracts, and known operational constraints.',
     deliverables: 'An agreed scope may include a findings document, prioritised risks and architectural options.',
     proof: 'integration', next: 'Bring the problem and the decisions you need to make to an introductory conversation.' },

@@ -1,4 +1,4 @@
-.case-quick-read { margin-block: 2rem; padding: clamp(1rem, 3vw, 2rem); border-block: 1px solid var(--line); background: var(--section-surface); }
+.case-quick-read { overflow-wrap: anywhere; margin-block: 2rem; padding: clamp(1rem, 3vw, 2rem); border-block: 1px solid var(--line); background: var(--section-surface); }
 .case-quick-read :is(h2,h4) { font-size: clamp(1.25rem, 2.6vw, 1.8rem); margin-block: .5rem 1rem; }
 .case-quick-read dl { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: .8rem 2rem; margin-block: 1rem; }
 .case-quick-read dt { color: var(--accent); font-size: .8rem; }

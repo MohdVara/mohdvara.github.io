@@ -136,7 +136,7 @@ function Hero() {
         <p className="hero-role">{text("Principal Full-Stack Engineer")}<br />
           <span>{text("Technical Lead & Software Architect")}</span>
         </p>
-        <p className="hero-description">{text("From complex business requirements to production software. I build full-stack systems, modernize legacy platforms, and lead engineering delivery.")}</p>
+        <p className="hero-description">{text("Trusted with final architectural decisions. I align stakeholders on trade-offs and build full-stack systems around business needs.")}</p>
         <nav className="hero-social engineering-evidence" aria-label={text("Engineering evidence")}>
           <a href="#case-campus">{text("Enterprise modernisation ")}<Arrow /></a>
           <a href="#case-insurance">{text("Integration engineering ")}<Arrow /></a>
@@ -305,8 +305,8 @@ function SelectedWork() {
                 <div className="case-body">
                   {project.details.some(([label]) => label === "Key Engineering Decision") && <CaseStudyQuickRead commercial id={`commercial-${project.id}`} item={{
                     name: project.title,
-                    problem: project.summary,
-                    role: project.role,
+                    problem: project.details.find(([label]) => /problem/i.test(label))?.[1] || project.summary,
+                    role: project.details.find(([label]) => label === "My ownership")?.[1] || project.role,
                     decision: project.details.find(([label]) => label === "Key Engineering Decision")![1],
                     result: project.result,
                     status: "Owner-reported delivery · public verification limited.",
@@ -315,7 +315,7 @@ function SelectedWork() {
                   }} />}
 
                   <dl id={`delivery-${project.id}`}>
-                    {localizedContent(project.details.map(([label, text]) => (
+                    {localizedContent(project.details.filter(([label]) => label !== "My ownership").map(([label, text]) => (
                       <div key={label}>
                         <dt>{localizedContent(label)}</dt>
                         <dd>{localizedContent(text)}</dd>

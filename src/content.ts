@@ -41,7 +41,7 @@ const projectContent: Project[] = [
     visualLabel: "Education Platform Modernisation",
     details: [
       ["Business problem", "Established education and administrative systems needed workflows shaped around actual operational processes and responsibilities."],
-      ["My contribution", "Led full-stack development and contributed technical direction as Principal Full Stack Engineer."],
+      ["My ownership", "Led full-stack development as Principal Full Stack Engineer during the returning engagement. Held final architectural decision authority, balancing modernization with available resources, established workflows and continuity of operations. Presented viable approaches and their operational consequences to stakeholders, generally seeking informed consensus."],
       ["Key Engineering Decision", "Engaged stakeholders to understand existing operational processes, identify workflow requirements and design suitable workflows across established and modernized systems."],
       ["Verified workflow examples", "Online class activity tracking, HRMS document-expiration tracking and other stakeholder-informed operational workflows."],
       ["Constraints & priorities", "Modernise established software while supporting its ongoing use and development. Maintainability, dependable delivery and long-term platform development remain priorities. Internal product identities and implementation details remain private."],
@@ -68,7 +68,7 @@ const projectContent: Project[] = [
     visualLabel: "Insurance Comparison System",
     details: [
       ["Problem", "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance."],
-      ["Ownership", "Built backend and frontend rate-fetching and normalization as a Senior Full Stack Developer, then led development and operations as Engineering Director."],
+      ["My ownership", "Built rate-fetching and normalization, then led development and operations as Engineering Director. Held final architectural decision authority, evaluating approaches against integration constraints, available resources and commercial requirements. Explained trade-offs to stakeholders and generally sought informed consensus."],
       ["Key Engineering Decision", "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers."],
       ["Business rules", "Quotations expire after seven days. Changes to customer information that affect quotation terms require quotation revision. Caching and pre-warming do not exempt quotations from these validity requirements."],
       ["Constraints & approach", "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability."],
@@ -90,7 +90,7 @@ const projectContent: Project[] = [
     visualLabel: "WenSymes HR Platform",
     details: [
       ["Business problem", "Internal HR and operational administration needed to accommodate changing employee roles and organizational needs."],
-      ["Role & ownership", "Principal Full Stack Developer experience building internal administration tools and planning product-domain capabilities. The engagement continues as occasional professional collaboration."],
+      ["My ownership", "Principal Full Stack Developer with final architectural decision authority for HR and administration tools. Evaluated viable approaches against available resources, stakeholder requirements and changing business processes, generally seeking informed consensus. The engagement continues as occasional professional collaboration."],
       ["Key Engineering Decision", "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved."],
       ["Constraints & planning", "Organizational flexibility must account for clear responsibilities and appropriate access to HR information. Planning considers data consistency, access control and uptime; detailed internal rules and implementation remain private."],
       ["Delivered Capability", "Supported an adaptable approach to organizational roles and HR workflows without assuming that responsibilities would remain fixed."],
@@ -156,7 +156,7 @@ const projectContent: Project[] = [
     visualLabel: "Home Rental Management System",
     details: [
       ["Problem", "Staff needed to manage contracts, renewals, cancellations and financial visibility across more than 20 rental properties, including operational work outside the office."],
-      ["Ownership", "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer."],
+      ["My ownership", "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer."],
       ["Key Engineering Decision", "Designed and developed a mobile-friendly, web-based rental management system to support operational work outside the office."],
       ["Domain design", "Separated property, tenant and contract records to support multi-entity workflows, contract generation and payment tracking."],
       ["Operating constraints", "Access described here is internet-connected through compatible mobile or desktop browsers."],
@@ -234,7 +234,7 @@ export const capabilities = [
   {
     title: "Architecture & modernization",
     description:
-      "Legacy modernization, multi-entity data modeling, and dependable integration between platforms.",
+      "Compare viable approaches, explain costs, risks and business implications, then seek stakeholder consensus while retaining final technical decision authority.",
     tools: "System integrations · REST APIs · Technical documentation · CI/CD",
   },
   {

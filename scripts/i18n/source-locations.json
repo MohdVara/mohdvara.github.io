@@ -36,7 +36,7 @@
   "Technical Lead & Software Architect": [
     "src/App.tsx"
   ],
-  "From complex business requirements to production software. I build full-stack systems, modernize legacy platforms, and lead engineering delivery.": [
+  "Trusted with final architectural decisions. I align stakeholders on trade-offs and build full-stack systems around business needs.": [
     "src/App.tsx"
   ],
   "Engineering evidence": [
@@ -388,7 +388,11 @@
     "src/content.ts"
   ],
   "My ownership": [
-    "src/CaseStudyQuickRead.tsx"
+    "src/CaseStudyQuickRead.tsx",
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts",
+    "src/content.ts"
   ],
   "Key decision": [
     "src/CaseStudyQuickRead.tsx"
@@ -508,7 +512,7 @@
   "Architecture review & technical diagnosis": [
     "src/EngagementContent.ts"
   ],
-  "For teams facing unclear system boundaries, integration failures or difficult delivery decisions.": [
+  "Compare architectural options, resource needs, costs and risks with stakeholders, then recommend a workable approach for the business.": [
     "src/EngagementContent.ts"
   ],
   "A specific problem, architecture context, relevant code or API contracts, and known operational constraints.": [
@@ -2411,10 +2415,7 @@
   "Established education and administrative systems needed workflows shaped around actual operational processes and responsibilities.": [
     "src/content.ts"
   ],
-  "My contribution": [
-    "src/content.ts"
-  ],
-  "Led full-stack development and contributed technical direction as Principal Full Stack Engineer.": [
+  "Led full-stack development as Principal Full Stack Engineer during the returning engagement. Held final architectural decision authority, balancing modernization with available resources, established workflows and continuity of operations. Presented viable approaches and their operational consequences to stakeholders, generally seeking informed consensus.": [
     "src/content.ts"
   ],
   "Key Engineering Decision": [
@@ -2478,12 +2479,7 @@
   "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance.": [
     "src/content.ts"
   ],
-  "Ownership": [
-    "src/content.ts",
-    "src/content.ts",
-    "src/content.ts"
-  ],
-  "Built backend and frontend rate-fetching and normalization as a Senior Full Stack Developer, then led development and operations as Engineering Director.": [
+  "Built rate-fetching and normalization, then led development and operations as Engineering Director. Held final architectural decision authority, evaluating approaches against integration constraints, available resources and commercial requirements. Explained trade-offs to stakeholders and generally sought informed consensus.": [
     "src/content.ts"
   ],
   "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers.": [
@@ -2533,7 +2529,7 @@
   "Internal HR and operational administration needed to accommodate changing employee roles and organizational needs.": [
     "src/content.ts"
   ],
-  "Principal Full Stack Developer experience building internal administration tools and planning product-domain capabilities. The engagement continues as occasional professional collaboration.": [
+  "Principal Full Stack Developer with final architectural decision authority for HR and administration tools. Evaluated viable approaches against available resources, stakeholder requirements and changing business processes, generally seeking informed consensus. The engagement continues as occasional professional collaboration.": [
     "src/content.ts"
   ],
   "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved.": [
@@ -2585,6 +2581,9 @@
     "src/content.ts"
   ],
   "Different companies needed HR tools that could reflect their own corporate structures, leave rules, and attendance policies.": [
+    "src/content.ts"
+  ],
+  "Ownership": [
     "src/content.ts"
   ],
   "Collaborated on development of the HR management system during the Web Developer role at Centre for Content Creation.": [
@@ -2717,7 +2716,7 @@
   "User interfaces, backend services, and integrations, chosen around the needs of the system.": [
     "src/content.ts"
   ],
-  "Legacy modernization, multi-entity data modeling, and dependable integration between platforms.": [
+  "Compare viable approaches, explain costs, risks and business implications, then seek stakeholder consensus while retaining final technical decision authority.": [
     "src/content.ts"
   ],
   "System integrations · REST APIs · Technical documentation · CI/CD": [

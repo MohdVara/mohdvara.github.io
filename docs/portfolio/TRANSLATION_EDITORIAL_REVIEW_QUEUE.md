@@ -98,3 +98,9 @@ The old status keys above remain historical/add-only catalog entries. Current UI
 | P2 | Technical limitations, prototype labels and PACE-RAG boundary | Keep machine-translation disclosure; professional questions, answers and evidence remain English-only. |
 
 The 97 validator warnings remain visible (95 previously classified proper noun/stack labels; two gateway-label editorial questions). Warning counts do not measure fluent quality. Qualified native-language review and actual screen-reader review are still pending. No translation was promoted to `human_reviewed`.
+
+## PALDA v1 — 24 October 2026
+
+Six new canonical units / 60 target translations require qualified review in every non-English locale. Exact keys are recorded in `verification/portfolio-architectural-leadership-v1.json`; source locations are the hero, three commercial ownership fields, architecture capability and Work With Me architecture-review description. Entries retain `machine_translated` / `development-assistant` / `session-assistant` provenance and current source hashes. The configured API key/model were unavailable; the established direct-assistant fallback was used. No human review is asserted.
+
+P1: retain **authorization to make final technical architectural decisions**, without implying business/executive approval or sole control. Consensus is the owner's usual collaborative preference, not the source of or a prerequisite for that authority. Review the meaning of viable alternatives, resource constraints, costs, risks and business implications. Preserve Centre's returning-engagement boundary, principal seniority and WenSymes's occasional collaboration. English job titles retained in ownership translations preserve seniority and existing protected terminology; assess naturalness without demoting the role. Tamil, Arabic and Hindi need particular shaping/terminology review. No specific meeting, approval procedure or measured outcome may be inferred.
