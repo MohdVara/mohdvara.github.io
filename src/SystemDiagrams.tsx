@@ -1,4 +1,3 @@
-import { localizedHref } from "./i18n/config";
 import { localizedContent, text } from "./i18n/config";
 import { useState } from "react";
 import { capabilities, projects } from "./content";
@@ -88,22 +87,4 @@ export function CapabilityMap() {
       <span className="capability-context">{localizedContent(label ? capabilities[group].title : "Interfaces, architecture, infrastructure, and people work together.")}</span>
     </div>
   </div>;
-}
-const career = [
-  { year: "2018", name: "Technical training", role: 3, x: 38, y: 82 },
-  { year: "2019", name: "Engineering direction", role: 2, x: 66, y: 60 },
-  { year: "2021", name: "Full-stack → Principal", role: 1, x: 36, y: 36 },
-  { year: "2025", name: "Principal delivery", role: 0, x: 62, y: 12 },
-];
-export function CareerPath({ active }: { active: number }) {
-  return <figure className="career-path" data-reveal>
-    <svg viewBox="0 0 280 410" preserveAspectRatio="none" fill="none" aria-hidden="true" focusable="false">
-      <path className="career-trunk" pathLength="1" d="M106 336C65 301 190 287 185 246C183 205 70 191 101 148C130 112 210 92 174 49" />
-      <path className="career-progress" pathLength="1" d="M174 49C210 92 130 112 101 148C70 191 183 205 185 246C190 287 65 301 106 336" />
-      <path className="career-continuation" d="M106 336C52 248 72 120 32 18M101 148C77 106 107 58 90 18M174 49C187 34 191 24 191 18" />
-      {localizedContent(career.map(({role,x,y}) => <g key={role} className={active === role ? "career-current" : role > active ? "career-past" : "career-later"}><circle cx={x * 2.8} cy={y * 4.1} r="6" /><circle cx={x * 2.8} cy={y * 4.1} r="11" /></g>))}
-    </svg>
-    {localizedContent(career.map(({year,name,role,x,y}) => <a key={role} href={localizedHref(`#role-${role}`)} aria-current={active === role ? "location" : undefined} className={active === role ? "career-node active" : "career-node"} style={{left:`${x}%`,top:`calc(${y}% - ${y * .3}px)`}}><span className="mono">0{localizedContent(role + 1)} / {localizedContent(year)}</span><span>{localizedContent(name)}</span></a>))}
-    <figcaption className="mono">{text("Selected role starts / overlapping engagements")}</figcaption>
-  </figure>;
 }

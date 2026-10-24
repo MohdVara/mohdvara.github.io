@@ -30,7 +30,7 @@ try {
   for(const label of await page.locator('.capability-summary').all())assert.ok((await label.textContent()).length>20);
   for(const [i,role] of (await page.locator('.timeline li').all()).entries()) {
    assert.equal((await role.locator('.role-index').textContent()).trim(),`0${i+1}`);
-   assert.match(await page.locator(`.career-node[href="#role-${i}"]`).textContent(),new RegExp(`0${i+1} /`));
+   assert.equal(await role.locator('.role-connector').getAttribute('aria-hidden'),'true');
   }
   assert.equal(await page.locator('.public-repository').count(),2);
   const github=await page.locator('a[href^="https://github.com/"]').evaluateAll(a=>[...new Set(a.map(e=>e.href))]);

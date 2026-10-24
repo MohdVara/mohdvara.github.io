@@ -258,16 +258,34 @@ html:lang(ta) { line-height: 1.85; }
     grid-column: 2;
     min-width: 0;
   }
-  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .experience-note > p {
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    max-inline-size: 16rem;
-    padding-block-start: 1rem;
-    border-block-start: 1px solid var(--line);
-    font-size: 1.4rem;
-    line-height: 1.85;
-    letter-spacing: .08em;
+}
+
+/* A compact vertical title anchors a horizontal introduction. Dates and
+   supporting prose retain their natural horizontal reading order. */
+:root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"] .experience-section .section-heading h2 > .vertical-text {
+  font-size: clamp(1.65rem, 2.6vw, 2.2rem);
+  line-height: 1.65;
+  max-inline-size: 16rem;
+  text-wrap: balance;
+  letter-spacing: .06em;
+  margin: 0;
+}
+@media (min-width: 761px) {
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .experience-section .section-lead {
+    display: grid;
+    grid-template-columns: minmax(12rem, 1fr) minmax(0, 2fr);
+    gap: 3rem;
+    align-items: center;
   }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .experience-section .section-lead > .experience-note {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+    margin: 0;
+    padding-inline-start: 2rem;
+    border-inline-start: 1px solid var(--line);
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"] .experience-note > p { grid-row: auto; line-height: 1.85; }
 }
 
 

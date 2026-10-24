@@ -12,7 +12,7 @@ import { profile, projects, experience } from "./content";
 import { technologyExperience, type TechnologyExperience } from "./technology";
 import { observeReadingPosition, useSectionReveals } from "./usePortfolioMotion";
 import { BorneoBotanical, BotanicalDrawing, PortraitUnderstory, ContactConvergence, SystemTransition, SectionBranch } from "./NaturalGraphics";
-import { ProjectDiagram, CapabilityMap, CareerPath } from "./SystemDiagrams";
+import { ProjectDiagram, CapabilityMap } from "./SystemDiagrams";
 import { PublicEngineering } from "./PublicEngineering";
 import { projectHref } from "./evidence";
 import { WhatISolve } from "./WhatISolve";
@@ -340,12 +340,10 @@ function SelectedWork() {
 }
 function Experience() {
   const timeline = useRef<HTMLOListElement>(null);
-  const [activeRole, setActiveRole] = useState(0);
   useEffect(() => {
     const roles = [...(timeline.current?.children || [])];
     return observeReadingPosition(roles, (active) => {
       roles.forEach((role) => role.classList.toggle("reading-active", role === active));
-      if (active) setActiveRole(roles.indexOf(active));
     }, "middle");
   }, []);
   return (
@@ -361,20 +359,25 @@ function Experience() {
         <SectionHeading number="02" title={text("Experience")}>
           <span id="experience-title">{text("Ownership at every level.")}</span>
         </SectionHeading>
-        </div>
-        <NarrativeAccent region="earth" />
-        <div className="experience-grid" data-reveal>
           <div className="experience-note">
             <p>{text("Building since 2013.")}<br />{text("Leading through the code.")}</p>
             <span>{text("Selected roles and project work. Several engagements run concurrently.")}</span>
             <div className="resume-links"><a className="text-link" href={localizedHref(profile.resume)} target="_blank" rel="noopener noreferrer">{text("2-page résumé ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span>
             </a>
             <a className="text-link" href={localizedHref(profile.cv)} target="_blank" rel="noopener noreferrer">{text("Full CV ")}<Arrow /><span className="sr-only">{text(" (opens in a new tab)")}</span></a>
-            </div><CareerPath active={activeRole} />
+            </div>
           </div>
+        </div>
+        <NarrativeAccent region="earth" />
+        <div className="experience-grid" data-reveal>
           <ol className="timeline" ref={timeline}>
             {localizedContent(experience.map((role, index) => (
               <li id={`role-${index}`} key={role.company + role.title}>
+                <svg className="role-connector" viewBox="0 0 64 100" preserveAspectRatio="none" fill="none" aria-hidden="true" focusable="false">
+                  <path className="role-contour" d="M24 0C-6 28 54 72 24 100" />
+                  <path className="role-river" d="M32 0C2 28 62 72 32 100" />
+                  <path className="role-twigs" d="M24 28C12 32 15 38 5 40M40 72C50 75 48 80 59 83M10 35Q1 32 3 27Q13 28 10 35M54 79Q63 75 61 70Q51 72 54 79" />
+                </svg>
                 <p className="mono role-period"><span className="role-index">0{localizedContent(index + 1)}</span> {localizedContent(role.period)}</p>
                 <h3>{localizedContent(role.title)}</h3>
                 <p className="role-company">

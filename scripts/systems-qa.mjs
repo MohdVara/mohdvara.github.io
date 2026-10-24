@@ -33,7 +33,10 @@ for(const width of [320,375,430,768,1024,1440,1920]){
  row.capabilityHeights.push((await p.locator('.capability-system').boundingBox()).height);
  }
  assert.ok(Math.max(...row.capabilityHeights)-Math.min(...row.capabilityHeights)<1,"Capability selection shifts layout");
- for(const role of await p.locator('.career-node').all()){assert.ok((await role.boundingBox()).height>=44);await role.click();assert.ok(p.url().includes('#role-'));}
+ assert.equal(await p.locator('.career-path').count(),0,'Experience uses one unified timeline');
+ assert.equal(await p.locator('.timeline > li').count(),7);
+ assert.equal(await p.locator('.timeline .role-index').count(),7);
+ assert.equal(await p.locator('.timeline .role-connector:visible').count(),6);
  assert.equal(await p.locator('.borneo-botanical .botanical-drawing').evaluate(e=>getComputedStyle(e.querySelector('g')).animationName),'none');
  assert.equal(await p.locator('.convergence-final').evaluate(e=>getComputedStyle(e).animationName),'none');
  const endpoints = await p.locator('.convergence-outer path,.convergence-merge,.convergence-final,.map-growth,.diagram-connection').evaluateAll(paths => paths.filter(path => getComputedStyle(path).display !== 'none').map(path => ({ vector: getComputedStyle(path).vectorEffect, covered: path.isPointInStroke(path.getPointAtLength(path.getTotalLength() * .99)) })));

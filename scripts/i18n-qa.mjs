@@ -134,9 +134,8 @@ try {
       }
       projectDates.push({id,sourceMonths:months,display});
     }
-    const principal=page.locator('.career-node[href$="#role-1"]');
-    const principalDate=await principal.locator('.mono').innerText();
-    assert.ok(principalDate.includes(item.calendar==='gregory'?'2021':'[2021]'),`${item.locale}: Centre engagement starts in 2021`);
+    const principalDate=await page.locator('#role-1 .role-period').innerText();
+    assert.ok(principalDate.includes('2021'),`${item.locale}: Centre engagement starts in 2021`);
     report.datePeriods.push({locale:item.locale,periods,projectDates,principalDate});
     await page.locator('.experience-assistant > summary').click();
     const assistant=page.locator('.pace-assistant');

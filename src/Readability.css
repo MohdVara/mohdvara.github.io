@@ -6,6 +6,28 @@
 .career-path { height: 30rem; }
 .career-node { width: 8rem; font-size: .8rem; }
 .career-path figcaption { font-size: .75rem; }
+/* One continuous path carries the actual roles, with room for localized dates. */
+.experience-grid { grid-template-columns: minmax(0, 1fr); gap: 40px; }
+.experience-note { position: static; display: grid; grid-template-columns: minmax(10rem, 1fr) minmax(0, 2fr); gap: 16px 48px; }
+.experience-note > p { grid-row: 1 / span 2; }
+.experience-note > span { max-width: 40rem; margin: 0; }
+.experience-note .resume-links { align-self: start; }
+.experience-section .section-lead > .experience-note { margin-top: 24px; }
+.timeline { padding-inline-start: 4.5rem; }
+.timeline li { position: relative; }
+.timeline li::before { display: none; }
+.timeline .role-index { position: absolute; inset-inline-start: -3.5rem; top: 25px; width: 32px; height: 32px; margin: 0; border-radius: 50%; border-color: var(--accent); background: var(--section-surface); z-index: 1; }
+.timeline li:first-child .role-index { top: 0; }
+.timeline .role-period { min-height: 32px; display: flex; align-items: center; flex-wrap: wrap; overflow-wrap: anywhere; }
+.role-connector { position: absolute; inset-inline-start: -4.5rem; top: 41px; width: 64px; height: 100%; overflow: visible; pointer-events: none; color: var(--accent); }
+.timeline li:first-child .role-connector { top: 16px; height: calc(100% + 25px); }
+.timeline li:last-child .role-connector { display: none; }
+.role-connector path { stroke: currentColor; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; }
+.role-river { stroke-width: 1.35; opacity: .65; }
+.role-contour { stroke-width: .75; stroke-dasharray: 2 7; opacity: .2; }
+.role-twigs { stroke-width: .8; opacity: .24; }
+.timeline li:nth-child(even) .role-connector { transform: scaleX(-1); }
+.timeline .reading-active .role-index { color: var(--background); background: var(--accent); box-shadow: 0 0 0 5px color-mix(in srgb, var(--accent) 12%, transparent); }
 @media (max-width: 1200px) {
   .desktop-nav { display: none; }
   .mobile-menu { display: block; }
@@ -14,6 +36,11 @@
   .mobile-menu nav a { padding: 12px; min-height: 44px; }
 }
 @media (max-width: 760px) {
+  .timeline { padding-inline-start: 3rem; }
+  .timeline .role-index { inset-inline-start: -2.75rem; }
+  .role-connector { inset-inline-start: -3rem; width: 40px; }
+  .experience-note { grid-template-columns: minmax(0, 1fr); }
+  .experience-note > p { grid-row: auto; }
   .hero h1 { font-size: clamp(2.45rem, calc(6vw + 1.4rem), 4.3rem); }
   .highlights > div { flex-wrap: wrap; }
   .highlights strong, .highlights span { max-width: 100%; }
