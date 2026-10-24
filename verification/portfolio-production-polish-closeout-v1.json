@@ -16,29 +16,29 @@
   "findings": [
     {
       "finding": "MMCATS source publication versus application deployment",
-      "classification": "CONFIRMED — FIXED",
-      "change": "Public source · locally verified · application deployment blocked"
+      "classification": "CONFIRMED \u2014 FIXED",
+      "change": "Public source \u00b7 locally verified \u00b7 application deployment blocked"
     },
     {
       "finding": "Commercial evidence basis unexplained",
-      "classification": "CONFIRMED — FIXED",
-      "change": "Owner-reported delivery · public verification limited.",
+      "classification": "CONFIRMED \u2014 FIXED",
+      "change": "Owner-reported delivery \u00b7 public verification limited.",
       "scope": "Four existing commercial quick reads; approved facts unchanged"
     },
     {
       "finding": "Three engineering discovery routes missing from locale-link registry",
-      "classification": "CONFIRMED — FIXED",
+      "classification": "CONFIRMED \u2014 FIXED",
       "change": "Preserve visitor locale for MMCATS, NAAE and Multilingual Engineering; all eleven locales and suffixes tested"
     },
     {
       "finding": "Stale 404 selectors/output, unsynchronized case heading, hardcoded QA host",
-      "classification": "CONFIRMED — FIXED",
+      "classification": "CONFIRMED \u2014 FIXED",
       "change": "Current utility rail targets, visible-heading readiness, configurable output/URLs; assertions retained"
     },
     {
       "finding": "MegaInfinite role/project end dates",
       "classification": "ALREADY RESOLVED",
-      "evidence": "Fresh public documents: role May 2018–April 2020; rental project May 2018–May 2020"
+      "evidence": "Fresh public documents: role May 2018\u2013April 2020; rental project May 2018\u2013May 2020"
     },
     {
       "finding": "Centre progression, consolidated education card and current art provenance",
@@ -47,17 +47,17 @@
     },
     {
       "finding": "WenSymes primary engagement end versus ongoing occasional work",
-      "classification": "CONFIRMED — REQUIRES OWNER APPROVAL",
+      "classification": "CONFIRMED \u2014 REQUIRES OWNER APPROVAL",
       "action": "No end date inferred; approve qualifier and supply primary end only if applicable"
     },
     {
       "finding": "External Centre title, WenSymes qualifier and AI summaries",
-      "classification": "CONFIRMED — EXTERNAL SYSTEM",
+      "classification": "CONFIRMED \u2014 EXTERNAL SYSTEM",
       "action": "Exact suggested text in CAREER_ARTIFACT_ALIGNMENT_PENDING.md; not applied"
     },
     {
       "finding": "Consequential translation and screen-reader review",
-      "classification": "CONFIRMED — REQUIRES QUALIFIED HUMAN REVIEW"
+      "classification": "CONFIRMED \u2014 REQUIRES QUALIFIED HUMAN REVIEW"
     },
     {
       "finding": "Rail obstruction/overflow, stale portraits, broken recovery",
@@ -71,7 +71,7 @@
     },
     {
       "finding": "LinkedIn public read",
-      "classification": "CONFIRMED — EXTERNAL SYSTEM",
+      "classification": "CONFIRMED \u2014 EXTERNAL SYSTEM",
       "httpStatus": 429
     }
   ],
@@ -139,8 +139,8 @@
     "statusTranslations": [
       {
         "locale": "ms",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "Kod sumber awam · disahkan setempat · deployment aplikasi disekat",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "Kod sumber awam \u00b7 disahkan setempat \u00b7 deployment aplikasi disekat",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -148,8 +148,8 @@
       },
       {
         "locale": "ms",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "Penyampaian dilaporkan pemilik · pengesahan awam terhad.",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "Penyampaian dilaporkan pemilik \u00b7 pengesahan awam terhad.",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -157,8 +157,8 @@
       },
       {
         "locale": "ar",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "الشفرة متاحة للعامة · تم التحقق محليًا · نشر التطبيق محظور",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "\u0627\u0644\u0634\u0641\u0631\u0629 \u0645\u062a\u0627\u062d\u0629 \u0644\u0644\u0639\u0627\u0645\u0629 \u00b7 \u062a\u0645 \u0627\u0644\u062a\u062d\u0642\u0642 \u0645\u062d\u0644\u064a\u064b\u0627 \u00b7 \u0646\u0634\u0631 \u0627\u0644\u062a\u0637\u0628\u064a\u0642 \u0645\u062d\u0638\u0648\u0631",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -166,8 +166,8 @@
       },
       {
         "locale": "ar",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "التنفيذ حسب إفادة المالك · التحقق العام محدود.",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "\u0627\u0644\u062a\u0646\u0641\u064a\u0630 \u062d\u0633\u0628 \u0625\u0641\u0627\u062f\u0629 \u0627\u0644\u0645\u0627\u0644\u0643 \u00b7 \u0627\u0644\u062a\u062d\u0642\u0642 \u0627\u0644\u0639\u0627\u0645 \u0645\u062d\u062f\u0648\u062f.",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -175,8 +175,8 @@
       },
       {
         "locale": "ta",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "மூலக்குறியீடு பொதுவில் உள்ளது · உள்ளூரில் சரிபார்க்கப்பட்டது · பயன்பாட்டு வெளியீடு தடுக்கப்பட்டுள்ளது",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "\u0bae\u0bc2\u0bb2\u0b95\u0bcd\u0b95\u0bc1\u0bb1\u0bbf\u0baf\u0bc0\u0b9f\u0bc1 \u0baa\u0bca\u0ba4\u0bc1\u0bb5\u0bbf\u0bb2\u0bcd \u0b89\u0bb3\u0bcd\u0bb3\u0ba4\u0bc1 \u00b7 \u0b89\u0bb3\u0bcd\u0bb3\u0bc2\u0bb0\u0bbf\u0bb2\u0bcd \u0b9a\u0bb0\u0bbf\u0baa\u0bbe\u0bb0\u0bcd\u0b95\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0ba4\u0bc1 \u00b7 \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0bbe\u0b9f\u0bcd\u0b9f\u0bc1 \u0bb5\u0bc6\u0bb3\u0bbf\u0baf\u0bc0\u0b9f\u0bc1 \u0ba4\u0b9f\u0bc1\u0b95\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0bc1\u0bb3\u0bcd\u0bb3\u0ba4\u0bc1",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -184,8 +184,8 @@
       },
       {
         "locale": "ta",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "உரிமையாளர் தெரிவித்த வழங்கல் · பொதுச் சரிபார்ப்பு வரையறுக்கப்பட்டுள்ளது.",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "\u0b89\u0bb0\u0bbf\u0bae\u0bc8\u0baf\u0bbe\u0bb3\u0bb0\u0bcd \u0ba4\u0bc6\u0bb0\u0bbf\u0bb5\u0bbf\u0ba4\u0bcd\u0ba4 \u0bb5\u0bb4\u0b99\u0bcd\u0b95\u0bb2\u0bcd \u00b7 \u0baa\u0bca\u0ba4\u0bc1\u0b9a\u0bcd \u0b9a\u0bb0\u0bbf\u0baa\u0bbe\u0bb0\u0bcd\u0baa\u0bcd\u0baa\u0bc1 \u0bb5\u0bb0\u0bc8\u0baf\u0bb1\u0bc1\u0b95\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0b9f\u0bcd\u0b9f\u0bc1\u0bb3\u0bcd\u0bb3\u0ba4\u0bc1.",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -193,8 +193,8 @@
       },
       {
         "locale": "ja",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "ソース公開済み · ローカル検証済み · アプリケーションのデプロイはブロック中",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "\u30bd\u30fc\u30b9\u516c\u958b\u6e08\u307f \u00b7 \u30ed\u30fc\u30ab\u30eb\u691c\u8a3c\u6e08\u307f \u00b7 \u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u306e\u30c7\u30d7\u30ed\u30a4\u306f\u30d6\u30ed\u30c3\u30af\u4e2d",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -202,8 +202,8 @@
       },
       {
         "locale": "ja",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "所有者による実装報告 · 公開情報による検証は限定的。",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "\u6240\u6709\u8005\u306b\u3088\u308b\u5b9f\u88c5\u5831\u544a \u00b7 \u516c\u958b\u60c5\u5831\u306b\u3088\u308b\u691c\u8a3c\u306f\u9650\u5b9a\u7684\u3002",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -211,8 +211,8 @@
       },
       {
         "locale": "zh-Hans",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "源码公开 · 已本地验证 · 应用部署受阻",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "\u6e90\u7801\u516c\u5f00 \u00b7 \u5df2\u672c\u5730\u9a8c\u8bc1 \u00b7 \u5e94\u7528\u90e8\u7f72\u53d7\u963b",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -220,8 +220,8 @@
       },
       {
         "locale": "zh-Hans",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "所有者报告的交付成果 · 公开验证有限。",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "\u6240\u6709\u8005\u62a5\u544a\u7684\u4ea4\u4ed8\u6210\u679c \u00b7 \u516c\u5f00\u9a8c\u8bc1\u6709\u9650\u3002",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -229,8 +229,8 @@
       },
       {
         "locale": "es",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "Código fuente público · verificado localmente · despliegue de la aplicación bloqueado",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "C\u00f3digo fuente p\u00fablico \u00b7 verificado localmente \u00b7 despliegue de la aplicaci\u00f3n bloqueado",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -238,8 +238,8 @@
       },
       {
         "locale": "es",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "Entrega declarada por el propietario · verificación pública limitada.",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "Entrega declarada por el propietario \u00b7 verificaci\u00f3n p\u00fablica limitada.",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -247,8 +247,8 @@
       },
       {
         "locale": "fr",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "Code source public · vérifié localement · déploiement de l’application bloqué",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "Code source public \u00b7 v\u00e9rifi\u00e9 localement \u00b7 d\u00e9ploiement de l\u2019application bloqu\u00e9",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -256,8 +256,8 @@
       },
       {
         "locale": "fr",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "Livraison déclarée par le propriétaire · vérification publique limitée.",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "Livraison d\u00e9clar\u00e9e par le propri\u00e9taire \u00b7 v\u00e9rification publique limit\u00e9e.",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -265,8 +265,8 @@
       },
       {
         "locale": "de",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "Öffentlicher Quellcode · lokal verifiziert · Anwendungsbereitstellung blockiert",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "\u00d6ffentlicher Quellcode \u00b7 lokal verifiziert \u00b7 Anwendungsbereitstellung blockiert",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -274,8 +274,8 @@
       },
       {
         "locale": "de",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "Vom Inhaber berichtete Umsetzung · öffentliche Überprüfung begrenzt.",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "Vom Inhaber berichtete Umsetzung \u00b7 \u00f6ffentliche \u00dcberpr\u00fcfung begrenzt.",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -283,8 +283,8 @@
       },
       {
         "locale": "pt-BR",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "Código-fonte público · verificado localmente · implantação da aplicação bloqueada",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "C\u00f3digo-fonte p\u00fablico \u00b7 verificado localmente \u00b7 implanta\u00e7\u00e3o da aplica\u00e7\u00e3o bloqueada",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -292,8 +292,8 @@
       },
       {
         "locale": "pt-BR",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "Entrega relatada pelo proprietário · verificação pública limitada.",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "Entrega relatada pelo propriet\u00e1rio \u00b7 verifica\u00e7\u00e3o p\u00fablica limitada.",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -301,8 +301,8 @@
       },
       {
         "locale": "hi",
-        "key": "Public source · locally verified · application deployment blocked",
-        "translation": "स्रोत कोड सार्वजनिक · स्थानीय रूप से सत्यापित · अनुप्रयोग की तैनाती अवरुद्ध",
+        "key": "Public source \u00b7 locally verified \u00b7 application deployment blocked",
+        "translation": "\u0938\u094d\u0930\u094b\u0924 \u0915\u094b\u0921 \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u00b7 \u0938\u094d\u0925\u093e\u0928\u0940\u092f \u0930\u0942\u092a \u0938\u0947 \u0938\u0924\u094d\u092f\u093e\u092a\u093f\u0924 \u00b7 \u0905\u0928\u0941\u092a\u094d\u0930\u092f\u094b\u0917 \u0915\u0940 \u0924\u0948\u0928\u093e\u0924\u0940 \u0905\u0935\u0930\u0941\u0926\u094d\u0927",
         "status": "machine_translated",
         "sourceHash": "e828faca833c33de20f8d187b7bd2a761d1fe1643ebfd0e03ca1d715f4c4f9bc",
         "provider": "development-assistant",
@@ -310,8 +310,8 @@
       },
       {
         "locale": "hi",
-        "key": "Owner-reported delivery · public verification limited.",
-        "translation": "स्वामी द्वारा बताया गया कार्यान्वयन · सार्वजनिक सत्यापन सीमित।",
+        "key": "Owner-reported delivery \u00b7 public verification limited.",
+        "translation": "\u0938\u094d\u0935\u093e\u092e\u0940 \u0926\u094d\u0935\u093e\u0930\u093e \u092c\u0924\u093e\u092f\u093e \u0917\u092f\u093e \u0915\u093e\u0930\u094d\u092f\u093e\u0928\u094d\u0935\u092f\u0928 \u00b7 \u0938\u093e\u0930\u094d\u0935\u091c\u0928\u093f\u0915 \u0938\u0924\u094d\u092f\u093e\u092a\u0928 \u0938\u0940\u092e\u093f\u0924\u0964",
         "status": "machine_translated",
         "sourceHash": "d2018c7df69152a9cf34e242b1dc18ec193727525de6dc4d7dbcde15ace077bb",
         "provider": "development-assistant",
@@ -722,14 +722,14 @@
         "path": "/ar/unmapped-closeout/",
         "status": 404,
         "server": "cloudflare",
-        "title": "لم يتم العثور على الصفحة | Mohd. Paramasvara",
+        "title": "\u0644\u0645 \u064a\u062a\u0645 \u0627\u0644\u0639\u062b\u0648\u0631 \u0639\u0644\u0649 \u0627\u0644\u0635\u0641\u062d\u0629 | Mohd. Paramasvara",
         "entry": "/assets/index-B21BXwwj.js"
       },
       {
         "path": "/ta/unmapped-closeout/",
         "status": 404,
         "server": "cloudflare",
-        "title": "பக்கம் கிடைக்கவில்லை | Mohd. Paramasvara",
+        "title": "\u0baa\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0b95\u0bbf\u0b9f\u0bc8\u0b95\u0bcd\u0b95\u0bb5\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8 | Mohd. Paramasvara",
         "entry": "/assets/index-B21BXwwj.js"
       }
     ]
@@ -762,7 +762,7 @@
       "actions": [
         "Read professional summary",
         "Open employment anchor",
-        "Inspect résumé destination",
+        "Inspect r\u00e9sum\u00e9 destination",
         "Open contact anchor"
       ],
       "result": "PASS; occasional WenSymes engagement explicit; external wording exception recorded"
@@ -890,7 +890,7 @@
     "note": "Public GitHub snapshot refreshed by build then restored as unrelated source churn. Independent source/artifact observations, not network-independent reproducibility."
   },
   "public": {
-    "status": "LIVE CONTENT OBSERVED — DEPLOYMENT IDENTITY UNVERIFIED",
+    "status": "LIVE CONTENT OBSERVED \u2014 DEPLOYMENT IDENTITY UNVERIFIED",
     "routes": 108,
     "statuses": {
       "200": 108
@@ -1026,7 +1026,7 @@
   },
   "exceptions": [
     "WenSymes primary-employment end is not established; ongoing occasional collaboration preserved",
-    "External résumé/CV edits require owner review and separate service authorization",
+    "External r\u00e9sum\u00e9/CV edits require owner review and separate service authorization",
     "Qualified consequential-translation review pending",
     "Physical screen-reader/device/soft-keyboard/native-zoom review not performed",
     "Cloudflare deployed SHA unavailable; local fixes unpublished",
@@ -1065,5 +1065,12 @@
     "public/public.json": "245eaecee79651bc9dfe0724738e4a27260a5fe15465bb529e1cb4a031145203",
     "live-detail.json": "0e503d2de5ba9660799f88a10e2c09b48756fd6f0bcf4dff61046e520dfa6729",
     "malay-final.json": "7e4b005b6d7ea95bde3e0ec7df0e65419bf5799d9cdba472b721e1fd3641fd60"
+  },
+  "followUp": {
+    "date": "2026-10-24",
+    "status": "CLOSED WITH DOCUMENTED REVIEW AND PUBLICATION LIMITS",
+    "report": "docs/portfolio/PALDA_V1_2.md",
+    "verification": "verification/portfolio-career-performance-v1.2.json",
+    "note": "Original 23 October fields remain historical. Subsequent external career edits and local cleanup/CI/performance changes are recorded separately; no v1.2 push or deployment claimed."
   }
 }

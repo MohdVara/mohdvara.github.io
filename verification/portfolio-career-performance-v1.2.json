@@ -1,0 +1,1580 @@
+{
+  "version": "PALDA v1.2",
+  "date": "2026-10-24",
+  "timezone": "Asia/Kuching",
+  "status": "IMPLEMENTED_LOCALLY_WITH_REPORTED_LIMITS",
+  "initialHead": "5bf7f9740e48fe6c1283c3c9ef4e9ef6e0e2e4e7",
+  "finalHead": "5bf7f9740e48fe6c1283c3c9ef4e9ef6e0e2e4e7",
+  "branch": "main",
+  "publication": {
+    "repository": "Uncommitted; no push or deployment",
+    "externalDocuments": "R\u00e9sum\u00e9 and full CV saved, public text and exported PDFs verified",
+    "linkedin": "Not edited",
+    "cloudflare": "Owner-confirmed primary provider; settings and deployment untouched",
+    "githubActions": "CI-only workflow edited locally; no remote run claimed"
+  },
+  "performance": {
+    "baseline": {
+      "entry": {
+        "path": "assets/index-lfDfMnLC.js",
+        "raw": 214958,
+        "gzip9": 65715
+      },
+      "headroom": 42,
+      "eager": [
+        {
+          "path": "assets/index-lfDfMnLC.js",
+          "raw": 214958,
+          "gzip9": 65715
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/i18n-core-CSoI-yRo.js",
+          "raw": 292120,
+          "gzip9": 71013
+        },
+        {
+          "path": "assets/i18n-vendor-CpbjYxqM.js",
+          "raw": 5234,
+          "gzip9": 2476
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        }
+      ],
+      "chunks": [
+        {
+          "path": "assets/CaseStudySummary-De_bdntC.js",
+          "raw": 5700,
+          "gzip9": 2498
+        },
+        {
+          "path": "assets/DefenceRoute-Be63cIvc.js",
+          "raw": 28557,
+          "gzip9": 10338
+        },
+        {
+          "path": "assets/DefenceRoute-DK9n04FC.css",
+          "raw": 7343,
+          "gzip9": 1853
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-BWNj7n-7.js",
+          "raw": 22370,
+          "gzip9": 8067
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-BrS01sLw.css",
+          "raw": 3372,
+          "gzip9": 1023
+        },
+        {
+          "path": "assets/GameShell-DMun-OPk.js",
+          "raw": 47550,
+          "gzip9": 15145
+        },
+        {
+          "path": "assets/IncidentZeroRoute-BoNUZttT.js",
+          "raw": 5924,
+          "gzip9": 2436
+        },
+        {
+          "path": "assets/IncidentZeroRoute-D7_mNOul.css",
+          "raw": 11576,
+          "gzip9": 2947
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-CmPcPlpE.js",
+          "raw": 46795,
+          "gzip9": 13901
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-Do2fVsHr.css",
+          "raw": 8098,
+          "gzip9": 1995
+        },
+        {
+          "path": "assets/NotFound-5BN4-w9-.css",
+          "raw": 2735,
+          "gzip9": 1017
+        },
+        {
+          "path": "assets/NotFound-CLiiaku4.js",
+          "raw": 4948,
+          "gzip9": 2409
+        },
+        {
+          "path": "assets/PaceAssistant-BqlOVwAg.css",
+          "raw": 4625,
+          "gzip9": 1457
+        },
+        {
+          "path": "assets/PaceAssistant-C1dj4V51.js",
+          "raw": 80819,
+          "gzip9": 26100
+        },
+        {
+          "path": "assets/PaceRagCaseStudy-C9utnrcR.js",
+          "raw": 16579,
+          "gzip9": 5463
+        },
+        {
+          "path": "assets/PageLandscape-VGCKdUCk.js",
+          "raw": 489,
+          "gzip9": 300
+        },
+        {
+          "path": "assets/PortfolioGame-DO2-KZRZ.js",
+          "raw": 1197779,
+          "gzip9": 314451
+        },
+        {
+          "path": "assets/UtilityPanel-v1oyFNVe.js",
+          "raw": 3948,
+          "gzip9": 1368
+        },
+        {
+          "path": "assets/WorkWithMe-ICbQ4xqD.js",
+          "raw": 10761,
+          "gzip9": 3189
+        },
+        {
+          "path": "assets/ar-D29vuFA_.js",
+          "raw": 282176,
+          "gzip9": 91388
+        },
+        {
+          "path": "assets/config-DjNMDW_l.js",
+          "raw": 563,
+          "gzip9": 423
+        },
+        {
+          "path": "assets/de-DafPyUXx.js",
+          "raw": 244785,
+          "gzip9": 88767
+        },
+        {
+          "path": "assets/es-BVVfJIfL.js",
+          "raw": 243432,
+          "gzip9": 85280
+        },
+        {
+          "path": "assets/fr-PNytR808.js",
+          "raw": 249614,
+          "gzip9": 87081
+        },
+        {
+          "path": "assets/game-BC3gFQOH.js",
+          "raw": 8283,
+          "gzip9": 3506
+        },
+        {
+          "path": "assets/hi-eQndWGgu.js",
+          "raw": 387300,
+          "gzip9": 102042
+        },
+        {
+          "path": "assets/i18n-core-CSoI-yRo.js",
+          "raw": 292120,
+          "gzip9": 71013
+        },
+        {
+          "path": "assets/i18n-vendor-CpbjYxqM.js",
+          "raw": 5234,
+          "gzip9": 2476
+        },
+        {
+          "path": "assets/index-DoZfSIMM.css",
+          "raw": 79466,
+          "gzip9": 15751
+        },
+        {
+          "path": "assets/index-lfDfMnLC.js",
+          "raw": 214958,
+          "gzip9": 65715
+        },
+        {
+          "path": "assets/ja-pq_1bdNU.js",
+          "raw": 263330,
+          "gzip9": 94438
+        },
+        {
+          "path": "assets/layout.worker-D9ceUgfv.js",
+          "raw": 12782,
+          "gzip9": 4940
+        },
+        {
+          "path": "assets/module-DLmbbmaF.js",
+          "raw": 305055,
+          "gzip9": 100717
+        },
+        {
+          "path": "assets/ms-B4DVvBZW.js",
+          "raw": 230351,
+          "gzip9": 81072
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        },
+        {
+          "path": "assets/pt-BR--mmKGZ31.js",
+          "raw": 240427,
+          "gzip9": 84353
+        },
+        {
+          "path": "assets/renderer-BumnWz5L.js",
+          "raw": 51206,
+          "gzip9": 20168
+        },
+        {
+          "path": "assets/renderer-I_CY9WqS.js",
+          "raw": 7374,
+          "gzip9": 3089
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/ta-AugTLtE5.js",
+          "raw": 449678,
+          "gzip9": 102990
+        },
+        {
+          "path": "assets/zh-Hans-BJ1hixJO.js",
+          "raw": 206848,
+          "gzip9": 85542
+        },
+        {
+          "path": "pace-rag/assets/embedding-worker-DnxKJqeO.js",
+          "raw": 851258,
+          "gzip9": 215959
+        },
+        {
+          "path": "reading.js",
+          "raw": 1068,
+          "gzip9": 518
+        },
+        {
+          "path": "theme.js",
+          "raw": 1763,
+          "gzip9": 770
+        }
+      ],
+      "totalAssetBytes": 89234640
+    },
+    "candidate": {
+      "entry": {
+        "path": "assets/index-CoDq9d7l.js",
+        "raw": 210686,
+        "gzip9": 64496
+      },
+      "headroom": 4314,
+      "eager": [
+        {
+          "path": "assets/index-CoDq9d7l.js",
+          "raw": 210686,
+          "gzip9": 64496
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/i18n-core-CSoI-yRo.js",
+          "raw": 292120,
+          "gzip9": 71013
+        },
+        {
+          "path": "assets/i18n-vendor-CpbjYxqM.js",
+          "raw": 5234,
+          "gzip9": 2476
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        }
+      ],
+      "chunks": [
+        {
+          "path": "assets/CaseStudySummary-D8Ht4FOX.js",
+          "raw": 5700,
+          "gzip9": 2501
+        },
+        {
+          "path": "assets/DefenceRoute-Be63cIvc.js",
+          "raw": 28557,
+          "gzip9": 10338
+        },
+        {
+          "path": "assets/DefenceRoute-DK9n04FC.css",
+          "raw": 7343,
+          "gzip9": 1853
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-BrS01sLw.css",
+          "raw": 3372,
+          "gzip9": 1023
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-MgeyEwlt.js",
+          "raw": 22370,
+          "gzip9": 8067
+        },
+        {
+          "path": "assets/GameShell-DMun-OPk.js",
+          "raw": 47550,
+          "gzip9": 15145
+        },
+        {
+          "path": "assets/IncidentZeroRoute-C0JEqWeK.js",
+          "raw": 5924,
+          "gzip9": 2439
+        },
+        {
+          "path": "assets/IncidentZeroRoute-D7_mNOul.css",
+          "raw": 11576,
+          "gzip9": 2947
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-BzeQvVjD.js",
+          "raw": 46795,
+          "gzip9": 13903
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-Do2fVsHr.css",
+          "raw": 8098,
+          "gzip9": 1995
+        },
+        {
+          "path": "assets/NotFound-5BN4-w9-.css",
+          "raw": 2735,
+          "gzip9": 1017
+        },
+        {
+          "path": "assets/NotFound-dE-Cd0OD.js",
+          "raw": 4948,
+          "gzip9": 2408
+        },
+        {
+          "path": "assets/PaceAssistant-BqlOVwAg.css",
+          "raw": 4625,
+          "gzip9": 1457
+        },
+        {
+          "path": "assets/PaceAssistant-LJNNU74T.js",
+          "raw": 80819,
+          "gzip9": 26101
+        },
+        {
+          "path": "assets/PaceRagCaseStudy-BnYiUCCO.js",
+          "raw": 16579,
+          "gzip9": 5465
+        },
+        {
+          "path": "assets/PageLandscape-BalK4_Uo.js",
+          "raw": 489,
+          "gzip9": 300
+        },
+        {
+          "path": "assets/PortfolioGame-DO2-KZRZ.js",
+          "raw": 1197779,
+          "gzip9": 314451
+        },
+        {
+          "path": "assets/UtilityPanel-B-vePF6w.js",
+          "raw": 3948,
+          "gzip9": 1370
+        },
+        {
+          "path": "assets/WorkWithMe-Bip1vF3U.js",
+          "raw": 10761,
+          "gzip9": 3191
+        },
+        {
+          "path": "assets/ar-D29vuFA_.js",
+          "raw": 282176,
+          "gzip9": 91388
+        },
+        {
+          "path": "assets/config-DjNMDW_l.js",
+          "raw": 563,
+          "gzip9": 423
+        },
+        {
+          "path": "assets/de-DafPyUXx.js",
+          "raw": 244785,
+          "gzip9": 88767
+        },
+        {
+          "path": "assets/es-BVVfJIfL.js",
+          "raw": 243432,
+          "gzip9": 85280
+        },
+        {
+          "path": "assets/fr-PNytR808.js",
+          "raw": 249614,
+          "gzip9": 87081
+        },
+        {
+          "path": "assets/game-BC3gFQOH.js",
+          "raw": 8283,
+          "gzip9": 3506
+        },
+        {
+          "path": "assets/hi-eQndWGgu.js",
+          "raw": 387300,
+          "gzip9": 102042
+        },
+        {
+          "path": "assets/i18n-core-CSoI-yRo.js",
+          "raw": 292120,
+          "gzip9": 71013
+        },
+        {
+          "path": "assets/i18n-vendor-CpbjYxqM.js",
+          "raw": 5234,
+          "gzip9": 2476
+        },
+        {
+          "path": "assets/index-CoDq9d7l.js",
+          "raw": 210686,
+          "gzip9": 64496
+        },
+        {
+          "path": "assets/index-DoZfSIMM.css",
+          "raw": 79466,
+          "gzip9": 15751
+        },
+        {
+          "path": "assets/ja-pq_1bdNU.js",
+          "raw": 263330,
+          "gzip9": 94438
+        },
+        {
+          "path": "assets/layout.worker-D9ceUgfv.js",
+          "raw": 12782,
+          "gzip9": 4940
+        },
+        {
+          "path": "assets/module-DLmbbmaF.js",
+          "raw": 305055,
+          "gzip9": 100717
+        },
+        {
+          "path": "assets/ms-B4DVvBZW.js",
+          "raw": 230351,
+          "gzip9": 81072
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        },
+        {
+          "path": "assets/portfolioMotion-7hn0UuyM.js",
+          "raw": 4773,
+          "gzip9": 1737
+        },
+        {
+          "path": "assets/pt-BR--mmKGZ31.js",
+          "raw": 240427,
+          "gzip9": 84353
+        },
+        {
+          "path": "assets/renderer-BumnWz5L.js",
+          "raw": 51206,
+          "gzip9": 20168
+        },
+        {
+          "path": "assets/renderer-I_CY9WqS.js",
+          "raw": 7374,
+          "gzip9": 3089
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/ta-AugTLtE5.js",
+          "raw": 449678,
+          "gzip9": 102990
+        },
+        {
+          "path": "assets/zh-Hans-BJ1hixJO.js",
+          "raw": 206848,
+          "gzip9": 85542
+        },
+        {
+          "path": "pace-rag/assets/embedding-worker-DnxKJqeO.js",
+          "raw": 851258,
+          "gzip9": 215959
+        },
+        {
+          "path": "reading.js",
+          "raw": 1068,
+          "gzip9": 518
+        },
+        {
+          "path": "theme.js",
+          "raw": 1763,
+          "gzip9": 770
+        }
+      ],
+      "totalAssetBytes": 87742498
+    },
+    "samples": [
+      {
+        "name": "baseline",
+        "run": 0,
+        "ready": 522.8999999761581,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/index-lfDfMnLC.js",
+            "transfer": 66179,
+            "encoded": 65879,
+            "decoded": 214958,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.171838
+          },
+          {
+            "name": "TaskDuration",
+            "value": 1.032893
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 15826680
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "candidate",
+        "run": 0,
+        "ready": 467.39999997615814,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/index-CoDq9d7l.js",
+            "transfer": 64962,
+            "encoded": 64662,
+            "decoded": 210686,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.161229
+          },
+          {
+            "name": "TaskDuration",
+            "value": 1.907276
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 11932940
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "baseline",
+        "run": 1,
+        "ready": 494.39999997615814,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/index-lfDfMnLC.js",
+            "transfer": 66179,
+            "encoded": 65879,
+            "decoded": 214958,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.166629
+          },
+          {
+            "name": "TaskDuration",
+            "value": 1.347597
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 14878256
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "candidate",
+        "run": 1,
+        "ready": 1282.3999999761581,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-CoDq9d7l.js",
+            "transfer": 64962,
+            "encoded": 64662,
+            "decoded": 210686,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.298611
+          },
+          {
+            "name": "TaskDuration",
+            "value": 2.270941
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 10904504
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "baseline",
+        "run": 2,
+        "ready": 327.80000001192093,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-lfDfMnLC.js",
+            "transfer": 66179,
+            "encoded": 65879,
+            "decoded": 214958,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.137382
+          },
+          {
+            "name": "TaskDuration",
+            "value": 1.429641
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 12023344
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "candidate",
+        "run": 2,
+        "ready": 368.80000001192093,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-CoDq9d7l.js",
+            "transfer": 64962,
+            "encoded": 64662,
+            "decoded": 210686,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.128577
+          },
+          {
+            "name": "TaskDuration",
+            "value": 1.433499
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 11682048
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "checks": [
+      "Input loads motion; contact remains reachable",
+      "Input loads motion; contact remains reachable",
+      "Input loads motion; contact remains reachable",
+      "reduced: content, native disclosure and error-free fallback",
+      "blocked: content, native disclosure and error-free fallback"
+    ],
+    "scope": "Cold isolated local Chrome contexts; Vite preview, identical viewport and cache settings. Timings/heap are noisy lab observations, not causal speed or memory claims."
+  },
+  "pdfChecks": [
+    {
+      "document": "resume",
+      "file": "Mohd-Paramasvara-Resume.pdf",
+      "pages": 2,
+      "bytes": 90339,
+      "sha256": "9331a420238a72fb57d1814853481287d35b2bad5ce4f3916e92319f905f4d74",
+      "textCharacters": 4891,
+      "outOfPageGlyphs": 0,
+      "visualReview": "All final pages inspected; no visible clipping or overlapping text. Existing template and font settings retained."
+    },
+    {
+      "document": "cv",
+      "file": "Mohd-Paramasvara-Full-CV-verified-5-pages.pdf",
+      "pages": 5,
+      "bytes": 153255,
+      "sha256": "20dd957ead17e457a9186fda3ce56edbf501d41f4b1a49b9e1af073a2b2d4d31",
+      "textCharacters": 12733,
+      "outOfPageGlyphs": 0,
+      "visualReview": "All final pages inspected; no visible clipping or overlapping text. Existing template and font settings retained."
+    }
+  ],
+  "browser": {
+    "focused": {
+      "layouts": 90,
+      "localizedOwnership": 44,
+      "noJavaScript": 11,
+      "axe": 5,
+      "errors": 0,
+      "journeys": 4
+    },
+    "locales": {
+      "layouts": 88,
+      "scenarios": 9,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0,
+      "datePeriods": 11,
+      "assistantChecks": 11
+    }
+  },
+  "staticAudit": {
+    "routes": 108,
+    "issues": [],
+    "sourceFingerprint": "6a41b9a67f9423edf73e8f0f56fe89ef528113653802cfa641efdff846dc0c2e",
+    "artifactFingerprint": "179d2bb09b94f53e0024ec96c19858291a46facfc95cd141de29f4e808bbe401"
+  },
+  "cleanup": {
+    "movedBuildOnlySourceBytes": 1452097,
+    "movedUnusedSmallPortraitBytes": 28250,
+    "preservedSourceHash": "ca1566fc68daddb96667c0b1205bcc754b0b62e13196907a6155d27db99750e1",
+    "publicInventoryCount": 69,
+    "totalArtifactBytesBefore": 89234640,
+    "totalArtifactBytesAfter": 87742498,
+    "note": "Transient career exports and Finder metadata moved to ignored output; no source records deleted. Artifact size reduction is not startup transfer reduction."
+  },
+  "gates": {
+    "build": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "tests": "210 PASS",
+    "i18nValidation": "PASS, 97 retained editorial warnings",
+    "i18nCoverage": "11 complete catalogs, 1565 canonical units, zero missing/stale",
+    "dateAudit": "PASS",
+    "artwork": "PASS, 11 packs",
+    "publicAssets": "PASS",
+    "careerPresence": "PASS against public captures and final PDF text",
+    "workflow": "js-yaml parse and structural assertions PASS; actionlint unavailable",
+    "whitespace": "PASS excluding original owner whitespace"
+  },
+  "limits": [
+    "Preferred 10KB and stretch 20KB entry headroom not achieved; actual headroom 4314 bytes.",
+    "No measured speedup, memory improvement or RUM Core Web Vitals claim.",
+    "No real reviewer feedback received; empty register.",
+    "No physical device, screen reader or qualified language certification.",
+    "Original analytics dashboard and exact HRMS enhancement attribution unavailable."
+  ],
+  "rawEvidence": "Ignored output/playwright/palda-v1.2/",
+  "closeout": {
+    "date": "2026-10-24",
+    "status": "COMPLETE_WITH_DOCUMENTED_LIMITS",
+    "report": "docs/portfolio/PALDA_V1_2.md",
+    "publication": "Repository changes remain uncommitted and unpushed; no deployment performed."
+  },
+  "publicationFollowUp": {
+    "date": "2026-10-24",
+    "authorization": "Owner explicitly requested structured commits and push to origin.",
+    "snapshotPolicy": "Original initial/final HEAD and publication fields preserve pre-commit validation state. Consult Git history and origin/main for subsequent commit/push status.",
+    "deployment": "Existing Cloudflare Git integration may run after push; no deployment success or parity claimed.",
+    "excluded": [
+      "docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md owner whitespace",
+      ".playwright-cli initial snapshots",
+      "ignored raw outputs and career exports"
+    ]
+  }
+}

@@ -4,6 +4,27 @@
 
 Machine-readable results: [portfolio-production-polish-closeout-v1.json](../../verification/portfolio-production-polish-closeout-v1.json). Career matrix and exact external replacements: [CAREER_ARTIFACT_ALIGNMENT_PENDING.md](CAREER_ARTIFACT_ALIGNMENT_PENDING.md).
 
+## Closeout follow-up — 24 October 2026
+
+**CLOSED WITH DOCUMENTED REVIEW AND PUBLICATION LIMITS.** The original 23 October findings, measurements and safety statements below are a historical snapshot, not the current cumulative status. The subsequent [PALDA v1.2 closeout](PALDA_V1_2.md) and [verification manifest](../../verification/portfolio-career-performance-v1.2.json) record the completed follow-up work.
+
+| Previous outstanding item | Current disposition |
+| --- | --- |
+| External WenSymes qualifier, Centre title, AI summaries and CV spelling | Applied through Reactive Resume and publicly verified in v1.2; exact amendments in [the career matrix](CAREER_ALIGNMENT_V1_2.md) |
+| Career document outcomes and PDF quality | Approved outcomes added; final résumé two pages / CV five pages, selectable text and all pages visually checked |
+| Narrow JavaScript budget margin | Entry reduced from the fresh v1.2 baseline 214,958 to 210,686 raw bytes; 4,314 bytes headroom. Preferred 10 KB target remains unmet |
+| Images and documents entering deployment unnecessarily | Build-only original SVG and unused small portrait moved to `assets/source/`; transient exports and Finder metadata moved out of public. Artifact reduced by 1,492,142 bytes; active images preserved |
+| Repeat accidental public-file publication | Reviewed 69-file inventory enforced before build; latest check has zero unexpected/missing assets |
+| Hosting responsibility | Cloudflare Pages confirmed by owner as primary provider. GitHub Actions converted locally to CI-only; no Cloudflare settings changed |
+| Recruiter validation | Neutral feedback kit and empty response register prepared; no real feedback or outreach claimed |
+| Qualified language/device/assistive-technology review | Still pending; automated checks do not certify these |
+| WenSymes primary-engagement end / historical HRMS enhancement attribution | No unsupported dates or attribution inferred; occasional collaboration and project/employment distinction retained |
+| Publication and deployment parity | V1.2 repository changes remain uncommitted/unpushed; no v1.2 deployment or live artifact parity established |
+
+Publication authorization follow-up: the owner has now authorized meaningful grouped commits and a push to origin. The status table above records the completed implementation before those commits. Git history and `origin/main` establish subsequent commit/push state; Cloudflare deployment outcome remains separate and unverified.
+
+Recorded v1.2 validation: production build, typecheck, lint, 210 tests, 108 static routes, eleven complete locale catalogs, focused browser and locale matrices pass. The exact source/artifact scope and limitations are in the current report. Earlier tasks' commits do not imply publication of these new changes. The original owner whitespace and nine snapshots remain preserved.
+
 ## Freeze, inventory and baseline
 
 Initial worktree contained an owner whitespace change in `docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md` and nine untracked `.playwright-cli` snapshots. They remain untouched. No reset, clean, commit, push or deployment occurred. Recent commits already reconciled chronology, consolidated education work, verified localized career dates and documented source evidence (`e6ea365`, `3cd376e`, `b0f2127`, `00584e3`, `fa15408`, `3991232`).
