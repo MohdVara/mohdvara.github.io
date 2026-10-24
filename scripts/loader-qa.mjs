@@ -5,7 +5,7 @@ import {resolve} from "node:path";
 const require=createRequire(resolve(process.env.QA_MODULES_DIR||".","package.json"));
 const {chromium}=require("playwright");
 const base=process.env.QA_URL||"http://127.0.0.1:4173";
-const output="output/playwright/loader";
+const output=process.env.QA_OUTPUT||"output/playwright/loader";
 await mkdir(output,{recursive:true});
 const registry=JSON.parse(await readFile("src/i18n/languages.json","utf8"));
 const browser=await chromium.launch({channel:"chrome",headless:true});
