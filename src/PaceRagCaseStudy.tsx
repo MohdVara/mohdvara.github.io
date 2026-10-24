@@ -1,3 +1,4 @@
+import BuildRevision from "./BuildRevision";
 import CaseStudyQuickRead from "./CaseStudySummary";
 import { VerticalText } from "./i18n/controls";
 import { localizedHref } from "./i18n/config";
@@ -64,5 +65,5 @@ export default function PaceRagCaseStudy() {
     <p>{text("Start with the Lab’s three separated knowledge views, then inspect a result’s matched questions, supporting sources and resource usage. Fictional documents and simulated failures are explicitly labelled. Production security and inference availability must be evaluated separately before applying this design to confidential material.")}</p>
     <p><a href={localizedHref("/work-with-me/#engagement-fit")}>{text("Explore an engagement approach")}</a> · <a href={localizedHref("/#contact")}>{text("Discuss an engineering problem")}</a></p>
     </section></PageLandscape>
-  </main></>;
+  </main><footer className="container footer"><BuildRevision /></footer></>;
 }

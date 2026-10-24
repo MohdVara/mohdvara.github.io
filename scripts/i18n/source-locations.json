@@ -379,6 +379,12 @@
   "Paused to follow your device’s reduced motion setting.": [
     "src/AsciiForest/SceneryControl.tsx"
   ],
+  "View source on GitHub": [
+    "src/BuildRevision.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/PublicEngineering.tsx",
+    "src/features/incident-zero/EndingScreen.tsx"
+  ],
   "30-second overview": [
     "src/CaseStudyQuickRead.tsx"
   ],
@@ -637,11 +643,6 @@
   ],
   "Public source and recorded verification are available for inspection. Source publication does not authorize application deployment; security and provider acceptance remain blocked or unverified.": [
     "src/EngineeringCaseStudy.tsx"
-  ],
-  "View source on GitHub": [
-    "src/EngineeringCaseStudy.tsx",
-    "src/PublicEngineering.tsx",
-    "src/features/incident-zero/EndingScreen.tsx"
   ],
   "MMCATS Modern": [
     "src/EngineeringCaseStudy.tsx",

@@ -1,3 +1,4 @@
+import BuildRevision from "./BuildRevision";
 import CaseStudyQuickRead from "./CaseStudySummary";
 import { VerticalText } from "./i18n/controls";
 import { localizedHref } from "./i18n/config";
@@ -247,6 +248,6 @@ export default function NoTwoMondaysCaseStudy() {
         <p>{text("Only aggregate evidence and spoiler-safe descriptions are reproduced here. Private chat transcripts, raw traversal traces, puzzle solutions, hidden conditions and real ending titles are not published.")}</p>
       </section></PageLandscape>
     </main>
-    <footer className="container footer"><p>{text("© Mohd. Paramasvara")}</p><p>{text("Based in Borneo. Building beyond it.")}</p><a href={localizedHref("/")}>{text("Back to portfolio ↗")}</a></footer>
+    <footer className="container footer"><p>{text("© Mohd. Paramasvara")}</p><p>{text("Based in Borneo. Building beyond it.")}</p><a href={localizedHref("/")}>{text("Back to portfolio ↗")}</a><BuildRevision /></footer>
   </>;
 }

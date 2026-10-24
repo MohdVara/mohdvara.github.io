@@ -1251,5 +1251,23 @@
     "errors": [],
     "qualifiedLanguageReview": "Pending",
     "scope": "Preserves English-only Q&A, source hashes, disclosure, RTL, CJK vertical and Tamil; not fluent/physical-device certification."
+  },
+  "footerBuildRevision": {
+    "date": "2026-10-24",
+    "implementation": "Build-time Cloudflare/GitHub checkout SHA, with local Git fallback; validated full SHA links to the GitHub commit and displays seven characters. Missing metadata hides the link.",
+    "localization": "Reuses existing View source on GitHub translation; 1574 canonical units unchanged, zero pending/missing/stale. Hash is untranslated and LTR.",
+    "checks": {
+      "typecheck": "PASS",
+      "lint": "PASS",
+      "build": "PASS",
+      "tests": 214,
+      "staticRoutes": 108,
+      "revisionResolutionCases": 5,
+      "responsiveFooter": "Desktop and 320px; English/Arabic; five updated page types; full commit URL and keyboard focus pass; light/dark screenshots inspected.",
+      "localeBrowserMatrix": "PASS: 88 layouts, nine switching/history scenarios, eleven period groups and eleven English-only assistant checks; zero page errors, missing rendered units or provider requests."
+    },
+    "entryRawBytes": 211148,
+    "budgetRawBytes": 215000,
+    "publication": "Validation recorded before publication. Owner subsequently authorized commit and push to origin on 24 October 2026; consult Git history and origin/main for publication state. Deployment outcome remains unverified."
   }
 }

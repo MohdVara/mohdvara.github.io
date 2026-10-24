@@ -1140,3 +1140,25 @@ h3 {
 .rag-case-study th, .rag-case-study td { text-align: start; padding: .5rem; border-bottom: 1px solid var(--border); overflow-wrap: anywhere; vertical-align: top; }
 .rag-case-study caption { text-align: start; margin-block: 1rem; }
 
+
+/* Build provenance follows the footer's quiet editorial treatment. */
+.footer { flex-wrap: wrap; }
+.footer > .build-revision {
+  flex-basis: 100%;
+  order: 4;
+  margin-inline-start: 0;
+  justify-content: flex-start;
+  font-size: 0.6875rem;
+}
+.build-revision {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  color: var(--muted);
+  font-size: 0.6875rem;
+}
+.build-revision code { font-size: inherit; }
+.build-revision:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.engineering-case footer .build-revision { display: flex; margin-block-start: 0.5rem; }

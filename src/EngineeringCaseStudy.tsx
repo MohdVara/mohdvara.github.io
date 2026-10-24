@@ -1,3 +1,4 @@
+import BuildRevision from "./BuildRevision";
 import { useState } from "react";
 import { Navigation } from "./App";
 import { PageLandscape } from "./AsciiForest/PageLandscape";
@@ -138,7 +139,7 @@ export default function EngineeringCaseStudy() {
       </header></PageLandscape>
       <CaseStudyQuickRead study={study} />
       {study === "mmcats-modern" ? <Mmcats /> : study === "naae" ? <Naae /> : <Multilingual />}
-      <footer><a href={localizedHref("/#public-engineering")}>{text("Return to public engineering")}</a></footer>
+      <footer><a href={localizedHref("/#public-engineering")}>{text("Return to public engineering")}</a><BuildRevision /></footer>
     </main>
   </>;
 }

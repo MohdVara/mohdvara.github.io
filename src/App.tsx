@@ -1,3 +1,4 @@
+import BuildRevision from "./BuildRevision";
 import { useOptionalMotion } from "./useOptionalMotion";
 import CaseStudyQuickRead from "./CaseStudyQuickRead";
 import { useExperience } from "./i18n/context";
@@ -528,6 +529,7 @@ function App() {
         <p>{text("Based in Borneo. Building beyond it.")}</p>
         <a href="#home">{text("Back to top ")}<span aria-hidden="true">↑</span>
         </a>
+        <BuildRevision />
       </footer>
     </>
   );

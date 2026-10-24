@@ -1,3 +1,4 @@
+import BuildRevision from "./BuildRevision";
 import { useOptionalMotion } from "./useOptionalMotion";
 import { VerticalText } from "./i18n/controls";
 import { localizedHref } from "./i18n/config";
@@ -60,6 +61,6 @@ export default function WorkWithMe() {
         </div>
       </section></PageLandscape>
     </main>
-    <footer className="container footer"><p>{text("© Mohd. Paramasvara")}</p><p>{text("Based in Borneo. Building beyond it.")}</p><a href={localizedHref("/")}>{text("Back to portfolio ")}<span aria-hidden="true">↗</span></a></footer>
+    <footer className="container footer"><p>{text("© Mohd. Paramasvara")}</p><p>{text("Based in Borneo. Building beyond it.")}</p><a href={localizedHref("/")}>{text("Back to portfolio ")}<span aria-hidden="true">↗</span></a><BuildRevision /></footer>
   </>;
 }
