@@ -36,7 +36,7 @@ After permission, page views and page leaves are collected alongside `section_vi
 
 Session recording is disabled, including when the legacy `VITE_POSTHOG_SESSION_REPLAY` environment variable is set. Re-enabling it requires a separate privacy/consent review and a deliberate implementation change. No gameplay action stream or form content is recorded by this portfolio adapter.
 
-For GitHub Actions, configure repository **Settings → Secrets and variables → Actions → Variables** with `VITE_POSTHOG_PROJECT_TOKEN` and `VITE_POSTHOG_HOST`; the Pages build step reads them. For Cloudflare Git builds, add them to the production build environment variables. For CLI deployment, `.env.local` supplies the values. Changing values requires rebuilding and deploying. Verify in PostHog Activity after an explicitly opted-in production visit without DNT/GPC; check the named events by opening a case study and following a résumé or booking link.
+For GitHub Actions, configure repository **Settings → Secrets and variables → Actions → Variables** with `VITE_POSTHOG_PROJECT_TOKEN` and `VITE_POSTHOG_HOST`; the CI build step reads them. For Cloudflare Git builds, add them to the production build environment variables. For CLI deployment, `.env.local` supplies the values. Changing values requires rebuilding and deploying. Verify in PostHog Activity after an explicitly opted-in production visit without DNT/GPC; check the named events by opening a case study and following a résumé or booking link.
 
 Configuration follows the [PostHog JavaScript SDK documentation](https://posthog.com/docs/libraries/js/config).
 
@@ -82,23 +82,15 @@ Desktop pointer response remains restricted to the hero backdrop, capped at 3px.
 
 Do not add fictional metrics, sample employers or unverified project stacks. Current case panels summarize real functions and do not claim to be product screenshots. Update metadata and sitemap together if the domain changes. The social card is 1200 × 630 pixels; keep it aligned with current positioning.
 
-## GitHub Pages
+## Repository CI
 
-`.github/workflows/pages.yml` validates, builds and uploads `dist`. Pull requests build without deploying. Main pushes and manual dispatches deploy through the GitHub Pages environment.
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) is **CI-only** despite its historical filename. Pushes to `main`, pull requests and manual runs install locked dependencies, type-check, lint, build, validate localization and strict coverage, run tests, audit dates/artwork and audit static routes. Actions remain pinned; the workflow has read-only repository permissions and no Pages artifact or deployment job.
 
-For this workflow, set **Settings → Pages → Source → GitHub Actions**. The workflow and source setting have not been published or changed remotely by this task. Existing CNAME was recovered from the gh-pages branch and preserved in `public/CNAME`.
-
-The existing branch deployment command also remains available:
-
-```sh
-npm run deploy
-```
-
-It builds and publishes `dist` to gh-pages. Choose either Actions deployment or branch deployment, not both. The homepage uses hash section links; `/work-with-me/` has its own generated `index.html`, so direct visits and refreshes work on static hosting. There is no router library, backend or contact-form service. Optional PostHog tracking is configured as described above.
+Cloudflare Pages is the production deployment mechanism. Its existing Git integration is independent of GitHub Actions. A green CI run does not prove a Cloudflare deployment or artifact parity. Historical GitHub Pages deployment failures do not describe Cloudflare health. The legacy manual `npm run deploy` command targets GitHub Pages; it is not part of CI or the production procedure.
 
 ## Cloudflare Pages
 
-Both providers use the same prerendered `dist` output. `wrangler.toml` declares the Pages project name (`mohdvara-portfolio`) and output directory; change the name if your project has a different name. No Worker or Pages Functions are required.
+Production uses the prerendered `dist` output. `wrangler.toml` declares the Pages project name (`mohdvara-portfolio`) and output directory; change the name if your project has a different name. No Worker or Pages Functions are required.
 
 ### Deploy from GitHub
 
@@ -319,3 +311,7 @@ node scripts/pace-live-qa.mjs
 ```
 
 Use `QA_MODULES_DIR` for the optional Playwright/axe installation. Layout and navigation suites accept `QA_BROWSER=firefox` or `webkit` when those engines are installed (set `PLAYWRIGHT_BROWSERS_PATH` for a temporary engine directory). Live QA checks the currently deployed version read-only; it does not publish or validate undeployed changes. Engine/default-platform keyboard differences and incomplete accessibility checks are recorded in QA.
+
+## Public asset hygiene
+
+`npm run assets:check` checks the reviewed inventory in `scripts/public-assets.json`; the production build runs it before copying public assets. Store downloaded career documents, raw captures and diagnostics in ignored output, never in `public/`. Vite copies files from `public/` into every deployment whether the UI references them or not. Keep build-only portrait originals in `assets/source/`; the active refined portrait remains in `public/images/`. Add a new public asset to the inventory only after reviewing its publication purpose and references. Generated PACE-RAG assets are separately verified from the pinned package during the build. Repository `docs/`, `verification/`, `archive/` and `assets/source/` are not copied into `dist`.
