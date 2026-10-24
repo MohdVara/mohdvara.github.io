@@ -84,6 +84,7 @@ try {
       assert.equal(position.direction,item.direction);
       assert.equal(await disclaimer.getAttribute('role'),null,'static notice is not an alert');
       await page.reload({waitUntil:'networkidle'});
+      await page.waitForFunction(locale => document.documentElement.dataset.localeReady === locale, item.locale);
       assert.equal(await page.locator('.translation-notice').count(),1,'notice persists after refresh');
       await toggleLanguage(page);
       const catalog=JSON.parse(await readFile(`src/i18n/locales/${item.locale}.json`,'utf8'));
