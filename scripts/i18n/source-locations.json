@@ -2025,7 +2025,7 @@
   "Backend and frontend normalization brings different provider rates into a consistent interface.": [
     "src/SystemDiagrams.tsx"
   ],
-  "External insurer APIs and internal services connect quotation and policy issuance for teams and partners.": [
+  "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": [
     "src/SystemDiagrams.tsx"
   ],
   "A shared HR system supports the corporate structures of multiple companies.": [
@@ -2458,10 +2458,10 @@
   "PolicyStreet — Insurance Comparison Platform": [
     "src/content.ts"
   ],
-  "Internal teams and partners needed consistent quoting and issuance across different insurers.": [
+  "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": [
     "src/content.ts"
   ],
-  "Connected insurer quotations and policy issuance for internal teams and partners.": [
+  "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": [
     "src/content.ts"
   ],
   "Multiple insurance providers": [
@@ -2494,7 +2494,7 @@
   "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability.": [
     "src/content.ts"
   ],
-  "Supported fast quotation workflows with rate normalization and integrated issuance for internal teams and partners, while accommodating expiry and changes affecting quotations.": [
+  "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": [
     "src/content.ts"
   ],
   "Principal Full Stack Developer": [

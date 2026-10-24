@@ -9639,6 +9639,30 @@
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ar": {
@@ -19277,6 +19301,30 @@
       "Compare architectural options, resource needs, costs and risks with stakeholders, then recommend a workable approach for the business.": {
         "status": "machine_translated",
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -28919,6 +28967,30 @@
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "zh-Hans": {
@@ -38559,6 +38631,30 @@
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "es": {
@@ -48197,6 +48293,30 @@
       "Compare architectural options, resource needs, costs and risks with stakeholders, then recommend a workable approach for the business.": {
         "status": "machine_translated",
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -57841,6 +57961,30 @@
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "de": {
@@ -67479,6 +67623,30 @@
       "Compare architectural options, resource needs, costs and risks with stakeholders, then recommend a workable approach for the business.": {
         "status": "machine_translated",
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -77123,6 +77291,30 @@
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "hi": {
@@ -86763,6 +86955,30 @@
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ta": {
@@ -96401,6 +96617,30 @@
       "Compare architectural options, resource needs, costs and risks with stakeholders, then recommend a workable approach for the business.": {
         "status": "machine_translated",
         "sourceHash": "8995a6225f5036888969b5f5d005e2978365b465bc3f2f3866dc64fb4d110b8b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a04fc16f736d7bb892f1521a18e587aebfb7a6678401c1d09fe1254eceda58c5",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "a4748e22eab8626d89bc267246ae66d9734a46bff737b824fd08cbde4cd1c105",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations.": {
+        "status": "machine_translated",
+        "sourceHash": "9dd6f6a28f2b05d7108205a32ae60126d74d3d406e62225d508442ad43ba49f7",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners.": {
+        "status": "machine_translated",
+        "sourceHash": "ce74fd9f999b562d47a8d11f3e34bacc897930e142f60a3fcdd26a602df0a918",
         "provider": "development-assistant",
         "model": "session-assistant"
       }

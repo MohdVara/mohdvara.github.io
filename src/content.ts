@@ -57,9 +57,9 @@ const projectContent: Project[] = [
     period: "Apr 2019 — Apr 2021",
     title: "PolicyStreet — Insurance Comparison Platform",
     summary:
-      "Internal teams and partners needed consistent quoting and issuance across different insurers.",
+      "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.",
     result:
-      "Connected insurer quotations and policy issuance for internal teams and partners.",
+      "Connected insurer quotations and policy issuance for consumers, large commercial clients, internal teams and partners.",
     functions: [
       "Multiple insurance providers",
       "Normalized quotations",
@@ -72,7 +72,7 @@ const projectContent: Project[] = [
       ["Key Engineering Decision", "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers."],
       ["Business rules", "Quotations expire after seven days. Changes to customer information that affect quotation terms require quotation revision. Caching and pre-warming do not exempt quotations from these validity requirements."],
       ["Constraints & approach", "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability."],
-      ["Delivered Capability", "Supported fast quotation workflows with rate normalization and integrated issuance for internal teams and partners, while accommodating expiry and changes affecting quotations."],
+      ["Delivered Capability", "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations."],
     ],
     stack: [],
   },

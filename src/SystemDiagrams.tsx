@@ -7,7 +7,7 @@ import { capabilities, projects } from "./content";
 const explanations: Record<string, string[]> = {
   campus: ["Modernisation work on an established education platform.", "Full-stack development alongside technical leadership.", "Maintainability and ongoing delivery guide the engineering work."],
   wensymes: ["HR and administration application development.", "Hands-on full-stack engineering within a principal developer role.", "Technical ownership, with internal workflows and implementation details kept private."],
-  insurance: ["Rate fetching across multiple insurance providers and product types.", "Backend and frontend normalization brings different provider rates into a consistent interface.", "External insurer APIs and internal services connect quotation and policy issuance for teams and partners."],
+  insurance: ["Rate fetching across multiple insurance providers and product types.", "Backend and frontend normalization brings different provider rates into a consistent interface.", "External insurer APIs and internal services connect quotation and policy issuance for consumers, large commercial clients, internal teams and partners."],
   hr: ["A shared HR system supports the corporate structures of multiple companies.", "Leave entitlements can be configured around each company’s policies.", "Attendance policies and HR workflows adapt to the organization rather than one fixed process."],
   rental: ["Reliable multi-entity data structures connect properties, tenants, and contracts.", "Contract generation, payment tracking, renewals, and cancellations support day-to-day operations.", "Property-level income, expenses, and profit/loss reporting covers more than 20 properties."],
 };
