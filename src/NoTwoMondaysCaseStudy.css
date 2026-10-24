@@ -117,3 +117,7 @@
 :root[data-text-size="largest"] .ntm-visual-history, :root[data-text-size="largest"] .ntm-dialogue-excerpts { grid-template-columns: minmax(0, 1fr); }
 :root[data-text-size="largest"] .ntm-diagnostic-branches { grid-template-columns: minmax(0, 1fr); }
 :root[data-text-size="largest"] .ntm-flow li::after { display: none; }
+
+.evidence-details { border-block: 1px solid var(--line); margin-block: 32px; padding-block: 16px; }
+.evidence-details > summary { cursor: pointer; min-height: 44px; padding-block: 8px; font-weight: 600; }
+.evidence-details > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }

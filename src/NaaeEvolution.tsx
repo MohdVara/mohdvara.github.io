@@ -22,6 +22,7 @@ export default function NaaeEvolution() {
   const [left,setLeft] = useState(0), [right,setRight] = useState(1), [zoom,setZoom] = useState(100);
   return <div className="evolution-explorer">
     <p>{text("v0.1 is documented as an object-based allocator; no verified v0.1 output is shown. Compare saved stages side by side. Framing and rendering settings differ, so this is not a controlled visual-quality benchmark.")}</p>
+    <p>{text("Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.")}</p>
     <div className="evolution-controls">
       {([ ["Earlier stage",left,setLeft], ["Comparison stage",right,setRight] ] as const).map(([label,value,set], side) => <fieldset key={label}><legend>{text(label)}</legend><div className="evolution-stages">{artifacts.map((item,index) => <label key={item.id}><input type="radio" name={`evolution-stage-${side}`} value={index} checked={value === index} onChange={() => set(index)} /><bdi>{item.id}</bdi></label>)}</div></fieldset>)}
       <label>{text("Detail zoom")} <input type="range" min="100" max="400" step="25" value={zoom} onChange={event => setZoom(Number(event.target.value))} /> <output dir="ltr">{zoom}%</output></label>

@@ -17,6 +17,7 @@ const titles = {
 function Mmcats() {
   return <>
     <section id="architecture"><h2>{text("Behavior before replacement")}</h2>
+      <p>{text("Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.")}</p>
       <p>{text("Static legacy source shows Rails 4.1.8, Devise, SQLite, company/division/staff relationships and file attachments. The original application was not booted; real historical data was not migrated.")}</p>
       <p>{text("The modernization inventories behavior, defines parity contracts and makes ambiguous business policies explicit. PostgreSQL constraints protect relationships; lifecycle events retain actor/action history. MYR financial rules, Malaysian historical-time interpretation and UTC event timestamps have separate contracts.")}</p>
       <ol className="engineering-flow" aria-label={text("Modern architecture")}>
@@ -96,6 +97,16 @@ function Naae() {
       <p>{text("The canonical project name is Narrative ASCII Art Engine. Local documentation describes v0.1 object allocation and v0.2 layered landscapes. Saved v0.2, v0.3 and v0.4 outputs support the comparisons below; no Git history or tags were available to establish release dates.")}</p>
       <NaaeEvolution />
     </section>
+    <section id="architecture"><h2>{text("Protect the story, then compose the texture")}</h2>
+      <ol className="engineering-flow" aria-label={text("Artwork generation pipeline")}>
+        <li>{text("Seeded scene graph → layered geometry and spatial regions")}</li>
+        <li>{text("Physical budget → exact narrative allocation and source indices")}</li>
+        <li>{text("Eligible cells → coverage, semantic glyphs and independent intensity")}</li>
+        <li>{text("Integrity diagnostics → SVG text, PNG and scene configuration")}</li>
+      </ol>
+      <p>{text("Coverage counts visibly occupied eligible cells; protected narrative spaces are excluded. Intensity controls appearance independently of occupancy. Pixel-Hybrid adds stepped geometry and tile-coherent glyph selection while sharing narrative protection. Diagnostics are engineering checks, not aesthetic quality scores.")}</p>
+      <p id="naae-limitations">{text("The studio/package v0.4 label is separate from rendererVersion: Organic uses 0.3.0; Pixel-Hybrid uses 0.4.0. Scene mode is experimental. Supported text is measured Latin ASCII; physical print quality and a public studio release are pending.")}</p>
+    </section>
     <section id="visual-identity"><h2>{text("Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits")}</h2>
       <p>{text("A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.")}</p>
       <p>{text("Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.")}</p>
@@ -112,16 +123,7 @@ function Naae() {
       <p>{text("Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.")}</p>
       <p><a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_404_EXPERIENCE_V1.md">{text("Inspect the evidence")}</a></p>
     </section>
-    <section id="architecture"><h2>{text("Protect the story, then compose the texture")}</h2>
-      <ol className="engineering-flow" aria-label={text("Artwork generation pipeline")}>
-        <li>{text("Seeded scene graph → layered geometry and spatial regions")}</li>
-        <li>{text("Physical budget → exact narrative allocation and source indices")}</li>
-        <li>{text("Eligible cells → coverage, semantic glyphs and independent intensity")}</li>
-        <li>{text("Integrity diagnostics → SVG text, PNG and scene configuration")}</li>
-      </ol>
-      <p>{text("Coverage counts visibly occupied eligible cells; protected narrative spaces are excluded. Intensity controls appearance independently of occupancy. Pixel-Hybrid adds stepped geometry and tile-coherent glyph selection while sharing narrative protection. Diagnostics are engineering checks, not aesthetic quality scores.")}</p>
-      <p id="naae-limitations">{text("The studio/package v0.4 label is separate from rendererVersion: Organic uses 0.3.0; Pixel-Hybrid uses 0.4.0. Scene mode is experimental. Supported text is measured Latin ASCII; physical print quality and a public studio release are pending.")}</p>
-    </section>
+
   </>;
 }
 export default function EngineeringCaseStudy() {

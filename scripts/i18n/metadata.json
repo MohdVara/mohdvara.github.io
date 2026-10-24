@@ -9723,6 +9723,60 @@
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ar": {
@@ -19445,6 +19499,60 @@
       "Historical production analytics recorded real-user activity. I recall a peak of approximately 15,000 distinct users within one hour; the original dashboard is not available for independent corroboration. This is an approximate historical recollection, not a concurrency, request-throughput or load-test measurement.": {
         "status": "machine_translated",
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -29171,6 +29279,60 @@
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "zh-Hans": {
@@ -38895,6 +39057,60 @@
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "es": {
@@ -48617,6 +48833,60 @@
       "Historical production analytics recorded real-user activity. I recall a peak of approximately 15,000 distinct users within one hour; the original dashboard is not available for independent corroboration. This is an approximate historical recollection, not a concurrency, request-throughput or load-test measurement.": {
         "status": "machine_translated",
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -58345,6 +58615,60 @@
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "de": {
@@ -68067,6 +68391,60 @@
       "Historical production analytics recorded real-user activity. I recall a peak of approximately 15,000 distinct users within one hour; the original dashboard is not available for independent corroboration. This is an approximate historical recollection, not a concurrency, request-throughput or load-test measurement.": {
         "status": "machine_translated",
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -77795,6 +78173,60 @@
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "hi": {
@@ -87519,6 +87951,60 @@
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ta": {
@@ -97241,6 +97727,60 @@
       "Historical production analytics recorded real-user activity. I recall a peak of approximately 15,000 distinct users within one hour; the original dashboard is not available for independent corroboration. This is an approximate historical recollection, not a concurrency, request-throughput or load-test measurement.": {
         "status": "machine_translated",
         "sourceHash": "0b5621e20aabc62179ca9a319830bb8c8e2cb06582253a92042b119e5dde215b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "c8e6c871f44f62c74923be2e44d987cdc3ec8abe79beeefe2f57fc7f7009c50f",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Behavioral parity contracts connect legacy obligations to database constraints, lifecycle events and private files; recorded local checks verify these boundaries.": {
+        "status": "machine_translated",
+        "sourceHash": "80b80c0c33462a07118234e22a0db6ff3033a8daa403e58e7cfc1592a0c97e9b",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Complete ending distribution": {
+        "status": "machine_translated",
+        "sourceHash": "70784cc688ddc640fb649ecf1d033ad014bd6c5dd82b4dda1e5accc1cd872824",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Development history and revision evidence": {
+        "status": "machine_translated",
+        "sourceHash": "bcb5fa63ffbc224cb6fd0ed1db62712b52dffc5b67290c96e86002fb601c8a18",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.": {
+        "status": "machine_translated",
+        "sourceHash": "f4541e2ef37b539ef045ea9edb1150b60129ca27584bda96717b4612de39b76a",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": {
+        "status": "machine_translated",
+        "sourceHash": "4caf309c3dd257252cb9af33cdc51aa870f8987d39636f127265ea40de66d493",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": {
+        "status": "machine_translated",
+        "sourceHash": "a4d8cffa68a22156246ce5c603dde8aa979576cc8467f90578e3d2d64feac6e2",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": {
+        "status": "machine_translated",
+        "sourceHash": "32440951c17c30e1d2c5fbaf15546e4a143fc044c567d9533a9813560eb02af3",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Live AI is disabled.": {
+        "status": "machine_translated",
+        "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
       }

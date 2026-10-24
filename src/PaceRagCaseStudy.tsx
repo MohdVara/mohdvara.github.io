@@ -13,19 +13,12 @@ export default function PaceRagCaseStudy() {
     <PageLandscape scene="pace" contained><header className="container page-landscape-intro">
     <p className="eyebrow mono">{text("PACE-RAG v1.6.2 · Independent applied AI")}</p>
     <h1>{text("Knowledge first. Inference optional. Evidence always.")}</h1>
-    <p className="section-intro">{text("An independently developed, experimental RAG engineering demonstration for exploring public professional evidence. Enterprise production deployment, commercial RAG delivery and production-hardened security are not established. Live AI is disabled.")}</p>
+    <p className="section-intro">{text("Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.")}</p>
     <p><strong>{text("PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.")}</strong>{text(" This is the official expansion going forward, not a claim about the name’s historical origin. RAG describes the architectural approach and direction; each query does not invoke a generative model.")}</p>
     <p><a href={localizedHref(paceLinks.lab)}>{text("Explore the Engineering RAG Lab")}</a> · <a href="https://github.com/MohdVara/pace-rag">{text("Inspect the implementation")}</a> · <a href={localizedHref("/#about")}>{text("Ask about my engineering experience")}</a></p>
     </header></PageLandscape>
     <CaseStudyQuickRead study="pace" />
-    <section aria-labelledby="rag-summary"><h2 id="rag-summary"><VerticalText>{text("A one-minute overview")}</VerticalText></h2><p>{text("PACE-RAG is a browser-first assistant for reviewed professional information, with a separate engineering Lab. Cached answers and deterministic technology lookups avoid hosted inference; other questions can use a locally loaded model to suggest relevant reviewed questions. Every direct answer retains its own validated sources.")}</p><p>{text("Measured retrieval results below show how well expected answers appear in the ranked suggestions. They do not prove factual certainty or production readiness. Live generation, enterprise security and provider billing remain unverified; the public demo is experimental.")}</p></section>
-    <section aria-labelledby="rag-architecture"><h2 id="rag-architecture">{text("Architecture at a glance")}</h2><p>{text("Two paths share source validation. Technology relationships use confirmed facts; other wording uses retrieval.")}</p><ol className="rag-flow" aria-label={text("Question-to-answer architecture")}>
-      <li><strong>{text("Question")}</strong><span>{text("The visitor chooses a knowledge source.")}</span></li>
-      <li><strong>{text("Entity / intent detection")}</strong><span>{text("Identify supported technology relationships and question intent.")}</span></li>
-      <li><strong>{text("Approved facts or hybrid retrieval")}</strong><span>{text("Compose from confirmed technology facts, or rank reviewed questions using semantic and lexical signals.")}</span></li>
-      <li><strong>{text("Citation validation")}</strong><span>{text("Check source ownership, version, hash, URL and review status.")}</span></li>
-      <li><strong>{text("Reviewed answer, suggestions or abstention")}</strong><span>{text("Unsupported wording remains a limitation, never a similarity-based factual claim.")}</span></li>
-    </ol><p>{text("Exact reviewed questions can reuse the cache directly. None of these paths automatically calls Workers AI.")}</p></section>
+    <p className="muted">{text("Live AI is disabled.")}</p>
     <section className="rag-worked-example" aria-labelledby="rag-php-example"><h2 id="rag-php-example">{text("A real technology lookup")}</h2>
       <p lang="en" dir="ltr" translate="no"><strong>{phpExample.question}</strong></p>
       <ol>
@@ -38,6 +31,14 @@ export default function PaceRagCaseStudy() {
       </ol>
       <p className="muted">{localizedContent(phpExample.measurement)}{text(" Evidence version: ")}{localizedContent(phpExample.trace.evidenceVersion)}{text(". The portfolio build verifies this generated example against the packaged corpus.")}</p>
     </section>
+    <section aria-labelledby="rag-summary"><h2 id="rag-summary"><VerticalText>{text("A one-minute overview")}</VerticalText></h2><p>{text("PACE-RAG is a browser-first assistant for reviewed professional information, with a separate engineering Lab. Cached answers and deterministic technology lookups avoid hosted inference; other questions can use a locally loaded model to suggest relevant reviewed questions. Every direct answer retains its own validated sources.")}</p><p>{text("Measured retrieval results below show how well expected answers appear in the ranked suggestions. They do not prove factual certainty or production readiness. Live generation, enterprise security and provider billing remain unverified; the public demo is experimental.")}</p></section>
+    <section aria-labelledby="rag-architecture"><h2 id="rag-architecture">{text("Architecture at a glance")}</h2><p>{text("Two paths share source validation. Technology relationships use confirmed facts; other wording uses retrieval.")}</p><ol className="rag-flow" aria-label={text("Question-to-answer architecture")}>
+      <li><strong>{text("Question")}</strong><span>{text("The visitor chooses a knowledge source.")}</span></li>
+      <li><strong>{text("Entity / intent detection")}</strong><span>{text("Identify supported technology relationships and question intent.")}</span></li>
+      <li><strong>{text("Approved facts or hybrid retrieval")}</strong><span>{text("Compose from confirmed technology facts, or rank reviewed questions using semantic and lexical signals.")}</span></li>
+      <li><strong>{text("Citation validation")}</strong><span>{text("Check source ownership, version, hash, URL and review status.")}</span></li>
+      <li><strong>{text("Reviewed answer, suggestions or abstention")}</strong><span>{text("Unsupported wording remains a limitation, never a similarity-based factual claim.")}</span></li>
+    </ol><p>{text("Exact reviewed questions can reuse the cache directly. None of these paths automatically calls Workers AI.")}</p></section>
     <h2>{text("The problem and constraints")}</h2>
     <p>{text("Recruiters need concise answers supported by public sources. A free-tier-oriented design keeps reviewed answers and retrieval usable without hosted inference, provider quota or a live API. Browser inference trades a model download, CPU and memory for fewer remote dependencies; free-tier billing and production capacity have not been verified.")}</p>
     <h2>{text("From query to evidence")}</h2>

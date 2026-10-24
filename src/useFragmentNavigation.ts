@@ -58,6 +58,13 @@ export function useFragmentNavigation(path: string) {
         if (!target) return;
         observer?.disconnect();
         reveal(hash);
+        // Technical archives remain native disclosures; reveal every enclosing
+        // layer for existing deep links before measuring their destination.
+        let parent = target.parentElement;
+        while (parent) {
+          if (parent.matches("details[data-evidence-disclosure]")) (parent as HTMLDetailsElement).open = true;
+          parent = parent.parentElement;
+        }
         void document.fonts.ready.then(() => {
           if (generation !== current || window.location.hash !== hash) return;
           frame = requestAnimationFrame(() => {
