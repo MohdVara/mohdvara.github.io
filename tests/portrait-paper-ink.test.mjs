@@ -1,7 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync}from'node:fs';
 import{portraitPaperInk,applyPortraitPaperInk,portraitPaperInkPreset}from'../scripts/artwork/portrait-paper-ink.mjs';
 import{reconstructPortraitV3}from'../scripts/artwork/portrait-v3.mjs';import{refineSelectedPortrait}from'../scripts/artwork/portrait.mjs';
-const source=readFileSync('public/images/MohdVaraLetters.svg','utf8'),metrics=JSON.parse(readFileSync('scripts/artwork/portrait-glyph-metrics.json','utf8')),raw=reconstructPortraitV3(source,metrics).output;
+const source=readFileSync('assets/source/MohdVaraLetters.svg','utf8'),metrics=JSON.parse(readFileSync('scripts/artwork/portrait-glyph-metrics.json','utf8')),raw=reconstructPortraitV3(source,metrics).output;
 const strip=s=>s.replace(/ class="lp\d+"/g,'').replace(/<style id="portrait-light-palette">[\s\S]*?<\/style>/,'');
 const linear=v=>{v/=255;return v<=.04045?v/12.92:((v+.055)/1.055)**2.4;};
 const lum=h=>[1,3,5].reduce((s,i,n)=>s+linear(parseInt(h.slice(i,i+2),16))*[.2126,.7152,.0722][n],0);

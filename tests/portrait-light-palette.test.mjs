@@ -1,7 +1,7 @@
 import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
 import {applyLightPortraitPalette,lightPortraitColour,lightPortraitPreset} from '../scripts/artwork/portrait-light-palette.mjs';
 import {reconstructPortraitV3} from '../scripts/artwork/portrait-v3.mjs';
-const source=reconstructPortraitV3(readFileSync('public/images/MohdVaraLetters.svg','utf8'),JSON.parse(readFileSync('scripts/artwork/portrait-glyph-metrics.json','utf8'))).output;
+const source=reconstructPortraitV3(readFileSync('assets/source/MohdVaraLetters.svg','utf8'),JSON.parse(readFileSync('scripts/artwork/portrait-glyph-metrics.json','utf8'))).output;
 // Compare every tag after removing only new class attributes and the light-only style.
 const original=s=>s.replace(/ class="lp\d+"/g,'').replace(/<style id="portrait-light-palette">[\s\S]*?<\/style>/,'');
 test('light variants preserve all dark attributes, text and reconstructed glyph geometry',()=>{

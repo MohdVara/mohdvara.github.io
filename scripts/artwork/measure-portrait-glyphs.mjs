@@ -3,7 +3,7 @@ import {readFileSync,writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {createRequire} from 'node:module';
 import {resolve} from 'node:path';
-const source=readFileSync('public/images/MohdVaraLetters.svg','utf8');
+const source=readFileSync('assets/source/MohdVaraLetters.svg','utf8');
 const data=source.match(/src:url\((data:[^)]+)\)/)?.[1];if(!data)throw Error('Embedded portrait font missing');
 const characters=[...new Set([...source.matchAll(/<text\b[^>]*>([^<]*)<\/text>/g)].map(m=>m[1]))].sort();
 const require=createRequire(resolve(process.env.QA_MODULES_DIR||'.','package.json'));

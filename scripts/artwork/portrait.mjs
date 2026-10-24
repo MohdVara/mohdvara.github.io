@@ -3,7 +3,7 @@ import {createHash} from 'node:crypto';
 import {pathToFileURL} from 'node:url';
 import {applyPortraitPaperInk} from './portrait-paper-ink.mjs';
 import {reconstructPortraitV3} from './portrait-v3.mjs';
-export const portraitPaths={source:'public/images/MohdVaraLetters.svg',output:'public/images/MohdVaraLetters-refined.svg',geometry:'src/AsciiForest/portraitGeometry.json',mask:'public/images/MohdVaraPortrait-mask.svg'};
+export const portraitPaths={source:'assets/source/MohdVaraLetters.svg',output:'public/images/MohdVaraLetters-refined.svg',geometry:'src/AsciiForest/portraitGeometry.json',mask:'public/images/MohdVaraPortrait-mask.svg'};
 export const detailPreset=Object.freeze({strength:0.3,radius:36,maxDelta:0.055,minGain:0.72,maxGain:1.3,lightStroke:0.28});
 const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
 export function refinePortrait(source,config=detailPreset){
