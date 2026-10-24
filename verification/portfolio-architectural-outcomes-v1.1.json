@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "task": "PALDA v1.1 — Production Outcomes & Architectural Impact",
+  "date": "2026-10-24",
+  "timezone": "Asia/Kuching",
+  "claims": [
+    {
+      "claim": "Up to 12 insurers and real-time quotation support",
+      "classification": "OWNER_CONFIRMED historical production scope/capability",
+      "location": "PolicyStreet contribution/quick read",
+      "limits": "Not simultaneous per-customer queries, throughput, latency or SLA."
+    },
+    {
+      "claim": "Historical production analytics with real-user activity",
+      "classification": "OWNER_CONFIRMED source type",
+      "location": "PolicyStreet Evidence detail"
+    },
+    {
+      "claim": "Approximately 15,000 distinct users within one hour at a historical peak",
+      "classification": "OWNER_RECALLED approximate peak from historical production analytics",
+      "location": "PolicyStreet Evidence detail only",
+      "limits": "Original dashboard unavailable for independent corroboration; not concurrent users, requests, quotations or a load test."
+    },
+    {
+      "claim": "Configurable organizational leave calculation with individual/group/workforce variation",
+      "classification": "OWNER_CONFIRMED supported system capability and priority-aware reasoning",
+      "location": "Historical collaborative HRMS result/Engineering",
+      "limits": "Exact enhancement period unresolved; no later Principal authority, universal/no-code changes or sole authorship inferred."
+    },
+    {
+      "claim": "Older supported browser meetings with recordings, activity telemetry and reports; AWS Chime and Amazon S3",
+      "classification": "OWNER_CONFIRMED delivered capability",
+      "location": "Later Centre contribution/Delivered Capability",
+      "limits": "No browser/version matrix, capacity, topology, retention or service processing responsibilities inferred."
+    },
+    {
+      "claim": "Modular service boundaries with actual authenticated external API integrations and permission restrictions",
+      "classification": "OWNER_CONFIRMED implemented capability/safeguards",
+      "location": "WenSymes contribution/decision/delivery",
+      "limits": "No microservices topology, auth protocol, integration count, zero-custom-work or security certification inferred; occasional collaboration retained."
+    }
+  ],
+  "canonicalAdditions": [
+    "Supported real-time production quotation workflows across up to 12 insurers, with integrated policy issuance.",
+    "Historical production analytics recorded real-user activity. I recall a peak of approximately 15,000 distinct users within one hour; the original dashboard is not available for independent corroboration. This is an approximate historical recollection, not a concurrency, request-throughput or load-test measurement.",
+    "Supported configurable leave calculations for different organizational policies and employee populations.",
+    "Supported leave-calculation rules that could vary by organization and apply to an individual employee, a selected group or the whole workforce. Configuration planning prioritized likely and urgent policy changes within available resources and operational constraints.",
+    "Delivered browser-based meetings with recordings and operational reports while supporting established education workflows.",
+    "Delivered browser-based meetings for older supported browsers, with recordings, meeting-activity telemetry and operational reporting. The meeting solution used AWS Chime and Amazon S3; compatibility was balanced against implementation and infrastructure constraints.",
+    "Integrated external applications through controlled HRMS APIs; occasional professional collaboration continues.",
+    "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved. Designed modular service boundaries to support authenticated API interfaces around selected capabilities.",
+    "External applications were integrated through APIs built around existing service capabilities. Authentication and permission checks restricted access to sensitive HRMS records and protected workflows.",
+    "Evidence"
+  ],
+  "localization": {
+    "locales": 11,
+    "canonicalUnits": 1565,
+    "newCanonicalUnits": 10,
+    "newTargetTranslations": 100,
+    "missing": 0,
+    "stale": 0,
+    "validationErrors": 0,
+    "retainedWarnings": 97,
+    "status": "machine_translated",
+    "provider": "development-assistant",
+    "model": "session-assistant",
+    "qualifiedReview": "pending",
+    "numberGrouping": "15 000 in es/fr/de/pt-BR prevents decimal-comma ambiguity.",
+    "configuredProvider": "Unavailable: explicit API key/model missing; established assistant fallback used."
+  },
+  "commands": {
+    "typecheck": "npm run typecheck",
+    "lint": "npm run lint",
+    "build": "SWC_NATIVE_BINDING_CACHE=/private/tmp/palda-swc npm run build",
+    "tests": "npm test",
+    "extract": "npm run i18n:extract",
+    "translate": "npm run i18n:translate (unavailable: explicit key/model missing; supported assistant fallback used)",
+    "dryRun": "node scripts/i18n/translate.mjs --dry-run",
+    "validate": "npm run i18n:validate",
+    "coverage": "npm run i18n:coverage -- --strict",
+    "dateAudit": "npm run i18n:audit-dates",
+    "artwork": "npm run artwork:check",
+    "staticAudit": "QA_OUTPUT=output/playwright/palda-v1.1/static node scripts/release-readiness-audit.mjs",
+    "preview": "SWC_NATIVE_BINDING_CACHE=/private/tmp/palda-swc npm run preview -- --host 127.0.0.1 --port 4205",
+    "focusedBrowser": "QA_URL=http://127.0.0.1:4205 QA_OUTPUT=output/playwright/palda-v1.1/focused QA_MODULES_DIR=/Users/mohd.vara/.npm/_npx/9833c18b2d85bc59/node_modules QA_AXE=/Users/mohd.vara/.npm/_npx/2613f46d5c6aba5c/node_modules/axe-core/axe.min.js node scripts/palda-qa.mjs",
+    "localeBrowser": "QA_URL=http://127.0.0.1:4205 QA_OUTPUT=output/playwright/palda-v1.1/locales QA_MODULES_DIR=/Users/mohd.vara/.npm/_npx/9833c18b2d85bc59/node_modules node scripts/i18n-qa.mjs",
+    "openDisclosureAxe": "node output/playwright/palda-v1.1/axe-cases.cjs",
+    "visualProof": "node output/playwright/palda-v1.1/proof.cjs"
+  },
+  "results": {
+    "typecheck": "pass",
+    "lint": "pass",
+    "build": "pass; existing large-chunk warning",
+    "unitTests": {
+      "pass": 206,
+      "fail": 0
+    },
+    "staticAudit": {
+      "routes": 108,
+      "issues": [],
+      "sourceFingerprint": "42256b70d8c2e544754c6be23cc2ca315dadc6797acadf2d6552c31788ca74db",
+      "artifactFingerprint": "cc4d534361654e608a444cbca21deb79463f222cfba2175d8e40b0e4a3a5bb6d",
+      "entry": {
+        "path": "assets/index-lfDfMnLC.js",
+        "bytes": 214958,
+        "sha256": "c001003c83954392c3761f4a0a6f76a538b696394166af3e049bc0be507bff96",
+        "gzip": 65879
+      }
+    },
+    "focusedBrowser": {
+      "layouts": 90,
+      "widths": [
+        320,
+        375,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920,
+        3840
+      ],
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "text": "largest",
+      "keyboardDisclosure": true,
+      "localeCasePairs": 44,
+      "localeWidths": [
+        320,
+        390
+      ],
+      "localeExpandedLayouts": 88,
+      "noJavaScriptLocales": 11,
+      "deepLinkRefreshJourneys": 4,
+      "pageErrors": 0,
+      "scopedAxeScans": 5,
+      "scopedAxeViolations": 0,
+      "incomplete": [
+        {
+          "locale": "en",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "ar",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "ta",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "ja",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        }
+      ],
+      "unexpectedGameGalleryRequests": 0
+    },
+    "localeBrowser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "datePeriodGroups": 11,
+      "englishOnlyAssistantIsolation": 11,
+      "pageErrors": 0,
+      "missingRenderedSource": 0,
+      "translationRequests": 0
+    },
+    "openDisclosureAxe": {
+      "scans": 20,
+      "violations": 0,
+      "locales": [
+        "en",
+        "ar",
+        "ta",
+        "ja",
+        "zh-Hans"
+      ],
+      "cases": [
+        "insurance",
+        "wensymes",
+        "campus",
+        "hr"
+      ],
+      "incompletes": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    "staticLocaleOutcomeRegression": {
+      "locales": 11,
+      "cases": 4,
+      "analyticsEvidenceOnce": true
+    },
+    "localResources": {
+      "count": 13,
+      "transferBytes": 546225,
+      "scope": "Local 390px cold context; not RUM, controlled timing or Core Web Vitals."
+    }
+  },
+  "performance": {
+    "baseline": {
+      "entry": {
+        "file": "index-Dh1zpS2D.js",
+        "raw": 214958,
+        "gzip": 65715,
+        "sha256": "c22446b5d3c2e5e3e7930a12a87fd6f33c6c6b958920551ab565c31f36ec5feb"
+      },
+      "chunks": [
+        {
+          "file": "portfolio-content-CO6mh_Ov.js",
+          "raw": 15970,
+          "gzip": 5305
+        },
+        {
+          "file": "ta-RYgO8axz.js",
+          "raw": 442250,
+          "gzip": 101471
+        },
+        {
+          "file": "i18n-vendor-Bqxj1mqF.js",
+          "raw": 5234,
+          "gzip": 2480
+        },
+        {
+          "file": "index-DoZfSIMM.css",
+          "raw": 79466,
+          "gzip": 15751
+        },
+        {
+          "file": "PortfolioGame-DO2-KZRZ.js",
+          "raw": 1197779,
+          "gzip": 314451
+        },
+        {
+          "file": "zh-Hans-CKhfP2iy.js",
+          "raw": 203539,
+          "gzip": 84266
+        },
+        {
+          "file": "renderer-BlA72toR.js",
+          "raw": 51206,
+          "gzip": 20170
+        },
+        {
+          "file": "DefenceRoute-DcBg3A5-.js",
+          "raw": 28557,
+          "gzip": 10338
+        },
+        {
+          "file": "renderer-DcRxOa6E.js",
+          "raw": 7374,
+          "gzip": 3090
+        },
+        {
+          "file": "GameShell-DLtv93Iv.js",
+          "raw": 47550,
+          "gzip": 15143
+        },
+        {
+          "file": "NotFound-BPioERHo.js",
+          "raw": 4948,
+          "gzip": 2410
+        },
+        {
+          "file": "ar-BCz6Fesv.js",
+          "raw": 277857,
+          "gzip": 90107
+        },
+        {
+          "file": "pt-BR-BrCUS2d2.js",
+          "raw": 236633,
+          "gzip": 83157
+        },
+        {
+          "file": "PageLandscape-CKU4iGQd.js",
+          "raw": 489,
+          "gzip": 302
+        },
+        {
+          "file": "CaseStudySummary-bHSVokw6.js",
+          "raw": 5700,
+          "gzip": 2501
+        },
+        {
+          "file": "fr-CNTFiURf.js",
+          "raw": 245564,
+          "gzip": 85815
+        },
+        {
+          "file": "DefenceRoute-DK9n04FC.css",
+          "raw": 7343,
+          "gzip": 1853
+        },
+        {
+          "file": "i18n-core-Dql2_JCV.js",
+          "raw": 288526,
+          "gzip": 70384
+        },
+        {
+          "file": "NoTwoMondaysCaseStudy-Do2fVsHr.css",
+          "raw": 8098,
+          "gzip": 1995
+        },
+        {
+          "file": "rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip": 430
+        },
+        {
+          "file": "EngineeringCaseStudy-C44I4fEl.js",
+          "raw": 22370,
+          "gzip": 8070
+        },
+        {
+          "file": "EngineeringCaseStudy-BrS01sLw.css",
+          "raw": 3372,
+          "gzip": 1023
+        },
+        {
+          "file": "ms-DydkJoQ5.js",
+          "raw": 226660,
+          "gzip": 79914
+        },
+        {
+          "file": "NoTwoMondaysCaseStudy-BW-vjQRG.js",
+          "raw": 46795,
+          "gzip": 13904
+        },
+        {
+          "file": "WorkWithMe-Do2vttLO.js",
+          "raw": 10761,
+          "gzip": 3194
+        },
+        {
+          "file": "es-CcGVfNTh.js",
+          "raw": 239638,
+          "gzip": 84093
+        },
+        {
+          "file": "config-DjNMDW_l.js",
+          "raw": 563,
+          "gzip": 423
+        },
+        {
+          "file": "PaceRagCaseStudy-C5r8IbI1.js",
+          "raw": 16579,
+          "gzip": 5466
+        },
+        {
+          "file": "de-CaIDCU19.js",
+          "raw": 240906,
+          "gzip": 87488
+        },
+        {
+          "file": "UtilityPanel-BOWLgQLD.js",
+          "raw": 3948,
+          "gzip": 1371
+        },
+        {
+          "file": "IncidentZeroRoute-Bz5rwn4O.js",
+          "raw": 5924,
+          "gzip": 2439
+        },
+        {
+          "file": "NotFound-5BN4-w9-.css",
+          "raw": 2735,
+          "gzip": 1017
+        },
+        {
+          "file": "ja-CBbQe_X3.js",
+          "raw": 259315,
+          "gzip": 93128
+        },
+        {
+          "file": "module-DLmbbmaF.js",
+          "raw": 305055,
+          "gzip": 100717
+        },
+        {
+          "file": "hi-BXLb28AF.js",
+          "raw": 380954,
+          "gzip": 100565
+        },
+        {
+          "file": "game-DOK4aWwU.js",
+          "raw": 8283,
+          "gzip": 3506
+        },
+        {
+          "file": "layout.worker-D9ceUgfv.js",
+          "raw": 12782,
+          "gzip": 4940
+        },
+        {
+          "file": "PaceAssistant-BA5OS-g-.js",
+          "raw": 80819,
+          "gzip": 26102
+        },
+        {
+          "file": "IncidentZeroRoute-D7_mNOul.css",
+          "raw": 11576,
+          "gzip": 2947
+        },
+        {
+          "file": "PaceAssistant-BqlOVwAg.css",
+          "raw": 4625,
+          "gzip": 1457
+        },
+        {
+          "file": "index-Dh1zpS2D.js",
+          "raw": 214958,
+          "gzip": 65715
+        }
+      ]
+    },
+    "candidate": {
+      "entry": {
+        "file": "index-lfDfMnLC.js",
+        "raw": 214958,
+        "gzip": 65715,
+        "sha256": "c001003c83954392c3761f4a0a6f76a538b696394166af3e049bc0be507bff96"
+      },
+      "chunks": [
+        {
+          "file": "UtilityPanel-v1oyFNVe.js",
+          "raw": 3948,
+          "gzip": 1368
+        },
+        {
+          "file": "ms-B4DVvBZW.js",
+          "raw": 230351,
+          "gzip": 81072
+        },
+        {
+          "file": "i18n-core-CSoI-yRo.js",
+          "raw": 292120,
+          "gzip": 71013
+        },
+        {
+          "file": "EngineeringCaseStudy-BWNj7n-7.js",
+          "raw": 22370,
+          "gzip": 8067
+        },
+        {
+          "file": "i18n-vendor-CpbjYxqM.js",
+          "raw": 5234,
+          "gzip": 2476
+        },
+        {
+          "file": "GameShell-DMun-OPk.js",
+          "raw": 47550,
+          "gzip": 15145
+        },
+        {
+          "file": "PageLandscape-VGCKdUCk.js",
+          "raw": 489,
+          "gzip": 300
+        },
+        {
+          "file": "index-DoZfSIMM.css",
+          "raw": 79466,
+          "gzip": 15751
+        },
+        {
+          "file": "PortfolioGame-DO2-KZRZ.js",
+          "raw": 1197779,
+          "gzip": 314451
+        },
+        {
+          "file": "NoTwoMondaysCaseStudy-CmPcPlpE.js",
+          "raw": 46795,
+          "gzip": 13901
+        },
+        {
+          "file": "renderer-BumnWz5L.js",
+          "raw": 51206,
+          "gzip": 20168
+        },
+        {
+          "file": "DefenceRoute-DK9n04FC.css",
+          "raw": 7343,
+          "gzip": 1853
+        },
+        {
+          "file": "WorkWithMe-ICbQ4xqD.js",
+          "raw": 10761,
+          "gzip": 3189
+        },
+        {
+          "file": "NoTwoMondaysCaseStudy-Do2fVsHr.css",
+          "raw": 8098,
+          "gzip": 1995
+        },
+        {
+          "file": "NotFound-CLiiaku4.js",
+          "raw": 4948,
+          "gzip": 2409
+        },
+        {
+          "file": "rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip": 430
+        },
+        {
+          "file": "fr-PNytR808.js",
+          "raw": 249614,
+          "gzip": 87081
+        },
+        {
+          "file": "PaceRagCaseStudy-C9utnrcR.js",
+          "raw": 16579,
+          "gzip": 5463
+        },
+        {
+          "file": "portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip": 5621
+        },
+        {
+          "file": "EngineeringCaseStudy-BrS01sLw.css",
+          "raw": 3372,
+          "gzip": 1023
+        },
+        {
+          "file": "pt-BR--mmKGZ31.js",
+          "raw": 240427,
+          "gzip": 84353
+        },
+        {
+          "file": "de-DafPyUXx.js",
+          "raw": 244785,
+          "gzip": 88767
+        },
+        {
+          "file": "config-DjNMDW_l.js",
+          "raw": 563,
+          "gzip": 423
+        },
+        {
+          "file": "hi-eQndWGgu.js",
+          "raw": 387300,
+          "gzip": 102042
+        },
+        {
+          "file": "DefenceRoute-Be63cIvc.js",
+          "raw": 28557,
+          "gzip": 10338
+        },
+        {
+          "file": "game-BC3gFQOH.js",
+          "raw": 8283,
+          "gzip": 3506
+        },
+        {
+          "file": "index-lfDfMnLC.js",
+          "raw": 214958,
+          "gzip": 65715
+        },
+        {
+          "file": "ja-pq_1bdNU.js",
+          "raw": 263330,
+          "gzip": 94438
+        },
+        {
+          "file": "NotFound-5BN4-w9-.css",
+          "raw": 2735,
+          "gzip": 1017
+        },
+        {
+          "file": "module-DLmbbmaF.js",
+          "raw": 305055,
+          "gzip": 100717
+        },
+        {
+          "file": "CaseStudySummary-De_bdntC.js",
+          "raw": 5700,
+          "gzip": 2498
+        },
+        {
+          "file": "es-BVVfJIfL.js",
+          "raw": 243432,
+          "gzip": 85280
+        },
+        {
+          "file": "PaceAssistant-C1dj4V51.js",
+          "raw": 80819,
+          "gzip": 26100
+        },
+        {
+          "file": "layout.worker-D9ceUgfv.js",
+          "raw": 12782,
+          "gzip": 4940
+        },
+        {
+          "file": "ar-D29vuFA_.js",
+          "raw": 282176,
+          "gzip": 91388
+        },
+        {
+          "file": "ta-AugTLtE5.js",
+          "raw": 449678,
+          "gzip": 102990
+        },
+        {
+          "file": "IncidentZeroRoute-D7_mNOul.css",
+          "raw": 11576,
+          "gzip": 2947
+        },
+        {
+          "file": "PaceAssistant-BqlOVwAg.css",
+          "raw": 4625,
+          "gzip": 1457
+        },
+        {
+          "file": "renderer-I_CY9WqS.js",
+          "raw": 7374,
+          "gzip": 3089
+        },
+        {
+          "file": "IncidentZeroRoute-BoNUZttT.js",
+          "raw": 5924,
+          "gzip": 2436
+        },
+        {
+          "file": "zh-Hans-BJ1hixJO.js",
+          "raw": 206848,
+          "gzip": 85542
+        }
+      ]
+    },
+    "delta": {
+      "raw": 0,
+      "gzip": 0
+    },
+    "budget": 215000,
+    "headroom": 42,
+    "compression": "gzip level 9 with mtime normalized; static audit Node gzip uses different defaults."
+  },
+  "preservation": {
+    "periods": true,
+    "titlesAndTimeline": true,
+    "paldaV1Ownership": true,
+    "hero": true,
+    "semanticArtwork": true,
+    "dependencies": true,
+    "analyticsPrivacy": true,
+    "ownerWhitespaceByteMatch": true,
+    "githubSnapshotByteMatch": true,
+    "initialUntrackedSnapshots": 9
+  },
+  "careerSources": {
+    "readOnlyChrome": "Current public résumé and full CV inspected on 24 October 2026. Meeting project names Chime/S3/recordings/reporting from June 2021. Existing title/occasional-qualifier differences remain.",
+    "externalEdits": false,
+    "suggestions": "docs/portfolio/PALDA_V1_1.md"
+  },
+  "publication": {
+    "branch": "main",
+    "initialHead": "9d88513b5d1ee5d202b26842fad9991820af556f",
+    "finalHead": "9d88513b5d1ee5d202b26842fad9991820af556f",
+    "local": true,
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "productionParity": "Not claimed; this task validates local artifacts only.",
+    "worktreeStatus": [
+      " M docs/content-sources.md",
+      " M docs/portfolio/PME-V1-COVERAGE.json",
+      " M docs/portfolio/PME-V1-QA.json",
+      " M docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+      " M docs/portfolio/TRANSLATION_EDITORIAL_REVIEW_QUEUE.md",
+      " M scripts/i18n/metadata.json",
+      " M scripts/i18n/source-locations.json",
+      " M scripts/palda-qa.mjs",
+      " M src/content.ts",
+      " M src/i18n/locales/ar.json",
+      " M src/i18n/locales/de.json",
+      " M src/i18n/locales/en.json",
+      " M src/i18n/locales/es.json",
+      " M src/i18n/locales/fr.json",
+      " M src/i18n/locales/hi.json",
+      " M src/i18n/locales/ja.json",
+      " M src/i18n/locales/ms.json",
+      " M src/i18n/locales/pt-BR.json",
+      " M src/i18n/locales/ta.json",
+      " M src/i18n/locales/zh-Hans.json",
+      " M src/i18n/status.json",
+      " M tests/commercial-evidence.test.mjs",
+      " M tests/production.test.mjs",
+      "?? .playwright-cli/page-2026-10-22T08-41-39-901Z.yml",
+      "?? .playwright-cli/page-2026-10-22T12-12-20-272Z.yml",
+      "?? .playwright-cli/page-2026-10-22T12-17-52-983Z.yml",
+      "?? .playwright-cli/page-2026-10-22T12-22-45-530Z.yml",
+      "?? .playwright-cli/page-2026-10-23T01-46-29-968Z.yml",
+      "?? .playwright-cli/page-2026-10-23T02-01-42-370Z.yml",
+      "?? .playwright-cli/page-2026-10-23T02-33-54-939Z.yml",
+      "?? .playwright-cli/page-2026-10-23T10-27-13-816Z.yml",
+      "?? .playwright-cli/page-2026-10-23T10-32-45-817Z.yml",
+      "?? docs/portfolio/PALDA_V1_1.md",
+      "?? verification/portfolio-architectural-outcomes-v1.1.json"
+    ],
+    "previewStopped": true,
+    "recordScope": "Pre-commit implementation/validation snapshot. Owner subsequently authorized structured commits and origin push; consult Git history and origin/main for subsequent state. Main push triggers the existing validation/deployment workflow; deployment outcome unverified."
+  },
+  "limitations": [
+    "Qualified linguistic review remains pending.",
+    "Axe incompletes require human review; no actual screen-reader/physical-device certification.",
+    "Prior PALDA baseline Tamil accessible-name mismatches outside changed cards remain; scoped zero violations is not a site-wide claim.",
+    "No measured CLS/INP or real-user performance improvement claimed."
+  ],
+  "rawEvidence": "Ignored output/playwright/palda-v1.1/ and /tmp/palda11-*.log; no private/raw career or analytics data published.",
+  "sourceHashes": {
+    "src/content.ts": "c2604bbe3ac8e88216b68b6a0393fe18934c2865dab403a7e2ad105002916374",
+    "src/App.tsx": "8ba10a36488f3764a2d83c7944e6a1244acdbc2f449a0f1c3d717ef8d63ca462",
+    "src/CaseStudyQuickRead.tsx": "70ca7452dfb7d0d2eed4a4bfa2ee39cd8e41bed0e16dcdd0c26057d3b1de718f",
+    "src/CaseStudyQuickRead.css": "161b240e00a33f2bfa8e62352c05622be19a89436303ce1be4f57a5e747d87ec",
+    "scripts/palda-qa.mjs": "497abbcb91d3e0a5bf5f1e23a2ad81cfbc2de80bab00bb80819a91fb9791719f",
+    "tests/commercial-evidence.test.mjs": "f702c1158022f1edffd261511ae39a9fee4d0105d3e98be27e4a05f7231be366",
+    "tests/production.test.mjs": "0914234007b78bd824c889ef202c686f948befdd4ea437f2c1e097c4d3de3db5"
+  }
+}

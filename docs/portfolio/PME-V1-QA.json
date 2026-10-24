@@ -1113,5 +1113,127 @@
     "pageErrors": 0,
     "overflow": false,
     "qualifiedReview": "pending"
+  },
+  "paldaV1_1": {
+    "date": "2026-10-24",
+    "manifest": "verification/portfolio-architectural-outcomes-v1.1.json",
+    "catalogUnits": 1565,
+    "newUnits": 10,
+    "targetTranslations": 100,
+    "missing": 0,
+    "stale": 0,
+    "validationErrors": 0,
+    "retainedWarnings": 97,
+    "qualifiedReview": "pending",
+    "localeBrowser": {
+      "layouts": 88,
+      "scenarios": 9,
+      "datePeriodGroups": 11,
+      "englishOnlyAssistantIsolation": 11,
+      "pageErrors": 0,
+      "missingRenderedSource": 0,
+      "translationRequests": 0
+    },
+    "focusedBrowser": {
+      "layouts": 90,
+      "widths": [
+        320,
+        375,
+        390,
+        430,
+        768,
+        1024,
+        1440,
+        1920,
+        3840
+      ],
+      "themes": [
+        "light",
+        "dark"
+      ],
+      "text": "largest",
+      "keyboardDisclosure": true,
+      "localeCasePairs": 44,
+      "localeWidths": [
+        320,
+        390
+      ],
+      "localeExpandedLayouts": 88,
+      "noJavaScriptLocales": 11,
+      "deepLinkRefreshJourneys": 4,
+      "pageErrors": 0,
+      "scopedAxeScans": 5,
+      "scopedAxeViolations": 0,
+      "incomplete": [
+        {
+          "locale": "en",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "ar",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "ta",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "ja",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        },
+        {
+          "locale": "zh-Hans",
+          "violations": [],
+          "incomplete": [
+            "aria-prohibited-attr",
+            "color-contrast"
+          ]
+        }
+      ],
+      "unexpectedGameGalleryRequests": 0
+    },
+    "openDisclosureAxe": {
+      "scans": 20,
+      "violations": 0,
+      "locales": [
+        "en",
+        "ar",
+        "ta",
+        "ja",
+        "zh-Hans"
+      ],
+      "cases": [
+        "insurance",
+        "wensymes",
+        "campus",
+        "hr"
+      ],
+      "incompletes": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    "limits": [
+      "Qualified linguistic review remains pending.",
+      "Axe incompletes require human review; no actual screen-reader/physical-device certification.",
+      "Prior PALDA baseline Tamil accessible-name mismatches outside changed cards remain; scoped zero violations is not a site-wide claim.",
+      "No measured CLS/INP or real-user performance improvement claimed."
+    ]
   }
 }
