@@ -52,7 +52,11 @@ test('route sharing metadata preserves canonical URLs, schema, sitemap and 404 e
     assert.ok(sitemap.includes(url), route);
   }
   const home = await readFile('dist/index.html', 'utf8');
-  assert.equal(meta(home, 'og:image'), `${origin}/og-image.png`);
+  assert.equal(meta(home, 'og:image'), `${origin}/og-image.png?v=hero-20261025`);
+  assert.equal(meta(home, 'twitter:image'), meta(home, 'og:image'));
+  const homeImage = await readFile('dist/og-image.png');
+  assert.equal(homeImage.readUInt32BE(16), 1200);
+  assert.equal(homeImage.readUInt32BE(20), 630);
   const missing = await readFile('dist/404.html', 'utf8');
   assert.equal(meta(missing, 'robots'), 'noindex, follow');
   assert.doesNotMatch(missing, /rel="canonical"|property="og:url"|application\/ld\+json/);
