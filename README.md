@@ -25,6 +25,8 @@ The portfolio connects problems, ownership and engineering decisions to the avai
 
 For an interactive detour, [Incident Zero](https://mohd.paramasvara.online/en/incident-zero/) turns a fictional systems incident into an engineering investigation.
 
+Inspect the separate implementations in [MMCATS Modern](https://github.com/MohdVara/mmcats-modern) and [PACE-RAG](https://github.com/MohdVara/pace-rag), then follow their architecture and verification documentation. MMCATS preserves the [archived legacy snapshot](https://github.com/MohdVara/mmcats-legacy) as historical evidence.
+
 This repository contains the **portfolio implementation**. Linked applications have their own repositories and release boundaries; local checks and owner-reported delivery are distinguished from independent production acceptance.
 
 ## Built to be read, then explored
