@@ -12,6 +12,10 @@ const registry=JSON.parse(await readFile('src/i18n/languages.json','utf8'));
 const source=await readFile('src/content.ts','utf8');
 const ownership=[...source.matchAll(/\["My ownership", "([^"]*final architectural decision authority[^"]*)"\]/g)].map(m=>m[1]);
 assert.equal(ownership.length,3);
+const outcomeNeedles={insurance:['up to 12 insurers','15,000 distinct users within one hour','not a concurrency, request-throughput or load-test measurement'],campus:['older supported browsers','AWS Chime and Amazon S3','meeting-activity telemetry'],wensymes:['External applications were integrated through APIs','Authentication and permission checks','modular service boundaries']};
+const hrSource=source.slice(source.indexOf('id: "hr"'),source.indexOf('id: "rental"'));
+const hrOutcome=hrSource.match(/result:\s*"([^"]+)"/)[1];
+const hrEngineering=hrSource.match(/"Engineering",\s*"([^"]+)"/)[1];
 const hero=(await readFile('src/App.tsx','utf8')).match(/text\("(Trusted with final architectural decisions\.[^"]+)"\)/)[1];
 const browser=await chromium.launch({channel:'chrome',headless:true});
 const report={scope:'Local Chrome emulation; no human-language, screen-reader, physical-device or real-user performance certification.',layouts:[],localizedOwnership:[],noJavaScript:[],axe:[],errors:[],requests:[],journeys:[]};
@@ -29,13 +33,15 @@ try {
    const quick=card.locator('.case-quick-read'),copy=await quick.innerText();
    assert(copy.includes('final architectural decision authority'));assert(copy.includes('informed consensus'));
    assert.equal((await card.innerText()).split('final architectural decision authority').length-1,1,'ownership must render once');
+   for(const needle of outcomeNeedles[id])assert((await card.innerText()).includes(needle),`${id}: missing ${needle}`);
    assert.equal(await card.locator('dt').filter({hasText:/^(Ownership|My contribution|Role & ownership)$/}).count(),0);
    assert.equal(await page.locator('.case-details[open]').count(),1);
    if(!await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)){report.layoutFailure=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,styles:[...document.styleSheets].map(s=>s.href),hero:getComputedStyle(document.querySelector('.hero')).display,links:[...document.querySelectorAll('link[rel=stylesheet]')].map(l=>l.outerHTML),resources:performance.getEntriesByType('resource').map(r=>r.name)}));await page.screenshot({path:`${output}/failure.png`});throw Error(`${id} ${width} ${theme} overflow`);}
    if(width===390&&theme==='light'||width===1440&&theme==='dark'){await quick.scrollIntoViewIfNeeded();await page.screenshot({path:`${output}/${id}-${width}-${theme}.png`});}
    report.layouts.push({id,width,theme,text:'largest',reducedMotion:true,keyboardDisclosure:true,overflow:false});
   }
-  await page.locator('#case-hr summary').click();assert(!(await page.locator('#case-hr').innerText()).includes('decision authority'));
+  await page.locator('#case-hr summary').click();const hr=page.locator('#case-hr');assert(!(await hr.innerText()).includes('decision authority'));assert((await hr.innerText()).includes(hrOutcome));assert((await hr.innerText()).includes(hrEngineering));assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));report.layouts.push({id:'hr',width,theme,text:'largest',keyboardDisclosure:true,overflow:false});
+  if(width===390&&theme==='light'||width===1440&&theme==='dark'){await hr.locator('.case-body').scrollIntoViewIfNeeded();await page.screenshot({path:`${output}/hr-${width}-${theme}.png`});}
   await page.goto(`${base}/en/work-with-me/`);await page.waitForFunction(()=>document.documentElement.dataset.localeReady==='en');
   assert((await page.locator('.engagement-types').innerText()).includes('costs and risks'));
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
@@ -61,9 +67,13 @@ try {
    await page.setViewportSize({width:390,height:844});
    report.localizedOwnership.push({locale:item.locale,id,widths:[320,390],translated:true,once:true});
   }
+  await page.locator('#case-hr summary').click();
+  assert((await page.locator('#case-hr').innerText()).includes(catalog[hrOutcome]));assert((await page.locator('#case-hr').innerText()).includes(catalog[hrEngineering]));
+  for(const width of [320,390]){await page.setViewportSize({width,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));}
+  report.localizedOwnership.push({locale:item.locale,id:'hr',widths:[320,390],translated:true});
   if(['en','ar','ta','ja','zh-Hans'].includes(item.locale)&&process.env.QA_AXE){
    await page.addScriptTag({path:process.env.QA_AXE});
-   const result=await page.evaluate(async()=>window.axe.run({include:[[".hero-description"],["#case-insurance"],["#case-wensymes"],["#case-campus"]]}));
+   const result=await page.evaluate(async()=>window.axe.run({include:[[".hero-description"],["#case-insurance"],["#case-wensymes"],["#case-campus"],["#case-hr"]]}));
    report.axe.push({locale:item.locale,violations:result.violations.map(v=>({id:v.id,targets:v.nodes.map(n=>n.target)})),incomplete:result.incomplete.map(v=>v.id)});
    assert.equal(result.violations.length,0);
   }
@@ -71,12 +81,14 @@ try {
   const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}}),p=await nojs.newPage();await p.goto(`${base}/${item.locale}/`);
   assert.equal(await p.locator('.hero-description').innerText(),catalog[hero]);
   for(const[id,key]of [['insurance',ownership[1]],['wensymes',ownership[2]],['campus',ownership[0]]]){await p.locator(`#case-${id} summary`).click();assert((await p.locator(`#case-${id} .case-quick-read`).innerText()).includes(catalog[key]));}
+  await p.locator('#case-hr summary').click();assert((await p.locator('#case-hr').innerText()).includes(catalog[hrEngineering]));
   report.noJavaScript.push(item.locale);await nojs.close();
  }
  const context=await browser.newContext({viewport:{width:1440,height:1000}}),page=await context.newPage();
- for(const id of ['insurance','wensymes','campus']){
+ for(const id of ['insurance','wensymes','campus','hr']){
   await page.goto(`${base}/en/#case-${id}`);await page.waitForFunction(id=>document.querySelector(`#case-${id} details`)?.open,id);
-  assert((await page.locator(`#case-${id} .case-quick-read`).innerText()).includes('decision authority'));
+  if(id==='hr')assert((await page.locator('#case-hr').innerText()).includes(hrEngineering));
+  else assert((await page.locator(`#case-${id} .case-quick-read`).innerText()).includes('decision authority'));
   await page.reload();await page.waitForFunction(id=>document.querySelector(`#case-${id} details`)?.open,id);
   report.journeys.push({id,deepLink:true,refresh:true});
  }
