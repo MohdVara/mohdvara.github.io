@@ -1,0 +1,2075 @@
+{
+  "schemaVersion": 1,
+  "task": "PALDA v1.3 — Evidence-first experience and production reliability",
+  "date": "2026-10-24",
+  "timezone": "Asia/Kuching",
+  "status": "COMPLETE_LOCALLY_WITH_DOCUMENTED_REVIEW_AND_PUBLICATION_LIMITS",
+  "initialHead": "ada8ffaa9aeac317b0c7c46e3bf8d650fe4d6a6a",
+  "finalHead": "ada8ffaa9aeac317b0c7c46e3bf8d650fe4d6a6a",
+  "branch": "main",
+  "loaderConclusion": "No persistent visible loader reproduced across nine live routes plus reloads. Runtime loader unchanged. Hidden no-JS DOM loader is invisible, nonfocusable and nonobstructive.",
+  "liveRoutes": [
+    {
+      "path": "/en/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/pace-rag-case-study/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/mmcats-modern/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/naae/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/multilingual-engineering/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/incident-zero/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/no-two-mondays/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/work-with-me/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    },
+    {
+      "path": "/en/incident-zero/defence/",
+      "initial": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      },
+      "lifecycle": {
+        "ready": 1,
+        "failed": 0,
+        "states": [
+          "removed",
+          "waiting",
+          "loading",
+          "leaving",
+          "removed"
+        ],
+        "rejections": []
+      },
+      "errors": [],
+      "failed": [],
+      "warnings": [],
+      "reload": "PASS",
+      "accessibility": "No loader recovery text in accessible tree; no loader focus"
+    }
+  ],
+  "localLoadingScenarios": [
+    {
+      "mode": "delayed-route",
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      }
+    },
+    {
+      "mode": "failed-route",
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      }
+    },
+    {
+      "mode": "failed-style",
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      }
+    },
+    {
+      "mode": "failed-optional",
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      }
+    },
+    {
+      "mode": "init-failure",
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      }
+    },
+    {
+      "mode": "reduced",
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      }
+    },
+    {
+      "mode": "no-js",
+      "final": {
+        "present": true,
+        "state": "waiting",
+        "text": "\n  \n    \n              .-~~-.     .-~~~-.\n   .-~~( . : .)~~~( . : . )~~-.\n  ( . : '----' . : '-----' : . )    .-~~~~-.      .-~~~~~-.\n .-( : : :  )-..-( : : :  )-.\n( : : '--' : : : : '---' : : ) .-~~~-.    .-~~~~~-.    .-~~-.\n( ;:;:; )--( ;:;:;: )--( ;:; )\n '==|=='    '==||==='    '=|='\n   /|\\        /||\\       /|\\[................................]\n              .-~~-.     .-~~~-.\n   .-~~( . : .)~~~( . : . )~~-.\n  ( . : '----' . : '-----' : . )    .-~~~~-.      .-~~~~~-.\n .-( : : :  )-..-( : : :  )-.\n( : : '--' : : : : '---' : : ) .-~~~-.    .-~~~~~-.    .-~~-.\n( ;:;:; )--( ;:;:;: )--( ;:; )\n '==|=='    '==||==='    '=|='\n   /|\\        /||\\       /|\\[================================]\n    \n    mpv.\n    \n    \n    \n    \n    \n    RetryContinue\n  \n",
+        "display": "grid",
+        "visibility": "hidden",
+        "opacity": "0",
+        "pointerEvents": "none",
+        "obstructing": false,
+        "focusable": 0
+      }
+    },
+    {
+      "mode": "slow-route",
+      "final": {
+        "present": false,
+        "state": "removed",
+        "obstructing": false,
+        "focusable": 0
+      }
+    }
+  ],
+  "qa": {
+    "tests": 214,
+    "existingLoaderScenarios": 21,
+    "newResponsiveLayouts": 72,
+    "localizedCasePairs": 44,
+    "noJavaScriptChecks": 16,
+    "deepLinks": [
+      "ntm-process",
+      "ntm-dialogue-history",
+      "ntm-puzzle-history",
+      "ntm-ending-distribution"
+    ],
+    "journeys": [
+      "Localized archive → English original → back/forward",
+      "Recruiter: homepage → commercial proof → résumé destination → contact; no submission",
+      "Manager: three employer quick reads → ownership, decisions and outcomes",
+      "Architect: independent technical case → evidence → contact destination",
+      "Consulting client: Work With Me → relevant employer proof → scope/contact; no booking",
+      "Localized 404: visible recovery links; HTTP status covered separately by existing deployment contract"
+    ],
+    "caseErrors": [],
+    "failedCaseRequests": [],
+    "focusedAxe": [
+      {
+        "route": "mmcats-modern",
+        "theme": "dark",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      },
+      {
+        "route": "mmcats-modern",
+        "theme": "light",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      },
+      {
+        "route": "pace-rag-case-study",
+        "theme": "dark",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      },
+      {
+        "route": "pace-rag-case-study",
+        "theme": "light",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      },
+      {
+        "route": "naae",
+        "theme": "dark",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      },
+      {
+        "route": "naae",
+        "theme": "light",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      },
+      {
+        "route": "no-two-mondays",
+        "theme": "dark",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      },
+      {
+        "route": "no-two-mondays",
+        "theme": "light",
+        "violations": [],
+        "incomplete": [],
+        "excludedRule": "color-contrast: computed/visual review separate"
+      }
+    ],
+    "existingCases": {
+      "routes": 33,
+      "layouts": 72,
+      "accessibility": 24,
+      "interactions": 3,
+      "errors": 0,
+      "limits": 2
+    },
+    "localeMatrix": {
+      "layouts": 88,
+      "scenarios": 9,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0,
+      "datePeriods": 11,
+      "assistantChecks": 11
+    },
+    "staticRoutes": 108,
+    "staticIssues": []
+  },
+  "localization": {
+    "canonicalUnits": 1574,
+    "canonicalAdditions": 9,
+    "targetTranslations": 90,
+    "locales": 11,
+    "missing": 0,
+    "stale": 0,
+    "errors": 0,
+    "retainedEditorialWarnings": 97,
+    "provenance": "machine_translated / development-assistant / session-assistant, current SHA-256 source hashes",
+    "providerSync": "Unavailable without explicit key/model; assistant fallback completed. Dry run has zero pending.",
+    "qualifiedReview": "Pending; source/answer conversation unchanged and English-only."
+  },
+  "performance": {
+    "scope": "Cold isolated local Chrome contexts; Vite preview, identical viewport and cache settings. Timings/heap are noisy lab observations, not causal speed or memory claims.",
+    "baseline": {
+      "entry": {
+        "path": "assets/index-CoDq9d7l.js",
+        "raw": 210686,
+        "gzip9": 64496
+      },
+      "headroom": 4314,
+      "eager": [
+        {
+          "path": "assets/index-CoDq9d7l.js",
+          "raw": 210686,
+          "gzip9": 64496
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/i18n-core-CSoI-yRo.js",
+          "raw": 292120,
+          "gzip9": 71013
+        },
+        {
+          "path": "assets/i18n-vendor-CpbjYxqM.js",
+          "raw": 5234,
+          "gzip9": 2476
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        }
+      ],
+      "chunks": [
+        {
+          "path": "assets/CaseStudySummary-D8Ht4FOX.js",
+          "raw": 5700,
+          "gzip9": 2501
+        },
+        {
+          "path": "assets/DefenceRoute-Be63cIvc.js",
+          "raw": 28557,
+          "gzip9": 10338
+        },
+        {
+          "path": "assets/DefenceRoute-DK9n04FC.css",
+          "raw": 7343,
+          "gzip9": 1853
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-BrS01sLw.css",
+          "raw": 3372,
+          "gzip9": 1023
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-MgeyEwlt.js",
+          "raw": 22370,
+          "gzip9": 8067
+        },
+        {
+          "path": "assets/GameShell-DMun-OPk.js",
+          "raw": 47550,
+          "gzip9": 15145
+        },
+        {
+          "path": "assets/IncidentZeroRoute-C0JEqWeK.js",
+          "raw": 5924,
+          "gzip9": 2439
+        },
+        {
+          "path": "assets/IncidentZeroRoute-D7_mNOul.css",
+          "raw": 11576,
+          "gzip9": 2947
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-BzeQvVjD.js",
+          "raw": 46795,
+          "gzip9": 13903
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-Do2fVsHr.css",
+          "raw": 8098,
+          "gzip9": 1995
+        },
+        {
+          "path": "assets/NotFound-5BN4-w9-.css",
+          "raw": 2735,
+          "gzip9": 1017
+        },
+        {
+          "path": "assets/NotFound-dE-Cd0OD.js",
+          "raw": 4948,
+          "gzip9": 2408
+        },
+        {
+          "path": "assets/PaceAssistant-BqlOVwAg.css",
+          "raw": 4625,
+          "gzip9": 1457
+        },
+        {
+          "path": "assets/PaceAssistant-LJNNU74T.js",
+          "raw": 80819,
+          "gzip9": 26101
+        },
+        {
+          "path": "assets/PaceRagCaseStudy-BnYiUCCO.js",
+          "raw": 16579,
+          "gzip9": 5465
+        },
+        {
+          "path": "assets/PageLandscape-BalK4_Uo.js",
+          "raw": 489,
+          "gzip9": 300
+        },
+        {
+          "path": "assets/PortfolioGame-DO2-KZRZ.js",
+          "raw": 1197779,
+          "gzip9": 314451
+        },
+        {
+          "path": "assets/UtilityPanel-B-vePF6w.js",
+          "raw": 3948,
+          "gzip9": 1370
+        },
+        {
+          "path": "assets/WorkWithMe-Bip1vF3U.js",
+          "raw": 10761,
+          "gzip9": 3191
+        },
+        {
+          "path": "assets/ar-D29vuFA_.js",
+          "raw": 282176,
+          "gzip9": 91388
+        },
+        {
+          "path": "assets/config-DjNMDW_l.js",
+          "raw": 563,
+          "gzip9": 423
+        },
+        {
+          "path": "assets/de-DafPyUXx.js",
+          "raw": 244785,
+          "gzip9": 88767
+        },
+        {
+          "path": "assets/es-BVVfJIfL.js",
+          "raw": 243432,
+          "gzip9": 85280
+        },
+        {
+          "path": "assets/fr-PNytR808.js",
+          "raw": 249614,
+          "gzip9": 87081
+        },
+        {
+          "path": "assets/game-BC3gFQOH.js",
+          "raw": 8283,
+          "gzip9": 3506
+        },
+        {
+          "path": "assets/hi-eQndWGgu.js",
+          "raw": 387300,
+          "gzip9": 102042
+        },
+        {
+          "path": "assets/i18n-core-CSoI-yRo.js",
+          "raw": 292120,
+          "gzip9": 71013
+        },
+        {
+          "path": "assets/i18n-vendor-CpbjYxqM.js",
+          "raw": 5234,
+          "gzip9": 2476
+        },
+        {
+          "path": "assets/index-CoDq9d7l.js",
+          "raw": 210686,
+          "gzip9": 64496
+        },
+        {
+          "path": "assets/index-DoZfSIMM.css",
+          "raw": 79466,
+          "gzip9": 15751
+        },
+        {
+          "path": "assets/ja-pq_1bdNU.js",
+          "raw": 263330,
+          "gzip9": 94438
+        },
+        {
+          "path": "assets/layout.worker-D9ceUgfv.js",
+          "raw": 12782,
+          "gzip9": 4940
+        },
+        {
+          "path": "assets/module-DLmbbmaF.js",
+          "raw": 305055,
+          "gzip9": 100717
+        },
+        {
+          "path": "assets/ms-B4DVvBZW.js",
+          "raw": 230351,
+          "gzip9": 81072
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        },
+        {
+          "path": "assets/portfolioMotion-7hn0UuyM.js",
+          "raw": 4773,
+          "gzip9": 1737
+        },
+        {
+          "path": "assets/pt-BR--mmKGZ31.js",
+          "raw": 240427,
+          "gzip9": 84353
+        },
+        {
+          "path": "assets/renderer-BumnWz5L.js",
+          "raw": 51206,
+          "gzip9": 20168
+        },
+        {
+          "path": "assets/renderer-I_CY9WqS.js",
+          "raw": 7374,
+          "gzip9": 3089
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/ta-AugTLtE5.js",
+          "raw": 449678,
+          "gzip9": 102990
+        },
+        {
+          "path": "assets/zh-Hans-BJ1hixJO.js",
+          "raw": 206848,
+          "gzip9": 85542
+        },
+        {
+          "path": "pace-rag/assets/embedding-worker-DnxKJqeO.js",
+          "raw": 851258,
+          "gzip9": 215959
+        },
+        {
+          "path": "reading.js",
+          "raw": 1068,
+          "gzip9": 518
+        },
+        {
+          "path": "theme.js",
+          "raw": 1763,
+          "gzip9": 770
+        }
+      ],
+      "totalAssetBytes": 87742498
+    },
+    "candidate": {
+      "entry": {
+        "path": "assets/index-hcysK-3-.js",
+        "raw": 210802,
+        "gzip9": 64544
+      },
+      "headroom": 4198,
+      "eager": [
+        {
+          "path": "assets/index-hcysK-3-.js",
+          "raw": 210802,
+          "gzip9": 64544
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/i18n-core-CvoEBBM8.js",
+          "raw": 294660,
+          "gzip9": 71478
+        },
+        {
+          "path": "assets/i18n-vendor-BiJxmErV.js",
+          "raw": 5234,
+          "gzip9": 2477
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        }
+      ],
+      "chunks": [
+        {
+          "path": "assets/CaseStudySummary-BZ23-dLg.js",
+          "raw": 5885,
+          "gzip9": 2567
+        },
+        {
+          "path": "assets/DefenceRoute-CRmZkYg8.js",
+          "raw": 28557,
+          "gzip9": 10338
+        },
+        {
+          "path": "assets/DefenceRoute-DK9n04FC.css",
+          "raw": 7343,
+          "gzip9": 1853
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-BGyKHLa-.js",
+          "raw": 22871,
+          "gzip9": 8209
+        },
+        {
+          "path": "assets/EngineeringCaseStudy-BrS01sLw.css",
+          "raw": 3372,
+          "gzip9": 1023
+        },
+        {
+          "path": "assets/GameShell-Cbl11YTu.js",
+          "raw": 47550,
+          "gzip9": 15146
+        },
+        {
+          "path": "assets/IncidentZeroRoute-D7_mNOul.css",
+          "raw": 11576,
+          "gzip9": 2947
+        },
+        {
+          "path": "assets/IncidentZeroRoute-D8caEyPC.js",
+          "raw": 5924,
+          "gzip9": 2437
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-OL6GZRrq.css",
+          "raw": 8370,
+          "gzip9": 2046
+        },
+        {
+          "path": "assets/NoTwoMondaysCaseStudy-xL0wFtiU.js",
+          "raw": 47345,
+          "gzip9": 13940
+        },
+        {
+          "path": "assets/NotFound-5BN4-w9-.css",
+          "raw": 2735,
+          "gzip9": 1017
+        },
+        {
+          "path": "assets/NotFound-DNkBtYKM.js",
+          "raw": 4948,
+          "gzip9": 2408
+        },
+        {
+          "path": "assets/PaceAssistant-BqlOVwAg.css",
+          "raw": 4625,
+          "gzip9": 1457
+        },
+        {
+          "path": "assets/PaceAssistant-DMg48s-B.js",
+          "raw": 80819,
+          "gzip9": 26101
+        },
+        {
+          "path": "assets/PaceRagCaseStudy-Cn5pfYyx.js",
+          "raw": 16645,
+          "gzip9": 5437
+        },
+        {
+          "path": "assets/PageLandscape-DbnllbJn.js",
+          "raw": 489,
+          "gzip9": 299
+        },
+        {
+          "path": "assets/PortfolioGame-DO2-KZRZ.js",
+          "raw": 1197779,
+          "gzip9": 314451
+        },
+        {
+          "path": "assets/UtilityPanel-CHLJqCxN.js",
+          "raw": 3948,
+          "gzip9": 1370
+        },
+        {
+          "path": "assets/WorkWithMe-CPRWDOOk.js",
+          "raw": 10761,
+          "gzip9": 3190
+        },
+        {
+          "path": "assets/ar-sA-URNZ-.js",
+          "raw": 285440,
+          "gzip9": 92415
+        },
+        {
+          "path": "assets/config-DjNMDW_l.js",
+          "raw": 563,
+          "gzip9": 423
+        },
+        {
+          "path": "assets/de-80fGh-PM.js",
+          "raw": 247663,
+          "gzip9": 89763
+        },
+        {
+          "path": "assets/es-B2jKLUIz.js",
+          "raw": 246271,
+          "gzip9": 86179
+        },
+        {
+          "path": "assets/fr-B_jPgNrN.js",
+          "raw": 252585,
+          "gzip9": 88035
+        },
+        {
+          "path": "assets/game--i_Duzfr.js",
+          "raw": 8283,
+          "gzip9": 3506
+        },
+        {
+          "path": "assets/hi-B7N7418-.js",
+          "raw": 391755,
+          "gzip9": 103215
+        },
+        {
+          "path": "assets/i18n-core-CvoEBBM8.js",
+          "raw": 294660,
+          "gzip9": 71478
+        },
+        {
+          "path": "assets/i18n-vendor-BiJxmErV.js",
+          "raw": 5234,
+          "gzip9": 2477
+        },
+        {
+          "path": "assets/index-DoZfSIMM.css",
+          "raw": 79466,
+          "gzip9": 15751
+        },
+        {
+          "path": "assets/index-hcysK-3-.js",
+          "raw": 210802,
+          "gzip9": 64544
+        },
+        {
+          "path": "assets/ja-BELnxGB4.js",
+          "raw": 266258,
+          "gzip9": 95475
+        },
+        {
+          "path": "assets/layout.worker-D9ceUgfv.js",
+          "raw": 12782,
+          "gzip9": 4940
+        },
+        {
+          "path": "assets/module-DLmbbmaF.js",
+          "raw": 305055,
+          "gzip9": 100717
+        },
+        {
+          "path": "assets/ms-DxyjW6gt.js",
+          "raw": 233028,
+          "gzip9": 81969
+        },
+        {
+          "path": "assets/portfolio-content-CuvMVHXM.js",
+          "raw": 16711,
+          "gzip9": 5621
+        },
+        {
+          "path": "assets/portfolioMotion-7hn0UuyM.js",
+          "raw": 4773,
+          "gzip9": 1737
+        },
+        {
+          "path": "assets/pt-BR-DCl_THml.js",
+          "raw": 243243,
+          "gzip9": 85274
+        },
+        {
+          "path": "assets/renderer-BJfZr-GJ.js",
+          "raw": 51206,
+          "gzip9": 20169
+        },
+        {
+          "path": "assets/renderer-CuHbfsVC.js",
+          "raw": 7374,
+          "gzip9": 3089
+        },
+        {
+          "path": "assets/rolldown-runtime-hePW80VL.js",
+          "raw": 716,
+          "gzip9": 430
+        },
+        {
+          "path": "assets/ta-DvB5-dJm.js",
+          "raw": 455234,
+          "gzip9": 104161
+        },
+        {
+          "path": "assets/zh-Hans-DRUVOqEb.js",
+          "raw": 209256,
+          "gzip9": 86448
+        },
+        {
+          "path": "pace-rag/assets/embedding-worker-DnxKJqeO.js",
+          "raw": 851258,
+          "gzip9": 215959
+        },
+        {
+          "path": "reading.js",
+          "raw": 1068,
+          "gzip9": 518
+        },
+        {
+          "path": "theme.js",
+          "raw": 1763,
+          "gzip9": 770
+        }
+      ],
+      "totalAssetBytes": 87798628
+    },
+    "samples": [
+      {
+        "name": "baseline",
+        "run": 0,
+        "ready": 575.1999999880791,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-CoDq9d7l.js",
+            "transfer": 64962,
+            "encoded": 64662,
+            "decoded": 210686,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.150319
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.896233
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 15755556
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "candidate",
+        "run": 0,
+        "ready": 220.40000000596046,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/index-hcysK-3-.js",
+            "transfer": 65010,
+            "encoded": 64710,
+            "decoded": 210802,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-vendor-BiJxmErV.js",
+            "transfer": 2777,
+            "encoded": 2477,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-core-CvoEBBM8.js",
+            "transfer": 71929,
+            "encoded": 71629,
+            "decoded": 294660,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/assets/renderer-BJfZr-GJ.js",
+            "transfer": 20477,
+            "encoded": 20177,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.124343
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.764636
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 18263544
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "baseline",
+        "run": 1,
+        "ready": 452.5,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-CoDq9d7l.js",
+            "transfer": 64962,
+            "encoded": 64662,
+            "decoded": 210686,
+            "type": "script"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.148422
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.861837
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 16275524
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "candidate",
+        "run": 1,
+        "ready": 456,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-core-CvoEBBM8.js",
+            "transfer": 71929,
+            "encoded": 71629,
+            "decoded": 294660,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-hcysK-3-.js",
+            "transfer": 65010,
+            "encoded": 64710,
+            "decoded": 210802,
+            "type": "script"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/assets/i18n-vendor-BiJxmErV.js",
+            "transfer": 2777,
+            "encoded": 2477,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/assets/renderer-BJfZr-GJ.js",
+            "transfer": 20477,
+            "encoded": 20177,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.148517
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.953575
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 17503608
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "baseline",
+        "run": 2,
+        "ready": 201.19999998807907,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-CoDq9d7l.js",
+            "transfer": 64962,
+            "encoded": 64662,
+            "decoded": 210686,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-core-CSoI-yRo.js",
+            "transfer": 71452,
+            "encoded": 71152,
+            "decoded": 292120,
+            "type": "other"
+          },
+          {
+            "path": "/assets/i18n-vendor-CpbjYxqM.js",
+            "transfer": 2776,
+            "encoded": 2476,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/assets/renderer-BumnWz5L.js",
+            "transfer": 20476,
+            "encoded": 20176,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.122668
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.676243
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 18171560
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "candidate",
+        "run": 2,
+        "ready": 377.69999998807907,
+        "shifts": 0,
+        "resources": [
+          {
+            "path": "/theme.js",
+            "transfer": 1070,
+            "encoded": 770,
+            "decoded": 1763,
+            "type": "script"
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "transfer": 1016,
+            "encoded": 716,
+            "decoded": 716,
+            "type": "other"
+          },
+          {
+            "path": "/reading.js",
+            "transfer": 818,
+            "encoded": 518,
+            "decoded": 1068,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-vendor-BiJxmErV.js",
+            "transfer": 2777,
+            "encoded": 2477,
+            "decoded": 5234,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-hcysK-3-.js",
+            "transfer": 65010,
+            "encoded": 64710,
+            "decoded": 210802,
+            "type": "script"
+          },
+          {
+            "path": "/assets/i18n-core-CvoEBBM8.js",
+            "transfer": 71929,
+            "encoded": 71629,
+            "decoded": 294660,
+            "type": "other"
+          },
+          {
+            "path": "/assets/portfolio-content-CuvMVHXM.js",
+            "transfer": 5925,
+            "encoded": 5625,
+            "decoded": 16711,
+            "type": "other"
+          },
+          {
+            "path": "/assets/index-DoZfSIMM.css",
+            "transfer": 16151,
+            "encoded": 15851,
+            "decoded": 79466,
+            "type": "link"
+          },
+          {
+            "path": "/images/MohdVaraLetters-refined.svg",
+            "transfer": 357831,
+            "encoded": 357531,
+            "decoded": 1661916,
+            "type": "img"
+          },
+          {
+            "path": "/images/MohdVaraPortrait-mask.svg",
+            "transfer": 1071,
+            "encoded": 771,
+            "decoded": 1667,
+            "type": "css"
+          },
+          {
+            "path": "/assets/renderer-BJfZr-GJ.js",
+            "transfer": 20477,
+            "encoded": 20177,
+            "decoded": 51206,
+            "type": "script"
+          },
+          {
+            "path": "/assets/config-DjNMDW_l.js",
+            "transfer": 863,
+            "encoded": 563,
+            "decoded": 563,
+            "type": "script"
+          },
+          {
+            "path": "/favicon.svg",
+            "transfer": 597,
+            "encoded": 297,
+            "decoded": 297,
+            "type": "other"
+          },
+          {
+            "path": "/artwork/pme-v1.5/manifest.json",
+            "transfer": 1176,
+            "encoded": 876,
+            "decoded": 2799,
+            "type": "fetch"
+          },
+          {
+            "path": "/artwork/pme-v1.5/en-2cc4e45dc8f0c169.json",
+            "transfer": 2422,
+            "encoded": 2122,
+            "decoded": 6147,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/manifest.json",
+            "transfer": 2060,
+            "encoded": 1760,
+            "decoded": 9329,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin.woff2",
+            "transfer": 12884,
+            "encoded": 12584,
+            "decoded": 12584,
+            "type": "fetch"
+          },
+          {
+            "path": "/fonts/unicode/latin-OFL.txt",
+            "transfer": 2267,
+            "encoded": 1967,
+            "decoded": 4396,
+            "type": "fetch"
+          },
+          {
+            "path": "/assets/layout.worker-D9ceUgfv.js",
+            "transfer": 5242,
+            "encoded": 4942,
+            "decoded": 12782,
+            "type": "other"
+          }
+        ],
+        "metrics": [
+          {
+            "name": "ScriptDuration",
+            "value": 0.128382
+          },
+          {
+            "name": "TaskDuration",
+            "value": 0.793817
+          },
+          {
+            "name": "JSHeapUsedSize",
+            "value": 14668996
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "checks": [
+      "Input loads motion; contact remains reachable",
+      "Input loads motion; contact remains reachable",
+      "Input loads motion; contact remains reachable",
+      "reduced: content, native disclosure and error-free fallback",
+      "blocked: content, native disclosure and error-free fallback"
+    ]
+  },
+  "fingerprints": {
+    "source": "58582a7072899a4c5837bd0fef5483aedcbf0e8fa5cd4b8d22208092371871a1",
+    "artifact": "82049f52c6e4b0e21e5a6d97d06689dbbeea1dc6b8eea2c253ce73ef2a1d2b9e",
+    "entry": {
+      "path": "assets/index-hcysK-3-.js",
+      "bytes": 210802,
+      "sha256": "c241f302ece9c59b4c6bf1bbd7b65d44510e4198a88ef89d09c2c0b80528d61d",
+      "gzip": 64710
+    }
+  },
+  "gates": {
+    "build": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "tests": "214 PASS",
+    "i18nValidation": "PASS",
+    "strictCoverage": "PASS",
+    "dateAudit": "PASS",
+    "artwork": "11 packs PASS",
+    "publicAssets": "69 reviewed files PASS",
+    "staticRoutes": "108 PASS",
+    "whitespace": "PASS excluding preserved owner whitespace",
+    "secretScan": "PASS: redacted Gitleaks scan of explicit candidate files and dist; no findings"
+  },
+  "changedFiles": [
+    "docs/content-sources.md",
+    "docs/portfolio/PALDA_V1_3.md",
+    "docs/portfolio/PME-V1-COVERAGE.json",
+    "docs/portfolio/PME-V1-QA.json",
+    "docs/portfolio/TRANSLATION_EDITORIAL_REVIEW_QUEUE.md",
+    "scripts/i18n/metadata.json",
+    "scripts/i18n/source-locations.json",
+    "scripts/loader-qa.mjs",
+    "scripts/palda-evidence-qa.mjs",
+    "scripts/palda-loading-qa.mjs",
+    "src/CaseStudySummary.tsx",
+    "src/EngineeringCaseStudy.tsx",
+    "src/NaaeEvolution.tsx",
+    "src/NoTwoMondaysCaseStudy.css",
+    "src/NoTwoMondaysCaseStudy.tsx",
+    "src/PaceRagCaseStudy.tsx",
+    "src/caseStudies.ts",
+    "src/i18n/locales/ar.json",
+    "src/i18n/locales/de.json",
+    "src/i18n/locales/en.json",
+    "src/i18n/locales/es.json",
+    "src/i18n/locales/fr.json",
+    "src/i18n/locales/hi.json",
+    "src/i18n/locales/ja.json",
+    "src/i18n/locales/ms.json",
+    "src/i18n/locales/pt-BR.json",
+    "src/i18n/locales/ta.json",
+    "src/i18n/locales/zh-Hans.json",
+    "src/i18n/status.json",
+    "src/useFragmentNavigation.ts",
+    "tests/evidence-first.test.mjs",
+    "verification/portfolio-evidence-first-v1.3.json"
+  ],
+  "publication": {
+    "local": "Implemented and validated",
+    "commits": "None for v1.3; HEAD unchanged",
+    "push": "None for v1.3",
+    "cloudflare": "Read-only observation only; no deployment or configuration edit",
+    "liveParity": "Not established for the local v1.3 candidate",
+    "externalCareerDocuments": "Not edited",
+    "recruiterFeedback": "No collection, solicitation, preparation, register or analytics changes"
+  },
+  "preserved": [
+    "Owner whitespace and nine initial browser snapshots",
+    "Loader runtime and FirstFrame readiness boundary",
+    "Career chronology and commercial outcomes",
+    "PACE-RAG package, corpus, generated example and inference policy",
+    "No Two Mondays campaign dataset and all 44 distribution rows",
+    "NAAE original artifacts and all comparison controls",
+    "Privacy, analytics, game mechanics, sibling repositories and hosting settings"
+  ],
+  "limitations": [
+    "Machine translations lack qualified linguistic review.",
+    "No actual screen-reader or physical-device certification.",
+    "New eight-scan axe set excludes color-contrast; existing 24 scans retain their incomplete findings.",
+    "Startup observations are local and noisy; no measured speedup, RUM Web Vitals or production correctness claim.",
+    "Historical app test/campaign metrics were not rerun in sibling projects."
+  ],
+  "rawEvidence": "Ignored output/playwright/palda-v1.3/",
+  "artworkDecode": [
+    {
+      "src": "/images/naae/v0.2.png",
+      "width": 1800,
+      "height": 1013
+    },
+    {
+      "src": "/images/naae/v0.3.png",
+      "width": 1400,
+      "height": 788
+    }
+  ],
+  "temporaryPreviewServers": "Stopped after validation",
+  "publicationFollowUp": {
+    "date": "2026-10-24",
+    "authorization": "Owner authorized structured commits and push to origin after local closeout.",
+    "snapshotPolicy": "Existing HEAD/publication fields preserve the pre-commit validation snapshot; consult Git history and origin/main for subsequent publication state.",
+    "deployment": "Existing Cloudflare Git integration may trigger on push; deployment outcome and live artifact parity remain unverified.",
+    "excluded": [
+      "Owner whitespace in docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+      "Nine initial .playwright-cli snapshots",
+      "Ignored diagnostics and raw captures"
+    ]
+  }
+}

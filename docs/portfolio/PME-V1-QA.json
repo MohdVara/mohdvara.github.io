@@ -1235,5 +1235,21 @@
       "Prior PALDA baseline Tamil accessible-name mismatches outside changed cards remain; scoped zero violations is not a site-wide claim.",
       "No measured CLS/INP or real-user performance improvement claimed."
     ]
+  },
+  "paldaV13": {
+    "date": "2026-10-24",
+    "report": "PALDA_V1_3.md",
+    "verification": "verification/portfolio-evidence-first-v1.3.json",
+    "canonicalUnits": 1574,
+    "machineAuthoredAdditions": 9,
+    "targetTranslations": 90,
+    "missing": 0,
+    "stale": 0,
+    "localeLayouts": 88,
+    "caseLocalePairs": 44,
+    "noJavaScriptChecks": 16,
+    "errors": [],
+    "qualifiedLanguageReview": "Pending",
+    "scope": "Preserves English-only Q&A, source hashes, disclosure, RTL, CJK vertical and Tamil; not fluent/physical-device certification."
   }
 }
