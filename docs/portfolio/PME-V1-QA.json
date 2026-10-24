@@ -1298,5 +1298,16 @@
       "issues": 0
     },
     "deployed": false
+  },
+  "unifiedExperienceTimeline": {
+    "verification": "verification/unified-experience-timeline.json",
+    "roles": 7,
+    "separate_milestone_diagram": false,
+    "timeline_layouts": 132,
+    "cjk_header_cases": 12,
+    "locale_regression_layouts": 24,
+    "tests_passed": 214,
+    "validation_scope": "Local Chrome; deployment outcome unverified",
+    "publication": "Owner authorized commit and push to origin on 25 October 2026; consult Git history and origin/main for publication state."
   }
 }

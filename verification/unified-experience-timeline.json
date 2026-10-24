@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Kuching",
+  "status": "verified locally; owner authorized commit and push on 25 October 2026",
+  "changes": [
+    "One ordered seven-role timeline replaces the separate four-milestone career diagram",
+    "Organic gold connectors, faint contours and botanical details follow variable role heights",
+    "Numbered markers retain the existing reading-position highlight",
+    "Compact balanced CJK vertical title with horizontal introduction, calendars and resume links"
+  ],
+  "validation": {
+    "production_build": "pass",
+    "typecheck": "pass",
+    "lint": "pass",
+    "tests": {
+      "passed": 214,
+      "failed": 0
+    },
+    "timeline_layouts": {
+      "count": 132,
+      "locales": 11,
+      "widths": [
+        390,
+        760,
+        761,
+        1024,
+        1354,
+        1920
+      ],
+      "text_sizes": [
+        "default",
+        "largest"
+      ],
+      "overflow": 0,
+      "text_overlap": 0,
+      "marker_overlap": 0,
+      "disconnected_segments": 0
+    },
+    "locale_regression": {
+      "locales": [
+        "en",
+        "ja",
+        "zh-Hans"
+      ],
+      "layouts": 24,
+      "scenarios": 9,
+      "assistant_checks": 3,
+      "errors": 0
+    },
+    "final_cjk_header": {
+      "cases": 12,
+      "widths": [
+        390,
+        761,
+        1200
+      ],
+      "text_sizes": [
+        "default",
+        "largest"
+      ],
+      "motto_writing_mode": "horizontal-tb",
+      "overlap": 0,
+      "overflow": 0
+    },
+    "catalog_errors": 0,
+    "existing_editorial_warnings": 97,
+    "strict_catalog_coverage": "pass"
+  },
+  "evidence": [
+    "output/playwright/timeline-spacing-results.json",
+    "output/playwright/timeline-final-cjk/results.json",
+    "output/playwright/timeline-unified-ja-header.png",
+    "output/playwright/timeline-unified-zh-Hans-header.png"
+  ],
+  "limits": [
+    "Local Chrome validation, not a physical-device or assistive-technology pass",
+    "Existing translations remain pending fluent editorial review",
+    "Validation preceded publication. Owner subsequently authorized commit and push to origin; consult Git history and origin/main for publication state. Deployment outcome remains unverified."
+  ]
+}
