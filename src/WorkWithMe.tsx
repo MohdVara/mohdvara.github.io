@@ -1,3 +1,4 @@
+import { useOptionalMotion } from "./useOptionalMotion";
 import { VerticalText } from "./i18n/controls";
 import { localizedHref } from "./i18n/config";
 import { text, localizedContent } from "./i18n/config";
@@ -7,10 +8,10 @@ import { profile } from './content';
 import { problems, engagements } from './EngagementContent';
 import { evidence } from './evidence';
 import { SectionBranch, ContactConvergence } from './NaturalGraphics';
-import { useSectionReveals, useSystemMotion } from './usePortfolioMotion';
+import { useSectionReveals } from './usePortfolioMotion';
 import './Engagements.css';
 export default function WorkWithMe() {
-  useSectionReveals(); useSystemMotion();
+  useSectionReveals(); useOptionalMotion();
   return <>
     <a className="skip-link" href="#main">{text("Skip to content")}</a>
     <Navigation home={false} />

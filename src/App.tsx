@@ -1,3 +1,4 @@
+import { useOptionalMotion } from "./useOptionalMotion";
 import CaseStudyQuickRead from "./CaseStudyQuickRead";
 import { useExperience } from "./i18n/context";
 import { language } from "./i18n/languages";
@@ -8,7 +9,7 @@ import { text, localizedContent } from "./i18n/config";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { profile, projects, experience } from "./content";
 import { technologyExperience, type TechnologyExperience } from "./technology";
-import { observeReadingPosition, useSectionReveals, useSystemMotion, useHeroPointer } from "./usePortfolioMotion";
+import { observeReadingPosition, useSectionReveals } from "./usePortfolioMotion";
 import { BorneoBotanical, BotanicalDrawing, PortraitUnderstory, ContactConvergence, SystemTransition, SectionBranch } from "./NaturalGraphics";
 import { ProjectDiagram, CapabilityMap, CareerPath } from "./SystemDiagrams";
 import { PublicEngineering } from "./PublicEngineering";
@@ -120,7 +121,6 @@ export function Navigation({ home = true, contactOnPage = true }: { home?: boole
   );
 }
 function Hero() {
-  useHeroPointer();
   return (
     <section className="hero-environment" id="home" data-motion-region="hero" aria-labelledby="hero-title">
       <AsciiForestBackdrop codeCanopy />
@@ -504,7 +504,7 @@ function Contact() {
 }
 function App() {
   useSectionReveals();
-  useSystemMotion();
+  useOptionalMotion();
   return (
     <>
       <a className="skip-link" href="#main">{text("Skip to content")}</a>
