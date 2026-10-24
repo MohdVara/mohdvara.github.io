@@ -1,0 +1,395 @@
+{
+  "schema_version": "1.0",
+  "task": "cjk-vertical-restore-v2",
+  "timestamp": "2026-10-25T02:30:12.957177+08:00",
+  "timezone": "Asia/Kuching",
+  "status": "COMPLETE — LOCAL VALIDATION",
+  "git_head_at_verification": "005dd4770d9c4e447f27f7508379a9b2649c7e58",
+  "uncommitted": true,
+  "request": "Restore Japanese/Chinese vertical titles and extend a consistent vertical editorial treatment across the other portfolio pages.",
+  "changes": {
+    "defaults": {
+      "en": "horizontal",
+      "ms": "horizontal",
+      "ar": "horizontal",
+      "ta": "horizontal",
+      "ja": "vertical",
+      "zh-Hans": "vertical",
+      "es": "horizontal",
+      "fr": "horizontal",
+      "de": "horizontal",
+      "pt-BR": "horizontal",
+      "hi": "horizontal"
+    },
+    "home": [
+      "Existing vertical section and project titles restored by default",
+      "Vertical experience motto",
+      "Vertical AI-evidence heading beside horizontal copy"
+    ],
+    "case_studies": [
+      "MMCATS Modern",
+      "NAAE",
+      "Multilingual engineering",
+      "PACE-RAG",
+      "No Two Mondays"
+    ],
+    "other_pages": [
+      "Work With Me problem-card titles",
+      "Incident Zero opening",
+      "System Defence ready-screen heading",
+      "Localized 404 heading and existing vertical quotation"
+    ],
+    "style": "Native vertical-rl text, restrained accent rules and horizontal explanatory copy; no rotated text images",
+    "responsive": "New columns from 1000px; ordinary flow on narrower screens or Largest text. Existing project title styles retain their 900px breakpoint.",
+    "preferences": "Saved Horizontal/Vertical choices remain authoritative across reloads; Language → Reading mode → Vertical restores a saved horizontal choice.",
+    "static_html": "Registry default writing mode included in every localized document, including 404, before JavaScript.",
+    "preserved": [
+      "Semantic heading levels and IDs",
+      "Existing translated copy and provenance",
+      "Horizontal navigation, notices and controls",
+      "English-only assistant content/state",
+      "Horizontal active game HUD and pause/report headings"
+    ]
+  },
+  "tests": {
+    "typecheck": "PASS — production tsc -b",
+    "lint": "PASS",
+    "production_build_prerender": "PASS",
+    "unit_and_integration": {
+      "passed": 85,
+      "failed": 0,
+      "scope": "Locale/artwork, production artifacts, case studies, 404, Incident Zero, System Defence and No Two Mondays"
+    },
+    "all_locale_default_regression": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "final_cjk_english_regression": {
+      "layouts": 24,
+      "scenarios": 9,
+      "assistantChecks": 3,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "case_and_other_page_layouts": 90,
+    "page_families": 9,
+    "locales": [
+      "ja",
+      "zh-Hans"
+    ],
+    "widths": [
+      390,
+      999,
+      1000,
+      1440,
+      1920
+    ],
+    "enlarged_text_cases": 14,
+    "active_game_and_pause_checks": [
+      {
+        "locale": "ja",
+        "hud": "horizontal-tb",
+        "pausedTitle": "horizontal-tb"
+      },
+      {
+        "locale": "zh-Hans",
+        "hud": "horizontal-tb",
+        "pausedTitle": "horizontal-tb"
+      }
+    ],
+    "preference_checks": "PASS — both CJK languages, horizontal and vertical persist after reload",
+    "browser_errors": [],
+    "localized_static_route_audit": {
+      "routes": 108,
+      "issues": []
+    },
+    "catalog_validation": "PASS — 0 errors; 97 existing editorial warnings; 1574 source units",
+    "whitespace_task_scope": "PASS"
+  },
+  "verification_sequence": "Full eleven-locale browser check followed default restoration. Final CJK/English regression and all 90 additional-page layouts ran after the complete cross-page styling and static writing-mode attributes were built.",
+  "source_hashes": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "713952cc132aac2007c8270de1c742c4ee58f7d22fcfc25f07e7de4510966b26"
+    },
+    {
+      "path": "scripts/prerender.mjs",
+      "sha256": "6cf3a23f0c25a4c555a56540f434d0fe35a57a2fceca49b9304bfa1c2742401d"
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "5d452a59e440ab60bb5bf6bb47fef2f578229824ded8a002344f5ece817c3e8e"
+    },
+    {
+      "path": "src/EngineeringCaseStudy.tsx",
+      "sha256": "d9c372f33392d7497c92bcb283a931d30607e4d35b2e2aead66f2c4627d6b10d"
+    },
+    {
+      "path": "src/PaceRagCaseStudy.tsx",
+      "sha256": "678ef0d3e6044eff08d5859c19d707ca972a5d1e4f88963e866abce734ac4534"
+    },
+    {
+      "path": "src/NoTwoMondaysCaseStudy.tsx",
+      "sha256": "4d3e9eae2bcb8be13fbbc362661b17bb446870899411039039e6656107f53c2a"
+    },
+    {
+      "path": "src/NotFound.tsx",
+      "sha256": "6a7818426d947c155dd1c9298b9aa00ed292cd63656a65350e9c62f58cad166c"
+    },
+    {
+      "path": "src/features/incident-zero/IncidentZeroRoute.tsx",
+      "sha256": "5ed3d662de36002246ca96bbddab85b1ce615f3073852783997017d2e7887a35"
+    },
+    {
+      "path": "src/features/incident-zero/defence/DefenceRoute.tsx",
+      "sha256": "59ddd1578ca9a9d7c64ac5028e0643e467a8a3f125470c56f20b41c532b6cf49"
+    },
+    {
+      "path": "src/i18n/i18n.css",
+      "sha256": "9ec20776233be64cf3ee105b7b46baa0ec5eb03b642c2798be41410f77c451fe"
+    },
+    {
+      "path": "src/i18n/languages.json",
+      "sha256": "5bdf75fdd76de7944769fa93f0f6044c9d0d2c9827bc2ca6577b3b6b62bc4c30"
+    },
+    {
+      "path": "tests/i18n.test.mjs",
+      "sha256": "68308b29d38eb1fe5e74e5c997327f0f0b285cab70826863296737a834b3889a"
+    },
+    {
+      "path": "tests/artwork.test.mjs",
+      "sha256": "4cf1d0a94725a149c3219ced226296b823dd8ae05e6ef091c811826cb92c8884"
+    }
+  ],
+  "source_fingerprint": "a062062788712d956838941ae657d29d5b1b0c9ed068cf54c8f99718fa88b14e",
+  "source_fingerprint_scope": "Sorted existing git tracked + nonignored untracked path/SHA256 pairs (deleted paths excluded); excludes docs/, verification/, output/, .playwright-cli/ to avoid report self-reference. Includes build scripts, lockfile, vendor, public assets and source.",
+  "artifact_fingerprint": "1707838afa2935355b131cbbffeeecf47afb4a543ae8ad6a9cc3cf9849f61c70",
+  "entry": {
+    "path": "assets/index-CycWVG3X.js",
+    "bytes": 211165,
+    "sha256": "aad956cc1d565911d98628fb7a45ee8181ce35b4214ee300f45d4b082d4de54f",
+    "gzip": 64828
+  },
+  "owner_files_preserved": [
+    {
+      "path": "docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+      "sha256": "9c5c94376787cb6dabd869df89ff35ca4ec7f03ad50029ea5b27c226252112f2",
+      "matches_before": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "2814a75afd81c6a81764421645570797ae6f19455522cdebfb655854d3b340da",
+      "matches_before": true
+    },
+    {
+      "path": "public/og-image.png",
+      "sha256": "1e1f743fd5c9a5243d65ed5ea164f0f90faf1c0f9c24b560b67701408111eb16",
+      "matches_before": true
+    },
+    {
+      "path": "tests/social-metadata.test.mjs",
+      "sha256": "555c0af8cdb3491bfaefacdb9c6ceca97c616480c6f78c3a319574170f5b708f",
+      "matches_before": true
+    },
+    {
+      "path": "scripts/home-social-preview.mjs",
+      "sha256": "11b3f6a0a02caa93902670d039f0f9ef23c46789c93090f7b4780608e71255e9",
+      "matches_before": true
+    }
+  ],
+  "limits": [
+    "Local Chrome validation; no physical-device or real screen-reader session",
+    "Existing translations remain subject to qualified linguistic review; no new translations introduced",
+    "No deployment or live-site parity claim"
+  ],
+  "safety": {
+    "task_committed": false,
+    "task_pushed": false,
+    "deployed": false,
+    "hosting_changed": false,
+    "game_simulation_changed": false,
+    "career_facts_changed": false,
+    "translation_content_changed": false,
+    "translation_provenance_changed": false,
+    "owner_changes_preserved": true
+  },
+  "evidence": [
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/artifact/artifact.json",
+      "sha256": "270103304384fe7bb383ad6b740a99a805f2898de9154153fd602930aae22dbd"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/cases.json",
+      "sha256": "2b3ac148101c9f02b61c22b4746f680c025ab0930644874afb5d0f40ce6f44d9"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/cases.mjs",
+      "sha256": "cf81bee4d7587d42d65f68a21579d9cdd3626fc5799d60be034f3bb29749a101"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/final-i18n/results.json",
+      "sha256": "78da00a2d2392383ab67f9f83dc8ad67ea2b5260824c8ae74bbff5240501cad2"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/focused.log",
+      "sha256": "7124f97db3c5c6d9e28d23f481f2277b45b51982059079aac7ad4c60720f6153"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/i18n/results.json",
+      "sha256": "a34fc566ed70ebdaec6cc9a5c75cd92e3570e72f164dd81e8494cd8befa33b5a"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-404-page.png",
+      "sha256": "1585c173cf53d0691f0b95d190c01c799079144bf938c2b0616ebd14d3d352e5"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-additional.png",
+      "sha256": "f9ca3a17a4e0c619ad418f34c3162b8d229a2e92344226415e3662abf23b8ba2"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-ai-evidence.png",
+      "sha256": "35e61ee11fd0b197785b45cf55a7bf2c39a22443055b333a01b75da764b4885a"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-experience-note.png",
+      "sha256": "a151cc84afb9468123466c7d90740da5cb189df355d381d4970e625f98b5bc15"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-incident-zero--page.png",
+      "sha256": "d4e8a0e83c11a963fb5bb14d319f5cc723b72950e961ed16db970ce5bfdf4171"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-incident-zero-defence--page.png",
+      "sha256": "8c71b7812ea93185b94c1a0ae414b7c0df5a44a98a444ca8ad47d626326b1161"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-mmcats-modern.png",
+      "sha256": "9ddd56a22571d3eaf84c3d05eef14fdc7aeb73615c23c60f3bb0f8dfd670dd7a"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-multilingual-engineering.png",
+      "sha256": "7c6a362df0e831f20a28485ada3d91258bd8d3a0c19e7493e4a3237c330dff50"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-naae.png",
+      "sha256": "ac37d2647a1ffbf7daeb3124ac9b4b8e0fe945dc474d5b098af95330dee292f5"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-no-two-mondays--page.png",
+      "sha256": "485d4e41b640485b83a168d2482ac8fe49ee36285e8ad4c9db199f189593fc91"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-pace-rag-case-study.png",
+      "sha256": "7d5237d2cd22f0e7b61fb3a7b13cfbd24277f3ded52ac05e94e9ccb01b777bac"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-project.png",
+      "sha256": "549da4701b30c3e080d4da025dc43fcf626683816c33668d5871653ac1938357"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/ja-work-with-me--page.png",
+      "sha256": "335201261c6c9cdef644a13ccafb4c7f183c09c3067df390491ee21b75ffb9b0"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/artifact.log",
+      "sha256": "664271c066c32d2342571620d20d4d854ebfea173832737e766cd0325331c4a1"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/broad-browser.log",
+      "sha256": "5fc44a26fd6694872ea7997696eb6256fc247cd192490a33b615747a6855313d"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/build.log",
+      "sha256": "8c87035b61abc0b4acabafe909cdb398c00d5315e088bf786b3ce365f9025b0a"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/case-studies.log",
+      "sha256": "810943bd113b60d7dc0641d419597ae69c27ed0419d9cdd57f5571d1c44b850b"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/final-browser.log",
+      "sha256": "8af8c6092d3493627543a09aef0f5813cebfda323ad82db1590d6b562d20540d"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/lint.log",
+      "sha256": "57a6f3fa719ae46956d55d0df50044fc56567b33a3da32d300fec46f09e33034"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/remaining-pages.log",
+      "sha256": "bb1c6b0724424c55df913af9226e7b9844da6626f2e7ff0c3efd6e33809af1d2"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/tests.log",
+      "sha256": "20b371286995a3d15698b26d08c55d44418200c9b5a471919d7f4afcadb622c1"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/logs/validation.log",
+      "sha256": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/more-pages.json",
+      "sha256": "20c405bcaeed24c8d1bb6d37e11b0ed5b68d7d2d22ac3966d78382bae5b83ea4"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/more-pages.mjs",
+      "sha256": "4932310516c7ebd0426ed83b687ebb43a1f5b59e20ea2915f1f901958abe9f2c"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-404-page.png",
+      "sha256": "7f31c62bb996bbad1d314a3288bbb21db9d179880250b82cad8a79588a6c8390"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-additional.png",
+      "sha256": "368562aa69ef0c139a351e0d8ecc06a77b0c1c1c14f0c2dc2b870a834ded9555"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-ai-evidence.png",
+      "sha256": "47ad9d0c265dbb9e46604504f942ef6e7b475f4fa9c9db522b362a95650b00b2"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-experience-note.png",
+      "sha256": "07e817c5175a2c0064f0d59ff7c8781e6b92d38e82de4a0182f94763e7584cd3"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-incident-zero--page.png",
+      "sha256": "7fa871888dc36ded841723e3a0272a3ab0a6a51d2de5f07b9813eb624aa0707f"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-incident-zero-defence--page.png",
+      "sha256": "97ebfcb90d48c99144cefbed55fd4bba32a45bb9063e7604753e74660c3ff21b"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-mmcats-modern.png",
+      "sha256": "404ba180da8948ff3b88367f03f2841cd87e89889e6849707634ac9a6eaea9f6"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-multilingual-engineering.png",
+      "sha256": "aa9aba2e1bc3401a0065496423b8cff2136cbdd947ed6813975c9659b75f482f"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-naae.png",
+      "sha256": "cfd8b1b0f254279fcb1b0b6e65e6ca601c2967601b82464fe9a13ec52e2b69eb"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-no-two-mondays--page.png",
+      "sha256": "4cafcb0db74cd1428952a1cedafa17150c4c533bc77a8a3a396ded402679356f"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-pace-rag-case-study.png",
+      "sha256": "fbff91fe5479cac7f94a43e98a9a80c951423fc7f02060e1fde22b80a11ecfa6"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-project.png",
+      "sha256": "5e4f2b46b1c5ab6dc56e1ce8b540dfae2285f96f93aef458a4eacf210f2fddea"
+    },
+    {
+      "path": "output/playwright/cjk-vertical-restore-v2/zh-Hans-work-with-me--page.png",
+      "sha256": "2476880069328dea122d8fd1be6623578f910376399ecf8b2b27ece013af5a41"
+    }
+  ]
+}

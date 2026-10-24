@@ -141,7 +141,7 @@ export default function DefenceRoute() {
     <div className="defence-stage">
       <div className="defence-world" ref={host} tabIndex={overlay ? -1 : 0} role="group" aria-label={text("{{value0}} combat arena. WASD or arrows move, pointer aims and fires, 1 and 2 select tools, E restores service, Escape pauses.", {value0: labelParts(floor.name)})} onBlur={() => controller.current?.input.clear()}/>
       {localizedContent(overlay && <section className="defence-overlay" aria-labelledby="defence-overlay-title">
-        <div className="defence-panel">
+        <div className={`defence-panel${overlay === "ready" && !result ? " defence-editorial-ready" : ""}`}>
           <p className="defence-tag">{localizedContent(result ? 'ENCOUNTER REPORT' : overlay === 'pause' ? 'SIMULATION PAUSED' : 'INCIDENT ZERO / SYSTEM DEFENCE')}</p>
           <h2 ref={heading} tabIndex={-1} id="defence-overlay-title">{localizedContent(result ? (session.status === 'victory' ? 'Run complete.' : session.status === 'intermission' ? 'Service restored.' : 'System breached.') : overlay === 'pause' ? 'Hold position.' : recovered ? 'Ready to retry.' : 'Defend the edge.')}</h2>
           {localizedContent(result ? <>

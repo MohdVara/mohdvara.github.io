@@ -225,3 +225,112 @@ html:lang(ta) { line-height: 1.85; }
     margin-block-start: 0;
   }
 }
+
+
+/* Selected CJK passages pair a vertical heading with horizontal evidence.
+   Smaller screens and enlarged text retain the ordinary document flow. */
+:root:is(:lang(ja), :lang(zh-Hans)) .script-editorial > :first-child {
+  line-height: 1.65;
+}
+@media (min-width: 1000px) {
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .script-editorial {
+    display: grid;
+    grid-template-columns: fit-content(8rem) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 4vw, 3.5rem);
+    align-items: start;
+    max-width: none;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .script-editorial > :first-child {
+    grid-column: 1;
+    grid-row: 1 / span 12;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    max-inline-size: min(20rem, 52svh);
+    margin: 0;
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--accent);
+    font-size: clamp(1.25rem, 1.8vw, 1.65rem);
+    line-height: 1.7;
+    letter-spacing: .06em;
+    align-self: start;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .script-editorial > :not(:first-child) {
+    grid-column: 2;
+    min-width: 0;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .experience-note > p {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    max-inline-size: 16rem;
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--line);
+    font-size: 1.4rem;
+    line-height: 1.85;
+    letter-spacing: .08em;
+  }
+}
+
+
+/* The same editorial columns accommodate sections with an introductory label. */
+:root:is(:lang(ja), :lang(zh-Hans)) .script-editorial-labelled > :is(h1, h2) {
+  line-height: 1.65;
+}
+@media (min-width: 1000px) {
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .script-editorial-labelled {
+    display: grid;
+    grid-template-columns: fit-content(8rem) minmax(0, 1fr);
+    column-gap: clamp(1.75rem, 4vw, 3.5rem);
+    align-items: start;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .script-editorial-labelled > .eyebrow {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    margin-block-end: 1.25rem;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .script-editorial-labelled > :is(h1, h2),
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .engagement-problem > div:first-child > h3 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    max-inline-size: min(20rem, 52svh);
+    grid-column: 1;
+    grid-row: 2 / span 12;
+    margin: 0;
+    padding-block-start: 1rem;
+    border-block-start: 1px solid var(--accent);
+    font-size: clamp(1.25rem, 1.8vw, 1.65rem);
+    line-height: 1.7;
+    letter-spacing: .06em;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .script-editorial-labelled > :not(.eyebrow, h1, h2) {
+    grid-column: 2;
+    min-width: 0;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .engagement-problem {
+    grid-template-columns: fit-content(10rem) minmax(0, 1fr);
+    gap: clamp(1.75rem, 4vw, 3.5rem);
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .engagement-problem > div:first-child > .eyebrow {
+    max-width: 10rem;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .engagement-problem > div:first-child > h3 {
+    margin-block-start: 1rem;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .unmapped-copy {
+    max-width: 40rem;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .defence-editorial-ready {
+    display: flow-root;
+  }
+  :root:is(:lang(ja), :lang(zh-Hans))[data-writing-mode="vertical"]:not([data-text-size="largest"]) .defence-editorial-ready > h2 {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    float: inline-start;
+    max-inline-size: 12rem;
+    margin: .5rem 1.5rem 1rem 0;
+    padding-block-start: .75rem;
+    border-block-start: 1px solid var(--accent);
+    font-size: 1.4rem;
+    line-height: 1.7;
+    letter-spacing: .06em;
+  }
+}

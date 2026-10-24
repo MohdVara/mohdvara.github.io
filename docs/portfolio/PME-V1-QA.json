@@ -1269,5 +1269,34 @@
     "entryRawBytes": 211148,
     "budgetRawBytes": 215000,
     "publication": "Validation recorded before publication. Owner subsequently authorized commit and push to origin on 24 October 2026; consult Git history and origin/main for publication state. Deployment outcome remains unverified."
+  },
+  "cjkVerticalRestoreV2": {
+    "verification": "verification/cjk-vertical-restore-v2.json",
+    "defaults": "Japanese and Simplified Chinese vertical; saved horizontal/vertical preference retained",
+    "additionalPageLayouts": 90,
+    "pageFamilies": 9,
+    "largeTextChecks": 14,
+    "broadDefaultRegression": {
+      "layouts": 88,
+      "scenarios": 9,
+      "assistantChecks": 11,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "finalCjkEnglishRegression": {
+      "layouts": 24,
+      "scenarios": 9,
+      "assistantChecks": 3,
+      "errors": 0,
+      "translationRequests": 0,
+      "missingSource": 0
+    },
+    "testsPassed": 85,
+    "routeAudit": {
+      "routes": 108,
+      "issues": 0
+    },
+    "deployed": false
   }
 }

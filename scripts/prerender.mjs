@@ -147,7 +147,7 @@ try {
       for (const item of JSON.parse(await readFile("src/i18n/languages.json", "utf8"))) {
         const catalog = JSON.parse(await readFile(`src/i18n/locales/${item.locale}.json`, "utf8"));
         const markup = await render(`/${item.locale}/404/`);
-        let localized = work.replace(/<html lang="en">/, `<html lang="${item.locale}" dir="${item.direction}" style="--locale-font:${escape(item.fonts)}">`);
+        let localized = work.replace(/<html lang="en">/, `<html lang="${item.locale}" dir="${item.direction}" data-writing-mode="${item.defaultWritingMode}" style="--locale-font:${escape(item.fonts)}">`);
         localized = localized.replace(/<div id="root">[\s\S]*<\/div>(\s*<script type="module"[^>]*><\/script>)?\s*<\/body>/, `<div id="root" data-locale="${item.locale}">${markup}</div></body>`);
         localized = localized.replace(/<title>[^<]*<\/title>/, `<title>${escape(catalog[title] || title)}</title>`);
         localized = localized.replace(/(<meta\s+(?:name|property)="(?:description|twitter:description|og:description|twitter:title|og:title)"\s+content=")[^"]*/g,
@@ -180,7 +180,7 @@ try {
       const path = `/${item.locale}${basePath}`;
       const markup = await render(path);
       const localizedSeo = localizedMetadata(item.locale, path);
-      let localized = baseHtml.replace(/<html lang="en">/, `<html lang="${item.locale}" dir="${item.direction}" style="--locale-font:${escapeText(item.fonts)}">`);
+      let localized = baseHtml.replace(/<html lang="en">/, `<html lang="${item.locale}" dir="${item.direction}" data-writing-mode="${item.defaultWritingMode}" style="--locale-font:${escapeText(item.fonts)}">`);
       localized = localized.replace(/<div id="root">[\s\S]*<\/div>(\s*<script type="module"[^>]*><\/script>)?\s*<\/body>/, `<div id="root" data-locale="${item.locale}">${markup}</div></body>`);
       // Vite places its module entry in <head>; never replace scripts or JSON-LD.
       localized = localized.replace(/<title>[^<]*<\/title>/, `<title>${escapeText(localizedSeo.title)}</title>`);

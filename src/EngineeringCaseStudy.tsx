@@ -17,7 +17,7 @@ const titles = {
 };
 function Mmcats() {
   return <>
-    <section id="architecture"><h2>{text("Behavior before replacement")}</h2>
+    <section className="script-editorial" id="architecture"><h2>{text("Behavior before replacement")}</h2>
       <p>{text("Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.")}</p>
       <p>{text("Static legacy source shows Rails 4.1.8, Devise, SQLite, company/division/staff relationships and file attachments. The original application was not booted; real historical data was not migrated.")}</p>
       <p>{text("The modernization inventories behavior, defines parity contracts and makes ambiguous business policies explicit. PostgreSQL constraints protect relationships; lifecycle events retain actor/action history. MYR financial rules, Malaysian historical-time interpretation and UTC event timestamps have separate contracts.")}</p>
@@ -35,7 +35,7 @@ function Mmcats() {
         <p>{text("Money and dates → MYR / MYT / UTC policies → synthetic boundary tests")}</p>
       </div>
     </section>
-    <section id="verification"><h2>{text("Verification with a date and a boundary")}</h2>
+    <section className="script-editorial" id="verification"><h2>{text("Verification with a date and a boundary")}</h2>
       <p>{text("22 October 2026 · Render Free acceptance records 66 tests / 568 assertions, a 38-check read-only viewer contract and 31-check Docker/kind/Podman regressions. These are reported local checks, not a test run performed by this portfolio.")}</p>
       <p>{text("21 October 2026 · The earlier ARM64 candidate recorded 61 tests / 518 assertions, encrypted isolated restores and passing measured startup/resource budgets. Those measurements do not certify the later Render AMD64 artifact.")}</p>
       <p>{text("Security work includes server-side roles, private files, reduced container privileges, vulnerability disposition records and fail-closed gates. The 22 October AMD64 scan still reports 43 HIGH and 1 UNKNOWN finding; clearance remains blocked.")}</p>
@@ -65,7 +65,7 @@ function DirectionDemo() {
 }
 function Multilingual() {
   return <>
-    <section id="localization-pipeline"><h2>{text("One registry, one content workflow")}</h2>
+    <section className="script-editorial" id="localization-pipeline"><h2>{text("One registry, one content workflow")}</h2>
       <ol className="engineering-flow" aria-label={text("Localization pipeline")}>
         <li>{text("Canonical English → AST string extraction")}</li>
         <li>{text("Incremental translation → source hashes and provenance")}</li>
@@ -76,7 +76,7 @@ function Multilingual() {
       <p>{text("Extraction, validation, coverage and prerendering are scripted. Translation sync requires configured authoring credentials; new case-study translations were generated directly by the coding assistant. They are machine-translated and await fluent editorial review.")}</p>
       <p>{text("Every non-English page retains the localized disclosure near navigation and a matching English-original link. Canonical URLs are locale-specific; reciprocal hreflang links and x-default connect equivalent pages. Translation is performed during authoring, never from visitor conversations.")}</p>
     </section>
-    <section id="adaptive-preferences"><h2>{text("Adaptive Preferences Across Scripts and Layouts")}</h2>
+    <section className="script-editorial" id="adaptive-preferences"><h2>{text("Adaptive Preferences Across Scripts and Layouts")}</h2>
       <p>{text("Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.")}</p>
       <p>{text("One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.")}</p>
       <p>{text("Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.")}</p>
@@ -98,7 +98,7 @@ function Naae() {
       <p>{text("The canonical project name is Narrative ASCII Art Engine. Local documentation describes v0.1 object allocation and v0.2 layered landscapes. Saved v0.2, v0.3 and v0.4 outputs support the comparisons below; no Git history or tags were available to establish release dates.")}</p>
       <NaaeEvolution />
     </section>
-    <section id="architecture"><h2>{text("Protect the story, then compose the texture")}</h2>
+    <section className="script-editorial" id="architecture"><h2>{text("Protect the story, then compose the texture")}</h2>
       <ol className="engineering-flow" aria-label={text("Artwork generation pipeline")}>
         <li>{text("Seeded scene graph → layered geometry and spatial regions")}</li>
         <li>{text("Physical budget → exact narrative allocation and source indices")}</li>
@@ -108,7 +108,7 @@ function Naae() {
       <p>{text("Coverage counts visibly occupied eligible cells; protected narrative spaces are excluded. Intensity controls appearance independently of occupancy. Pixel-Hybrid adds stepped geometry and tile-coherent glyph selection while sharing narrative protection. Diagnostics are engineering checks, not aesthetic quality scores.")}</p>
       <p id="naae-limitations">{text("The studio/package v0.4 label is separate from rendererVersion: Organic uses 0.3.0; Pixel-Hybrid uses 0.4.0. Scene mode is experimental. Supported text is measured Latin ASCII; physical print quality and a public studio release are pending.")}</p>
     </section>
-    <section id="visual-identity"><h2>{text("Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits")}</h2>
+    <section className="script-editorial" id="visual-identity"><h2>{text("Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits")}</h2>
       <p>{text("A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.")}</p>
       <p>{text("Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.")}</p>
       <p>{text("Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.")}</p>
@@ -119,7 +119,7 @@ function Naae() {
       <p>{text("Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.")}</p>
       <p><a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/scripts/artwork/portrait-v3.mjs">{text("Inspect the portfolio source")}</a>{" · "}<a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_PORTRAIT_V3_IMPLEMENTATION.md">{text("Inspect the evidence")}</a></p>
     </section>
-    <section id="unmapped-path"><h2>{text("The Unmapped Path: narrative typography for recovery")}</h2>
+    <section className="script-editorial" id="unmapped-path"><h2>{text("The Unmapped Path: narrative typography for recovery")}</h2>
       <p>{text("The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.")}</p>
       <p>{text("Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine.")}</p>
       <p><a href="https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_404_EXPERIENCE_V1.md">{text("Inspect the evidence")}</a></p>

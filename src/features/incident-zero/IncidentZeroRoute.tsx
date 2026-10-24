@@ -60,7 +60,7 @@ export default function IncidentZeroRoute() {
           </GameBoundary>
         ) : (
           <section className="iz-opening" aria-labelledby="iz-opening-title">
-            <div>
+            <div className="script-editorial-labelled">
               <p className="eyebrow mono">{text("Monday / 08:47")}</p>
               <h2 id="iz-opening-title">{text("Payroll closes tomorrow.")}<br />{text("The systems disagree.")}</h2>
               <p>{text("Finance says the total is wrong. HR says the record is correct. Operations says the integration succeeded.")}</p>

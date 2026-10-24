@@ -205,3 +205,12 @@ Expanded Rental, Meeting and HR project details sit beside the always-visible ov
 Portfolio forests, rivers and accent words now use localized semantic vocabulary through the vendored NAAE Unicode adapter. The shared scene geometry remains independent of language; Arabic and Indic words use complete shaped runs, with optional native CJK vertical artwork. Opening and ending scenery share full-width masks, and river tributaries have stronger S bends.
 
 The v1.5 specification restores horizontal Japanese/Chinese defaults, superseding the preceding default-setting description; saved visitor choices still take precedence. See [PME v1.5 implementation and maintenance](PME-V1.5-SEMANTIC-ART.md) and `verification/pme-v1.5-semantic-art.json` for architecture, synchronization, measured results and limitations. New translations remain machine-authored and require qualified review. No deployment is claimed.
+
+
+## CJK vertical editorial presentation — 25 October 2026
+
+Japanese and Simplified Chinese once again default to vertical editorial mode. This supersedes the horizontal-default choice documented for PME v1.5. Existing saved reading preferences remain authoritative: use the Language control, then Reading mode → Vertical, if Horizontal was previously saved.
+
+The homepage retains its vertical section and project titles and adds a vertical experience motto and AI-evidence heading. Selected MMCATS Modern, multilingual-engineering, NAAE and PACE-RAG sections use a vertical heading column with a fine accent rule beside horizontal explanatory copy. The same treatment extends to No Two Mondays chapters, Work With Me problem cards, the Incident Zero introduction and the 404 heading. System Defence uses a vertical ready-screen title; its active HUD, controls and pause/report headings stay horizontal. Existing translations and semantic heading elements are reused; no prose or translation provenance is changed. The added columns apply from 1000px in vertical mode and revert to ordinary flow below that breakpoint or with Largest text. Other languages, navigation, notices, controls and English-only assistant content retain their normal horizontal presentation. Localized static documents include the registry writing-mode default before JavaScript runs, including the 404 document; explicit saved reading preferences still apply after hydration.
+
+Local validation and screenshots are recorded in `verification/cjk-vertical-restore-v2.json` and `output/playwright/cjk-vertical-restore-v2/`. No deployment is part of this change.

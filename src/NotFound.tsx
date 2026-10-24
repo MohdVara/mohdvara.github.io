@@ -21,7 +21,7 @@ export default function NotFound() {
     <Navigation home={false} contactOnPage={false} />
     <main id="main" className="unmapped-page" aria-labelledby="missing-title" tabIndex={-1}>
       <NotFoundLandscape />
-      <section className="container unmapped-content"><div className="unmapped-copy">
+      <section className="container unmapped-content"><div className="unmapped-copy script-editorial-labelled">
         <p className="eyebrow mono">{text("404 / Page not found")}</p>
         <h1 id="missing-title">{text("This page could not be found.")}</h1>
         <p className="unmapped-explanation">{text("The address may be incorrect, or the page may have moved.")}</p>

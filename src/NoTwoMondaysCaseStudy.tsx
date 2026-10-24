@@ -93,7 +93,7 @@ export default function NoTwoMondaysCaseStudy() {
         <a href="#ntm-summary">{text("Engineering at a Glance")}</a><a href="#ntm-architecture">{text("Architecture")}</a><a href="#ntm-traversal">{text("Verification")}</a><a href="#ntm-history">{text("Development history and revision evidence")}</a><a href="#ntm-lessons">{text("Lessons")}</a><a href="#ntm-evidence">{text("Evidence sources")}</a>
       </nav>
 
-      <section className="container ntm-chapter ntm-summary" id="ntm-summary" aria-labelledby="ntm-summary-title">
+      <section className="container ntm-chapter ntm-summary script-editorial-labelled" id="ntm-summary" aria-labelledby="ntm-summary-title">
         <p className="eyebrow mono">{text("Executive summary / Independent engineering project")}</p>
         <h2 id="ntm-summary-title">{text("Engineering at a Glance")}</h2>
         <dl className="ntm-summary-list">
@@ -106,7 +106,7 @@ export default function NoTwoMondaysCaseStudy() {
         </dl>
       </section>
 
-      <section className="container ntm-chapter" id="ntm-architecture" aria-labelledby="ntm-architecture-title">
+      <section className="container ntm-chapter script-editorial-labelled" id="ntm-architecture" aria-labelledby="ntm-architecture-title">
         <p className="eyebrow mono">{text("Architecture")}</p><h2 id="ntm-architecture-title">{text("Give each layer a clear responsibility.")}</h2>
         <div className="ntm-prose"><p>{text("The game uses TypeScript, React, Phaser 3 and Vite. Its simulation owns the world state and publishes snapshots. React subscribes to those snapshots for interface updates; Phaser handles spatial presentation and traversal. A bridge carries room, proximity and interaction signals between the office and the interface.")}</p>
         <p>{text("This boundary lets the simulation run without rendering the office. It supports deterministic tests, automated traversal and save-restoration checks, while interface and artwork changes can be inspected separately. Shared state still needs care: the main simulation runtime coordinates many systems, and adding a module is not free of integration work.")}</p></div>
@@ -121,7 +121,7 @@ export default function NoTwoMondaysCaseStudy() {
         <figure className="ntm-diagram"><p className="mono ntm-figure-label">{text("Diagram 04 / Save compatibility")}</p><Flow label="Safe save upgrade sequence" steps={[["Identify", "Check the stored version and supported format."], ["Preserve", "Retain the original before rewriting."], ["Migrate", "Apply ordered changes and validate the result."], ["Restore", "Resume the snapshot without rerunning actions."]]} /><figcaption>{text("Invalid or unsupported records are preserved for recovery. Browser origin, storage access and quota remain real constraints; local saves are not cloud sync.")}</figcaption></figure>
       </section>
 
-      <section className="container ntm-chapter" id="ntm-traversal" aria-labelledby="ntm-traversal-title">
+      <section className="container ntm-chapter script-editorial-labelled" id="ntm-traversal" aria-labelledby="ntm-traversal-title">
         <p className="eyebrow mono">{text("Verification")}</p><h2 id="ntm-traversal-title">{text("Eight hours of automated exploration.")}</h2>
         <div className="ntm-prose"><p>{text("The latest reviewed completion campaign ran on 15 October 2026 against a recorded 0.3.0-rc.1 / monday-8 source snapshot. Its eight-hour execution budget produced 112,402 completed simulation runs with matching verified receipts and unique run identifiers. The integrity report passed.")}</p>
         <p>{text("The tool used witness-guided exploration through normal simulation actions, with recorded settings and source identity. Of the retained artifacts, 8,050 were independently replayed. A compact suite selected 44 replay witnesses covering 118 observed targets. Those targets mix endings, achievements and challenges; they are not 118 separate stories.")}</p></div>
@@ -172,7 +172,7 @@ export default function NoTwoMondaysCaseStudy() {
         </section>
       </section>
 
-      <section className="container ntm-chapter" id="ntm-lessons" aria-labelledby="ntm-lessons-title">
+      <section className="container ntm-chapter script-editorial-labelled" id="ntm-lessons" aria-labelledby="ntm-lessons-title">
         <p className="eyebrow mono">{text("Lessons")}</p><h2 id="ntm-lessons-title"><VerticalText>{text("AI accelerated the work. Expertise guided the decisions.")}</VerticalText></h2>
         <div className="ntm-prose"><p>{text("AI made it practical to move quickly between a feature idea, implementation and a diagnostic tool. My responsibility was to decide what the game should become, recognise where the result fell short and make the next change reviewable. Human involvement mattered at every stage: setting priorities, interpreting feedback and deciding what evidence was sufficient for the question being asked.")}</p>
         <p>{text("The value of domain expertise was in turning observations into durable requirements. Ambiguous choices called for clearer feedback. Evolving systems needed boundaries and save compatibility. Generated artwork needed visual inspection and reliable extraction. Automated traversal could verify recorded behaviour at scale, while pacing, clarity and the experience of playing still needed human evaluation.")}</p>
@@ -188,7 +188,7 @@ export default function NoTwoMondaysCaseStudy() {
           <div><dt>37</dt><dd>{text("prompts tagged as corrections or refinement")}</dd></div>
         </dl>
         <p className="ntm-note">{text("Historical local audit: 9 October–14 October 2026, cutoff 00:05 MYT. Counts describe recovered records through that cutoff; development continued afterward. ")}<a href="#ntm-evidence">{text("How these numbers were counted")}</a>.</p>
-      <section className="container ntm-chapter" id="ntm-brief" aria-labelledby="ntm-brief-title">
+      <section className="container ntm-chapter script-editorial-labelled" id="ntm-brief" aria-labelledby="ntm-brief-title">
         <p className="eyebrow mono">{text("01 / The product problem")}</p>
         <h2 id="ntm-brief-title"><VerticalText>{text("A small office. A growing system.")}</VerticalText></h2>
         <div className="ntm-prose"><p>{text("No Two Mondays starts with a simple premise: one working day, three coworkers and a production outage. The challenge was to make decisions feel connected across technical work, conversations and the office around you. The setting could stay compact while the underlying system became richer.")}</p>
@@ -200,7 +200,7 @@ export default function NoTwoMondaysCaseStudy() {
         <div className="ntm-dialogue-excerpts">{localizedContent(officeDialogue.map(({ name, role, line }) => <figure key={name}><blockquote><p>“{localizedContent(line)}”</p></blockquote><figcaption><strong>{localizedContent(name)}</strong> · {localizedContent(role)}</figcaption></figure>))}</div>
       </section>
 
-      <section className="container ntm-chapter" id="ntm-process" aria-labelledby="ntm-process-title">
+      <section className="container ntm-chapter script-editorial-labelled" id="ntm-process" aria-labelledby="ntm-process-title">
         <p className="eyebrow mono">{text("02 / Working with AI")}</p><h2 id="ntm-process-title">{text("The prompt started the work. Human judgment steered it.")}</h2>
         <div className="ntm-prose"><p>{text("Codex accelerated implementation, but each change still needed a human decision about what belonged in the game and whether the result worked. I set the direction, played the results, identified what felt unclear or inconsistent, and turned those observations into focused revisions. Keeping a human in the loop meant shaping the work throughout development: framing the problem, inspecting the result and deciding what needed to change.")}</p>
         <p>{text("Domain expertise made that feedback actionable. Software engineering knowledge helped me translate a feature request into requirements for state ownership, persistence, compatibility and regression checks. Interaction decisions needed a different lens: could a player understand a choice, notice its consequences and navigate the interface comfortably? The useful brief connected the intended experience to the constraints and evidence needed to evaluate it.")}</p></div>
@@ -208,7 +208,7 @@ export default function NoTwoMondaysCaseStudy() {
         <div className="ntm-two-column"><div><h3>{text("What I directed")}</h3><p>{text("Product scope, interaction clarity, engineering constraints and acceptance criteria. I judged the results against the intended experience and directed follow-up changes.")}</p></div><div><h3>{text("What AI accelerated")}</h3><p>{text("Implementation, test scaffolding, diagnostic tools, documentation and asset iteration. I used those outputs as material to inspect, test and refine.")}</p></div></div>
       </section>
 
-      <section className="container ntm-chapter" id="ntm-iterations" aria-labelledby="ntm-iterations-title">
+      <section className="container ntm-chapter script-editorial-labelled" id="ntm-iterations" aria-labelledby="ntm-iterations-title">
         <p className="eyebrow mono">{text("03 / The cost of iteration")}</p><h2 id="ntm-iterations-title">{text("210 prompts did not mean 210 finished features.")}</h2>
         <div className="ntm-prose"><p>{text("The historical audit recovered 210 deduplicated human prompts across 20 interactive sessions. A union of its bug-fixing, refinement and refactoring tags contains 37 distinct prompts. The project feedback log separately records 21 feedback entries at the time of this review. These are different measures: a feedback entry may summarize several requests, and a prompt may address several concerns.")}</p>
         <p>{text("The tagging is automated and lexical. It describes the requests that were recovered, rather than proving how many code modifications were necessary or how much time each feature took. The audit is a partial historical record, not the total lifetime prompt count.")}</p></div>
@@ -241,7 +241,7 @@ export default function NoTwoMondaysCaseStudy() {
 
       </details>
 
-      <PageLandscape scene="mondays" aerial><section className="container ntm-chapter ntm-evidence" id="ntm-evidence" aria-labelledby="ntm-evidence-title">
+      <PageLandscape scene="mondays" aerial><section className="container ntm-chapter ntm-evidence script-editorial-labelled" id="ntm-evidence" aria-labelledby="ntm-evidence-title">
         <p className="eyebrow mono">{text("Evidence / Reviewed 15 October 2026")}</p><h2 id="ntm-evidence-title">{text("How the case study was grounded.")}</h2>
         <p>{text("The prompt figures come from an existing local development audit of surviving Codex records. It deduplicates human messages and excludes machine-agent tasks from the human-prompt count. The 37-prompt figure is the distinct union of three overlapping workflow tags: bug fixing, refinement and refactoring. Classification is lexical and can miss or misclassify requests. Missing history and later development are outside that snapshot.")}</p>
         <p>{text("The revision examples come from the project feedback log, refinement notes and art review. Architecture was checked against the TypeScript simulation, React subscriptions, Phaser bridge, save migrations and bundle checks. Traversal figures come from the 15 October completion campaign’s coverage, integrity, checkpoint and replay-suite reports. Public locked labels were checked against the game’s hint registry.")}</p>

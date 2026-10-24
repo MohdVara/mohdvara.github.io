@@ -16,7 +16,7 @@ const resolution=await load("src/i18n/localeResolution.ts",{"./languages":{isLoc
 const {translateSource}=await load("src/i18n/lookup.ts");
 test("eleven registered locales have consistent direction and optional writing modes",()=>{
   assert.equal(registry.length,11);assert.equal(new Set(registry.map(item=>item.locale)).size,11);
-  for(const item of registry){assert.equal(item.direction,item.locale==="ar"?"rtl":"ltr");assert.equal(item.defaultWritingMode,"horizontal");assert.equal(item.writingModes.includes("vertical"),["ja","zh-Hans"].includes(item.locale));assert.ok(item.fonts);}
+  for(const item of registry){assert.equal(item.direction,item.locale==="ar"?"rtl":"ltr");assert.equal(item.defaultWritingMode,["ja","zh-Hans"].includes(item.locale)?"vertical":"horizontal");assert.equal(item.writingModes.includes("vertical"),["ja","zh-Hans"].includes(item.locale));assert.ok(item.fonts);}
 });
 test("locale resolution uses URL, then persisted preference, browser list and English",()=>{
   const {resolveLocale}=resolution;
@@ -80,7 +80,7 @@ test("provider rejects malformed schema and incomplete/refused responses",async(
 test("all localized static routes contain real translated HTML and reciprocal SEO",async()=>{
   for(const item of registry)for(const route of ["","work-with-me/","no-two-mondays/","pace-rag-case-study/","incident-zero/","incident-zero/defence/"]) {
     const html=await readFile(`dist/${item.locale}/${route}index.html`,"utf8");
-    assert.match(html,new RegExp(`<html lang="${item.locale}" dir="${item.direction}"`));
+    assert.match(html,new RegExp(`<html lang="${item.locale}" dir="${item.direction}" data-writing-mode="${item.defaultWritingMode}"`));
     assert.match(html,/<main/);
     if (!route) assert.match(html,/>Mohd\.</);
     assert.doesNotMatch(html,/多用途车/);assert.equal((html.match(/<h1[\s>]/g)||[]).length,1);

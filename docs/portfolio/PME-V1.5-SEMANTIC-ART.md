@@ -2,6 +2,8 @@
 
 Status: local implementation; verification results are recorded in `verification/pme-v1.5-semantic-art.json`. No hosting change or deployment is part of this task. Machine translations remain pending qualified review.
 
+Reading-mode follow-up, 25 October 2026: the owner restored vertical defaults for Japanese/Chinese and requested additional selective vertical headings. The horizontal-default descriptions and measurements below record the original v1.5 implementation. Current presentation is documented in `PME-V1-GUIDE.md` and `verification/cjk-vertical-restore-v2.json`.
+
 ## Architecture map and discovery
 
 The application is React 18, TypeScript and Vite 8. Both Cloudflare Pages and GitHub Pages deployment commands exist; this change uses neither. `src/i18n/languages.json` remains the only portfolio locale/profile registry. `Experience` resolves and preserves locale and reading-mode state; `controls.tsx` owns the translation disclosure and original-English action. PACE-RAG's conversation subtree and English-only boundary remain independent of decorative artwork.

@@ -406,7 +406,7 @@ function Capabilities() {
       <p className="section-intro capability-evidence">{text("Capabilities describe my wider practice. For project-specific application, data and cloud experience, ")}<a className="text-link" href="#work">{text("open the selected-work engineering details")}</a>{text(" or ")}<a className="text-link" href="#additional-systems">{text("additional engineering systems")}</a>{text(". Independent AI engineering demonstrations and their evidence boundaries are linked below.")}</p>
       <NarrativeAccent region="mountains" />
       <CapabilityMap />
-      <div className="ai-evidence" id="ai-evidence">
+      <div className="ai-evidence script-editorial" id="ai-evidence">
         <h3>{text("AI capabilities & evidence")}</h3>
         <p><a className="text-link" href={localizedHref("/no-two-mondays/#ntm-process")}>{text("No Two Mondays")}</a>{text(" demonstrates my AI-assisted engineering process through a documented independent project. ")}<a className="text-link" href={localizedHref("/pace-rag-case-study/")}>{text("PACE-RAG")}</a>{text(" is my independently developed engineering demonstration of browser embeddings, retrieval, reviewed answers and technology-aware composition. Its ")}<a className="text-link" href={localizedHref("/pace-rag-case-study/#evaluation")}>{text("measured evaluations and limitations")}</a>{text(" distinguish experimental work from enterprise production RAG delivery, which is not established. Live AI is disabled.")}</p>
       </div>
