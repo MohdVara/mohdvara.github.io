@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Kuching",
+  "basis": "OWNER_CONFIRMED — PolicyStreet real-time mass quotations served consumers, large commercial clients, internal teams and partners.",
+  "scope": [
+    "src/content.ts: PolicyStreet summary, contribution and delivered capability",
+    "src/SystemDiagrams.tsx: conceptual integration caption",
+    "All eleven locale catalogs, hashes and generated coverage",
+    "Existing commercial-evidence regression expectation"
+  ],
+  "limits": [
+    "No numerical throughput, latency guarantee, customer count or contract value is asserted.",
+    "Employment/project chronology, quotation validity/revision rules and technical authority unchanged.",
+    "Translations machine-authored; qualified review pending."
+  ],
+  "localization": {
+    "canonicalUnits": 1555,
+    "newCanonicalUnits": 4,
+    "targetTranslations": 40,
+    "missing": 0,
+    "stale": 0,
+    "validationErrors": 0,
+    "retainedWarnings": 97,
+    "provider": "development-assistant",
+    "model": "session-assistant",
+    "status": "machine_translated",
+    "configuredProvider": "Unavailable: explicit API key/model missing; established assistant fallback used."
+  },
+  "checks": {
+    "typecheck": "pass",
+    "lint": "pass",
+    "build": "pass",
+    "tests": {
+      "pass": 202,
+      "fail": 0
+    },
+    "dateAudit": "pass; no source date changes",
+    "staticAudit": {
+      "routes": 108,
+      "issues": [],
+      "sourceFingerprint": "7e859f4a4052fc6b899e5295bfc1b50e5740770f8e0df0bdd806e85bbfd3be76",
+      "artifactFingerprint": "cc3eade4ff263cd6469b8efbe6957cf7ce6b94f6fcfc59b25781823944b5dc97",
+      "entry": {
+        "path": "assets/index-Dh1zpS2D.js",
+        "bytes": 214958,
+        "sha256": "c22446b5d3c2e5e3e7930a12a87fd6f33c6c6b958920551ab565c31f36ec5feb",
+        "gzip": 65880
+      }
+    },
+    "prerenderedLocaleCards": 11,
+    "browser": {
+      "layouts": 33,
+      "locales": 11,
+      "widths": [
+        320,
+        390,
+        1440
+      ],
+      "overflow": false,
+      "pageErrors": 0,
+      "correctedAudienceVisible": true
+    }
+  },
+  "publication": {
+    "branch": "main",
+    "head": "186e37fbe26a25843830843b8e49b5626cea5837",
+    "committed": false,
+    "pushed": false,
+    "deployed": false,
+    "recordScope": "Pre-commit validation snapshot. Owner subsequently authorized structured commits and origin push; consult Git history and origin/main for subsequent publication state. Main push triggers the existing validation/deployment workflow; deployment outcome unverified."
+  },
+  "rawEvidence": "Ignored output/playwright/policy-audience/ and /tmp/policy-audience-*.log"
+}

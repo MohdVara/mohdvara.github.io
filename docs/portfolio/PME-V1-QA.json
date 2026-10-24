@@ -1097,5 +1097,21 @@
     },
     "baselineTamilA11y": "One label-content-name-mismatch rule / three unchanged nodes reproduced on initial HEAD and candidate; no site-wide zero-violation claim.",
     "qualifiedLanguageReview": "pending"
+  },
+  "policyStreetQuotationAudienceV1": {
+    "date": "2026-10-24",
+    "manifest": "verification/policystreet-quotation-audience-v1.json",
+    "canonicalUnits": 1555,
+    "newUnits": 4,
+    "newTargetTranslations": 40,
+    "missing": 0,
+    "stale": 0,
+    "validationErrors": 0,
+    "retainedWarnings": 97,
+    "browserLayouts": 33,
+    "locales": 11,
+    "pageErrors": 0,
+    "overflow": false,
+    "qualifiedReview": "pending"
   }
 }
