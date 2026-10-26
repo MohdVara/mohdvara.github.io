@@ -1,3 +1,4 @@
+import {loadFormatting} from "../scripts/i18n/load-formatting.mjs";
 import test from "node:test";
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
@@ -95,7 +96,7 @@ test("all localized static routes contain real translated HTML and reciprocal SE
   }
 });
 
-const calendarModule=await load("src/i18n/formatting.ts",{"./languages":{language:locale=>registry.find(item=>item.locale===locale)}});
+const calendarModule=await loadFormatting();
 test("localized calendars retain exact Gregorian dates and partial-date precision",()=>{
   const {calendarDate,withCalendarDates}=calendarModule;
   for(const locale of ["ja","zh-Hans","hi","ar","ms","ta"]) {
@@ -122,7 +123,7 @@ test("Tamil is immediately after Arabic, with browser resolution and distinct sc
   assert.equal(resolution.resolveLocale("/",null,["ta-LK"]),"ta");
   const tamil=registry.find(item=>item.locale==="ta");
   assert.equal(tamil.direction,"ltr");assert.match(tamil.fonts,/Tamil/);
-  assert.equal(tamil.calendar,"indian");
+  assert.equal(tamil.calendar,"tamil-solar");
 });
 test("open-ended and closed career periods use localized grammar and preserve precision",async()=>{
   const templates={};

@@ -39,8 +39,8 @@
     "brandMark": "mpv",
     "pronunciation": "Mohd. · pa-ra-mas-va-ra",
     "nativeNameReading": null,
-    "calendar": "islamic-umalqura",
-    "calendarLabel": "Hijri (Umm al-Qura)",
+    "calendar": "malaysian-hijri",
+    "calendarLabel": "Hijri (takwim terbitan Malaysia)",
     "artwork": {
       "fontId": "latin",
       "profileRevision": "pme-1.5-1",
@@ -95,8 +95,8 @@
       "given": "மொஹ்த்",
       "family": "பரமஸ்வரா"
     },
-    "calendar": "indian",
-    "calendarLabel": "இந்திய தேசிய நாட்காட்டி (சக ஆண்டு)",
+    "calendar": "tamil-solar",
+    "calendarLabel": "தமிழ் சூரிய நாட்காட்டி",
     "artwork": {
       "fontId": "tamil",
       "profileRevision": "pme-1.5-1",
@@ -282,7 +282,7 @@
       "family": "परमस्वरा"
     },
     "calendar": "indian",
-    "calendarLabel": "शक संवत",
+    "calendarLabel": "भारतीय राष्ट्रीय पंचांग (शक संवत)",
     "artwork": {
       "fontId": "hindi",
       "profileRevision": "pme-1.5-1",
