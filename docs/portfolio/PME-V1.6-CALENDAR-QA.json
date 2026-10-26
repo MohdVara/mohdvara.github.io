@@ -1,0 +1,541 @@
+{
+  "date": "2026-10-26",
+  "repository": "mohdvara.github.io",
+  "unitTests": {
+    "total": 220,
+    "passed": 220,
+    "failed": 0,
+    "skipped": 0
+  },
+  "commands": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "i18n:extract": "passed",
+    "i18n:validate": {
+      "errors": 0,
+      "editorialWarnings": 97
+    },
+    "i18n:coverage -- --strict": "passed; 1578 units per locale; zero missing or stale",
+    "i18n:audit-dates": "passed; 22 locale/mode rows",
+    "build": "passed; static prerender completed",
+    "test": "passed",
+    "translationPlan": "direct translate.mjs --dry-run: zero pending in all target locales"
+  },
+  "calendarBrowser": {
+    "configurations": [
+      {
+        "locale": "en",
+        "mode": "cultural"
+      },
+      {
+        "locale": "en",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "ms",
+        "mode": "cultural"
+      },
+      {
+        "locale": "ms",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "ar",
+        "mode": "cultural"
+      },
+      {
+        "locale": "ar",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "ta",
+        "mode": "cultural"
+      },
+      {
+        "locale": "ta",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "ja",
+        "mode": "cultural"
+      },
+      {
+        "locale": "ja",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "zh-Hans",
+        "mode": "cultural"
+      },
+      {
+        "locale": "zh-Hans",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "es",
+        "mode": "cultural"
+      },
+      {
+        "locale": "es",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "fr",
+        "mode": "cultural"
+      },
+      {
+        "locale": "fr",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "de",
+        "mode": "cultural"
+      },
+      {
+        "locale": "de",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "pt-BR",
+        "mode": "cultural"
+      },
+      {
+        "locale": "pt-BR",
+        "mode": "gregorian"
+      },
+      {
+        "locale": "hi",
+        "mode": "cultural"
+      },
+      {
+        "locale": "hi",
+        "mode": "gregorian"
+      }
+    ],
+    "layouts": [
+      {
+        "locale": "en",
+        "width": 320
+      },
+      {
+        "locale": "en",
+        "width": 390
+      },
+      {
+        "locale": "en",
+        "width": 768
+      },
+      {
+        "locale": "en",
+        "width": 1440
+      },
+      {
+        "locale": "ms",
+        "width": 320
+      },
+      {
+        "locale": "ms",
+        "width": 390
+      },
+      {
+        "locale": "ms",
+        "width": 768
+      },
+      {
+        "locale": "ms",
+        "width": 1440
+      },
+      {
+        "locale": "ar",
+        "width": 320
+      },
+      {
+        "locale": "ar",
+        "width": 390
+      },
+      {
+        "locale": "ar",
+        "width": 768
+      },
+      {
+        "locale": "ar",
+        "width": 1440
+      },
+      {
+        "locale": "ar",
+        "width": 320,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ar",
+        "width": 390,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ar",
+        "width": 768,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ar",
+        "width": 1440,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ar",
+        "width": 320,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ar",
+        "width": 390,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ar",
+        "width": 768,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ar",
+        "width": 1440,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 320
+      },
+      {
+        "locale": "ta",
+        "width": 390
+      },
+      {
+        "locale": "ta",
+        "width": 768
+      },
+      {
+        "locale": "ta",
+        "width": 1440
+      },
+      {
+        "locale": "ta",
+        "width": 320,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 390,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 768,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 1440,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 320,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 390,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 768,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ta",
+        "width": 1440,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 320
+      },
+      {
+        "locale": "ja",
+        "width": 390
+      },
+      {
+        "locale": "ja",
+        "width": 768
+      },
+      {
+        "locale": "ja",
+        "width": 1440
+      },
+      {
+        "locale": "ja",
+        "width": 320,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 390,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 768,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 1440,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 320,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 390,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 768,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "ja",
+        "width": 1440,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 320
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 390
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 768
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 1440
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 320,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 390,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 768,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 1440,
+        "theme": "light",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 320,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 390,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 768,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "zh-Hans",
+        "width": 1440,
+        "theme": "dark",
+        "textSize": "largest"
+      },
+      {
+        "locale": "es",
+        "width": 320
+      },
+      {
+        "locale": "es",
+        "width": 390
+      },
+      {
+        "locale": "es",
+        "width": 768
+      },
+      {
+        "locale": "es",
+        "width": 1440
+      },
+      {
+        "locale": "fr",
+        "width": 320
+      },
+      {
+        "locale": "fr",
+        "width": 390
+      },
+      {
+        "locale": "fr",
+        "width": 768
+      },
+      {
+        "locale": "fr",
+        "width": 1440
+      },
+      {
+        "locale": "de",
+        "width": 320
+      },
+      {
+        "locale": "de",
+        "width": 390
+      },
+      {
+        "locale": "de",
+        "width": 768
+      },
+      {
+        "locale": "de",
+        "width": 1440
+      },
+      {
+        "locale": "pt-BR",
+        "width": 320
+      },
+      {
+        "locale": "pt-BR",
+        "width": 390
+      },
+      {
+        "locale": "pt-BR",
+        "width": 768
+      },
+      {
+        "locale": "pt-BR",
+        "width": 1440
+      },
+      {
+        "locale": "hi",
+        "width": 320
+      },
+      {
+        "locale": "hi",
+        "width": 390
+      },
+      {
+        "locale": "hi",
+        "width": 768
+      },
+      {
+        "locale": "hi",
+        "width": 1440
+      }
+    ],
+    "scenarios": [
+      "en: refresh, lazy case-study hydration, navigation, back/forward",
+      "ms: refresh, lazy case-study hydration, navigation, back/forward",
+      "ar: refresh, lazy case-study hydration, navigation, back/forward",
+      "ta: refresh, lazy case-study hydration, navigation, back/forward",
+      "ja: refresh, lazy case-study hydration, navigation, back/forward",
+      "zh-Hans: refresh, lazy case-study hydration, navigation, back/forward",
+      "es: refresh, lazy case-study hydration, navigation, back/forward",
+      "fr: refresh, lazy case-study hydration, navigation, back/forward",
+      "de: refresh, lazy case-study hydration, navigation, back/forward",
+      "pt-BR: refresh, lazy case-study hydration, navigation, back/forward",
+      "hi: refresh, lazy case-study hydration, navigation, back/forward",
+      "Arabic to Tamil switch preserves mode; Escape restores focus",
+      "storage invalid: safe rendering and selection",
+      "storage throw: safe rendering and selection"
+    ],
+    "errors": []
+  },
+  "existingBrowser": {
+    "layouts": 88,
+    "scenarios": [
+      "left-side Arabic artwork across pages",
+      "browser detection",
+      "browser title updates with selected language",
+      "manual override and persistent preference",
+      "URL overrides preference",
+      "nested route, query, fragment and history preservation",
+      "English original updates saved preference and preserves route/query/fragment",
+      "vertical preference stays inactive in unrelated languages",
+      "unsupported browser language falls back"
+    ],
+    "errors": [],
+    "translationRequests": [],
+    "missingSource": [],
+    "datePeriods": 11,
+    "assistantChecks": 11,
+    "formPresent": false
+  },
+  "limits": [
+    "Chrome only; Safari and Firefox not independently checked.",
+    "Tamil solar: 2018-01-01 through 2026-12-31; explicit Gregorian fallback outside.",
+    "Published Malaysian Hijri: civil 2026; labelled islamic-civil approximation outside.",
+    "Native Intl verification uses published boundary fixtures; not exhaustive platform/range certification.",
+    "Machine translations have no qualified native editorial review."
+  ],
+  "resolvedFailures": [
+    "Initial public asset audit rejected public/images/.DS_Store; preserved at /tmp/pme-images-DS_Store.",
+    "Sandbox build blocked access to SWC native cache; authorized build outside sandbox succeeded.",
+    "Preference restoration before lazy-route hydration caused React hydration errors; waiting for portfolio:ready resolved them.",
+    "Tamil largest-text overflow at 320px resolved by scoped word wrapping.",
+    "Native-select and storage-transition QA assertions corrected to wait for committed React state."
+  ],
+  "environmentLimitations": [
+    "npm run i18n:translate -- --dry-run attempted provider initialization because the npm script appended the flag to artwork sync; provider credentials/model were absent. All four new strings were supplied through the authorized assistant workflow with accurate machine provenance; direct translation dry-run reports zero pending."
+  ],
+  "repositorySafety": "At the implementation verification checkpoint, changes were local and uncommitted; no commit, push, publication or deployment had occurred. The owner subsequently authorized commits and a push to origin. Existing case-study document edit and Playwright snapshots preserved."
+}
