@@ -1,4 +1,4 @@
-import { withCalendarDates } from "./formatting";
+import { withCalendarDates, type CalendarDisplayMode } from "./formatting";
 import { translateSource } from "./lookup";
 import { localizeHref } from "./localeResolution";
 import i18next from "i18next";
@@ -27,9 +27,12 @@ export function loadLocale(locale: Locale): Promise<void> {
   return pending.get(locale)!;
 }
 export function currentLocale(): Locale { return isLocale(i18n.language) ? i18n.language : "en"; }
+// Bridge for the existing imperative text() API; Experience owns the preference.
+let calendarModeForText: CalendarDisplayMode = "cultural";
+export function setCalendarModeForText(mode: CalendarDisplayMode) { calendarModeForText = mode; }
 export function text(source: string, values?: Record<string, string | number>): string {
   const translated = translateSource(source, en, (key, interpolation) => i18n.t(key, {defaultValue: key, ...interpolation}), values);
-  return withCalendarDates(source, translated, currentLocale(), (key, interpolation) => i18n.t(key, {defaultValue: key, ...interpolation}));
+  return withCalendarDates(source, translated, currentLocale(), (key, interpolation) => i18n.t(key, {defaultValue: key, ...interpolation}), calendarModeForText);
 }
 export function localizedContent(value: ReactNode): ReactNode {
   if (typeof value === "string") return text(value);

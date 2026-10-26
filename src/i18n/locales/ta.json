@@ -1572,5 +1572,9 @@
   "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": "மதிப்பாய்வு செய்யப்பட்ட கேள்விகள் மேற்கோள்களுடன் சேமிக்கப்பட்ட பதில்களை வழங்குகின்றன; ஆதரிக்கப்படும் தொழில்நுட்பத் தேடல்கள் உறுதிப்படுத்தப்பட்ட திட்ட உண்மைகளைத் தொகுக்கின்றன. மற்ற சொற்றொடர்களுக்குப் பரிந்துரைகள் வழங்கப்படும் அல்லது பதிலளிப்பது தவிர்க்கப்படும்.",
   "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": "v0.2 மற்றும் v0.3 உடன் தொடங்குங்கள்: அடுக்குக் குறிகள் தொடர்ச்சியான தகுதியான செல் நிரப்பலாக மாறுகின்றன; தீவிரம் தனியாகக் கட்டுப்படுத்தப்படுகிறது. படிநிலை Pixel-Hybrid பாணிக்கு v0.4 ஐ ஒப்பிடுங்கள்; வேறுபட்ட சேமித்த அமைப்புகள் கட்டுப்படுத்தப்பட்ட தர ஒப்பீட்டை அனுமதிப்பதில்லை.",
   "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": "ஒத்திசைவு ஒப்பந்தங்கள் வாழ்க்கைச் சுழற்சி, உறவு மற்றும் தனிப்பட்ட கோப்பு எல்லைகளைப் பாதுகாக்கின்றன. 22 அக்டோபர் 2026: 66 சோதனைகள், 568 உறுதிப்பாடுகள்; தோல்விகள், பிழைகள் அல்லது தவிர்ப்புகள் இல்லை.",
-  "Live AI is disabled.": "நேரடி AI முடக்கப்பட்டுள்ளது."
+  "Live AI is disabled.": "நேரடி AI முடக்கப்பட்டுள்ளது.",
+  "Calendar display": "நாட்காட்டி காட்சி",
+  "Cultural calendar (Default)": "பண்பாட்டு நாட்காட்டி (இயல்புநிலை)",
+  "Gregorian only": "கிரிகோரியன் மட்டும்",
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "பண்பாட்டு நாட்காட்டிகள் இயல்பாகக் காட்டப்படும்; பொருந்தும் இடங்களில் கிரிகோரியன் தேதிகளும் காட்டப்படும். கிரிகோரியன் நாட்காட்டியில் மட்டும் தேதிகளைக் காண, கிரிகோரியன் மட்டும் என்பதைத் தேர்ந்தெடுக்கவும்."
 }

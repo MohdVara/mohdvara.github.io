@@ -3576,6 +3576,18 @@
     "src/i18n/controls.tsx",
     "src/i18n/controls.tsx"
   ],
+  "Calendar display": [
+    "src/i18n/controls.tsx"
+  ],
+  "Cultural calendar (Default)": [
+    "src/i18n/controls.tsx"
+  ],
+  "Gregorian only": [
+    "src/i18n/controls.tsx"
+  ],
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": [
+    "src/i18n/controls.tsx"
+  ],
   "MMCATS Modern | Mohd. Paramasvara": [
     "src/i18n/metadata.ts"
   ],

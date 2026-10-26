@@ -9777,6 +9777,30 @@
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ar": {
@@ -19553,6 +19577,30 @@
       "Live AI is disabled.": {
         "status": "machine_translated",
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -29333,6 +29381,30 @@
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "zh-Hans": {
@@ -39111,6 +39183,30 @@
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "es": {
@@ -48887,6 +48983,30 @@
       "Live AI is disabled.": {
         "status": "machine_translated",
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -58669,6 +58789,30 @@
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "de": {
@@ -68445,6 +68589,30 @@
       "Live AI is disabled.": {
         "status": "machine_translated",
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
       }
@@ -78227,6 +78395,30 @@
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "hi": {
@@ -88005,6 +88197,30 @@
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
+        "provider": "development-assistant",
+        "model": "session-assistant"
       }
     },
     "ta": {
@@ -97781,6 +97997,30 @@
       "Live AI is disabled.": {
         "status": "machine_translated",
         "sourceHash": "f90d7b69f4713cefe06ccc854d309004d70ddecda12859c73ae4bba85c837291",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Calendar display": {
+        "status": "machine_translated",
+        "sourceHash": "cffd235b6fdcd46a1c6d775699389327edfe6ce63b38866f9e0b0a111e655d44",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendar (Default)": {
+        "status": "machine_translated",
+        "sourceHash": "d35f14ecd09b485c1a2774400a10625653f1ee88f58ed58a811296a9c5775b96",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Gregorian only": {
+        "status": "machine_translated",
+        "sourceHash": "85861e80b587d8611816cd1500302cbcc1238f435424780d6558f104c8ce7f9d",
+        "provider": "development-assistant",
+        "model": "session-assistant"
+      },
+      "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": {
+        "status": "machine_translated",
+        "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
       }

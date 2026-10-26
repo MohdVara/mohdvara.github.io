@@ -56,3 +56,12 @@ export function HeroNameReading({portrait = false}: {portrait?: boolean}) {
     <span className="sr-only">{text("Name pronunciation (approximate)")}: </span><bdi><span className="native-given-name">{native.given}</span><span className="native-name-separator">{cjk ? "・" : " "}</span><span className="native-family-name">{native.family}</span></bdi>
   </p>;
 }
+
+export function CalendarDisplayControl() {
+  const {calendarMode, changeCalendarMode} = useExperience();
+  return <div className="calendar-control"><label className="theme-control"><span>{text("Calendar display")}</span>
+    <select aria-describedby="calendar-display-help" value={calendarMode} onChange={event => changeCalendarMode(event.target.value === "gregorian" ? "gregorian" : "cultural")}>
+      <option value="cultural">{text("Cultural calendar (Default)")}</option>
+      <option value="gregorian">{text("Gregorian only")}</option>
+    </select></label><p id="calendar-display-help">{text("Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.")}</p></div>;
+}

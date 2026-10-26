@@ -1572,5 +1572,9 @@
   "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.": "Les questions relues renvoient des réponses en cache avec citations ; les recherches technologiques prises en charge composent des faits confirmés sur les projets. Les autres formulations donnent lieu à des suggestions ou à une abstention.",
   "Start with v0.2 and v0.3: layered marks give way to continuous eligible-cell coverage, with intensity controlled separately. Compare v0.4 for the stepped Pixel-Hybrid treatment; different saved settings prevent a controlled quality comparison.": "Commencez par v0.2 et v0.3 : les marques en couches laissent place à une couverture continue des cellules admissibles, avec une intensité contrôlée séparément. Comparez v0.4 pour le rendu en paliers Pixel-Hybrid ; les paramètres enregistrés diffèrent, ce qui empêche une comparaison de qualité contrôlée.",
   "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.": "Les contrats de parité préservent les limites du cycle de vie, des relations et des fichiers privés. 22 octobre 2026 : 66 tests, 568 assertions ; aucun échec, erreur ou test ignoré.",
-  "Live AI is disabled.": "L’IA en direct est désactivée."
+  "Live AI is disabled.": "L’IA en direct est désactivée.",
+  "Calendar display": "Affichage du calendrier",
+  "Cultural calendar (Default)": "Calendrier culturel (Par défaut)",
+  "Gregorian only": "Grégorien uniquement",
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "Les calendriers culturels sont affichés par défaut, avec des références grégoriennes si nécessaire. Choisissez Grégorien uniquement pour afficher les dates selon le calendrier grégorien."
 }
