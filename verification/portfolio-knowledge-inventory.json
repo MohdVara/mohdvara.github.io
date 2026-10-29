@@ -1,0 +1,1603 @@
+{
+  "schemaVersion": 1,
+  "publicOnly": true,
+  "projects": [
+    {
+      "id": "asset",
+      "name": "Asset Management System",
+      "route": "/en/#system-asset",
+      "evidenceClassification": "owner-confirmed-technology",
+      "implementationStatus": "Technology involvement only; deployment not established",
+      "content": {
+        "id": "asset",
+        "projectTitle": "Asset Management System",
+        "anchor": "system-asset",
+        "generations": [
+          {
+            "groups": [
+              {
+                "label": "Application",
+                "technologies": [
+                  "Ruby on Rails"
+                ]
+              },
+              {
+                "label": "Database",
+                "technologies": [
+                  "MySQL"
+                ]
+              },
+              {
+                "label": "Web server",
+                "technologies": [
+                  "Nginx"
+                ]
+              },
+              {
+                "label": "Cloud",
+                "technologies": [
+                  "Microsoft Azure"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sourcePaths": [
+        "src/technology.ts"
+      ],
+      "freshness": {
+        "contentId": "asset",
+        "contentFingerprint": "4ba33c3f1ecab9fc01834927a2fabe68e349c04d9055e257f2e2669ef294c93a",
+        "lastMeaningfulRevisionAt": "2026-10-18T18:55:12.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "573736b1f609bea1cea703bf14d613a14a7adbdb"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [
+        "Ruby on Rails",
+        "MySQL",
+        "Nginx",
+        "Microsoft Azure"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "campus",
+      "name": "Enterprise Education Systems — Modernization & Technical Consulting",
+      "route": "/en/#case-campus",
+      "evidenceClassification": "owner-reported-commercial",
+      "implementationStatus": "See reviewed commercial narrative; no independent production verification",
+      "content": {
+        "id": "campus",
+        "role": "Full Stack Developer → Principal Full Stack Engineer",
+        "category": "Education / Modernisation",
+        "company": "Centre for Content Creation",
+        "period": "Jun 2021 — Present",
+        "title": "Enterprise Education Systems — Modernization & Technical Consulting",
+        "summary": "Joined in June 2021 after PolicyStreet; principal since June 2022. Before April 2023, developed the real-time online meeting and classroom system while maintaining and modernizing the existing HRMS. The education-platform modernization project began in April 2023.",
+        "scope": "Education platform · full-stack engineering · technical leadership",
+        "result": "Delivered browser-based meetings with recordings and operational reports while supporting established education workflows.",
+        "functions": [
+          "Platform modernisation",
+          "Full-stack engineering",
+          "Maintainability"
+        ],
+        "visualLabel": "Education Platform Modernisation",
+        "details": [
+          [
+            "Business problem",
+            "Established education and administrative systems needed workflows shaped around actual operational processes and responsibilities."
+          ],
+          [
+            "My ownership",
+            "Led full-stack development as Principal Full Stack Engineer during the returning engagement. Held final architectural decision authority, balancing modernization with available resources, established workflows and continuity of operations. Presented viable approaches and their operational consequences to stakeholders, generally seeking informed consensus."
+          ],
+          [
+            "Key Engineering Decision",
+            "Engaged stakeholders to understand existing operational processes, identify workflow requirements and design suitable workflows across established and modernized systems."
+          ],
+          [
+            "Verified workflow examples",
+            "Online class activity tracking, HRMS document-expiration tracking and other stakeholder-informed operational workflows."
+          ],
+          [
+            "Constraints & priorities",
+            "Modernise established software while supporting its ongoing use and development. Maintainability, dependable delivery and long-term platform development remain priorities. Internal product identities and implementation details remain private."
+          ],
+          [
+            "Delivered Capability",
+            "Delivered browser-based meetings for older supported browsers, with recordings, meeting-activity telemetry and operational reporting. The meeting solution used AWS Chime and Amazon S3; compatibility was balanced against implementation and infrastructure constraints."
+          ]
+        ],
+        "stack": [
+          "PHPMaker",
+          "PHP 5",
+          "MySQL 5.7",
+          "Apache",
+          "On-premises",
+          "AWS EC2",
+          "Laravel",
+          "Node.js",
+          "React",
+          "PostgreSQL",
+          "MySQL",
+          "Nginx",
+          "Apache",
+          "On-premises",
+          "AWS ECS",
+          "AWS EC2",
+          "Kubernetes",
+          "Third-party cloud provider"
+        ],
+        "technology": {
+          "id": "campus",
+          "projectId": "campus",
+          "projectTitle": "Education Platform Modernization",
+          "anchor": "case-campus",
+          "generations": [
+            {
+              "label": "Legacy systems",
+              "legacy": true,
+              "groups": [
+                {
+                  "label": "Application",
+                  "technologies": [
+                    "PHPMaker",
+                    "PHP 5"
+                  ]
+                },
+                {
+                  "label": "Database",
+                  "technologies": [
+                    "MySQL 5.7"
+                  ]
+                },
+                {
+                  "label": "Web server",
+                  "technologies": [
+                    "Apache"
+                  ]
+                },
+                {
+                  "label": "Hosting",
+                  "technologies": [
+                    "On-premises",
+                    "AWS EC2"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "Modern systems",
+              "groups": [
+                {
+                  "label": "Application",
+                  "technologies": [
+                    "Laravel",
+                    "Node.js",
+                    "React"
+                  ]
+                },
+                {
+                  "label": "Data",
+                  "technologies": [
+                    "PostgreSQL",
+                    "MySQL"
+                  ]
+                },
+                {
+                  "label": "Web servers",
+                  "technologies": [
+                    "Nginx",
+                    "Apache"
+                  ]
+                },
+                {
+                  "label": "Hosting & orchestration",
+                  "technologies": [
+                    "On-premises",
+                    "AWS ECS",
+                    "AWS EC2",
+                    "Kubernetes",
+                    "Third-party cloud provider"
+                  ]
+                }
+              ]
+            }
+          ],
+          "note": "Technology inventory across distinct platform generations; not a single deployment or a claim that every legacy system was replaced."
+        }
+      },
+      "sourcePaths": [
+        "src/content.ts",
+        "src/technology.ts"
+      ],
+      "freshness": {
+        "contentId": "campus",
+        "contentFingerprint": "d750adb36e1789cb7f6878d0935b417342c333f20a2219fe834cc88b5636c970",
+        "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [
+        "PHPMaker",
+        "PHP 5",
+        "MySQL 5.7",
+        "Apache",
+        "On-premises",
+        "AWS EC2",
+        "Laravel",
+        "Node.js",
+        "React",
+        "PostgreSQL",
+        "MySQL",
+        "Nginx",
+        "AWS ECS",
+        "Kubernetes",
+        "Third-party cloud provider"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "hostel",
+      "name": "Hostel Management System",
+      "route": "/en/#system-hostel",
+      "evidenceClassification": "historical-personal-project",
+      "implementationStatus": "Historical personal/academic presentation project; unmaintained and not production-ready. The README notes possible bugs and omitted security precautions. These practices are not current recommendations.",
+      "content": {
+        "id": "hostel",
+        "projectTitle": "Hostel Management System",
+        "anchor": "system-hostel",
+        "legacy": true,
+        "generations": [
+          {
+            "groups": [
+              {
+                "label": "Backend",
+                "technologies": [
+                  "Plain PHP",
+                  "PHP Data Objects (PDO)"
+                ]
+              },
+              {
+                "label": "Database",
+                "technologies": [
+                  "MySQL"
+                ]
+              }
+            ]
+          }
+        ],
+        "note": "Historical personal/academic presentation project; unmaintained and not production-ready. The README notes possible bugs and omitted security precautions. These practices are not current recommendations.",
+        "repository": {
+          "url": "https://github.com/MohdVara/Hostel-Management-System/tree/master",
+          "commit": "4e5d12fa53809873a0eb33920bc6912a9d005a5e"
+        }
+      },
+      "sourcePaths": [
+        "src/technology.ts"
+      ],
+      "freshness": {
+        "contentId": "hostel",
+        "contentFingerprint": "e9f749f242f572a0f72ebf1aedf2606c2228824e27013973c9fc2c1f8b1e3df4",
+        "lastMeaningfulRevisionAt": "2026-10-18T18:55:12.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "573736b1f609bea1cea703bf14d613a14a7adbdb"
+      },
+      "repositoryUrls": [
+        "https://github.com/MohdVara/Hostel-Management-System"
+      ],
+      "technologyTags": [
+        "Plain PHP",
+        "PHP Data Objects (PDO)",
+        "MySQL"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "hr",
+      "name": "HR workflows that adapt to different companies.",
+      "route": "/en/#case-hr",
+      "evidenceClassification": "owner-reported-commercial",
+      "implementationStatus": "See reviewed commercial narrative; no independent production verification",
+      "content": {
+        "id": "hr",
+        "role": "Web Developer · collaborative development",
+        "scope": "Multiple companies · configurable leave and attendance rules",
+        "category": "People / Business operations",
+        "company": "Centre for Content Creation",
+        "period": "May 2016 — Dec 2024",
+        "title": "HR workflows that adapt to different companies.",
+        "summary": "Helped build configurable HR workflows for multiple companies. Development continued after my May 2017 departure and ended in December 2024.",
+        "result": "Supported configurable leave calculations for different organizational policies and employee populations.",
+        "functions": [
+          "Multiple company structures",
+          "Configurable leave entitlements",
+          "Attendance policies & workflows"
+        ],
+        "visualLabel": "Human Resource Management System",
+        "details": [
+          [
+            "Problem",
+            "Different companies needed HR tools that could reflect their own corporate structures, leave rules, and attendance policies."
+          ],
+          [
+            "Ownership",
+            "Collaborated on development of the HR management system during the Web Developer role at Centre for Content Creation."
+          ],
+          [
+            "Engineering",
+            "Supported leave-calculation rules that could vary by organization and apply to an individual employee, a selected group or the whole workforce. Configuration planning prioritized likely and urgent policy changes within available resources and operational constraints."
+          ],
+          [
+            "Result",
+            "Delivered configurable structures, leave and attendance workflows across companies."
+          ]
+        ],
+        "stack": []
+      },
+      "sourcePaths": [
+        "src/content.ts",
+        "src/technology.ts"
+      ],
+      "freshness": {
+        "contentId": "hr",
+        "contentFingerprint": "aa91785faf7177d5d9229605697f70afe976477a49a2bebb847c4bc1fe2e2071",
+        "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "incident",
+      "name": "Incident Zero",
+      "route": "/en/incident-zero/",
+      "evidenceClassification": "fictional-demonstration",
+      "implementationStatus": "Interactive prototype · fictional scenario",
+      "content": {
+        "name": "Incident Zero",
+        "problem": "Make conflicting operational evidence understandable through a short interactive investigation.",
+        "role": "I designed the engineering narrative, decision paths and browser-based experience as an independent portfolio demonstration.",
+        "decision": "Use a fictional incident and synthetic records, with non-spatial navigation and plain-language puzzles.",
+        "result": "The portfolio contains a playable investigation and an optional System Defence arcade prototype.",
+        "status": "Interactive prototype · fictional scenario",
+        "focus": "Evidence gathering, accessible interaction and consequences of engineering decisions. This illustrates reasoning; it does not establish commercial incident response, real security protection or measured learning outcomes.",
+        "evidence": "#incident-evidence",
+        "narrative": [
+          "Incident simulation could not start.",
+          "Please retry, or return to the engineering portfolio.",
+          "Retry",
+          "Return to portfolio ↗",
+          "Skip to incident",
+          "Incident Zero · interactive engineering story",
+          "Portfolio /",
+          "Incident Zero",
+          "An interactive systems-engineering story.",
+          "A FICTIONAL INCIDENT",
+          "A REAL KIND OF QUESTION",
+          "Initialising incident…",
+          "Monday / 08:47",
+          "Payroll closes tomorrow.",
+          "The systems disagree.",
+          "Finance says the total is wrong. HR says the record is correct. Operations says the integration succeeded.",
+          "You are the engineer. Explore a small office, collect the evidence and decide what should change before production moves again.",
+          "Play the incident →",
+          "Preview the engineering decisions",
+          "Allow about 6–12 minutes · keyboard / touch",
+          "WASD / arrows to move. E / Enter to inspect. Esc to pause. A non-spatial navigation mode and plain-language puzzles are available throughout.",
+          "Tap to explore, hold the direction pad to walk, and tap choices to investigate. Direct room and inspection buttons are available throughout.",
+          "System Defence — arcade prototype →",
+          "Protect the system from malicious requests. A short playable combat prototype.",
+          "This interactive story requires JavaScript. The engineering portfolio and public source remain available through normal links.",
+          "Three systems converge on an unresolved historical record",
+          "EXECUTED ≠ CORRECT",
+          "From conflicting signals to a clear decision",
+          "Discuss a real engineering problem ↗",
+          "All incident data is synthetic.",
+          "Explore real engineering work ↗",
+          "A fictional incident with synthetic data.",
+          "Public engineering"
+        ]
+      },
+      "sourcePaths": [
+        "src/caseStudies.ts",
+        "src/features/incident-zero/IncidentZeroRoute.tsx"
+      ],
+      "freshness": {
+        "contentId": "incident",
+        "contentFingerprint": "a255bf92e91978c6fd35b209c63f6126dcbcd743e2ec3e135ef9cc6a8fbbffa7",
+        "lastMeaningfulRevisionAt": "2026-10-22T09:56:59.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "215bc737f0ddc9477e07e47da97292dc6716c90c"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "excluded-from-professional-evidence"
+    },
+    {
+      "id": "insurance",
+      "name": "PolicyStreet — Insurance Comparison Platform",
+      "route": "/en/#case-insurance",
+      "evidenceClassification": "owner-reported-commercial",
+      "implementationStatus": "See reviewed commercial narrative; no independent production verification",
+      "content": {
+        "id": "insurance",
+        "role": "Senior Full Stack Developer → Director, Engineering",
+        "scope": "Motor · medical · group medical · fire insurance",
+        "category": "Fintech / Integration",
+        "company": "PolicyStreet",
+        "period": "Apr 2019 — Apr 2021",
+        "title": "PolicyStreet — Insurance Comparison Platform",
+        "summary": "Real-time mass quotations across insurers served consumers, large commercial clients, internal teams and partners.",
+        "result": "Supported real-time production quotation workflows across up to 12 insurers, with integrated policy issuance.",
+        "functions": [
+          "Multiple insurance providers",
+          "Normalized quotations",
+          "Partner APIs & policy issuance"
+        ],
+        "visualLabel": "Insurance Comparison System",
+        "details": [
+          [
+            "Problem",
+            "Unify provider quotation and issuance flows across motor, medical, group medical and fire insurance."
+          ],
+          [
+            "My ownership",
+            "Built rate-fetching and normalization, then led development and operations as Engineering Director. Held final architectural decision authority, evaluating approaches against integration constraints, available resources and commercial requirements. Explained trade-offs to stakeholders and generally sought informed consensus."
+          ],
+          [
+            "Key Engineering Decision",
+            "Designed an event-driven quotation architecture using Node.js. Introduced quotation caching and pre-warmed data to reduce repeated processing and support faster quotations, including potential renewals for existing customers."
+          ],
+          [
+            "Evidence",
+            "Historical production analytics recorded real-user activity. I recall a peak of approximately 15,000 distinct users within one hour; the original dashboard is not available for independent corroboration. This is an approximate historical recollection, not a concurrency, request-throughput or load-test measurement."
+          ],
+          [
+            "Business rules",
+            "Quotations expire after seven days. Changes to customer information that affect quotation terms require quotation revision. Caching and pre-warming do not exempt quotations from these validity requirements."
+          ],
+          [
+            "Constraints & approach",
+            "Integrated insurer APIs and internal services under changing business and regulatory requirements. Applied security and consistency checks; modernised legacy code for clarity and integration stability."
+          ],
+          [
+            "Delivered Capability",
+            "Supported real-time mass quotations with rate normalization and integrated issuance for consumers, large commercial clients, internal teams and partners, while accommodating expiry and changes affecting quotations."
+          ]
+        ],
+        "stack": [
+          "React",
+          "Next.js",
+          "Node.js",
+          "PostgreSQL",
+          "Docker",
+          "Playwright",
+          "Nginx",
+          "AWS EC2",
+          "AWS ECS"
+        ],
+        "technology": {
+          "id": "insurance",
+          "projectId": "insurance",
+          "projectTitle": "PolicyStreet — Insurance Comparison Platform",
+          "anchor": "case-insurance",
+          "generations": [
+            {
+              "groups": [
+                {
+                  "label": "Frontend",
+                  "technologies": [
+                    "React",
+                    "Next.js"
+                  ]
+                },
+                {
+                  "label": "Backend",
+                  "technologies": [
+                    "Node.js"
+                  ]
+                },
+                {
+                  "label": "Database",
+                  "technologies": [
+                    "PostgreSQL"
+                  ]
+                },
+                {
+                  "label": "Engineering tools",
+                  "technologies": [
+                    "Docker",
+                    "Playwright"
+                  ]
+                },
+                {
+                  "label": "Infrastructure",
+                  "technologies": [
+                    "Nginx",
+                    "AWS EC2",
+                    "AWS ECS"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "sourcePaths": [
+        "src/content.ts",
+        "src/technology.ts"
+      ],
+      "freshness": {
+        "contentId": "insurance",
+        "contentFingerprint": "bddc294ac4de8b7eccbc84c3b8b0d5cfa63b727ad691b15119e62016a030379b",
+        "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "Playwright",
+        "Nginx",
+        "AWS EC2",
+        "AWS ECS"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "mmcats-modern",
+      "name": "MMCATS Modern",
+      "route": "/en/mmcats-modern/",
+      "evidenceClassification": "independent-engineering",
+      "implementationStatus": "Public source · locally verified · application deployment blocked",
+      "content": {
+        "name": "MMCATS Modern",
+        "problem": "Preserve asset-management behavior while replacing an obsolete Rails foundation.",
+        "role": "I directed the modernization, defined parity contracts and reviewed implementation and verification.",
+        "decision": "Use a Rails monolith with database constraints, explicit lifecycle events and private attachments.",
+        "result": "Parity contracts preserve lifecycle, relationship and private-file boundaries. 22 October 2026: 66 tests, 568 assertions; zero failures, errors or skips.",
+        "status": "Public source · locally verified · application deployment blocked",
+        "focus": "Behavioral parity, authorization, auditability and recovery. Historical data was not migrated; security dispositions and provider acceptance remain pending.",
+        "evidence": "#verification",
+        "narrative": [
+          "Behavior before replacement",
+          "Discover legacy obligations → formalize behavioral contracts → implement modern boundaries → verify preserved behavior. Local verification and production acceptance are separate decisions.",
+          "Static legacy source shows Rails 4.1.8, Devise, SQLite, company/division/staff relationships and file attachments. The original application was not booted; real historical data was not migrated.",
+          "The modernization inventories behavior, defines parity contracts and makes ambiguous business policies explicit. PostgreSQL constraints protect relationships; lifecycle events retain actor/action history. MYR financial rules, Malaysian historical-time interpretation and UTC event timestamps have separate contracts.",
+          "Modern architecture",
+          "Server-side authentication, roles and asset authorization",
+          "Constraints, lifecycle events and UTC audit records",
+          "Authorized private attachments and coordinated backup/restore",
+          "Containerized single-replica deployment profiles",
+          "Legacy behavior → modern implementation → evidence",
+          "Asset lifecycle → explicit transitions → repeated operations do not duplicate events",
+          "Relationships → database constraints → foreign-key and deletion contracts",
+          "Attachments → authorized private routes → exact-byte and revocation checks",
+          "Money and dates → MYR / MYT / UTC policies → synthetic boundary tests",
+          "Verification with a date and a boundary",
+          "22 October 2026 · Render Free acceptance records 66 tests / 568 assertions, a 38-check read-only viewer contract and 31-check Docker/kind/Podman regressions. These are reported local checks, not a test run performed by this portfolio.",
+          "21 October 2026 · The earlier ARM64 candidate recorded 61 tests / 518 assertions, encrypted isolated restores and passing measured startup/resource budgets. Those measurements do not certify the later Render AMD64 artifact.",
+          "Security work includes server-side roles, private files, reduced container privileges, vulnerability disposition records and fail-closed gates. The 22 October AMD64 scan still reports 43 HIGH and 1 UNKNOWN finding; clearance remains blocked.",
+          "Render preparation is implemented locally. Strict emulated AMD64 load failed; native provider performance and off-host recovery are unverified. No public application deployment is established. Production integrations and security decisions remain pending.",
+          "Sources and limitations",
+          "Public source and recorded verification are available for inspection. Source publication does not authorize application deployment; security and provider acceptance remain blocked or unverified.",
+          "View source on GitHub ",
+          "Inspect the evidence",
+          "Inspect the archived legacy source"
+        ]
+      },
+      "sourcePaths": [
+        "src/caseStudies.ts",
+        "src/EngineeringCaseStudy.tsx"
+      ],
+      "freshness": {
+        "contentId": "mmcats-modern",
+        "contentFingerprint": "d8359cd568a1724d87b5fa01fea110430a6c49e9d58f27bef9264824af2b4bec",
+        "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+      },
+      "repositoryUrls": [
+        "https://github.com/MohdVara/mmcats-legacy",
+        "https://github.com/MohdVara/mmcats-modern"
+      ],
+      "technologyTags": [],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "multilingual-engineering",
+      "name": "Multilingual portfolio engineering",
+      "route": "/en/multilingual-engineering/",
+      "evidenceClassification": "independent-engineering",
+      "implementationStatus": "Implemented · editorial review pending",
+      "content": {
+        "name": "Multilingual portfolio engineering",
+        "problem": "Maintain one professional source across eleven languages, scripts and reading directions.",
+        "role": "I own the route model, content boundaries, presentation controls and localization maintenance workflow.",
+        "decision": "Keep canonical English strings and one locale registry; isolate professional Q&A from translation.",
+        "result": "Eleven registered locales share localized routes, metadata, translation notices and static HTML generation.",
+        "status": "Implemented · editorial review pending",
+        "focus": "Direction-aware layouts, accessible controls and incremental translation provenance. Automated checks do not establish linguistic fluency or replace native-language and screen-reader review.",
+        "evidence": "#localization-pipeline",
+        "narrative": [
+          "One registry, one content workflow",
+          "Localization pipeline",
+          "Canonical English → AST string extraction",
+          "Incremental translation → source hashes and provenance",
+          "Catalog validation → coverage and editorial review",
+          "Lazy locale catalogs → static localized routes and metadata",
+          "React and i18next use languages.json for locale order, direction, fonts, calendars and writing modes. URL, saved preference, browser preference and English fallback resolve language in that order. Switching preserves route, query and fragment.",
+          "Extraction, validation, coverage and prerendering are scripted. Translation sync requires configured authoring credentials; new case-study translations were generated directly by the coding assistant. They are machine-translated and await fluent editorial review.",
+          "Every non-English page retains the localized disclosure near navigation and a matching English-original link. Canonical URLs are locale-specific; reciprocal hreflang links and x-default connect equivalent pages. Translation is performed during authoring, never from visitor conversations.",
+          "Adaptive Preferences Across Scripts and Layouts",
+          "Hidden language and display menus made global preferences harder to discover. The utility rail exposes five controls while reusing the existing preference services; its own state only manages disclosures.",
+          "One nonmodal panel opens at a time. Focus enters the panel without a trap; Escape and Close return it to the trigger. Navigation and outside clicks dismiss it. Detailed controls load on demand, with a retry action if loading fails.",
+          "Logical docking places the rail on the right in LTR and left in Arabic. Compact screens use an expandable Settings entry. Controls remain horizontal in vertical CJK mode; saved indicators synchronize after hydration. Language switching preserves route, query and fragment.",
+          "Privacy UI reuses existing consent state: opening a panel does not enable analytics. DNT/GPC suppression remains separate from saved consent. Keyboard, locale and automated accessibility checks support the implementation; screen-reader, physical-device and fluent translation review remain pending.",
+          "Arabic utility rail with the language panel open on the left.",
+          "Local implementation capture: Arabic RTL docking and a horizontal language panel.",
+          "Inspect the portfolio source",
+          "Inspect the evidence",
+          "A deliberate English-only boundary",
+          "PACE-RAG professional questions, answers and evidence remain English-only. Its region retains lang=en, dir=ltr, translate=no and horizontal writing. Surrounding notices are localized; changing locale preserves the assistant and conversation state.",
+          "Font fallbacks, text scaling, reduced motion and RTL are presentation responsibilities. Automated browser checks support regression detection; native-language review, physical-device coverage and actual screen-reader sessions remain separate work."
+        ]
+      },
+      "sourcePaths": [
+        "src/caseStudies.ts",
+        "src/EngineeringCaseStudy.tsx"
+      ],
+      "freshness": {
+        "contentId": "multilingual-engineering",
+        "contentFingerprint": "3cbfb84a803ec58ad1023d69f1f9eca0a12517628089b4e6ff438453eb23198c",
+        "lastMeaningfulRevisionAt": "2026-10-23T12:38:39.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "399123260017955da5387109e786a4977865ab33"
+      },
+      "repositoryUrls": [
+        "https://github.com/MohdVara/mohdvara.github.io"
+      ],
+      "technologyTags": [],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "naae",
+      "name": "NAAE",
+      "route": "/en/naae/",
+      "evidenceClassification": "independent-engineering",
+      "implementationStatus": "Local prototype · public studio pending",
+      "content": {
+        "name": "NAAE",
+        "problem": "Make a scene recognizable at a distance while preserving meaningful narrative characters up close.",
+        "role": "I directed the visual language, rendering constraints and iterative review of the procedural engine.",
+        "decision": "Reserve exact narrative text before allocating semantic glyph texture; separate occupancy from intensity.",
+        "result": "Saved Organic v0.3 and Pixel-Hybrid v0.4 artifacts expose configuration and integrity diagnostics.",
+        "status": "Local prototype · public studio pending",
+        "focus": "Seeded geometry, source integrity and bounded character budgets. Scene mode is experimental; physical print quality and official release dates are unverified.",
+        "evidence": "#evolution",
+        "narrative": [
+          "An artifact-backed evolution",
+          "The canonical project name is Narrative ASCII Art Engine. Local documentation describes v0.1 object allocation and v0.2 layered landscapes. Saved v0.2, v0.3 and v0.4 outputs support the comparisons below; no Git history or tags were available to establish release dates.",
+          "Protect the story, then compose the texture",
+          "Artwork generation pipeline",
+          "Seeded scene graph → layered geometry and spatial regions",
+          "Physical budget → exact narrative allocation and source indices",
+          "Eligible cells → coverage, semantic glyphs and independent intensity",
+          "Integrity diagnostics → SVG text, PNG and scene configuration",
+          "Coverage counts visibly occupied eligible cells; protected narrative spaces are excluded. Intensity controls appearance independently of occupancy. Pixel-Hybrid adds stepped geometry and tile-coherent glyph selection while sharing narrative protection. Diagnostics are engineering checks, not aesthetic quality scores.",
+          "The studio/package v0.4 label is separate from rendererVersion: Organic uses 0.3.0; Pixel-Hybrid uses 0.4.0. Scene mode is experimental. Supported text is measured Latin ASCII; physical print quality and a public studio release are pending.",
+          "Engineering the Visual Identity: From Narrative Landscapes to Glyph-Based Portraits",
+          "A portrait needs recognizable facial structure at a distance and authentic characters up close. Early tonal adjustments could not recover detail missing from the source grid. The portfolio reconstruction therefore works on an existing glyph SVG, not directly on a photograph.",
+          "Build-time analysis samples glyph luminance at three neighborhood scales. Font-calibrated ink coverage and local gradients guide bounded size and shape variants while preserving the character sequence. This is source-field analysis, not facial-landmark detection; it cannot invent missing anatomy.",
+          "Dark-mode amber supports luminous strokes. Light-mode glyph experiments needed separate ink palettes, tonal mappings and reduced background competition; bright eye highlights and pale small glyphs exposed the limits of palette changes. The current homepage selects a separate illustration in light mode and the reconstructed glyph SVG in dark mode.",
+          "Dark homepage with an amber glyph portrait in the narrative landscape.",
+          "Local dark treatment: actual SVG characters, reconstructed before runtime.",
+          "Light homepage with a separate illustrated portrait in the landscape.",
+          "Local light treatment: a separate illustration, not an ASCII portrait.",
+          "Deterministic reconstruction and geometry tests make the transformation inspectable. These portfolio-specific experiments do not establish standalone NAAE photo support. The captures show current treatments, not a historical before/after benchmark; identity recognition and deployed parity are not independently established.",
+          "Inspect the portfolio source",
+          "Inspect the evidence",
+          "The Unmapped Path: narrative typography for recovery",
+          "The 404 scene applies the same visual language to a useful failure state: seeded SVG-text ridges and a vanishing trail support a localized explanation, quote and recovery links. Compact screens receive a separate composition; decorative glyphs remain hidden from assistive technology.",
+          "Static localized fallback documents preserve recovery without JavaScript. Recorded local Pages checks returned HTTP 404 for missing paths and 200 for known routes; this is local hosting evidence, not live deployment verification. The artwork is distinct from the homepage and imports no studio engine."
+        ]
+      },
+      "sourcePaths": [
+        "src/caseStudies.ts",
+        "src/EngineeringCaseStudy.tsx"
+      ],
+      "freshness": {
+        "contentId": "naae",
+        "contentFingerprint": "7dc04f3898c5c4aad89c83a7aed143848842b98df098b160918fa373cc5ee780",
+        "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+      },
+      "repositoryUrls": [
+        "https://github.com/MohdVara/mohdvara.github.io"
+      ],
+      "technologyTags": [],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "nodejs-hotel-problem",
+      "name": "Hotel booking constraint API",
+      "route": "/en/#public-engineering",
+      "evidenceClassification": "public-source-description",
+      "implementationStatus": "API experiment",
+      "content": {
+        "name": "nodejs-hotel-problem",
+        "title": "Hotel booking constraint API",
+        "kind": "API experiment",
+        "description": "An interview project that allocates hotel rooms under adult, child and infant occupancy rules.",
+        "technologies": [
+          "JavaScript",
+          "Node.js",
+          "Express",
+          "Mocha / Chai"
+        ],
+        "relevance": "Inspectable booking logic, a reusable constraint parser and tests covering valid and rejected requests."
+      },
+      "sourcePaths": [
+        "scripts/public-github-curation.mjs"
+      ],
+      "freshness": {
+        "contentId": "nodejs-hotel-problem",
+        "contentFingerprint": "1c9803d64c069929c1d3573bf6734207143f48a17a3f5778c3f429848a1cfa6a",
+        "lastMeaningfulRevisionAt": "2026-10-07T04:44:50.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "116bbb7fa920e9c307edf836467f4891f350f05f"
+      },
+      "repositoryUrls": [
+        "https://github.com/MohdVara/nodejs-hotel-problem"
+      ],
+      "technologyTags": [
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "Mocha / Chai"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "ntm",
+      "name": "No Two Mondays",
+      "route": "/en/no-two-mondays/",
+      "evidenceClassification": "independent-engineering",
+      "implementationStatus": "Independent project · historical campaign",
+      "content": {
+        "name": "No Two Mondays",
+        "problem": "Connect office interactions and engineering choices in an extensible simulation without losing state consistency.",
+        "role": "I directed product, architecture and AI-assisted implementation, reviewing changes through tests and playtesting.",
+        "decision": "Let the TypeScript simulation own state; keep React presentation, Phaser rendering and persistence separate.",
+        "result": "The 15 October 2026 campaign recorded 112,402 completed simulation runs and 8,050 independently replayed artifacts.",
+        "status": "Independent project · historical campaign",
+        "focus": "Deterministic replay, save compatibility and modular ownership. Two campaign target gaps remained; historical local results do not verify the hosted build or human playability.",
+        "evidence": "#ntm-evidence",
+        "narrative": [
+          "Open full-size {{value0}} {{value1}} capture",
+          "Skip to content",
+          "Portfolio",
+          " / Independent game case study",
+          "No Two Mondays: Trial Period / modvar",
+          "Engineering No Two Mondays:",
+          "An extensible simulation with AI.",
+          "How I used AI-assisted development to build an office narrative game, applying human judgment and engineering expertise to turn repeated feedback into a system I could keep extending.",
+          "Mohd. Paramasvara · Product direction, engineering and playtest iteration",
+          "Read the engineering summary ↓",
+          "Play on itch.io ",
+          " (opens in a new tab)",
+          "Engineering at a Glance",
+          "Architecture",
+          "Verification",
+          "Development history and revision evidence",
+          "Lessons",
+          "Evidence sources",
+          "Executive summary / Independent engineering project",
+          "Challenge",
+          "Build an extensible office simulation where technical work, conversations and spatial interactions have connected consequences.",
+          "Role",
+          "I directed the product and architecture, set engineering constraints, reviewed AI-assisted implementation and iterated through playtesting.",
+          "A TypeScript simulation owns state; React presents the interface and Phaser handles spatial presentation. Validated saves, migrations and headless verification support change. ",
+          "Inspect the boundaries",
+          "Engineering decisions",
+          "Separate state ownership from rendering, reproduce recorded actions deterministically, preserve supported historical saves and require evidence for each bounded iteration. ",
+          "Review the workflow",
+          "The 15 October 2026 campaign against the recorded 0.3.0-rc.1 / monday-8 snapshot verified 112,402 completed simulation runs and independently replayed 8,050 retained artifacts. It verified 44 ending targets; two campaign target gaps remained. ",
+          "Read the scope and gaps",
+          "Limitations",
+          "Historical campaign figures are not current game-wide totals or evidence of the hosted build. Automated traversal does not establish human understanding, enjoyment, browser accessibility or production infrastructure scale. ",
+          "Check the evidence sources",
+          "Give each layer a clear responsibility.",
+          "The game uses TypeScript, React, Phaser 3 and Vite. Its simulation owns the world state and publishes snapshots. React subscribes to those snapshots for interface updates; Phaser handles spatial presentation and traversal. A bridge carries room, proximity and interaction signals between the office and the interface.",
+          "This boundary lets the simulation run without rendering the office. It supports deterministic tests, automated traversal and save-restoration checks, while interface and artwork changes can be inspected separately. Shared state still needs care: the main simulation runtime coordinates many systems, and adding a module is not free of integration work.",
+          "Diagram 03 / Runtime responsibilities",
+          "React interface",
+          "Menus, reading, feedback and player actions",
+          "Phaser office",
+          "Rooms, movement and spatial interaction",
+          "Room and interaction signals pass through the GameBridge",
+          "Actions in ↓ / State snapshots out ↑",
+          "TypeScript simulation runtime",
+          "State transitions · authored rules · seeded randomness · consequence records",
+          "Persistence",
+          "Validated snapshots, migrations and local archives",
+          "Headless verification",
+          "Tests, traversal and independent replay",
+          "Responsibility diagram simplified from the runtime, UI subscriptions and game bridge. It shows engineering boundaries without disclosing narrative rules.",
+          "Extend content through explicit rules",
+          "Authored registries, typed actions and state predicates give new content a defined integration point. The event Director filters and scores authored possibilities; it is not a runtime language model inventing the story.",
+          "Seeded randomness makes a recorded sequence reproducible under matching code and settings. That is useful for debugging; it does not make the whole possibility space exhaustively tested.",
+          "Keep optional work out of startup",
+          "The game defers Phaser, optional panels and other modules. Bundle checks inspect the startup graph and enforce size budgets, including keeping the analytics SDK outside startup until optional consent.",
+          "These controls make growth measurable. They do not establish a universal frame-rate or mobile performance guarantee.",
+          "Preserve progress while the system evolves",
+          "Save loading validates the record and applies explicit incremental migrations. Supported historical saves receive conservative defaults; loading restores a snapshot without replaying gameplay. Original bytes are retained before browser conversion, and unsupported or unreadable records have recovery paths.",
+          "Diagram 04 / Save compatibility",
+          "Invalid or unsupported records are preserved for recovery. Browser origin, storage access and quota remain real constraints; local saves are not cloud sync.",
+          "Eight hours of automated exploration.",
+          "The latest reviewed completion campaign ran on 15 October 2026 against a recorded 0.3.0-rc.1 / monday-8 source snapshot. Its eight-hour execution budget produced 112,402 completed simulation runs with matching verified receipts and unique run identifiers. The integrity report passed.",
+          "The tool used witness-guided exploration through normal simulation actions, with recorded settings and source identity. Of the retained artifacts, 8,050 were independently replayed. A compact suite selected 44 replay witnesses covering 118 observed targets. Those targets mix endings, achievements and challenges; they are not 118 separate stories.",
+          "How the CLI turns timelines into reviewable evidence.",
+          "The developer-only ",
+          " CLI exercises the real simulation through legal inputs. It records the order of decisions and semantic state changes, rather than treating every seed or wording change as a new story. That gives me evidence for deciding which variations deserve a closer playtest and which missing paths need investigation.",
+          "Diagram 05 / From story traversal to gameplay review",
+          "Timeline variants",
+          "Compare ordered, meaningful decisions and state changes. Cosmetic wording and seed-only differences do not create separate route identities.",
+          "Essential variations",
+          "Inspect distinct verified route families and canonical prerequisites. A frequent event in sampled runs is an association, not proof that the event is necessary.",
+          "Blocking states and gaps",
+          "Distinguish unmet prerequisites, legitimate refusals and stalled attempts from replay failures or a search that exhausted its budget. An unobserved path is not proven impossible.",
+          "Human review → a focused revision or playtest",
+          "I can inspect retained timelines, compare counterfactual branches and prioritise suspected bottlenecks. The reports provide investigation leads; they do not rewrite the game or establish that a variation is enjoyable. Any change still needs a clear brief, regression checks and human evaluation.",
+          "Simplified from the ASTDE and targeted-search documentation. Replay verifies a recorded trace under matching source and settings, not every possible timeline. Raw traces, route conditions and specific blockers remain private; the diagram discloses no solution or unlock sequence.",
+          "completed runs / verified receipts",
+          "independently replayed artifacts",
+          "replay witnesses in the compact suite",
+          "The execution budget elapsed in about 8 hours; final reporting finished afterward. Counts are specific to this campaign and its recorded source snapshot.",
+          "Endings found, with their files still sealed.",
+          "The latest reviewed crawl verified ",
+          " ending targets. Below are all their public locked titles and the number of newly executed runs that finished in each outcome. The labels describe sealed files; real ending names, conditions and route traces stay private.",
+          "Counts reconcile to 112,402 unique, verified completed-run receipts from this campaign. The 40 reused baseline successes are excluded. Targeted exploration and repeated attempts shape this distribution: it is not human-player popularity, natural ending probability, unique storyline count or exhaustive coverage. Achievement awards can overlap within one run and are not added to these ending counts.",
+          "Complete ending distribution",
+          "Automated crawl / ",
+          " completed runs",
+          " locked labels · linear bar scale",
+          "Scroll to read all labels. Each run contributes to one final ending; repeated runs of the same route still count as runs.",
+          "Scrollable chart of automated completed runs by locked ending title",
+          "Unverified ending target, kept separate from the chart",
+          "Locked title",
+          "Campaign status",
+          "An inconvenient agenda",
+          "Known witness, unverified in this campaign",
+          "The campaign ended at its duration budget with two target gaps: the unverified outcome above and its associated achievement. That is an unresolved verification gap, not proof that the outcome is impossible. A long run is useful precisely because it can expose a stubborn blind spot rather than manufacture an all-green coverage claim.",
+          "Headless traversal does not exercise room collision, visual layout, keyboard focus or whether a person enjoys the pacing. Those need browser checks and human playtests. The 15 October release notes separately record 733 automated tests and a 133-test save-compatibility gate for the prepared release candidate; these are historical release checks, not tests rerun by this case study.",
+          "Collect evidence about understanding, not just completion.",
+          "The crawl records deterministic actions, semantic changes and verification receipts so I can investigate the system’s behaviour. Human playtesting answers different questions: did someone understand the next task, recognise the result of a choice or know why a puzzle attempt failed? The game’s optional analytics is designed to support those questions alongside direct feedback.",
+          "Implemented playtest instrumentation and the questions it can support",
+          "Collected signals",
+          "Question for review",
+          "Interpretation limit",
+          "Puzzle views, attempts, repeated wrong plans, hints and active time",
+          "Does a viewed stage receive an attempt? Where might instructions or feedback need attention?",
+          "A long visit or repeated attempt can mean deliberation, difficulty or confusion; the metric alone cannot tell which.",
+          "Presented events, committed choices, consequence receipts and ordered run context",
+          "What did the player encounter, choose and observe before the next decision?",
+          "Recorded sequence and linked consequences do not prove that the player noticed or understood them.",
+          "Run milestones, completions, resumes, replay activity and active/paused timing",
+          "Where was a run last observed, and how does a repeat visit differ from an initial run?",
+          "Missing completion is not confirmed abandonment. Pauses, later returns, consent changes and delivery gaps matter.",
+          "Gameplay sharing is consent-gated and uses explicit event/property allowlists. Automatic click capture and session replay are disabled in the game’s adapter. Local run records and diagnostic exports serve a separate purpose; a playtest report is copied or downloaded explicitly rather than automatically submitted.",
+          "No private player records or live analytics results are published here. These are implemented collection capabilities, not a claim that player behaviour has already established a particular improvement. I still need to inspect the evidence, ask players what they understood and evaluate any revision in context.",
+          "AI accelerated the work. Expertise guided the decisions.",
+          "AI made it practical to move quickly between a feature idea, implementation and a diagnostic tool. My responsibility was to decide what the game should become, recognise where the result fell short and make the next change reviewable. Human involvement mattered at every stage: setting priorities, interpreting feedback and deciding what evidence was sufficient for the question being asked.",
+          "The value of domain expertise was in turning observations into durable requirements. Ambiguous choices called for clearer feedback. Evolving systems needed boundaries and save compatibility. Generated artwork needed visual inspection and reliable extraction. Automated traversal could verify recorded behaviour at scale, while pacing, clarity and the experience of playing still needed human evaluation.",
+          "I would carry that approach into another project: define acceptance criteria early, preserve observations alongside decisions, and evaluate each change at the appropriate layer. Better prompts emerged from understanding the product and its constraints. The outcome I am aiming for is maintainable behaviour and a coherent player experience.",
+          "Try the Monday for yourself.",
+          "The game is available on itch.io. This case study covers development snapshots and does not assert that every reviewed change is in the currently hosted build.",
+          "Play No Two Mondays ↗",
+          "Discuss the engineering",
+          "The brief",
+          "AI workflow",
+          "Revisions",
+          "Dialogue UI",
+          "Puzzle UI",
+          "recovered human prompts",
+          "interactive Codex sessions",
+          "prompts tagged as corrections or refinement",
+          "Historical local audit: 9 October–14 October 2026, cutoff 00:05 MYT. Counts describe recovered records through that cutoff; development continued afterward. ",
+          "How these numbers were counted",
+          "01 / The product problem",
+          "A small office. A growing system.",
+          "No Two Mondays starts with a simple premise: one working day, three coworkers and a production outage. The challenge was to make decisions feel connected across technical work, conversations and the office around you. The setting could stay compact while the underlying system became richer.",
+          "I used Codex throughout development, directing features, playing the results, reporting what felt wrong and asking for focused revisions. My work included setting the product constraints, deciding which changes belonged in the game, and requiring evidence that new work preserved existing behaviour.",
+          "Here, scalability means being able to add and revise behaviour without losing consistency, save compatibility or a usable browser experience. This is a client-side game; the project does not demonstrate multiplayer concurrency or backend traffic scaling.",
+          "Open the full-size No Two Mondays office screenshot",
+          "No Two Mondays office at the beginning of the day, with coworkers, desks, room doors and the game toolbar.",
+          "Actual game capture, 10 October 2026. An earlier presentation snapshot of the office; later development continued to refine the interface and artwork.",
+          "A little office conversation.",
+          "I wanted the characters to sound like people carrying their work into an ordinary conversation. These are authored in-game coffee responses, shown as separate excerpts rather than one exchange. They give a taste of the office humour without revealing incident explanations or story outcomes.",
+          "02 / Working with AI",
+          "The prompt started the work. Human judgment steered it.",
+          "Codex accelerated implementation, but each change still needed a human decision about what belonged in the game and whether the result worked. I set the direction, played the results, identified what felt unclear or inconsistent, and turned those observations into focused revisions. Keeping a human in the loop meant shaping the work throughout development: framing the problem, inspecting the result and deciding what needed to change.",
+          "Domain expertise made that feedback actionable. Software engineering knowledge helped me translate a feature request into requirements for state ownership, persistence, compatibility and regression checks. Interaction decisions needed a different lens: could a player understand a choice, notice its consequences and navigate the interface comfortably? The useful brief connected the intended experience to the constraints and evidence needed to evaluate it.",
+          "Diagram 01 / The development loop",
+          "Each review feeds the next brief. This is a synthesis of the recorded workflow, rather than a transcript of one session.",
+          "What I directed",
+          "Product scope, interaction clarity, engineering constraints and acceptance criteria. I judged the results against the intended experience and directed follow-up changes.",
+          "What AI accelerated",
+          "Implementation, test scaffolding, diagnostic tools, documentation and asset iteration. I used those outputs as material to inspect, test and refine.",
+          "03 / The cost of iteration",
+          "210 prompts did not mean 210 finished features.",
+          "The historical audit recovered 210 deduplicated human prompts across 20 interactive sessions. A union of its bug-fixing, refinement and refactoring tags contains 37 distinct prompts. The project feedback log separately records 21 feedback entries at the time of this review. These are different measures: a feedback entry may summarize several requests, and a prompt may address several concerns.",
+          "The tagging is automated and lexical. It describes the requests that were recovered, rather than proving how many code modifications were necessary or how much time each feature took. The audit is a partial historical record, not the total lifetime prompt count.",
+          "Diagram 02 / Selected request types",
+          "Selected workflow tags in the historical prompt audit",
+          "Tags overlap. These selected categories do not sum to 210; requests with other or unspecified tags are omitted from this chart.",
+          "Examples of documented revision work",
+          "Observed issue",
+          "Engineering response",
+          "Why human judgment mattered",
+          "Choices were ambiguous",
+          "Named the affected character and added clearer action feedback.",
+          "Recognising ambiguity required evaluating the player’s understanding as well as the state change.",
+          "Too much information at once",
+          "Grouped interactions and introduced contextual disclosure.",
+          "Interaction judgment helped determine when additional depth became too much information.",
+          "Menus and reading competed with the game viewport",
+          "Contained the game surface and refined keyboard, mouse and internal scrolling.",
+          "Browser interaction knowledge turned layout and input problems into explicit acceptance checks.",
+          "Generated character art needed correction",
+          "Retained approved sources, recorded generation provenance and used deterministic extraction and registration.",
+          "Visual review and asset requirements determined whether generated artwork was usable in the game.",
+          "New systems had to preserve earlier progress",
+          "Made migration, historical fixtures and recovery paths part of the release requirements.",
+          "Engineering judgment made preservation of earlier progress a release requirement.",
+          "Art and animation took repeated correction.",
+          "Getting the character art right took several rounds of direction and visual review. I asked for changes to the player’s proportions and facial treatment, then had to preserve that approved likeness across different directions and walking poses. I preferred the original, unnormalised artwork; the generation notes record that preference alongside the extraction and registration requirements.",
+          "Walking exposed problems that a still image could hide. Equal-sized frame cells did not guarantee equal visible character sizes, and the earlier sequence mixed walking contacts with idle and blink poses. The correction work separated those states, used a uniform scale per character and tied animation to measured movement. A live check also caught gait resets between fixed-step physics updates. These were asset and runtime problems that needed different checks.",
+          "The art review still records subtle support-leg differences in some generated poses, including Maya’s front passing frames. Automated bounds, registration and sequence checks could verify parts of the asset contract; they could not establish convincing anatomical motion on their own. I needed to inspect the artwork and movement in the game, and the remaining pose limitations were kept explicit.",
+          "From early visuals to the current build.",
+          "These retained development captures show the early presentation, the character remaster, its sizing/walking correction and the latest reviewed environment redesign. Here, v1–v3 label historical visual milestones, not game release numbers. The latest entry shows the local build captured on 15 October 2026. The captures use different viewport sizes and are not a matched animation comparison. Select an image to inspect the original full-size capture.",
+          "Dialogue UI: from a reply to a decision with context.",
+          "The dialogue interface evolved alongside the feedback system. These selected captures show changes in hierarchy, reading space and the relationship between previous results and the next choice. They show routine office interruptions before a response is chosen; no incident explanation or story outcome is revealed. The latest image was captured from the current source on 15 October 2026.",
+          "Puzzle UI: make the plan readable before executing it.",
+          "The recovery puzzle separates available operations from the player’s proposed order. These historical and current captures keep the plan empty and the notes closed. They illustrate interface evolution, rather than three different solutions or new puzzle rules. I have omitted diagnosis logs, submitted plans and revealed hints so the reasoning stays in the game.",
+          "Evidence / Reviewed 15 October 2026",
+          "How the case study was grounded.",
+          "The prompt figures come from an existing local development audit of surviving Codex records. It deduplicates human messages and excludes machine-agent tasks from the human-prompt count. The 37-prompt figure is the distinct union of three overlapping workflow tags: bug fixing, refinement and refactoring. Classification is lexical and can miss or misclassify requests. Missing history and later development are outside that snapshot.",
+          "The revision examples come from the project feedback log, refinement notes and art review. Architecture was checked against the TypeScript simulation, React subscriptions, Phaser bridge, save migrations and bundle checks. Traversal figures come from the 15 October completion campaign’s coverage, integrity, checkpoint and replay-suite reports. Public locked labels were checked against the game’s hint registry.",
+          "Only aggregate evidence and spoiler-safe descriptions are reproduced here. Private chat transcripts, raw traversal traces, puzzle solutions, hidden conditions and real ending titles are not published.",
+          "© Mohd. Paramasvara",
+          "Based in Borneo. Building beyond it.",
+          "Back to portfolio ↗"
+        ]
+      },
+      "sourcePaths": [
+        "src/caseStudies.ts",
+        "src/NoTwoMondaysCaseStudy.tsx"
+      ],
+      "freshness": {
+        "contentId": "ntm",
+        "contentFingerprint": "b8a8d627993626ca55d66b38da21ddf0c2f9a73ff9af08e7f6e7b2c347f78594",
+        "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "pace",
+      "name": "PACE-RAG",
+      "route": "/en/pace-rag-case-study/",
+      "evidenceClassification": "independent-engineering",
+      "implementationStatus": "Experimental engineering demonstration",
+      "content": {
+        "name": "PACE-RAG",
+        "problem": "Answer professional questions from approved evidence without treating similarity as factual certainty.",
+        "role": "I defined the knowledge boundaries, retrieval architecture and evaluation workflow for this independent demonstration.",
+        "decision": "Use reviewed cached answers and deterministic technology lookups; otherwise suggest evidence-backed questions or abstain.",
+        "result": "Reviewed questions return cited cached answers; supported technology lookups compose confirmed project facts. Other wording receives suggestions or abstention.",
+        "status": "Experimental engineering demonstration",
+        "focus": "Browser retrieval, citations and explicit uncertainty. These finite observations do not certify production correctness. Live generation is disabled; professional questions and answers remain English-only.",
+        "evidence": "#evaluation",
+        "narrative": [
+          "Skip to content",
+          "PACE-RAG v1.6.2 · Independent applied AI",
+          "Knowledge first. Inference optional. Evidence always.",
+          "Ask a professional question, look up approved knowledge and inspect the sources behind a reviewed answer, supported technology composition, suggestions or abstention. This independent demonstration is experimental; live generation is disabled.",
+          "PACE-RAG = Portfolio Assistant with Cited Evidence — Retrieval-Augmented Generation.",
+          " This is the official expansion going forward, not a claim about the name’s historical origin. RAG describes the architectural approach and direction; each query does not invoke a generative model.",
+          "Explore the Engineering RAG Lab",
+          "Inspect the implementation",
+          "Ask about my engineering experience",
+          "Live AI is disabled.",
+          "A real technology lookup",
+          "Recognized category: ",
+          " web ",
+          "Ontology matches: ",
+          "Verified project mappings:",
+          "Approved fact composition: ",
+          "Supporting citations:",
+          "Workers AI inference calls: ",
+          " Evidence version: ",
+          ". The portfolio build verifies this generated example against the packaged corpus.",
+          "A one-minute overview",
+          "PACE-RAG is a browser-first assistant for reviewed professional information, with a separate engineering Lab. Cached answers and deterministic technology lookups avoid hosted inference; other questions can use a locally loaded model to suggest relevant reviewed questions. Every direct answer retains its own validated sources.",
+          "Measured retrieval results below show how well expected answers appear in the ranked suggestions. They do not prove factual certainty or production readiness. Live generation, enterprise security and provider billing remain unverified; the public demo is experimental.",
+          "Architecture at a glance",
+          "Two paths share source validation. Technology relationships use confirmed facts; other wording uses retrieval.",
+          "Question-to-answer architecture",
+          "Question",
+          "The visitor chooses a knowledge source.",
+          "Entity / intent detection",
+          "Identify supported technology relationships and question intent.",
+          "Approved facts or hybrid retrieval",
+          "Compose from confirmed technology facts, or rank reviewed questions using semantic and lexical signals.",
+          "Citation validation",
+          "Check source ownership, version, hash, URL and review status.",
+          "Reviewed answer, suggestions or abstention",
+          "Unsupported wording remains a limitation, never a similarity-based factual claim.",
+          "Exact reviewed questions can reuse the cache directly. None of these paths automatically calls Workers AI.",
+          "The problem and constraints",
+          "Recruiters need concise answers supported by public sources. A free-tier-oriented design keeps reviewed answers and retrieval usable without hosted inference, provider quota or a live API. Browser inference trades a model download, CPU and memory for fewer remote dependencies; free-tier billing and production capacity have not been verified.",
+          "From query to evidence",
+          "Load a checksum-verified corpus and its versioned source and answer registries. Opening the assistant does not initialize the embedding model.",
+          "Exact reviewed questions reuse approved cached answers with their own citations. Bounded technology questions compose answers from owner-confirmed project facts using a directed ontology of entities, categories and relationships.",
+          "Other semantic queries initialize the pinned MiniLM q8 WASM model in a browser worker. Professional suggestions combine question-vector cosine, answer-body BM25 and bounded intent adjustments. Other Lab views retain reviewed-question-and-answer BM25. Distinct answer records are ranked once. Passage retrieval remains a separate evidence-discovery path.",
+          "Similarity suggests related questions; it does not establish answer equivalence. Unsupported requests abstain. Lexical retrieval and static sources remain available when model initialization fails.",
+          "Cached answers, technology composition and local retrieval make zero Workers AI inference calls. A guarded gateway exists in source, but live generation is disabled. Mocked quota/provider tests do not establish deployed runtime or billing behaviour.",
+          "Retrieval and hybrid ranking",
+          "Technology entity resolution",
+          "Answer composition and validation",
+          "Architecture and methodology",
+          "Provenance and publication boundaries",
+          "Reuse requires current approval, matching source hash, document version, citation URL and corpus ownership. Professional Experience is isolated from implementation documentation and fictional test documents; scoped vector rows follow the same filtered records. Retrieved passages are labelled separately from sources supporting an answer.",
+          "Hash-bound owner publication approval covers the existing source and answer registries. Generated Q&A is never automatically promoted. Content changes need renewed review, and integrity or licensing failures block packaging. Historic professional snapshots retain their review context; the current portfolio clarifies ongoing WenSymes collaboration and the existence of this demonstration.",
+          "Corpus provenance",
+          "Publication checks",
+          "Scope and vector isolation",
+          "Measured retrieval and limitations",
+          "19 October 2026 · Local, versioned evaluation with the pinned browser model. Owner-approved v1.6 knowledge refresh adds commercial evidence and five reviewed answers. The v1.6.1 investigation reproduces prior results and partially recovers rankings through bounded question-facet adjustments. All approved knowledge is preserved; recovery targets remain unmet on two metrics. Automatic semantic reuse remains disabled.",
+          "Previously inspected regression sets; not independent review",
+          "Questions",
+          "v1.5 Top-1 / Top-3",
+          "v1.6 Top-1 / Top-3",
+          "v1.6.1 Top-1 / Top-3",
+          "Original 100 (development)",
+          "Preserved 50 (verification)",
+          "Preserved 40 (v1.4)",
+          "Labels are agent-authored and await independent review. These are unchanged provisional regression labels. The content-refresh baseline used the unchanged prior ranker. The v1.6.1 correction was investigated on these published sets without relabeling. Original-set Top-1 remains below the 80% recovery target, and preserved-50 Top-3 remains below 96%; content approval does not certify these trade-offs. None is now unseen. A fresh independently prepared holdout and real-user review remain pending; the independent 80% Top-1 target has not been demonstrated. All 124 professional critical questions across the regression and new-feature suites abstain, with zero observed incorrect automatic answers, invalid citation references or cross-corpus references. These finite observations do not establish correctness probabilities or live-generation grounding.",
+          "Reviewed wording can return its cached answer; other paraphrases usually require choosing a suggested question. Lexical/static fallbacks remain available. Actual screen-reader sessions, physical-device memory, enterprise authorization and deployed provider billing remain unverified.",
+          "Current evaluation and per-query reports",
+          "Preserved verification wording",
+          "Trade-offs and reproducibility",
+          "How to inspect it",
+          "Start with the Lab’s three separated knowledge views, then inspect a result’s matched questions, supporting sources and resource usage. Fictional documents and simulated failures are explicitly labelled. Production security and inference availability must be evaluated separately before applying this design to confidential material.",
+          "Explore an engagement approach",
+          "Discuss an engineering problem"
+        ]
+      },
+      "sourcePaths": [
+        "src/caseStudies.ts",
+        "src/PaceRagCaseStudy.tsx"
+      ],
+      "freshness": {
+        "contentId": "pace",
+        "contentFingerprint": "ed7fae12568790d51e826844faaebaee23d8c82d85a2e83bad0f759fc41a8791",
+        "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+      },
+      "repositoryUrls": [
+        "https://github.com/MohdVara/pace-rag"
+      ],
+      "technologyTags": [],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "portfolio",
+      "name": "This portfolio, in source",
+      "route": "/en/#public-engineering",
+      "evidenceClassification": "public-source-description",
+      "implementationStatus": "Frontend engineering",
+      "content": {
+        "name": "mohdvara.github.io",
+        "title": "This portfolio, in source",
+        "kind": "Frontend engineering",
+        "description": "The React and TypeScript source behind this static engineering portfolio.",
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Vite"
+        ],
+        "relevance": "Prerendered content, native disclosures, theme handling and production-artifact checks are available to inspect.",
+        "allowPortfolio": true
+      },
+      "sourcePaths": [
+        "scripts/public-github-curation.mjs"
+      ],
+      "freshness": {
+        "contentId": "portfolio",
+        "contentFingerprint": "afd27d30881f9ebc1ff5b38f2caec18c985e42e535e5e19022f59c758f77de99",
+        "lastMeaningfulRevisionAt": "2026-10-07T04:44:50.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "116bbb7fa920e9c307edf836467f4891f350f05f"
+      },
+      "repositoryUrls": [
+        "https://github.com/MohdVara/mohdvara.github.io"
+      ],
+      "technologyTags": [
+        "React",
+        "TypeScript",
+        "Vite"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "rental",
+      "name": "Rental operations, from contracts to financial clarity.",
+      "route": "/en/#case-rental",
+      "evidenceClassification": "owner-reported-commercial",
+      "implementationStatus": "See reviewed commercial narrative; no independent production verification",
+      "content": {
+        "id": "rental",
+        "role": "Freelance Principal Full Stack Solution Developer",
+        "scope": "20+ properties · tenants · contracts · financial reporting",
+        "category": "Proptech / Business operations",
+        "company": "MegaInfinite",
+        "period": "May 2018 — May 2020",
+        "title": "Rental operations, from contracts to financial clarity.",
+        "summary": "Web-based rental operations for staff working in the office and on the move.",
+        "result": "Made key rental-management functions accessible from compatible mobile and desktop browsers.",
+        "functions": [
+          "Properties, tenants & contracts",
+          "Payments, renewals & cancellations",
+          "Property-level financial reporting"
+        ],
+        "visualLabel": "Home Rental Management System",
+        "details": [
+          [
+            "Problem",
+            "Staff needed to manage contracts, renewals, cancellations and financial visibility across more than 20 rental properties, including operational work outside the office."
+          ],
+          [
+            "My ownership",
+            "Designed and implemented the business subletting and home rental management system as a freelance Principal Full Stack Solution Developer."
+          ],
+          [
+            "Key Engineering Decision",
+            "Designed and developed a mobile-friendly, web-based rental management system to support operational work outside the office."
+          ],
+          [
+            "Domain design",
+            "Separated property, tenant and contract records to support multi-entity workflows, contract generation and payment tracking."
+          ],
+          [
+            "Operating constraints",
+            "Access described here is internet-connected through compatible mobile or desktop browsers."
+          ],
+          [
+            "Delivered Capability",
+            "Enabled access to property, tenant and rental records; supported rental contract renewals and sending contract PDFs directly from mobile devices. Staff could review rental and financial reports remotely, including property-level income, expenses and profit/loss. Supported rental operations involving more than 20 properties."
+          ]
+        ],
+        "stack": [
+          "Symfony",
+          "MySQL",
+          "Apache",
+          "Third-party cloud provider"
+        ],
+        "technology": {
+          "id": "rental",
+          "projectId": "rental",
+          "projectTitle": "Rental Management System",
+          "anchor": "case-rental",
+          "generations": [
+            {
+              "groups": [
+                {
+                  "label": "Backend",
+                  "technologies": [
+                    "Symfony"
+                  ]
+                },
+                {
+                  "label": "Database",
+                  "technologies": [
+                    "MySQL"
+                  ]
+                },
+                {
+                  "label": "Web server",
+                  "technologies": [
+                    "Apache"
+                  ]
+                },
+                {
+                  "label": "Hosting",
+                  "technologies": [
+                    "Third-party cloud provider"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "sourcePaths": [
+        "src/content.ts",
+        "src/technology.ts"
+      ],
+      "freshness": {
+        "contentId": "rental",
+        "contentFingerprint": "ccb831ba4814820f598d4b5e4f68ec09d5955b6ba569153862f1efbfee75c1e6",
+        "lastMeaningfulRevisionAt": "2026-10-24T07:12:27.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "a4da673657f8807f98433485aaacd9043e8c7eb7"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [
+        "Symfony",
+        "MySQL",
+        "Apache",
+        "Third-party cloud provider"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    },
+    {
+      "id": "wensymes",
+      "name": "WenSymes — Human Resources Management Platform",
+      "route": "/en/#case-wensymes",
+      "evidenceClassification": "owner-reported-commercial",
+      "implementationStatus": "See reviewed commercial narrative; no independent production verification",
+      "content": {
+        "id": "wensymes",
+        "role": "Principal Full Stack Developer",
+        "scope": "HR and administration · full-stack engineering",
+        "category": "People / Enterprise applications",
+        "company": "WenSymes",
+        "period": "Mar 2025 — ongoing collaboration",
+        "title": "WenSymes — Human Resources Management Platform",
+        "summary": "Adaptable HR and administration workflows, with full-stack web development, Google Cloud and Microsoft 365.",
+        "result": "Integrated external applications through controlled HRMS APIs; occasional professional collaboration continues.",
+        "functions": [
+          "HR & administration",
+          "Full-stack engineering",
+          "Technical ownership"
+        ],
+        "visualLabel": "WenSymes HR Platform",
+        "details": [
+          [
+            "Business problem",
+            "Internal HR and operational administration needed to accommodate changing employee roles and organizational needs."
+          ],
+          [
+            "My ownership",
+            "Principal Full Stack Developer with final architectural decision authority for HR and administration tools. Evaluated viable approaches against available resources, stakeholder requirements and changing business processes, generally seeking informed consensus. The engagement continues as occasional professional collaboration."
+          ],
+          [
+            "Key Engineering Decision",
+            "Prioritized system flexibility so changing employee roles and responsibilities could be accommodated as organizational headcount and operational needs evolved. Designed modular service boundaries to support authenticated API interfaces around selected capabilities."
+          ],
+          [
+            "Constraints & planning",
+            "Organizational flexibility must account for clear responsibilities and appropriate access to HR information. Planning considers data consistency, access control and uptime; detailed internal rules and implementation remain private."
+          ],
+          [
+            "Delivered Capability",
+            "External applications were integrated through APIs built around existing service capabilities. Authentication and permission checks restricted access to sensitive HRMS records and protected workflows."
+          ],
+          [
+            "Technical approach",
+            "Full-stack web development with Google Cloud and Microsoft 365."
+          ]
+        ],
+        "stack": [
+          "Laravel",
+          "PHP 8",
+          "MySQL",
+          "Apache",
+          "Nginx",
+          "Docker",
+          "Kubernetes",
+          "Google Cloud (GCP)"
+        ],
+        "technology": {
+          "id": "wensymes",
+          "projectId": "wensymes",
+          "projectTitle": "WenSymes — Human Resources Management Platform",
+          "anchor": "case-wensymes",
+          "generations": [
+            {
+              "groups": [
+                {
+                  "label": "Application",
+                  "technologies": [
+                    "Laravel",
+                    "PHP 8"
+                  ]
+                },
+                {
+                  "label": "Database",
+                  "technologies": [
+                    "MySQL"
+                  ]
+                },
+                {
+                  "label": "Web servers",
+                  "technologies": [
+                    "Apache",
+                    "Nginx"
+                  ]
+                },
+                {
+                  "label": "Containers & orchestration",
+                  "technologies": [
+                    "Docker",
+                    "Kubernetes"
+                  ]
+                },
+                {
+                  "label": "Cloud",
+                  "technologies": [
+                    "Google Cloud (GCP)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "sourcePaths": [
+        "src/content.ts",
+        "src/technology.ts"
+      ],
+      "freshness": {
+        "contentId": "wensymes",
+        "contentFingerprint": "c74a7bb7f7950b00d6f5d6d97d795f86b89ea21562ce5775d2f4789381c8dea9",
+        "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+        "lastReviewedAt": null,
+        "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+        "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+      },
+      "repositoryUrls": [],
+      "technologyTags": [
+        "Laravel",
+        "PHP 8",
+        "MySQL",
+        "Apache",
+        "Nginx",
+        "Docker",
+        "Kubernetes",
+        "Google Cloud (GCP)"
+      ],
+      "sourceVerificationStatus": "Canonical portfolio source; not an independent audit or live deployment check",
+      "knowledgeIngestionEligibility": "eligible-subject-to-record-level-publication-review"
+    }
+  ],
+  "repositories": [
+    {
+      "name": "Hostel-Management-System",
+      "url": "https://github.com/MohdVara/Hostel-Management-System",
+      "references": [
+        {
+          "path": "src/technology.ts",
+          "url": "https://github.com/MohdVara/Hostel-Management-System/tree/master"
+        }
+      ],
+      "projectIds": [
+        "hostel"
+      ],
+      "ingestionEligibility": "public-verification-required",
+      "exclusionReason": null,
+      "visibility": "public",
+      "availability": "verified-public-snapshot",
+      "defaultBranch": "master",
+      "sourceCommitSha": "4e5d12fa53809873a0eb33920bc6912a9d005a5e",
+      "checkedAt": "2026-10-29T03:52:05.978Z",
+      "sourceVerificationStatus": "public-github-connector",
+      "documentationReferences": [
+        "https://github.com/MohdVara/Hostel-Management-System/blob/4e5d12fa53809873a0eb33920bc6912a9d005a5e/README.md"
+      ]
+    },
+    {
+      "name": "mmcats-legacy",
+      "url": "https://github.com/MohdVara/mmcats-legacy",
+      "references": [
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mmcats-legacy"
+        }
+      ],
+      "projectIds": [
+        "mmcats-modern"
+      ],
+      "ingestionEligibility": "public-verification-required",
+      "exclusionReason": null,
+      "visibility": "public",
+      "availability": "verified-public-snapshot",
+      "defaultBranch": "main",
+      "sourceCommitSha": "5c9ca20352d80d475dd558c20a896b24522e1ef0",
+      "checkedAt": "2026-10-29T03:52:06.653Z",
+      "sourceVerificationStatus": "public-github-connector",
+      "documentationReferences": [
+        "https://github.com/MohdVara/mmcats-legacy/blob/5c9ca20352d80d475dd558c20a896b24522e1ef0/README.md",
+        "https://github.com/MohdVara/mmcats-legacy/blob/5c9ca20352d80d475dd558c20a896b24522e1ef0/Gemfile"
+      ]
+    },
+    {
+      "name": "mmcats-modern",
+      "url": "https://github.com/MohdVara/mmcats-modern",
+      "references": [
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mmcats-modern"
+        },
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mmcats-modern/blob/main/docs/RENDER_FREE_ACCEPTANCE.md"
+        }
+      ],
+      "projectIds": [
+        "mmcats-modern"
+      ],
+      "ingestionEligibility": "public-verification-required",
+      "exclusionReason": null,
+      "visibility": "public",
+      "availability": "verified-public-snapshot",
+      "defaultBranch": "main",
+      "sourceCommitSha": "1ad60b4a2736d665d5703650535d8e7319928098",
+      "checkedAt": "2026-10-29T03:52:07.310Z",
+      "sourceVerificationStatus": "public-github-connector",
+      "documentationReferences": [
+        "https://github.com/MohdVara/mmcats-modern/blob/1ad60b4a2736d665d5703650535d8e7319928098/README.md",
+        "https://github.com/MohdVara/mmcats-modern/blob/1ad60b4a2736d665d5703650535d8e7319928098/docs/LEGACY_PARITY_MATRIX.md",
+        "https://github.com/MohdVara/mmcats-modern/blob/1ad60b4a2736d665d5703650535d8e7319928098/docs/RENDER_FREE_ACCEPTANCE.md"
+      ]
+    },
+    {
+      "name": "mohdvara.github.io",
+      "url": "https://github.com/MohdVara/mohdvara.github.io",
+      "references": [
+        {
+          "path": "src/BuildRevision.tsx",
+          "url": "https://github.com/MohdVara/mohdvara.github.io/commit/${__BUILD_REVISION__}"
+        },
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/src/UtilityRail.tsx"
+        },
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/verification/portfolio-adaptive-utility-rail-v1.json"
+        },
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mohdvara.github.io"
+        },
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/scripts/artwork/portrait-v3.mjs"
+        },
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_PORTRAIT_V3_IMPLEMENTATION.md"
+        },
+        {
+          "path": "src/EngineeringCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/mohdvara.github.io/blob/3da08e4/docs/portfolio/NAAE_404_EXPERIENCE_V1.md"
+        }
+      ],
+      "projectIds": [
+        "portfolio",
+        "naae",
+        "multilingual-engineering"
+      ],
+      "ingestionEligibility": "public-verification-required",
+      "exclusionReason": null,
+      "visibility": "public",
+      "availability": "verified-public-snapshot",
+      "defaultBranch": "main",
+      "sourceCommitSha": "9090099dc0bbd032b6d218371c9239bdff438b98",
+      "checkedAt": "2026-10-29T03:52:05.964Z",
+      "sourceVerificationStatus": "public-github-connector",
+      "documentationReferences": [
+        "https://github.com/MohdVara/mohdvara.github.io/blob/9090099dc0bbd032b6d218371c9239bdff438b98/README.md"
+      ]
+    },
+    {
+      "name": "nodejs-hotel-problem",
+      "url": "https://github.com/MohdVara/nodejs-hotel-problem",
+      "references": [
+        {
+          "path": "scripts/public-github-curation.mjs",
+          "url": "https://github.com/MohdVara/nodejs-hotel-problem"
+        }
+      ],
+      "projectIds": [
+        "nodejs-hotel-problem"
+      ],
+      "ingestionEligibility": "public-verification-required",
+      "exclusionReason": null,
+      "visibility": "public",
+      "availability": "verified-public-snapshot",
+      "defaultBranch": "master",
+      "sourceCommitSha": "bc5a837f34298a96e3104ea1d27fedca0ddfe811",
+      "checkedAt": "2026-10-29T03:52:06.120Z",
+      "sourceVerificationStatus": "public-github-connector",
+      "documentationReferences": [
+        "https://github.com/MohdVara/nodejs-hotel-problem/blob/bc5a837f34298a96e3104ea1d27fedca0ddfe811/README.md"
+      ]
+    },
+    {
+      "name": "pace-rag",
+      "url": "https://github.com/MohdVara/pace-rag",
+      "references": [
+        {
+          "path": "src/PaceRagCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/pace-rag/blob/main/"
+        },
+        {
+          "path": "src/PaceRagCaseStudy.tsx",
+          "url": "https://github.com/MohdVara/pace-rag"
+        }
+      ],
+      "projectIds": [
+        "pace"
+      ],
+      "ingestionEligibility": "public-verification-required",
+      "exclusionReason": null,
+      "visibility": "public",
+      "availability": "verified-public-snapshot",
+      "defaultBranch": "main",
+      "sourceCommitSha": "9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8",
+      "checkedAt": "2026-10-29T03:52:06.256Z",
+      "sourceVerificationStatus": "public-github-connector",
+      "documentationReferences": [
+        "https://github.com/MohdVara/pace-rag/blob/9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8/README.md"
+      ]
+    }
+  ],
+  "sourceFingerprint": "0d5a65e57ecb7ec6cdc4f99cde5294d34d746d206120724da676c9d0de3da0f2"
+}

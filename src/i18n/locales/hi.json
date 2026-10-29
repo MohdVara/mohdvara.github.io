@@ -1576,5 +1576,20 @@
   "Calendar display": "कैलेंडर प्रदर्शन",
   "Cultural calendar (Default)": "सांस्कृतिक कैलेंडर (डिफ़ॉल्ट)",
   "Gregorian only": "केवल ग्रेगोरियन",
-  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "डिफ़ॉल्ट रूप से सांस्कृतिक कैलेंडर दिखाए जाते हैं और जहाँ लागू हो, ग्रेगोरियन तिथियाँ भी दी जाती हैं। तिथियाँ केवल ग्रेगोरियन कैलेंडर में देखने के लिए केवल ग्रेगोरियन चुनें।"
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "डिफ़ॉल्ट रूप से सांस्कृतिक कैलेंडर दिखाए जाते हैं और जहाँ लागू हो, ग्रेगोरियन तिथियाँ भी दी जाती हैं। तिथियाँ केवल ग्रेगोरियन कैलेंडर में देखने के लिए केवल ग्रेगोरियन चुनें।",
+  "Content last revised:": "सामग्री का अंतिम संशोधन:",
+  "Knowledge last synchronized:": "ज्ञान का अंतिम सिंक्रनाइज़ेशन:",
+  "Knowledge synchronization date unavailable.": "ज्ञान सिंक्रनाइज़ेशन की तारीख उपलब्ध नहीं है।",
+  "Site build:": "साइट बिल्ड:",
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": "यह सहायक पोर्टफोलियो और उसके प्रकाशित सहायक स्रोतों के समीक्षित स्नैपशॉट का उपयोग करता है। इस स्नैपशॉट के बाद रिपॉज़िटरी में हुए बदलाव अभी शामिल न हुए हों।",
+  "Canonical English content last revised:": "मूल अंग्रेज़ी सामग्री का अंतिम संशोधन:",
+  "Results are ready. You can keep searching.": "परिणाम तैयार हैं। आप खोज जारी रख सकते हैं।",
+  "Improving suggestions. You can keep searching.": "सुझाव बेहतर किए जा रहे हैं। आप खोज जारी रख सकते हैं।",
+  "Suggestions updated. Similarity does not verify an answer.": "सुझाव अपडेट हो गए हैं। समानता किसी उत्तर की पुष्टि नहीं करती।",
+  "Enhanced search is unavailable. Your existing results remain usable.": "उन्नत खोज उपलब्ध नहीं है। आपके मौजूदा परिणाम उपयोग योग्य हैं।",
+  "Enhancement cancelled. Your existing results remain usable.": "सुधार रद्द कर दिया गया। आपके मौजूदा परिणाम उपयोग योग्य हैं।",
+  "Results are ready. Enhanced search is optional.": "परिणाम तैयार हैं। उन्नत खोज वैकल्पिक है।",
+  "Improve suggestions": "सुझाव बेहतर करें",
+  "Retry enhanced search": "उन्नत खोज फिर से आज़माएँ",
+  "Cancel enhancement": "सुधार रद्द करें"
 }

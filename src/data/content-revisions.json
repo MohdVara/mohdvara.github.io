@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "records": {
+    "asset": {
+      "contentId": "asset",
+      "contentFingerprint": "4ba33c3f1ecab9fc01834927a2fabe68e349c04d9055e257f2e2669ef294c93a",
+      "lastMeaningfulRevisionAt": "2026-10-18T18:55:12.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "573736b1f609bea1cea703bf14d613a14a7adbdb"
+    },
+    "campus": {
+      "contentId": "campus",
+      "contentFingerprint": "d750adb36e1789cb7f6878d0935b417342c333f20a2219fe834cc88b5636c970",
+      "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+    },
+    "hostel": {
+      "contentId": "hostel",
+      "contentFingerprint": "e9f749f242f572a0f72ebf1aedf2606c2228824e27013973c9fc2c1f8b1e3df4",
+      "lastMeaningfulRevisionAt": "2026-10-18T18:55:12.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "573736b1f609bea1cea703bf14d613a14a7adbdb"
+    },
+    "hr": {
+      "contentId": "hr",
+      "contentFingerprint": "aa91785faf7177d5d9229605697f70afe976477a49a2bebb847c4bc1fe2e2071",
+      "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+    },
+    "incident": {
+      "contentId": "incident",
+      "contentFingerprint": "a255bf92e91978c6fd35b209c63f6126dcbcd743e2ec3e135ef9cc6a8fbbffa7",
+      "lastMeaningfulRevisionAt": "2026-10-22T09:56:59.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "215bc737f0ddc9477e07e47da97292dc6716c90c"
+    },
+    "insurance": {
+      "contentId": "insurance",
+      "contentFingerprint": "bddc294ac4de8b7eccbc84c3b8b0d5cfa63b727ad691b15119e62016a030379b",
+      "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+    },
+    "mmcats-modern": {
+      "contentId": "mmcats-modern",
+      "contentFingerprint": "d8359cd568a1724d87b5fa01fea110430a6c49e9d58f27bef9264824af2b4bec",
+      "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+    },
+    "multilingual-engineering": {
+      "contentId": "multilingual-engineering",
+      "contentFingerprint": "3cbfb84a803ec58ad1023d69f1f9eca0a12517628089b4e6ff438453eb23198c",
+      "lastMeaningfulRevisionAt": "2026-10-23T12:38:39.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "399123260017955da5387109e786a4977865ab33"
+    },
+    "naae": {
+      "contentId": "naae",
+      "contentFingerprint": "7dc04f3898c5c4aad89c83a7aed143848842b98df098b160918fa373cc5ee780",
+      "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+    },
+    "nodejs-hotel-problem": {
+      "contentId": "nodejs-hotel-problem",
+      "contentFingerprint": "1c9803d64c069929c1d3573bf6734207143f48a17a3f5778c3f429848a1cfa6a",
+      "lastMeaningfulRevisionAt": "2026-10-07T04:44:50.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "116bbb7fa920e9c307edf836467f4891f350f05f"
+    },
+    "ntm": {
+      "contentId": "ntm",
+      "contentFingerprint": "b8a8d627993626ca55d66b38da21ddf0c2f9a73ff9af08e7f6e7b2c347f78594",
+      "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+    },
+    "pace": {
+      "contentId": "pace",
+      "contentFingerprint": "ed7fae12568790d51e826844faaebaee23d8c82d85a2e83bad0f759fc41a8791",
+      "lastMeaningfulRevisionAt": "2026-10-24T15:45:50.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "98abadd1485d150b1251321a59c06f81412baa84"
+    },
+    "portfolio": {
+      "contentId": "portfolio",
+      "contentFingerprint": "afd27d30881f9ebc1ff5b38f2caec18c985e42e535e5e19022f59c758f77de99",
+      "lastMeaningfulRevisionAt": "2026-10-07T04:44:50.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "116bbb7fa920e9c307edf836467f4891f350f05f"
+    },
+    "rental": {
+      "contentId": "rental",
+      "contentFingerprint": "ccb831ba4814820f598d4b5e4f68ec09d5955b6ba569153862f1efbfee75c1e6",
+      "lastMeaningfulRevisionAt": "2026-10-24T07:12:27.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "a4da673657f8807f98433485aaacd9043e8c7eb7"
+    },
+    "wensymes": {
+      "contentId": "wensymes",
+      "contentFingerprint": "c74a7bb7f7950b00d6f5d6d97d795f86b89ea21562ce5775d2f4789381c8dea9",
+      "lastMeaningfulRevisionAt": "2026-10-24T08:28:35.000Z",
+      "lastReviewedAt": null,
+      "revisionBasis": "Per-record semantic literals and prose reconstructed from local Git history; commit time is not an editorial review or deployment time",
+      "sourceCommitSha": "43d9657585d60e359d43f021a319ba63c9524c81"
+    }
+  }
+}

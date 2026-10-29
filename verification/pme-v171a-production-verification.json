@@ -1,0 +1,1024 @@
+{
+  "id": "pme-v171a-production-verification",
+  "status": "PENDING",
+  "observedAt": "2026-10-29T18:42:25.013500+00:00",
+  "releasePublished": false,
+  "scope": "Current production read-only observation, not release publication success",
+  "newReleaseVerification": null,
+  "currentProductionObservation": {
+    "observedAt": "2026-10-29T18:21:14.200Z",
+    "kind": "Pre-publication read-only observation; not new release verification",
+    "hosts": [
+      {
+        "project": "mohdvara-portfolio",
+        "customDomain": "https://mohd.paramasvara.online",
+        "canonicalDeploymentId": "c22ade84-3449-4bb2-8ff8-16d8792819f3",
+        "sourceCommit": "9090099dc0bbd032b6d218371c9239bdff438b98",
+        "immutableUrl": "https://c22ade84.mohdvara-portfolio.pages.dev",
+        "homepage": {
+          "status": 200,
+          "immutableStatus": 200,
+          "sha256": "7e83584af11f49e5896c58822cd2b8c83de63b33fcbd90b5ce1ed9486b0026cd",
+          "immutableSha256": "7e83584af11f49e5896c58822cd2b8c83de63b33fcbd90b5ce1ed9486b0026cd",
+          "matches": true
+        },
+        "knowledge": {
+          "pointerStatus": 200,
+          "corpusVersion": "b555f3ee70c516ab",
+          "schemaVersion": 1,
+          "embeddingSpecId": "minilm-q8-wasm-v1",
+          "indexedAt": null,
+          "manifestSha256": "a534f2e33cbc49019975faaa741d1861600fcfa3834912b0160654cae0f8f80e",
+          "immutableManifestMatches": true,
+          "assets": [
+            {
+              "role": "answers",
+              "status": 200,
+              "sha256": "19dcd9460201dd22193e3d2ba8054468ed810d9dce2d0680e0d06bfc3352cbcb",
+              "expectedSha256": "19dcd9460201dd22193e3d2ba8054468ed810d9dce2d0680e0d06bfc3352cbcb",
+              "matches": true,
+              "bytes": 69369
+            },
+            {
+              "role": "documents",
+              "status": 200,
+              "sha256": "8afe78bffdb5ce96aa86209f2e3ba09f308a52a05fc588a936a95f72e3496747",
+              "expectedSha256": "8afe78bffdb5ce96aa86209f2e3ba09f308a52a05fc588a936a95f72e3496747",
+              "matches": true,
+              "bytes": 29210
+            },
+            {
+              "role": "chunks",
+              "status": 200,
+              "sha256": "7444f5651d95b7982f2c550d326b36124559b60a8b18f0f289a9b0b2833517c9",
+              "expectedSha256": "7444f5651d95b7982f2c550d326b36124559b60a8b18f0f289a9b0b2833517c9",
+              "matches": true,
+              "bytes": 36400
+            },
+            {
+              "role": "technology",
+              "status": 200,
+              "sha256": "495375a3ea1825301e250e183a977802f5122463b072b7ca17222810d547bd9a",
+              "expectedSha256": "495375a3ea1825301e250e183a977802f5122463b072b7ca17222810d547bd9a",
+              "matches": true,
+              "bytes": 6239
+            },
+            {
+              "role": "retirements",
+              "status": 200,
+              "sha256": "5ee66745a1bfc0f03c529b7013ddaa7a5cdebfbe85ddcbc8a173f99ae0228c23",
+              "expectedSha256": "5ee66745a1bfc0f03c529b7013ddaa7a5cdebfbe85ddcbc8a173f99ae0228c23",
+              "matches": true,
+              "bytes": 402
+            },
+            {
+              "role": "questionVectors",
+              "status": 200,
+              "sha256": "4a62fe3b2826a1946c5022e1711e8cbf5973194bfc1c27206652f6c6d8009eac",
+              "expectedSha256": "4a62fe3b2826a1946c5022e1711e8cbf5973194bfc1c27206652f6c6d8009eac",
+              "matches": true,
+              "bytes": 95232
+            },
+            {
+              "role": "chunkVectors",
+              "status": 200,
+              "sha256": "c18e3e6dd919549310509436c5a91b600db873c0d9eb6de9362b546c31936ad9",
+              "expectedSha256": "c18e3e6dd919549310509436c5a91b600db873c0d9eb6de9362b546c31936ad9",
+              "matches": true,
+              "bytes": 41472
+            }
+          ]
+        },
+        "publicAssets": [
+          {
+            "path": "/theme.js",
+            "status": 200,
+            "sha256": "912b655ec83a0d9383aca2e52a10c84f8e130d870f55c2ad2e27a1bc9f021b21",
+            "immutableSha256": "912b655ec83a0d9383aca2e52a10c84f8e130d870f55c2ad2e27a1bc9f021b21",
+            "matches": true
+          },
+          {
+            "path": "/reading.js",
+            "status": 200,
+            "sha256": "0a6f1aa3f89872c25baff8f779edb9505e4f31014644bd36b94c87571de722c6",
+            "immutableSha256": "0a6f1aa3f89872c25baff8f779edb9505e4f31014644bd36b94c87571de722c6",
+            "matches": true
+          },
+          {
+            "path": "/assets/index-CcS5RtnZ.js",
+            "status": 200,
+            "sha256": "cf69eadc64e63c21d919ae1a3958b77690a465fa08c0093598096165c8da715c",
+            "immutableSha256": "cf69eadc64e63c21d919ae1a3958b77690a465fa08c0093598096165c8da715c",
+            "matches": true
+          },
+          {
+            "path": "/assets/rolldown-runtime-hePW80VL.js",
+            "status": 200,
+            "sha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021",
+            "immutableSha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021",
+            "matches": true
+          },
+          {
+            "path": "/assets/i18n-core-CSSNqwdA.js",
+            "status": 200,
+            "sha256": "046c09ea4a675a476e0eeb0e505421b6473cf97e903ffe1fe58c3d8420c72d3f",
+            "immutableSha256": "046c09ea4a675a476e0eeb0e505421b6473cf97e903ffe1fe58c3d8420c72d3f",
+            "matches": true
+          }
+        ]
+      },
+      {
+        "project": "pace-rag-git",
+        "customDomain": "https://pace-rag.paramasvara.online",
+        "canonicalDeploymentId": "a5ecd965-6fbe-4f0d-a5d7-73a121865702",
+        "sourceCommit": "9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8",
+        "immutableUrl": "https://a5ecd965.pace-rag-git.pages.dev",
+        "homepage": {
+          "status": 200,
+          "immutableStatus": 200,
+          "sha256": "50364eee8f0954d1e79ae17c1d30c7577c55feea702a28c4de746570d2cc31af",
+          "immutableSha256": "50364eee8f0954d1e79ae17c1d30c7577c55feea702a28c4de746570d2cc31af",
+          "matches": true
+        },
+        "knowledge": {
+          "pointerStatus": 200,
+          "corpusVersion": "b555f3ee70c516ab",
+          "schemaVersion": 1,
+          "embeddingSpecId": "minilm-q8-wasm-v1",
+          "indexedAt": null,
+          "manifestSha256": "c5beba97ecea2da95d11c838a96081cb6b3ba6402f47e711bf9ce41b2d5fad60",
+          "immutableManifestMatches": true,
+          "assets": [
+            {
+              "role": "answers",
+              "status": 200,
+              "sha256": "19dcd9460201dd22193e3d2ba8054468ed810d9dce2d0680e0d06bfc3352cbcb",
+              "expectedSha256": "19dcd9460201dd22193e3d2ba8054468ed810d9dce2d0680e0d06bfc3352cbcb",
+              "matches": true,
+              "bytes": 69369
+            },
+            {
+              "role": "documents",
+              "status": 200,
+              "sha256": "8afe78bffdb5ce96aa86209f2e3ba09f308a52a05fc588a936a95f72e3496747",
+              "expectedSha256": "8afe78bffdb5ce96aa86209f2e3ba09f308a52a05fc588a936a95f72e3496747",
+              "matches": true,
+              "bytes": 29210
+            },
+            {
+              "role": "chunks",
+              "status": 200,
+              "sha256": "7444f5651d95b7982f2c550d326b36124559b60a8b18f0f289a9b0b2833517c9",
+              "expectedSha256": "7444f5651d95b7982f2c550d326b36124559b60a8b18f0f289a9b0b2833517c9",
+              "matches": true,
+              "bytes": 36400
+            },
+            {
+              "role": "technology",
+              "status": 200,
+              "sha256": "495375a3ea1825301e250e183a977802f5122463b072b7ca17222810d547bd9a",
+              "expectedSha256": "495375a3ea1825301e250e183a977802f5122463b072b7ca17222810d547bd9a",
+              "matches": true,
+              "bytes": 6239
+            },
+            {
+              "role": "retirements",
+              "status": 200,
+              "sha256": "5ee66745a1bfc0f03c529b7013ddaa7a5cdebfbe85ddcbc8a173f99ae0228c23",
+              "expectedSha256": "5ee66745a1bfc0f03c529b7013ddaa7a5cdebfbe85ddcbc8a173f99ae0228c23",
+              "matches": true,
+              "bytes": 402
+            },
+            {
+              "role": "questionVectors",
+              "status": 200,
+              "sha256": "4a62fe3b2826a1946c5022e1711e8cbf5973194bfc1c27206652f6c6d8009eac",
+              "expectedSha256": "4a62fe3b2826a1946c5022e1711e8cbf5973194bfc1c27206652f6c6d8009eac",
+              "matches": true,
+              "bytes": 95232
+            },
+            {
+              "role": "chunkVectors",
+              "status": 200,
+              "sha256": "c18e3e6dd919549310509436c5a91b600db873c0d9eb6de9362b546c31936ad9",
+              "expectedSha256": "c18e3e6dd919549310509436c5a91b600db873c0d9eb6de9362b546c31936ad9",
+              "matches": true,
+              "bytes": 41472
+            }
+          ]
+        },
+        "publicAssets": [
+          {
+            "path": "/pace-rag/assets/index-DyQ51Z6C.js",
+            "status": 200,
+            "sha256": "9d486a18e356b597fd3fd6d8d8390e33392273817045af8ad8687a82aa8a93f6",
+            "immutableSha256": "9d486a18e356b597fd3fd6d8d8390e33392273817045af8ad8687a82aa8a93f6",
+            "matches": true
+          },
+          {
+            "path": "/pace-rag/assets/index-OT1lNoXk.css",
+            "status": 200,
+            "sha256": "0ee8dfc320c141be5e87311d8d4cc8565a71de20b768820682c892ebf751a047",
+            "immutableSha256": "0ee8dfc320c141be5e87311d8d4cc8565a71de20b768820682c892ebf751a047",
+            "matches": true
+          }
+        ]
+      }
+    ],
+    "probes": [
+      {
+        "url": "https://mohd.paramasvara.online/evidence/portfolio-knowledge-inventory.v1.json",
+        "status": 404,
+        "contentType": "text/html; charset=utf-8",
+        "location": null,
+        "sha256": "d9c0d34330688a0db6aed23b1e44e50527bf9dfbf3e8d89642eb9c09301d3859",
+        "bytes": 252703
+      },
+      {
+        "url": "https://pace-rag.paramasvara.online/page-rag/",
+        "status": 404,
+        "contentType": "text/html; charset=utf-8",
+        "location": null,
+        "sha256": "34dd5e8d2928db5d6c9eda9caaba2f268e22a33802f3b5b83d344b15481577ae",
+        "bytes": 177
+      },
+      {
+        "url": "https://pace-rag.paramasvara.online/page-rag/knowledge/professional/index.html?probe=publication",
+        "status": 404,
+        "contentType": "text/html; charset=utf-8",
+        "location": null,
+        "sha256": "34dd5e8d2928db5d6c9eda9caaba2f268e22a33802f3b5b83d344b15481577ae",
+        "bytes": 177
+      },
+      {
+        "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/professional/index.html",
+        "status": 308,
+        "contentType": null,
+        "location": "/pace-rag/knowledge/professional/",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "url": "https://mohd.paramasvara.online/.env.local",
+        "status": 404,
+        "contentType": "text/html; charset=utf-8",
+        "location": null,
+        "sha256": "d9c0d34330688a0db6aed23b1e44e50527bf9dfbf3e8d89642eb9c09301d3859",
+        "bytes": 252703,
+        "sensitiveContentExposed": false
+      },
+      {
+        "url": "https://mohd.paramasvara.online/.git/config",
+        "status": 404,
+        "contentType": "text/html; charset=utf-8",
+        "location": null,
+        "sha256": "d9c0d34330688a0db6aed23b1e44e50527bf9dfbf3e8d89642eb9c09301d3859",
+        "bytes": 252703,
+        "sensitiveContentExposed": false
+      },
+      {
+        "url": "https://mohd.paramasvara.online/output/MACE_CLAUDE_COMPLETE_CONTEXT.md",
+        "status": 404,
+        "contentType": "text/html; charset=utf-8",
+        "location": null,
+        "sha256": "d9c0d34330688a0db6aed23b1e44e50527bf9dfbf3e8d89642eb9c09301d3859",
+        "bytes": 252703,
+        "sensitiveContentExposed": false
+      }
+    ],
+    "requests": 45
+  },
+  "providerReadOnly": {
+    "observedAt": "2026-10-29T18:18:59.437Z",
+    "mode": "Authenticated GET only. Credentials/account IDs/env values remain in memory; no raw responses logged.",
+    "projects": [
+      {
+        "name": "mohdvara-portfolio",
+        "subdomain": "mohdvara-portfolio.pages.dev",
+        "productionBranch": "main",
+        "source": {
+          "type": "github",
+          "config": {
+            "owner": "MohdVara",
+            "repoName": "mohdvara.github.io",
+            "productionBranch": "main",
+            "deploymentsEnabled": true,
+            "productionDeploymentsEnabled": true,
+            "previewDeploymentSetting": "all",
+            "previewBranchIncludes": [
+              "*"
+            ],
+            "previewBranchExcludes": []
+          }
+        },
+        "buildConfig": {
+          "buildCommand": "npm run build",
+          "outputDirectory": "dist",
+          "rootDirectory": ""
+        },
+        "deploymentConfigs": {
+          "preview": {
+            "environmentVariableNames": [],
+            "explicitNodeVersionConfigured": false,
+            "nodeOverrideCompatibility": "repository pin requires hosted build verification",
+            "compatibilityDate": "2026-10-06",
+            "compatibilityFlags": [],
+            "usageModel": "standard"
+          },
+          "production": {
+            "environmentVariableNames": [],
+            "explicitNodeVersionConfigured": false,
+            "nodeOverrideCompatibility": "repository pin requires hosted build verification",
+            "compatibilityDate": "2026-10-06",
+            "compatibilityFlags": [],
+            "usageModel": "standard"
+          }
+        },
+        "domains": [
+          {
+            "name": "mohd.paramasvara.online",
+            "status": "active",
+            "validationStatus": "active",
+            "verificationStatus": "active"
+          }
+        ],
+        "runtimeEvidence": {
+          "httpStatus": 200,
+          "nodeVersions": [
+            "22.23.4"
+          ],
+          "scope": "Only runtime versions retained; raw provider logs and environment values not stored"
+        },
+        "canonicalDeployment": {
+          "id": "c22ade84-3449-4bb2-8ff8-16d8792819f3",
+          "environment": "production",
+          "url": "https://c22ade84.mohdvara-portfolio.pages.dev",
+          "aliases": [
+            "https://mohd.paramasvara.online"
+          ],
+          "createdAt": "2026-10-26T07:19:26.953466Z",
+          "modifiedAt": "2026-10-26T07:20:13.216937Z",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-10-26T07:20:00.018255Z",
+            "ended_on": "2026-10-26T07:20:13.216937Z",
+            "status": "success"
+          },
+          "trigger": {
+            "type": "github:push",
+            "branch": "main",
+            "commitHash": "9090099dc0bbd032b6d218371c9239bdff438b98"
+          },
+          "buildConfig": {
+            "build_command": "npm run build",
+            "destination_dir": "dist",
+            "build_caching": null,
+            "root_dir": "",
+            "web_analytics_tag": null,
+            "web_analytics_token": null
+          },
+          "envNames": []
+        },
+        "latestDeployment": {
+          "id": "c22ade84-3449-4bb2-8ff8-16d8792819f3",
+          "environment": "production",
+          "url": "https://c22ade84.mohdvara-portfolio.pages.dev",
+          "aliases": [
+            "https://mohd.paramasvara.online"
+          ],
+          "createdAt": "2026-10-26T07:19:26.953466Z",
+          "modifiedAt": "2026-10-26T07:20:13.216937Z",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-10-26T07:20:00.018255Z",
+            "ended_on": "2026-10-26T07:20:13.216937Z",
+            "status": "success"
+          },
+          "trigger": {
+            "type": "github:push",
+            "branch": "main",
+            "commitHash": "9090099dc0bbd032b6d218371c9239bdff438b98"
+          },
+          "buildConfig": {
+            "build_command": "npm run build",
+            "destination_dir": "dist",
+            "build_caching": null,
+            "root_dir": "",
+            "web_analytics_tag": null,
+            "web_analytics_token": null
+          },
+          "envNames": []
+        },
+        "successfulProductionCandidates": [
+          {
+            "id": "c22ade84-3449-4bb2-8ff8-16d8792819f3",
+            "environment": "production",
+            "url": "https://c22ade84.mohdvara-portfolio.pages.dev",
+            "aliases": [
+              "https://mohd.paramasvara.online"
+            ],
+            "createdAt": "2026-10-26T07:19:26.953466Z",
+            "modifiedAt": "2026-10-26T07:20:13.216937Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-26T07:20:00.018255Z",
+              "ended_on": "2026-10-26T07:20:13.216937Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "9090099dc0bbd032b6d218371c9239bdff438b98"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "fa589b09-6484-4cbd-943c-c562937711dc",
+            "environment": "production",
+            "url": "https://fa589b09.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T19:57:55.454953Z",
+            "modifiedAt": "2026-10-24T19:58:47.561557Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T19:58:38.145339Z",
+              "ended_on": "2026-10-24T19:58:47.561557Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "15d4214a09cff521c3bfee7556d9c704590910fd"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "c04a2237-885a-4bb7-9a4a-c2c54147a18b",
+            "environment": "production",
+            "url": "https://c04a2237.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T19:26:32.711423Z",
+            "modifiedAt": "2026-10-24T19:27:09.809319Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T19:27:02.255304Z",
+              "ended_on": "2026-10-24T19:27:09.809319Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "77ee9320893dd301648b3e08da43782aa543ee22"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "367e1244-4bbb-43bd-abfb-84571428fe60",
+            "environment": "production",
+            "url": "https://367e1244.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T16:29:17.461177Z",
+            "modifiedAt": "2026-10-24T16:30:25.815727Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T16:30:11.195467Z",
+              "ended_on": "2026-10-24T16:30:25.815727Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "005dd4770d9c4e447f27f7508379a9b2649c7e58"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "5c343646-0569-42fe-9e2b-6e2225f0f9b7",
+            "environment": "production",
+            "url": "https://5c343646.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T16:02:27.864125Z",
+            "modifiedAt": "2026-10-24T16:03:07.956817Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T16:02:55.753973Z",
+              "ended_on": "2026-10-24T16:03:07.956817Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "9d050b75188cb8a4ea49c2d69b3f919d91664808"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "0a9ba421-9e7e-4728-bf82-e105f29bb9c2",
+            "environment": "production",
+            "url": "https://0a9ba421.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T15:53:39.036253Z",
+            "modifiedAt": "2026-10-24T15:54:44.180788Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T15:54:32.797218Z",
+              "ended_on": "2026-10-24T15:54:44.180788Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "764645e118c75ad127366b2b4f37d24d607b43d7"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "ef757fe5-997d-4e55-bb44-d1779d6d6379",
+            "environment": "production",
+            "url": "https://ef757fe5.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T15:46:03.861017Z",
+            "modifiedAt": "2026-10-24T15:46:43.126086Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T15:46:33.855448Z",
+              "ended_on": "2026-10-24T15:46:43.126086Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "fb03ba01b42ced95e3f0bb1e65a45f7a2c771f3f"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "b3f09a35-bcb0-4da0-b8b8-a5d7e70347c2",
+            "environment": "production",
+            "url": "https://b3f09a35.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T12:38:57.118906Z",
+            "modifiedAt": "2026-10-24T12:39:37.247082Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T12:39:27.40901Z",
+              "ended_on": "2026-10-24T12:39:37.247082Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "ada8ffaa9aeac317b0c7c46e3bf8d650fe4d6a6a"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "94d2b49b-d169-4bc9-b9af-0de8bea78f8d",
+            "environment": "production",
+            "url": "https://94d2b49b.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T08:28:55.42035Z",
+            "modifiedAt": "2026-10-24T08:29:27.053417Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T08:29:19.164734Z",
+              "ended_on": "2026-10-24T08:29:27.053417Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "5bf7f9740e48fe6c1283c3c9ef4e9ef6e0e2e4e7"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "6e6cb61f-d442-40a3-8d7d-4c2ca1bd4b9a",
+            "environment": "production",
+            "url": "https://6e6cb61f.mohdvara-portfolio.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-24T07:39:51.5246Z",
+            "modifiedAt": "2026-10-24T07:40:24.058761Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T07:40:16.919867Z",
+              "ended_on": "2026-10-24T07:40:24.058761Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "9d88513b5d1ee5d202b26842fad9991820af556f"
+            },
+            "buildConfig": {
+              "build_command": "npm run build",
+              "destination_dir": "dist",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          }
+        ],
+        "operatorMembership": {
+          "status": "accepted",
+          "roles": [
+            {
+              "name": "Super Administrator - All Privileges"
+            }
+          ]
+        }
+      },
+      {
+        "name": "pace-rag-git",
+        "subdomain": "pace-rag-git.pages.dev",
+        "productionBranch": "main",
+        "source": {
+          "type": "github",
+          "config": {
+            "owner": "MohdVara",
+            "repoName": "pace-rag",
+            "productionBranch": "main",
+            "deploymentsEnabled": true,
+            "productionDeploymentsEnabled": true,
+            "previewDeploymentSetting": "all",
+            "previewBranchIncludes": [
+              "*"
+            ],
+            "previewBranchExcludes": []
+          }
+        },
+        "buildConfig": {
+          "buildCommand": "npm run build:cloudflare",
+          "outputDirectory": "output/static-site",
+          "rootDirectory": ""
+        },
+        "deploymentConfigs": {
+          "preview": {
+            "environmentVariableNames": [],
+            "explicitNodeVersionConfigured": false,
+            "nodeOverrideCompatibility": "repository pin requires hosted build verification",
+            "compatibilityDate": "2026-10-19",
+            "compatibilityFlags": [],
+            "usageModel": "standard"
+          },
+          "production": {
+            "environmentVariableNames": [],
+            "explicitNodeVersionConfigured": false,
+            "nodeOverrideCompatibility": "repository pin requires hosted build verification",
+            "compatibilityDate": "2026-10-19",
+            "compatibilityFlags": [],
+            "usageModel": "standard"
+          }
+        },
+        "domains": [
+          {
+            "name": "pace-rag.paramasvara.online",
+            "status": "active",
+            "validationStatus": "active",
+            "verificationStatus": "active"
+          }
+        ],
+        "runtimeEvidence": {
+          "httpStatus": 200,
+          "nodeVersions": [
+            "22.23.4"
+          ],
+          "scope": "Only runtime versions retained; raw provider logs and environment values not stored"
+        },
+        "canonicalDeployment": {
+          "id": "a5ecd965-6fbe-4f0d-a5d7-73a121865702",
+          "environment": "production",
+          "url": "https://a5ecd965.pace-rag-git.pages.dev",
+          "aliases": [
+            "https://pace-rag.paramasvara.online"
+          ],
+          "createdAt": "2026-10-24T16:29:19.919001Z",
+          "modifiedAt": "2026-10-24T16:32:46.407703Z",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-10-24T16:32:38.377614Z",
+            "ended_on": "2026-10-24T16:32:46.407703Z",
+            "status": "success"
+          },
+          "trigger": {
+            "type": "github:push",
+            "branch": "main",
+            "commitHash": "9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8"
+          },
+          "buildConfig": {
+            "build_command": "npm run build:cloudflare",
+            "destination_dir": "output/static-site",
+            "build_caching": null,
+            "root_dir": "",
+            "web_analytics_tag": null,
+            "web_analytics_token": null
+          },
+          "envNames": []
+        },
+        "latestDeployment": {
+          "id": "a5ecd965-6fbe-4f0d-a5d7-73a121865702",
+          "environment": "production",
+          "url": "https://a5ecd965.pace-rag-git.pages.dev",
+          "aliases": [
+            "https://pace-rag.paramasvara.online"
+          ],
+          "createdAt": "2026-10-24T16:29:19.919001Z",
+          "modifiedAt": "2026-10-24T16:32:46.407703Z",
+          "latestStage": {
+            "name": "deploy",
+            "started_on": "2026-10-24T16:32:38.377614Z",
+            "ended_on": "2026-10-24T16:32:46.407703Z",
+            "status": "success"
+          },
+          "trigger": {
+            "type": "github:push",
+            "branch": "main",
+            "commitHash": "9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8"
+          },
+          "buildConfig": {
+            "build_command": "npm run build:cloudflare",
+            "destination_dir": "output/static-site",
+            "build_caching": null,
+            "root_dir": "",
+            "web_analytics_tag": null,
+            "web_analytics_token": null
+          },
+          "envNames": []
+        },
+        "successfulProductionCandidates": [
+          {
+            "id": "a5ecd965-6fbe-4f0d-a5d7-73a121865702",
+            "environment": "production",
+            "url": "https://a5ecd965.pace-rag-git.pages.dev",
+            "aliases": [
+              "https://pace-rag.paramasvara.online"
+            ],
+            "createdAt": "2026-10-24T16:29:19.919001Z",
+            "modifiedAt": "2026-10-24T16:32:46.407703Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-24T16:32:38.377614Z",
+              "ended_on": "2026-10-24T16:32:46.407703Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8"
+            },
+            "buildConfig": {
+              "build_command": "npm run build:cloudflare",
+              "destination_dir": "output/static-site",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "24a7387c-aa91-48af-846a-6e87e59af53c",
+            "environment": "production",
+            "url": "https://24a7387c.pace-rag-git.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-19T09:12:51.39846Z",
+            "modifiedAt": "2026-10-19T09:14:05.181238Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-19T09:13:57.925972Z",
+              "ended_on": "2026-10-19T09:14:05.181238Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "0dfab5aa5c9093f81663c3f5084cad96d1ac7767"
+            },
+            "buildConfig": {
+              "build_command": "npm run build:cloudflare",
+              "destination_dir": "output/static-site",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "01f5ec08-ad30-4407-b925-1b6882fa3655",
+            "environment": "production",
+            "url": "https://01f5ec08.pace-rag-git.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-19T09:10:47.4358Z",
+            "modifiedAt": "2026-10-19T09:12:42.30178Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-19T09:12:35.430058Z",
+              "ended_on": "2026-10-19T09:12:42.30178Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "fff081f6046a05e6f1c3321861ef799cadd55498"
+            },
+            "buildConfig": {
+              "build_command": "npm run build:cloudflare",
+              "destination_dir": "output/static-site",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "88937cba-49df-4c24-b3b8-0b24c740f009",
+            "environment": "production",
+            "url": "https://88937cba.pace-rag-git.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-19T09:01:27.959774Z",
+            "modifiedAt": "2026-10-19T09:03:02.918644Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-19T09:02:56.644295Z",
+              "ended_on": "2026-10-19T09:03:02.918644Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "4db501bf5633c26881cfcc79bd3a3d76ee05583e"
+            },
+            "buildConfig": {
+              "build_command": "npm run build:cloudflare",
+              "destination_dir": "output/static-site",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "0fa2e767-0788-4520-b8e4-5566d7e3d5a9",
+            "environment": "production",
+            "url": "https://0fa2e767.pace-rag-git.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-19T08:54:19.742769Z",
+            "modifiedAt": "2026-10-19T08:55:20.506495Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-19T08:55:13.987103Z",
+              "ended_on": "2026-10-19T08:55:20.506495Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "github:push",
+              "branch": "main",
+              "commitHash": "0773b41e9ea7656c5c04288623492bbfba053289"
+            },
+            "buildConfig": {
+              "build_command": "npm run build:cloudflare",
+              "destination_dir": "output/static-site",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          },
+          {
+            "id": "17e5e03e-9530-46ee-a4e0-2ca226b1eb05",
+            "environment": "production",
+            "url": "https://17e5e03e.pace-rag-git.pages.dev",
+            "aliases": null,
+            "createdAt": "2026-10-19T08:51:40.333473Z",
+            "modifiedAt": "2026-10-19T08:52:41.252448Z",
+            "latestStage": {
+              "name": "deploy",
+              "started_on": "2026-10-19T08:52:28.591069Z",
+              "ended_on": "2026-10-19T08:52:41.252448Z",
+              "status": "success"
+            },
+            "trigger": {
+              "type": "ad_hoc",
+              "branch": "main",
+              "commitHash": "c9e642815f56e8429217c804411f6b5099172a0d"
+            },
+            "buildConfig": {
+              "build_command": "npm run build:cloudflare",
+              "destination_dir": "output/static-site",
+              "build_caching": null,
+              "root_dir": "",
+              "web_analytics_tag": null,
+              "web_analytics_token": null
+            },
+            "envNames": []
+          }
+        ],
+        "operatorMembership": {
+          "status": "accepted",
+          "roles": [
+            {
+              "name": "Super Administrator - All Privileges"
+            }
+          ]
+        }
+      }
+    ],
+    "permissions": {
+      "authenticated": true,
+      "type": "OAuth Token",
+      "membershipReadStatus": 200,
+      "pagesWriteScope": true
+    },
+    "errors": []
+  },
+  "rollbackPermissionEvidence": {
+    "confirmedFrom": "Existing OAuth pages:write plus accepted Super Administrator - All Privileges membership",
+    "writeOperationExercised": false,
+    "rollbackAuthorization": "NOT GRANTED"
+  },
+  "publicationApproval": "NOT GRANTED",
+  "rollbackApproval": "NOT GRANTED",
+  "limitations": [
+    "Canonical deployment obtained from provider project field, not list order",
+    "Complete current production deployment remains provider-retained; no claim of a complete offline production export",
+    "Reconfirm provider canonical IDs, retention and operator permissions immediately before any authorized publication"
+  ]
+}

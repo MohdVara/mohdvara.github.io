@@ -16,11 +16,17 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
-          node-version: "22"
+          node-version-file: .nvmrc
           cache: npm
       - run: npm ci
       - run: npm run typecheck
-      - run: npm run lint
+      - run: npm run lint:app
+      - name: Generated Entire diagnostics (reported independently)
+        continue-on-error: true
+        run: npm run lint:generated
+      - name: Original full lint visibility
+        continue-on-error: true
+        run: npm run lint:full
       - run: npm run build
         env:
           VITE_POSTHOG_PROJECT_TOKEN: ${{ vars.VITE_POSTHOG_PROJECT_TOKEN }}

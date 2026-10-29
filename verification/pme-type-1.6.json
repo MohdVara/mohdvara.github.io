@@ -1,0 +1,2045 @@
+{
+  "id": "pme-type-1.6",
+  "title": "PME v1.6 — Professional Typographic Identity",
+  "observedOn": "2026-10-29",
+  "scope": "Local typography refinement. Separate from PME-V1.6-CALENDAR.",
+  "recommendation": "Ready for owner review",
+  "git": {
+    "initialHead": "79e897e73bce97adf4347a4522513249154ca783",
+    "finalHead": "79e897e73bce97adf4347a4522513249154ca783",
+    "branch": "main",
+    "worktree": "original; isolated original HEAD archive used only for comparison",
+    "modified": [
+      "scripts/public-assets.json",
+      "src/Readability.css",
+      "src/SystemDiagrams.css",
+      "src/i18n/i18n.css",
+      "src/main.tsx"
+    ],
+    "added": [
+      "docs/portfolio/PME-V1.6-PROFESSIONAL-TYPOGRAPHY.md",
+      "public/fonts/editorial/Space-Grotesk-OFL.txt",
+      "public/fonts/editorial/manifest.json",
+      "public/fonts/editorial/space-grotesk-variable.woff2",
+      "scripts/typography-font-audit.py",
+      "scripts/typography-loading-qa.mjs",
+      "scripts/typography-qa.mjs",
+      "src/Typography.css",
+      "tests/typography.test.mjs",
+      "scripts/typography-performance-qa.mjs",
+      "verification/pme-type-1.6.json"
+    ],
+    "preExistingPreserved": {
+      "modified": [
+        "docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md"
+      ],
+      "untracked": [
+        "15 .playwright-cli/page-*.yml files",
+        "output/MACE_CLAUDE_COMPLETE_CONTEXT.md"
+      ]
+    },
+    "generatedPublicGithubTimestamps": "restored to initial content after builds",
+    "committed": false,
+    "pushed": false,
+    "deployed": false
+  },
+  "selection": {
+    "family": "Space Grotesk",
+    "weight": 600,
+    "locales": [
+      "en",
+      "ms",
+      "es",
+      "fr",
+      "de",
+      "pt-BR"
+    ],
+    "excludedScripts": [
+      "Arabic",
+      "Tamil",
+      "Hindi",
+      "Japanese",
+      "Simplified Chinese"
+    ],
+    "baseline": {
+      "family": "\"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+      "size": "57px",
+      "line": "59.85px",
+      "weight": "600",
+      "tracking": "-3.135px",
+      "writing": "horizontal-tb",
+      "direction": "ltr",
+      "x": 130,
+      "y": 356.125,
+      "width": 643.390625,
+      "height": 119.6875,
+      "bottom": 475.8125,
+      "right": 773.390625
+    },
+    "candidate": {
+      "family": "\"Space Grotesk\", \"Avenir Next\", Avenir, \"Segoe UI\", sans-serif",
+      "size": "57px",
+      "line": "61.56px",
+      "weight": "600",
+      "tracking": "-2.28px",
+      "writing": "horizontal-tb",
+      "direction": "ltr",
+      "x": 130,
+      "y": 354.421875,
+      "width": 643.390625,
+      "height": 123.09375,
+      "bottom": 477.515625,
+      "right": 773.390625
+    },
+    "fontAsset": {
+      "id": "pme-type-1.6",
+      "family": "Space Grotesk",
+      "version": "Version 2.000",
+      "upstreamRevision": "03507d024a01282884232081fc6011c09ff4e849",
+      "source": "https://github.com/floriankarsten/space-grotesk",
+      "assetSource": "https://raw.githubusercontent.com/floriankarsten/space-grotesk/03507d024a01282884232081fc6011c09ff4e849/fonts/woff2/SpaceGrotesk%5Bwght%5D.woff2",
+      "asset": "space-grotesk-variable.woff2",
+      "sha256": "8e085aa438094f11487a836652edd5c054fa6a96f63fc7c282105ee3a4b08c07",
+      "bytes": 49256,
+      "license": "SIL Open Font License 1.1",
+      "licenseFile": "Space-Grotesk-OFL.txt",
+      "licenseSha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "weight": [
+        300,
+        700
+      ],
+      "locales": [
+        "en",
+        "ms",
+        "es",
+        "fr",
+        "de",
+        "pt-BR"
+      ],
+      "coverage": {
+        "codepoints": [
+          13,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          399,
+          402,
+          416,
+          417,
+          431,
+          432,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          486,
+          487,
+          490,
+          491,
+          506,
+          507,
+          508,
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521,
+          522,
+          523,
+          524,
+          525,
+          526,
+          527,
+          528,
+          529,
+          530,
+          531,
+          532,
+          533,
+          534,
+          535,
+          536,
+          537,
+          538,
+          539,
+          554,
+          555,
+          556,
+          557,
+          560,
+          561,
+          562,
+          563,
+          567,
+          579,
+          593,
+          601,
+          697,
+          698,
+          699,
+          700,
+          702,
+          703,
+          710,
+          711,
+          712,
+          713,
+          714,
+          715,
+          716,
+          728,
+          729,
+          730,
+          731,
+          732,
+          733,
+          768,
+          769,
+          770,
+          771,
+          772,
+          774,
+          775,
+          776,
+          777,
+          778,
+          779,
+          780,
+          783,
+          785,
+          786,
+          795,
+          803,
+          804,
+          806,
+          807,
+          808,
+          814,
+          817,
+          821,
+          822,
+          823,
+          824,
+          916,
+          937,
+          960,
+          3647,
+          7688,
+          7689,
+          7692,
+          7693,
+          7694,
+          7695,
+          7700,
+          7701,
+          7702,
+          7703,
+          7708,
+          7709,
+          7712,
+          7713,
+          7716,
+          7717,
+          7722,
+          7723,
+          7726,
+          7727,
+          7734,
+          7735,
+          7736,
+          7737,
+          7738,
+          7739,
+          7746,
+          7747,
+          7748,
+          7749,
+          7750,
+          7751,
+          7752,
+          7753,
+          7756,
+          7757,
+          7758,
+          7759,
+          7760,
+          7761,
+          7762,
+          7763,
+          7770,
+          7771,
+          7772,
+          7773,
+          7774,
+          7775,
+          7776,
+          7777,
+          7778,
+          7779,
+          7780,
+          7781,
+          7782,
+          7783,
+          7784,
+          7785,
+          7788,
+          7789,
+          7790,
+          7791,
+          7800,
+          7801,
+          7802,
+          7803,
+          7808,
+          7809,
+          7810,
+          7811,
+          7812,
+          7813,
+          7822,
+          7823,
+          7826,
+          7827,
+          7831,
+          7838,
+          7840,
+          7841,
+          7842,
+          7843,
+          7844,
+          7845,
+          7846,
+          7847,
+          7848,
+          7849,
+          7850,
+          7851,
+          7852,
+          7853,
+          7854,
+          7855,
+          7856,
+          7857,
+          7858,
+          7859,
+          7860,
+          7861,
+          7862,
+          7863,
+          7864,
+          7865,
+          7866,
+          7867,
+          7868,
+          7869,
+          7870,
+          7871,
+          7872,
+          7873,
+          7874,
+          7875,
+          7876,
+          7877,
+          7878,
+          7879,
+          7880,
+          7881,
+          7882,
+          7883,
+          7884,
+          7885,
+          7886,
+          7887,
+          7888,
+          7889,
+          7890,
+          7891,
+          7892,
+          7893,
+          7894,
+          7895,
+          7896,
+          7897,
+          7898,
+          7899,
+          7900,
+          7901,
+          7902,
+          7903,
+          7904,
+          7905,
+          7906,
+          7907,
+          7908,
+          7909,
+          7910,
+          7911,
+          7912,
+          7913,
+          7914,
+          7915,
+          7916,
+          7917,
+          7918,
+          7919,
+          7920,
+          7921,
+          7922,
+          7923,
+          7924,
+          7925,
+          7926,
+          7927,
+          7928,
+          7929,
+          8199,
+          8200,
+          8201,
+          8202,
+          8203,
+          8208,
+          8210,
+          8211,
+          8212,
+          8213,
+          8216,
+          8217,
+          8218,
+          8220,
+          8221,
+          8222,
+          8224,
+          8225,
+          8226,
+          8230,
+          8240,
+          8242,
+          8243,
+          8249,
+          8250,
+          8260,
+          8274,
+          8304,
+          8305,
+          8308,
+          8309,
+          8310,
+          8311,
+          8312,
+          8313,
+          8317,
+          8318,
+          8319,
+          8320,
+          8321,
+          8322,
+          8323,
+          8324,
+          8325,
+          8326,
+          8327,
+          8328,
+          8329,
+          8333,
+          8334,
+          8340,
+          8353,
+          8355,
+          8356,
+          8358,
+          8359,
+          8361,
+          8363,
+          8364,
+          8365,
+          8369,
+          8370,
+          8373,
+          8377,
+          8378,
+          8380,
+          8381,
+          8383,
+          8467,
+          8470,
+          8480,
+          8482,
+          8486,
+          8494,
+          8531,
+          8532,
+          8539,
+          8540,
+          8541,
+          8542,
+          8592,
+          8593,
+          8594,
+          8595,
+          8596,
+          8597,
+          8598,
+          8599,
+          8600,
+          8601,
+          8706,
+          8709,
+          8710,
+          8719,
+          8721,
+          8722,
+          8725,
+          8729,
+          8730,
+          8734,
+          8747,
+          8776,
+          8800,
+          8804,
+          8805,
+          9674,
+          10216,
+          10217,
+          57650,
+          57651,
+          64256,
+          64257,
+          64258,
+          64259,
+          64260
+        ],
+        "catalogMissingNonWhitespace": [
+          "U+0627",
+          "U+0628",
+          "U+0629",
+          "U+0631",
+          "U+0639",
+          "U+0644",
+          "U+064A",
+          "U+2713",
+          "U+65E5",
+          "U+672C",
+          "U+8A9E"
+        ],
+        "note": "Full upstream asset, not subset. Non-Latin quoted names and symbol/arrow characters use existing system fallbacks; no script font is replaced."
+      }
+    },
+    "fontCoverage": {
+      "asset": "public/fonts/editorial/space-grotesk-variable.woff2",
+      "version": "Version 2.000",
+      "cmapCodepoints": 735,
+      "requiredLatinCharacters": 120,
+      "missing": [],
+      "sha256": "8e085aa438094f11487a836652edd5c054fa6a96f63fc7c282105ee3a4b08c07"
+    },
+    "nativeRenderedFonts": [
+      {
+        "locale": "ar",
+        "fonts": [
+          {
+            "familyName": "Noto Sans Arabic",
+            "postScriptName": "NotoSansArabic-Regular",
+            "isCustomFont": true,
+            "glyphCount": 26
+          }
+        ]
+      },
+      {
+        "locale": "ta",
+        "fonts": [
+          {
+            "familyName": "Noto Sans Tamil",
+            "postScriptName": "NotoSansTamil-Regular",
+            "isCustomFont": true,
+            "glyphCount": 25
+          }
+        ]
+      },
+      {
+        "locale": "hi",
+        "fonts": [
+          {
+            "familyName": "Noto Sans Devanagari",
+            "postScriptName": "NotoSansDevanagari-Regular",
+            "isCustomFont": true,
+            "glyphCount": 22
+          }
+        ]
+      },
+      {
+        "locale": "ja",
+        "fonts": [
+          {
+            "familyName": "Noto Sans JP Thin",
+            "postScriptName": "NotoSansJP-Thin_Regular",
+            "isCustomFont": true,
+            "glyphCount": 13
+          }
+        ]
+      },
+      {
+        "locale": "zh-Hans",
+        "fonts": [
+          {
+            "familyName": "Noto Sans SC Thin",
+            "postScriptName": "NotoSansSC-Thin_Regular",
+            "isCustomFont": true,
+            "glyphCount": 9
+          }
+        ]
+      }
+    ]
+  },
+  "browser": {
+    "baseline": {
+      "cases": 58,
+      "errors": [],
+      "failures": [
+        {
+          "label": "de-home-320x1000-light-largest-default",
+          "message": "horizontal page overflow"
+        }
+      ]
+    },
+    "final": {
+      "cases": 58,
+      "errors": [],
+      "failures": [],
+      "latestFocusedRerun": [
+        "en-home-320x1000-light-largest-default",
+        "en-home-1440x650-light-default-default",
+        "ar-home-320x1000-light-largest-default",
+        "ar-home-1440x650-light-default-default",
+        "ta-home-320x1000-light-largest-default",
+        "ta-home-1440x650-light-default-default",
+        "hi-home-320x1000-light-largest-default",
+        "hi-home-1440x650-light-default-default",
+        "ja-home-320x1000-light-largest-default",
+        "ja-home-1440x650-light-default-default",
+        "zh-Hans-home-320x1000-light-largest-default",
+        "zh-Hans-home-1440x650-light-default-default",
+        "de-home-320x1000-light-largest-default",
+        "de-home-1440x650-light-default-default",
+        "pt-BR-home-320x1000-light-largest-default",
+        "pt-BR-home-1440x650-light-default-default"
+      ]
+    },
+    "widths": [
+      320,
+      375,
+      390,
+      768,
+      1024,
+      1440,
+      1920
+    ],
+    "shortHeight": 650,
+    "largeTextLocales": [
+      "en",
+      "ar",
+      "ta",
+      "ja"
+    ],
+    "largestTextLocales": [
+      "en",
+      "ar",
+      "ta",
+      "hi",
+      "ja",
+      "zh-Hans",
+      "de",
+      "pt-BR"
+    ],
+    "cjkModes": [
+      "horizontal",
+      "vertical"
+    ],
+    "routes": [
+      "home",
+      "work-with-me",
+      "mmcats-modern",
+      "pace-rag-case-study",
+      "multilingual-engineering",
+      "naae",
+      "no-two-mondays",
+      "incident-zero"
+    ],
+    "normalNativePixelsIdentical": [
+      "ar-home-390x1000-dark-default-default.png",
+      "ar-home-1440x1000-dark-default-default.png",
+      "ta-home-390x1000-dark-default-default.png",
+      "ta-home-1440x1000-dark-default-default.png",
+      "ja-home-390x1000-dark-default-default.png",
+      "ja-home-1440x1000-dark-default-default.png",
+      "zh-Hans-home-390x1000-dark-default-default.png",
+      "zh-Hans-home-1440x1000-dark-default-default.png",
+      "hi-home-390x1000-dark-default-default.png",
+      "hi-home-1440x1000-dark-default-default.png",
+      "ar-home-390x1000-dark-large-default.png",
+      "ta-home-390x1000-dark-large-default.png",
+      "ja-home-390x1000-dark-large-default.png",
+      "ja-home-1440x1000-dark-default-horizontal.png",
+      "ja-home-1440x1000-dark-default-vertical.png",
+      "zh-Hans-home-1440x1000-dark-default-horizontal.png",
+      "zh-Hans-home-1440x1000-dark-default-vertical.png"
+    ],
+    "expectedNativePixelDifferences": [
+      "ar-home-320x1000-light-largest-default.png",
+      "ar-home-1440x650-light-default-default.png",
+      "ta-home-320x1000-light-largest-default.png",
+      "ta-home-1440x650-light-default-default.png",
+      "hi-home-320x1000-light-largest-default.png",
+      "hi-home-1440x650-light-default-default.png",
+      "ja-home-320x1000-light-largest-default.png",
+      "ja-home-1440x650-light-default-default.png",
+      "zh-Hans-home-320x1000-light-largest-default.png",
+      "zh-Hans-home-1440x650-light-default-default.png"
+    ],
+    "expectedDifferenceReason": "Light-theme paragraph contrast and largest-text grid/word reflow fixes. Normal dark, large and CJK writing-mode samples are identical.",
+    "screenshotPairs": [
+      {
+        "label": "en-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-390x1000-dark-default-default.png",
+          "sha256": "4f77fc112138b1d74ce7021993d44aa9f928a336489e7d83b97d4415025e2702"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-390x1000-dark-default-default.png",
+          "sha256": "198dac7a6bc85f6c48ca7b6a2c6b2c61e8109a1d474c04c84a294e1db2aabb08"
+        }
+      },
+      {
+        "label": "en-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-1440x1000-dark-default-default.png",
+          "sha256": "8539d4d5d04e4d03882cb68518dea05045cb8146d70da3cbd5ae41b8030082ad"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-1440x1000-dark-default-default.png",
+          "sha256": "7afeac273c8cfab82e79ef2583b04d099a9852e008f5299b3775a7f95af48e74"
+        }
+      },
+      {
+        "label": "ms-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ms-home-390x1000-dark-default-default.png",
+          "sha256": "4b2c2f7b70c4d2ad1dc30360c8656ae033da710cc28f9a082075bb4621f6ba35"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ms-home-390x1000-dark-default-default.png",
+          "sha256": "a4a4630cafcab760969d9ffc435f9d73bc3b20541b72646e6547d765a1c9ab7a"
+        }
+      },
+      {
+        "label": "ms-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ms-home-1440x1000-dark-default-default.png",
+          "sha256": "adacc85a38f4bb74bcd07c217644d88b96dfafcfd7799a03d9e3fa8f4f11cab8"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ms-home-1440x1000-dark-default-default.png",
+          "sha256": "35bd84fc49e9c307b01877438d72e12b8a32d7ff7260004b2e80873b195468bf"
+        }
+      },
+      {
+        "label": "ar-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ar-home-390x1000-dark-default-default.png",
+          "sha256": "138d48e65ffe6860b0c2f5448b59ba34c5321d8f9c61a19955cba9b3a0b54743"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ar-home-390x1000-dark-default-default.png",
+          "sha256": "138d48e65ffe6860b0c2f5448b59ba34c5321d8f9c61a19955cba9b3a0b54743"
+        }
+      },
+      {
+        "label": "ar-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ar-home-1440x1000-dark-default-default.png",
+          "sha256": "db66f7ed764e5f75c9a2fc444829ce89465521e9219cc948a4eacd0087750ca8"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ar-home-1440x1000-dark-default-default.png",
+          "sha256": "db66f7ed764e5f75c9a2fc444829ce89465521e9219cc948a4eacd0087750ca8"
+        }
+      },
+      {
+        "label": "ta-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ta-home-390x1000-dark-default-default.png",
+          "sha256": "d48666b7a060940923dd8eab84a4870d60f008518b5fe4ee36d76f02a8c20495"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ta-home-390x1000-dark-default-default.png",
+          "sha256": "d48666b7a060940923dd8eab84a4870d60f008518b5fe4ee36d76f02a8c20495"
+        }
+      },
+      {
+        "label": "ta-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ta-home-1440x1000-dark-default-default.png",
+          "sha256": "c1d907de665d8b05f7df7cdaefebbb957bc7086ec5f20d3b8109ee94e53cb293"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ta-home-1440x1000-dark-default-default.png",
+          "sha256": "c1d907de665d8b05f7df7cdaefebbb957bc7086ec5f20d3b8109ee94e53cb293"
+        }
+      },
+      {
+        "label": "ja-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ja-home-390x1000-dark-default-default.png",
+          "sha256": "1b3537c852fd4b4f972a13e970c91bce3b4484ffae4fae4955808b66f1c7ae91"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ja-home-390x1000-dark-default-default.png",
+          "sha256": "1b3537c852fd4b4f972a13e970c91bce3b4484ffae4fae4955808b66f1c7ae91"
+        }
+      },
+      {
+        "label": "ja-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ja-home-1440x1000-dark-default-default.png",
+          "sha256": "c7d3b403651016c5c95ae5e74a7fcb94fd4469a9a12d7e08a875df6af57fe15c"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ja-home-1440x1000-dark-default-default.png",
+          "sha256": "c7d3b403651016c5c95ae5e74a7fcb94fd4469a9a12d7e08a875df6af57fe15c"
+        }
+      },
+      {
+        "label": "zh-Hans-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/zh-Hans-home-390x1000-dark-default-default.png",
+          "sha256": "cbfb8b4101b00bc0fae4daf1b5b5e5e83787bb48f2d0baf054260f0bddafd84a"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/zh-Hans-home-390x1000-dark-default-default.png",
+          "sha256": "cbfb8b4101b00bc0fae4daf1b5b5e5e83787bb48f2d0baf054260f0bddafd84a"
+        }
+      },
+      {
+        "label": "zh-Hans-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/zh-Hans-home-1440x1000-dark-default-default.png",
+          "sha256": "f1a0c86de90a60aa8bc7fa059c96839d659349678acc8ec674adc508e262fcd7"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/zh-Hans-home-1440x1000-dark-default-default.png",
+          "sha256": "f1a0c86de90a60aa8bc7fa059c96839d659349678acc8ec674adc508e262fcd7"
+        }
+      },
+      {
+        "label": "es-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/es-home-390x1000-dark-default-default.png",
+          "sha256": "51fcb572868e3323e4437a0fd2c02dd34ead407bd25e8fc393b4d3b1e0f6a9aa"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/es-home-390x1000-dark-default-default.png",
+          "sha256": "ebe8c2ffacdb9ed4564d8bf643c9af60f3181c57326d1bf8ccea8f3c3c5135ee"
+        }
+      },
+      {
+        "label": "es-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/es-home-1440x1000-dark-default-default.png",
+          "sha256": "7ae5e37f9bc9f9247cc6a402d77faad5be480796d6451d40a48b9e7406eb2015"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/es-home-1440x1000-dark-default-default.png",
+          "sha256": "cd6d0fb84c91d7eb1303276a3604e838f77d2976aeecc41ef65c8de622998636"
+        }
+      },
+      {
+        "label": "fr-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/fr-home-390x1000-dark-default-default.png",
+          "sha256": "63ed5cd54fbcef1299fcbac3c25893cb3104bd13aaa2dadd57523a7bdf8ce98c"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/fr-home-390x1000-dark-default-default.png",
+          "sha256": "74924e3e8fdeb2fdbe4a1df4a03b8c59e57e531175d48a5fd8ab083d72a8e95d"
+        }
+      },
+      {
+        "label": "fr-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/fr-home-1440x1000-dark-default-default.png",
+          "sha256": "53ead644291a1c2c0d8f19f9cd7fb59720e636b6f0613bd9bb946563db0b2dcd"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/fr-home-1440x1000-dark-default-default.png",
+          "sha256": "53ceaf397b49fabd2aad6d776d3b7efaf7e9984b94e3c70227e43cc77b28537c"
+        }
+      },
+      {
+        "label": "de-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/de-home-390x1000-dark-default-default.png",
+          "sha256": "6e0be0f0e6364187f1b892dd5d5ba71bcfe926498ab363cbc460a379dd028d60"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/de-home-390x1000-dark-default-default.png",
+          "sha256": "19fa2fca21d132c9c7997890d8ad5504674254327f028429a299f16b0664fc5d"
+        }
+      },
+      {
+        "label": "de-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/de-home-1440x1000-dark-default-default.png",
+          "sha256": "162320cc5d00ff0f65724ff3afbe685db102b70307473bc63f7d548657f84802"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/de-home-1440x1000-dark-default-default.png",
+          "sha256": "4e3f38f699fc973f0f105022214a7b7a363acd36c80e6ce3adf730a24eac1c4a"
+        }
+      },
+      {
+        "label": "pt-BR-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/pt-BR-home-390x1000-dark-default-default.png",
+          "sha256": "2871c413b21f0569670c9bb8d9ed3cba771a036710f37058e0d471c21303f75b"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/pt-BR-home-390x1000-dark-default-default.png",
+          "sha256": "e7c25edd725661ee21cd64d83e2cfe0278ebf0f0fb4cae5463b53a0b22d2f8af"
+        }
+      },
+      {
+        "label": "pt-BR-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/pt-BR-home-1440x1000-dark-default-default.png",
+          "sha256": "68e11fc0b0afb98683e1db678db3566d21a43ef3eff4e5147cc85c164ee53931"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/pt-BR-home-1440x1000-dark-default-default.png",
+          "sha256": "aca24416d2b8fd9fa4a16b9bc86e593f957d26d991d9cf0618799b24aecd4c83"
+        }
+      },
+      {
+        "label": "hi-home-390x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/hi-home-390x1000-dark-default-default.png",
+          "sha256": "2b42920e1bd3ef821710d2b4c65696bac66e0770fc855760b6fe14dd9e916d21"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/hi-home-390x1000-dark-default-default.png",
+          "sha256": "2b42920e1bd3ef821710d2b4c65696bac66e0770fc855760b6fe14dd9e916d21"
+        }
+      },
+      {
+        "label": "hi-home-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/hi-home-1440x1000-dark-default-default.png",
+          "sha256": "a5ab14e63a11a4764c6c1202eb2cc25d3937f10081fefd028034d33e61755a81"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/hi-home-1440x1000-dark-default-default.png",
+          "sha256": "a5ab14e63a11a4764c6c1202eb2cc25d3937f10081fefd028034d33e61755a81"
+        }
+      },
+      {
+        "label": "en-home-320x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-320x1000-dark-default-default.png",
+          "sha256": "5915faf8681151d416e09bcd60950fb38db62468951ef0a14f94445697b7cb2f"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-320x1000-dark-default-default.png",
+          "sha256": "6e445c48fd131e49f08838558cd2e169c6226ac65c4fb78d2faf9e8bda5055ca"
+        }
+      },
+      {
+        "label": "en-home-375x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-375x1000-dark-default-default.png",
+          "sha256": "e39c5fe1979704cb73a3581d8f8dd72d0191a4f8e0958c3fd4d25155d88436aa"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-375x1000-dark-default-default.png",
+          "sha256": "6d6e5a40b7cec9b266b9759a430d7636663ce7ca1abe7f4f86a3d2b9838edd65"
+        }
+      },
+      {
+        "label": "en-home-768x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-768x1000-dark-default-default.png",
+          "sha256": "4c0320ab27c78421f4c4c4ab06b8bcbaee636014de81468349e1e3a695e47b66"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-768x1000-dark-default-default.png",
+          "sha256": "fe84c81a5720cf243a41a0594ed3eb3e2dafe0388ce2f1f33e879f90cc9251a4"
+        }
+      },
+      {
+        "label": "en-home-1024x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-1024x1000-dark-default-default.png",
+          "sha256": "7d9e7a0d974ea3f86bc3bc068da6db9b4d7babf564fec6d7384ff9473ab91821"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-1024x1000-dark-default-default.png",
+          "sha256": "c0b85706acd962f60549bb1391a4b3f8cb63d569c9a489136082f705f52d5ca5"
+        }
+      },
+      {
+        "label": "en-home-1920x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-1920x1000-dark-default-default.png",
+          "sha256": "447e372db4689908a95259dd0e805c2480f4a53dd3ee91f08880650c80ea7b85"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-1920x1000-dark-default-default.png",
+          "sha256": "0d9b026f7789c526b37cd4259d385a8a4fc288e14573622714c8e306d7bac8fb"
+        }
+      },
+      {
+        "label": "en-home-390x1000-dark-large-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-390x1000-dark-large-default.png",
+          "sha256": "9621bc771ee68a80f62feb14b058c772d61496d6aa2c4e13c6e65b5635b80a0f"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-390x1000-dark-large-default.png",
+          "sha256": "11ccbf6781310871e4d46a4fc95f59da198b17c020f4f5b96942859d31b4695a"
+        }
+      },
+      {
+        "label": "ar-home-390x1000-dark-large-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ar-home-390x1000-dark-large-default.png",
+          "sha256": "ee67e4d80b5b951878bbfe43bb4fbc3d5dbdc424695049242874ec395c015669"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ar-home-390x1000-dark-large-default.png",
+          "sha256": "ee67e4d80b5b951878bbfe43bb4fbc3d5dbdc424695049242874ec395c015669"
+        }
+      },
+      {
+        "label": "ta-home-390x1000-dark-large-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ta-home-390x1000-dark-large-default.png",
+          "sha256": "d1b91226dfb314bda001ae2ce1f55e8a6974dfe6bc7c6367ff771b370e4bb210"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ta-home-390x1000-dark-large-default.png",
+          "sha256": "d1b91226dfb314bda001ae2ce1f55e8a6974dfe6bc7c6367ff771b370e4bb210"
+        }
+      },
+      {
+        "label": "ja-home-390x1000-dark-large-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ja-home-390x1000-dark-large-default.png",
+          "sha256": "d9965ad5148438fe6252b2294775b9a44c6a30b7b012b1b1b9f49c15e8cfdc40"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ja-home-390x1000-dark-large-default.png",
+          "sha256": "d9965ad5148438fe6252b2294775b9a44c6a30b7b012b1b1b9f49c15e8cfdc40"
+        }
+      },
+      {
+        "label": "ja-home-1440x1000-dark-default-horizontal",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ja-home-1440x1000-dark-default-horizontal.png",
+          "sha256": "4112c0caf7c35dd03c0384cad3aa1bbaf134bd8a9856155394cffb2bf9f9cee1"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ja-home-1440x1000-dark-default-horizontal.png",
+          "sha256": "4112c0caf7c35dd03c0384cad3aa1bbaf134bd8a9856155394cffb2bf9f9cee1"
+        }
+      },
+      {
+        "label": "ja-home-1440x1000-dark-default-vertical",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ja-home-1440x1000-dark-default-vertical.png",
+          "sha256": "4112c0caf7c35dd03c0384cad3aa1bbaf134bd8a9856155394cffb2bf9f9cee1"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ja-home-1440x1000-dark-default-vertical.png",
+          "sha256": "4112c0caf7c35dd03c0384cad3aa1bbaf134bd8a9856155394cffb2bf9f9cee1"
+        }
+      },
+      {
+        "label": "zh-Hans-home-1440x1000-dark-default-horizontal",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/zh-Hans-home-1440x1000-dark-default-horizontal.png",
+          "sha256": "fb1d5d225074b188ae4e4e89f4458d8349d1a1a69a1375f4643c00281fa0997e"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/zh-Hans-home-1440x1000-dark-default-horizontal.png",
+          "sha256": "fb1d5d225074b188ae4e4e89f4458d8349d1a1a69a1375f4643c00281fa0997e"
+        }
+      },
+      {
+        "label": "zh-Hans-home-1440x1000-dark-default-vertical",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/zh-Hans-home-1440x1000-dark-default-vertical.png",
+          "sha256": "fb1d5d225074b188ae4e4e89f4458d8349d1a1a69a1375f4643c00281fa0997e"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/zh-Hans-home-1440x1000-dark-default-vertical.png",
+          "sha256": "fb1d5d225074b188ae4e4e89f4458d8349d1a1a69a1375f4643c00281fa0997e"
+        }
+      },
+      {
+        "label": "en-work-with-me-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-work-with-me-1440x1000-dark-default-default.png",
+          "sha256": "42083532a58cc1b47f263336ff91a86525327abee877d8e96895e85a18b3e6e9"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-work-with-me-1440x1000-dark-default-default.png",
+          "sha256": "08fdea16ea453f984e5b3e6ec1621fbfbfc1805fdb3ad4ec007ccd5f562be4ce"
+        }
+      },
+      {
+        "label": "en-mmcats-modern-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-mmcats-modern-1440x1000-dark-default-default.png",
+          "sha256": "f66d6487fc093beea6f14d6a0919dedb0c980c4227a507b7ea3be68b11822279"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-mmcats-modern-1440x1000-dark-default-default.png",
+          "sha256": "6ba81c07c06b00d13e0dc7e9df0ecaa0a5ef718e7d94c32860a74517af1fdf4b"
+        }
+      },
+      {
+        "label": "en-pace-rag-case-study-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-pace-rag-case-study-1440x1000-dark-default-default.png",
+          "sha256": "2393c73023e4f81c2d94f88dd077eb7e8b659a11becb16569a2dadbbefe2d952"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-pace-rag-case-study-1440x1000-dark-default-default.png",
+          "sha256": "86bbd1ef3f20d33d2b3f105ceda5ce2dbdf71bab595408e5d0519537a88291a0"
+        }
+      },
+      {
+        "label": "en-multilingual-engineering-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-multilingual-engineering-1440x1000-dark-default-default.png",
+          "sha256": "69f30c133699f4d173ca93137d1d48a739b94f5a2ce2d5b5336b45e69acd0ba3"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-multilingual-engineering-1440x1000-dark-default-default.png",
+          "sha256": "3c52d038d7f52dbb299f3b50a704afd4662142250915d851ae947848c5491051"
+        }
+      },
+      {
+        "label": "en-naae-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-naae-1440x1000-dark-default-default.png",
+          "sha256": "9c95da048a9da2728d9359d9ff54f3719ef0ae4f9951d9899ad5db117be0e2b6"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-naae-1440x1000-dark-default-default.png",
+          "sha256": "c17e59f46eb5c6a593cc55764c4f69b396d8000e517af23d7c4e62fdaac71df0"
+        }
+      },
+      {
+        "label": "en-no-two-mondays-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-no-two-mondays-1440x1000-dark-default-default.png",
+          "sha256": "5b5df381651c0eb36410f7167eabc0343c06ee35c0ec9106e9a53591fc2aa179"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-no-two-mondays-1440x1000-dark-default-default.png",
+          "sha256": "7c78432f1b6107df2f024d597c8a56fb7248ae1972930d257f5efd884d8dac07"
+        }
+      },
+      {
+        "label": "en-incident-zero-1440x1000-dark-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-incident-zero-1440x1000-dark-default-default.png",
+          "sha256": "2f987f9ae63560c5c1d2c88bb782018a3f00cfb32635f434ac1b70ac97a59956"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-incident-zero-1440x1000-dark-default-default.png",
+          "sha256": "56e9aa2325cec3b7437d26cd876946ddc86da840cf914675835ca58b3d9387d0"
+        }
+      },
+      {
+        "label": "en-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-320x1000-light-largest-default.png",
+          "sha256": "082fb58abd1ad1ad324285dc06bf73e565c33671660a071b3f1d2d8da294997f"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-320x1000-light-largest-default.png",
+          "sha256": "cbbd12fe26aaa8db678197a215c87633baf606511794e77261cffbfdc6e513ef"
+        }
+      },
+      {
+        "label": "en-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/en-home-1440x650-light-default-default.png",
+          "sha256": "0b7561438daae7c3fdb5dcf7d5e6e977d51be0c546af4ebcc7886831a72996de"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/en-home-1440x650-light-default-default.png",
+          "sha256": "40c387a68185d09aaa16dee9440b0dabaa76461f8c70e1945b2488c4a282dc0b"
+        }
+      },
+      {
+        "label": "ar-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ar-home-320x1000-light-largest-default.png",
+          "sha256": "ecd29cd5a4a9c20a1120728ab43161748db57002463db80faac081a1c92781c6"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ar-home-320x1000-light-largest-default.png",
+          "sha256": "a8967ce1b6b8fd08be6fcf0ea684193c179819cefcbc530893aded831668f784"
+        }
+      },
+      {
+        "label": "ar-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ar-home-1440x650-light-default-default.png",
+          "sha256": "63089406377fe452e958530fbfeab1ebed63d8618f0e189c35b0219ba753abd4"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ar-home-1440x650-light-default-default.png",
+          "sha256": "1bdf1e9a1fd9d25ddd8419bde78acd5f88e8973446077a144adec6cf4d61648f"
+        }
+      },
+      {
+        "label": "ta-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ta-home-320x1000-light-largest-default.png",
+          "sha256": "5759f979988903591164a3db3eca25e784c635db9837424dedf4661cae9b8eeb"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ta-home-320x1000-light-largest-default.png",
+          "sha256": "dee46c06c0e7d6a98b4e73ed3227b4d1bf163aaf94ef5e235d1d21e4b94a8c5a"
+        }
+      },
+      {
+        "label": "ta-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ta-home-1440x650-light-default-default.png",
+          "sha256": "702ffa2bbec43eeba0b27dd34e323dabc562b2e8822f1e36754ddf0a131df2ff"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ta-home-1440x650-light-default-default.png",
+          "sha256": "536ad9763b01e24209b05f2ef4d8c340682db00995efac47dbf2c5b4484105e3"
+        }
+      },
+      {
+        "label": "hi-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/hi-home-320x1000-light-largest-default.png",
+          "sha256": "fb4b94ebdb320ba1746e0ff360003e6a014174f1b67914e1ea3dd4380c6b116b"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/hi-home-320x1000-light-largest-default.png",
+          "sha256": "003a5ef8e41e74b5559f1ccc3a0d87a36a330146d1110f060eab21ad16a8a02d"
+        }
+      },
+      {
+        "label": "hi-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/hi-home-1440x650-light-default-default.png",
+          "sha256": "c401d1053fc4abd58da9870e4bf1be00961bc60fc4560aa89c08ee911683dc73"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/hi-home-1440x650-light-default-default.png",
+          "sha256": "65bdad96604897e24495dd809a030acb134fa8cc98ab9535c9f9ef816dc0513b"
+        }
+      },
+      {
+        "label": "ja-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ja-home-320x1000-light-largest-default.png",
+          "sha256": "b3156d42484d1d5ded256a1b1004a8b9c88501d7e46524cc72523a7447c3856b"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ja-home-320x1000-light-largest-default.png",
+          "sha256": "217b9e98f302eb03c780610c41a7703d061d09b9024198360cd9b2652b6dd8cf"
+        }
+      },
+      {
+        "label": "ja-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/ja-home-1440x650-light-default-default.png",
+          "sha256": "8870fd3e0be0fe344f85354408457c74dc371d3bdb1007841c66c8eb5d573d7c"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/ja-home-1440x650-light-default-default.png",
+          "sha256": "2c6b0ccc8fcced7777fd29c82590c501308c750513fefc780ef70354bc925065"
+        }
+      },
+      {
+        "label": "zh-Hans-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/zh-Hans-home-320x1000-light-largest-default.png",
+          "sha256": "6224b4886783b96973107a2fb89632b8d20059b416cd3afce4f5046436aab2fe"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/zh-Hans-home-320x1000-light-largest-default.png",
+          "sha256": "f59119d0b0ca7b8de6df5bb5805120138cf64a681340c8eeeb7d7d7c72369952"
+        }
+      },
+      {
+        "label": "zh-Hans-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/zh-Hans-home-1440x650-light-default-default.png",
+          "sha256": "8bea8139583bc6a9a5cca2c7390a9522d9c02f4950b9c53f2b80e98dc5e990a7"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/zh-Hans-home-1440x650-light-default-default.png",
+          "sha256": "43b8431a5958cc9ccebea39f97e0455c1e82f9f797d21053aa08c5a20b5365ec"
+        }
+      },
+      {
+        "label": "de-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/de-home-320x1000-light-largest-default.png",
+          "sha256": "4ec32daab81b991ed005707fd8c1fa595cdec3fe028f2a7c3182999e9385c7c1"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/de-home-320x1000-light-largest-default.png",
+          "sha256": "2c5fe186228f29f2cbbf4af268ca37c6bb08d9c6f9ce28af7db3c9368367e6b7"
+        }
+      },
+      {
+        "label": "de-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/de-home-1440x650-light-default-default.png",
+          "sha256": "fcc02cad7c334d1b82afb91efb3fff69ab20e516d7327348a9bd17279cd94105"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/de-home-1440x650-light-default-default.png",
+          "sha256": "10028c02964917af3d0d74620d4cbb3c5cdacc23effe034ee73ab56b205e0ff4"
+        }
+      },
+      {
+        "label": "pt-BR-home-320x1000-light-largest-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/pt-BR-home-320x1000-light-largest-default.png",
+          "sha256": "e550843d1e55154c08e1710e2f8fefc3794ab6714e03bca88bec48996afc9129"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/pt-BR-home-320x1000-light-largest-default.png",
+          "sha256": "d2b0bf37a302f62575a9069f27456d89bda562404e67fca578444d1c4ddf4016"
+        }
+      },
+      {
+        "label": "pt-BR-home-1440x650-light-default-default",
+        "before": {
+          "path": "output/playwright/pme-type-1.6/before/pt-BR-home-1440x650-light-default-default.png",
+          "sha256": "df741099e04e0a70547c129a3d4b24d69cd682d502a45d04c409a67ba87eeddb"
+        },
+        "after": {
+          "path": "output/playwright/pme-type-1.6/after/pt-BR-home-1440x650-light-default-default.png",
+          "sha256": "1d79eacb9bce0b332bdb9fcd7d7c5dcf34762aa4e8293cd870e2c26f5558e746"
+        }
+      }
+    ],
+    "gallery": "output/playwright/pme-type-1.6/comparison.html"
+  },
+  "artwork": {
+    "runtimeAndArtworkFontFilesChanged": false,
+    "geometryAndSeedsChanged": false,
+    "loadingLifecycle": {
+      "scenarios": [
+        {
+          "name": "delayed-font-swap",
+          "before": {
+            "signature": "3853075699",
+            "geometryBuilds": "1",
+            "revision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+            "runs": "2600",
+            "canvas": [
+              [
+                1440,
+                909
+              ]
+            ]
+          },
+          "after": {
+            "signature": "3853075699",
+            "geometryBuilds": "1",
+            "revision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+            "runs": "2600",
+            "canvas": [
+              [
+                1440,
+                909
+              ]
+            ]
+          },
+          "loaderIndependent": true,
+          "keyboardSkipLink": true
+        },
+        {
+          "name": "failed-font-fallback",
+          "before": {
+            "signature": "3853075699",
+            "geometryBuilds": "1",
+            "revision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+            "runs": "2600",
+            "canvas": [
+              [
+                1440,
+                909
+              ]
+            ]
+          },
+          "after": {
+            "signature": "3853075699",
+            "geometryBuilds": "1",
+            "revision": "d7e6e451f78a1499e928dd368ea4161f5bbc5d369e97d19624562bf8373ee290",
+            "runs": "2600",
+            "canvas": [
+              [
+                1440,
+                909
+              ]
+            ]
+          },
+          "loaderIndependent": true,
+          "keyboardSkipLink": true
+        },
+        {
+          "name": "locale-switch-cache-and-forced-colors",
+          "requests": [
+            "http://127.0.0.1:4178/fonts/editorial/space-grotesk-variable.woff2"
+          ]
+        },
+        {
+          "name": "200-percent-reflow-equivalent",
+          "locale": "en",
+          "viewport": [
+            720,
+            500
+          ],
+          "deviceScaleFactor": 2
+        },
+        {
+          "name": "200-percent-reflow-equivalent",
+          "locale": "ar",
+          "viewport": [
+            720,
+            500
+          ],
+          "deviceScaleFactor": 2
+        },
+        {
+          "name": "200-percent-reflow-equivalent",
+          "locale": "ta",
+          "viewport": [
+            720,
+            500
+          ],
+          "deviceScaleFactor": 2
+        },
+        {
+          "name": "200-percent-reflow-equivalent",
+          "locale": "ja",
+          "viewport": [
+            720,
+            500
+          ],
+          "deviceScaleFactor": 2
+        }
+      ],
+      "errors": []
+    }
+  },
+  "contrast": {
+    "baselinePass": false,
+    "baselineCases": [
+      {
+        "label": "390-light-default",
+        "pass": true,
+        "minimum": 5.425801667926022
+      },
+      {
+        "label": "390-dark-default",
+        "pass": true,
+        "minimum": 8.423877676916764
+      },
+      {
+        "label": "1440-light-default",
+        "pass": false,
+        "minimum": 4.176527762771693
+      },
+      {
+        "label": "1440-dark-default",
+        "pass": true,
+        "minimum": 5.064962516477601
+      },
+      {
+        "label": "390-light-largest",
+        "pass": true,
+        "minimum": 5.5026111957433415
+      },
+      {
+        "label": "390-dark-largest",
+        "pass": true,
+        "minimum": 8.537840383053856
+      }
+    ],
+    "finalPass": true,
+    "finalCases": [
+      {
+        "label": "390-light-default",
+        "pass": true,
+        "minimum": 5.415367002385786
+      },
+      {
+        "label": "390-dark-default",
+        "pass": true,
+        "minimum": 8.441097356834641
+      },
+      {
+        "label": "1440-light-default",
+        "pass": true,
+        "minimum": 5.112578681004706
+      },
+      {
+        "label": "1440-dark-default",
+        "pass": true,
+        "minimum": 5.064962516477601
+      },
+      {
+        "label": "390-light-largest",
+        "pass": true,
+        "minimum": 5.460711620877061
+      },
+      {
+        "label": "390-dark-largest",
+        "pass": true,
+        "minimum": 8.423877676916764
+      }
+    ],
+    "limitation": "Bounded sampled contrast review of the selected semantic section text in six static reduced-motion Chrome layouts. It is not a complete WCAG audit, screen-reader review, all text coverage, or proof of every possible animated pixel. Rectangle sampling is conservative: it includes spaces between actual glyph strokes. Screenshots preserve original layout, canvas, button backgrounds and borders; text, text shadows and text decorations alone are suppressed."
+  },
+  "performance": {
+    "method": "Five alternating original/final local Chrome cold-context navigations, 1440x1000, reduced motion, no network/CPU throttling; other QA finished. Local transfer includes response headers. Descriptive samples, not a production significance test.",
+    "before": {
+      "runs": 5,
+      "lcpMs": {
+        "median": 520,
+        "min": 476,
+        "max": 660
+      },
+      "cls": {
+        "median": 0.0000016759801793981482,
+        "max": 0.0000016759801793981482
+      },
+      "fontResources": [],
+      "cssResources": [
+        {
+          "path": "/assets/index---veWyEv.css",
+          "encodedBodySize": 16836,
+          "transferSize": 17136
+        }
+      ]
+    },
+    "after": {
+      "runs": 5,
+      "lcpMs": {
+        "median": 640,
+        "min": 504,
+        "max": 828
+      },
+      "cls": {
+        "median": 0.0006601494080343364,
+        "max": 0.0006601494080343364
+      },
+      "fontResources": [
+        {
+          "path": "/fonts/editorial/space-grotesk-variable.woff2",
+          "encodedBodySize": 49256,
+          "transferSize": 49556
+        }
+      ],
+      "cssResources": [
+        {
+          "path": "/assets/index-DUQMjjl4.css",
+          "encodedBodySize": 17233,
+          "transferSize": 17533
+        }
+      ]
+    },
+    "bundleBytes": {
+      "before": {
+        "css": 124126,
+        "js": 5234339
+      },
+      "after": {
+        "css": 125687,
+        "js": 5234339
+      }
+    },
+    "interpretation": "Local median LCP increased 120 ms (520 to 640 ms), with overlapping 476–660 / 504–828 ms ranges. Five unthrottled local samples do not establish statistical significance or a production LCP gate. Maximum CLS rose to 0.00066015. Review the measured trade-off before release; no claim of unchanged LCP. No typography JS or application JS byte increase. One 49,256-byte display asset for Latin entries; zero new display resources for initial non-Latin entries.",
+    "reproduce": "QA_MODULES_DIR=/path/to/node_modules node scripts/typography-performance-qa.mjs (same sequential sampling method as recorded audit; run after all other suites)"
+  },
+  "validation": [
+    {
+      "command": "npm run typecheck",
+      "status": "PASS"
+    },
+    {
+      "command": "npm run lint",
+      "status": "FAIL_PRE_EXISTING",
+      "details": "Five no-explicit-any errors in .opencode/plugins/entire.ts at 18,199,244,254,402; file untouched; no lint configuration changes."
+    },
+    {
+      "command": "npx eslint . --ignore-pattern .opencode/plugins/entire.ts",
+      "status": "PASS",
+      "details": "Supplemental run only; does not convert full lint to PASS."
+    },
+    {
+      "command": "npm test",
+      "status": "PASS",
+      "tests": 222,
+      "failures": 0,
+      "skips": 0
+    },
+    {
+      "command": "npm run i18n:validate",
+      "status": "PASS_WITH_WARNINGS",
+      "errors": 0,
+      "warnings": 97
+    },
+    {
+      "command": "npm run i18n:coverage -- --strict",
+      "status": "PASS",
+      "locales": 11,
+      "unitsPerLocale": 1578,
+      "missing": 0,
+      "stale": 0
+    },
+    {
+      "command": "npm run artwork:check",
+      "status": "PASS",
+      "packs": 11
+    },
+    {
+      "command": "npm run assets:check",
+      "status": "PASS",
+      "approved": 72
+    },
+    {
+      "command": "npm run build",
+      "status": "PASS",
+      "details": "SWC native-cache sandbox error on first attempt resolved with approved execution; existing large chunk warnings retained."
+    },
+    {
+      "command": "node scripts/i18n-qa.mjs",
+      "status": "PASS",
+      "layouts": 88,
+      "details": "All eleven locales; locale/reading preference switches; PACE conversation state and English boundary."
+    },
+    {
+      "command": "node scripts/loader-qa.mjs",
+      "status": "PASS",
+      "scenarios": 21
+    },
+    {
+      "command": "node scripts/typography-qa.mjs",
+      "status": "PASS",
+      "cases": 58,
+      "details": "Final full matrix, followed by focused resampling of 16 light cases after contrast-only correction."
+    },
+    {
+      "command": "node scripts/typography-loading-qa.mjs",
+      "status": "PASS",
+      "scenarios": 7
+    },
+    {
+      "command": "python scripts/typography-font-audit.py",
+      "status": "PASS",
+      "details": "Audit-only FontTools in /tmp; actual binary cmap."
+    },
+    {
+      "command": "node scripts/baa-contrast-qa.mjs",
+      "status": "PASS",
+      "cases": 6
+    },
+    {
+      "command": "git diff --check -- <task-modified source files>",
+      "status": "PASS",
+      "details": "Full tree reports existing trailing whitespace in preserved owner document."
+    },
+    {
+      "command": "node --check scripts/typography-performance-qa.mjs",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Chrome/macOS local browser evidence, not cross-browser or live-site validation.",
+    "Native font coverage/rendering inspected; no fluent native editorial review.",
+    "200% reflow-equivalent checked, browser chrome zoom setting and screen-reader speech not tested.",
+    "Performance median increase is recorded; production throttled/network LCP remains unqualified.",
+    "Existing lint errors and translation editorial warnings remain."
+  ],
+  "rawEvidenceRoot": "output/playwright/pme-type-1.6",
+  "finalSourceHashes": {
+    "scripts/public-assets.json": "9e75d6a0cc5eddd7b1e9ce3545e764cadca7ba4e9a782f79089e45ad4efe931d",
+    "src/Readability.css": "22228a98d22161ee1d66e5fc683304c7c89905536ef28d2ae9c28a8a6f5f5b02",
+    "src/SystemDiagrams.css": "bf19d815908c1bd9e443cd5da4f57cc2052611e81cd4dcf791c24da4b9d2fcd5",
+    "src/i18n/i18n.css": "d876d3b1363778b6ea025987d2d75ed5f20f6fe7d41de3c1f753960172f8961d",
+    "src/main.tsx": "c12d6647d784b04fc8093ead036011321ae9283f98a61ca19e3a24668f816f87",
+    "public/fonts/editorial/Space-Grotesk-OFL.txt": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+    "public/fonts/editorial/manifest.json": "a3de4f655b6f4dbe0efe72d6760f51aa20a510adc9cdea1026eb19f128f0c88b",
+    "public/fonts/editorial/space-grotesk-variable.woff2": "8e085aa438094f11487a836652edd5c054fa6a96f63fc7c282105ee3a4b08c07",
+    "scripts/typography-font-audit.py": "493b866d0495f59b6017cc6248e3c531d5926ad92c34c66c8dca7dc5fcdccdae",
+    "scripts/typography-loading-qa.mjs": "849b19af7e84177bf98041fe147a5b9d727d3ad3458c9347095a6d3b35ad4338",
+    "scripts/typography-qa.mjs": "d29d0eac48dd702d8cd86998e96682f1debac32c0440478514c29043509d97cb",
+    "src/Typography.css": "91d5b335688d74bba2321330c380f644ba74d8b40593d83c5bb4cff6fbbe800e",
+    "tests/typography.test.mjs": "21c44279f9bfb5678255264ebd04e5f5c39603d64dad22c1b919965c25de15b1",
+    "scripts/typography-performance-qa.mjs": "f1d855fd1b2bca79acba0a87f6c2a06aebc21ebd84916058fe039886ec50b17c"
+  },
+  "rawCheckLogs": "output/playwright/pme-type-1.6/checks",
+  "rawTestLogSha256": "2748f7b6ae8e5d19197a99bc164e734a743d257c40f9510adc55aee5897800f4"
+}

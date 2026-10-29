@@ -1576,5 +1576,20 @@
   "Calendar display": "Visualización del calendario",
   "Cultural calendar (Default)": "Calendario cultural (Predeterminado)",
   "Gregorian only": "Solo gregoriano",
-  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "Los calendarios culturales se muestran de forma predeterminada, con referencias gregorianas cuando corresponda. Elige Solo gregoriano para mostrar las fechas con el calendario gregoriano."
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "Los calendarios culturales se muestran de forma predeterminada, con referencias gregorianas cuando corresponda. Elige Solo gregoriano para mostrar las fechas con el calendario gregoriano.",
+  "Content last revised:": "Última revisión del contenido:",
+  "Knowledge last synchronized:": "Última sincronización del conocimiento:",
+  "Knowledge synchronization date unavailable.": "La fecha de sincronización del conocimiento no está disponible.",
+  "Site build:": "Compilación del sitio:",
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": "Este asistente utiliza una instantánea revisada del portafolio y de sus fuentes de respaldo publicadas. Es posible que aún no se incluyan los cambios en los repositorios posteriores a esta instantánea.",
+  "Canonical English content last revised:": "Última revisión del contenido original en inglés:",
+  "Results are ready. You can keep searching.": "Los resultados están listos. Puedes seguir buscando.",
+  "Improving suggestions. You can keep searching.": "Mejorando las sugerencias. Puedes seguir buscando.",
+  "Suggestions updated. Similarity does not verify an answer.": "Sugerencias actualizadas. La similitud no verifica una respuesta.",
+  "Enhanced search is unavailable. Your existing results remain usable.": "La búsqueda mejorada no está disponible. Tus resultados actuales siguen siendo utilizables.",
+  "Enhancement cancelled. Your existing results remain usable.": "Mejora cancelada. Tus resultados actuales siguen siendo utilizables.",
+  "Results are ready. Enhanced search is optional.": "Los resultados están listos. La búsqueda mejorada es opcional.",
+  "Improve suggestions": "Mejorar sugerencias",
+  "Retry enhanced search": "Reintentar búsqueda mejorada",
+  "Cancel enhancement": "Cancelar mejora"
 }

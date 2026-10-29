@@ -1,0 +1,2 @@
+.content-freshness { color: var(--strong-muted, currentColor); font-family: var(--font-body, inherit); font-size: .78rem; line-height: 1.6; margin-block: .6rem; writing-mode: horizontal-tb; text-orientation: mixed; overflow-wrap: anywhere; }
+.content-freshness time { unicode-bidi: isolate; }

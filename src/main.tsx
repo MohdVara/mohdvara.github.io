@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot, hydrateRoot } from "react-dom/client";
 import "./index.css";
 import "./i18n/i18n.css";
+import "./Typography.css";
 import RouteRecovery from "./RouteRecovery";
 import Experience from "./i18n/Experience";
 import { i18n, loadLocale } from "./i18n/config";

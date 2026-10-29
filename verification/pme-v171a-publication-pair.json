@@ -1,0 +1,287 @@
+{
+  "id": "pme-v171a-publication-pair",
+  "status": "PRE-COMMIT PREPARATION",
+  "observedAt": "2026-10-29T18:42:25.013500+00:00",
+  "releaseSourceCommits": {
+    "portfolio": null,
+    "paceRag": null
+  },
+  "currentHeads": {
+    "mohdvara.github.io": {
+      "head": "79e897e73bce97adf4347a4522513249154ca783",
+      "branch": "main",
+      "tracking": "origin/main",
+      "cachedAheadBehind": "2\t0"
+    },
+    "pace-rag": {
+      "head": "1a517cac30ec321944b3da5a2a18858a1bf53500",
+      "branch": "main",
+      "tracking": "origin/main",
+      "cachedAheadBehind": "1\t0"
+    }
+  },
+  "proposedSourceFingerprints": {
+    "mohdvara.github.io": "2adcf09a2601495ca8d265255b841f9c772fae79a0bf6933762bb65dc364cbfa",
+    "pace-rag": "4f9f6e95d89f58b9ffd6003177654942a2f2288b71f7446a0e8308bfd01fd18d"
+  },
+  "fingerprintMethod": "SHA256 of sorted path,NUL,proposed file SHA256,newline; excludes self-referential publication record family; owner-excluded tracked changes use HEAD bytes",
+  "integration": {
+    "version": "1.6.2-closure.2",
+    "archiveSha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+    "archivePath": "vendor/pace-rag-portfolio-assistant-1.6.2-closure.2.tgz",
+    "registryPublication": false,
+    "lockfileIntegrityMatches": true,
+    "lockfileIntegrity": "sha512-NCcQZOBKMKex1qWP+Mw3ZaJBkOP/MEXSPAi2Wzcy2UKwQNoOFL1MxWKkfWg+EHnewuAW+I4M/4R887nIs+R61g=="
+  },
+  "lockfiles": {
+    "mohdvara.github.io": "50f48cf94b699ead206c1ec867e045a08df78fdd87784e74f0c460a65448a092",
+    "pace-rag": "4a0ab213bcf5bab7aaeafc40c11abfff59e8738a0a86cc58d3dde344c96e0173"
+  },
+  "knowledge": {
+    "corpusVersion": "b0e1b371c34d449b",
+    "packetHash": "9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286",
+    "manifestSchema": 1,
+    "embeddingSpecId": "minilm-q8-wasm-v1",
+    "indexedAt": "2026-10-29T05:03:43.315Z",
+    "checkedAt": "2026-10-29T03:52:05.964Z",
+    "documents": 35,
+    "activeReviewedAnswers": 51,
+    "retiredAnswers": 2,
+    "questionRows": 70,
+    "chunks": 196,
+    "activationPerformed": false,
+    "assetHashes": {
+      "answers": {
+        "sha256": "6cd9a45c280232e30c4b264989c801a452bc9a8942be04ae97a14ce7d7c325bc",
+        "bytes": 82060
+      },
+      "documents": {
+        "sha256": "7cda55720ba9c61fadc41efcb0761ba1ac58505033c0dd95317a8b6cff963268",
+        "bytes": 96784
+      },
+      "chunks": {
+        "sha256": "b1fdf5b6ddb27a0300e8ff5eb964922996836e962a02e65ed83bd6ccd96f7b3b",
+        "bytes": 374229
+      },
+      "technology": {
+        "sha256": "495375a3ea1825301e250e183a977802f5122463b072b7ca17222810d547bd9a",
+        "bytes": 6239
+      },
+      "retirements": {
+        "sha256": "5ee66745a1bfc0f03c529b7013ddaa7a5cdebfbe85ddcbc8a173f99ae0228c23",
+        "bytes": 402
+      },
+      "questionVectors": {
+        "sha256": "06b3a48ca0319972063b84df1eb7ce9a7092d252c1012835b64556df69f472df",
+        "bytes": 107520
+      },
+      "chunkVectors": {
+        "sha256": "2166aa9531e5f55ab6852b027d07013803d23de9873166cee873f590548210e6",
+        "bytes": 301056
+      }
+    },
+    "inventorySha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+  },
+  "runtime": {
+    "node": "22.23.4",
+    "npm": "10.9.9",
+    "lastSuccessfulProviderBuilds": "Node22.23.4 observed in both provider logs; no explicit NODE_VERSION overrides"
+  },
+  "historicalPreCommitArtifacts": [
+    {
+      "name": "portfolio-v171-local-rollback",
+      "sha256": "ee5c098aca09015d36861b8c5970563c1505aa60c8c6056df99626c46a512df6",
+      "archiveBytes": 34245899,
+      "treeSha256": "0d5b0a994e82ab95b7afce50fc01a6b90ae98d8d8855dd06db1e1d1d51fa5d7b",
+      "fileCount": 309,
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true,
+      "path": "output/playwright/pme-v171a/releases/portfolio-v171-local-rollback.tar.gz",
+      "sha256MatchesCurrentFile": true,
+      "use": "historical pre-commit review/rollback rehearsal only; not final publication artifact"
+    },
+    {
+      "name": "pace-v171-local-rollback",
+      "sha256": "2742a047eb9f3e977dfd87902cd2d08874db75cb56d5296d46f138b5421f629e",
+      "archiveBytes": 52467416,
+      "treeSha256": "bea76e954079a71d565a1741fdc31d5c09488251aa0f2ab579cc1f5660108cba",
+      "fileCount": 172,
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true,
+      "path": "output/playwright/pme-v171a/releases/pace-v171-local-rollback.tar.gz",
+      "sha256MatchesCurrentFile": true,
+      "use": "historical pre-commit review/rollback rehearsal only; not final publication artifact"
+    },
+    {
+      "name": "portfolio-v171a-candidate",
+      "sha256": "c644f6539ea5259a22dc8af38c20c572bd5552a7feeea44ee9ddd17b60a90ec2",
+      "archiveBytes": 34248644,
+      "treeSha256": "d09316610c5cfe65a90367df135ee9e8934357649e0d8d8c9afa81a506b328fb",
+      "fileCount": 309,
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true,
+      "path": "output/playwright/pme-v171a/releases/portfolio-v171a-candidate.tar.gz",
+      "sha256MatchesCurrentFile": true,
+      "use": "historical pre-commit review/rollback rehearsal only; not final publication artifact"
+    },
+    {
+      "name": "pace-v171a-candidate",
+      "sha256": "1d9e6dd0b7563596c85b4cd23763c2de39b939c64f9d603c778bea028c364ffc",
+      "archiveBytes": 52468167,
+      "treeSha256": "d90e2ed3273b5f25648ca8ef8ccc6993ad2ccceb9b072735985404e8062ee66d",
+      "fileCount": 171,
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true,
+      "path": "output/playwright/pme-v171a/releases/pace-v171a-candidate.tar.gz",
+      "sha256MatchesCurrentFile": true,
+      "use": "historical pre-commit review/rollback rehearsal only; not final publication artifact"
+    }
+  ],
+  "finalArtifactFreeze": null,
+  "finalCleanCheckoutVerification": "PENDING actual authorized commits; current worktree checks are not substituted",
+  "deploymentMechanism": {
+    "portfolio": "Existing Cloudflare native Git integration, main branch",
+    "paceRag": "Existing Cloudflare native Git integration, main branch",
+    "order": [
+      "portfolio push and provider deployment",
+      "live portfolio/inventory verification",
+      "PACE companion variable set to real portfolio SHA when separately authorized",
+      "PACE push and provider deployment"
+    ],
+    "additionalWranglerUpload": false,
+    "cloudflareConfigurationChanges": []
+  },
+  "dependencyGraph": [
+    "Freeze PACE integration sources and reviewed archive independently of Git HEAD",
+    "Portfolio pins exact archive and lockfile; commit complete portfolio prerequisites after Gate1",
+    "Obtain real portfolio commit SHA; prepare exact GitHub variable update without executing under Gate1",
+    "Commit complete PACE source after Gate1; no need to embed portfolio SHA into integration archive",
+    "Clean-clone actual commits, re-create package into ignored output and compare byte identity; mismatch stops freeze",
+    "Rebuild/refreeze final apps and pair using actual commit metadata",
+    "Before PACE push, companion commit must already be available remotely and GitHub variable update separately authorized"
+  ],
+  "cleanCheckoutCommands": {
+    "portfolio": [
+      "npm ci --ignore-scripts",
+      "npm run typecheck",
+      "npm run lint:app",
+      "npm run lint:generated # known5errors",
+      "npm run lint:full # known5errors",
+      "npm test",
+      "npm run build",
+      "npm run i18n:validate",
+      "npm run i18n:coverage -- --strict",
+      "npm run assets:check"
+    ],
+    "paceRag": [
+      "npm ci --ignore-scripts",
+      "npm run model:prepare",
+      "npx --no-install playwright install chromium",
+      "npx --no-install vite build --config vite.worker.config.ts",
+      "node scripts/worker-assets.mjs",
+      "node scripts/indexing/build.mjs --release --embed # regenerate index from unchanged approved inputs; verify retained indexedAt",
+      "npm run lint",
+      "npm run typecheck",
+      "npm test",
+      "npm run eval:knowledge-sync",
+      "npm run eval:knowledge-sync -- --semantic",
+      "npm run release:check",
+      "npm run build:release",
+      "npm run index:verify",
+      "npm run package:portfolio",
+      "npm pack --workspace @pace-rag/portfolio-assistant --pack-destination <ignored-release-output>",
+      "npm run package:static -- --release",
+      "npm run release:artifact-check"
+    ]
+  },
+  "unchangedPackageRequirement": "Rebuilt archive must equal pinned SHA; do not overwrite vendor or lock to hide mismatch. No new corpus activation.",
+  "knownLimitationsPreserved": true,
+  "currentWorktreeVerification": {
+    "portfolioTests": {
+      "tests": 233,
+      "pass": 233,
+      "fail": 0,
+      "skipped": 0
+    },
+    "paceTests": {
+      "tests": 129,
+      "pass": 129,
+      "fail": 0,
+      "skipped": 0
+    },
+    "portfolioCommands": [
+      {
+        "command": "npm run typecheck",
+        "exitCode": 0,
+        "log": "portfolio-typecheck.log"
+      },
+      {
+        "command": "npm run lint:app",
+        "exitCode": 0,
+        "log": "portfolio-app-lint.log"
+      },
+      {
+        "command": "npm run lint:generated",
+        "exitCode": 1,
+        "log": "portfolio-generated-lint.log"
+      },
+      {
+        "command": "npm run lint:full",
+        "exitCode": 1,
+        "log": "portfolio-full-lint.log"
+      },
+      {
+        "command": "npm run i18n:validate",
+        "exitCode": 0,
+        "log": "portfolio-i18n.log"
+      },
+      {
+        "command": "npm run i18n:coverage -- --strict",
+        "exitCode": 0,
+        "log": "portfolio-coverage.log"
+      },
+      {
+        "command": "npm run knowledge:check",
+        "exitCode": 0,
+        "log": "portfolio-knowledge.log"
+      },
+      {
+        "command": "npm run assets:check",
+        "exitCode": 0,
+        "log": "portfolio-assets.log"
+      }
+    ],
+    "paceCommands": [
+      {
+        "command": "npm run typecheck",
+        "exitCode": 0,
+        "log": "pace-typecheck.log"
+      },
+      {
+        "command": "npm run lint",
+        "exitCode": 0,
+        "log": "pace-lint.log"
+      },
+      {
+        "command": "npm run release:check",
+        "exitCode": 0,
+        "log": "pace-release.log"
+      },
+      {
+        "command": "npm run index:verify",
+        "exitCode": 0,
+        "log": "pace-index.log"
+      },
+      {
+        "command": "node scripts/closure-acceptance.mjs",
+        "exitCode": 0,
+        "log": "pace-closure.log"
+      }
+    ],
+    "scope": "Fresh current-source checks; not final clean-commit build verification"
+  }
+}

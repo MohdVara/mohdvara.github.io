@@ -1,3 +1,4 @@
+import ContentFreshness from "./ContentFreshness";
 import BuildRevision from "./BuildRevision";
 import { useOptionalMotion } from "./useOptionalMotion";
 import CaseStudyQuickRead from "./CaseStudyQuickRead";
@@ -256,7 +257,7 @@ function AdditionalSystems() {
     <div className="case-body">
       {localizedContent(technologyExperience.filter(record => !record.projectId).map(record => <article id={record.anchor} key={record.id}>
         <h3 tabIndex={-1}>{localizedContent(record.projectTitle)}</h3>
-        <TechnologySummary record={record} />
+        <ContentFreshness contentId={record.id}/><TechnologySummary record={record} />
       </article>))}
     </div>
   </details>;
@@ -304,6 +305,7 @@ function SelectedWork() {
                   <span aria-hidden="true">+</span>
                 </summary>
                 <div className="case-body">
+                  <ContentFreshness contentId={project.id}/>
                   {project.details.some(([label]) => label === "Key Engineering Decision") && <CaseStudyQuickRead commercial id={`commercial-${project.id}`} item={{
                     name: project.title,
                     problem: project.details.find(([label]) => /problem/i.test(label))?.[1] || project.summary,

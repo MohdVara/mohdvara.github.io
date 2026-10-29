@@ -1576,5 +1576,20 @@
   "Calendar display": "عرض التقويم",
   "Cultural calendar (Default)": "التقويم الثقافي (الافتراضي)",
   "Gregorian only": "الميلادي فقط",
-  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "تُعرض التقويمات الثقافية افتراضيًا، مع مراجع ميلادية حيثما ينطبق ذلك. اختر الميلادي فقط لعرض التواريخ بالتقويم الميلادي."
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "تُعرض التقويمات الثقافية افتراضيًا، مع مراجع ميلادية حيثما ينطبق ذلك. اختر الميلادي فقط لعرض التواريخ بالتقويم الميلادي.",
+  "Content last revised:": "آخر تعديل للمحتوى:",
+  "Knowledge last synchronized:": "آخر مزامنة للمعرفة:",
+  "Knowledge synchronization date unavailable.": "تاريخ مزامنة المعرفة غير متاح.",
+  "Site build:": "إنشاء الموقع:",
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": "يستخدم هذا المساعد لقطة مُراجعة من ملف الأعمال ومصادره الداعمة المنشورة. قد لا تتضمن تغييرات المستودعات بعد هذه اللقطة بعد.",
+  "Canonical English content last revised:": "آخر تعديل للمحتوى الإنجليزي الأصلي:",
+  "Results are ready. You can keep searching.": "النتائج جاهزة. يمكنك مواصلة البحث.",
+  "Improving suggestions. You can keep searching.": "جارٍ تحسين الاقتراحات. يمكنك مواصلة البحث.",
+  "Suggestions updated. Similarity does not verify an answer.": "تم تحديث الاقتراحات. التشابه لا يثبت صحة الإجابة.",
+  "Enhanced search is unavailable. Your existing results remain usable.": "البحث المحسّن غير متاح. لا تزال نتائجك الحالية قابلة للاستخدام.",
+  "Enhancement cancelled. Your existing results remain usable.": "تم إلغاء التحسين. لا تزال نتائجك الحالية قابلة للاستخدام.",
+  "Results are ready. Enhanced search is optional.": "النتائج جاهزة. البحث المحسّن اختياري.",
+  "Improve suggestions": "تحسين الاقتراحات",
+  "Retry enhanced search": "إعادة محاولة البحث المحسّن",
+  "Cancel enhancement": "إلغاء التحسين"
 }

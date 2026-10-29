@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 
 // CI identifies the checkout; local builds use Git. Never query the moving
@@ -10,4 +11,14 @@ export function buildRevision(env = process.env, readGit = () => execFileSync("g
   } catch {
     return null;
   }
+}
+
+export function siteBuildInfo(env=process.env) {
+  try { const cached=JSON.parse(readFileSync(new URL('../output/build/site-build.json',import.meta.url),'utf8'));if(typeof cached.generatedAt==='string'&&Number.isFinite(Date.parse(cached.generatedAt)))return cached; } catch { /* Dev without a preceding metadata step. */ }
+  return createSiteBuildInfo(env);
+}
+export function createSiteBuildInfo(env=process.env) {
+  const commitSha=buildRevision(env);
+  const generatedAt=new Date().toISOString();
+  return {buildId: (commitSha || 'local') + '-' + generatedAt, generatedAt, commitSha};
 }

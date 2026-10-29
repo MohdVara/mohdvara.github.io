@@ -9801,6 +9801,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "ar": {
@@ -19603,6 +19702,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "ja": {
@@ -29405,6 +29603,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "zh-Hans": {
@@ -39207,6 +39504,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "es": {
@@ -49009,6 +49405,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "fr": {
@@ -58813,6 +59308,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "de": {
@@ -68615,6 +69209,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "pt-BR": {
@@ -78419,6 +79112,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "hi": {
@@ -88221,6 +89013,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     },
     "ta": {
@@ -98023,6 +98914,105 @@
         "sourceHash": "edbd29e78a187a695eb0a5bd6749fea6e40d734bd09393898431c6c378d2df70",
         "provider": "development-assistant",
         "model": "session-assistant"
+      },
+      "Content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "0f951335ce5a961a3b49e99fbfe4d69ebca6f2a3210dd22bbaf97efcd4455bdd",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Site build:": {
+        "status": "machine_translated",
+        "sourceHash": "b506f3346ca2ab3dd7c4bffeabe9fa5380b44cb76d0ddbd957a5e5b33acfba76",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge last synchronized:": {
+        "status": "machine_translated",
+        "sourceHash": "9544f43271dfa651ada52799fb16b4fa8859a49d2ad15231f2d9dc6bcf5d84b9",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Knowledge synchronization date unavailable.": {
+        "status": "machine_translated",
+        "sourceHash": "28c825e7d02f7a60f2da8917dfff57c73dc464b1d5ab2f2f72cf487ce93e614b",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": {
+        "status": "machine_translated",
+        "sourceHash": "678dbfd8de1567f2d1365cfbcf2548c8b660de725f1b3ccd469444cf15bc5745",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Canonical English content last revised:": {
+        "status": "machine_translated",
+        "sourceHash": "fab45f6dceea085451d88957ddae45d35dfb8f7f769adbbe555837278bd725ba",
+        "provider": "coding-assistant",
+        "model": "Codex; direct authoring, no fluent editorial review"
+      },
+      "Results are ready. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "c83c8db528dd78d19de2728c20f34c11abe76f987ecd07206b232cb4ca4a5bae",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improving suggestions. You can keep searching.": {
+        "status": "machine_translated",
+        "sourceHash": "1b322962ab6ad3db78a5e1796ec2e1e740da931165d472359970cf3205c2dab8",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Suggestions updated. Similarity does not verify an answer.": {
+        "status": "machine_translated",
+        "sourceHash": "a8f8184a981afa70917509a12f580a0ddb2af4c9563769c0777a4bdb41a37118",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhanced search is unavailable. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "0e346b54927eebb88a16c0d7d0d2e9bd18d7c22ab815969fd584d7bee2ba0048",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Enhancement cancelled. Your existing results remain usable.": {
+        "status": "machine_translated",
+        "sourceHash": "a9ac2ee4d35a2db438823c7ea68f724b3c655dfaf6d1bc30a8cbd316cbe9e0ce",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Results are ready. Enhanced search is optional.": {
+        "status": "machine_translated",
+        "sourceHash": "b4e171e44a8452f0b6defbc2566beb7b2294a059f633dfa5962da3d539b31ef0",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Improve suggestions": {
+        "status": "machine_translated",
+        "sourceHash": "0ecf8a12e91a6c862c47e91ff22cb82f41967427d71951ab3a66cc3ca405009f",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Retry enhanced search": {
+        "status": "machine_translated",
+        "sourceHash": "a68debb3b7c4c3ed73ecb7c949e6daa74a69703888a5a4f842b24fbbed7d08ee",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
+      },
+      "Cancel enhancement": {
+        "status": "machine_translated",
+        "sourceHash": "4c4e90f1d6e61623dc1ff1a4653fb5d27171eb67731c26e402e3c3c1fa31e015",
+        "provider": "development-assistant",
+        "model": "session-assistant",
+        "basis": "PME v1.7.1a UI-only semantic progress labels; no conversation/evidence translated; not native-reviewed"
       }
     }
   }

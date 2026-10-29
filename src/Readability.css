@@ -1,6 +1,8 @@
 .project > *, .public-repository > *, .engagement-problem > *, .capability-system > *, .experience-grid > * { min-width: 0; }
 .project-summary, .case-body, .about-copy, .public-repository-detail, .engagement-problem p { max-width: 65ch; }
 .hero-description { font-size: 1rem; }
+/* Keep narrative text legible over the light landscape at its faded edge. */
+:root[data-theme="light"] .hero-environment .hero-description { color: var(--strong-muted); }
 .project-meta, .project-scope, .public-repository-stack, .highlights span { font-size: .85rem; }
 .case-body, .project-summary { line-height: 1.75; }
 .career-path { height: 30rem; }
@@ -62,6 +64,15 @@
 :root[data-text-size="largest"] .public-repository { grid-template-columns: minmax(0, 1fr); }
 :root[data-text-size="largest"] .hero-copy { max-width: 42rem; }
 :root[data-text-size="largest"] .portrait { justify-self: center; }
+/* Long compounds reflow at the visitor's enlarged size instead of escaping
+   narrow narrative/evidence columns. No text is removed or scaled down. */
+:root[data-text-size="largest"] main { overflow-wrap: anywhere; }
+@media (max-width: 760px) {
+  /* display:contents uses the mobile hero's two explicit grid columns. Without
+     this, the portrait creates an implicit column and prose loses its span. */
+  :root[data-text-size="largest"] .hero-environment > .hero { grid-template-columns: minmax(0, 1fr) 84px; }
+  :root[data-text-size="largest"] .problem-translation-row { grid-template-columns: minmax(0, 1fr) 1em; }
+}
 :root[data-text-size="largest"] .experience-grid { grid-template-columns: minmax(0, 1fr); }
 :root[data-text-size="largest"] .experience-note { position: static; }
 :root[data-text-size="largest"] .career-path { height: auto; max-width: none; }

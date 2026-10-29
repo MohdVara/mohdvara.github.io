@@ -1,0 +1,43 @@
+/* PME pme-type-1.6: editorial faces never participate in artwork measurement.
+   No preload: only Latin-locale display elements request this full upstream face. */
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/editorial/space-grotesk-variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+:root {
+  --font-body-latin: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  --font-display-latin: "Space Grotesk", var(--font-body-latin);
+  --font-technical: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+  --type-display-tracking: -.04em;
+  --type-heading-tracking: -.025em;
+}
+
+/* Explicit locale allowlist: :lang(en) alone would also select the English
+   brand name inside Arabic/CJK pages and fetch a cosmetic Latin face there. */
+:root:is(:lang(en), :lang(ms), :lang(es), :lang(fr), :lang(de), :lang(pt-BR)) {
+  --font-hero-display: var(--font-display-latin);
+}
+
+:root:is(:lang(en), :lang(ms), :lang(es), :lang(fr), :lang(de), :lang(pt-BR))
+  :is(main h1, .section-heading h2, .engineering-case h2,
+      .engagement-page h2, .rag-case-study h2, .ntm-case h2,
+      .page-landscape-ending h2, .contact h2, .incident-callout h2,
+      .no-two-mondays h2) {
+  font-family: var(--font-display-latin);
+  font-weight: 600;
+  letter-spacing: var(--type-heading-tracking);
+}
+
+:root:is(:lang(en), :lang(ms), :lang(es), :lang(fr), :lang(de), :lang(pt-BR))
+  .hero-environment h1 {
+  letter-spacing: var(--type-display-tracking);
+  /* Retain the responsive scale and two-line name; give the counters air. */
+  line-height: 1.08;
+}
+
+/* Evidence keeps the established system face and its identifier spacing. */
+.mono { font-family: var(--font-technical); }

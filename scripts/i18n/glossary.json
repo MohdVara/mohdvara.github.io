@@ -67,7 +67,8 @@
     "Express",
     "Mocha",
     "Chai",
-    "Workers AI"
+    "Workers AI",
+    "UTC"
   ],
   "instructions": "Professional engineering portfolio. Keep claims, uncertainty, dates, numbers and scope unchanged. Do not invent credentials, employers, metrics or technologies. Translate role descriptions naturally. Protect names and identifiers."
 }

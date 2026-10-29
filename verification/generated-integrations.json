@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "policy": "Maintained application TypeScript stays under the original ESLint rules; maintained .mjs tooling also receives syntax checks. Only this byte-verified generated integration is reported separately. Original repository-wide lint remains available and failing until upstream resolves its diagnostics.",
+  "files": [{
+    "path": ".opencode/plugins/entire.ts",
+    "tool": "Entire CLI OpenCode generator",
+    "generatorCommand": "entire enable --agent opencode",
+    "generatorVersionObserved": "0.12.2",
+    "sha256": "569fb4bd1e10bfbdd2eb5b379c4e6e541c9f254d893e22ac3c8ca8604c94dafb",
+    "provenance": "Identical output reproduced in an isolated temporary repository with initial commits and session pushes disabled; application repository plugin not modified.",
+    "knownUpstreamDiagnostics": {"rule": "@typescript-eslint/no-explicit-any", "count": 5, "lines": [18,199,244,254,402]},
+    "remediation": "Use an upstream-supported generator fix, then explicitly review the generated diff and update this registry. A changed or authored replacement fails the application boundary check. Do not hand-patch or broadly ignore .opencode."
+  }]
+}

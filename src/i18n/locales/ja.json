@@ -1576,5 +1576,20 @@
   "Calendar display": "暦の表示",
   "Cultural calendar (Default)": "文化に応じた暦（既定）",
   "Gregorian only": "西暦のみ",
-  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "既定では言語の文化に応じた暦を表示し、必要に応じて西暦を併記します。「西暦のみ」を選ぶと、日付をグレゴリオ暦で表示します。"
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "既定では言語の文化に応じた暦を表示し、必要に応じて西暦を併記します。「西暦のみ」を選ぶと、日付をグレゴリオ暦で表示します。",
+  "Content last revised:": "コンテンツの最終改訂:",
+  "Knowledge last synchronized:": "ナレッジの最終同期:",
+  "Knowledge synchronization date unavailable.": "ナレッジの同期日は不明です。",
+  "Site build:": "サイトのビルド:",
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": "このアシスタントは、ポートフォリオと公開された裏付け資料のレビュー済みスナップショットを使用します。スナップショット以降のリポジトリの変更は、まだ反映されていない場合があります。",
+  "Canonical English content last revised:": "英語原文の最終改訂:",
+  "Results are ready. You can keep searching.": "結果を表示しています。引き続き検索できます。",
+  "Improving suggestions. You can keep searching.": "候補の関連度を改善しています。引き続き検索できます。",
+  "Suggestions updated. Similarity does not verify an answer.": "候補を更新しました。類似性は回答の正しさを保証しません。",
+  "Enhanced search is unavailable. Your existing results remain usable.": "拡張検索は利用できません。現在の結果は引き続き利用できます。",
+  "Enhancement cancelled. Your existing results remain usable.": "改善をキャンセルしました。現在の結果は引き続き利用できます。",
+  "Results are ready. Enhanced search is optional.": "結果を表示しています。拡張検索は任意です。",
+  "Improve suggestions": "候補を改善",
+  "Retry enhanced search": "拡張検索を再試行",
+  "Cancel enhancement": "改善をキャンセル"
 }

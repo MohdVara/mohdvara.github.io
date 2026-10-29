@@ -473,6 +473,15 @@
   "Case study contents": [
     "src/CaseStudySummary.tsx"
   ],
+  "Content last revised:": [
+    "src/ContentFreshness.tsx"
+  ],
+  "Canonical English content last revised:": [
+    "src/ContentFreshness.tsx"
+  ],
+  "Site build:": [
+    "src/ContentFreshness.tsx"
+  ],
   "Untangle domain rules, improve integration boundaries and modernise the parts of a system that make change difficult.": [
     "src/EngagementContent.ts"
   ],
@@ -1670,6 +1679,42 @@
     "src/NotFoundLandscape.tsx"
   ],
   "PACE-RAG supports English questions and answers only. Please ask your question in English.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Knowledge last synchronized:": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Knowledge synchronization date unavailable.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Results are ready. You can keep searching.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Improving suggestions. You can keep searching.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Suggestions updated. Similarity does not verify an answer.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Enhanced search is unavailable. Your existing results remain usable.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Enhancement cancelled. Your existing results remain usable.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Results are ready. Enhanced search is optional.": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Improve suggestions": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Retry enhanced search": [
+    "src/PaceAssistant.tsx"
+  ],
+  "Cancel enhancement": [
     "src/PaceAssistant.tsx"
   ],
   "The assistant could not load.": [

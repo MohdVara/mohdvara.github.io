@@ -55,3 +55,8 @@ public/pace-rag/
 
 # Local case-study authoring and QA artifacts
 /output/case-study-expansion/
+
+# Local release-hardening evidence/archives; tracked summaries live in docs and verification.
+/output/pme-v171/
+# Build metadata is generated once per artifact, never source-controlled freshness.
+/output/build/

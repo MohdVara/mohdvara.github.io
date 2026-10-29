@@ -1,3 +1,4 @@
+import ContentFreshness from "./ContentFreshness";
 import CaseStudyQuickRead from "./CaseStudyQuickRead";
 import { quickReads, type StudyId } from "./caseStudies";
 import { localizedHref, text } from "./i18n/config";
@@ -10,8 +11,8 @@ const actions: Record<StudyId, [string, string][]> = {
   incident: [["Evidence sources", "#incident-evidence"]],
 };
 export default function CaseStudySummary({study}: {study: StudyId}) {
-  return <CaseStudyQuickRead item={quickReads[study]} id={study} actions={<nav className="quick-read-actions" aria-label={text("Case study contents")}>
+  return <><ContentFreshness contentId={study}/><CaseStudyQuickRead item={quickReads[study]} id={study} actions={<nav className="quick-read-actions" aria-label={text("Case study contents")}>
     {actions[study].map(([label, href]) => <a key={href} href={href}>{text(label)}</a>)}
     <a href={localizedHref("/#contact")}>{text("Contact")}</a>
-  </nav>} />;
+  </nav>} /></>;
 }

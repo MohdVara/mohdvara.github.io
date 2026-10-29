@@ -1576,5 +1576,20 @@
   "Calendar display": "நாட்காட்டி காட்சி",
   "Cultural calendar (Default)": "பண்பாட்டு நாட்காட்டி (இயல்புநிலை)",
   "Gregorian only": "கிரிகோரியன் மட்டும்",
-  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "பண்பாட்டு நாட்காட்டிகள் இயல்பாகக் காட்டப்படும்; பொருந்தும் இடங்களில் கிரிகோரியன் தேதிகளும் காட்டப்படும். கிரிகோரியன் நாட்காட்டியில் மட்டும் தேதிகளைக் காண, கிரிகோரியன் மட்டும் என்பதைத் தேர்ந்தெடுக்கவும்."
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "பண்பாட்டு நாட்காட்டிகள் இயல்பாகக் காட்டப்படும்; பொருந்தும் இடங்களில் கிரிகோரியன் தேதிகளும் காட்டப்படும். கிரிகோரியன் நாட்காட்டியில் மட்டும் தேதிகளைக் காண, கிரிகோரியன் மட்டும் என்பதைத் தேர்ந்தெடுக்கவும்.",
+  "Content last revised:": "உள்ளடக்கம் கடைசியாகத் திருத்தப்பட்டது:",
+  "Knowledge last synchronized:": "அறிவு கடைசியாக ஒத்திசைக்கப்பட்டது:",
+  "Knowledge synchronization date unavailable.": "அறிவு ஒத்திசைவு தேதி கிடைக்கவில்லை.",
+  "Site build:": "தள உருவாக்கம்:",
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": "இந்த உதவியாளர், பணித்தொகுப்பு மற்றும் அதன் வெளியிடப்பட்ட ஆதாரங்களின் மதிப்பாய்வு செய்யப்பட்ட பதிவைப் பயன்படுத்துகிறது. இந்தப் பதிவுக்குப் பிறகு களஞ்சியங்களில் செய்யப்பட்ட மாற்றங்கள் இன்னும் சேர்க்கப்படாமல் இருக்கலாம்.",
+  "Canonical English content last revised:": "அசல் ஆங்கில உள்ளடக்கம் கடைசியாகத் திருத்தப்பட்டது:",
+  "Results are ready. You can keep searching.": "முடிவுகள் தயாராக உள்ளன. நீங்கள் தொடர்ந்து தேடலாம்.",
+  "Improving suggestions. You can keep searching.": "பரிந்துரைகள் மேம்படுத்தப்படுகின்றன. நீங்கள் தொடர்ந்து தேடலாம்.",
+  "Suggestions updated. Similarity does not verify an answer.": "பரிந்துரைகள் புதுப்பிக்கப்பட்டன. ஒற்றுமை ஒரு பதிலின் உண்மைத்தன்மையை உறுதிப்படுத்தாது.",
+  "Enhanced search is unavailable. Your existing results remain usable.": "மேம்படுத்தப்பட்ட தேடல் கிடைக்கவில்லை. ஏற்கனவே உள்ள முடிவுகளைத் தொடர்ந்து பயன்படுத்தலாம்.",
+  "Enhancement cancelled. Your existing results remain usable.": "மேம்படுத்தல் ரத்து செய்யப்பட்டது. ஏற்கனவே உள்ள முடிவுகளைத் தொடர்ந்து பயன்படுத்தலாம்.",
+  "Results are ready. Enhanced search is optional.": "முடிவுகள் தயாராக உள்ளன. மேம்படுத்தப்பட்ட தேடல் விருப்பத்திற்குரியது.",
+  "Improve suggestions": "பரிந்துரைகளை மேம்படுத்து",
+  "Retry enhanced search": "மேம்படுத்தப்பட்ட தேடலை மீண்டும் முயற்சி செய்",
+  "Cancel enhancement": "மேம்படுத்தலை ரத்து செய்"
 }

@@ -1,0 +1,1435 @@
+{
+  "id": "pme-knowledge-1.7",
+  "recordedAt": "2026-10-29T06:09:24.962545Z",
+  "status": "owner-approved-activated-and-locally-verified",
+  "ownerApproval": {
+    "scope": "publication",
+    "packetHash": "9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286",
+    "reviewer": "Mohd. Paramasvara (owner)",
+    "approvedAt": "2026-10-29T05:02:45.301Z",
+    "ownerStatement": "Just approve the pending owner approval for those knowledge.",
+    "authorizationBasis": "Explicit owner approval of the current pending PME v1.7 knowledge packet in this session",
+    "limits": "Local knowledge activation, indexing, verification and packaging. No commit, push, remote publication or deployment authorized."
+  },
+  "repositories": {
+    "portfolio": {
+      "head": "79e897e73bce97adf4347a4522513249154ca783",
+      "branch": "main"
+    },
+    "pace-rag": {
+      "head": "1a517cac30ec321944b3da5a2a18858a1bf53500",
+      "branch": "main"
+    }
+  },
+  "inventory": {
+    "projects": 15,
+    "explicitRepositories": 6,
+    "sourceRecords": 24,
+    "runtimeDocuments": 35,
+    "activeAnswers": 51,
+    "retiredAnswers": 2,
+    "newQuestions": 8,
+    "affectedPriorAnswers": 32
+  },
+  "runtimeManifest": {
+    "freshness": {
+      "upstream": {
+        "snapshotId": "portfolio-7846a374e01875d9",
+        "sourceFingerprint": "7846a374e01875d9d60dc33e51345643e3b275cbff971da8fbe84284d366b766",
+        "packetHash": "9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286"
+      },
+      "schemaVersion": 1,
+      "snapshotId": "b0e1b371c34d449b",
+      "sourceFingerprint": "f58d786bbf1af5d8d0fee06d691225ffb42738b2564a6d8e06e68bb9e50e9faa",
+      "canonicalInputFingerprint": "8978a520c235ff6edfa261844e2cc7d90a39c75df1aed5ad13defab2b068cc6f",
+      "indexedAt": "2026-10-29T05:03:43.315Z",
+      "checkedAt": "2026-10-29T03:52:05.964Z",
+      "sourceCount": 35,
+      "documentCount": 35,
+      "compatibility": {
+        "manifestSchema": 1,
+        "embeddingSpecId": "minilm-q8-wasm-v1"
+      },
+      "coverage": {
+        "sourceIds": [
+          "education",
+          "engagement",
+          "hr",
+          "incident",
+          "insurance",
+          "ntm",
+          "portfolio-repository-inventory",
+          "profile",
+          "project-asset",
+          "project-hostel",
+          "project-mmcats-modern",
+          "project-multilingual-engineering",
+          "project-naae",
+          "project-nodejs-hotel-problem",
+          "project-portfolio",
+          "rag",
+          "rental",
+          "repository-hostel-management-system-readme-md",
+          "repository-mmcats-legacy-gemfile",
+          "repository-mmcats-legacy-readme-md",
+          "repository-mmcats-modern-docs-legacy-parity-matrix-md",
+          "repository-mmcats-modern-docs-render-free-acceptance-md",
+          "repository-mmcats-modern-readme-md",
+          "repository-mohdvara-github-io-readme-md",
+          "repository-nodejs-hotel-problem-readme-md",
+          "repository-pace-rag-readme-md",
+          "resume",
+          "technology-asset",
+          "technology-campus",
+          "technology-hostel",
+          "technology-insurance",
+          "technology-inventory",
+          "technology-rental",
+          "technology-wensymes",
+          "wensymes"
+        ]
+      },
+      "basis": "Exact approved knowledge input history; retained across format-only rebuilds. builtAt describes this artifact, not source freshness or deployment"
+    },
+    "schemaVersion": 1,
+    "sourceFingerprint": "f58d786bbf1af5d8d0fee06d691225ffb42738b2564a6d8e06e68bb9e50e9faa",
+    "corpusId": "portfolio",
+    "corpusVersion": "b0e1b371c34d449b",
+    "preview": false,
+    "embedding": {
+      "id": "minilm-q8-wasm-v1",
+      "modelId": "Xenova/all-MiniLM-L6-v2",
+      "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+      "artifactSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+      "transformersVersion": "3.8.1",
+      "onnxRuntimeVersion": "1.22.0-dev.20250409-89f8206ba4",
+      "dtype": "q8",
+      "backend": "wasm",
+      "dimensions": 384,
+      "pooling": "mean",
+      "normalize": true,
+      "maxSequenceTokens": 256,
+      "preprocessingVersion": "nfc-lf-trim-v1"
+    },
+    "assets": {
+      "answers": {
+        "path": "answers.json",
+        "sha256": "6cd9a45c280232e30c4b264989c801a452bc9a8942be04ae97a14ce7d7c325bc",
+        "bytes": 82060,
+        "mediaType": "application/json"
+      },
+      "documents": {
+        "path": "documents.json",
+        "sha256": "7cda55720ba9c61fadc41efcb0761ba1ac58505033c0dd95317a8b6cff963268",
+        "bytes": 96784,
+        "mediaType": "application/json"
+      },
+      "chunks": {
+        "path": "chunks.json",
+        "sha256": "b1fdf5b6ddb27a0300e8ff5eb964922996836e962a02e65ed83bd6ccd96f7b3b",
+        "bytes": 374229,
+        "mediaType": "application/json"
+      },
+      "technology": {
+        "path": "technology.json",
+        "sha256": "495375a3ea1825301e250e183a977802f5122463b072b7ca17222810d547bd9a",
+        "bytes": 6239,
+        "mediaType": "application/json"
+      },
+      "retirements": {
+        "path": "retirements.json",
+        "sha256": "5ee66745a1bfc0f03c529b7013ddaa7a5cdebfbe85ddcbc8a173f99ae0228c23",
+        "bytes": 402,
+        "mediaType": "application/json"
+      },
+      "questionVectors": {
+        "path": "questionVectors.f32",
+        "sha256": "06b3a48ca0319972063b84df1eb7ce9a7092d252c1012835b64556df69f472df",
+        "bytes": 107520,
+        "mediaType": "application/octet-stream"
+      },
+      "chunkVectors": {
+        "path": "chunkVectors.f32",
+        "sha256": "2166aa9531e5f55ab6852b027d07013803d23de9873166cee873f590548210e6",
+        "bytes": 301056,
+        "mediaType": "application/octet-stream"
+      }
+    },
+    "questionRows": [
+      {
+        "row": 0,
+        "answerId": "portfolio-answer-background",
+        "questionId": "portfolio-answer-background"
+      },
+      {
+        "row": 1,
+        "answerId": "portfolio-answer-background",
+        "questionId": "portfolio-background-alt-0"
+      },
+      {
+        "row": 2,
+        "answerId": "portfolio-answer-location",
+        "questionId": "portfolio-answer-location"
+      },
+      {
+        "row": 3,
+        "answerId": "portfolio-answer-location",
+        "questionId": "portfolio-location-alt-0"
+      },
+      {
+        "row": 4,
+        "answerId": "portfolio-answer-approach",
+        "questionId": "portfolio-answer-approach"
+      },
+      {
+        "row": 5,
+        "answerId": "portfolio-answer-teaching",
+        "questionId": "portfolio-answer-teaching"
+      },
+      {
+        "row": 6,
+        "answerId": "portfolio-answer-insurance-work",
+        "questionId": "portfolio-answer-insurance-work"
+      },
+      {
+        "row": 7,
+        "answerId": "portfolio-answer-insurance-work",
+        "questionId": "portfolio-insurance-work-alt-0"
+      },
+      {
+        "row": 8,
+        "answerId": "portfolio-answer-insurance-leadership",
+        "questionId": "portfolio-answer-insurance-leadership"
+      },
+      {
+        "row": 9,
+        "answerId": "portfolio-answer-modernisation",
+        "questionId": "portfolio-answer-modernisation"
+      },
+      {
+        "row": 10,
+        "answerId": "portfolio-answer-modernisation",
+        "questionId": "portfolio-modernisation-alt-0"
+      },
+      {
+        "row": 11,
+        "answerId": "portfolio-answer-modernisation",
+        "questionId": "portfolio-answer-modernisation-v16-alt-0"
+      },
+      {
+        "row": 12,
+        "answerId": "portfolio-answer-education-disclosure",
+        "questionId": "portfolio-answer-education-disclosure"
+      },
+      {
+        "row": 13,
+        "answerId": "portfolio-answer-wensymes-work",
+        "questionId": "portfolio-answer-wensymes-work"
+      },
+      {
+        "row": 14,
+        "answerId": "portfolio-answer-wensymes-work",
+        "questionId": "portfolio-answer-wensymes-work-v16-alt-0"
+      },
+      {
+        "row": 15,
+        "answerId": "portfolio-answer-wensymes-security",
+        "questionId": "portfolio-answer-wensymes-security"
+      },
+      {
+        "row": 16,
+        "answerId": "portfolio-answer-rental-domain",
+        "questionId": "portfolio-answer-rental-domain"
+      },
+      {
+        "row": 17,
+        "answerId": "portfolio-answer-rental-impact",
+        "questionId": "portfolio-answer-rental-impact"
+      },
+      {
+        "row": 18,
+        "answerId": "portfolio-answer-hr-collaboration",
+        "questionId": "portfolio-answer-hr-collaboration"
+      },
+      {
+        "row": 19,
+        "answerId": "portfolio-answer-hr-distinction",
+        "questionId": "portfolio-answer-hr-distinction"
+      },
+      {
+        "row": 20,
+        "answerId": "portfolio-answer-ntm-overview",
+        "questionId": "portfolio-answer-ntm-overview"
+      },
+      {
+        "row": 21,
+        "answerId": "portfolio-answer-ntm-architecture",
+        "questionId": "portfolio-answer-ntm-architecture"
+      },
+      {
+        "row": 22,
+        "answerId": "portfolio-answer-ntm-rag",
+        "questionId": "portfolio-answer-ntm-rag"
+      },
+      {
+        "row": 23,
+        "answerId": "portfolio-answer-incident-overview",
+        "questionId": "portfolio-answer-incident-overview"
+      },
+      {
+        "row": 24,
+        "answerId": "portfolio-answer-incident-preview",
+        "questionId": "portfolio-answer-incident-preview"
+      },
+      {
+        "row": 25,
+        "answerId": "portfolio-answer-rag-evidence",
+        "questionId": "portfolio-answer-rag-evidence"
+      },
+      {
+        "row": 26,
+        "answerId": "portfolio-answer-rag-evidence",
+        "questionId": "portfolio-rag-evidence-alt-0"
+      },
+      {
+        "row": 27,
+        "answerId": "portfolio-answer-rag-scale",
+        "questionId": "portfolio-answer-rag-scale"
+      },
+      {
+        "row": 28,
+        "answerId": "portfolio-answer-engagement-types",
+        "questionId": "portfolio-answer-engagement-types"
+      },
+      {
+        "row": 29,
+        "answerId": "portfolio-answer-availability",
+        "questionId": "portfolio-answer-availability"
+      },
+      {
+        "row": 30,
+        "answerId": "portfolio-answer-resume-links",
+        "questionId": "portfolio-answer-resume-links"
+      },
+      {
+        "row": 31,
+        "answerId": "portfolio-answer-resume-links",
+        "questionId": "portfolio-resume-links-alt-0"
+      },
+      {
+        "row": 32,
+        "answerId": "portfolio-answer-contact",
+        "questionId": "portfolio-answer-contact"
+      },
+      {
+        "row": 33,
+        "answerId": "portfolio-answer-contact",
+        "questionId": "portfolio-contact-alt-0"
+      },
+      {
+        "row": 34,
+        "answerId": "portfolio-answer-independent-work",
+        "questionId": "portfolio-answer-independent-work"
+      },
+      {
+        "row": 35,
+        "answerId": "portfolio-answer-insurance-products",
+        "questionId": "portfolio-answer-insurance-products"
+      },
+      {
+        "row": 36,
+        "answerId": "portfolio-answer-insurance-products",
+        "questionId": "portfolio-insurance-products-alt-0"
+      },
+      {
+        "row": 37,
+        "answerId": "portfolio-answer-insurance-workflows",
+        "questionId": "portfolio-answer-insurance-workflows"
+      },
+      {
+        "row": 38,
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "questionId": "portfolio-answer-rental-lifecycle"
+      },
+      {
+        "row": 39,
+        "answerId": "portfolio-answer-rental-lifecycle",
+        "questionId": "portfolio-rental-lifecycle-alt-0"
+      },
+      {
+        "row": 40,
+        "answerId": "portfolio-answer-rental-scale",
+        "questionId": "portfolio-answer-rental-scale"
+      },
+      {
+        "row": 41,
+        "answerId": "portfolio-answer-rental-reporting",
+        "questionId": "portfolio-answer-rental-reporting"
+      },
+      {
+        "row": 42,
+        "answerId": "portfolio-answer-wensymes-platforms",
+        "questionId": "portfolio-answer-wensymes-platforms"
+      },
+      {
+        "row": 43,
+        "answerId": "portfolio-answer-hr-config",
+        "questionId": "portfolio-answer-hr-config"
+      },
+      {
+        "row": 44,
+        "answerId": "portfolio-answer-ntm-verification",
+        "questionId": "portfolio-answer-ntm-verification"
+      },
+      {
+        "row": 45,
+        "answerId": "portfolio-answer-ntm-verification",
+        "questionId": "portfolio-ntm-verification-alt-0"
+      },
+      {
+        "row": 46,
+        "answerId": "portfolio-answer-incident-authenticity",
+        "questionId": "portfolio-answer-incident-authenticity"
+      },
+      {
+        "row": 47,
+        "answerId": "portfolio-answer-architecture-discussion",
+        "questionId": "portfolio-answer-architecture-discussion"
+      },
+      {
+        "row": 48,
+        "answerId": "portfolio-answer-cv-options",
+        "questionId": "portfolio-answer-cv-options"
+      },
+      {
+        "row": 49,
+        "answerId": "portfolio-answer-public-boundaries",
+        "questionId": "portfolio-answer-public-boundaries"
+      },
+      {
+        "row": 50,
+        "answerId": "portfolio-answer-sync-legacy-php",
+        "questionId": "portfolio-answer-sync-legacy-php"
+      },
+      {
+        "row": 51,
+        "answerId": "portfolio-answer-sync-public-modernization",
+        "questionId": "portfolio-answer-sync-public-modernization"
+      },
+      {
+        "row": 52,
+        "answerId": "portfolio-answer-sync-mmcats-comparison",
+        "questionId": "portfolio-answer-sync-mmcats-comparison"
+      },
+      {
+        "row": 53,
+        "answerId": "portfolio-answer-sync-laravel-evidence",
+        "questionId": "portfolio-answer-sync-laravel-evidence"
+      },
+      {
+        "row": 54,
+        "answerId": "portfolio-answer-sync-react-next",
+        "questionId": "portfolio-answer-sync-react-next"
+      },
+      {
+        "row": 55,
+        "answerId": "portfolio-answer-sync-commercial-independent",
+        "questionId": "portfolio-answer-sync-commercial-independent"
+      },
+      {
+        "row": 56,
+        "answerId": "portfolio-answer-sync-deployments",
+        "questionId": "portfolio-answer-sync-deployments"
+      },
+      {
+        "row": 57,
+        "answerId": "portfolio-answer-sync-inspectable-work",
+        "questionId": "portfolio-answer-sync-inspectable-work"
+      },
+      {
+        "row": 58,
+        "answerId": "portfolio-answer-insurance-validity",
+        "questionId": "portfolio-answer-insurance-validity"
+      },
+      {
+        "row": 59,
+        "answerId": "portfolio-answer-insurance-validity",
+        "questionId": "portfolio-answer-insurance-validity-alt-0"
+      },
+      {
+        "row": 60,
+        "answerId": "portfolio-answer-insurance-validity",
+        "questionId": "portfolio-answer-insurance-validity-alt-1"
+      },
+      {
+        "row": 61,
+        "answerId": "portfolio-answer-insurance-architecture",
+        "questionId": "portfolio-answer-insurance-architecture"
+      },
+      {
+        "row": 62,
+        "answerId": "portfolio-answer-insurance-architecture",
+        "questionId": "portfolio-answer-insurance-architecture-alt-0"
+      },
+      {
+        "row": 63,
+        "answerId": "portfolio-answer-education-workflows",
+        "questionId": "portfolio-answer-education-workflows"
+      },
+      {
+        "row": 64,
+        "answerId": "portfolio-answer-education-workflows",
+        "questionId": "portfolio-answer-education-workflows-alt-0"
+      },
+      {
+        "row": 65,
+        "answerId": "portfolio-answer-rental-mobile",
+        "questionId": "portfolio-answer-rental-mobile"
+      },
+      {
+        "row": 66,
+        "answerId": "portfolio-answer-rental-mobile",
+        "questionId": "portfolio-answer-rental-mobile-alt-0"
+      },
+      {
+        "row": 67,
+        "answerId": "portfolio-answer-rental-mobile",
+        "questionId": "portfolio-answer-rental-mobile-alt-1"
+      },
+      {
+        "row": 68,
+        "answerId": "portfolio-answer-wensymes-rbac-boundary",
+        "questionId": "portfolio-answer-wensymes-rbac-boundary"
+      },
+      {
+        "row": 69,
+        "answerId": "portfolio-answer-wensymes-rbac-boundary",
+        "questionId": "portfolio-answer-wensymes-rbac-boundary-alt-0"
+      }
+    ],
+    "vectorEncoding": "float32-le",
+    "sourceHashes": {
+      "profile": "784faa54c260b2e8e09baff79f1bb02ad6fec537cb486d59caab69dae9cd82e1",
+      "insurance": "6a0f69130ed05f5790dbda0f0dc3bd2d428c0be3148270c081ce333d6b1d978b",
+      "education": "085294635c4be4adf534c11de8dd2ba4e2fa93ecf3a209d032f20e2ba84309e5",
+      "wensymes": "d8b6983dbe331b6c9a8f5c351e11e372f313b050d7989922e90ef40920e61d69",
+      "rental": "4ee1a6c412d8c6efa89d9742ffd38eff69586b17c75ab0101aad0d91a27853fc",
+      "hr": "a8ac18d9c76e963656a39f314b5b043b352f5c26343c03be9e7990cdd53eafd3",
+      "ntm": "3edae81bd3b6c8463059f40cc2e520a97d3f0a9841d4a21ecd19111c1edc6270",
+      "incident": "ba9c7036c2752f7e741942b963dbc29f96c05ca86cede714f3231f5772dbf69a",
+      "rag": "22d356aad3d9591f6857326724d2792ed106177bac59f900118195bbf78f9932",
+      "engagement": "c6c5581108eb22df9d5b57a1784fd339cc332be2325cfe4fe2228c67534909a0",
+      "resume": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+      "portfolio-repository-inventory": "785e49ad03a3665f4c92e9bfd56c418455f6e9c230db6f82081829ce6d8ee4e2",
+      "project-asset": "15522856a9eeeaaaae9658c679d221f0f4328e00b659368ef2eeb2c9655213aa",
+      "project-hostel": "5dda4ed16d3a7676b0a33bcac6a3dc02cd16df8564beb17d3ebf9f160723f0a0",
+      "project-mmcats-modern": "a50c9be9ef612f04d3fe7eb7e30ee4567fe8ece126647c19c32ee431e497bb41",
+      "project-multilingual-engineering": "3161a3b597ae8f59c3ec7af662f5431514f3f2c149cc439822e18bdf40ff7cec",
+      "project-naae": "f88cf3a76f9617c2258c0e2282a5d63eeca74264ba6934d7212d5428ce218677",
+      "project-nodejs-hotel-problem": "6e55deeab4d0d24b2c075d9c1556b097ed06c68ea1f4b7d2b24c077d3edef2b4",
+      "project-portfolio": "cd1c951b9f78041dad9a5efdb1b5c2c1093a847da08069ca0b668d58b83c6b91",
+      "repository-hostel-management-system-readme-md": "38d443ab956567063e768052ef768bac739dcdde5f702270e8a1dc009a8bdffd",
+      "repository-mmcats-legacy-gemfile": "1f68a558cf0816d200146fb3f94449a3e7dcb841d86e0316a9c27fb7c4850f91",
+      "repository-mmcats-legacy-readme-md": "b2e80c36597a13a65f8a3ad9edd0d3116c2eca91ac6aa192de2467742544a968",
+      "repository-mmcats-modern-docs-legacy-parity-matrix-md": "d5fd376a345dda543c43eef98aa1fd38bed03e0e0ded7ee57affac241adb908a",
+      "repository-mmcats-modern-docs-render-free-acceptance-md": "bd860f749b6ecdc6e36750219a32d79421910f8a055f01ce261dddc5ea73594d",
+      "repository-mmcats-modern-readme-md": "5c46ea68b41638c8c2742a5b18013a6136ed20eb892c3c31ab47b37f577657f3",
+      "repository-mohdvara-github-io-readme-md": "56df078c62d377da895456ad16a05d33c47b375870c31b8d1af7b96613a5f0e3",
+      "repository-nodejs-hotel-problem-readme-md": "71a22f8e216c90f71cd7a02ebbb3314eda1ff6afd5bcd5ece6bd6bb946cb1629",
+      "repository-pace-rag-readme-md": "276730cff5f83c1920a18222e2b9322c9cf40b06762a8dea963f25d6a527318e",
+      "technology-inventory": "7d33971af8af5f17d873c08b6510563e21da00e931eeb00e0ebcb664653d44d7",
+      "technology-hostel": "042b89010e0947fbb2fed97fab41a9393e62502f2fbb1c7304b56b42982701df",
+      "technology-rental": "04630adfa61af44b8107e80e074d85dde541595bddab156cad8d7b18520e1c4e",
+      "technology-campus": "6e038bcfb26f19b7e5a9cbc973da9528890cfea8db266bccba331d6b49895213",
+      "technology-insurance": "fc71da86b0b779891796d942a7dbd09f6e15603209eecc46b776b09ea65c1e47",
+      "technology-wensymes": "4398367ac25d6d74b439de9cb33ac2ca780285260a63fa642e1f10449c394a3e",
+      "technology-asset": "5aca84fad29bcdfd0fc38ebfa90e74ea77e697de6754ea9ecf260e9a64f2ef79"
+    },
+    "matchPolicyVersion": "suggest-only-v1",
+    "builtAt": "2026-10-29T05:03:43.315Z",
+    "semanticReady": true
+  },
+  "validation": {
+    "portfolioTests": 229,
+    "paceTests": 121,
+    "typecheck": "pass-both",
+    "build": "pass-both",
+    "paceLint": "pass",
+    "portfolioLint": {
+      "status": "pre-existing-failure",
+      "errors": 5,
+      "file": ".opencode/plugins/entire.ts",
+      "lines": [
+        18,
+        199,
+        244,
+        254,
+        402
+      ],
+      "supplementalExclusionRun": "pass",
+      "gateWeakened": false
+    },
+    "i18n": {
+      "locales": 11,
+      "unitsPerLocale": 1584,
+      "errors": 0,
+      "missing": 0,
+      "stale": 0,
+      "existingEditorialWarnings": 97,
+      "fluentReview": false
+    },
+    "freshnessBrowser": {
+      "layouts": 33,
+      "assistantContexts": 4,
+      "newExactQuestionJourneys": 32,
+      "errors": [],
+      "runtimeGithubRequests": [],
+      "inferenceRequests": []
+    },
+    "existingI18nLayouts": 88,
+    "existingI18nAssistantChecks": 11,
+    "staticCaseRoutes": 66,
+    "commercialCards": 55,
+    "publicAssets": 73,
+    "staticInternalLinks": 265,
+    "diffCheck": {
+      "taskPaths": "pass",
+      "pace-rag": "pass",
+      "fullPortfolio": "pre-existing whitespace in docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md:6; retained"
+    }
+  },
+  "evaluation": {
+    "semantic": {
+      "development": {
+        "before": {
+          "questions": 180,
+          "positiveQuestions": 100,
+          "top1": 76,
+          "top3": 99,
+          "directAnswers": 20,
+          "criticalQuestions": 60,
+          "criticalAbstained": 60,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 180,
+          "positiveQuestions": 100,
+          "top1": 75,
+          "top3": 99,
+          "directAnswers": 20,
+          "criticalQuestions": 60,
+          "criticalAbstained": 60,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "verification50": {
+        "before": {
+          "questions": 70,
+          "positiveQuestions": 50,
+          "top1": 38,
+          "top3": 47,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 70,
+          "positiveQuestions": 50,
+          "top1": 40,
+          "top3": 48,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "verification40": {
+        "before": {
+          "questions": 60,
+          "positiveQuestions": 40,
+          "top1": 30,
+          "top3": 40,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 60,
+          "positiveQuestions": 40,
+          "top1": 30,
+          "top3": 39,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "feature": {
+        "before": {
+          "questions": 48,
+          "positiveQuestions": 24,
+          "top1": 20,
+          "top3": 23,
+          "directAnswers": 0,
+          "criticalQuestions": 24,
+          "criticalAbstained": 24,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 48,
+          "positiveQuestions": 24,
+          "top1": 20,
+          "top3": 23,
+          "directAnswers": 0,
+          "criticalQuestions": 24,
+          "criticalAbstained": 24,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "candidateExact": {
+        "before": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 8,
+          "top3": 8,
+          "directAnswers": 8,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 8,
+          "top3": 8,
+          "directAnswers": 8,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "newKnowledge": {
+        "before": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 0,
+          "top3": 0,
+          "directAnswers": 1,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 1,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 8,
+          "top3": 8,
+          "directAnswers": 8,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "unsupported": {
+        "before": {
+          "questions": 4,
+          "positiveQuestions": 0,
+          "top1": 0,
+          "top3": 0,
+          "directAnswers": 0,
+          "criticalQuestions": 4,
+          "criticalAbstained": 4,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 4,
+          "positiveQuestions": 0,
+          "top1": 0,
+          "top3": 0,
+          "directAnswers": 0,
+          "criticalQuestions": 4,
+          "criticalAbstained": 4,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "implementation": {
+        "before": {
+          "questions": 50,
+          "positiveQuestions": 40,
+          "top1": 32,
+          "top3": 38,
+          "directAnswers": 0,
+          "criticalQuestions": 10,
+          "criticalAbstained": 10,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 50,
+          "positiveQuestions": 40,
+          "top1": 32,
+          "top3": 38,
+          "directAnswers": 0,
+          "criticalQuestions": 10,
+          "criticalAbstained": 10,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      }
+    },
+    "lexical": {
+      "development": {
+        "before": {
+          "questions": 180,
+          "positiveQuestions": 100,
+          "top1": 55,
+          "top3": 82,
+          "directAnswers": 20,
+          "criticalQuestions": 60,
+          "criticalAbstained": 60,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 180,
+          "positiveQuestions": 100,
+          "top1": 53,
+          "top3": 82,
+          "directAnswers": 20,
+          "criticalQuestions": 60,
+          "criticalAbstained": 60,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "verification50": {
+        "before": {
+          "questions": 70,
+          "positiveQuestions": 50,
+          "top1": 32,
+          "top3": 40,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 70,
+          "positiveQuestions": 50,
+          "top1": 33,
+          "top3": 41,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "verification40": {
+        "before": {
+          "questions": 60,
+          "positiveQuestions": 40,
+          "top1": 23,
+          "top3": 33,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 60,
+          "positiveQuestions": 40,
+          "top1": 22,
+          "top3": 32,
+          "directAnswers": 0,
+          "criticalQuestions": 20,
+          "criticalAbstained": 20,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "feature": {
+        "before": {
+          "questions": 48,
+          "positiveQuestions": 24,
+          "top1": 19,
+          "top3": 24,
+          "directAnswers": 0,
+          "criticalQuestions": 24,
+          "criticalAbstained": 24,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 48,
+          "positiveQuestions": 24,
+          "top1": 21,
+          "top3": 24,
+          "directAnswers": 0,
+          "criticalQuestions": 24,
+          "criticalAbstained": 24,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "candidateExact": {
+        "before": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 8,
+          "top3": 8,
+          "directAnswers": 8,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 8,
+          "top3": 8,
+          "directAnswers": 8,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "newKnowledge": {
+        "before": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 0,
+          "top3": 0,
+          "directAnswers": 1,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 1,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 8,
+          "positiveQuestions": 8,
+          "top1": 8,
+          "top3": 8,
+          "directAnswers": 8,
+          "criticalQuestions": 0,
+          "criticalAbstained": 0,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "unsupported": {
+        "before": {
+          "questions": 4,
+          "positiveQuestions": 0,
+          "top1": 0,
+          "top3": 0,
+          "directAnswers": 0,
+          "criticalQuestions": 4,
+          "criticalAbstained": 4,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 4,
+          "positiveQuestions": 0,
+          "top1": 0,
+          "top3": 0,
+          "directAnswers": 0,
+          "criticalQuestions": 4,
+          "criticalAbstained": 4,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      },
+      "implementation": {
+        "before": {
+          "questions": 50,
+          "positiveQuestions": 40,
+          "top1": 29,
+          "top3": 36,
+          "directAnswers": 0,
+          "criticalQuestions": 10,
+          "criticalAbstained": 10,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        },
+        "proposed": {
+          "questions": 50,
+          "positiveQuestions": 40,
+          "top1": 29,
+          "top3": 36,
+          "directAnswers": 0,
+          "criticalQuestions": 10,
+          "criticalAbstained": 10,
+          "incorrectAutomaticAnswers": 0,
+          "citationFailures": 0,
+          "crossCorpusReferences": 0
+        }
+      }
+    },
+    "regressions": {
+      "semantic": [
+        {
+          "set": "development",
+          "top1Delta": -1,
+          "top3Delta": 0
+        },
+        {
+          "set": "verification40",
+          "top1Delta": 0,
+          "top3Delta": -1
+        }
+      ],
+      "lexical": [
+        {
+          "set": "development",
+          "top1Delta": -2,
+          "top3Delta": 0
+        },
+        {
+          "set": "verification40",
+          "top1Delta": -1,
+          "top3Delta": -1
+        }
+      ]
+    },
+    "professionalCritical": 128,
+    "implementationCritical": 10,
+    "incorrectAutomaticAnswers": 0,
+    "citationFailures": 0,
+    "crossCorpusReferences": 0,
+    "independentHoldout": false
+  },
+  "performance": {
+    "measuredAt": "2026-10-29T05:55:50.202Z",
+    "scope": "Sequential alternating local cold browser contexts; 1440×1000, reduced motion, no CPU/network throttling. Transfer through locale readiness/network idle; answer interval includes Playwright input and observation overhead. Three samples are descriptive, not significance, production LCP or device-memory measurements.",
+    "browser": "156.0.8078.73",
+    "bundles": {
+      "before": {
+        "assets": {
+          "assistant": {
+            "file": "PaceAssistant-DDufwE_M.js",
+            "rawBytes": 80819,
+            "gzip9Bytes": 26103
+          },
+          "caseStudy": {
+            "file": "PaceRagCaseStudy-CgPN0cg7.js",
+            "rawBytes": 16791,
+            "gzip9Bytes": 5479
+          },
+          "main": {
+            "file": "index-BUx0TB-K.js",
+            "rawBytes": 210210,
+            "gzip9Bytes": 64329
+          }
+        },
+        "allJsRaw": 5234171,
+        "allCssRaw": 125687
+      },
+      "after": {
+        "assets": {
+          "assistant": {
+            "file": "PaceAssistant-DbjiooI_.js",
+            "rawBytes": 85417,
+            "gzip9Bytes": 27407
+          },
+          "caseStudy": {
+            "file": "PaceRagCaseStudy-CquuiMMg.js",
+            "rawBytes": 16791,
+            "gzip9Bytes": 5477
+          },
+          "main": {
+            "file": "index-kfBM4-Rq.js",
+            "rawBytes": 211828,
+            "gzip9Bytes": 64856
+          }
+        },
+        "allJsRaw": 5249394,
+        "allCssRaw": 125952
+      }
+    },
+    "samples": [
+      {
+        "trial": 0,
+        "name": "before",
+        "initial": {
+          "jsBodyBytes": 168875,
+          "responseTransferBytes": 598163,
+          "resourceCount": 14
+        },
+        "assistantReadyIntervalMs": 150.80000000074506,
+        "modelDownloadRequests": 0,
+        "inventoryRequests": 0,
+        "automationAnswerIntervalMs": 67.19999999925494,
+        "embeddingAssetRequests": 2,
+        "inferenceRequests": 0
+      },
+      {
+        "trial": 0,
+        "name": "after",
+        "initial": {
+          "jsBodyBytes": 169530,
+          "responseTransferBytes": 598870,
+          "resourceCount": 14
+        },
+        "assistantReadyIntervalMs": 153.7000000011176,
+        "modelDownloadRequests": 0,
+        "inventoryRequests": 0,
+        "automationAnswerIntervalMs": 61.600000001490116,
+        "embeddingAssetRequests": 2,
+        "inferenceRequests": 0
+      },
+      {
+        "trial": 1,
+        "name": "before",
+        "initial": {
+          "jsBodyBytes": 168875,
+          "responseTransferBytes": 598163,
+          "resourceCount": 14
+        },
+        "assistantReadyIntervalMs": 125.19999999925494,
+        "modelDownloadRequests": 0,
+        "inventoryRequests": 0,
+        "automationAnswerIntervalMs": 51.5,
+        "embeddingAssetRequests": 2,
+        "inferenceRequests": 0
+      },
+      {
+        "trial": 1,
+        "name": "after",
+        "initial": {
+          "jsBodyBytes": 169530,
+          "responseTransferBytes": 598870,
+          "resourceCount": 14
+        },
+        "assistantReadyIntervalMs": 139.59999999962747,
+        "modelDownloadRequests": 0,
+        "inventoryRequests": 0,
+        "automationAnswerIntervalMs": 60,
+        "embeddingAssetRequests": 2,
+        "inferenceRequests": 0
+      },
+      {
+        "trial": 2,
+        "name": "before",
+        "initial": {
+          "jsBodyBytes": 168875,
+          "responseTransferBytes": 598163,
+          "resourceCount": 14
+        },
+        "assistantReadyIntervalMs": 122.30000000074506,
+        "modelDownloadRequests": 0,
+        "inventoryRequests": 0,
+        "automationAnswerIntervalMs": 52.5,
+        "embeddingAssetRequests": 2,
+        "inferenceRequests": 0
+      },
+      {
+        "trial": 2,
+        "name": "after",
+        "initial": {
+          "jsBodyBytes": 169530,
+          "responseTransferBytes": 598870,
+          "resourceCount": 14
+        },
+        "assistantReadyIntervalMs": 235.2999999988824,
+        "modelDownloadRequests": 0,
+        "inventoryRequests": 0,
+        "automationAnswerIntervalMs": 59.5,
+        "embeddingAssetRequests": 2,
+        "inferenceRequests": 0
+      }
+    ]
+  },
+  "knowledgeAssets": {
+    "answers": {
+      "before": 69369,
+      "after": 82060
+    },
+    "documents": {
+      "before": 29210,
+      "after": 96784
+    },
+    "chunks": {
+      "before": 36400,
+      "after": 374229
+    },
+    "technology": {
+      "before": 6239,
+      "after": 6239
+    },
+    "retirements": {
+      "before": 402,
+      "after": 402
+    },
+    "questionVectors": {
+      "before": 95232,
+      "after": 107520
+    },
+    "chunkVectors": {
+      "before": 41472,
+      "after": 301056
+    }
+  },
+  "artifactHashes": {
+    "approvedPacket": {
+      "path": "<workspace>/pace-rag/content/portfolio/history/synchronization-approved-9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286.json",
+      "bytes": 145921,
+      "sha256": "fd91c9c941afb6b4e38d81caf0e4a2dd85af8b7946c931e6dfe6c91f28ec6c98"
+    },
+    "ownerReceipt": {
+      "path": "<workspace>/pace-rag/content/portfolio/synchronization-owner-approval.json",
+      "bytes": 543,
+      "sha256": "ceee88a527be1d1a337097a9ea6fc5a02281a3c7a69ac910ed4630237e682c88"
+    },
+    "publishedRecords": {
+      "path": "<workspace>/pace-rag/content/portfolio/published-synchronization.json",
+      "bytes": 140290,
+      "sha256": "5215681598542ff20b2ee641c8af1fee211b1f9390cb4d1a6674994758a67cc7"
+    },
+    "manifest": {
+      "path": "<workspace>/pace-rag/apps/rag-lab/public/knowledge/portfolio/b0e1b371c34d449b/manifest.json",
+      "bytes": 17706,
+      "sha256": "6d9532dc766bb988081e9a4c5fea9cfa4d4e9ba909ef19c59491e10ea886410c"
+    },
+    "package": {
+      "path": "<workspace>/mohdvara.github.io/vendor/pace-rag-portfolio-assistant-1.6.2-knowledge.1.tgz",
+      "bytes": 25164449,
+      "sha256": "84b7e35e4ba8191166af9f0240578f4cd34962d15f2a7ee1ca20911784a78a76"
+    },
+    "publicInventory": {
+      "path": "<workspace>/mohdvara.github.io/public/evidence/portfolio-knowledge-inventory.v1.json",
+      "bytes": 97649,
+      "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+    }
+  },
+  "filesChanged": {
+    "portfolio": [
+      "docs/portfolio/PME-V1-COVERAGE.json",
+      "docs/portfolio/PME-V1.7-KNOWLEDGE-SYNC-RESULTS.md",
+      "package-lock.json",
+      "package.json",
+      "public/evidence/portfolio-knowledge-inventory.v1.json",
+      "scripts/build-info.mjs",
+      "scripts/build-revision.mjs",
+      "scripts/i18n/glossary.json",
+      "scripts/i18n/metadata.json",
+      "scripts/i18n/source-locations.json",
+      "scripts/knowledge-browser-qa.mjs",
+      "scripts/knowledge-performance-qa.mjs",
+      "scripts/knowledge-public-check.mjs",
+      "scripts/knowledge-sync.mjs",
+      "scripts/public-assets.json",
+      "src/App.tsx",
+      "src/BuildRevision.tsx",
+      "src/CaseStudySummary.tsx",
+      "src/ContentFreshness.css",
+      "src/ContentFreshness.tsx",
+      "src/PaceAssistant.tsx",
+      "src/data/content-freshness.json",
+      "src/data/content-revisions.json",
+      "src/data/pace-php-example.json",
+      "src/i18n/locales/ar.json",
+      "src/i18n/locales/de.json",
+      "src/i18n/locales/en.json",
+      "src/i18n/locales/es.json",
+      "src/i18n/locales/fr.json",
+      "src/i18n/locales/hi.json",
+      "src/i18n/locales/ja.json",
+      "src/i18n/locales/ms.json",
+      "src/i18n/locales/pt-BR.json",
+      "src/i18n/locales/ta.json",
+      "src/i18n/locales/zh-Hans.json",
+      "src/i18n/status.json",
+      "src/vite-env.d.ts",
+      "tests/knowledge-sync.test.mjs",
+      "vendor/pace-rag-portfolio-assistant-1.6.2-knowledge.1.tgz",
+      "verification/knowledge-public-sources.json",
+      "verification/pme-knowledge-1.7.json",
+      "verification/portfolio-knowledge-inventory.json",
+      "vite.config.ts"
+    ],
+    "pace-rag": [
+      "apps/rag-api/generated/corpora.json",
+      "content/index-history.json",
+      "content/portfolio/approvals.json",
+      "content/portfolio/history/synchronization-approved-9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286.json",
+      "content/portfolio/history/synchronization-before-9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286.json",
+      "content/portfolio/published-synchronization.json",
+      "content/portfolio/synchronization-owner-approval.json",
+      "content/portfolio/synchronized-v17/change-report.json",
+      "content/portfolio/synchronized-v17/draft-records.json",
+      "content/portfolio/synchronized-v17/manifest.json",
+      "content/portfolio/synchronized-v17/sources/education.json",
+      "content/portfolio/synchronized-v17/sources/hr.json",
+      "content/portfolio/synchronized-v17/sources/insurance.json",
+      "content/portfolio/synchronized-v17/sources/ntm.json",
+      "content/portfolio/synchronized-v17/sources/portfolio-repository-inventory.json",
+      "content/portfolio/synchronized-v17/sources/project-asset.json",
+      "content/portfolio/synchronized-v17/sources/project-hostel.json",
+      "content/portfolio/synchronized-v17/sources/project-mmcats-modern.json",
+      "content/portfolio/synchronized-v17/sources/project-multilingual-engineering.json",
+      "content/portfolio/synchronized-v17/sources/project-naae.json",
+      "content/portfolio/synchronized-v17/sources/project-nodejs-hotel-problem.json",
+      "content/portfolio/synchronized-v17/sources/project-portfolio.json",
+      "content/portfolio/synchronized-v17/sources/rag.json",
+      "content/portfolio/synchronized-v17/sources/rental.json",
+      "content/portfolio/synchronized-v17/sources/repository-hostel-management-system-readme-md.json",
+      "content/portfolio/synchronized-v17/sources/repository-mmcats-legacy-gemfile.json",
+      "content/portfolio/synchronized-v17/sources/repository-mmcats-legacy-readme-md.json",
+      "content/portfolio/synchronized-v17/sources/repository-mmcats-modern-docs-legacy-parity-matrix-md.json",
+      "content/portfolio/synchronized-v17/sources/repository-mmcats-modern-docs-render-free-acceptance-md.json",
+      "content/portfolio/synchronized-v17/sources/repository-mmcats-modern-readme-md.json",
+      "content/portfolio/synchronized-v17/sources/repository-mohdvara-github-io-readme-md.json",
+      "content/portfolio/synchronized-v17/sources/repository-nodejs-hotel-problem-readme-md.json",
+      "content/portfolio/synchronized-v17/sources/repository-pace-rag-readme-md.json",
+      "content/portfolio/synchronized-v17/sources/wensymes.json",
+      "content/publication-review.json",
+      "docs/PACE-RAG-KNOWLEDGE-SYNC.md",
+      "evaluation/reports/knowledge-sync-lexical-paired.json",
+      "evaluation/reports/knowledge-sync-semantic-paired.json",
+      "evaluation/reports/v161-lexical-paired.json",
+      "evaluation/reports/v161-semantic-paired.json",
+      "package-lock.json",
+      "package.json",
+      "packages/knowledge-schema/src/contracts.ts",
+      "packages/knowledge-schema/src/freshness.mjs",
+      "packages/knowledge-schema/src/provenance.mjs",
+      "packages/portfolio-assistant/package.json",
+      "packages/portfolio-assistant/src/Assistant.tsx",
+      "packages/portfolio-assistant/src/index.d.ts",
+      "packages/semantic-core/src/answers.mjs",
+      "packages/semantic-core/src/load.ts",
+      "scripts/activate-synchronization.mjs",
+      "scripts/evaluate-published-synchronization.mjs",
+      "scripts/evaluate-synchronization.mjs",
+      "scripts/indexing/build.mjs",
+      "scripts/indexing/content.mjs",
+      "scripts/indexing/freshness.mjs",
+      "scripts/package-portfolio.mjs",
+      "scripts/ranking-review-check.mjs",
+      "scripts/static-pages.mjs",
+      "scripts/synchronize-portfolio.mjs",
+      "tests/content.test.mjs",
+      "tests/knowledge-sync-v17.test.mjs",
+      "tests/knowledge-v16.test.mjs",
+      "tests/ranking-v161.test.mjs",
+      "tests/scope.test.mjs"
+    ]
+  },
+  "sharedWithPreexistingOwnerWork": {
+    "portfolio": [
+      "scripts/public-assets.json"
+    ],
+    "pace-rag": [
+      "packages/portfolio-assistant/package.json",
+      "packages/portfolio-assistant/src/Assistant.tsx",
+      "packages/semantic-core/src/answers.mjs"
+    ]
+  },
+  "preservedOwnerWork": "Earlier typography, English-policy/API/style work, case-study expansion, existing browser-session files and unrelated output were retained. No whole-worktree reset or stash was used.",
+  "commands": {
+    "portfolio": [
+      "npm test",
+      "npm run typecheck",
+      "npm run lint",
+      "node node_modules/eslint/bin/eslint.js . --ignore-pattern .opencode/plugins/entire.ts",
+      "npm run build",
+      "npm run i18n:extract",
+      "node scripts/i18n/translate.mjs --dry-run",
+      "npm run i18n:validate",
+      "npm run i18n:coverage -- --strict",
+      "npm run knowledge:check",
+      "npm run assets:check",
+      "QA_MODULES_DIR=../pace-rag QA_URL=http://127.0.0.1:4187 node scripts/knowledge-browser-qa.mjs",
+      "QA_MODULES_DIR=../pace-rag QA_URL=http://127.0.0.1:4187 node scripts/knowledge-performance-qa.mjs"
+    ],
+    "pace-rag": [
+      "npm test",
+      "npm run typecheck",
+      "npm run lint",
+      "npm run content:validate",
+      "npm run knowledge:sync",
+      "npm run knowledge:check",
+      "npm run knowledge:activate -- output/pme-v17/owner-approval.json",
+      "node scripts/indexing/build.mjs --release --embed",
+      "node scripts/evaluate-published-synchronization.mjs",
+      "node scripts/evaluate-published-synchronization.mjs --semantic",
+      "npm run release:check",
+      "npm run build:release",
+      "npm run index:verify",
+      "npm run package:portfolio",
+      "npm pack --workspace @pace-rag/portfolio-assistant --pack-destination ../mohdvara.github.io/vendor",
+      "npm run test:browser",
+      "npm run package:static -- --release",
+      "npm run release:artifact-check",
+      "npm run check:portfolio-budget"
+    ]
+  },
+  "limits": [
+    "Local verification only; no deployment/live route certification.",
+    "Known suggestion-ranking regressions and first-use corpus growth remain explicit.",
+    "No physical-device memory, production LCP, independent holdout, fluent editorial or screen-reader certification.",
+    "Historical typography/loader benchmarks were not relabeled as new measurements."
+  ],
+  "deployment": {
+    "committed": false,
+    "pushed": false,
+    "publishedRemotely": false,
+    "deployed": false,
+    "sourceRoute": "/pace-rag/",
+    "liveRouteVerified": false
+  }
+}

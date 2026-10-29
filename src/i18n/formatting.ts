@@ -8,6 +8,13 @@ export type CalendarDisplayMode = "cultural" | "gregorian";
 export const calendarPreferenceKey = "portfolio.calendar.v1";
 export const isCalendarDisplayMode = (value: unknown): value is CalendarDisplayMode => value === "cultural" || value === "gregorian";
 const dateCache = new Map<string,string>();
+/** Node/WebKit ICU differ in Arabic date literal commas. Keep calendar fields
+ * intact and normalize only that punctuation so prerender and hydration agree. */
+export function calendarLabelText(formatter: Intl.DateTimeFormat, value: Date, locale: Locale): string {
+  if (locale !== "ar") return formatter.format(value);
+  return formatter.formatToParts(value).map(part => part.type === "literal" ? part.value.replace(/،/g, "") : part.value).join("");
+}
+
 /** Reject rollover and precision mismatches before touching a converter. */
 export function parseCanonicalDate(iso: string, precision: DatePrecision): {start: Date; end: Date} | undefined {
   const pattern = precision === "year" ? /^\d{4}$/ : precision === "month" ? /^\d{4}-\d{2}$/ : /^\d{4}-\d{2}-\d{2}$/;
@@ -44,12 +51,12 @@ export function calendarDate(iso: string, locale: Locale, precision: DatePrecisi
         label = "Hijri (anggaran kiraan tabular; bukan takwim rasmi Malaysia)";
         const formatter = new Intl.DateTimeFormat(locale,{...options,calendar:"islamic-civil"});
         if (formatter.resolvedOptions().calendar !== "islamic-civil") return gregorian();
-        first = formatter.format(start); last = formatter.format(end);
+        first = calendarLabelText(formatter,start,locale); last = calendarLabelText(formatter,end,locale);
       }
     } else {
       const formatter = new Intl.DateTimeFormat(locale,{...options,calendar,...(calendar === "japanese" || calendar === "indian" ? {era:"short" as const}:{})});
       if (formatter.resolvedOptions().calendar !== calendar) return gregorian();
-      first = formatter.format(start); last = formatter.format(end);
+      first = calendarLabelText(formatter,start,locale); last = calendarLabelText(formatter,end,locale);
     }
     const local = first === last ? first : `${first} – ${last}`;
     // Isolate the numeric reference from surrounding Arabic prose.

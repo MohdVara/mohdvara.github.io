@@ -4,6 +4,9 @@
 .project-network .diagram-connection.connected { opacity: .65; stroke-width: 1.5; }
 .node { position: relative; display: flex; align-items: center; gap: 12px; min-height: 50px; border: 1px solid var(--sketch-border); background: var(--sketch-surface); color: var(--visual-text); text-align: start; padding: 10px 12px; font-size: .8125rem; cursor: pointer; transition: border-color 180ms ease, color 180ms ease; }
 .node .mono { color: var(--accent); font-size: 0.75rem; }
+/* Long translated labels must shrink within the grid at 150% text size. */
+.project-network, .project-network .node { min-inline-size: 0; }
+.project-network .node > span:nth-child(2) { min-inline-size: 0; overflow-wrap: anywhere; }
 .node.active { border-color: var(--accent); color: var(--text); }
 .node-dot { flex-shrink: 0; margin-inline-start: auto; width: 6px; height: 6px; border: 1px solid var(--accent); border-radius: 50%; }
 .node.active .node-dot { background: var(--accent); }

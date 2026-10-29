@@ -83,7 +83,7 @@ h2 > .vertical-text { max-inline-size: min(16rem, 42svh); line-height: 1.65; mar
    with normal page reflow on short screens or enlarged text. */
 .hero-environment { block-size: auto; min-block-size: max(0px, calc(100svh - var(--header-height, 90px) - var(--translation-notice-height, 0px))); }
 :root[lang] .hero-environment > .container.hero { block-size: auto; min-block-size: max(0px, calc(100svh - var(--header-height, 90px) - var(--translation-notice-height, 0px))) !important; max-block-size: none; padding-block: clamp(12px, 2svh, 28px); overflow: visible; align-content: safe center; }
-.hero-environment h1 { font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif; font-size: clamp(2.5rem, 4.5vw, 3.7rem) !important; line-height: 1.05; margin-block-start: 12px !important; letter-spacing: -.055em; }
+.hero-environment h1 { font-family: var(--font-hero-display, "Avenir Next", Avenir, "Segoe UI", sans-serif); font-size: clamp(2.5rem, 4.5vw, 3.7rem) !important; line-height: 1.05; margin-block-start: 12px !important; letter-spacing: -.055em; }
 .hero-environment .hero-role { margin-block-start: 12px !important; font-size: 1.15rem; line-height: 1.5; }
 .hero-environment .hero-description { margin-block-start: 12px !important; line-height: 1.65; }
 .hero-environment .actions { margin-block-start: 16px !important; }

@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/pace-rag-assets.mjs && vite",
-    "build": "node scripts/public-assets-audit.mjs && node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && node scripts/i18n/extract.mjs && node scripts/i18n/coverage.mjs --write && node scripts/artwork/sync.mjs --strict && node scripts/artwork/portrait.mjs && tsc -b && vite build && node scripts/prerender.mjs",
+    "dev": "node scripts/runtime-check.mjs && node scripts/build-info.mjs && node scripts/pace-rag-assets.mjs && vite",
+    "build": "node scripts/runtime-check.mjs && node scripts/build-info.mjs && node scripts/knowledge-sync.mjs --check && node scripts/public-assets-audit.mjs && node scripts/pace-rag-assets.mjs && node scripts/technology-evidence.mjs && node scripts/public-github.mjs && node scripts/i18n/extract.mjs && node scripts/i18n/coverage.mjs --write && node scripts/artwork/sync.mjs --strict && node scripts/artwork/portrait.mjs && tsc -b && vite build && node scripts/prerender.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -25,10 +25,19 @@
     "i18n:audit-dates": "node scripts/i18n/date-audit.mjs",
     "artwork:sync": "node scripts/artwork/sync.mjs",
     "artwork:check": "node scripts/artwork/sync.mjs --strict",
-    "assets:check": "node scripts/public-assets-audit.mjs"
+    "assets:check": "node scripts/public-assets-audit.mjs",
+    "knowledge:coverage": "node scripts/knowledge-sync.mjs",
+    "knowledge:check": "node scripts/knowledge-sync.mjs --check",
+    "knowledge:revision": "node scripts/knowledge-sync.mjs --record-revision",
+    "knowledge:sync": "node scripts/knowledge-sync.mjs && npm --prefix ../pace-rag run knowledge:sync",
+    "knowledge:refresh-public": "node scripts/knowledge-public-check.mjs",
+    "lint:app": "node scripts/lint-scopes.mjs app",
+    "lint:generated": "node scripts/lint-scopes.mjs generated",
+    "lint:full": "eslint .",
+    "check:runtime": "node scripts/runtime-check.mjs"
   },
   "dependencies": {
-    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.6.2-english.1.tgz",
+    "@pace-rag/portfolio-assistant": "file:vendor/pace-rag-portfolio-assistant-1.6.2-closure.2.tgz",
     "i18next": "^26.5.4",
     "phaser": "^3.90.0",
     "posthog-js": "^1.438.7",
@@ -49,5 +58,9 @@
     "typescript": "~5.6.2",
     "typescript-eslint": "^8.10.0",
     "vite": "8.3.2"
+  },
+  "engines": {
+    "node": ">=22.23.4 <23",
+    "npm": ">=10.9.0 <11"
   }
 }

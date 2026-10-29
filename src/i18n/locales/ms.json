@@ -1576,5 +1576,20 @@
   "Calendar display": "Paparan kalendar",
   "Cultural calendar (Default)": "Kalendar budaya (Lalai)",
   "Gregorian only": "Gregorian sahaja",
-  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "Kalendar budaya dipaparkan secara lalai, dengan rujukan Gregorian jika berkenaan. Pilih Gregorian sahaja untuk memaparkan tarikh menggunakan kalendar Gregorian."
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "Kalendar budaya dipaparkan secara lalai, dengan rujukan Gregorian jika berkenaan. Pilih Gregorian sahaja untuk memaparkan tarikh menggunakan kalendar Gregorian.",
+  "Content last revised:": "Kandungan terakhir disemak:",
+  "Knowledge last synchronized:": "Pengetahuan terakhir disegerakkan:",
+  "Knowledge synchronization date unavailable.": "Tarikh penyegerakan pengetahuan tidak tersedia.",
+  "Site build:": "Binaan laman:",
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": "Pembantu ini menggunakan petikan portfolio dan sumber sokongan terbitannya yang telah disemak. Perubahan repositori selepas petikan ini mungkin belum dimasukkan.",
+  "Canonical English content last revised:": "Kandungan asal bahasa Inggeris terakhir disemak:",
+  "Results are ready. You can keep searching.": "Hasil sudah tersedia. Anda boleh terus mencari.",
+  "Improving suggestions. You can keep searching.": "Cadangan sedang dipertingkat. Anda boleh terus mencari.",
+  "Suggestions updated. Similarity does not verify an answer.": "Cadangan dikemas kini. Keserupaan tidak mengesahkan jawapan.",
+  "Enhanced search is unavailable. Your existing results remain usable.": "Carian dipertingkat tidak tersedia. Hasil sedia ada masih boleh digunakan.",
+  "Enhancement cancelled. Your existing results remain usable.": "Peningkatan dibatalkan. Hasil sedia ada masih boleh digunakan.",
+  "Results are ready. Enhanced search is optional.": "Hasil sudah tersedia. Carian dipertingkat adalah pilihan.",
+  "Improve suggestions": "Tingkatkan cadangan",
+  "Retry enhanced search": "Cuba semula carian dipertingkat",
+  "Cancel enhancement": "Batalkan peningkatan"
 }

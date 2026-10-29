@@ -1,0 +1,5263 @@
+{
+  "id": "pme-knowledge-1.7.1a",
+  "recordedAt": "2026-10-29T14:40:15.096009+00:00",
+  "status": "READY FOR OWNER RELEASE REVIEW",
+  "scope": "Local implementation, package freeze and rehearsal; no commit, push, tag, activation, registry publication, deployment or production mutation",
+  "ownerReleaseApproval": "PENDING; not inferred",
+  "selfRecord": {
+    "path": "verification/pme-knowledge-1.7.1a.json",
+    "sha256": "Excluded to avoid a self-referential hash"
+  },
+  "taskWhitespace": "PASS; full diff retains pre-existing owner whitespace at docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md:6",
+  "repositories": {
+    "mohdvara.github.io": {
+      "head": "79e897e73bce97adf4347a4522513249154ca783",
+      "branch": "main",
+      "startingStatusEntries": 89,
+      "startingStatus": [
+        " M .gitignore",
+        " M docs/portfolio/PME-V1-COVERAGE.json",
+        " M docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+        " M package-lock.json",
+        " M package.json",
+        " M scripts/build-revision.mjs",
+        " M scripts/i18n/glossary.json",
+        " M scripts/i18n/metadata.json",
+        " M scripts/i18n/source-locations.json",
+        " M scripts/public-assets.json",
+        " M src/App.tsx",
+        " M src/BuildRevision.tsx",
+        " M src/CaseStudySummary.tsx",
+        " M src/PaceAssistant.tsx",
+        " M src/Readability.css",
+        " M src/SystemDiagrams.css",
+        " M src/data/pace-php-example.json",
+        " M src/i18n/formatting.ts",
+        " M src/i18n/i18n.css",
+        " M src/i18n/locales/ar.json",
+        " M src/i18n/locales/de.json",
+        " M src/i18n/locales/en.json",
+        " M src/i18n/locales/es.json",
+        " M src/i18n/locales/fr.json",
+        " M src/i18n/locales/hi.json",
+        " M src/i18n/locales/ja.json",
+        " M src/i18n/locales/ms.json",
+        " M src/i18n/locales/pt-BR.json",
+        " M src/i18n/locales/ta.json",
+        " M src/i18n/locales/zh-Hans.json",
+        " M src/i18n/status.json",
+        " M src/main.tsx",
+        " M src/vite-env.d.ts",
+        " M vite.config.ts",
+        "?? .playwright-cli/page-2026-10-22T08-41-39-901Z.yml",
+        "?? .playwright-cli/page-2026-10-22T12-12-20-272Z.yml",
+        "?? .playwright-cli/page-2026-10-22T12-17-52-983Z.yml",
+        "?? .playwright-cli/page-2026-10-22T12-22-45-530Z.yml",
+        "?? .playwright-cli/page-2026-10-23T01-46-29-968Z.yml",
+        "?? .playwright-cli/page-2026-10-23T02-01-42-370Z.yml",
+        "?? .playwright-cli/page-2026-10-23T02-33-54-939Z.yml",
+        "?? .playwright-cli/page-2026-10-23T10-27-13-816Z.yml",
+        "?? .playwright-cli/page-2026-10-23T10-32-45-817Z.yml",
+        "?? .playwright-cli/page-2026-10-24T17-57-41-806Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-29-03-586Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-33-57-460Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-35-15-521Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-44-20-026Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-51-10-649Z.yml",
+        "?? docs/portfolio/PME-V1.6-PROFESSIONAL-TYPOGRAPHY.md",
+        "?? docs/portfolio/PME-V1.7-KNOWLEDGE-SYNC-RESULTS.md",
+        "?? docs/portfolio/PME-V1.7.1-RELEASE-HARDENING-RESULTS.md",
+        "?? output/MACE_CLAUDE_COMPLETE_CONTEXT.md",
+        "?? output/pme-v17/asset-comparison.json",
+        "?? output/pme-v17/bundle-comparison.json",
+        "?? output/pme-v17/i18n-bounded.mjs",
+        "?? output/pme-v17/performance-approved-exploratory.json",
+        "?? output/pme-v17/performance-discarded.json",
+        "?? output/pme-v17/performance.json",
+        "?? output/pme-v17/route-audit.json",
+        "?? public/evidence/portfolio-knowledge-inventory.v1.json",
+        "?? public/fonts/editorial/Space-Grotesk-OFL.txt",
+        "?? public/fonts/editorial/manifest.json",
+        "?? public/fonts/editorial/space-grotesk-variable.woff2",
+        "?? scripts/build-info.mjs",
+        "?? scripts/knowledge-browser-qa.mjs",
+        "?? scripts/knowledge-performance-qa.mjs",
+        "?? scripts/knowledge-public-check.mjs",
+        "?? scripts/knowledge-sync.mjs",
+        "?? scripts/typography-font-audit.py",
+        "?? scripts/typography-loading-qa.mjs",
+        "?? scripts/typography-performance-qa.mjs",
+        "?? scripts/typography-qa.mjs",
+        "?? src/ContentFreshness.css",
+        "?? src/ContentFreshness.tsx",
+        "?? src/Typography.css",
+        "?? src/data/content-freshness.json",
+        "?? src/data/content-revisions.json",
+        "?? tests/calendar-hydration.test.mjs",
+        "?? tests/knowledge-sync.test.mjs",
+        "?? tests/typography.test.mjs",
+        "?? vendor/pace-rag-portfolio-assistant-1.6.2-hardening.1.tgz",
+        "?? vendor/pace-rag-portfolio-assistant-1.6.2-knowledge.1.tgz",
+        "?? verification/knowledge-public-sources.json",
+        "?? verification/pme-knowledge-1.7.1.json",
+        "?? verification/pme-knowledge-1.7.json",
+        "?? verification/pme-type-1.6.json",
+        "?? verification/portfolio-knowledge-inventory.json",
+        ""
+      ],
+      "currentStatus": [
+        " M .github/workflows/pages.yml",
+        " M .gitignore",
+        " M .nvmrc",
+        " M docs/DEVELOPMENT.md",
+        " M docs/portfolio/PME-V1-COVERAGE.json",
+        " M docs/portfolio/PORTFOLIO_CASE_STUDY_EXPANSION.md",
+        " M package-lock.json",
+        " M package.json",
+        " M scripts/build-revision.mjs",
+        " M scripts/i18n/glossary.json",
+        " M scripts/i18n/metadata.json",
+        " M scripts/i18n/source-locations.json",
+        " M scripts/public-assets.json",
+        " M src/App.tsx",
+        " M src/BuildRevision.tsx",
+        " M src/CaseStudySummary.tsx",
+        " M src/PaceAssistant.tsx",
+        " M src/Readability.css",
+        " M src/SystemDiagrams.css",
+        " M src/data/pace-php-example.json",
+        " M src/i18n/formatting.ts",
+        " M src/i18n/i18n.css",
+        " M src/i18n/locales/ar.json",
+        " M src/i18n/locales/de.json",
+        " M src/i18n/locales/en.json",
+        " M src/i18n/locales/es.json",
+        " M src/i18n/locales/fr.json",
+        " M src/i18n/locales/hi.json",
+        " M src/i18n/locales/ja.json",
+        " M src/i18n/locales/ms.json",
+        " M src/i18n/locales/pt-BR.json",
+        " M src/i18n/locales/ta.json",
+        " M src/i18n/locales/zh-Hans.json",
+        " M src/i18n/status.json",
+        " M src/main.tsx",
+        " M src/vite-env.d.ts",
+        " M vite.config.ts",
+        "?? .playwright-cli/page-2026-10-22T08-41-39-901Z.yml",
+        "?? .playwright-cli/page-2026-10-22T12-12-20-272Z.yml",
+        "?? .playwright-cli/page-2026-10-22T12-17-52-983Z.yml",
+        "?? .playwright-cli/page-2026-10-22T12-22-45-530Z.yml",
+        "?? .playwright-cli/page-2026-10-23T01-46-29-968Z.yml",
+        "?? .playwright-cli/page-2026-10-23T02-01-42-370Z.yml",
+        "?? .playwright-cli/page-2026-10-23T02-33-54-939Z.yml",
+        "?? .playwright-cli/page-2026-10-23T10-27-13-816Z.yml",
+        "?? .playwright-cli/page-2026-10-23T10-32-45-817Z.yml",
+        "?? .playwright-cli/page-2026-10-24T17-57-41-806Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-29-03-586Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-33-57-460Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-35-15-521Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-44-20-026Z.yml",
+        "?? .playwright-cli/page-2026-10-24T19-51-10-649Z.yml",
+        "?? docs/portfolio/PME-V1.6-PROFESSIONAL-TYPOGRAPHY.md",
+        "?? docs/portfolio/PME-V1.7-KNOWLEDGE-SYNC-RESULTS.md",
+        "?? docs/portfolio/PME-V1.7.1-RELEASE-HARDENING-RESULTS.md",
+        "?? docs/portfolio/PME-V1.7.1A-RELEASE-CLOSURE-RESULTS.md",
+        "?? output/MACE_CLAUDE_COMPLETE_CONTEXT.md",
+        "?? output/pme-v17/asset-comparison.json",
+        "?? output/pme-v17/bundle-comparison.json",
+        "?? output/pme-v17/i18n-bounded.mjs",
+        "?? output/pme-v17/performance-approved-exploratory.json",
+        "?? output/pme-v17/performance-discarded.json",
+        "?? output/pme-v17/performance.json",
+        "?? output/pme-v17/route-audit.json",
+        "?? public/evidence/portfolio-knowledge-inventory.v1.json",
+        "?? public/fonts/editorial/Space-Grotesk-OFL.txt",
+        "?? public/fonts/editorial/manifest.json",
+        "?? public/fonts/editorial/space-grotesk-variable.woff2",
+        "?? scripts/build-info.mjs",
+        "?? scripts/knowledge-browser-qa.mjs",
+        "?? scripts/knowledge-performance-qa.mjs",
+        "?? scripts/knowledge-public-check.mjs",
+        "?? scripts/knowledge-sync.mjs",
+        "?? scripts/lint-scopes.mjs",
+        "?? scripts/runtime-check.mjs",
+        "?? scripts/typography-font-audit.py",
+        "?? scripts/typography-loading-qa.mjs",
+        "?? scripts/typography-performance-qa.mjs",
+        "?? scripts/typography-qa.mjs",
+        "?? src/ContentFreshness.css",
+        "?? src/ContentFreshness.tsx",
+        "?? src/Typography.css",
+        "?? src/data/content-freshness.json",
+        "?? src/data/content-revisions.json",
+        "?? tests/calendar-hydration.test.mjs",
+        "?? tests/knowledge-sync.test.mjs",
+        "?? tests/lint-boundary.test.mjs",
+        "?? tests/typography.test.mjs",
+        "?? vendor/pace-rag-portfolio-assistant-1.6.2-closure.2.tgz",
+        "?? vendor/pace-rag-portfolio-assistant-1.6.2-hardening.1.tgz",
+        "?? vendor/pace-rag-portfolio-assistant-1.6.2-knowledge.1.tgz",
+        "?? verification/generated-integrations.json",
+        "?? verification/knowledge-public-sources.json",
+        "?? verification/pme-knowledge-1.7.1.json",
+        "?? verification/pme-knowledge-1.7.1a.json",
+        "?? verification/pme-knowledge-1.7.json",
+        "?? verification/pme-type-1.6.json",
+        "?? verification/portfolio-knowledge-inventory.json"
+      ],
+      "taskChangesRelativeToPreservedBaseline": [
+        {
+          "path": ".github/workflows/pages.yml",
+          "beforeSha256": "a268f9dfbf5ce55a7308419cb7fa8edc0d517c0054feeff8a34c24d6af7b5056",
+          "sha256": "bedc975f8965bd254dda64d3291402c6f155ee16fee9a69aa30f613522634a71",
+          "change": "modified"
+        },
+        {
+          "path": ".nvmrc",
+          "beforeSha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56",
+          "sha256": "0c4bf84f9bedd485b2c4eac05f59e35addc86ce7dbf0d90435528e04384c6314",
+          "change": "modified"
+        },
+        {
+          "path": "docs/DEVELOPMENT.md",
+          "beforeSha256": "4c914a3c6dfee0ce40d6cd0f3f76ac4ca19ace85cc119f813903d0fc510f12cf",
+          "sha256": "d9c50dc5dc156d491ac49ea92744ef2e0f09f97db0934a6442ede44ca78f30d6",
+          "change": "modified"
+        },
+        {
+          "path": "docs/portfolio/PME-V1-COVERAGE.json",
+          "beforeSha256": "595d65e90866834190bc5eda41a728169a052e76569689cccc37c4fcd887df1c",
+          "sha256": "a9215f9e81539fa8ab3a71ab217788cf01c970fef550698721532950f9599487",
+          "change": "modified"
+        },
+        {
+          "path": "docs/portfolio/PME-V1.7.1A-RELEASE-CLOSURE-RESULTS.md",
+          "beforeSha256": null,
+          "sha256": "1f6868535aaf1f094988e40f627a02491c335eeacbee7d95a687fbbc8f143757",
+          "change": "added"
+        },
+        {
+          "path": "package-lock.json",
+          "beforeSha256": "50711832f1f2becf576185742a19e1164852ca5fc42c78ebc38eb5e9da61500a",
+          "sha256": "50f48cf94b699ead206c1ec867e045a08df78fdd87784e74f0c460a65448a092",
+          "change": "modified"
+        },
+        {
+          "path": "package.json",
+          "beforeSha256": "ed5ca400c04a73c5451ec4f4a3f47840407ad1353e88362b5a80e8424c3cd8a1",
+          "sha256": "a248ad2fdc159c653c8a44402960719dce85ba1ce13315cfd1cc0f5057ce2849",
+          "change": "modified"
+        },
+        {
+          "path": "scripts/i18n/metadata.json",
+          "beforeSha256": "89d796f615c6a36ab28601cccb8b888a065e434df63d625f0a7b0ad1dfeaeaee",
+          "sha256": "2f25ce44732d336cd1fad11203f7dbf0fd6b3b894215c07f1b1e872fdd27f7e9",
+          "change": "modified"
+        },
+        {
+          "path": "scripts/i18n/source-locations.json",
+          "beforeSha256": "61612d9c6bfe25c4dc321dd35a3dc4955aa6438f746e18bd930abefa808cae2e",
+          "sha256": "0ac2be7bb2a37c0ccb62752e11fd9a54126b50b4fae781740db7e6791ddeb795",
+          "change": "modified"
+        },
+        {
+          "path": "scripts/lint-scopes.mjs",
+          "beforeSha256": null,
+          "sha256": "c61e4d116ef797b56202ea493591b7c5ca69da4602c1542dc6e896b860d8e688",
+          "change": "added"
+        },
+        {
+          "path": "scripts/runtime-check.mjs",
+          "beforeSha256": null,
+          "sha256": "c94165e2cc5abd732d96c5adaa3960b3cee7e62addf169ce40e0b05b3e0ee928",
+          "change": "added"
+        },
+        {
+          "path": "src/PaceAssistant.tsx",
+          "beforeSha256": "380bcb5e0886882e04263887876f835ad1e0988794fd9ef74bf4ac3fd032c7f7",
+          "sha256": "7cb3ef5eb528c6c2a5322ef649210877a992422575f4980d82ffab41701fbe48",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/ar.json",
+          "beforeSha256": "b95434df0a1fb51b94b6008f869aa678bb74d0510299981e6b15a2184ac75987",
+          "sha256": "92eacb31050fd5b3f6a300c3bd805466135cfbaa4255270af08392da0f4789a0",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/de.json",
+          "beforeSha256": "113dc28d7fda9fd5900cabf19aa37da5aabc0099ae69f021d5b07b0a63e7ea58",
+          "sha256": "0eae5acebd9580c1496c5fe2751c65e865e886df9913227380e876d71ad00728",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/en.json",
+          "beforeSha256": "c312842ab4054c45a580e0f8e0eb78fe256bdd64aead1a017c37f78ef44cfc40",
+          "sha256": "30e979f1757052cb85e0a35c928738f81a0420d986ace1814e0996c117cbf237",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/es.json",
+          "beforeSha256": "7b0efd25fb288c4a0a0cdabe1759139d51c3445417d06ad9cbf2b0b6df9e8be0",
+          "sha256": "2aae5215c07f80416e403ed1af60fb73f5e4b0e0e29cfd39568c3144158c1f58",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/fr.json",
+          "beforeSha256": "1d0a486eea8f8e61dad6810caac88cfd8f233e1cb437223c5abb60ff53ca7082",
+          "sha256": "c1e4803f2deeca8cea7baf6b9d1104a5079ee1f6ede9a19a02c90dbe76808064",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/hi.json",
+          "beforeSha256": "cf4ee018646a055a4693f4d972d155dcc5e29dc9b23bc3d0114de8f33049881c",
+          "sha256": "64046c905f5256748ea4237d6d0f3d30b84aa7cb308088edda9724dfb52f0dc1",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/ja.json",
+          "beforeSha256": "d129fb7774e5410707294797e8d5c810e7e801df64cf8104ee824e9aa3d3f61c",
+          "sha256": "d45e6dbc94bc12d646cc443d2cf7acfdf266af04fa7bb0f0d76a355a7521e74d",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/ms.json",
+          "beforeSha256": "16d7b391dc1e3f6bde310e5c64d8453940dc56f5644e2ebd5485d755057ff10a",
+          "sha256": "09515bc792fa5df442234663bf8f04dfdcbd7d2773b701cd63d8a7e12e2897d1",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/pt-BR.json",
+          "beforeSha256": "383816f4fabb26bd68a27aa35bec65227e75ae8e1852cfaeea55afcbe852ef92",
+          "sha256": "770ba243c01ef39b63d01fdeb0419493054f00be189ad397dc8bde98f76da628",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/ta.json",
+          "beforeSha256": "50c6d0aa7df969a215d56fcaca03c7b942a2d150e29da234ee0ec9e618e7cb23",
+          "sha256": "27125dd5d95b91e0a6e4570c08f56036c16977636f8a88193acb75e3b4f0cefc",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/locales/zh-Hans.json",
+          "beforeSha256": "53795d2b12ebd6d863cc54d86d5de4ce27e020982852670c752feccc43995bf3",
+          "sha256": "5f8258057f2fe07262829fbcd3c88beff3aa8fd5b9533b839830267fb1d41e82",
+          "change": "modified"
+        },
+        {
+          "path": "src/i18n/status.json",
+          "beforeSha256": "5711bb72f09f9de67b46cb2c04cb933fc591fb7a1570c30da7fe93cdca8f3975",
+          "sha256": "fce6e7934b4475143f04262bd44f79cb1ed163f8582a428604e5a78ac12e4d76",
+          "change": "modified"
+        },
+        {
+          "path": "tests/lint-boundary.test.mjs",
+          "beforeSha256": null,
+          "sha256": "4a89c850fa313e65fa47ccc3f11a1728d522faf5bdeeeb4d7f0a1f3abef3df7c",
+          "change": "added"
+        },
+        {
+          "path": "vendor/pace-rag-portfolio-assistant-1.6.2-closure.2.tgz",
+          "beforeSha256": null,
+          "sha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+          "change": "added"
+        },
+        {
+          "path": "verification/generated-integrations.json",
+          "beforeSha256": null,
+          "sha256": "f37b52fe3ed12ed605b455d2f06675c2fd5166743e7fe6aca743ecbbf35869c6",
+          "change": "added"
+        }
+      ],
+      "removedStartingFiles": [],
+      "sourceFingerprint": "f8752173c5718248af317b0874dfed39303474cd083def8b3fd5d57c50ee405f",
+      "sourceFingerprintMethod": "SHA-256 of sorted source path, NUL, file SHA-256, newline; excludes ignored output/browser sessions and self-referential verification ledger",
+      "lockfileSha256": "50f48cf94b699ead206c1ec867e045a08df78fdd87784e74f0c460a65448a092",
+      "baselineRegister": "mohdvara.github.io/output/playwright/pme-v171a/mohdvara.github.io-baseline.json"
+    },
+    "pace-rag": {
+      "head": "1a517cac30ec321944b3da5a2a18858a1bf53500",
+      "branch": "main",
+      "startingStatusEntries": 88,
+      "startingStatus": [
+        " M apps/rag-api/generated/corpora.json",
+        " M apps/rag-api/src/handler.mjs",
+        " M apps/rag-api/src/security.mjs",
+        " M apps/rag-lab/index.html",
+        " M content/portfolio/approvals.json",
+        " M content/publication-review.json",
+        " M evaluation/reports/v161-lexical-paired.json",
+        " M evaluation/reports/v161-semantic-paired.json",
+        " M package-lock.json",
+        " M package.json",
+        " M packages/knowledge-schema/src/contracts.ts",
+        " M packages/knowledge-schema/src/provenance.mjs",
+        " M packages/portfolio-assistant/package.json",
+        " M packages/portfolio-assistant/src/Assistant.tsx",
+        " M packages/portfolio-assistant/src/index.d.ts",
+        " M packages/portfolio-assistant/src/style.css",
+        " M packages/semantic-core/src/answers.mjs",
+        " M packages/semantic-core/src/load.ts",
+        " M packages/semantic-core/src/scope.mjs",
+        " M scripts/indexing/build.mjs",
+        " M scripts/indexing/content.mjs",
+        " M scripts/package-portfolio.mjs",
+        " M scripts/package-static.mjs",
+        " M scripts/ranking-review-check.mjs",
+        " M scripts/serve-static.mjs",
+        " M scripts/static-pages.mjs",
+        " M tests/content.test.mjs",
+        " M tests/knowledge-v16.test.mjs",
+        " M tests/ranking-v161.test.mjs",
+        " M tests/scope.test.mjs",
+        "?? AGENTS.md",
+        "?? PACE-RAG_Evidence-Grounded_Professional_Representative_Specification_v1.md",
+        "?? content/index-history.json",
+        "?? content/portfolio/history/synchronization-approved-9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286.json",
+        "?? content/portfolio/history/synchronization-before-9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286.json",
+        "?? content/portfolio/published-synchronization.json",
+        "?? content/portfolio/synchronization-owner-approval.json",
+        "?? content/portfolio/synchronized-v17/change-report.json",
+        "?? content/portfolio/synchronized-v17/draft-records.json",
+        "?? content/portfolio/synchronized-v17/manifest.json",
+        "?? content/portfolio/synchronized-v17/sources/education.json",
+        "?? content/portfolio/synchronized-v17/sources/hr.json",
+        "?? content/portfolio/synchronized-v17/sources/insurance.json",
+        "?? content/portfolio/synchronized-v17/sources/ntm.json",
+        "?? content/portfolio/synchronized-v17/sources/portfolio-repository-inventory.json",
+        "?? content/portfolio/synchronized-v17/sources/project-asset.json",
+        "?? content/portfolio/synchronized-v17/sources/project-hostel.json",
+        "?? content/portfolio/synchronized-v17/sources/project-mmcats-modern.json",
+        "?? content/portfolio/synchronized-v17/sources/project-multilingual-engineering.json",
+        "?? content/portfolio/synchronized-v17/sources/project-naae.json",
+        "?? content/portfolio/synchronized-v17/sources/project-nodejs-hotel-problem.json",
+        "?? content/portfolio/synchronized-v17/sources/project-portfolio.json",
+        "?? content/portfolio/synchronized-v17/sources/rag.json",
+        "?? content/portfolio/synchronized-v17/sources/rental.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-hostel-management-system-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-legacy-gemfile.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-legacy-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-modern-docs-legacy-parity-matrix-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-modern-docs-render-free-acceptance-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-modern-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mohdvara-github-io-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-nodejs-hotel-problem-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-pace-rag-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/wensymes.json",
+        "?? docs/PACE-RAG-KNOWLEDGE-SYNC.md",
+        "?? evaluation/independent-holdout/README.md",
+        "?? evaluation/reports/knowledge-sync-lexical-paired.json",
+        "?? evaluation/reports/knowledge-sync-semantic-paired.json",
+        "?? packages/knowledge-schema/src/english-policy.mjs",
+        "?? packages/knowledge-schema/src/freshness.mjs",
+        "?? scripts/activate-synchronization.mjs",
+        "?? scripts/evaluate-independent-holdout.mjs",
+        "?? scripts/evaluate-published-synchronization.mjs",
+        "?? scripts/evaluate-synchronization.mjs",
+        "?? scripts/hardening-browser-qa.mjs",
+        "?? scripts/hardening-close-profile.mjs",
+        "?? scripts/hardening-hydration-audit.mjs",
+        "?? scripts/hardening-integrity-audit.mjs",
+        "?? scripts/hardening-profile.mjs",
+        "?? scripts/hardening-retrieval-audit.mjs",
+        "?? scripts/hardening-semantic-profile.mjs",
+        "?? scripts/hardening-summary.mjs",
+        "?? scripts/indexing/freshness.mjs",
+        "?? scripts/synchronize-portfolio.mjs",
+        "?? tests/deferred-loading.test.mjs",
+        "?? tests/english-policy.test.mjs",
+        "?? tests/knowledge-sync-v17.test.mjs",
+        ""
+      ],
+      "currentStatus": [
+        " M .github/workflows/validate.yml",
+        " M .nvmrc",
+        " M apps/rag-api/generated/corpora.json",
+        " M apps/rag-api/src/handler.mjs",
+        " M apps/rag-api/src/security.mjs",
+        " M apps/rag-lab/index.html",
+        " M content/portfolio/approvals.json",
+        " M content/publication-review.json",
+        " M evaluation/reports/v161-lexical-paired.json",
+        " M evaluation/reports/v161-semantic-paired.json",
+        " M package-lock.json",
+        " M package.json",
+        " M packages/knowledge-schema/src/contracts.ts",
+        " M packages/knowledge-schema/src/provenance.mjs",
+        " M packages/portfolio-assistant/package.json",
+        " M packages/portfolio-assistant/src/Assistant.tsx",
+        " M packages/portfolio-assistant/src/index.d.ts",
+        " M packages/portfolio-assistant/src/style.css",
+        " M packages/semantic-core/src/answers.mjs",
+        " M packages/semantic-core/src/client.ts",
+        " M packages/semantic-core/src/load.ts",
+        " M packages/semantic-core/src/scope.mjs",
+        " M scripts/browser-qa.mjs",
+        " M scripts/indexing/build.mjs",
+        " M scripts/indexing/content.mjs",
+        " M scripts/package-portfolio.mjs",
+        " M scripts/package-static.mjs",
+        " M scripts/ranking-review-check.mjs",
+        " M scripts/serve-static.mjs",
+        " M scripts/static-pages.mjs",
+        " M tests/content.test.mjs",
+        " M tests/knowledge-v16.test.mjs",
+        " M tests/ranking-v161.test.mjs",
+        " M tests/scope.test.mjs",
+        "?? AGENTS.md",
+        "?? PACE-RAG_Evidence-Grounded_Professional_Representative_Specification_v1.md",
+        "?? content/index-history.json",
+        "?? content/portfolio/history/synchronization-approved-9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286.json",
+        "?? content/portfolio/history/synchronization-before-9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286.json",
+        "?? content/portfolio/published-synchronization.json",
+        "?? content/portfolio/synchronization-owner-approval.json",
+        "?? content/portfolio/synchronized-v17/change-report.json",
+        "?? content/portfolio/synchronized-v17/draft-records.json",
+        "?? content/portfolio/synchronized-v17/manifest.json",
+        "?? content/portfolio/synchronized-v17/sources/education.json",
+        "?? content/portfolio/synchronized-v17/sources/hr.json",
+        "?? content/portfolio/synchronized-v17/sources/insurance.json",
+        "?? content/portfolio/synchronized-v17/sources/ntm.json",
+        "?? content/portfolio/synchronized-v17/sources/portfolio-repository-inventory.json",
+        "?? content/portfolio/synchronized-v17/sources/project-asset.json",
+        "?? content/portfolio/synchronized-v17/sources/project-hostel.json",
+        "?? content/portfolio/synchronized-v17/sources/project-mmcats-modern.json",
+        "?? content/portfolio/synchronized-v17/sources/project-multilingual-engineering.json",
+        "?? content/portfolio/synchronized-v17/sources/project-naae.json",
+        "?? content/portfolio/synchronized-v17/sources/project-nodejs-hotel-problem.json",
+        "?? content/portfolio/synchronized-v17/sources/project-portfolio.json",
+        "?? content/portfolio/synchronized-v17/sources/rag.json",
+        "?? content/portfolio/synchronized-v17/sources/rental.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-hostel-management-system-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-legacy-gemfile.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-legacy-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-modern-docs-legacy-parity-matrix-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-modern-docs-render-free-acceptance-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mmcats-modern-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-mohdvara-github-io-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-nodejs-hotel-problem-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/repository-pace-rag-readme-md.json",
+        "?? content/portfolio/synchronized-v17/sources/wensymes.json",
+        "?? docs/PACE-RAG-KNOWLEDGE-SYNC.md",
+        "?? docs/RELEASE-CLOSURE.md",
+        "?? evaluation/independent-holdout/README.md",
+        "?? evaluation/reports/knowledge-sync-lexical-paired.json",
+        "?? evaluation/reports/knowledge-sync-semantic-paired.json",
+        "?? packages/knowledge-schema/src/english-policy.mjs",
+        "?? packages/knowledge-schema/src/freshness.mjs",
+        "?? scripts/activate-synchronization.mjs",
+        "?? scripts/closure-acceptance.mjs",
+        "?? scripts/closure-browser-qa.mjs",
+        "?? scripts/closure-portfolio-qa.mjs",
+        "?? scripts/closure-profile.mjs",
+        "?? scripts/closure-rehearsal.mjs",
+        "?? scripts/closure-summary.mjs",
+        "?? scripts/closure-warm-worker.mjs",
+        "?? scripts/evaluate-independent-holdout.mjs",
+        "?? scripts/evaluate-published-synchronization.mjs",
+        "?? scripts/evaluate-synchronization.mjs",
+        "?? scripts/hardening-browser-qa.mjs",
+        "?? scripts/hardening-close-profile.mjs",
+        "?? scripts/hardening-hydration-audit.mjs",
+        "?? scripts/hardening-integrity-audit.mjs",
+        "?? scripts/hardening-profile.mjs",
+        "?? scripts/hardening-retrieval-audit.mjs",
+        "?? scripts/hardening-semantic-profile.mjs",
+        "?? scripts/hardening-summary.mjs",
+        "?? scripts/indexing/freshness.mjs",
+        "?? scripts/runtime-check.mjs",
+        "?? scripts/synchronize-portfolio.mjs",
+        "?? tests/deferred-loading.test.mjs",
+        "?? tests/english-policy.test.mjs",
+        "?? tests/knowledge-sync-v17.test.mjs",
+        "?? tests/progressive-client.test.mjs"
+      ],
+      "taskChangesRelativeToPreservedBaseline": [
+        {
+          "path": ".github/workflows/validate.yml",
+          "beforeSha256": "651e9b6971dbb255a96c393be21b1a959e962a06458b57a60412e3e31bf3e1d6",
+          "sha256": "1a75f6508693adb5d586ca49fcdac5b7cca4329701f836a803a1e4f2babd337b",
+          "change": "modified"
+        },
+        {
+          "path": ".nvmrc",
+          "beforeSha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56",
+          "sha256": "0c4bf84f9bedd485b2c4eac05f59e35addc86ce7dbf0d90435528e04384c6314",
+          "change": "modified"
+        },
+        {
+          "path": "docs/RELEASE-CLOSURE.md",
+          "beforeSha256": null,
+          "sha256": "44ce80bfadce56191f33b4ef5470a090ae0eb172c742595fea307c7f127d180b",
+          "change": "added"
+        },
+        {
+          "path": "evaluation/reports/knowledge-sync-lexical-paired.json",
+          "beforeSha256": "506c3e9f3683c7c8f955dac2730d31bcf05fcf38e2da03d878efac8a9df327ed",
+          "sha256": "bc9aa7176c9f4a0efde87704b8151fc88ac23875d5ded68176fd82656b547e1b",
+          "change": "modified"
+        },
+        {
+          "path": "evaluation/reports/knowledge-sync-semantic-paired.json",
+          "beforeSha256": "8d2809a61a4413044194cf6a40d851ff8b8d00be5f656b4d517dec6c1c80b8d2",
+          "sha256": "0cfbd6b8712fce0196cc35643d637ac49a2cf44f2474de543586d190114f7929",
+          "change": "modified"
+        },
+        {
+          "path": "package-lock.json",
+          "beforeSha256": "85b091b4382df8d3329e0f49eeac9214ec1c9db4e54bf9f2efd20b4dc23c888f",
+          "sha256": "4a0ab213bcf5bab7aaeafc40c11abfff59e8738a0a86cc58d3dde344c96e0173",
+          "change": "modified"
+        },
+        {
+          "path": "package.json",
+          "beforeSha256": "80e40d8e3d4a15cf14177486f3a68f792e7d816ecda6ae4d0dcd30ff5fe68667",
+          "sha256": "f709751190781004a3349c9ba9b0c69491ea2ea4e583a2981ce077b822bd6cee",
+          "change": "modified"
+        },
+        {
+          "path": "packages/portfolio-assistant/package.json",
+          "beforeSha256": "5610d6e76f0f58d95027f15e68e95ad81acf4cd8d8e292128d8260b1a51dd50b",
+          "sha256": "aa7aab953997a59477c4670052ecd1cf395da065afaf43b9d4d6c223cc1c3f69",
+          "change": "modified"
+        },
+        {
+          "path": "packages/portfolio-assistant/src/Assistant.tsx",
+          "beforeSha256": "cba33237fa4d796c40f8704e84fd47d433a6bc29bc2f7bbb0d868e44ada5c201",
+          "sha256": "79a6d67576d0ad9cd31ce7246c35aa47c9a4173fc4339b8b844e4378ce09320b",
+          "change": "modified"
+        },
+        {
+          "path": "packages/portfolio-assistant/src/index.d.ts",
+          "beforeSha256": "dccea3eeff0be7aadba48bd5595fb5ffc1e2f150ffa4f0c5a0db01fb7b5d8f3c",
+          "sha256": "a44a9185f72377cf78bf930508bd3749431e3208e856f5e58d00d4607901bdc4",
+          "change": "modified"
+        },
+        {
+          "path": "packages/semantic-core/src/client.ts",
+          "beforeSha256": "9e733d67dd5422c393c840fb1c405f179eb9a00f466e3e4a3f6c177b7245b3ae",
+          "sha256": "d44112d33f5c14f18723cebc194698887c91997286189c54f9be951c29d574b6",
+          "change": "modified"
+        },
+        {
+          "path": "packages/semantic-core/src/load.ts",
+          "beforeSha256": "1c8a8021c9d1b1ddc10fd72a53409688b57a763a8ac2dab2e2d344047bf6a572",
+          "sha256": "f456db0adcefdfac6c97d702b166f8be25e2f2fb68bd37d628f3f6e193520807",
+          "change": "modified"
+        },
+        {
+          "path": "scripts/browser-qa.mjs",
+          "beforeSha256": "04a58a471543f2021aa8daab98086a2f9b282fa3a28f7f81a3735a0b43a926ac",
+          "sha256": "4e72642a1a4dc846d3b3bda5f24ca831a884df9ff961c885552e358395e699aa",
+          "change": "modified"
+        },
+        {
+          "path": "scripts/closure-acceptance.mjs",
+          "beforeSha256": null,
+          "sha256": "df839dc2b7e7a6ba17859b67f174c80773895c6637a5a9fef6a3ed458de094e2",
+          "change": "added"
+        },
+        {
+          "path": "scripts/closure-browser-qa.mjs",
+          "beforeSha256": null,
+          "sha256": "3ac48191329d4997c3590e4478dfe645ab2ed541c7862f830468e5b9c1b99f15",
+          "change": "added"
+        },
+        {
+          "path": "scripts/closure-portfolio-qa.mjs",
+          "beforeSha256": null,
+          "sha256": "0cc1f4877f056dd95ee470d6c9701be9b2a80e85283eef6218c0648713d3d7e5",
+          "change": "added"
+        },
+        {
+          "path": "scripts/closure-profile.mjs",
+          "beforeSha256": null,
+          "sha256": "0db5c9a2c517494e3a4eb15cb4060f944a7a936a3c1f2a60e72e0194387b1ec8",
+          "change": "added"
+        },
+        {
+          "path": "scripts/closure-rehearsal.mjs",
+          "beforeSha256": null,
+          "sha256": "1a9bc1312ccbade485693ee0f52cd22f4a7bf34a1949d2cf507e53657e9eb5ba",
+          "change": "added"
+        },
+        {
+          "path": "scripts/closure-summary.mjs",
+          "beforeSha256": null,
+          "sha256": "e2aa436fa4c0af09fc368e7bf2bf4ddae25b24d650c68b2dd2b46bd3ec75759c",
+          "change": "added"
+        },
+        {
+          "path": "scripts/closure-warm-worker.mjs",
+          "beforeSha256": null,
+          "sha256": "c821a940df4dd6e064c9e0c710e924e67a7d874c1044ae50b41c24ad90c21376",
+          "change": "added"
+        },
+        {
+          "path": "scripts/runtime-check.mjs",
+          "beforeSha256": null,
+          "sha256": "c94165e2cc5abd732d96c5adaa3960b3cee7e62addf169ce40e0b05b3e0ee928",
+          "change": "added"
+        },
+        {
+          "path": "tests/deferred-loading.test.mjs",
+          "beforeSha256": "66d2e3ea287e577b405f1c49cea6d27360b05b05b24b790623069c735cd9307c",
+          "sha256": "abfba1526e91fe8cea7ca7abc58e5affce59c62b49951cbea72fb50052f1e1af",
+          "change": "modified"
+        },
+        {
+          "path": "tests/progressive-client.test.mjs",
+          "beforeSha256": null,
+          "sha256": "84c772b554c2fc42f08372aab1e5b06323ceb29fb39d2d0dc52e76994490f6d5",
+          "change": "added"
+        }
+      ],
+      "removedStartingFiles": [],
+      "sourceFingerprint": "8562a6fcf8d6cb3d5ad3bf21fe369eea15094525a076557586d4fd4a399e41d2",
+      "sourceFingerprintMethod": "SHA-256 of sorted source path, NUL, file SHA-256, newline; excludes ignored output/browser sessions and self-referential verification ledger",
+      "lockfileSha256": "4a0ab213bcf5bab7aaeafc40c11abfff59e8738a0a86cc58d3dde344c96e0173",
+      "baselineRegister": "mohdvara.github.io/output/playwright/pme-v171a/pace-rag-baseline.json"
+    }
+  },
+  "tests": {
+    "starting": {
+      "portfolio": 231,
+      "pace": 124,
+      "total": 355
+    },
+    "current": {
+      "portfolio": 233,
+      "pace": 129,
+      "total": 362,
+      "failures": 0,
+      "skips": 0
+    },
+    "originalTestsPreserved": true
+  },
+  "runtime": {
+    "node": "22.23.4",
+    "npm": "10.9.9",
+    "nodeArchiveSha256": "c9e1dbc748b33ed2d14f42445191ecaf14c56259c7a9a26d0042c49ec2b66428",
+    "officialChecksums": "https://nodejs.org/dist/v22.23.4/SHASUMS256.txt",
+    "cleanInstalls": "PASS; final offline lockfile installs, zero EBADENGINE; initial missing offline cache item supplied by lockfile-pinned online install",
+    "hostedRuntime": "NOT VERIFIED; dashboard overrides unchanged"
+  },
+  "commands": {
+    "baseline": [
+      {
+        "repository": "mohdvara.github.io",
+        "command": "npm test",
+        "exitCode": 0
+      },
+      {
+        "repository": "mohdvara.github.io",
+        "command": "npm run typecheck",
+        "exitCode": 0
+      },
+      {
+        "repository": "mohdvara.github.io",
+        "command": "npm run lint",
+        "exitCode": 1
+      },
+      {
+        "repository": "pace-rag",
+        "command": "npm test",
+        "exitCode": 0
+      },
+      {
+        "repository": "pace-rag",
+        "command": "npm run typecheck",
+        "exitCode": 0
+      },
+      {
+        "repository": "pace-rag",
+        "command": "npm run lint",
+        "exitCode": 0
+      }
+    ],
+    "portfolio": [
+      {
+        "command": "npm install --offline --ignore-scripts --package-lock-only",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-lock.log"
+      },
+      {
+        "command": "npm ci --offline --ignore-scripts",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-clean-install.log"
+      },
+      {
+        "command": "npm run check:runtime",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-runtime.log"
+      },
+      {
+        "command": "npm run typecheck",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-typecheck.log"
+      },
+      {
+        "command": "npm test",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-test.log"
+      },
+      {
+        "command": "npm run lint:app",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-lint-app.log"
+      },
+      {
+        "command": "npm run lint:generated",
+        "exitCode": 1,
+        "node": "22.23.4",
+        "log": "portfolio-final-lint-generated.log"
+      },
+      {
+        "command": "npm run lint:full",
+        "exitCode": 1,
+        "node": "22.23.4",
+        "log": "portfolio-final-lint-full.log"
+      },
+      {
+        "command": "npm run build",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-build.log"
+      },
+      {
+        "command": "npm run i18n:validate",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-i18n.log"
+      },
+      {
+        "command": "npm run i18n:coverage -- --strict",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-coverage.log"
+      },
+      {
+        "command": "npm run knowledge:check",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-knowledge.log"
+      },
+      {
+        "command": "npm run assets:check",
+        "exitCode": 0,
+        "node": "22.23.4",
+        "log": "portfolio-final-assets.log"
+      }
+    ],
+    "pace": [
+      {
+        "command": "npm test",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm run lint",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm run typecheck",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm run build:release",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm run index:verify",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm run package:portfolio",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm pack --workspace @pace-rag/portfolio-assistant --pack-destination ../mohdvara.github.io/vendor",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm run package:static -- --release",
+        "exitCode": 0,
+        "node": "22.23.4"
+      },
+      {
+        "command": "npm run release:artifact-check",
+        "exitCode": 0,
+        "node": "22.23.4"
+      }
+    ]
+  },
+  "approvedKnowledge": {
+    "packetHash": "9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286",
+    "corpusId": "portfolio",
+    "corpusVersion": "b0e1b371c34d449b",
+    "schemaVersion": 1,
+    "embeddingSpecId": "minilm-q8-wasm-v1",
+    "indexedAt": "2026-10-29T05:03:43.315Z",
+    "checkedAt": "2026-10-29T03:52:05.964Z",
+    "counts": {
+      "documents": 35,
+      "activeAnswers": 51,
+      "retiredAnswers": 2,
+      "questionRows": 70,
+      "chunks": 196
+    },
+    "manifest": {
+      "freshness": {
+        "upstream": {
+          "snapshotId": "portfolio-7846a374e01875d9",
+          "sourceFingerprint": "7846a374e01875d9d60dc33e51345643e3b275cbff971da8fbe84284d366b766",
+          "packetHash": "9bde0ad5517a91f8317e133d9baeedb0c0b8b7d0cb06e7ab92beb591f58cf286"
+        },
+        "schemaVersion": 1,
+        "snapshotId": "b0e1b371c34d449b",
+        "sourceFingerprint": "f58d786bbf1af5d8d0fee06d691225ffb42738b2564a6d8e06e68bb9e50e9faa",
+        "canonicalInputFingerprint": "8978a520c235ff6edfa261844e2cc7d90a39c75df1aed5ad13defab2b068cc6f",
+        "indexedAt": "2026-10-29T05:03:43.315Z",
+        "checkedAt": "2026-10-29T03:52:05.964Z",
+        "sourceCount": 35,
+        "documentCount": 35,
+        "compatibility": {
+          "manifestSchema": 1,
+          "embeddingSpecId": "minilm-q8-wasm-v1"
+        },
+        "coverage": {
+          "sourceIds": [
+            "education",
+            "engagement",
+            "hr",
+            "incident",
+            "insurance",
+            "ntm",
+            "portfolio-repository-inventory",
+            "profile",
+            "project-asset",
+            "project-hostel",
+            "project-mmcats-modern",
+            "project-multilingual-engineering",
+            "project-naae",
+            "project-nodejs-hotel-problem",
+            "project-portfolio",
+            "rag",
+            "rental",
+            "repository-hostel-management-system-readme-md",
+            "repository-mmcats-legacy-gemfile",
+            "repository-mmcats-legacy-readme-md",
+            "repository-mmcats-modern-docs-legacy-parity-matrix-md",
+            "repository-mmcats-modern-docs-render-free-acceptance-md",
+            "repository-mmcats-modern-readme-md",
+            "repository-mohdvara-github-io-readme-md",
+            "repository-nodejs-hotel-problem-readme-md",
+            "repository-pace-rag-readme-md",
+            "resume",
+            "technology-asset",
+            "technology-campus",
+            "technology-hostel",
+            "technology-insurance",
+            "technology-inventory",
+            "technology-rental",
+            "technology-wensymes",
+            "wensymes"
+          ]
+        },
+        "basis": "Exact approved knowledge input history; retained across format-only rebuilds. builtAt describes this artifact, not source freshness or deployment"
+      },
+      "schemaVersion": 1,
+      "sourceFingerprint": "f58d786bbf1af5d8d0fee06d691225ffb42738b2564a6d8e06e68bb9e50e9faa",
+      "corpusId": "portfolio",
+      "corpusVersion": "b0e1b371c34d449b",
+      "preview": false,
+      "embedding": {
+        "id": "minilm-q8-wasm-v1",
+        "modelId": "Xenova/all-MiniLM-L6-v2",
+        "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+        "artifactSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+        "transformersVersion": "3.8.1",
+        "onnxRuntimeVersion": "1.22.0-dev.20250409-89f8206ba4",
+        "dtype": "q8",
+        "backend": "wasm",
+        "dimensions": 384,
+        "pooling": "mean",
+        "normalize": true,
+        "maxSequenceTokens": 256,
+        "preprocessingVersion": "nfc-lf-trim-v1"
+      },
+      "assets": {
+        "answers": {
+          "path": "answers.json",
+          "sha256": "6cd9a45c280232e30c4b264989c801a452bc9a8942be04ae97a14ce7d7c325bc",
+          "bytes": 82060,
+          "mediaType": "application/json"
+        },
+        "documents": {
+          "path": "documents.json",
+          "sha256": "7cda55720ba9c61fadc41efcb0761ba1ac58505033c0dd95317a8b6cff963268",
+          "bytes": 96784,
+          "mediaType": "application/json"
+        },
+        "chunks": {
+          "path": "chunks.json",
+          "sha256": "b1fdf5b6ddb27a0300e8ff5eb964922996836e962a02e65ed83bd6ccd96f7b3b",
+          "bytes": 374229,
+          "mediaType": "application/json"
+        },
+        "technology": {
+          "path": "technology.json",
+          "sha256": "495375a3ea1825301e250e183a977802f5122463b072b7ca17222810d547bd9a",
+          "bytes": 6239,
+          "mediaType": "application/json"
+        },
+        "retirements": {
+          "path": "retirements.json",
+          "sha256": "5ee66745a1bfc0f03c529b7013ddaa7a5cdebfbe85ddcbc8a173f99ae0228c23",
+          "bytes": 402,
+          "mediaType": "application/json"
+        },
+        "questionVectors": {
+          "path": "questionVectors.f32",
+          "sha256": "06b3a48ca0319972063b84df1eb7ce9a7092d252c1012835b64556df69f472df",
+          "bytes": 107520,
+          "mediaType": "application/octet-stream"
+        },
+        "chunkVectors": {
+          "path": "chunkVectors.f32",
+          "sha256": "2166aa9531e5f55ab6852b027d07013803d23de9873166cee873f590548210e6",
+          "bytes": 301056,
+          "mediaType": "application/octet-stream"
+        }
+      },
+      "questionRows": [
+        {
+          "row": 0,
+          "answerId": "portfolio-answer-background",
+          "questionId": "portfolio-answer-background"
+        },
+        {
+          "row": 1,
+          "answerId": "portfolio-answer-background",
+          "questionId": "portfolio-background-alt-0"
+        },
+        {
+          "row": 2,
+          "answerId": "portfolio-answer-location",
+          "questionId": "portfolio-answer-location"
+        },
+        {
+          "row": 3,
+          "answerId": "portfolio-answer-location",
+          "questionId": "portfolio-location-alt-0"
+        },
+        {
+          "row": 4,
+          "answerId": "portfolio-answer-approach",
+          "questionId": "portfolio-answer-approach"
+        },
+        {
+          "row": 5,
+          "answerId": "portfolio-answer-teaching",
+          "questionId": "portfolio-answer-teaching"
+        },
+        {
+          "row": 6,
+          "answerId": "portfolio-answer-insurance-work",
+          "questionId": "portfolio-answer-insurance-work"
+        },
+        {
+          "row": 7,
+          "answerId": "portfolio-answer-insurance-work",
+          "questionId": "portfolio-insurance-work-alt-0"
+        },
+        {
+          "row": 8,
+          "answerId": "portfolio-answer-insurance-leadership",
+          "questionId": "portfolio-answer-insurance-leadership"
+        },
+        {
+          "row": 9,
+          "answerId": "portfolio-answer-modernisation",
+          "questionId": "portfolio-answer-modernisation"
+        },
+        {
+          "row": 10,
+          "answerId": "portfolio-answer-modernisation",
+          "questionId": "portfolio-modernisation-alt-0"
+        },
+        {
+          "row": 11,
+          "answerId": "portfolio-answer-modernisation",
+          "questionId": "portfolio-answer-modernisation-v16-alt-0"
+        },
+        {
+          "row": 12,
+          "answerId": "portfolio-answer-education-disclosure",
+          "questionId": "portfolio-answer-education-disclosure"
+        },
+        {
+          "row": 13,
+          "answerId": "portfolio-answer-wensymes-work",
+          "questionId": "portfolio-answer-wensymes-work"
+        },
+        {
+          "row": 14,
+          "answerId": "portfolio-answer-wensymes-work",
+          "questionId": "portfolio-answer-wensymes-work-v16-alt-0"
+        },
+        {
+          "row": 15,
+          "answerId": "portfolio-answer-wensymes-security",
+          "questionId": "portfolio-answer-wensymes-security"
+        },
+        {
+          "row": 16,
+          "answerId": "portfolio-answer-rental-domain",
+          "questionId": "portfolio-answer-rental-domain"
+        },
+        {
+          "row": 17,
+          "answerId": "portfolio-answer-rental-impact",
+          "questionId": "portfolio-answer-rental-impact"
+        },
+        {
+          "row": 18,
+          "answerId": "portfolio-answer-hr-collaboration",
+          "questionId": "portfolio-answer-hr-collaboration"
+        },
+        {
+          "row": 19,
+          "answerId": "portfolio-answer-hr-distinction",
+          "questionId": "portfolio-answer-hr-distinction"
+        },
+        {
+          "row": 20,
+          "answerId": "portfolio-answer-ntm-overview",
+          "questionId": "portfolio-answer-ntm-overview"
+        },
+        {
+          "row": 21,
+          "answerId": "portfolio-answer-ntm-architecture",
+          "questionId": "portfolio-answer-ntm-architecture"
+        },
+        {
+          "row": 22,
+          "answerId": "portfolio-answer-ntm-rag",
+          "questionId": "portfolio-answer-ntm-rag"
+        },
+        {
+          "row": 23,
+          "answerId": "portfolio-answer-incident-overview",
+          "questionId": "portfolio-answer-incident-overview"
+        },
+        {
+          "row": 24,
+          "answerId": "portfolio-answer-incident-preview",
+          "questionId": "portfolio-answer-incident-preview"
+        },
+        {
+          "row": 25,
+          "answerId": "portfolio-answer-rag-evidence",
+          "questionId": "portfolio-answer-rag-evidence"
+        },
+        {
+          "row": 26,
+          "answerId": "portfolio-answer-rag-evidence",
+          "questionId": "portfolio-rag-evidence-alt-0"
+        },
+        {
+          "row": 27,
+          "answerId": "portfolio-answer-rag-scale",
+          "questionId": "portfolio-answer-rag-scale"
+        },
+        {
+          "row": 28,
+          "answerId": "portfolio-answer-engagement-types",
+          "questionId": "portfolio-answer-engagement-types"
+        },
+        {
+          "row": 29,
+          "answerId": "portfolio-answer-availability",
+          "questionId": "portfolio-answer-availability"
+        },
+        {
+          "row": 30,
+          "answerId": "portfolio-answer-resume-links",
+          "questionId": "portfolio-answer-resume-links"
+        },
+        {
+          "row": 31,
+          "answerId": "portfolio-answer-resume-links",
+          "questionId": "portfolio-resume-links-alt-0"
+        },
+        {
+          "row": 32,
+          "answerId": "portfolio-answer-contact",
+          "questionId": "portfolio-answer-contact"
+        },
+        {
+          "row": 33,
+          "answerId": "portfolio-answer-contact",
+          "questionId": "portfolio-contact-alt-0"
+        },
+        {
+          "row": 34,
+          "answerId": "portfolio-answer-independent-work",
+          "questionId": "portfolio-answer-independent-work"
+        },
+        {
+          "row": 35,
+          "answerId": "portfolio-answer-insurance-products",
+          "questionId": "portfolio-answer-insurance-products"
+        },
+        {
+          "row": 36,
+          "answerId": "portfolio-answer-insurance-products",
+          "questionId": "portfolio-insurance-products-alt-0"
+        },
+        {
+          "row": 37,
+          "answerId": "portfolio-answer-insurance-workflows",
+          "questionId": "portfolio-answer-insurance-workflows"
+        },
+        {
+          "row": 38,
+          "answerId": "portfolio-answer-rental-lifecycle",
+          "questionId": "portfolio-answer-rental-lifecycle"
+        },
+        {
+          "row": 39,
+          "answerId": "portfolio-answer-rental-lifecycle",
+          "questionId": "portfolio-rental-lifecycle-alt-0"
+        },
+        {
+          "row": 40,
+          "answerId": "portfolio-answer-rental-scale",
+          "questionId": "portfolio-answer-rental-scale"
+        },
+        {
+          "row": 41,
+          "answerId": "portfolio-answer-rental-reporting",
+          "questionId": "portfolio-answer-rental-reporting"
+        },
+        {
+          "row": 42,
+          "answerId": "portfolio-answer-wensymes-platforms",
+          "questionId": "portfolio-answer-wensymes-platforms"
+        },
+        {
+          "row": 43,
+          "answerId": "portfolio-answer-hr-config",
+          "questionId": "portfolio-answer-hr-config"
+        },
+        {
+          "row": 44,
+          "answerId": "portfolio-answer-ntm-verification",
+          "questionId": "portfolio-answer-ntm-verification"
+        },
+        {
+          "row": 45,
+          "answerId": "portfolio-answer-ntm-verification",
+          "questionId": "portfolio-ntm-verification-alt-0"
+        },
+        {
+          "row": 46,
+          "answerId": "portfolio-answer-incident-authenticity",
+          "questionId": "portfolio-answer-incident-authenticity"
+        },
+        {
+          "row": 47,
+          "answerId": "portfolio-answer-architecture-discussion",
+          "questionId": "portfolio-answer-architecture-discussion"
+        },
+        {
+          "row": 48,
+          "answerId": "portfolio-answer-cv-options",
+          "questionId": "portfolio-answer-cv-options"
+        },
+        {
+          "row": 49,
+          "answerId": "portfolio-answer-public-boundaries",
+          "questionId": "portfolio-answer-public-boundaries"
+        },
+        {
+          "row": 50,
+          "answerId": "portfolio-answer-sync-legacy-php",
+          "questionId": "portfolio-answer-sync-legacy-php"
+        },
+        {
+          "row": 51,
+          "answerId": "portfolio-answer-sync-public-modernization",
+          "questionId": "portfolio-answer-sync-public-modernization"
+        },
+        {
+          "row": 52,
+          "answerId": "portfolio-answer-sync-mmcats-comparison",
+          "questionId": "portfolio-answer-sync-mmcats-comparison"
+        },
+        {
+          "row": 53,
+          "answerId": "portfolio-answer-sync-laravel-evidence",
+          "questionId": "portfolio-answer-sync-laravel-evidence"
+        },
+        {
+          "row": 54,
+          "answerId": "portfolio-answer-sync-react-next",
+          "questionId": "portfolio-answer-sync-react-next"
+        },
+        {
+          "row": 55,
+          "answerId": "portfolio-answer-sync-commercial-independent",
+          "questionId": "portfolio-answer-sync-commercial-independent"
+        },
+        {
+          "row": 56,
+          "answerId": "portfolio-answer-sync-deployments",
+          "questionId": "portfolio-answer-sync-deployments"
+        },
+        {
+          "row": 57,
+          "answerId": "portfolio-answer-sync-inspectable-work",
+          "questionId": "portfolio-answer-sync-inspectable-work"
+        },
+        {
+          "row": 58,
+          "answerId": "portfolio-answer-insurance-validity",
+          "questionId": "portfolio-answer-insurance-validity"
+        },
+        {
+          "row": 59,
+          "answerId": "portfolio-answer-insurance-validity",
+          "questionId": "portfolio-answer-insurance-validity-alt-0"
+        },
+        {
+          "row": 60,
+          "answerId": "portfolio-answer-insurance-validity",
+          "questionId": "portfolio-answer-insurance-validity-alt-1"
+        },
+        {
+          "row": 61,
+          "answerId": "portfolio-answer-insurance-architecture",
+          "questionId": "portfolio-answer-insurance-architecture"
+        },
+        {
+          "row": 62,
+          "answerId": "portfolio-answer-insurance-architecture",
+          "questionId": "portfolio-answer-insurance-architecture-alt-0"
+        },
+        {
+          "row": 63,
+          "answerId": "portfolio-answer-education-workflows",
+          "questionId": "portfolio-answer-education-workflows"
+        },
+        {
+          "row": 64,
+          "answerId": "portfolio-answer-education-workflows",
+          "questionId": "portfolio-answer-education-workflows-alt-0"
+        },
+        {
+          "row": 65,
+          "answerId": "portfolio-answer-rental-mobile",
+          "questionId": "portfolio-answer-rental-mobile"
+        },
+        {
+          "row": 66,
+          "answerId": "portfolio-answer-rental-mobile",
+          "questionId": "portfolio-answer-rental-mobile-alt-0"
+        },
+        {
+          "row": 67,
+          "answerId": "portfolio-answer-rental-mobile",
+          "questionId": "portfolio-answer-rental-mobile-alt-1"
+        },
+        {
+          "row": 68,
+          "answerId": "portfolio-answer-wensymes-rbac-boundary",
+          "questionId": "portfolio-answer-wensymes-rbac-boundary"
+        },
+        {
+          "row": 69,
+          "answerId": "portfolio-answer-wensymes-rbac-boundary",
+          "questionId": "portfolio-answer-wensymes-rbac-boundary-alt-0"
+        }
+      ],
+      "vectorEncoding": "float32-le",
+      "sourceHashes": {
+        "profile": "784faa54c260b2e8e09baff79f1bb02ad6fec537cb486d59caab69dae9cd82e1",
+        "insurance": "6a0f69130ed05f5790dbda0f0dc3bd2d428c0be3148270c081ce333d6b1d978b",
+        "education": "085294635c4be4adf534c11de8dd2ba4e2fa93ecf3a209d032f20e2ba84309e5",
+        "wensymes": "d8b6983dbe331b6c9a8f5c351e11e372f313b050d7989922e90ef40920e61d69",
+        "rental": "4ee1a6c412d8c6efa89d9742ffd38eff69586b17c75ab0101aad0d91a27853fc",
+        "hr": "a8ac18d9c76e963656a39f314b5b043b352f5c26343c03be9e7990cdd53eafd3",
+        "ntm": "3edae81bd3b6c8463059f40cc2e520a97d3f0a9841d4a21ecd19111c1edc6270",
+        "incident": "ba9c7036c2752f7e741942b963dbc29f96c05ca86cede714f3231f5772dbf69a",
+        "rag": "22d356aad3d9591f6857326724d2792ed106177bac59f900118195bbf78f9932",
+        "engagement": "c6c5581108eb22df9d5b57a1784fd339cc332be2325cfe4fe2228c67534909a0",
+        "resume": "3c880b1ae8798be02019a0f29ab533034d08e40e1f03c38f3051d5e3854769d5",
+        "portfolio-repository-inventory": "785e49ad03a3665f4c92e9bfd56c418455f6e9c230db6f82081829ce6d8ee4e2",
+        "project-asset": "15522856a9eeeaaaae9658c679d221f0f4328e00b659368ef2eeb2c9655213aa",
+        "project-hostel": "5dda4ed16d3a7676b0a33bcac6a3dc02cd16df8564beb17d3ebf9f160723f0a0",
+        "project-mmcats-modern": "a50c9be9ef612f04d3fe7eb7e30ee4567fe8ece126647c19c32ee431e497bb41",
+        "project-multilingual-engineering": "3161a3b597ae8f59c3ec7af662f5431514f3f2c149cc439822e18bdf40ff7cec",
+        "project-naae": "f88cf3a76f9617c2258c0e2282a5d63eeca74264ba6934d7212d5428ce218677",
+        "project-nodejs-hotel-problem": "6e55deeab4d0d24b2c075d9c1556b097ed06c68ea1f4b7d2b24c077d3edef2b4",
+        "project-portfolio": "cd1c951b9f78041dad9a5efdb1b5c2c1093a847da08069ca0b668d58b83c6b91",
+        "repository-hostel-management-system-readme-md": "38d443ab956567063e768052ef768bac739dcdde5f702270e8a1dc009a8bdffd",
+        "repository-mmcats-legacy-gemfile": "1f68a558cf0816d200146fb3f94449a3e7dcb841d86e0316a9c27fb7c4850f91",
+        "repository-mmcats-legacy-readme-md": "b2e80c36597a13a65f8a3ad9edd0d3116c2eca91ac6aa192de2467742544a968",
+        "repository-mmcats-modern-docs-legacy-parity-matrix-md": "d5fd376a345dda543c43eef98aa1fd38bed03e0e0ded7ee57affac241adb908a",
+        "repository-mmcats-modern-docs-render-free-acceptance-md": "bd860f749b6ecdc6e36750219a32d79421910f8a055f01ce261dddc5ea73594d",
+        "repository-mmcats-modern-readme-md": "5c46ea68b41638c8c2742a5b18013a6136ed20eb892c3c31ab47b37f577657f3",
+        "repository-mohdvara-github-io-readme-md": "56df078c62d377da895456ad16a05d33c47b375870c31b8d1af7b96613a5f0e3",
+        "repository-nodejs-hotel-problem-readme-md": "71a22f8e216c90f71cd7a02ebbb3314eda1ff6afd5bcd5ece6bd6bb946cb1629",
+        "repository-pace-rag-readme-md": "276730cff5f83c1920a18222e2b9322c9cf40b06762a8dea963f25d6a527318e",
+        "technology-inventory": "7d33971af8af5f17d873c08b6510563e21da00e931eeb00e0ebcb664653d44d7",
+        "technology-hostel": "042b89010e0947fbb2fed97fab41a9393e62502f2fbb1c7304b56b42982701df",
+        "technology-rental": "04630adfa61af44b8107e80e074d85dde541595bddab156cad8d7b18520e1c4e",
+        "technology-campus": "6e038bcfb26f19b7e5a9cbc973da9528890cfea8db266bccba331d6b49895213",
+        "technology-insurance": "fc71da86b0b779891796d942a7dbd09f6e15603209eecc46b776b09ea65c1e47",
+        "technology-wensymes": "4398367ac25d6d74b439de9cb33ac2ca780285260a63fa642e1f10449c394a3e",
+        "technology-asset": "5aca84fad29bcdfd0fc38ebfa90e74ea77e697de6754ea9ecf260e9a64f2ef79"
+      },
+      "matchPolicyVersion": "suggest-only-v1",
+      "builtAt": "2026-10-29T05:03:43.315Z",
+      "semanticReady": true
+    },
+    "preserved": [
+      {
+        "path": "content/portfolio/synchronization-owner-approval.json",
+        "sha256": "ceee88a527be1d1a337097a9ea6fc5a02281a3c7a69ac910ed4630237e682c88"
+      },
+      {
+        "path": "content/portfolio/published-synchronization.json",
+        "sha256": "5215681598542ff20b2ee641c8af1fee211b1f9390cb4d1a6674994758a67cc7"
+      },
+      {
+        "path": "content/portfolio/approvals.json",
+        "sha256": "4d6a6ba352533294a7e5bf886ba3c39077a44a0db5a78d1a0db36e2b1155e3e5"
+      },
+      {
+        "path": "content/publication-review.json",
+        "sha256": "5523f47dd7a29f457f27110f2b0850733e34c2c67d1c656e77bf697c8b72e4c3"
+      },
+      {
+        "path": "content/index-history.json",
+        "sha256": "919193cd89cdfc6ac247935f47edb313421ef997d75aafd9b03267a44d58a8c6"
+      },
+      {
+        "repository": "portfolio",
+        "path": "src/data/content-revisions.json",
+        "sha256": "3cfc2021d1f7874022cd2d9fcb6b0ac42f94c9e294de3437c095ff266e175ac5"
+      },
+      {
+        "repository": "portfolio",
+        "path": "verification/portfolio-knowledge-inventory.json",
+        "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+      },
+      {
+        "repository": "portfolio",
+        "path": "public/evidence/portfolio-knowledge-inventory.v1.json",
+        "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+      },
+      {
+        "repository": "portfolio",
+        "path": "verification/knowledge-public-sources.json",
+        "sha256": "21401b221912097ed92a76693c5b29bc766715e788bb77e89995564bcae94513"
+      }
+    ],
+    "allProtectedBytesUnchanged": true,
+    "activationPerformed": false,
+    "factualCorrectionsRequired": []
+  },
+  "performance": {
+    "method": "Local synthetic; nearest-rank p95. Cold/warm contexts separate; warm-up excluded. Timeout/unrequested enhancement is never semantic success. Exact transfer excludes no workers because exact paths start none. Custom page transfer excludes worker resources; do not call it whole model transfer.",
+    "profiles": {
+      "before-exact": {
+        "desktop-cold": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 77.74999999627471,
+            "p95": 111.70000000298023,
+            "min": 71.70000000298023,
+            "max": 111.70000000298023
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 121.49999999627471,
+            "p95": 267.1000000014901,
+            "min": 106.20000000298023,
+            "max": 267.1000000014901
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 121.49999999627471,
+            "p95": 267.1000000014901,
+            "min": 106.20000000298023,
+            "max": 267.1000000014901
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 596.5999999977648,
+            "p95": 628.4000000059605,
+            "min": 584.7000000029802,
+            "max": 628.4000000059605
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 123.8999999947846,
+            "p95": 274.3999999985099,
+            "min": 108.60000000149012,
+            "max": 274.3999999985099
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 821704,
+            "p95": 821704,
+            "min": 821704,
+            "max": 821704
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5422042,
+            "p95": 5447992,
+            "min": 5380300,
+            "max": 5447992
+          }
+        },
+        "desktop-warm": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 105.39999999850988,
+            "p95": 329.8999999985099,
+            "min": 64.89999999850988,
+            "max": 329.8999999985099
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 135.44999999925494,
+            "p95": 183.5,
+            "min": 109.29999999701977,
+            "max": 183.5
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 135.44999999925494,
+            "p95": 183.5,
+            "min": 109.29999999701977,
+            "max": 183.5
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 623.4499999992549,
+            "p95": 2201.7999999970198,
+            "min": 576,
+            "max": 2201.7999999970198
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 138,
+            "p95": 187.30000000447035,
+            "min": 112.5,
+            "max": 187.30000000447035
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 600,
+            "p95": 600,
+            "min": 600,
+            "max": 600
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5408462,
+            "p95": 5431444,
+            "min": 5367244,
+            "max": 5431444
+          }
+        },
+        "mobile-cold": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 2558.2500000037253,
+            "p95": 3091.10000000149,
+            "min": 2516.5999999940395,
+            "max": 3091.10000000149
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 241.2500000037253,
+            "p95": 324.3999999985099,
+            "min": 214.39999999850988,
+            "max": 324.3999999985099
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 241.2500000037253,
+            "p95": 324.3999999985099,
+            "min": 214.39999999850988,
+            "max": 324.3999999985099
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 3077.949999999255,
+            "p95": 3612.7000000029802,
+            "min": 3030,
+            "max": 3612.7000000029802
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 250.30000000447035,
+            "p95": 332.09999999403954,
+            "min": 219.89999999850988,
+            "max": 332.09999999403954
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 821704,
+            "p95": 821704,
+            "min": 821704,
+            "max": 821704
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5671542,
+            "p95": 5698460,
+            "min": 5659500,
+            "max": 5698460
+          }
+        },
+        "mobile-warm": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 508.5,
+            "p95": 1432.7000000029802,
+            "min": 408,
+            "max": 1432.7000000029802
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 257.69999999552965,
+            "p95": 1045.6000000014901,
+            "min": 203.69999999552965,
+            "max": 1045.6000000014901
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 257.69999999552965,
+            "p95": 1045.6000000014901,
+            "min": 203.69999999552965,
+            "max": 1045.6000000014901
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 1050.699999999255,
+            "p95": 1975.3000000044703,
+            "min": 927.6000000014901,
+            "max": 1975.3000000044703
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 270.5999999977648,
+            "p95": 1095.2999999970198,
+            "min": 208.89999999850988,
+            "max": 1095.2999999970198
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 600,
+            "p95": 600,
+            "min": 600,
+            "max": 600
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5468762,
+            "p95": 5491844,
+            "min": 5432360,
+            "max": 5491844
+          }
+        }
+      },
+      "before-custom": {
+        "desktop-cold": {
+          "firstControlMs": {
+            "n": 3,
+            "median": 64.39999999850988,
+            "p95": 66.5,
+            "min": 56.79999999701977,
+            "max": 66.5
+          },
+          "firstResultMs": {
+            "n": 3,
+            "median": 126.30000000447035,
+            "p95": 135.29999999701977,
+            "min": 124.29999999701977,
+            "max": 135.29999999701977
+          },
+          "controlsUsableMs": {
+            "n": 3,
+            "median": 813.3999999985099,
+            "p95": 816,
+            "min": 742.2000000029802,
+            "max": 816
+          },
+          "networkSettleMs": {
+            "n": 3,
+            "median": 584.1999999955297,
+            "p95": 591.1000000014901,
+            "min": 584,
+            "max": 591.1000000014901
+          },
+          "semanticTerminalMs": {
+            "n": 3,
+            "median": 810.5999999940395,
+            "p95": 813,
+            "min": 739,
+            "max": 813
+          },
+          "semanticSuccesses": 3,
+          "terminals": [
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence."
+          ],
+          "pageTransferBytes": {
+            "n": 3,
+            "median": 2082875,
+            "p95": 2082875,
+            "min": 2082875,
+            "max": 2082875
+          },
+          "vectorRequests": {
+            "n": 3,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 3,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "jsHeapBytes": {
+            "n": 3,
+            "median": 6833688,
+            "p95": 6987344,
+            "min": 6304800,
+            "max": 6987344
+          }
+        },
+        "desktop-warm": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 57.899999998509884,
+            "p95": 65.69999999552965,
+            "min": 52.099999994039536,
+            "max": 65.69999999552965
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 132.94999999925494,
+            "p95": 188.10000000149012,
+            "min": 121.60000000149012,
+            "max": 188.10000000149012
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 720.75,
+            "p95": 857.7000000029802,
+            "min": 675.5,
+            "max": 857.7000000029802
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 581.4999999962747,
+            "p95": 872.8999999985099,
+            "min": 570.8999999985099,
+            "max": 872.8999999985099
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 718.8999999985099,
+            "p95": 854.3000000044703,
+            "min": 673.9000000059605,
+            "max": 854.3000000044703
+          },
+          "semanticSuccesses": 10,
+          "terminals": [
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence.",
+            "Semantic search ready. Similarity ranks relevance; it is not factual confidence."
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 900,
+            "p95": 900,
+            "min": 900,
+            "max": 900
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 6175066,
+            "p95": 7241200,
+            "min": 5916584,
+            "max": 7241200
+          }
+        },
+        "mobile-cold": {
+          "firstControlMs": {
+            "n": 1,
+            "median": 2516.60000000149,
+            "p95": 2516.60000000149,
+            "min": 2516.60000000149,
+            "max": 2516.60000000149
+          },
+          "firstResultMs": {
+            "n": 1,
+            "median": 197.79999999701977,
+            "p95": 197.79999999701977,
+            "min": 197.79999999701977,
+            "max": 197.79999999701977
+          },
+          "controlsUsableMs": {
+            "n": 1,
+            "median": 31215.69999999553,
+            "p95": 31215.69999999553,
+            "min": 31215.69999999553,
+            "max": 31215.69999999553
+          },
+          "networkSettleMs": {
+            "n": 1,
+            "median": 3033.89999999851,
+            "p95": 3033.89999999851,
+            "min": 3033.89999999851,
+            "max": 3033.89999999851
+          },
+          "semanticTerminalMs": {
+            "n": 1,
+            "median": 31213,
+            "p95": 31213,
+            "min": 31213,
+            "max": 31213
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            "Lexical search ready. The semantic model is unavailable; enable it to retry on your next query."
+          ],
+          "pageTransferBytes": {
+            "n": 1,
+            "median": 2082875,
+            "p95": 2082875,
+            "min": 2082875,
+            "max": 2082875
+          },
+          "vectorRequests": {
+            "n": 1,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 1,
+            "median": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "jsHeapBytes": {
+            "n": 1,
+            "median": 5502080,
+            "p95": 5502080,
+            "min": 5502080,
+            "max": 5502080
+          }
+        },
+        "mobile-warm": {
+          "firstControlMs": {
+            "n": 3,
+            "median": 440.5,
+            "p95": 443.20000000298023,
+            "min": 410.3999999985099,
+            "max": 443.20000000298023
+          },
+          "firstResultMs": {
+            "n": 3,
+            "median": 199.40000000596046,
+            "p95": 228.39999999850988,
+            "min": 197.90000000596046,
+            "max": 228.39999999850988
+          },
+          "controlsUsableMs": {
+            "n": 3,
+            "median": 30316,
+            "p95": 30317.20000000298,
+            "min": 30310.5,
+            "max": 30317.20000000298
+          },
+          "networkSettleMs": {
+            "n": 3,
+            "median": 958.8000000044703,
+            "p95": 964.3000000044703,
+            "min": 931,
+            "max": 964.3000000044703
+          },
+          "semanticTerminalMs": {
+            "n": 3,
+            "median": 30313.10000000149,
+            "p95": 30313.40000000596,
+            "min": 30308.60000000149,
+            "max": 30313.40000000596
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            "Lexical search ready. The semantic model is unavailable; enable it to retry on your next query.",
+            "Lexical search ready. The semantic model is unavailable; enable it to retry on your next query.",
+            "Lexical search ready. The semantic model is unavailable; enable it to retry on your next query."
+          ],
+          "pageTransferBytes": {
+            "n": 3,
+            "median": 900,
+            "p95": 900,
+            "min": 900,
+            "max": 900
+          },
+          "vectorRequests": {
+            "n": 3,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 3,
+            "median": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "jsHeapBytes": {
+            "n": 3,
+            "median": 4909892,
+            "p95": 4920072,
+            "min": 4890596,
+            "max": 4920072
+          }
+        }
+      },
+      "after-exact": {
+        "desktop-cold": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 83.89999999850988,
+            "p95": 112.89999999850988,
+            "min": 69.60000000149012,
+            "max": 112.89999999850988
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 132,
+            "p95": 215.89999999850988,
+            "min": 112,
+            "max": 215.89999999850988
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 132,
+            "p95": 215.89999999850988,
+            "min": 112,
+            "max": 215.89999999850988
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 605.6999999992549,
+            "p95": 1427.1000000014901,
+            "min": 586.9000000059605,
+            "max": 1427.1000000014901
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 134.34999999776483,
+            "p95": 218.5,
+            "min": 115.20000000298023,
+            "max": 218.5
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 823124,
+            "p95": 823124,
+            "min": 823124,
+            "max": 823124
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5452172,
+            "p95": 5647880,
+            "min": 5406636,
+            "max": 5647880
+          }
+        },
+        "desktop-warm": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 64.34999999776483,
+            "p95": 82.39999999850988,
+            "min": 52.600000001490116,
+            "max": 82.39999999850988
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 122.25,
+            "p95": 152.80000000447035,
+            "min": 113,
+            "max": 152.80000000447035
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 122.25,
+            "p95": 152.80000000447035,
+            "min": 113,
+            "max": 152.80000000447035
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 588.2500000037253,
+            "p95": 608.8000000044703,
+            "min": 569.8000000044703,
+            "max": 608.8000000044703
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 124.39999999850988,
+            "p95": 156.20000000298023,
+            "min": 115.39999999850988,
+            "max": 156.20000000298023
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 600,
+            "p95": 600,
+            "min": 600,
+            "max": 600
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5423596,
+            "p95": 5445036,
+            "min": 5392448,
+            "max": 5445036
+          }
+        },
+        "mobile-cold": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 2529.14999999851,
+            "p95": 2995.9000000059605,
+            "min": 2513.8000000044703,
+            "max": 2995.9000000059605
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 199.35000000149012,
+            "p95": 716.2000000029802,
+            "min": 182.70000000298023,
+            "max": 716.2000000029802
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 199.35000000149012,
+            "p95": 716.2000000029802,
+            "min": 182.70000000298023,
+            "max": 716.2000000029802
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 3047.150000002235,
+            "p95": 3515.9000000059605,
+            "min": 3030.8000000044703,
+            "max": 3515.9000000059605
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 204.9999999962747,
+            "p95": 727.6000000014901,
+            "min": 188,
+            "max": 727.6000000014901
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 823124,
+            "p95": 823124,
+            "min": 823124,
+            "max": 823124
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5682026,
+            "p95": 5714576,
+            "min": 5626680,
+            "max": 5714576
+          }
+        },
+        "mobile-warm": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 402.25,
+            "p95": 430.8999999985099,
+            "min": 379.5,
+            "max": 430.8999999985099
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 205.30000000074506,
+            "p95": 253.30000000447035,
+            "min": 185.70000000298023,
+            "max": 253.30000000447035
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 205.30000000074506,
+            "p95": 253.30000000447035,
+            "min": 185.70000000298023,
+            "max": 253.30000000447035
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 921.4000000022352,
+            "p95": 953.6000000014901,
+            "min": 897.5,
+            "max": 953.6000000014901
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 212.79999999701977,
+            "p95": 259.40000000596046,
+            "min": 190.60000000149012,
+            "max": 259.40000000596046
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 600,
+            "p95": 600,
+            "min": 600,
+            "max": 600
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 5492896,
+            "p95": 5518020,
+            "min": 5465092,
+            "max": 5518020
+          }
+        }
+      },
+      "after-custom": {
+        "desktop-cold": {
+          "firstControlMs": {
+            "n": 3,
+            "median": 74.29999999701977,
+            "p95": 93.80000000447035,
+            "min": 64.20000000298023,
+            "max": 93.80000000447035
+          },
+          "firstResultMs": {
+            "n": 3,
+            "median": 133.60000000149012,
+            "p95": 139.70000000298023,
+            "min": 128,
+            "max": 139.70000000298023
+          },
+          "controlsUsableMs": {
+            "n": 3,
+            "median": 133.60000000149012,
+            "p95": 139.70000000298023,
+            "min": 128,
+            "max": 139.70000000298023
+          },
+          "networkSettleMs": {
+            "n": 3,
+            "median": 586.7999999970198,
+            "p95": 610.5,
+            "min": 584.7999999970198,
+            "max": 610.5
+          },
+          "semanticTerminalMs": {
+            "n": 3,
+            "median": 820,
+            "p95": 1466.3999999985099,
+            "min": 736.5,
+            "max": 1466.3999999985099
+          },
+          "semanticSuccesses": 3,
+          "terminals": [
+            "available",
+            "available",
+            "available"
+          ],
+          "pageTransferBytes": {
+            "n": 3,
+            "median": 2084295,
+            "p95": 2084295,
+            "min": 2084295,
+            "max": 2084295
+          },
+          "vectorRequests": {
+            "n": 3,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 3,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "jsHeapBytes": {
+            "n": 3,
+            "median": 6832792,
+            "p95": 6855472,
+            "min": 5936484,
+            "max": 6855472
+          }
+        },
+        "desktop-warm": {
+          "firstControlMs": {
+            "n": 10,
+            "median": 64.35000000149012,
+            "p95": 71.90000000596046,
+            "min": 56.100000001490116,
+            "max": 71.90000000596046
+          },
+          "firstResultMs": {
+            "n": 10,
+            "median": 128.80000000074506,
+            "p95": 144.70000000298023,
+            "min": 117.70000000298023,
+            "max": 144.70000000298023
+          },
+          "controlsUsableMs": {
+            "n": 10,
+            "median": 128.80000000074506,
+            "p95": 144.70000000298023,
+            "min": 117.70000000298023,
+            "max": 144.70000000298023
+          },
+          "networkSettleMs": {
+            "n": 10,
+            "median": 588.6000000014901,
+            "p95": 598.2000000029802,
+            "min": 573.2000000029802,
+            "max": 598.2000000029802
+          },
+          "semanticTerminalMs": {
+            "n": 10,
+            "median": 718.3500000014901,
+            "p95": 932.5,
+            "min": 653,
+            "max": 932.5
+          },
+          "semanticSuccesses": 10,
+          "terminals": [
+            "available",
+            "available",
+            "available",
+            "available",
+            "available",
+            "available",
+            "available",
+            "available",
+            "available",
+            "available"
+          ],
+          "pageTransferBytes": {
+            "n": 10,
+            "median": 900,
+            "p95": 900,
+            "min": 900,
+            "max": 900
+          },
+          "vectorRequests": {
+            "n": 10,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 10,
+            "median": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 6824424,
+            "p95": 6992084,
+            "min": 5618720,
+            "max": 6992084
+          }
+        },
+        "mobile-cold": {
+          "firstControlMs": {
+            "n": 1,
+            "median": 2513.5,
+            "p95": 2513.5,
+            "min": 2513.5,
+            "max": 2513.5
+          },
+          "firstResultMs": {
+            "n": 1,
+            "median": 256.40000000596046,
+            "p95": 256.40000000596046,
+            "min": 256.40000000596046,
+            "max": 256.40000000596046
+          },
+          "controlsUsableMs": {
+            "n": 1,
+            "median": 256.40000000596046,
+            "p95": 256.40000000596046,
+            "min": 256.40000000596046,
+            "max": 256.40000000596046
+          },
+          "networkSettleMs": {
+            "n": 1,
+            "median": 3041.8000000044703,
+            "p95": 3041.8000000044703,
+            "min": 3041.8000000044703,
+            "max": 3041.8000000044703
+          },
+          "semanticTerminalMs": {
+            "n": 1,
+            "median": 271.30000000447035,
+            "p95": 271.30000000447035,
+            "min": 271.30000000447035,
+            "max": 271.30000000447035
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            "deferred"
+          ],
+          "pageTransferBytes": {
+            "n": 1,
+            "median": 823124,
+            "p95": 823124,
+            "min": 823124,
+            "max": 823124
+          },
+          "vectorRequests": {
+            "n": 1,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "modelRequests": {
+            "n": 1,
+            "median": 0,
+            "p95": 0,
+            "min": 0,
+            "max": 0
+          },
+          "jsHeapBytes": {
+            "n": 1,
+            "median": 6061140,
+            "p95": 6061140,
+            "min": 6061140,
+            "max": 6061140
+          }
+        },
+        "mobile-warm": {
+          "firstControlMs": {
+            "n": 3,
+            "median": 497,
+            "p95": 1476,
+            "min": 409.6000000014901,
+            "max": 1476
+          },
+          "firstResultMs": {
+            "n": 3,
+            "median": 209.79999999701977,
+            "p95": 214.10000000149012,
+            "min": 206,
+            "max": 214.10000000149012
+          },
+          "controlsUsableMs": {
+            "n": 3,
+            "median": 209.79999999701977,
+            "p95": 214.10000000149012,
+            "min": 206,
+            "max": 214.10000000149012
+          },
+          "networkSettleMs": {
+            "n": 3,
+            "median": 1016.9000000059605,
+            "p95": 1988.7000000029802,
+            "min": 930.1000000014901,
+            "max": 1988.7000000029802
+          },
+          "semanticTerminalMs": {
+            "n": 3,
+            "median": 30457.60000000149,
+            "p95": 30470.70000000298,
+            "min": 30443.89999999851,
+            "max": 30470.70000000298
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            "unavailable",
+            "unavailable",
+            "unavailable"
+          ],
+          "pageTransferBytes": {
+            "n": 3,
+            "median": 900,
+            "p95": 900,
+            "min": 900,
+            "max": 900
+          },
+          "vectorRequests": {
+            "n": 3,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 3,
+            "median": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "jsHeapBytes": {
+            "n": 3,
+            "median": 4800152,
+            "p95": 4802740,
+            "min": 4798800,
+            "max": 4802740
+          }
+        },
+        "mobile-cold-explicit": {
+          "firstControlMs": {
+            "n": 1,
+            "median": 2524.5,
+            "p95": 2524.5,
+            "min": 2524.5,
+            "max": 2524.5
+          },
+          "firstResultMs": {
+            "n": 1,
+            "median": 247.29999999701977,
+            "p95": 247.29999999701977,
+            "min": 247.29999999701977,
+            "max": 247.29999999701977
+          },
+          "controlsUsableMs": {
+            "n": 1,
+            "median": 247.29999999701977,
+            "p95": 247.29999999701977,
+            "min": 247.29999999701977,
+            "max": 247.29999999701977
+          },
+          "networkSettleMs": {
+            "n": 1,
+            "median": 3061.9000000059605,
+            "p95": 3061.9000000059605,
+            "min": 3061.9000000059605,
+            "max": 3061.9000000059605
+          },
+          "semanticTerminalMs": {
+            "n": 1,
+            "median": 31411.19999999553,
+            "p95": 31411.19999999553,
+            "min": 31411.19999999553,
+            "max": 31411.19999999553
+          },
+          "semanticSuccesses": 0,
+          "terminals": [
+            "unavailable"
+          ],
+          "pageTransferBytes": {
+            "n": 1,
+            "median": 2084295,
+            "p95": 2084295,
+            "min": 2084295,
+            "max": 2084295
+          },
+          "vectorRequests": {
+            "n": 1,
+            "median": 2,
+            "p95": 2,
+            "min": 2,
+            "max": 2
+          },
+          "modelRequests": {
+            "n": 1,
+            "median": 1,
+            "p95": 1,
+            "min": 1,
+            "max": 1
+          },
+          "jsHeapBytes": {
+            "n": 1,
+            "median": 5459404,
+            "p95": 5459404,
+            "min": 5459404,
+            "max": 5459404
+          }
+        }
+      }
+    },
+    "warmWorkers": {
+      "before": {
+        "desktop": {
+          "firstResultMs": {
+            "n": 10,
+            "median": 41.80000000074506,
+            "p95": 65.19999999552965,
+            "min": 40.599999994039536,
+            "max": 65.19999999552965
+          },
+          "semanticMs": {
+            "n": 10,
+            "median": 65.19999999925494,
+            "p95": 72.79999999701977,
+            "min": 62.70000000298023,
+            "max": 72.79999999701977
+          },
+          "embeddingMs": {
+            "n": 10,
+            "median": 16.450000002980232,
+            "p95": 22.599999994039536,
+            "min": 12.799999997019768,
+            "max": 22.599999994039536
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 8190800,
+            "p95": 9931008,
+            "min": 6264696,
+            "max": 9931008
+          },
+          "warmupUnthrottledMs": 752.7999999970198,
+          "workerResources": [
+            {
+              "url": "http://127.0.0.1:4200/pace-rag/assets/embedding-worker-DnxKJqeO.js",
+              "resources": [
+                {
+                  "name": "tokenizer.json",
+                  "duration": 2.600000001490116,
+                  "encoded": 711661,
+                  "transfer": 711961
+                },
+                {
+                  "name": "tokenizer_config.json",
+                  "duration": 1.5,
+                  "encoded": 366,
+                  "transfer": 666
+                },
+                {
+                  "name": "config.json",
+                  "duration": 1.3999999985098839,
+                  "encoded": 650,
+                  "transfer": 950
+                },
+                {
+                  "name": "model_quantized.onnx",
+                  "duration": 43.19999999552965,
+                  "encoded": 22972370,
+                  "transfer": 22972670
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.mjs",
+                  "duration": 1.6999999955296516,
+                  "encoded": 44484,
+                  "transfer": 44784
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.wasm",
+                  "duration": 44.79999999701977,
+                  "encoded": 21596019,
+                  "transfer": 21596319
+                }
+              ]
+            }
+          ],
+          "workersAfterPageClose": 0
+        },
+        "mobile": {
+          "firstResultMs": {
+            "n": 10,
+            "median": 77.94999999925494,
+            "p95": 101.60000000149012,
+            "min": 74.30000000447035,
+            "max": 101.60000000149012
+          },
+          "semanticMs": {
+            "n": 10,
+            "median": 99.30000000447035,
+            "p95": 139.69999999552965,
+            "min": 94.40000000596046,
+            "max": 139.69999999552965
+          },
+          "embeddingMs": {
+            "n": 10,
+            "median": 16.650000002235174,
+            "p95": 28.30000000447035,
+            "min": 15.299999997019768,
+            "max": 28.30000000447035
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 8105344,
+            "p95": 10023184,
+            "min": 6286676,
+            "max": 10023184
+          },
+          "warmupUnthrottledMs": 770.6999999955297,
+          "workerResources": [
+            {
+              "url": "http://127.0.0.1:4200/pace-rag/assets/embedding-worker-DnxKJqeO.js",
+              "resources": [
+                {
+                  "name": "tokenizer.json",
+                  "duration": 5,
+                  "encoded": 711661,
+                  "transfer": 711961
+                },
+                {
+                  "name": "tokenizer_config.json",
+                  "duration": 2,
+                  "encoded": 366,
+                  "transfer": 666
+                },
+                {
+                  "name": "config.json",
+                  "duration": 4.5,
+                  "encoded": 650,
+                  "transfer": 950
+                },
+                {
+                  "name": "model_quantized.onnx",
+                  "duration": 40,
+                  "encoded": 22972370,
+                  "transfer": 22972670
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.mjs",
+                  "duration": 1.3000000044703484,
+                  "encoded": 44484,
+                  "transfer": 44784
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.wasm",
+                  "duration": 30.399999998509884,
+                  "encoded": 21596019,
+                  "transfer": 21596319
+                }
+              ]
+            }
+          ],
+          "workersAfterPageClose": 0
+        }
+      },
+      "after": {
+        "desktop": {
+          "firstResultMs": {
+            "n": 10,
+            "median": 55.400000002235174,
+            "p95": 681.1000000014901,
+            "min": 39.5,
+            "max": 681.1000000014901
+          },
+          "semanticMs": {
+            "n": 10,
+            "median": 72.84999999776483,
+            "p95": 699.5,
+            "min": 64.69999999552965,
+            "max": 699.5
+          },
+          "embeddingMs": {
+            "n": 10,
+            "median": 22.099999997764826,
+            "p95": 67.19999999552965,
+            "min": 14.100000001490116,
+            "max": 67.19999999552965
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 7513618,
+            "p95": 9630824,
+            "min": 6535948,
+            "max": 9630824
+          },
+          "warmupUnthrottledMs": 746.3999999985099,
+          "workerResources": [
+            {
+              "url": "http://127.0.0.1:4201/pace-rag/assets/embedding-worker-DnxKJqeO.js",
+              "resources": [
+                {
+                  "name": "tokenizer.json",
+                  "duration": 2.8000000044703484,
+                  "encoded": 711661,
+                  "transfer": 711961
+                },
+                {
+                  "name": "tokenizer_config.json",
+                  "duration": 1.3000000044703484,
+                  "encoded": 366,
+                  "transfer": 666
+                },
+                {
+                  "name": "config.json",
+                  "duration": 1.5,
+                  "encoded": 650,
+                  "transfer": 950
+                },
+                {
+                  "name": "model_quantized.onnx",
+                  "duration": 21.899999998509884,
+                  "encoded": 22972370,
+                  "transfer": 22972670
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.mjs",
+                  "duration": 1.3999999985098839,
+                  "encoded": 44484,
+                  "transfer": 44784
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.wasm",
+                  "duration": 43.79999999701977,
+                  "encoded": 21596019,
+                  "transfer": 21596319
+                }
+              ]
+            }
+          ],
+          "workersAfterPageClose": 0
+        },
+        "mobile": {
+          "firstResultMs": {
+            "n": 10,
+            "median": 81.09999999776483,
+            "p95": 117.29999999701977,
+            "min": 75.80000000447035,
+            "max": 117.29999999701977
+          },
+          "semanticMs": {
+            "n": 10,
+            "median": 113.39999999850988,
+            "p95": 142.39999999850988,
+            "min": 94.5,
+            "max": 142.39999999850988
+          },
+          "embeddingMs": {
+            "n": 10,
+            "median": 19.449999999254942,
+            "p95": 23.399999998509884,
+            "min": 14.5,
+            "max": 23.399999998509884
+          },
+          "jsHeapBytes": {
+            "n": 10,
+            "median": 7468122,
+            "p95": 9731436,
+            "min": 6320156,
+            "max": 9731436
+          },
+          "warmupUnthrottledMs": 782.5999999940395,
+          "workerResources": [
+            {
+              "url": "http://127.0.0.1:4201/pace-rag/assets/embedding-worker-DnxKJqeO.js",
+              "resources": [
+                {
+                  "name": "tokenizer.json",
+                  "duration": 2.600000001490116,
+                  "encoded": 711661,
+                  "transfer": 711961
+                },
+                {
+                  "name": "tokenizer_config.json",
+                  "duration": 1.3999999985098839,
+                  "encoded": 366,
+                  "transfer": 666
+                },
+                {
+                  "name": "config.json",
+                  "duration": 1.1999999955296516,
+                  "encoded": 650,
+                  "transfer": 950
+                },
+                {
+                  "name": "model_quantized.onnx",
+                  "duration": 47.19999999552965,
+                  "encoded": 22972370,
+                  "transfer": 22972670
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.mjs",
+                  "duration": 1.6000000014901161,
+                  "encoded": 44484,
+                  "transfer": 44784
+                },
+                {
+                  "name": "ort-wasm-simd-threaded.jsep.wasm",
+                  "duration": 36.099999994039536,
+                  "encoded": 21596019,
+                  "transfer": 21596319
+                }
+              ]
+            }
+          ],
+          "workersAfterPageClose": 0
+        }
+      }
+    },
+    "bundles": {
+      "before": {
+        "assistant": {
+          "file": "PaceAssistant-BpsjouE2.js",
+          "rawBytes": 85952,
+          "gzip9Bytes": 27564,
+          "brotli9Bytes": 26012
+        },
+        "main": {
+          "file": "index-DzRVGO4V.js",
+          "rawBytes": 211828,
+          "gzip9Bytes": 64850,
+          "brotli9Bytes": 60874
+        }
+      },
+      "after": {
+        "assistant": {
+          "file": "PaceAssistant-Xrmq_egl.js",
+          "rawBytes": 87923,
+          "gzip9Bytes": 28185,
+          "brotli9Bytes": 26598
+        },
+        "main": {
+          "file": "index-4H1mnoJ9.js",
+          "rawBytes": 211828,
+          "gzip9Bytes": 64855,
+          "brotli9Bytes": 60870
+        }
+      }
+    },
+    "mobileUsability": {
+      "cold": {
+        "firstControlMs": {
+          "n": 10,
+          "median": 2528.7999999970198,
+          "p95": 2539.5,
+          "min": 2506.5,
+          "max": 2539.5
+        },
+        "firstResultMs": {
+          "n": 10,
+          "median": 217.80000000447035,
+          "p95": 336,
+          "min": 187.89999999850988,
+          "max": 336
+        },
+        "controlsUsableMs": {
+          "n": 10,
+          "median": 217.80000000447035,
+          "p95": 336,
+          "min": 187.89999999850988,
+          "max": 336
+        },
+        "modelRequests": {
+          "n": 10,
+          "median": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0
+        },
+        "vectorRequests": {
+          "n": 10,
+          "median": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0
+        },
+        "allControlsInitiallyEnabled": true
+      },
+      "warm": {
+        "firstControlMs": {
+          "n": 10,
+          "median": 395.19999999925494,
+          "p95": 452.1000000014901,
+          "min": 381.30000000447035,
+          "max": 452.1000000014901
+        },
+        "firstResultMs": {
+          "n": 10,
+          "median": 202.44999999925494,
+          "p95": 223.70000000298023,
+          "min": 189.89999999850988,
+          "max": 223.70000000298023
+        },
+        "controlsUsableMs": {
+          "n": 10,
+          "median": 202.44999999925494,
+          "p95": 223.70000000298023,
+          "min": 189.89999999850988,
+          "max": 223.70000000298023
+        },
+        "modelRequests": {
+          "n": 10,
+          "median": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0
+        },
+        "vectorRequests": {
+          "n": 10,
+          "median": 0,
+          "p95": 0,
+          "min": 0,
+          "max": 0
+        },
+        "allControlsInitiallyEnabled": true
+      }
+    }
+  },
+  "releaseArtifacts": [
+    {
+      "name": "portfolio-v171-local-rollback",
+      "path": "<workspace>/mohdvara.github.io/output/playwright/pme-v171a/releases/portfolio-v171-local-rollback.tar.gz",
+      "sha256": "ee5c098aca09015d36861b8c5970563c1505aa60c8c6056df99626c46a512df6",
+      "archiveBytes": 34245899,
+      "treeSha256": "0d5b0a994e82ab95b7afce50fc01a6b90ae98d8d8855dd06db1e1d1d51fa5d7b",
+      "fileCount": 309,
+      "staticOutput": "/private/tmp/pme-v171a-baseline/mohdvara.github.io/dist",
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true
+    },
+    {
+      "name": "pace-v171-local-rollback",
+      "path": "<workspace>/mohdvara.github.io/output/playwright/pme-v171a/releases/pace-v171-local-rollback.tar.gz",
+      "sha256": "2742a047eb9f3e977dfd87902cd2d08874db75cb56d5296d46f138b5421f629e",
+      "archiveBytes": 52467416,
+      "treeSha256": "bea76e954079a71d565a1741fdc31d5c09488251aa0f2ab579cc1f5660108cba",
+      "fileCount": 172,
+      "staticOutput": "<workspace>/pace-rag/output/playwright/pme-v171a/rehearsal/old-lab",
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true
+    },
+    {
+      "name": "portfolio-v171a-candidate",
+      "path": "<workspace>/mohdvara.github.io/output/playwright/pme-v171a/releases/portfolio-v171a-candidate.tar.gz",
+      "sha256": "c644f6539ea5259a22dc8af38c20c572bd5552a7feeea44ee9ddd17b60a90ec2",
+      "archiveBytes": 34248644,
+      "treeSha256": "d09316610c5cfe65a90367df135ee9e8934357649e0d8d8c9afa81a506b328fb",
+      "fileCount": 309,
+      "staticOutput": "<workspace>/mohdvara.github.io/dist",
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true
+    },
+    {
+      "name": "pace-v171a-candidate",
+      "path": "<workspace>/mohdvara.github.io/output/playwright/pme-v171a/releases/pace-v171a-candidate.tar.gz",
+      "sha256": "1d9e6dd0b7563596c85b4cd23763c2de39b939c64f9d603c778bea028c364ffc",
+      "archiveBytes": 52468167,
+      "treeSha256": "d90e2ed3273b5f25648ca8ef8ccc6993ad2ccceb9b072735985404e8062ee66d",
+      "fileCount": 171,
+      "staticOutput": "<workspace>/pace-rag/output/static-site",
+      "scope": "Complete local artifact; rollback v1.7.1 is not older hosted production",
+      "treeMethod": "Sorted POSIX relative paths, NUL, SHA-256, newline",
+      "archiveContentsVerified": true
+    }
+  ],
+  "rehearsal": {
+    "matrix": [
+      {
+        "name": "old v1.7.1 portfolio + old v1.7.1 Lab",
+        "passed": true,
+        "dependency": {
+          "status": 200,
+          "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+        }
+      },
+      {
+        "name": "new portfolio + old Lab (first rollout step)",
+        "passed": true,
+        "dependency": {
+          "status": 200,
+          "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+        }
+      },
+      {
+        "name": "new portfolio + new Lab",
+        "passed": true,
+        "dependency": {
+          "status": 200,
+          "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+        }
+      },
+      {
+        "name": "old local v1.7.1 portfolio + new Lab",
+        "passed": true,
+        "dependency": {
+          "status": 200,
+          "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+        }
+      },
+      {
+        "name": "rollback step 1: Lab restored first",
+        "passed": true,
+        "dependency": {
+          "status": 200,
+          "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+        }
+      },
+      {
+        "name": "rollback step 2: portfolio restored second",
+        "passed": true,
+        "dependency": {
+          "status": 200,
+          "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+        }
+      }
+    ],
+    "faults": [
+      {
+        "name": "production-like older portfolio missing the new evidence URL",
+        "observed": 404,
+        "releaseDecision": "BLOCK Lab rollout until portfolio dependency is published and verified"
+      },
+      {
+        "name": "missing-manifest",
+        "passed": true,
+        "falseFreshness": false
+      },
+      {
+        "name": "stale-manifest",
+        "passed": true,
+        "falseFreshness": false
+      },
+      {
+        "name": "previous-release browser cache with current complete artifact",
+        "passed": true,
+        "knowledgeIdentity": "unchanged b0 corpus"
+      }
+    ],
+    "routes": [
+      {
+        "evidencePublishedBeforeLab": true,
+        "status": 200,
+        "sha256": "af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb"
+      },
+      {
+        "path": "/pace-rag/",
+        "status": 200,
+        "location": null
+      },
+      {
+        "path": "/pace-rag/knowledge/professional/index.html",
+        "status": 200,
+        "location": null
+      },
+      {
+        "path": "/page-rag/",
+        "status": 301,
+        "location": "/pace-rag/"
+      },
+      {
+        "path": "/page-rag/knowledge/professional/index.html?probe=1",
+        "status": 301,
+        "location": "/pace-rag/knowledge/professional/index.html?probe=1"
+      },
+      {
+        "path": "/pace-rag/unknown",
+        "status": 404,
+        "location": null
+      }
+    ],
+    "rollback": [
+      "Lab complete old artifact restored",
+      "Portfolio complete old artifact restored"
+    ],
+    "errors": [],
+    "inference": []
+  },
+  "productionReadOnly": {
+    "observedAt": "2026-10-29T13:58:34.068606+00:00",
+    "candidates": [
+      {
+        "project": "mohdvara-portfolio",
+        "deploymentId": "c22ade84-3449-4bb2-8ff8-16d8792819f3",
+        "url": "https://c22ade84.mohdvara-portfolio.pages.dev",
+        "sourceShortSha": "9090099",
+        "branch": "main",
+        "environment": "Production"
+      },
+      {
+        "project": "mohdvara-portfolio",
+        "deploymentId": "fa589b09-6484-4cbd-943c-c562937711dc",
+        "url": "https://fa589b09.mohdvara-portfolio.pages.dev",
+        "sourceShortSha": "15d4214",
+        "branch": "main",
+        "environment": "Production"
+      },
+      {
+        "project": "pace-rag-git",
+        "deploymentId": "a5ecd965-6fbe-4f0d-a5d7-73a121865702",
+        "url": "https://a5ecd965.pace-rag-git.pages.dev",
+        "sourceShortSha": "9d66c8c",
+        "branch": "main",
+        "environment": "Production"
+      },
+      {
+        "project": "pace-rag-git",
+        "deploymentId": "24a7387c-aa91-48af-846a-6e87e59af53c",
+        "url": "https://24a7387c.pace-rag-git.pages.dev",
+        "sourceShortSha": "0dfab5a",
+        "branch": "main",
+        "environment": "Production"
+      }
+    ],
+    "http": [
+      {
+        "url": "https://mohd.paramasvara.online/en/",
+        "exitCode": 0,
+        "result": "200 https://mohd.paramasvara.online/en/",
+        "sha256": "7e83584af11f49e5896c58822cd2b8c83de63b33fcbd90b5ce1ed9486b0026cd",
+        "bytes": 94892,
+        "mainScripts": [
+          "/assets/index-CcS5RtnZ.js"
+        ],
+        "pointer": null
+      },
+      {
+        "url": "https://mohd.paramasvara.online/evidence/portfolio-knowledge-inventory.v1.json",
+        "exitCode": 0,
+        "result": "404 https://mohd.paramasvara.online/evidence/portfolio-knowledge-inventory.v1.json",
+        "sha256": "d9c0d34330688a0db6aed23b1e44e50527bf9dfbf3e8d89642eb9c09301d3859",
+        "bytes": 252703,
+        "mainScripts": [
+          "/assets/index-CcS5RtnZ.js"
+        ],
+        "pointer": null
+      },
+      {
+        "url": "https://pace-rag.paramasvara.online/pace-rag/",
+        "exitCode": 0,
+        "result": "200 https://pace-rag.paramasvara.online/pace-rag/",
+        "sha256": "50364eee8f0954d1e79ae17c1d30c7577c55feea702a28c4de746570d2cc31af",
+        "bytes": 1435,
+        "mainScripts": [
+          "/pace-rag/assets/index-DyQ51Z6C.js"
+        ],
+        "pointer": null
+      },
+      {
+        "url": "https://pace-rag.paramasvara.online/page-rag/",
+        "exitCode": 0,
+        "result": "404 https://pace-rag.paramasvara.online/page-rag/",
+        "sha256": "34dd5e8d2928db5d6c9eda9caaba2f268e22a33802f3b5b83d344b15481577ae",
+        "bytes": 177,
+        "mainScripts": [],
+        "pointer": null
+      },
+      {
+        "url": "https://pace-rag.paramasvara.online/pace-rag/knowledge/portfolio/current.json",
+        "exitCode": 0,
+        "result": "200 https://pace-rag.paramasvara.online/pace-rag/knowledge/portfolio/current.json",
+        "sha256": "aa7f66065988559e3d715b760087da69b7939338734831bbb1d1b7067e543a7e",
+        "bytes": 80,
+        "mainScripts": [],
+        "pointer": {
+          "corpusVersion": "b555f3ee70c516ab",
+          "manifest": "b555f3ee70c516ab/manifest.json"
+        }
+      },
+      {
+        "url": "https://c22ade84.mohdvara-portfolio.pages.dev/en/",
+        "exitCode": 0,
+        "result": "200 https://c22ade84.mohdvara-portfolio.pages.dev/en/",
+        "sha256": "7e83584af11f49e5896c58822cd2b8c83de63b33fcbd90b5ce1ed9486b0026cd",
+        "bytes": 94892,
+        "mainScripts": [
+          "/assets/index-CcS5RtnZ.js"
+        ],
+        "pointer": null
+      },
+      {
+        "url": "https://fa589b09.mohdvara-portfolio.pages.dev/en/",
+        "exitCode": 0,
+        "result": "200 https://fa589b09.mohdvara-portfolio.pages.dev/en/",
+        "sha256": "f8f8b1380c5a36cb75f25dee3b3dc49c69ec30f461fa4faecca099c95d70888d",
+        "bytes": 94892,
+        "mainScripts": [
+          "/assets/index-DKa_RxPg.js"
+        ],
+        "pointer": null
+      },
+      {
+        "url": "https://a5ecd965.pace-rag-git.pages.dev/pace-rag/",
+        "exitCode": 0,
+        "result": "200 https://a5ecd965.pace-rag-git.pages.dev/pace-rag/",
+        "sha256": "50364eee8f0954d1e79ae17c1d30c7577c55feea702a28c4de746570d2cc31af",
+        "bytes": 1435,
+        "mainScripts": [
+          "/pace-rag/assets/index-DyQ51Z6C.js"
+        ],
+        "pointer": null
+      },
+      {
+        "url": "https://24a7387c.pace-rag-git.pages.dev/pace-rag/",
+        "exitCode": 0,
+        "result": "200 https://24a7387c.pace-rag-git.pages.dev/pace-rag/",
+        "sha256": "50364eee8f0954d1e79ae17c1d30c7577c55feea702a28c4de746570d2cc31af",
+        "bytes": 1435,
+        "mainScripts": [
+          "/pace-rag/assets/index-DyQ51Z6C.js"
+        ],
+        "pointer": null
+      },
+      {
+        "url": "https://a5ecd965.pace-rag-git.pages.dev/pace-rag/knowledge/portfolio/current.json",
+        "exitCode": 0,
+        "result": "200 https://a5ecd965.pace-rag-git.pages.dev/pace-rag/knowledge/portfolio/current.json",
+        "sha256": "aa7f66065988559e3d715b760087da69b7939338734831bbb1d1b7067e543a7e",
+        "bytes": 80,
+        "mainScripts": [],
+        "pointer": {
+          "corpusVersion": "b555f3ee70c516ab",
+          "manifest": "b555f3ee70c516ab/manifest.json"
+        }
+      },
+      {
+        "url": "https://24a7387c.pace-rag-git.pages.dev/pace-rag/knowledge/portfolio/current.json",
+        "exitCode": 0,
+        "result": "200 https://24a7387c.pace-rag-git.pages.dev/pace-rag/knowledge/portfolio/current.json",
+        "sha256": "aa7f66065988559e3d715b760087da69b7939338734831bbb1d1b7067e543a7e",
+        "bytes": 80,
+        "mainScripts": [],
+        "pointer": {
+          "corpusVersion": "b555f3ee70c516ab",
+          "manifest": "b555f3ee70c516ab/manifest.json"
+        }
+      }
+    ],
+    "activeDeploymentBinding": "Candidate IDs are provider-listed production deployments; compare live/immutable fingerprints. Exact active-alias configuration and rollback write permissions require dashboard verification.",
+    "remoteMutationPerformed": false,
+    "liveArtifactMatches": [
+      {
+        "project": "mohdvara-portfolio",
+        "deploymentId": "c22ade84-3449-4bb2-8ff8-16d8792819f3",
+        "sameHtmlSha256": true,
+        "sameEntryScripts": true,
+        "sourceShortSha": "9090099",
+        "immutableUrl": "https://c22ade84.mohdvara-portfolio.pages.dev"
+      },
+      {
+        "project": "mohdvara-portfolio",
+        "deploymentId": "fa589b09-6484-4cbd-943c-c562937711dc",
+        "sameHtmlSha256": false,
+        "sameEntryScripts": false,
+        "sourceShortSha": "15d4214",
+        "immutableUrl": "https://fa589b09.mohdvara-portfolio.pages.dev"
+      },
+      {
+        "project": "pace-rag-git",
+        "deploymentId": "a5ecd965-6fbe-4f0d-a5d7-73a121865702",
+        "sameHtmlSha256": true,
+        "sameEntryScripts": true,
+        "sourceShortSha": "9d66c8c",
+        "immutableUrl": "https://a5ecd965.pace-rag-git.pages.dev"
+      },
+      {
+        "project": "pace-rag-git",
+        "deploymentId": "24a7387c-aa91-48af-846a-6e87e59af53c",
+        "sameHtmlSha256": true,
+        "sameEntryScripts": true,
+        "sourceShortSha": "0dfab5a",
+        "immutableUrl": "https://24a7387c.pace-rag-git.pages.dev"
+      }
+    ]
+  },
+  "browser": {
+    "engines": [
+      {
+        "name": "chromium",
+        "available": true,
+        "version": "156.0.8078.73"
+      },
+      {
+        "name": "webkit",
+        "available": true,
+        "version": "26.0"
+      },
+      {
+        "name": "firefox",
+        "available": true,
+        "version": "142.0.1"
+      }
+    ],
+    "cases": [
+      {
+        "engine": "chromium",
+        "test": "all eight exact questions and deterministic facts require no semantic download",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "pending enhancement keeps search and reviewed suggestions usable; replacement cancels stale work",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "query replacement rejects late result and cancellation permits explicit retry",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "network retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "corrupt-vector retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "worker-crash retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "timeout retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "offline lexical search remains usable",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "close during initialization, reopen, and repeated cycles release embedding workers",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "mobile touch defers enhancement; explicit enhancement works without focus stealing",
+        "passed": true
+      },
+      {
+        "engine": "chromium",
+        "test": "Arabic UI progress localized while questions/answers stay English",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "all eight exact questions and deterministic facts require no semantic download",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "pending enhancement keeps search and reviewed suggestions usable; replacement cancels stale work",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "query replacement rejects late result and cancellation permits explicit retry",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "network retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "corrupt-vector retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "worker-crash retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "timeout retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "offline lexical search remains usable",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "close during initialization, reopen, and repeated cycles release embedding workers",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "mobile touch defers enhancement; explicit enhancement works without focus stealing",
+        "passed": true
+      },
+      {
+        "engine": "webkit",
+        "test": "Arabic UI progress localized while questions/answers stay English",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "all eight exact questions and deterministic facts require no semantic download",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "pending enhancement keeps search and reviewed suggestions usable; replacement cancels stale work",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "query replacement rejects late result and cancellation permits explicit retry",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "network retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "corrupt-vector retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "worker-crash retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "timeout retains lexical evidence and exposes retry",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "offline lexical search remains usable",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "close during initialization, reopen, and repeated cycles release embedding workers",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "mobile touch defers enhancement; explicit enhancement works without focus stealing",
+        "passed": true
+      },
+      {
+        "engine": "firefox",
+        "test": "Arabic UI progress localized while questions/answers stay English",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "inference": []
+  },
+  "portfolioCrossBrowser": {
+    "cases": [
+      {
+        "engine": "chromium",
+        "locale": "en",
+        "path": "/en/",
+        "id": "insurance",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "chromium",
+        "locale": "en",
+        "path": "/en/",
+        "id": "campus",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "chromium",
+        "locale": "en",
+        "path": "/en/mmcats-modern/",
+        "id": "mmcats-modern",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "chromium",
+        "locale": "en",
+        "path": "/en/pace-rag-case-study/",
+        "id": "pace",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "chromium",
+        "locale": "ar",
+        "path": "/ar/",
+        "id": "insurance",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": true,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "chromium",
+        "locale": "ja",
+        "path": "/ja/mmcats-modern/",
+        "id": "mmcats-modern",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "webkit",
+        "locale": "en",
+        "path": "/en/",
+        "id": "insurance",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "webkit",
+        "locale": "en",
+        "path": "/en/",
+        "id": "campus",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "webkit",
+        "locale": "en",
+        "path": "/en/mmcats-modern/",
+        "id": "mmcats-modern",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "webkit",
+        "locale": "en",
+        "path": "/en/pace-rag-case-study/",
+        "id": "pace",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "webkit",
+        "locale": "ar",
+        "path": "/ar/",
+        "id": "insurance",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": true,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "webkit",
+        "locale": "ja",
+        "path": "/ja/mmcats-modern/",
+        "id": "mmcats-modern",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "firefox",
+        "locale": "en",
+        "path": "/en/",
+        "id": "insurance",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "firefox",
+        "locale": "en",
+        "path": "/en/",
+        "id": "campus",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "firefox",
+        "locale": "en",
+        "path": "/en/mmcats-modern/",
+        "id": "mmcats-modern",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "firefox",
+        "locale": "en",
+        "path": "/en/pace-rag-case-study/",
+        "id": "pace",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "firefox",
+        "locale": "ar",
+        "path": "/ar/",
+        "id": "insurance",
+        "date": "2026-10-24T08:28:35.000Z",
+        "cultural": true,
+        "gregorian": true,
+        "keyboard": true,
+        "canonical": true
+      },
+      {
+        "engine": "firefox",
+        "locale": "ja",
+        "path": "/ja/mmcats-modern/",
+        "id": "mmcats-modern",
+        "date": "2026-10-24T15:45:50.000Z",
+        "cultural": true,
+        "gregorian": false,
+        "keyboard": true,
+        "canonical": true
+      }
+    ],
+    "errors": []
+  },
+  "localization": {
+    "locales": 11,
+    "unitsEach": 1593,
+    "errors": 0,
+    "missing": 0,
+    "stale": 0,
+    "existingEditorialWarnings": 97,
+    "newMachineAuthoredUnits": 9,
+    "nativeReview": "NOT VERIFIED"
+  },
+  "gates": [
+    {
+      "gate": "approvedKnowledge",
+      "status": "PASS",
+      "evidence": "Exact protected baseline and every runtime manifest/asset hash"
+    },
+    {
+      "gate": "criticalAbstention",
+      "status": "PASS",
+      "evidence": "128 professional + 10 implementation; all abstain"
+    },
+    {
+      "gate": "citations",
+      "status": "PASS",
+      "evidence": "Zero invalid citations or cross-corpus references"
+    },
+    {
+      "gate": "exactAnswers",
+      "status": "PASS",
+      "evidence": "51 active, 2 retired; existing/new exact checks pass"
+    },
+    {
+      "gate": "progressiveFallback",
+      "status": "PASS",
+      "evidence": "Lexical remains usable during optional enhancement"
+    },
+    {
+      "gate": "mobileTimeoutUX",
+      "status": "PASS",
+      "evidence": "10 cold defaults: usable result/control median217.8ms p95 336ms after interaction; first navigation control2.53s"
+    },
+    {
+      "gate": "workerLifecycle",
+      "status": "PASS",
+      "evidence": "Cancel/retry/replacement/close; zero embedding workers after closure"
+    },
+    {
+      "gate": "applicationLint",
+      "status": "PASS",
+      "evidence": "Zero maintained-source errors/warnings"
+    },
+    {
+      "gate": "generatedIntegrationLint",
+      "status": "FAIL",
+      "evidence": "Five unchanged generator errors; separately reported and boundary enforced"
+    },
+    {
+      "gate": "generatedSyntaxProvenance",
+      "status": "PASS",
+      "evidence": "Exact regenerated bytes; unknown generated edits fail"
+    },
+    {
+      "gate": "generatedSdkIntegration",
+      "status": "NOT VERIFIED",
+      "evidence": "SDK/live OpenCode outside installed app runtime"
+    },
+    {
+      "gate": "nodeLocal",
+      "status": "PASS",
+      "evidence": "Clean Node22.23.4/npm10.9.9"
+    },
+    {
+      "gate": "tests",
+      "status": "PASS",
+      "evidence": "233 portfolio +129 PACE; original355 preserved"
+    },
+    {
+      "gate": "typechecks",
+      "status": "PASS",
+      "evidence": "Both repositories"
+    },
+    {
+      "gate": "productionBuilds",
+      "status": "PASS",
+      "evidence": "Both complete local candidates"
+    },
+    {
+      "gate": "mainJSBudget",
+      "status": "PASS",
+      "evidence": "211828 <=215000"
+    },
+    {
+      "gate": "localization",
+      "status": "PASS",
+      "evidence": "11x1593; no gaps/stale/errors"
+    },
+    {
+      "gate": "crossBrowser",
+      "status": "PASS",
+      "evidence": "Chromium/WebKit/Firefox;33 progressive +18 portfolio journeys"
+    },
+    {
+      "gate": "releasePairing",
+      "status": "PASS",
+      "evidence": "Pinned integration and complete tree-verified archives"
+    },
+    {
+      "gate": "localRollback",
+      "status": "PASS",
+      "evidence": "Six pair windows including reverse rollback"
+    },
+    {
+      "gate": "historicalRanking",
+      "status": "ACCEPTED LIMITATION",
+      "evidence": "Unchanged17 declines; engineering local closure acceptance; owner release acceptance pending"
+    },
+    {
+      "gate": "coldMobileSemantics",
+      "status": "ACCEPTED LIMITATION",
+      "evidence": "Timeout still possible; explicit opt-in, lexical usable, cancel/retry"
+    },
+    {
+      "gate": "productionRollbackCapture",
+      "status": "NOT VERIFIED",
+      "evidence": "Provider candidates/read-only fingerprints recorded; active alias/settings/permissions need confirmation"
+    },
+    {
+      "gate": "independentHoldout",
+      "status": "NOT VERIFIED",
+      "evidence": "External preparation/adjudication pending"
+    },
+    {
+      "gate": "nativePhysicalProductionPerformance",
+      "status": "NOT VERIFIED",
+      "evidence": "No fluent/AT/device/real-user certification"
+    },
+    {
+      "gate": "deployment",
+      "status": "NOT VERIFIED",
+      "evidence": "Not authorized or performed"
+    }
+  ],
+  "limitations": [
+    {
+      "item": "Cold mobile semantic model timeout",
+      "severity": "noncritical optional feature",
+      "evidence": "Explicit opt-in cold/cache-only restart timed out around30s; retained initialized worker succeeds",
+      "impact": "Optional improved suggestions unavailable until environment can initialize model",
+      "mitigation": "Default defer on mobile/constrained hints; immediate lexical, cancellation and explicit retry",
+      "engineeringAcceptance": "ACCEPTED for local closure",
+      "ownerReleaseAcceptance": "PENDING"
+    },
+    {
+      "item": "Historical ranking17declines",
+      "severity": "noncritical recommendation quality",
+      "evidence": "All current metrics identical to preservedv171; safety gates pass",
+      "impact": "Some related-question ordering remains less precise than older corpus",
+      "mitigation": "Suggestion-only semantics, no threshold relaxation or fabricated tuning; approved exact answers",
+      "engineeringAcceptance": "ACCEPTED for local closure",
+      "ownerReleaseAcceptance": "PENDING"
+    },
+    {
+      "item": "Generated Entire lint5errors",
+      "severity": "development integration tooling",
+      "evidence": "Exact reproduced0.12.2 generator output; original full gate stillFAIL",
+      "impact": "Full lint remains failing; liveSDK/OpenCode not verified",
+      "mitigation": "Exact-byte scope boundary, maintained-code gate, visible generated diagnostics and syntax checks",
+      "engineeringAcceptance": "Transparent separate gate suitable for owner review",
+      "ownerReleaseAcceptance": "PENDING"
+    }
+  ],
+  "artifacts": [
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/acceptance-final.log",
+      "sha256": "11c7ec3fb6eb7f32bd6b78e365b6dd1bda1793a2fe3abeff8bbe6424bbec2c00",
+      "bytes": 142,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/acceptance.log",
+      "sha256": "11c7ec3fb6eb7f32bd6b78e365b6dd1bda1793a2fe3abeff8bbe6424bbec2c00",
+      "bytes": 142,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/app-lint-closure-final.log",
+      "sha256": "4964a1b2d31cd1e2a439704116bc99cd878bb5c80056b80ee3f99bcd9cc2b9b0",
+      "bytes": 150,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/baseline-commands.json",
+      "sha256": "9843c4e28d4fdf1494b6fd61650a3f7c5220d256df4b902ce610f5f080747d75",
+      "bytes": 563,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/browser-final.log",
+      "sha256": "cc0141a95d72858817f688df0d793a83b1448e708c1e384ae006d8b7e61aa2bb",
+      "bytes": 10670,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/browser.log",
+      "sha256": "5b387f8973a86c611b30c0ec6b0b523a39736b92dfd4541df67204b80c0a248a",
+      "bytes": 11151,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/budget-final.log",
+      "sha256": "93dff89d52fbaa003f3488f25ef320f89ddfb266711b897ebeb7037033aeb977",
+      "bytes": 217,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/budget.log",
+      "sha256": "70795b5ec95f2fa68b877abbaf13a66e938231a139b097a1c99483b1bcac8674",
+      "bytes": 301,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/eval-lexical.log",
+      "sha256": "6c4aa1aea297994de7f682d8505bb9c979c6c87b034aec6eea6addd42444c4c5",
+      "bytes": 5687,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/eval-semantic.log",
+      "sha256": "bfe9c0d778e708c06cfd71196255c99d234e49ef0ed78608577ae6f66f55d187",
+      "bytes": 5687,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/existing-browser.log",
+      "sha256": "8d347bcbbc7522688bf8122a7269693849826cd8e6a0f2bfe8665795813d94ac",
+      "bytes": 2284,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/final-source-audit.json",
+      "sha256": "0999eae1caa7e608f35a6e4667a3f8899e63aac4ef1d5062980c7a3d661354ac",
+      "bytes": 2116,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/finalize-ledger.py",
+      "sha256": "2912db350e916ea5ebe856b23c61e5e7136a8dfc6617bb4bae2720811c397a86",
+      "bytes": 12989,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/firefox-install.log",
+      "sha256": "08115d6e2a7b4eb89d26e5d1cec41d57ffaa6aea507f12d05bc93a3bf421f0fc",
+      "bytes": 2447,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/freshness-final.log",
+      "sha256": "4bd55227f1d6e145eb5b4fa386a3df3a41e6b54aee1080a99aa69860e2ccd902",
+      "bytes": 68,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/freshness.log",
+      "sha256": "4bd55227f1d6e145eb5b4fa386a3df3a41e6b54aee1080a99aa69860e2ccd902",
+      "bytes": 68,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/i18n-validate.log",
+      "sha256": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0",
+      "bytes": 609,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/lint-app.json",
+      "sha256": "93d4335df0d319627f5d34ae3f2252af581a80cc1e5e410ec2d26367f2a16142",
+      "bytes": 738,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/lint-app.log",
+      "sha256": "798d9e8ea8aa5a94733804949509974792e5c28a6bb50db0062bfd17adb6ab81",
+      "bytes": 77,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/lint-generated.json",
+      "sha256": "4acbad32a7c38fb3e74ebc2df7954dd59314c58e20bff33c38dce5b0d1f14cd9",
+      "bytes": 6478,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/lint-generated.log",
+      "sha256": "667f6052058eff49cfc1e9494d82a4d29b1f85e7c7466c190fcc4803032e3f74",
+      "bytes": 671,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/mohdvara.github.io-baseline-lint.log",
+      "sha256": "f941a9f2a88e820cafbd7d1b9cf0964f75e7ceda1862164f71f99037714a7db3",
+      "bytes": 746,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/mohdvara.github.io-baseline-test.log",
+      "sha256": "a87ba90c15d7e8a669c8eaa6cb79d1c95a0ef38800fb96c8bef12c7c96f700a1",
+      "bytes": 50694,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/mohdvara.github.io-baseline-typecheck.log",
+      "sha256": "588b145d2e49a3c8c6dbdc5800320b4599dff241d4ac8daef70c63f49f01870d",
+      "bytes": 156,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/mohdvara.github.io-baseline.json",
+      "sha256": "88de48fcc31145753dd8f50f4b772cab55efda8c110c4f851bbc77b14eb0a048",
+      "bytes": 78127,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-clean-install.log",
+      "sha256": "6786754cb0c197a9cbb5ab2cc04a52582d84ca0e2ac24f3b154bc2f41b58e921",
+      "bytes": 271,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-build.log",
+      "sha256": "6fcf2e8647240bae01e3a5afb7476fe392393f940ee0f6c7b819be4725b1e4b7",
+      "bytes": 2627,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-commands.json",
+      "sha256": "83c9feb369076639e248adfbda68ed9e148ef447b57384f20d0740621581b9ef",
+      "bytes": 890,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-index.log",
+      "sha256": "8b53f098d5fd21ba5088c60b6a13733e872fdd6a523c86c567e2f03e66a85858",
+      "bytes": 159,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-lint.log",
+      "sha256": "8fb647a82e506957c24a515cd194325369e5e99e401bfd1a08cebf0268c0704a",
+      "bytes": 176,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-pack.log",
+      "sha256": "8d4c1e08559819d399709de4c3014efc8e8834a85d6e55c05fa82230b67cc189",
+      "bytes": 5953,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-package.log",
+      "sha256": "348fc4ac947bb870fbb383745628b0af882fa9fe331537bb96764dd5109ed646",
+      "bytes": 328,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-static-check.log",
+      "sha256": "8627baf0d42789fc3a857f959947260faadf6610abd11bed2055158ed89d64a9",
+      "bytes": 223,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-static.log",
+      "sha256": "2bce1fdd71f244b840b9bd37331174f4100da98b05652fa1a5a61aa635c96f53",
+      "bytes": 341,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-test.log",
+      "sha256": "e6707708b004efb67f042c277d87914043f0f2ae2995ddfb2a090dc374f77d04",
+      "bytes": 32170,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-final-typecheck.log",
+      "sha256": "d9b8e141885344c6740e7caf542db06401cd784fad8c6be28e36b56dfe167647",
+      "bytes": 44,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-lint-closure-final.log",
+      "sha256": "34b3505ea9662d13496d2adaf1634e568722ffd9345509513f2be1fee0930619",
+      "bytes": 176,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-lint-final.log",
+      "sha256": "34b3505ea9662d13496d2adaf1634e568722ffd9345509513f2be1fee0930619",
+      "bytes": 176,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-rag-baseline-lint.log",
+      "sha256": "dcf4690528dfc6992e617fefc9c58eb771454ad82fbe5b803f237b7a86ca7e1a",
+      "bytes": 284,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-rag-baseline-test.log",
+      "sha256": "9a704d1124524742a0fbe76bc84293b9b441222e23c767d8f4735f7e6762e99f",
+      "bytes": 28962,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-rag-baseline-typecheck.log",
+      "sha256": "57047287fb17ebf01a48d41c5f22a2748beb297b5003a9c9e257e23d9a3ff082",
+      "bytes": 152,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-rag-baseline.json",
+      "sha256": "0de38d7e96e9e412a4cb206e20555612184d35e2553af2d027cfaec77b4a1906",
+      "bytes": 46634,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-test.log",
+      "sha256": "20356a4979380b90b146b7fae75f07ac7ae8efe9ab8c75d43fecdb9551ee3e65",
+      "bytes": 30753,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/pace-typecheck.log",
+      "sha256": "d9b8e141885344c6740e7caf542db06401cd784fad8c6be28e36b56dfe167647",
+      "bytes": 44,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-browsers.log",
+      "sha256": "302262d46e232b19661d28f961232a50dd18a61d552ae7a0578e9615a70d31ad",
+      "bytes": 456,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-assets.log",
+      "sha256": "f66e0d70dfd7fdbb0d0958654473bdd000420fd1eb9d67a38fad0ed6129bfbb4",
+      "bytes": 126,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-build.log",
+      "sha256": "ece609f053dd110439b63ab5afb47c6a29da39a19dc58aa520ea8fab71b800b9",
+      "bytes": 9774,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-clean-install.log",
+      "sha256": "a14c44b552d554bce13bd5e7832c2adcd507ec1bd2a0fdd8166a99fdad5ba21e",
+      "bytes": 799,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-commands.json",
+      "sha256": "e34b58fc89c8e8d3bed618bd1ea819e7af76dd365bc8c493a1cfd53be91e13a6",
+      "bytes": 1757,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-coverage.log",
+      "sha256": "0191e01052f6ed6a1b97dda500ce3019caf9182ac89558489ac71fb89f4c520b",
+      "bytes": 2185,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-i18n.log",
+      "sha256": "feb0c71a8b50a594ac8c5d294d9271b420cc471cd2f38ee21c74a2bb7b8167b0",
+      "bytes": 609,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-knowledge.log",
+      "sha256": "df3d0f93072cec1ee0646d3ae75a9200384a038bb3cf341e0618f5b5ccf3354d",
+      "bytes": 199,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-lint-app.log",
+      "sha256": "4964a1b2d31cd1e2a439704116bc99cd878bb5c80056b80ee3f99bcd9cc2b9b0",
+      "bytes": 150,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-lint-full.log",
+      "sha256": "0c512e7f8dbe36c761a44dfd948fcf9d7cc27ceea5b6a33ec8e1d0a9e9438c8f",
+      "bytes": 643,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-lint-generated.log",
+      "sha256": "b0f3aa6edc7bc23ea8904fd88ab473ee9174b4fc1b412b7bf7e96d2cfe3af932",
+      "bytes": 756,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-lock.log",
+      "sha256": "3744f8a22f77dc9ff3b68a10fa9ce0261c0ddfd1a379619d2afaa190c518c322",
+      "bytes": 131,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-runtime.log",
+      "sha256": "7be97dc54420b7746e566ae254cfad5559b7371d36490028b2020a9020003787",
+      "bytes": 107,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-test.log",
+      "sha256": "5aa5e9247e71e5810a07688ca29e010c004fcfd80ffcd0d501a2a359265b9196",
+      "bytes": 54471,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-final-typecheck.log",
+      "sha256": "95bab48ec1244bcdc8f5253156f2bae74cd7ae934fd55cf99cd0c42c341a7d27",
+      "bytes": 48,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/portfolio-firefox-diagnostic.log",
+      "sha256": "ba221df008f620c7b88066772655999035088134944bbd0797f6f2b245321d67",
+      "bytes": 700,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/production-capture.json",
+      "sha256": "a27c4dde662b2063d449aacdb9eeb187d519c8c6002c3921a20b9c4c1ac11fe9",
+      "bytes": 12969,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/production-readonly.json",
+      "sha256": "6948262e46f9762c35cc7e5ad6b495708a0ba425df9afa0c341810e79a5cf76d",
+      "bytes": 6945,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/profile-after-custom.log",
+      "sha256": "8a8046b4452fc9dd267911e4345e72178cb45f9cc688dbba282fd96cc209decf",
+      "bytes": 51,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/profile-after-exact.log",
+      "sha256": "8f247fd07cc59ea6e7fe63941938098785e01b28a99f8773d207d75ae0e21e57",
+      "bytes": 49,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/profile-before-custom.log",
+      "sha256": "54f95fba082c0cb48fd673782720a31276042a23622dd9589716a5d12907e104",
+      "bytes": 53,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/profile-before-exact.log",
+      "sha256": "57945354fc7a8af6d676b2dd1f550cf923945b3436f29a252a1d64dd74f2bc17",
+      "bytes": 51,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/profile-mobile-usability.log",
+      "sha256": "33e68059d00faed55e87ef662bffda60c9a141cff012c4132dd970fe4a9be272",
+      "bytes": 35,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/rehearsal.log",
+      "sha256": "c0a217f0b017ebfdb5ff1fd1b27739a4104f3b26b75ee6dd70416fd8d2b1bad9",
+      "bytes": 2858,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/release-final.log",
+      "sha256": "134c0573e23834ce9d3a5711b7a549dcf94923bf110005863a63750eda2f4ba5",
+      "bytes": 456,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/summary.log",
+      "sha256": "29aa9d816e8ce5ca2a2db0636635522d14f4fd87817793670beb40bfe35563f3",
+      "bytes": 5855,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/warm-worker-after.log",
+      "sha256": "54f963395f62aae376b784f0a877a05bc7fb9320cc9118fc0c3ef1b5b5985765",
+      "bytes": 39,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "mohdvara.github.io",
+      "path": "output/playwright/pme-v171a/warm-worker-before.log",
+      "sha256": "23f9680af196eb6d14cf65ecc9c29979f43ba5e56280c0d513d5f335bc9b305f",
+      "bytes": 40,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/acceptance.json",
+      "sha256": "8b2f3e9f41e4a4331d3c8d41e9ca6fc5e595e1c6b1772a5e3baa99500a5c11e8",
+      "bytes": 33984,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/browser.json",
+      "sha256": "1ac8765f51177bead27e0359c9b6365ac3e63a05ee60288dc1744f199f6ed8cf",
+      "bytes": 5141,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/portfolio-browsers.json",
+      "sha256": "58e71fb5093813662a3998b123670adef9b6aeaec13ea1b34f18f7de58044f50",
+      "bytes": 4659,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/profile-after-custom.json",
+      "sha256": "694ad5948d14d6a3a2036abae49355425d8a6ea9067b8bca3a19519653641dd8",
+      "bytes": 82537,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/profile-after-exact.json",
+      "sha256": "c77929d68f95dc8947edf5f0f52cef4e092664495bccb9f6e7521171f88a174f",
+      "bytes": 123046,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/profile-after-usability-custom.json",
+      "sha256": "f5c7263455743d1eb09350c4c2d214f43fc6d0ed57458fe4104791ccc87d166f",
+      "bytes": 62111,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/profile-before-custom.json",
+      "sha256": "1a72d3e05498e48bbe70e0eab8c28fdf6319b3a612a296f4788a27bf29116206",
+      "bytes": 80794,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/profile-before-exact.json",
+      "sha256": "b7220c7ed4dbe8db7d33013bca5170085db8a8d64eed2c5b3b17b823970b0d6c",
+      "bytes": 123325,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/rehearsal.json",
+      "sha256": "c0a217f0b017ebfdb5ff1fd1b27739a4104f3b26b75ee6dd70416fd8d2b1bad9",
+      "bytes": 2858,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/summary.json",
+      "sha256": "5a7d0df6199ea0f30b3ae07c4f56174412fe9dbc66ed731c5bf0f508e712e998",
+      "bytes": 43742,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/warm-worker-after.json",
+      "sha256": "43d6decc34e00a713de66417377cfe7408acc8e91e977a638e5c9e4b10be1461",
+      "bytes": 8623,
+      "availability": "Ignored local evidence; not source-controlled"
+    },
+    {
+      "repository": "pace-rag",
+      "path": "output/playwright/pme-v171a/warm-worker-before.json",
+      "sha256": "ffa750d9360048bf2761db17e0dbc7925c8e301228d43d579516979c076acac0",
+      "bytes": 8687,
+      "availability": "Ignored local evidence; not source-controlled"
+    }
+  ],
+  "reproduction": [
+    {
+      "repository": "portfolio",
+      "commands": [
+        "nvm install && nvm use",
+        "npm ci --ignore-scripts",
+        "npm run lint:app",
+        "npm run lint:generated # expected upstream five errors",
+        "npm run lint:full # original full gate expected five errors",
+        "npm run typecheck",
+        "npm test",
+        "npm run build",
+        "npm run i18n:validate",
+        "npm run i18n:coverage -- --strict",
+        "npm run knowledge:check",
+        "npm run assets:check"
+      ]
+    },
+    {
+      "repository": "pace-rag",
+      "commands": [
+        "nvm install && nvm use",
+        "npm ci --ignore-scripts",
+        "npm run lint",
+        "npm run typecheck",
+        "npm run model:prepare",
+        "npx --no-install playwright install chromium webkit firefox",
+        "npx --no-install vite build --config vite.worker.config.ts",
+        "node scripts/worker-assets.mjs",
+        "node scripts/indexing/build.mjs --release --embed",
+        "npm test",
+        "npm run eval:knowledge-sync",
+        "npm run eval:knowledge-sync -- --semantic",
+        "npm run release:check",
+        "npm run build:release",
+        "npm run index:verify",
+        "npm run package:portfolio",
+        "npm pack --workspace @pace-rag/portfolio-assistant --pack-destination ../mohdvara.github.io/vendor",
+        "npm run package:static -- --release",
+        "npm run release:artifact-check",
+        "node scripts/check-portfolio-budget.mjs",
+        "node scripts/closure-browser-qa.mjs",
+        "node scripts/closure-portfolio-qa.mjs",
+        "node scripts/closure-acceptance.mjs",
+        "node scripts/closure-rehearsal.mjs",
+        "QA_STAGE=before QA_URL=http://127.0.0.1:4200/pace-rag/ node scripts/closure-profile.mjs",
+        "QA_STAGE=after QA_URL=http://127.0.0.1:4201/pace-rag/ node scripts/closure-profile.mjs",
+        "QA_MODE=custom QA_STAGE=before QA_URL=http://127.0.0.1:4200/pace-rag/ node scripts/closure-profile.mjs",
+        "QA_MODE=custom QA_STAGE=after QA_URL=http://127.0.0.1:4201/pace-rag/ node scripts/closure-profile.mjs",
+        "QA_MOBILE_USABILITY=1 QA_MODE=custom QA_STAGE=after-usability QA_URL=http://127.0.0.1:4201/pace-rag/ node scripts/closure-profile.mjs",
+        "QA_STAGE=before QA_URL=http://127.0.0.1:4200/pace-rag/ node scripts/closure-warm-worker.mjs",
+        "QA_STAGE=after QA_URL=http://127.0.0.1:4201/pace-rag/ node scripts/closure-warm-worker.mjs",
+        "node scripts/closure-summary.mjs"
+      ],
+      "notes": "QA scripts use existing audit-only Playwright and local hosts4200baselineLab,4201candidateLab,4202candidateportfolio. Preserve actualbaseline snapshot at QA_BASELINE_ROOT or documented /tmp default. Never run concurrent heavy profiling; warm-up excluded. Fixture fault paths are separate from real model profiles."
+    }
+  ],
+  "retrieval": {
+    "scope": "Exact comparison with preserved actual v1.7.1. No content, ranker or approval changes.",
+    "activeAnswers": 51,
+    "retiredAnswers": 2,
+    "comparisons": {
+      "semantic": {
+        "baselineCorpus": "b0e1b371c34d449b",
+        "currentCorpus": "b0e1b371c34d449b",
+        "rankingSha256": "e0e4c4f1fd86c7a9a50c0a266945de7e8d57ec744dfef37dfcf64d2fe773f1c4",
+        "sets": {
+          "development": {
+            "v171": {
+              "questions": 180,
+              "positiveQuestions": 100,
+              "top1": 75,
+              "top3": 99,
+              "directAnswers": 20,
+              "criticalQuestions": 60,
+              "criticalAbstained": 60,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 180,
+              "positiveQuestions": 100,
+              "top1": 75,
+              "top3": 99,
+              "directAnswers": 20,
+              "criticalQuestions": 60,
+              "criticalAbstained": 60,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "verification50": {
+            "v171": {
+              "questions": 70,
+              "positiveQuestions": 50,
+              "top1": 40,
+              "top3": 48,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 70,
+              "positiveQuestions": 50,
+              "top1": 40,
+              "top3": 48,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "verification40": {
+            "v171": {
+              "questions": 60,
+              "positiveQuestions": 40,
+              "top1": 30,
+              "top3": 39,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 60,
+              "positiveQuestions": 40,
+              "top1": 30,
+              "top3": 39,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "feature": {
+            "v171": {
+              "questions": 48,
+              "positiveQuestions": 24,
+              "top1": 20,
+              "top3": 23,
+              "directAnswers": 0,
+              "criticalQuestions": 24,
+              "criticalAbstained": 24,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 48,
+              "positiveQuestions": 24,
+              "top1": 20,
+              "top3": 23,
+              "directAnswers": 0,
+              "criticalQuestions": 24,
+              "criticalAbstained": 24,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "candidateExact": {
+            "v171": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "newKnowledge": {
+            "v171": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "unsupported": {
+            "v171": {
+              "questions": 4,
+              "positiveQuestions": 0,
+              "top1": 0,
+              "top3": 0,
+              "directAnswers": 0,
+              "criticalQuestions": 4,
+              "criticalAbstained": 4,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 4,
+              "positiveQuestions": 0,
+              "top1": 0,
+              "top3": 0,
+              "directAnswers": 0,
+              "criticalQuestions": 4,
+              "criticalAbstained": 4,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "implementation": {
+            "v171": {
+              "questions": 50,
+              "positiveQuestions": 40,
+              "top1": 32,
+              "top3": 38,
+              "directAnswers": 0,
+              "criticalQuestions": 10,
+              "criticalAbstained": 10,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 50,
+              "positiveQuestions": 40,
+              "top1": 32,
+              "top3": 38,
+              "directAnswers": 0,
+              "criticalQuestions": 10,
+              "criticalAbstained": 10,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          }
+        }
+      },
+      "lexical": {
+        "baselineCorpus": "b0e1b371c34d449b",
+        "currentCorpus": "b0e1b371c34d449b",
+        "rankingSha256": "e0e4c4f1fd86c7a9a50c0a266945de7e8d57ec744dfef37dfcf64d2fe773f1c4",
+        "sets": {
+          "development": {
+            "v171": {
+              "questions": 180,
+              "positiveQuestions": 100,
+              "top1": 53,
+              "top3": 82,
+              "directAnswers": 20,
+              "criticalQuestions": 60,
+              "criticalAbstained": 60,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 180,
+              "positiveQuestions": 100,
+              "top1": 53,
+              "top3": 82,
+              "directAnswers": 20,
+              "criticalQuestions": 60,
+              "criticalAbstained": 60,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "verification50": {
+            "v171": {
+              "questions": 70,
+              "positiveQuestions": 50,
+              "top1": 33,
+              "top3": 41,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 70,
+              "positiveQuestions": 50,
+              "top1": 33,
+              "top3": 41,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "verification40": {
+            "v171": {
+              "questions": 60,
+              "positiveQuestions": 40,
+              "top1": 22,
+              "top3": 32,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 60,
+              "positiveQuestions": 40,
+              "top1": 22,
+              "top3": 32,
+              "directAnswers": 0,
+              "criticalQuestions": 20,
+              "criticalAbstained": 20,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "feature": {
+            "v171": {
+              "questions": 48,
+              "positiveQuestions": 24,
+              "top1": 21,
+              "top3": 24,
+              "directAnswers": 0,
+              "criticalQuestions": 24,
+              "criticalAbstained": 24,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 48,
+              "positiveQuestions": 24,
+              "top1": 21,
+              "top3": 24,
+              "directAnswers": 0,
+              "criticalQuestions": 24,
+              "criticalAbstained": 24,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "candidateExact": {
+            "v171": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "newKnowledge": {
+            "v171": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 8,
+              "positiveQuestions": 8,
+              "top1": 8,
+              "top3": 8,
+              "directAnswers": 8,
+              "criticalQuestions": 0,
+              "criticalAbstained": 0,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "unsupported": {
+            "v171": {
+              "questions": 4,
+              "positiveQuestions": 0,
+              "top1": 0,
+              "top3": 0,
+              "directAnswers": 0,
+              "criticalQuestions": 4,
+              "criticalAbstained": 4,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 4,
+              "positiveQuestions": 0,
+              "top1": 0,
+              "top3": 0,
+              "directAnswers": 0,
+              "criticalQuestions": 4,
+              "criticalAbstained": 4,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          },
+          "implementation": {
+            "v171": {
+              "questions": 50,
+              "positiveQuestions": 40,
+              "top1": 29,
+              "top3": 36,
+              "directAnswers": 0,
+              "criticalQuestions": 10,
+              "criticalAbstained": 10,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            },
+            "closure": {
+              "questions": 50,
+              "positiveQuestions": 40,
+              "top1": 29,
+              "top3": 36,
+              "directAnswers": 0,
+              "criticalQuestions": 10,
+              "criticalAbstained": 10,
+              "incorrectAutomaticAnswers": 0,
+              "citationFailures": 0,
+              "crossCorpusReferences": 0
+            }
+          }
+        }
+      }
+    },
+    "historicalRankingTradeoff": {
+      "positiveRankDeclines": 17,
+      "changedInClosure": false,
+      "severity": "noncritical recommendation quality",
+      "engineeringDecision": "ACCEPTED LIMITATION for local release closure: unchanged bounded suggestion ranks; automatic semantic reuse remains disabled, reviewed exact answers/citations and all critical abstentions pass.",
+      "ownerReleaseAcceptance": "PENDING explicit owner release decision; not inferred from tests or this engineering recommendation",
+      "independentHoldout": "PENDING external preparation/adjudication; existing locked-input workflow preserved"
+    }
+  },
+  "integration": {
+    "version": "1.6.2-closure.2",
+    "path": "vendor/pace-rag-portfolio-assistant-1.6.2-closure.2.tgz",
+    "sha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+    "registryPublication": false
+  },
+  "lint": {
+    "application": "PASS",
+    "generated": "FAIL",
+    "originalFull": "FAIL",
+    "generatedErrors": 5,
+    "rule": "@typescript-eslint/no-explicit-any",
+    "lines": [
+      18,
+      199,
+      244,
+      254,
+      402
+    ],
+    "generatedRegistry": {
+      "schemaVersion": 1,
+      "policy": "Maintained application TypeScript stays under the original ESLint rules; maintained .mjs tooling also receives syntax checks. Only this byte-verified generated integration is reported separately. Original repository-wide lint remains available and failing until upstream resolves its diagnostics.",
+      "files": [
+        {
+          "path": ".opencode/plugins/entire.ts",
+          "tool": "Entire CLI OpenCode generator",
+          "generatorCommand": "entire enable --agent opencode",
+          "generatorVersionObserved": "0.12.2",
+          "sha256": "569fb4bd1e10bfbdd2eb5b379c4e6e541c9f254d893e22ac3c8ca8604c94dafb",
+          "provenance": "Identical output reproduced in an isolated temporary repository with initial commits and session pushes disabled; application repository plugin not modified.",
+          "knownUpstreamDiagnostics": {
+            "rule": "@typescript-eslint/no-explicit-any",
+            "count": 5,
+            "lines": [
+              18,
+              199,
+              244,
+              254,
+              402
+            ]
+          },
+          "remediation": "Use an upstream-supported generator fix, then explicitly review the generated diff and update this registry. A changed or authored replacement fails the application boundary check. Do not hand-patch or broadly ignore .opencode."
+        }
+      ]
+    },
+    "generatedSyntaxAndProvenance": "PASS",
+    "generatedSdkLiveIntegration": "NOT VERIFIED",
+    "upstreamRegeneration": "Entire 0.12.2 isolated output byte-identical; no source integration manually patched",
+    "newAuthoredToolingRemainsLinted": true,
+    "unknownGeneratedChangesFail": true
+  },
+  "deploymentPrerequisites": [
+    "Separate owner authorization for any commit/push/publication/deployment; main push can trigger native deployment",
+    "Review/selectively stage prior dependency changes; preserve unrelated owner material",
+    "Set actual full40char PORTFOLIO_RELEASE_REF and verify CI",
+    "Confirm hostedNode22.23.4 compatibility and dashboard overrides",
+    "Capture active/previous complete production deployments, aliases, settings and rollback authority",
+    "Portfolio first; canonical inventory URL must200 and sha256 af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb before Lab rollout",
+    "Verify hosted corpus b0, packet, indexedAt, exact answers, fallback, no inference, routes and timestamps; record actual provider deployment time",
+    "Rollback complete PACE deployment first, then complete portfolio deployment; localv171 is not old hostedproduction"
+  ],
+  "localizedBrowser": {
+    "layouts": 33,
+    "assistantContexts": 4,
+    "newExactJourneys": 32,
+    "errors": []
+  }
+}

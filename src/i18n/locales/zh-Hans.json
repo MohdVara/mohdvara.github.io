@@ -1576,5 +1576,20 @@
   "Calendar display": "日历显示",
   "Cultural calendar (Default)": "文化历法（默认）",
   "Gregorian only": "仅公历",
-  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "默认使用与语言文化相应的历法，并在适用时附上公历日期。选择“仅公历”可使用公历显示日期。"
+  "Cultural calendars are shown by default, with Gregorian references where applicable. Choose Gregorian only to display dates using the Gregorian calendar.": "默认使用与语言文化相应的历法，并在适用时附上公历日期。选择“仅公历”可使用公历显示日期。",
+  "Content last revised:": "内容最后修订：",
+  "Knowledge last synchronized:": "知识最后同步：",
+  "Knowledge synchronization date unavailable.": "知识同步日期不可用。",
+  "Site build:": "网站构建：",
+  "This assistant uses a reviewed snapshot of the portfolio and its published supporting sources. Repository changes after this snapshot may not yet be included.": "此助手使用经过审阅的作品集及其已发布支持来源的快照。此快照之后的代码仓库更改可能尚未纳入。",
+  "Canonical English content last revised:": "英语原文最后修订：",
+  "Results are ready. You can keep searching.": "结果已就绪。您可以继续搜索。",
+  "Improving suggestions. You can keep searching.": "正在改进建议。您可以继续搜索。",
+  "Suggestions updated. Similarity does not verify an answer.": "建议已更新。相似性并不能证实答案正确。",
+  "Enhanced search is unavailable. Your existing results remain usable.": "增强搜索不可用。现有结果仍可使用。",
+  "Enhancement cancelled. Your existing results remain usable.": "改进已取消。现有结果仍可使用。",
+  "Results are ready. Enhanced search is optional.": "结果已就绪。增强搜索为可选功能。",
+  "Improve suggestions": "改进建议",
+  "Retry enhanced search": "重试增强搜索",
+  "Cancel enhancement": "取消改进"
 }
