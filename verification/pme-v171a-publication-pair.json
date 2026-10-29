@@ -1,23 +1,23 @@
 {
   "id": "pme-v171a-publication-pair",
-  "status": "PRE-COMMIT PREPARATION",
+  "status": "MANIFEST FIX VERIFIED; final actual-commit artifact freeze pending",
   "observedAt": "2026-10-29T18:42:25.013500+00:00",
   "releaseSourceCommits": {
     "portfolio": null,
-    "paceRag": null
+    "paceRag": "b31157f319475c8736de9135e510b9cfc7f4d8c7"
   },
   "currentHeads": {
     "mohdvara.github.io": {
-      "head": "79e897e73bce97adf4347a4522513249154ca783",
+      "head": "3ccf3de7b5df5fdf377e96f59042672e78f7b953",
+      "branch": "main",
+      "tracking": "origin/main",
+      "cachedAheadBehind": "3\t0"
+    },
+    "pace-rag": {
+      "head": "a86fe755a3cabfe3715e39d5d1e58d9cca81ff2b",
       "branch": "main",
       "tracking": "origin/main",
       "cachedAheadBehind": "2\t0"
-    },
-    "pace-rag": {
-      "head": "1a517cac30ec321944b3da5a2a18858a1bf53500",
-      "branch": "main",
-      "tracking": "origin/main",
-      "cachedAheadBehind": "1\t0"
     }
   },
   "proposedSourceFingerprints": {
@@ -142,7 +142,7 @@
     }
   ],
   "finalArtifactFreeze": null,
-  "finalCleanCheckoutVerification": "PENDING actual authorized commits; current worktree checks are not substituted",
+  "finalCleanCheckoutVerification": "Earlier portfolio commit passed233; remediated PACE source export passed134 and exact archive check. Final actual-commit pair follows documentation commit.",
   "deploymentMechanism": {
     "portfolio": "Existing Cloudflare native Git integration, main branch",
     "paceRag": "Existing Cloudflare native Git integration, main branch",
@@ -171,8 +171,8 @@
       "npm run lint:app",
       "npm run lint:generated # known5errors",
       "npm run lint:full # known5errors",
-      "npm test",
       "npm run build",
+      "npm test",
       "npm run i18n:validate",
       "npm run i18n:coverage -- --strict",
       "npm run assets:check"
@@ -283,5 +283,81 @@
       }
     ],
     "scope": "Fresh current-source checks; not final clean-commit build verification"
-  }
+  },
+  "baseSourceHeads": {
+    "mohdvara.github.io": {
+      "head": "3ccf3de7b5df5fdf377e96f59042672e78f7b953",
+      "branch": "main",
+      "tracking": "origin/main",
+      "cachedAheadBehind": "3\t0"
+    },
+    "pace-rag": {
+      "head": "a86fe755a3cabfe3715e39d5d1e58d9cca81ff2b",
+      "branch": "main",
+      "tracking": "origin/main",
+      "cachedAheadBehind": "2\t0"
+    }
+  },
+  "sourcePreparationRecord": "verification/pme-v171a-source-preparation.json",
+  "candidateArtifacts": [
+    {
+      "repository": "mohdvara.github.io",
+      "sourceSha": "3ccf3de7b5df5fdf377e96f59042672e78f7b953",
+      "treeSha256": "f70ec702bb4f5f7ce52707dcefe24663a3a667219920f596c2ed5a4c5621150e",
+      "archivePath": "output/playwright/pme-v171a-publication/gate1-candidate-artifacts/mohdvara.github.io-clean-unapproved.tar.gz",
+      "archiveSha256": "95a5df5ef3bb6b4a037361d5c80da9e0f086c905a326454cb1d252084541b4c1",
+      "archiveBytes": 34248804,
+      "fileCount": 309,
+      "approvedForPublication": false,
+      "status": "QUARANTINED CANDIDATE: pinned package manifest reproduction gate failed",
+      "postBuildSourceStatus": [
+        " M src/data/public-github.json"
+      ]
+    },
+    {
+      "repository": "pace-rag",
+      "sourceSha": "a86fe755a3cabfe3715e39d5d1e58d9cca81ff2b",
+      "treeSha256": "077dd203acab89b00d9e7e1a80d3e5e23facd9c1dc81b284e0214dc0b232f793",
+      "archivePath": "output/playwright/pme-v171a-publication/gate1-candidate-artifacts/pace-rag-clean-unapproved.tar.gz",
+      "archiveSha256": "989be24a2ba6c405c3c1e78e5a47e377aa355171f61089ab30c7219a975312e2",
+      "archiveBytes": 27372028,
+      "fileCount": 152,
+      "approvedForPublication": false,
+      "status": "QUARANTINED CANDIDATE: pinned package manifest reproduction gate failed",
+      "postBuildSourceStatus": []
+    }
+  ],
+  "manifestReproductionMismatch": {
+    "onlyManifestFieldChanged": "builtAt",
+    "pinnedArtifactBuiltAt": "2026-10-29T05:03:43.315Z",
+    "freshArtifactBuiltAt": "2026-10-29T19:09:06.469Z",
+    "indexedAtUnchanged": "2026-10-29T05:03:43.315Z",
+    "allOtherManifestFieldsIdentical": true,
+    "allSevenAssetsIdentical": true,
+    "changedArchiveMembers": [
+      {
+        "path": "package/public/knowledge/portfolio/b0e1b371c34d449b/manifest.json",
+        "bodyChanged": true,
+        "metadataChanged": false
+      },
+      {
+        "path": "package/public/release.json",
+        "bodyChanged": true,
+        "metadataChanged": false
+      }
+    ],
+    "pinnedArchiveSha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+    "freshRepackedArchiveSha256": "7b5333bfbf7aa7b14d766ed0d8226fa9d1a26e2924418433b8f898ad2cf4c3de",
+    "vendorLockfileUnchanged": true,
+    "publicationFreezePassed": false
+  },
+  "sourcePreparationAuthorization": {
+    "ownerStatement": "APPROVE PME V1.7.1A SOURCE PREPARATION",
+    "basis": "Separate actual owner message in this conversation",
+    "permits": "Reviewed explicit local staging/commits, metadata overlays and per-command hook isolation",
+    "previewProductionConfigPushRollback": "NOT AUTHORIZED",
+    "newKnowledgeApproval": false
+  },
+  "portfolioApplicationBaseCommit": "3ccf3de7b5df5fdf377e96f59042672e78f7b953",
+  "manifestRemediation": "verification/pme-v171a-manifest-remediation.json"
 }

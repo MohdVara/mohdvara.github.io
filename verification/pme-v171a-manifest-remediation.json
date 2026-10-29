@@ -1,0 +1,79 @@
+{
+  "id": "pme-v171a-manifest-remediation",
+  "recordedAt": "2026-10-29T19:39:38.898674+00:00",
+  "status": "PASS: fresh source export; actual final commit freeze follows",
+  "paceSourceCommit": "b31157f319475c8736de9135e510b9cfc7f4d8c7",
+  "changes": [
+    "Exact approved portfolio manifest pinned as a release-only build input",
+    "Checksum and corpus/source identity validated before release generation",
+    "Every generated manifest byte checked against pin",
+    "Five regression tests cover timestamps, tampering, identity and generated-data drift",
+    "CI installs both repositories tooling for synchronization tests"
+  ],
+  "knowledgeChanged": false,
+  "activationPerformed": false,
+  "pinnedArchiveChanged": false,
+  "lockfilesChanged": false,
+  "proof": {
+    "archiveSha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+    "matchesPinnedArchive": true,
+    "freshIndexHasPriorManifest": false,
+    "coldAndWarmBuildsPassed": true
+  },
+  "commands": [
+    {
+      "step": "tests",
+      "exitCode": 0,
+      "command": "npm test"
+    },
+    {
+      "step": "lint",
+      "exitCode": 0,
+      "command": "npm run lint"
+    },
+    {
+      "step": "typecheck",
+      "exitCode": 0,
+      "command": "npm run typecheck"
+    },
+    {
+      "step": "build",
+      "exitCode": 0,
+      "command": "npm run build:release"
+    },
+    {
+      "step": "verify-index",
+      "exitCode": 0,
+      "command": "npm run index:verify"
+    },
+    {
+      "step": "package",
+      "exitCode": 0,
+      "command": "npm run package:portfolio"
+    },
+    {
+      "step": "pack",
+      "exitCode": 0,
+      "command": "npm pack --workspace @pace-rag/portfolio-assistant --pack-destination <workspace>/mohdvara.github.io/output/playwright/pme-v171a-publication/manifest-fix"
+    },
+    {
+      "step": "static",
+      "exitCode": 0,
+      "command": "npm run package:static -- --release"
+    },
+    {
+      "step": "artifact",
+      "exitCode": 0,
+      "command": "npm run release:artifact-check"
+    }
+  ],
+  "tests": {
+    "pace": 134,
+    "portfolioPreviouslyCleanVerified": 233,
+    "total": 367
+  },
+  "initialVerificationPrerequisiteIssue": "Companion TypeScript tooling missing on first source export; installing both lockfiles resolved it and the CI prerequisite is now explicit.",
+  "sourcePreparedForPublication": true,
+  "publicationPerformed": false,
+  "finalFrozenSourcePair": "Recorded separately after the portfolio documentation commit; no circular self-commit SHA"
+}

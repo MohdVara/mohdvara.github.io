@@ -1,6 +1,8 @@
 # PME v1.7.1a — Controlled Publication Runbook
 
-Prepared 30 October 2026 (Asia/Kuching). **AWAITING OWNER AUTHORIZATION.** This is a reviewed preparation plan. No files have been staged, no source commits created, and no remote/configuration/deployment/rollback mutation performed by this task. Approval phrases quoted here are instructions, not granted authority.
+Updated 30 October 2026 (Asia/Kuching). **Manifest remediation verified locally; final publication checkpoint pending.** Gate1 completed with the reviewed source commits. PACE remediation commit `b31157f319475c8736de9135e510b9cfc7f4d8c7` resolves the ordinary clean-package mismatch; all134 PACE tests and the exact pinned archive comparison pass. Approved knowledge, vendor archive and lockfiles remain unchanged.
+
+The initial failure and its resolution remain in the source-preparation/remediation records. A subsequent local sidecar records final portfolio documentation/source identity and clean artifact hashes. No push, remote configuration change, preview, production deployment or rollback has occurred. The protocol below remains binding at those boundaries.
 
 ## Verified mechanism and current production
 
@@ -31,13 +33,13 @@ Existing unpublished ancestor commits contain Entire configuration/hooks, not se
 
 ## Gate 1 — local source preparation
 
-Required separate owner instruction: **`APPROVE PME V1.7.1A SOURCE PREPARATION`**.
+Owner instruction received: **`APPROVE PME V1.7.1A SOURCE PREPARATION`**. This reviewed transaction is complete; no repeat authorization is needed for those completed operations.
 
-Before that instruction, only review/check the manifest and ignored authorization snapshot. No staging or commits are authorized now. Review includes proposed path-normalization overlays and hook isolation. The default `stage-proposed.py --check` verifies original file hashes and overlay hashes without modifying Git; its staging mode must not be invoked until actual authorization.
+The approved snapshot and explicit staging script were checked before staging. All178 reviewed paths, three metadata overlays and hook isolation were executed exactly. The original staging snapshot is historical and must not be rerun against the now-advanced HEADs. Additional remediation must have its own reviewed change set; do not silently amend the two completed commits.
 
 After approval, reconfirm starting HEADs, empty indexes, source hashes and exclusions. Stage only explicit included paths; for the three normalized records, stage the reviewed blob using `git hash-object -w` / `git update-index --cacheinfo`, preserving original working files. Inspect `git diff --cached --stat` and the complete staged patch. Run the source/security/gate checks before committing. Do not use `git add .` or `git add -A`.
 
-Prepare one coherent local portfolio source commit, then one coherent PACE source commit. Proposed subjects:
+Created one coherent local portfolio source commit, then one coherent PACE source commit. Actual subjects:
 
 - `Release PME v1.7.1a portfolio prerequisites and progressive assistant`
 - `Release PME v1.7.1a approved knowledge and progressive search`
@@ -52,7 +54,7 @@ The integration archive depends on immutable approved assets and integration sou
 
 After authorized commits exist, clone only their reviewed main ancestry into isolated directories, check out exact SHAs with hook isolation and verify clean sources. Do not copy private environment files, browser caches or context. Use Node 22.23.4 / npm 10.9.9 and lockfile installs. The paired manifest supplies command lists for both applications. Fresh clones need checksum-pinned model/runtime/worker/index preparation before semantic tests; indexing unchanged approved input must retain `2026-10-29T05:03:43.315Z`. No activation or public-source refresh is required.
 
-Run all tests, typechecks, app lint and PACE lint, index/approval/citation/evaluation/localization/artwork/public inventory gates and builds. Record generated/full portfolio lint as the same five upstream failures. Repack the integration **to ignored output**, compare its bytes to the pinned archive and stop on mismatch; never overwrite vendor/lockfile to conceal a difference. Run cross-application, deferred exact-download and progressive lifecycle smoke checks. Preserve the 215,000-byte main-script limit. Reuse established bounded QA; no new optimization cycle or production stress benchmark.
+Build portfolio dist before running its artifact-dependent tests. Run all tests, typechecks, app lint and PACE lint, index/approval/citation/evaluation/localization/artwork/public inventory gates and builds. Record generated/full portfolio lint as the same five upstream failures. Repack the integration **to ignored output**, compare its bytes to the pinned archive and stop on mismatch; never overwrite vendor/lockfile to conceal a difference. Run cross-application, deferred exact-download and progressive lifecycle smoke checks. Preserve the 215,000-byte main-script limit. Reuse established bounded QA; no new optimization cycle or production stress benchmark.
 
 Generated build-time metadata or evaluation reports must be identified separately from source inputs in the isolated clone; preserve original committed source bytes and record generated outputs. Final artifact records must identify the actual source commits, lockfiles, archive, tree/archive hashes, file count, runtime, build time and approved corpus/packet/schema. Current pre-commit archives are historical review evidence and cannot substitute for this final freeze. A code/dependency/build-input change invalidates it.
 

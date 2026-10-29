@@ -1,0 +1,489 @@
+{
+  "id": "pme-v171a-source-preparation",
+  "recordedAt": "2026-10-29T19:21:38.604206+00:00",
+  "status": "HISTORICAL BLOCKER RESOLVED: see pme-v171a-manifest-remediation.json",
+  "scope": "Gate1 local source preparation executed; final publication freeze blocked by an observed clean-package reproduction mismatch",
+  "authorization": {
+    "ownerStatement": "APPROVE PME V1.7.1A SOURCE PREPARATION",
+    "basis": "Separate actual owner message in this conversation",
+    "permits": "Reviewed explicit local staging/commits, metadata overlays and per-command hook isolation",
+    "previewProductionConfigPushRollback": "NOT AUTHORIZED",
+    "newKnowledgeApproval": false
+  },
+  "commits": {
+    "mohdvara.github.io": {
+      "sourceSha": "3ccf3de7b5df5fdf377e96f59042672e78f7b953",
+      "parent": "79e897e73bce97adf4347a4522513249154ca783",
+      "commitSubject": "Release PME v1.7.1a portfolio prerequisites and progressive assistant",
+      "committedPaths": 78,
+      "cleanAtCheckout": true,
+      "whitespaceOutsideExactUpstreamLicense": "PASS",
+      "upstreamLicenseWhitespaceException": {
+        "path": "public/fonts/editorial/Space-Grotesk-OFL.txt",
+        "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+        "meaning": "Original upstream CRLF/trailing spaces retained byte-for-byte; unmodified license/inventory checksums"
+      }
+    },
+    "pace-rag": {
+      "sourceSha": "a86fe755a3cabfe3715e39d5d1e58d9cca81ff2b",
+      "parent": "1a517cac30ec321944b3da5a2a18858a1bf53500",
+      "commitSubject": "Release PME v1.7.1a approved knowledge and progressive search",
+      "committedPaths": 100,
+      "cleanAtCheckout": true,
+      "whitespaceOutsideExactUpstreamLicense": "PASS"
+    }
+  },
+  "stagedReview": [
+    {
+      "repository": "mohdvara.github.io",
+      "paths": 78,
+      "stagedBlobHashes": "PASS",
+      "security": "PASS",
+      "patchSha256": "8deab98f831c69f2c211367ca02ae93f4bc858170f5f8eba579e9cfc335772fb",
+      "patchBytes": 34923359
+    },
+    {
+      "repository": "pace-rag",
+      "paths": 100,
+      "stagedBlobHashes": "PASS",
+      "security": "PASS",
+      "patchSha256": "f67e04ea9a287a7db87cd3ef056f794e32c40b97f2a234007b75df7e2702fb94",
+      "patchBytes": 4455302
+    }
+  ],
+  "ownerPreservation": {
+    "mohdvara.github.io": {
+      "head": "3ccf3de7b5df5fdf377e96f59042672e78f7b953",
+      "originalWorktreeBytesPreserved": true,
+      "indexEmpty": true
+    },
+    "pace-rag": {
+      "head": "a86fe755a3cabfe3715e39d5d1e58d9cca81ff2b",
+      "originalWorktreeBytesPreserved": true,
+      "indexEmpty": true
+    }
+  },
+  "cleanSourceStatus": [
+    {
+      "repository": "mohdvara.github.io",
+      "cleanAfterVerification": true,
+      "generatedSourceFilesRestoredFromOwnCommit": [
+        "src/data/public-github.json"
+      ]
+    },
+    {
+      "repository": "pace-rag",
+      "cleanAfterVerification": true,
+      "generatedSourceFilesRestoredFromOwnCommit": []
+    }
+  ],
+  "cleanChecks": {
+    "portfolioCommands": [
+      {
+        "command": "npm ci --offline --ignore-scripts",
+        "startedAt": "2026-10-29T19:08:33.754560+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/install.log"
+      },
+      {
+        "command": "npm run typecheck",
+        "startedAt": "2026-10-29T19:08:38.153325+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/typecheck.log"
+      },
+      {
+        "command": "npm run lint:app",
+        "startedAt": "2026-10-29T19:08:45.972115+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/lint-app.log"
+      },
+      {
+        "command": "npm run lint:generated",
+        "startedAt": "2026-10-29T19:08:55.455334+00:00",
+        "exitCode": 1,
+        "expectedExitCodes": [
+          1
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/lint-generated.log"
+      },
+      {
+        "command": "npm run lint:full",
+        "startedAt": "2026-10-29T19:08:59.429854+00:00",
+        "exitCode": 1,
+        "expectedExitCodes": [
+          1
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/lint-full.log"
+      },
+      {
+        "command": "npm test",
+        "startedAt": "2026-10-29T19:09:03.710388+00:00",
+        "exitCode": 1,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": false,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/tests.log"
+      }
+    ],
+    "portfolioAfterBuildCommands": [
+      {
+        "command": "npm run build",
+        "exitCode": 0,
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/build.log"
+      },
+      {
+        "command": "npm test",
+        "exitCode": 0,
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/tests-after-build.log"
+      },
+      {
+        "command": "npm run i18n:validate",
+        "exitCode": 0,
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/i18n.log"
+      },
+      {
+        "command": "npm run i18n:coverage -- --strict",
+        "exitCode": 0,
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/coverage.log"
+      },
+      {
+        "command": "npm run knowledge:check",
+        "exitCode": 0,
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/knowledge.log"
+      },
+      {
+        "command": "npm run artwork:check",
+        "exitCode": 0,
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/artwork.log"
+      },
+      {
+        "command": "npm run assets:check",
+        "exitCode": 0,
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/mohdvara.github.io/assets.log"
+      }
+    ],
+    "paceCommands": [
+      {
+        "command": "npm ci --offline --ignore-scripts",
+        "startedAt": "2026-10-29T19:08:35.694189+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/install.log"
+      },
+      {
+        "command": "npm run model:prepare",
+        "startedAt": "2026-10-29T19:08:42.229061+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/model.log"
+      },
+      {
+        "command": "npx --no-install playwright install chromium",
+        "startedAt": "2026-10-29T19:08:47.547420+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/browser.log"
+      },
+      {
+        "command": "npx --no-install vite build --config vite.worker.config.ts",
+        "startedAt": "2026-10-29T19:08:49.658393+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/worker.log"
+      },
+      {
+        "command": "node scripts/worker-assets.mjs",
+        "startedAt": "2026-10-29T19:08:51.347265+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/worker-assets.log"
+      },
+      {
+        "command": "node scripts/indexing/build.mjs --release --embed",
+        "startedAt": "2026-10-29T19:08:51.396639+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/index-prepare.log"
+      },
+      {
+        "command": "npm run lint",
+        "startedAt": "2026-10-29T19:09:18.402650+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/lint.log"
+      },
+      {
+        "command": "npm run typecheck",
+        "startedAt": "2026-10-29T19:09:24.367079+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/typecheck.log"
+      },
+      {
+        "command": "npm test",
+        "startedAt": "2026-10-29T19:09:25.895236+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/tests.log"
+      },
+      {
+        "command": "npm run release:check",
+        "startedAt": "2026-10-29T19:09:27.384201+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/release.log"
+      },
+      {
+        "command": "npm run index:verify",
+        "startedAt": "2026-10-29T19:09:27.681657+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/index.log"
+      },
+      {
+        "command": "npm run build:release",
+        "startedAt": "2026-10-29T19:09:27.858803+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/build.log"
+      },
+      {
+        "command": "npm run package:portfolio",
+        "startedAt": "2026-10-29T19:09:48.012797+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/package.log"
+      },
+      {
+        "command": "npm pack --workspace @pace-rag/portfolio-assistant --pack-destination <workspace>/mohdvara.github.io/output/playwright/pme-v171a-publication/clean-checks/pace-rag",
+        "startedAt": "2026-10-29T19:09:48.574551+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/pack.log"
+      },
+      {
+        "command": "npm run package:static -- --release",
+        "startedAt": "2026-10-29T19:09:50.731180+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/static.log"
+      },
+      {
+        "command": "npm run release:artifact-check",
+        "startedAt": "2026-10-29T19:09:51.114152+00:00",
+        "exitCode": 0,
+        "expectedExitCodes": [
+          0
+        ],
+        "passed": true,
+        "log": "output/playwright/pme-v171a-publication/clean-checks/pace-rag/artifact.log"
+      }
+    ],
+    "portfolioTests": {
+      "tests": 233,
+      "pass": 233,
+      "fail": 0,
+      "skipped": 0
+    },
+    "paceTests": {
+      "tests": 129,
+      "pass": 129,
+      "fail": 0,
+      "skipped": 0
+    },
+    "initialPortfolioTestOrderFailure": "Initial test invocation preceded required dist build:22 failures/missing artifacts; corrected build-before-test order yields233/233. Original failed log retained. Existing CI already builds first.",
+    "evaluations": [
+      {
+        "mode": "lexical",
+        "exitCode": 0
+      },
+      {
+        "mode": "semantic",
+        "exitCode": 0
+      }
+    ],
+    "currentMetricsUnchanged": true,
+    "budget": {
+      "measuredAt": "2026-10-29T19:15:24.427Z",
+      "entry": "assets/index-DJjHt9k3.js",
+      "bytes": 211660,
+      "limit": 215000,
+      "passed": true,
+      "scope": "Main JavaScript only; separate lazy assets are not included."
+    },
+    "progressiveBrowser": {
+      "engines": [
+        {
+          "name": "chromium",
+          "available": true,
+          "version": "156.0.8078.73"
+        },
+        {
+          "name": "webkit",
+          "available": true,
+          "version": "26.0"
+        },
+        {
+          "name": "firefox",
+          "available": true,
+          "version": "142.0.1"
+        }
+      ],
+      "passed": 33,
+      "errors": [],
+      "inference": []
+    },
+    "freshnessBrowser": {
+      "layouts": 33,
+      "assistantContexts": 4,
+      "newExactJourneys": 32,
+      "errors": []
+    }
+  },
+  "manifestMismatch": {
+    "onlyManifestFieldChanged": "builtAt",
+    "pinnedArtifactBuiltAt": "2026-10-29T05:03:43.315Z",
+    "freshArtifactBuiltAt": "2026-10-29T19:09:06.469Z",
+    "indexedAtUnchanged": "2026-10-29T05:03:43.315Z",
+    "allOtherManifestFieldsIdentical": true,
+    "allSevenAssetsIdentical": true,
+    "changedArchiveMembers": [
+      {
+        "path": "package/public/knowledge/portfolio/b0e1b371c34d449b/manifest.json",
+        "bodyChanged": true,
+        "metadataChanged": false
+      },
+      {
+        "path": "package/public/release.json",
+        "bodyChanged": true,
+        "metadataChanged": false
+      }
+    ],
+    "pinnedArchiveSha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+    "freshRepackedArchiveSha256": "7b5333bfbf7aa7b14d766ed0d8226fa9d1a26e2924418433b8f898ad2cf4c3de",
+    "vendorLockfileUnchanged": true,
+    "publicationFreezePassed": false
+  },
+  "experiment": {
+    "scope": "Isolated approved-metadata reuse experiment, not an approved source fix or release artifact",
+    "originalSha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+    "ordinaryCleanRepackSha256": "7b5333bfbf7aa7b14d766ed0d8226fa9d1a26e2924418433b8f898ad2cf4c3de",
+    "experimentSha256": "5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521",
+    "vendorAndLockfileChanged": false,
+    "experimentMatchesPinnedArchive": true
+  },
+  "candidateArtifacts": [
+    {
+      "repository": "mohdvara.github.io",
+      "sourceSha": "3ccf3de7b5df5fdf377e96f59042672e78f7b953",
+      "treeSha256": "f70ec702bb4f5f7ce52707dcefe24663a3a667219920f596c2ed5a4c5621150e",
+      "archivePath": "output/playwright/pme-v171a-publication/gate1-candidate-artifacts/mohdvara.github.io-clean-unapproved.tar.gz",
+      "archiveSha256": "95a5df5ef3bb6b4a037361d5c80da9e0f086c905a326454cb1d252084541b4c1",
+      "archiveBytes": 34248804,
+      "fileCount": 309,
+      "approvedForPublication": false,
+      "status": "QUARANTINED CANDIDATE: pinned package manifest reproduction gate failed",
+      "postBuildSourceStatus": [
+        " M src/data/public-github.json"
+      ]
+    },
+    {
+      "repository": "pace-rag",
+      "sourceSha": "a86fe755a3cabfe3715e39d5d1e58d9cca81ff2b",
+      "treeSha256": "077dd203acab89b00d9e7e1a80d3e5e23facd9c1dc81b284e0214dc0b232f793",
+      "archivePath": "output/playwright/pme-v171a-publication/gate1-candidate-artifacts/pace-rag-clean-unapproved.tar.gz",
+      "archiveSha256": "989be24a2ba6c405c3c1e78e5a47e377aa355171f61089ab30c7219a975312e2",
+      "archiveBytes": 27372028,
+      "fileCount": 152,
+      "approvedForPublication": false,
+      "status": "QUARANTINED CANDIDATE: pinned package manifest reproduction gate failed",
+      "postBuildSourceStatus": []
+    }
+  ],
+  "proposedRemediation": {
+    "patch": "output/playwright/pme-v171a-publication/reviewed-manifest-preservation-proposal.patch",
+    "sha256": "3d31e8e8e5f9868f96d94d5aecf174d512406461ddf574a37501494218eefdcb",
+    "status": "Prepared only; not applied or committed; packaging proof passes, source patch still needs targeted tests and clean-build verification",
+    "paths": [
+      "pace-rag/scripts/indexing/build.mjs",
+      "pace-rag/content/portfolio/release-manifest.json"
+    ],
+    "meaning": "Use exact approved immutable manifest as a verified release build input; preserve its original artifact timestamp; retain independent actual application build/deployment times. Reject any generated-content mismatch. No knowledge activation or packet/answer/vector/citation change."
+  },
+  "finalArtifactFreeze": null,
+  "remoteActionsPerformed": false,
+  "nextAction": "Review manifest-preservation remediation before any additional source change/commit; then repeat affected clean verification and freeze. Do not request or execute production publication against the mismatching pair.",
+  "remediationResolution": {
+    "record": "verification/pme-v171a-manifest-remediation.json",
+    "paceCommit": "b31157f319475c8736de9135e510b9cfc7f4d8c7",
+    "archiveMatchesPinned": true,
+    "originalMismatchEvidenceRetained": true
+  }
+}

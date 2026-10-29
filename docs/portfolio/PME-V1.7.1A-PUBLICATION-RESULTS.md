@@ -1,48 +1,29 @@
 # PME v1.7.1a — Publication Preparation Results
 
-30 October 2026 (Asia/Kuching). **AWAITING OWNER AUTHORIZATION.**
+30 October 2026 (Asia/Kuching). **AWAITING OWNER AUTHORIZATION for the final production-triggering release pair and companion-variable change.** Local source preparation and manifest remediation are complete. No push, preview, remote configuration change, registry publication, production deployment or rollback has occurred.
 
-No separate source-preparation, preview, production or rollback approval has been given. No Git index was changed, commit created, push/tag/PR/release/package published, deployment/rollback executed or production configuration modified. This report is preparation evidence, not a production-success record.
+## Source preparation and remediation
 
-## Executed and verified
+Gate1's178 reviewed paths were committed as portfolio `3ccf3de7b5df5fdf377e96f59042672e78f7b953` and PACE `a86fe755a3cabfe3715e39d5d1e58d9cca81ff2b`. Metadata normalization was staged as approved blobs; original owner working files and excluded context/session/intermediate artifacts were preserved. The upstream font license retains its exact CRLF/trailing-space bytes and required checksum; whitespace checks elsewhere pass.
 
-- Reconciled current files with the closure ledger: all closure task-source hashes still match. Starting HEADs remain portfolio `79e897e73bce97adf4347a4522513249154ca783`, PACE `1a517cac30ec321944b3da5a2a18858a1bf53500`; both main and indexes unchanged. These are existing base HEADs, **not new release source commits**.
-- Read-only remote main refs remain portfolio `9090099dc0bbd032b6d218371c9239bdff438b98` and PACE `9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8`. Existing unpublished ancestor commits add Entire configuration/hooks; no session trace blobs are introduced in their main ancestry delta.
-- Prepared a complete A–H classification, exact source/package hashes, excluded owner/private/intermediate paths, reviewable commit subjects and hook-isolated explicit staging plan. Superseded untracked packages are not required; original tracked evaluation baselines remain.
-- Scanned 965 source text files and all 70 integration archive members. No live credential was identified; two source assignment matches are documentation/test placeholders. Archive members contain no private environment/session/context files. Model/font licenses and public/proprietary/fictional evidence boundaries remain intact. This is scoped structural review, not a full-history or penetration certification.
-- Prepared **three path-only publication overlays** for historical verification ledgers containing user-home QA paths. No original ledger was rewritten. Exact original/proposed hashes and local copy locations are in the staging/security records; Gate1 review must cover these overlays and per-command Entire hook isolation.
-- Freshly ran **233 portfolio +129 PACE tests: 362 pass, zero failures/skips**. Both typechecks, maintained application/PACE lint, source/approval/index/release checks, locale coverage and public-asset gates pass. Original full/generated portfolio lint still fails with the same five generated Entire errors; no rule or policy was weakened. Existing ranking/optional-cold-model/independent/native/device limitations remain disclosed.
-- Confirmed actual Cloudflare project Git configuration through authenticated GET APIs: main automatically deploys, previews cover all branches, exact build/output commands match the runbook. Current canonical deployment identities are authoritatively resolved. Latest successful build logs report Node22.23.4; no explicit NODE_VERSION override is present. No environment values, credentials, account IDs or raw provider logs were retained.
-- Confirmed configured rollback authority from existing pages:write scope and accepted Super Administrator membership; no write operation exercised. Current complete provider-retained deployments are eligible successful production rollback targets. Complete offline production exports were not downloaded.
-- Performed 45 bounded read-only HTTP requests across both custom/immutable hosts and probes. Home/entry assets and seven live knowledge assets match expected hashes. Both current live corpora remain **b555f3ee70c516ab**. The new inventory URL remains **404**; legacy `/page-rag/` paths remain404. Probed .env/.git/private-context routes return404. These are observations of the existing release, not verification of new publication.
+The ordinary clean repack initially differed because fresh index construction minted a new manifest artifact builtAt. That failure remains documented in `verification/pme-v171a-source-preparation.json`. It was resolved by local PACE commit **`b31157f319475c8736de9135e510b9cfc7f4d8c7`**, which pins the exact reviewed immutable manifest as a build input, checks its checksum/source identity and rejects any generated manifest difference. No packet, answers, vectors, citations, corpus identity or indexedAt changed. Application build/deployment times remain separate.
 
-## Exact proposed publication path
+Five regression tests cover missing/edited pins, identity mismatch, generated citation/row/vector/packet/date changes, wall-clock independence and preview/Lab serialization. Fresh source export, without a prior index, passes **134 PACE tests** and cold/warm release builds. Together with233 clean portfolio tests,367 tests pass. The PACE workflow now explicitly installs companion tooling: synchronization tests import its TypeScript source projector. The initially missing companion-install prerequisite was corrected and all tests rerun.
 
-Native Cloudflare Git deployment only, **portfolio first → mandatory live portfolio/inventory gates → PACE second**. No duplicate Wrangler upload or GitHub Pages deploy. GitHub Pages legacy metadata still names the portfolio domain but is sourced from gh-pages; no selected main workflow deploys or writes that branch. No DNS/CNAME/provider control changes are proposed.
+## Reproduction and final freeze
 
-Provider canonical current/rollback pair:
+The fresh rebuilt `1.6.2-closure.2` archive exactly matches the unchanged approved pin:
 
-| Application | Deployment | Source | Immutable URL |
-|---|---|---|---|
-| Portfolio | `c22ade84-3449-4bb2-8ff8-16d8792819f3` | `9090099dc0bbd032b6d218371c9239bdff438b98` | `https://c22ade84.mohdvara-portfolio.pages.dev` |
-| PACE | `a5ecd965-6fbe-4f0d-a5d7-73a121865702` | `9d66c8cf9c65ab887ce8f83c8a5f2893694ffbb8` | `https://a5ecd965.pace-rag-git.pages.dev` |
+`5715304aa01f39a78fe542645dc2fb6790b9e98160358df762cd5173e75f8521`
 
-Recheck canonical IDs, retention and permissions immediately before any release. Rollback, if separately authorized, restores complete PACE first then portfolio. Local v1.7.1 rehearsal archives are not the older hosted production pair.
+The actual vendor archive and lockfiles were not overwritten. The earlier packaging experiment and quarantined mismatching outputs remain historical evidence; the ordinary remediated build now succeeds without substituting those files. Full/generated portfolio lint still has five unchanged Entire diagnostics; maintained application/PACE lint and typechecks pass. Prior clean browser evidence includes33 progressive cases across three engines plus33 multilingual freshness layouts/four assistant contexts. Clean main JS measured211,660 bytes under215,000; no production performance or native-device certification is claimed.
 
-## Still pending
+This documentation commit follows the application base commit. Final source refs, exact clean-build/archive hashes and authorization-time provider observations are recorded in the subsequent local paired-release sidecar to avoid circular commit identities. These preparation records do not claim that production serves the new code.
 
-Real release SHAs, final clean-commit builds, regenerated byte-equivalent integration verification, final artifact freeze and new production verification are **pending**, not failed or substituted with dirty-worktree checks. The approved integration/corpus are unchanged: `1.6.2-closure.2`, b0e1b371c34d449b, packet9bde…f286; retained knowledge indexing time2026-10-29T05:03:43.315Z. No ingestion, approval or activation was performed.
+## Publication checkpoint
 
-The authenticated GitHub companion-variable read was unavailable. `PORTFOLIO_RELEASE_REF` must be checked/set to the actual new portfolio SHA before PACE publication; a remote variable update needs its own explicit authorized scope. It is not authorized by local source preparation. No final SHA or artifact has been invented.
+Both `main` branches automatically publish via existing Cloudflare Git integration. The controlled protocol requires review of the exact final refs/artifact pair, current canonical deployments/rollback targets and the required `PORTFOLIO_RELEASE_REF` change before execution. The request to publish to GitHub is being prepared against that production boundary; no alternate Wrangler/GitHub Pages deployment will be used.
 
-Preview publication is not authorized. Absolute approved inventory citations still point to the currently missing production URL, so preview UI/build checks cannot alone certify that dependency. Production and rollback approval have not been granted. Owner release acceptance of documented ranking, generated lint, optional semantic and review limitations remains pending.
+Last observed production remains older b555f3ee70c516ab; the portfolio inventory dependency was404. Publish portfolio first and require HTTP200/JSON plus SHA-256 `af67eb6536c397e7cb2842224173a7bd609e31e88dd793a544f9b7f7e150f6bb`, then update/verify the separately authorized companion reference and publish PACE. Reconfirm canonical IDs, configured permissions and retained complete rollback targets before acting. No knowledge activation or source refresh is needed.
 
-## Next owner checkpoint
-
-Review the exact staging/security/pair records, path overlays, commit plan and hook isolation. Then, if accepted, give the separate instruction:
-
-**`APPROVE PME V1.7.1A SOURCE PREPARATION`**
-
-The attached controlled-publication instructions explicitly require this before local staging/commits. It permits those reviewed local operations only. After real commits and clean verification, present the final exact pair for any later preview/production approval; do not infer push/deployment permission from source approval.
-
-Deliverables: `verification/pme-v171a-publication-staging.json`, `pme-v171a-publication-security.json`, `pme-v171a-publication-pair.json`, pending `pme-v171a-production-verification.json`, and `docs/portfolio/PME-V1.7.1A-CONTROLLED-PUBLICATION.md`. Current final status: **AWAITING OWNER AUTHORIZATION**.
+Ranking trade-offs, optional cold semantic timeouts, generated lint and independent/native/device review gaps remain disclosed for owner acceptance. Preview, production, remote variable mutation and rollback must follow their applicable explicit authorization scopes. No production success fields have been populated with local results.
